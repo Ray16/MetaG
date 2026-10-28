@@ -72,7 +72,7 @@ class UniqueMinima:
 
     def _e_tol(self, e):
         """Energy tolerance at energy e (kJ): never below 2 float32 steps of the UMA energy in eV.
-        A negative e_tol (legacy A/B: never merge) is returned unchanged."""
+        A negative e_tol (never merge; used to test distinct-minima bookkeeping) is returned unchanged."""
         if self.e_tol < 0:
             return self.e_tol
         return max(self.e_tol, 2.0 * float(np.spacing(np.float32(abs(e) / EV2KJ))) * EV2KJ)

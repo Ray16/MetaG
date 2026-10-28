@@ -353,7 +353,7 @@ def _truncation_invalid(species_full, new):
     return False
 
 
-def build_truncated_reaction(species_dict, radius=2, fg_cuts=False):
+def build_truncated_reaction(species_dict, radius=2):
     """Convert a pipeline species dict {name:[coeff,charge,SMILES]} into its TRUNCATED
     reactive-core form for scoring. General preprocessing heuristic (no per-reaction tuning):
     removes the conserved spectator backbone so catastrophic cancellation + its conformer
@@ -372,7 +372,7 @@ def build_truncated_reaction(species_dict, radius=2, fg_cuts=False):
     P = [(n, s) for n, (c, q, s) in items if c > 0]
     if len(R) != len(P):                              # unequal sides -> pairing ill-posed
         return None
-    res = truncate_reaction([s for _, s in R], [s for _, s in P], radius=radius, fg_cuts=fg_cuts)
+    res = truncate_reaction([s for _, s in R], [s for _, s in P], radius=radius)
     if res.get("invalid"):
         return None
     # GUARDS A+B (computed by truncate_reaction, previously never enforced): the removed spectator must be
@@ -426,7 +426,7 @@ def build_truncated_reaction(species_dict, radius=2, fg_cuts=False):
 
 
 # ------------------------------------------------------------ top-level driver
-def truncate_reaction(reactants, products, radius=2, cap="C", fg_cuts=False):
+def truncate_reaction(reactants, products, radius=2, cap="C"):
     """Truncate every species; return per-species caps + guard report."""
     pairs = pair_by_mcs(reactants, products)
     out = {"radius": radius, "species": [], "removed": []}
@@ -436,7 +436,7 @@ def truncate_reaction(reactants, products, radius=2, cap="C", fg_cuts=False):
         c_p = reaction_center(P, inv, R)
         # keep on each side = reaction center grown by `radius`, then RING-CLOSED so no cut
         # falls on a ring bond (a methyl cap can't represent a severed ring -> topology change).
-        close = _close if fg_cuts else _ring_close         # fg_cuts: functional-group-preserving cuts (A/B)
+        close = _close                                     # functional-group-preserving, ring-closed cuts
         keep_r = close(R, grow(R, c_r, radius))
         keep_p = close(P, grow(P, c_p, radius))
         # MIRROR the cut through the atom map so the removed spectator is IDENTICAL on both sides

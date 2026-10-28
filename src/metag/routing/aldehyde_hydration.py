@@ -12,9 +12,8 @@ added to the reaction stoichiometry (parallel to not adding H+ for protonation).
 hydrated aldehyde (glyoxylate, ΔG_hyd very negative) -> diol term dominates -> G_eff pulled down (fixed);
 a weakly hydrated one (GAP, ΔG_hyd ~0) -> carbonyl dominates -> G_eff ~ unchanged (no harm).
 
-Validated (2026-08-27, hard-swap A/B): glyoxylate rxn00276 err 23.2->1.8; MAE 28.4->21.8 over 6 rxns,
-every reaction correct-signed, magnitude ~ hydration tendency. This module is the PROPER (mixture, not
-swap) production form.
+The hydration free energies are calibrated against independent experimental hydration constants
+(HYDRATION_CAL below), not against reaction free energies.
 """
 import math
 from dataclasses import dataclass

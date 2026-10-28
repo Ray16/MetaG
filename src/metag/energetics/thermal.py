@@ -61,19 +61,18 @@ def _forces_batched(pu, structs, chunk=None):
 
 # ------------------------------------------------------------------ exact (autograd) Hessian
 # UMA_HESSIAN selects how the Cartesian Hessian is obtained:
-#   autograd (DEFAULT since 2026-10-06) the EXACT second derivative of the UMA energy (UMA is conservative, F = -dE/dx): one forward
+#   autograd (default) the EXACT second derivative of the UMA energy (UMA is conservative, F = -dE/dx): one forward
 #            pass with a differentiable force graph, then 3N vector-Jacobian products, UMA_HESS_ROWS rows
 #            per batched double-backward (memory lever for big molecules; result-preserving).
 #            Validated vs fd on 10 species: FD error scales as delta^2 toward it (it is FD's converged limit);
-#            Gcorr within 0.18 kJ/mol (qRRHO off); 2-6x faster and ~half the peak GPU memory on big species.
-#   fd       legacy central finite differences of UMA forces, 6N displaced structures, batched. Reproduces
-#            caches/results made before 2026-10-06 (its cache keys omit the 'hessian' field).
-# The projection, frequency floor, qRRHO and symmetry handling downstream are identical for both.
+#            Gcorr within 0.18 kJ/mol; 2-6x faster and ~half the peak GPU memory on big species.
+#   fd       central finite differences of UMA forces, 6N displaced structures, batched (step `delta` Å).
+# The projection, frequency floor and symmetry handling downstream are identical for both.
 _HESS_ROWS = int(os.environ.get("UMA_HESS_ROWS", "0"))      # 0 = auto (by atom count)
 
 
 def hessian_method():
-    """UMA_HESSIAN env flag: 'autograd' (default) or 'fd' (legacy). Part of the species-cache key when not 'fd'."""
+    """Hessian method from UMA_HESSIAN: 'autograd' (default) or 'fd'. Settings.hessian takes precedence."""
     v = os.environ.get("UMA_HESSIAN", "autograd").strip().lower()
     if v in ("fd", "finite", "finite-difference"):
         return "fd"
@@ -271,7 +270,7 @@ def uma_gibbs_corr(pu, symbols, coords, q, delta=0.01, chunk=None,
     """Gibbs correction Gcorr = G_gas(RRHO,ideal-gas) - E_elec (kJ/mol), UMA Hessian.
 
     Hessian: hessian='autograd' (default, UMA_HESSIAN env) = the exact UMA Hessian by double backward
-    (uma_hessian_autograd; `delta`/`chunk` unused); hessian='fd' (legacy) = central-difference Hessian
+    (uma_hessian_autograd; `delta`/`chunk` unused); hessian='fd' = central-difference Hessian
     from UMA forces, all 6N displacements batched (step `delta` Å). Uses the same low-frequency floor (50 cm^-1)
     as step6.
 
@@ -405,7 +404,7 @@ def dgsolv(symbols, coords, q, mult=1):
     E_xtb(GFN2 --sp --alpb water) - E_xtb(GFN2 --sp gas). `mult` sets --uhf (open-shell species, e.g. the
     O2 triplet). Returns None on any xtb failure or timeout.
 
-    ALPB is the production model (2026-10-01): xtb --cosmo has no hydrogen-bond term and under-solvates
+    ALPB is the production model: xtb --cosmo has no hydrogen-bond term and under-solvates
     polar groups (FreeSolv per-group error: alcohol OH +17.8, COOH +18.8 kJ/mol vs ALPB +4.3/-4.9)."""
     uhf = ["--uhf", str(int(mult) - 1)]
     with tempfile.TemporaryDirectory() as d:

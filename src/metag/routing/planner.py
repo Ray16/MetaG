@@ -11,7 +11,7 @@ from metag.chem import is_balanced, reaction_residual, fmt_num
 from metag.reactions import validate_reaction
 
 # Spectator-truncation radius (bonds kept around the reaction centre). Anomeric sugar reactions use
-# radius 3: radius 2 can amputate electrostatically coupled ribose substituents (2026-09-30 decision).
+# radius 3: radius 2 can amputate electrostatically coupled ribose substituents.
 TRUNCATION_RADIUS = 2
 
 
@@ -152,7 +152,7 @@ def _route_truncation(rx, routes, allow_truncate, log):
                 _rad = _adaptive_rad
                 routes["trunc_radius_reason"] = "anomeric_ring_reaction_center"
                 log("  [truncation radius 3: preserve the complete reacting sugar environment]")
-            tr = build_truncated_reaction(rx["species"], radius=_rad, fg_cuts=True)
+            tr = build_truncated_reaction(rx["species"], radius=_rad)
             # VALIDITY GUARD (general): a truncation removes CONSERVED spectator parts and caps cut C-C
             # bonds FAR from functional groups. It must NEVER cut a bond ON a CATIONIC center: capping a
             # quaternary ammonium [N+](C)(C)(C) with H yields a PRIMARY ammonium CH2-NH3+ -- a different

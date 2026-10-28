@@ -596,14 +596,8 @@ def _base_gate(species):
     # PHYSICS exclusion 1: an amide/carbamoyl/urea N is created/destroyed. That N is neutral at pH 7
     # (pKa~0), NOT a basic cation -> the base premise fails. Covers carbamoyltransfer, amide
     # hydrolysis / amidohydrolase, aminoacylase, arginosuccinate synthase.
-    # NOTE (2026-09-19): an attempt to fire the base path on amide HYDROLYSIS (amide_ch<0), on the
-    # theory that a liberated free amine's pH-7 protonation is an unmatched contribution, was TESTED
-    # and REVERTED -- it regressed EVERY amide-hydrolysis reaction (penicillin amidase -11->-29,
-    # anandamide -30->-40, aminoacylase -7->-16, pantothenase -17->-23; 0 improvements). Root cause:
-    # the anion-only path already scores the PROTONATED amine ([NH3+]) directly in QM (the pH-7 form),
-    # so the base transform double-shifts ADD a spurious ~-14 kJ; and these floppy fatty-acid amides
-    # already carry a large same-signed error (exp is POSITIVE, QM strongly negative). The amide
-    # exclusion is correct as a blanket rule.
+    # Amide hydrolysis is excluded too: the anion-only path already scores the liberated amine in its
+    # protonated pH-7 form, so a base transform would count that protonation twice.
     if _count_change(species, _AMIDE):                        # None or nonzero -> don't fire
         return False
     # PHYSICS exclusion 2: an NAD(P)-driven in-place imine reduction (C=N -> C-N on the same skeleton,
@@ -635,11 +629,9 @@ def has_zwitterion(species):
 
 
 def is_ionized(smi):
-    """True if the species carries an ANIONIC O (includes zwitterions). Scope is EVIDENCE-BASED: on TECRDB
-    (2026-09-26), reactions whose QM species include an anion have MAE 15.1 (n=48) / 14.3 with a cation too
-    (n=29), while cation-only reactions have MAE 8.2 (n=35) -- better than neutral-only (10.6). Protonated
-    cations are therefore left charged (continuum solvation handles them), consistent with the earlier
-    decomposition (anion error ~31 kJ vs cation ~4)."""
+    """True if the species carries an ANIONIC O (includes zwitterions). Compact anions are what continuum
+    solvation describes worst (anion error ~31 kJ/mol vs ~4 for protonated cations in the component
+    decomposition), so protonated cations are left charged."""
     m = Chem.MolFromSmiles(smi)
     return m is not None and m.HasSubstructMatch(_ZW_ANION)
 

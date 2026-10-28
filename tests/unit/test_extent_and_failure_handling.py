@@ -1,4 +1,4 @@
-"""Regression checks for defects reproduced during the publication code review."""
+"""Extent invariance, optional inputs and failure handling (mocked QM)."""
 import json
 
 import pytest

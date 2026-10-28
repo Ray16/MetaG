@@ -1,4 +1,4 @@
-"""Regressions from the fixed severe-error audit; no fitted reaction parameters."""
+"""Failed estimates keep auditable diagnostics; strict thermal validation cannot be bypassed."""
 from types import SimpleNamespace
 
 import pytest

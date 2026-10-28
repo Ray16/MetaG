@@ -22,9 +22,8 @@ def sampling_budget(smi, sample_scale=1.0, keep_scale=1.0):
     if sc != 1:
         seeds = list(range(1, max(2, int(round(len(seeds) * sc))) + 1))
         pool = int(round(pool * sc))
-    # KEEP_SCALE (A/B, default 1): the physics review found `keep` too small for floppy sugars/cofactors, so
-    # the Boltzmann ensemble under-counts conformational entropy (G too high). SAMPLE_SCALE scaled seeds+pool
-    # but NOT keep; this scales how many low-E conformers are relaxed + solvated. Part of the cache key.
+    # keep_scale scales how many low-energy conformers are relaxed and solvated (sample_scale scales seeds and
+    # pool only); larger values reduce under-counted conformational entropy for floppy species. Cache-keyed.
     if keep_scale != 1:
         keep = int(round(keep * keep_scale)); pool = max(pool, keep * 8)
     return seeds, keep, pool

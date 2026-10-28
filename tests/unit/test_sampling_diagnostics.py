@@ -2,7 +2,7 @@ import numpy as np
 from metag import pipeline as P
 from metag.energetics import species as SP
 from metag.energetics.sampling import sampling_diagnostics
-from test_accuracy_review import run_methane, species_backend  # shared mocked QM fixture; no real model
+from test_ensembles_and_base_transforms import run_methane, species_backend  # shared mocked QM fixture; no real model
 
 
 def test_fresh_trajectory_and_cache_roundtrip(monkeypatch, species_backend):

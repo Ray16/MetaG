@@ -12,10 +12,15 @@ COA_TRANSFER = {"SuccCoA": [-1, -5, _SUCCINYL_COA], "AcAc": [-1, -1, "CC(=O)CC(=
                 "Succ": [1, -2, "O=C([O-])CCC(=O)[O-]"], "AcAcCoA": [1, -4, _ACETOACETYL_COA]}
 
 
-def test_coa_transfer_rejected_both_builders():
-    # the reaction has thioesters on both sides (transfer); any truncation that drops them is invalid
+def test_coa_transfer_core_keeps_both_thioesters():
+    # thioesters on both sides (transfer): the functional-group-preserving cut keeps each acyl-S as a
+    # methyl thioester, so the core is non-degenerate and isodesmic in the CoA tail
     assert _count_thioesters(COA_TRANSFER) == 2
-    assert build_truncated_reaction(COA_TRANSFER) is None      # v1: degenerate collapse -> reject
+    core, n_hplus = build_truncated_reaction(COA_TRANSFER)
+    assert _count_thioesters(core) == 2
+    assert not _truncation_invalid(COA_TRANSFER, core)
+    assert sorted(s for _, _, s in core.values()) == sorted(
+        ["CSC(=O)CCC(=O)[O-]", "CSC(=O)CC(C)=O", "CC(=O)CC(=O)[O-]", "O=C([O-])CCC(=O)[O-]"])
 
 
 def test_thioester_preservation_flag():

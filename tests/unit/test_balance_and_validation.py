@@ -1,4 +1,4 @@
-"""Regression tests for the 2026-09-30 code-review fixes (pure logic / mocked QM, no GPU).
+"""Input validation, reaction balance and balance guards (pure logic / mocked QM, no GPU).
 
 Each test pins one invariant that was silently violated before: routed reactions stay balanced, invalid
 reactions return no estimate, water is water however it is written, fractional coefficients are not truncated, the pKa ladders of phosphoryl-N /

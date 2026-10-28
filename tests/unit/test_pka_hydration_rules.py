@@ -1,4 +1,4 @@
-"""Physics fixes of the 2026-10-01 review (no QM): weak-acid anion neutralisation, alpha,beta-unsaturated
+"""pKa and hydration rules (no QM): weak-acid anion neutralisation, alpha,beta-unsaturated
 carboxyl pKa class, aryl-amine basicity in the base-path gate, general carbonyl hydration sites, the
 multi-site hydration mixture, and the extra-force hook of the batched optimiser."""
 import math
