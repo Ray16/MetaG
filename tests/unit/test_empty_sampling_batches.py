@@ -40,7 +40,15 @@ def sampled(monkeypatch,species_backend):
     return run,state,species_backend
 
 
-@pytest.mark.parametrize('empty_kind',['unconverged','rearranged','stereo_changed','nonfinite_gas','nonfinite_solv_high'])
+def test_mostly_failed_solvation_fails_the_species(sampled):
+    # 4 of 5 batches lose every solvation (even far above the minimum): the surviving ensemble is biased
+    run,state,_=sampled
+    (g,sigma),_,warnings=run(['valid']+['nonfinite_solv_high']*4)
+    assert g is None and sigma is None
+    assert any('species failed' in w for w in warnings)
+
+
+@pytest.mark.parametrize('empty_kind',['unconverged','rearranged','stereo_changed','nonfinite_gas'])
 def test_empty_batches_cannot_manufacture_plateau_or_successful_trajectory(sampled,empty_kind):
     run,state,_=sampled
     (g,sigma),info,_=run(['valid']+[empty_kind]*4)

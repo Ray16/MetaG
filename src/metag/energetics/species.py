@@ -26,8 +26,10 @@ from metag.energetics.thermal import dgsolv, uma_gibbs_corr
 from metag.energetics.thermal_ensemble import ThermalTrack
 from metag.energetics.uma import batched_energies, batched_fire
 
-# Fraction of relaxed conformers whose xtb solvation may fail before G is considered degraded: a degraded G
-# is used for this reaction but never cached, so a transient overload cannot poison later reactions.
+# Fraction of relaxed conformers whose xtb solvation may fail before the species is considered degraded. A
+# degraded species FAILS (no value, not cached): failures are not random (compact, highly charged conformers
+# time out more often), so the surviving ensemble is biased, and an uncached value would also be recomputed
+# differently by the next reaction that uses the species, breaking cancellation across a network.
 MAX_XTB_FAIL_FRAC = 0.25
 # Every relaxed conformer within this gas-phase window of the lowest must have a solvation value. Failures
 # are not random (compact / highly charged conformers time out more), so a species with missing low-energy
@@ -192,15 +194,16 @@ def species_free_energy(pu, q, smi, name, *, settings, model_name, producer, log
     if diagnostics is not None:
         diagnostics.update(species_diagnostics({"sampling": sampling_info, "thermal": t_info}, "fresh"))
     fail_frac = n_xtb_fail / max(n_relaxed, 1)
-    if fail_frac > MAX_XTB_FAIL_FRAC:                     # degraded ensemble: use it, but never cache it
+    if fail_frac > MAX_XTB_FAIL_FRAC:                     # degraded ensemble: fail closed
         sp_warn.append(f"{name} ({smi}): xtb solvation failed on {n_xtb_fail}/{n_relaxed} conformers "
-                       f"-> G not cached")
+                       f"-> species failed")
         log(f"    !! {sp_warn[-1]}")
-    else:
-        meta = {"warnings": sp_warn, "n_minima": len(uniq), "n_seen": uniq.n_seen,
-                "n_xtb_fail": n_xtb_fail, "n_rearranged": len(rearranged), "seeds": seed, "thermal": t_info,
-                "sampling": sampling_info}
-        cache.put(smi, q, "implicit", key, G, sigma, meta=meta)
+        warnings.extend(sp_warn)
+        return None, None
+    meta = {"warnings": sp_warn, "n_minima": len(uniq), "n_seen": uniq.n_seen,
+            "n_xtb_fail": n_xtb_fail, "n_rearranged": len(rearranged), "seeds": seed, "thermal": t_info,
+            "sampling": sampling_info}
+    cache.put(smi, q, "implicit", key, G, sigma, meta=meta)
     warnings.extend(sp_warn)
     return G, sigma
 
