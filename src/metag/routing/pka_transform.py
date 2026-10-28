@@ -675,7 +675,6 @@ def build_ph0_reaction(species, n_Hplus=0, base=True, force_base=False, why=None
     owned = {}
     any_ionizable = False
     h_residual = 0                                    # Sum coeff*H over NEUTRAL microspecies
-    q_residual = 0                                    # Sum coeff*charge over NEUTRAL microspecies
     for name, (coeff, q, smi) in species.items():
         if use_base:
             neutral, acids, bases, netq = _neutralize_v2(smi)   # anions AND cations
@@ -690,7 +689,6 @@ def build_ph0_reaction(species, n_Hplus=0, base=True, force_base=False, why=None
             why.append(f"neutralization failed for {name}")
             return None
         h_residual += coeff * nH
-        q_residual += coeff * int(netq)
         if acids or bases:
             any_ionizable = True
         side = "react" if coeff < 0 else "prod"
@@ -712,25 +710,20 @@ def build_ph0_reaction(species, n_Hplus=0, base=True, force_base=False, why=None
         return new_species, pka_sites, nh
     if use_base:
         return complete(-h_residual)   # n_H+ carries the net (redox) proton
-    # anion-only mass-balance guard (see docstring): n_H+=0 only valid when H-balanced, else refuse.
-    # NOTE (2026-08-20): a charge-closure relaxation (fire with n_H+=-Σcoeff·q_neutral when charge- and
-    # H-derived n_H+ agree) was TESTED to reach rxn01211 (folate cyclohydrolase, false-refused -> -144).
-    # VALIDATED NO-GO: it fixes rxn01211 (-144->-7) but REINTRODUCES the ~+1170 kJ leak on cofactor
-    # reactions (glutathione reductase +2351, sulfate adenylyltransferase +100, nicotinate PRT -59) via
-    # the composition with COFACTOR_RING's own proton bookkeeping, and mildly regresses redox DHs /
-    # carbamoyltransferase. The charge/H consistency check does NOT separate the leaks (they pass it).
-    # The conservative refusal stays. rxn01211's correct value (-7, base path) is a documented known
-    # outlier; a narrow, separately-validated iminium-aware base gate is the future fix, not this.
+    # Anion-only path: n_H+ = 0 is valid when the neutralised reaction is H-balanced.
     if abs(h_residual) > 1e-9:
-        # REDOX PROTON (PH0_REDOX_PROTON): a net-proton reaction (e.g. NAD(P)+ + 2e- + H+ -> NAD(P)H with the
-        # substrate's anions neutralized) is H-imbalanced by the proton exchanged with the pH-7 bath. Alberty-
-        # consistent bookkeeping carries it explicitly as n_H+ = -h_residual (G_HPLUS includes the pH term),
-        # exactly as the base path does -- PROVIDED it also closes the charge (q_residual == h_residual), so the
-        # count is a real proton and not a mis-neutralized species. Otherwise refuse (the +/-1170 kJ leak guard).
-        if abs(q_residual - h_residual) < 1e-9:
+        # REDOX PROTON: a net-proton reaction (e.g. NAD(P)+ + 2e- + H+ -> NAD(P)H with the substrate's anions
+        # neutralised) is H-imbalanced by the proton exchanged with the pH-7 bath; Alberty-consistent
+        # bookkeeping carries it as n_H+ = -h_residual (G_HPLUS includes the pH term), as the base path does.
+        # That is only a real proton if every anion WAS neutralised: an anionic site the pKa table does not
+        # recognise (e.g. a deprotonated aromatic N) leaves its species negatively charged, and the residual
+        # is then a missed site, not a redox proton. (A charge/H consistency test cannot detect this:
+        # neutralisation changes charge and H count together, so q_residual == h_residual always holds.)
+        left_anionic = sorted(name for name, (_, netq, _) in new_species.items() if netq < 0)
+        if not left_anionic:
             return complete(-h_residual)
-        why.append(f"refused: neutralized reaction H-imbalanced by {h_residual:+g} "
-                   + "(charge does not close)")
+        why.append(f"refused: neutralized reaction H-imbalanced by {h_residual:+g} with anionic species "
+                   f"remaining ({', '.join(left_anionic)})")
         return None
     return complete(0)                 # n_H+=0: transforms carry all proton exchange
 

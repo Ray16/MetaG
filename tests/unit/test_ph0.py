@@ -98,3 +98,15 @@ if __name__ == "__main__":
         if name.startswith("test_"):
             fn(); print(f"  {name} OK")
     print("PASS: pH-0 bookkeeping locked")
+
+
+def test_redox_proton_refused_when_an_anion_is_left_unneutralised():
+    """An unrecognised anionic site (deprotonated aromatic N) must not be passed off as a redox proton."""
+    import json
+    from pathlib import Path
+    from metag.routing.planner import route_reaction
+    panel = json.loads((Path(__file__).resolve().parents[2] / "src/metag/data/reactions_opentecr_std.json").read_text())
+    rx, routes, _ = route_reaction(panel["rxn02902"], log=lambda _: None)
+    assert routes["ph0"] is False
+    assert "anionic species remaining" in routes["ph0_skipped"]
+    assert rx["n_Hplus"] == panel["rxn02902"]["n_Hplus"]
