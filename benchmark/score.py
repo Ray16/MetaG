@@ -1,6 +1,6 @@
 """Score MetaG predictions against the Mg-bounded openTECR reference labels.
 
-    python benchmark/score.py                                  # the archived 0.2.0.dev24 predictions
+    python benchmark/score.py                                  # the MetaG 0.3.0 panel predictions
     python benchmark/score.py metag_out/metag_all.json         # output of `metag score`
 
 Labels: ``reference_mg_bounded.json`` (threshold "2.0" = primary policy, "1.0"/"4.0" = sensitivities;
@@ -33,7 +33,7 @@ def metrics(pairs):
 
 def main(argv=None):
     argv = sys.argv[1:] if argv is None else argv
-    pred = load_predictions(argv[0] if argv else HERE / "metag_dev24_predictions.json")
+    pred = load_predictions(argv[0] if argv else HERE / "metag_0.3.0_predictions.json")
     ref = json.loads((HERE / "reference_mg_bounded.json").read_text())
     report = {}
     for threshold, block in ref.items():

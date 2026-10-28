@@ -1,0 +1,1851 @@
+{
+ "scope": "MetaG 0.3.0 on the 364-reaction panel: 0.2.0.dev24 outcomes (H100) for reactions the 0.3.0 corrections do not touch (bit-identical routing/assembly, species within GPU nondeterminism), fresh 0.3.0 calculations (V100) for the 24 reactions whose route or species model changed.",
+ "predictions": {
+  "rxn00001": {
+   "status": "estimated",
+   "dG": -31.5,
+   "reason": null
+  },
+  "rxn00007": {
+   "status": "estimated",
+   "dG": -36.1,
+   "reason": null
+  },
+  "rxn00022": {
+   "status": "no_estimate",
+   "dG": null,
+   "reason": "incomplete declared sugar ensemble: Incomplete joint sugar/hydration state set: Maltose"
+  },
+  "rxn00062": {
+   "status": "estimated",
+   "dG": -36.5,
+   "reason": null
+  },
+  "rxn00065": {
+   "status": "estimated",
+   "dG": -2.3,
+   "reason": null
+  },
+  "rxn00070": {
+   "status": "estimated",
+   "dG": 3.3,
+   "reason": null
+  },
+  "rxn00077": {
+   "status": "no_estimate",
+   "dG": null,
+   "reason": "species energy or minimum validation failed: NADP, ADP"
+  },
+  "rxn00083": {
+   "status": "estimated",
+   "dG": 0.0,
+   "reason": null
+  },
+  "rxn00086": {
+   "status": "estimated",
+   "dG": 3.2,
+   "reason": null
+  },
+  "rxn00097": {
+   "status": "estimated",
+   "dG": -0.3,
+   "reason": null
+  },
+  "rxn00100": {
+   "status": "estimated",
+   "dG": -21.2,
+   "reason": null
+  },
+  "rxn00105": {
+   "status": "estimated",
+   "dG": 6.5,
+   "reason": null
+  },
+  "rxn00117": {
+   "status": "estimated",
+   "dG": 0.0,
+   "reason": null
+  },
+  "rxn00131": {
+   "status": "estimated",
+   "dG": -4.3,
+   "reason": null
+  },
+  "rxn00132": {
+   "status": "estimated",
+   "dG": -11.5,
+   "reason": null
+  },
+  "rxn00139": {
+   "status": "estimated",
+   "dG": 32.9,
+   "reason": null
+  },
+  "rxn00141": {
+   "status": "estimated",
+   "dG": 35.7,
+   "reason": null
+  },
+  "rxn00147": {
+   "status": "estimated",
+   "dG": -9.3,
+   "reason": null
+  },
+  "rxn00148": {
+   "status": "estimated",
+   "dG": 26.8,
+   "reason": null
+  },
+  "rxn00151": {
+   "status": "estimated",
+   "dG": 22.2,
+   "reason": null
+  },
+  "rxn00157": {
+   "status": "estimated",
+   "dG": 16.8,
+   "reason": null
+  },
+  "rxn00171": {
+   "status": "estimated",
+   "dG": -13.5,
+   "reason": null
+  },
+  "rxn00172": {
+   "status": "estimated",
+   "dG": 8.6,
+   "reason": null
+  },
+  "rxn00173": {
+   "status": "estimated",
+   "dG": 6.9,
+   "reason": null
+  },
+  "rxn00175": {
+   "status": "estimated",
+   "dG": 3.9,
+   "reason": null
+  },
+  "rxn00178": {
+   "status": "estimated",
+   "dG": 26.3,
+   "reason": null
+  },
+  "rxn00182": {
+   "status": "estimated",
+   "dG": 31.9,
+   "reason": null
+  },
+  "rxn00184": {
+   "status": "estimated",
+   "dG": 31.9,
+   "reason": null
+  },
+  "rxn00187": {
+   "status": "estimated",
+   "dG": -28.9,
+   "reason": null
+  },
+  "rxn00189": {
+   "status": "estimated",
+   "dG": -7.5,
+   "reason": null
+  },
+  "rxn00191": {
+   "status": "estimated",
+   "dG": 1.6,
+   "reason": null,
+   "source": "metag 0.3.0 recomputation"
+  },
+  "rxn00193": {
+   "status": "estimated",
+   "dG": 0.1,
+   "reason": null
+  },
+  "rxn00195": {
+   "status": "estimated",
+   "dG": -9.2,
+   "reason": null
+  },
+  "rxn00213": {
+   "status": "estimated",
+   "dG": 15.8,
+   "reason": null
+  },
+  "rxn00214": {
+   "status": "blocked_unresolved_stereochemistry",
+   "dG": null,
+   "reason": null
+  },
+  "rxn00216": {
+   "status": "estimated",
+   "dG": -26.3,
+   "reason": null
+  },
+  "rxn00217": {
+   "status": "estimated",
+   "dG": -3.1,
+   "reason": null
+  },
+  "rxn00220": {
+   "status": "estimated",
+   "dG": -10.2,
+   "reason": null
+  },
+  "rxn00223": {
+   "status": "estimated",
+   "dG": -0.9,
+   "reason": null
+  },
+  "rxn00225": {
+   "status": "estimated",
+   "dG": 15.5,
+   "reason": null
+  },
+  "rxn00234": {
+   "status": "estimated",
+   "dG": 8.2,
+   "reason": null
+  },
+  "rxn00237": {
+   "status": "estimated",
+   "dG": 0.0,
+   "reason": null
+  },
+  "rxn00239": {
+   "status": "estimated",
+   "dG": -0.3,
+   "reason": null
+  },
+  "rxn00248": {
+   "status": "estimated",
+   "dG": 44.2,
+   "reason": null
+  },
+  "rxn00250": {
+   "status": "estimated",
+   "dG": 1.5,
+   "reason": null
+  },
+  "rxn00256": {
+   "status": "estimated",
+   "dG": 51.1,
+   "reason": null
+  },
+  "rxn00257": {
+   "status": "estimated",
+   "dG": 14.6,
+   "reason": null
+  },
+  "rxn00260": {
+   "status": "estimated",
+   "dG": 10.9,
+   "reason": null,
+   "source": "metag 0.3.0 recomputation"
+  },
+  "rxn00265": {
+   "status": "estimated",
+   "dG": 6.0,
+   "reason": null
+  },
+  "rxn00266": {
+   "status": "estimated",
+   "dG": 0.0,
+   "reason": null
+  },
+  "rxn00276": {
+   "status": "estimated",
+   "dG": 15.4,
+   "reason": null
+  },
+  "rxn00278": {
+   "status": "estimated",
+   "dG": 30.6,
+   "reason": null
+  },
+  "rxn00280": {
+   "status": "blocked_unresolved_stereochemistry",
+   "dG": null,
+   "reason": null
+  },
+  "rxn00283": {
+   "status": "estimated",
+   "dG": 5.9,
+   "reason": null
+  },
+  "rxn00285": {
+   "status": "estimated",
+   "dG": 8.1,
+   "reason": null
+  },
+  "rxn00290": {
+   "status": "estimated",
+   "dG": 2.1,
+   "reason": null
+  },
+  "rxn00293": {
+   "status": "blocked_unresolved_stereochemistry",
+   "dG": null,
+   "reason": null
+  },
+  "rxn00302": {
+   "status": "estimated",
+   "dG": 35.3,
+   "reason": null
+  },
+  "rxn00306": {
+   "status": "estimated",
+   "dG": 8.1,
+   "reason": null
+  },
+  "rxn00320": {
+   "status": "estimated",
+   "dG": 1.4,
+   "reason": null
+  },
+  "rxn00321": {
+   "status": "estimated",
+   "dG": -8.6,
+   "reason": null
+  },
+  "rxn00326": {
+   "status": "estimated",
+   "dG": -7.2,
+   "reason": null
+  },
+  "rxn00328": {
+   "status": "blocked_unresolved_stereochemistry",
+   "dG": null,
+   "reason": null
+  },
+  "rxn00331": {
+   "status": "estimated",
+   "dG": 25.2,
+   "reason": null
+  },
+  "rxn00336": {
+   "status": "blocked_unresolved_stereochemistry",
+   "dG": null,
+   "reason": null
+  },
+  "rxn00337": {
+   "status": "estimated",
+   "dG": 28.9,
+   "reason": null
+  },
+  "rxn00347": {
+   "status": "estimated",
+   "dG": 19.7,
+   "reason": null
+  },
+  "rxn00364": {
+   "status": "estimated",
+   "dG": -0.3,
+   "reason": null
+  },
+  "rxn00379": {
+   "status": "estimated",
+   "dG": 53.3,
+   "reason": null
+  },
+  "rxn00396": {
+   "status": "blocked",
+   "dG": null,
+   "reason": null
+  },
+  "rxn00402": {
+   "status": "estimated",
+   "dG": 36.3,
+   "reason": null
+  },
+  "rxn00404": {
+   "status": "estimated",
+   "dG": 3.1,
+   "reason": null
+  },
+  "rxn00415": {
+   "status": "estimated",
+   "dG": -0.8,
+   "reason": null
+  },
+  "rxn00420": {
+   "status": "estimated",
+   "dG": -14.8,
+   "reason": null
+  },
+  "rxn00421": {
+   "status": "estimated",
+   "dG": -16.6,
+   "reason": null
+  },
+  "rxn00422": {
+   "status": "estimated",
+   "dG": 11.5,
+   "reason": null
+  },
+  "rxn00423": {
+   "status": "estimated",
+   "dG": -22.3,
+   "reason": null
+  },
+  "rxn00459": {
+   "status": "estimated",
+   "dG": 7.9,
+   "reason": null
+  },
+  "rxn00462": {
+   "status": "blocked",
+   "dG": null,
+   "reason": null
+  },
+  "rxn00473": {
+   "status": "estimated",
+   "dG": 12.8,
+   "reason": null
+  },
+  "rxn00493": {
+   "status": "estimated",
+   "dG": 10.8,
+   "reason": null,
+   "source": "metag 0.3.0 recomputation"
+  },
+  "rxn00495": {
+   "status": "estimated",
+   "dG": -2.6,
+   "reason": null
+  },
+  "rxn00499": {
+   "status": "estimated",
+   "dG": 32.0,
+   "reason": null
+  },
+  "rxn00500": {
+   "status": "estimated",
+   "dG": 31.9,
+   "reason": null
+  },
+  "rxn00510": {
+   "status": "estimated",
+   "dG": 38.2,
+   "reason": null
+  },
+  "rxn00512": {
+   "status": "estimated",
+   "dG": 48.7,
+   "reason": null
+  },
+  "rxn00514": {
+   "status": "estimated",
+   "dG": -41.1,
+   "reason": null
+  },
+  "rxn00515": {
+   "status": "estimated",
+   "dG": 0.0,
+   "reason": null
+  },
+  "rxn00527": {
+   "status": "estimated",
+   "dG": 10.7,
+   "reason": null,
+   "source": "metag 0.3.0 recomputation"
+  },
+  "rxn00541": {
+   "status": "estimated",
+   "dG": 13.0,
+   "reason": null
+  },
+  "rxn00543": {
+   "status": "estimated",
+   "dG": 22.9,
+   "reason": null
+  },
+  "rxn00545": {
+   "status": "failed",
+   "dG": null,
+   "reason": "Declared reaction wall budget or interruption"
+  },
+  "rxn00546": {
+   "status": "estimated",
+   "dG": -1.2,
+   "reason": null
+  },
+  "rxn00549": {
+   "status": "failed",
+   "dG": null,
+   "reason": "Declared reaction wall budget or interruption"
+  },
+  "rxn00551": {
+   "status": "estimated",
+   "dG": -44.0,
+   "reason": null
+  },
+  "rxn00552": {
+   "status": "estimated",
+   "dG": 15.8,
+   "reason": null
+  },
+  "rxn00558": {
+   "status": "estimated",
+   "dG": 1.3,
+   "reason": null
+  },
+  "rxn00559": {
+   "status": "estimated",
+   "dG": -5.9,
+   "reason": null
+  },
+  "rxn00562": {
+   "status": "estimated",
+   "dG": 7.9,
+   "reason": null
+  },
+  "rxn00577": {
+   "status": "estimated",
+   "dG": -11.1,
+   "reason": null
+  },
+  "rxn00579": {
+   "status": "estimated",
+   "dG": -5.4,
+   "reason": null
+  },
+  "rxn00602": {
+   "status": "estimated",
+   "dG": -15.7,
+   "reason": null
+  },
+  "rxn00603": {
+   "status": "estimated",
+   "dG": -0.7,
+   "reason": null
+  },
+  "rxn00604": {
+   "status": "estimated",
+   "dG": 2.5,
+   "reason": null
+  },
+  "rxn00605": {
+   "status": "estimated",
+   "dG": -20.2,
+   "reason": null
+  },
+  "rxn00611": {
+   "status": "estimated",
+   "dG": 24.5,
+   "reason": null
+  },
+  "rxn00629": {
+   "status": "estimated",
+   "dG": 0.3,
+   "reason": null
+  },
+  "rxn00630": {
+   "status": "estimated",
+   "dG": 0.3,
+   "reason": null
+  },
+  "rxn00631": {
+   "status": "estimated",
+   "dG": 41.1,
+   "reason": null
+  },
+  "rxn00634": {
+   "status": "estimated",
+   "dG": -1.8,
+   "reason": null
+  },
+  "rxn00636": {
+   "status": "estimated",
+   "dG": -4.9,
+   "reason": null
+  },
+  "rxn00641": {
+   "status": "estimated",
+   "dG": 7.3,
+   "reason": null
+  },
+  "rxn00643": {
+   "status": "estimated",
+   "dG": -5.8,
+   "reason": null
+  },
+  "rxn00656": {
+   "status": "estimated",
+   "dG": -8.1,
+   "reason": null
+  },
+  "rxn00674": {
+   "status": "estimated",
+   "dG": 3.4,
+   "reason": null
+  },
+  "rxn00686": {
+   "status": "estimated",
+   "dG": -9.1,
+   "reason": null
+  },
+  "rxn00690": {
+   "status": "estimated",
+   "dG": -24.2,
+   "reason": null
+  },
+  "rxn00692": {
+   "status": "estimated",
+   "dG": 2.5,
+   "reason": null
+  },
+  "rxn00695": {
+   "status": "estimated",
+   "dG": 15.8,
+   "reason": null
+  },
+  "rxn00697": {
+   "status": "estimated",
+   "dG": -57.0,
+   "reason": null
+  },
+  "rxn00698": {
+   "status": "estimated",
+   "dG": 0.6,
+   "reason": null
+  },
+  "rxn00699": {
+   "status": "estimated",
+   "dG": 2.4,
+   "reason": null
+  },
+  "rxn00700": {
+   "status": "estimated",
+   "dG": 15.9,
+   "reason": null
+  },
+  "rxn00702": {
+   "status": "estimated",
+   "dG": 15.8,
+   "reason": null
+  },
+  "rxn00704": {
+   "status": "estimated",
+   "dG": -13.0,
+   "reason": null
+  },
+  "rxn00741": {
+   "status": "estimated",
+   "dG": 33.0,
+   "reason": null
+  },
+  "rxn00746": {
+   "status": "estimated",
+   "dG": 31.9,
+   "reason": null
+  },
+  "rxn00747": {
+   "status": "estimated",
+   "dG": -10.3,
+   "reason": null
+  },
+  "rxn00753": {
+   "status": "estimated",
+   "dG": -21.8,
+   "reason": null,
+   "source": "metag 0.3.0 recomputation"
+  },
+  "rxn00754": {
+   "status": "estimated",
+   "dG": -23.2,
+   "reason": null,
+   "source": "metag 0.3.0 recomputation"
+  },
+  "rxn00762": {
+   "status": "estimated",
+   "dG": 21.8,
+   "reason": null
+  },
+  "rxn00765": {
+   "status": "estimated",
+   "dG": 32.8,
+   "reason": null
+  },
+  "rxn00770": {
+   "status": "estimated",
+   "dG": -3.9,
+   "reason": null
+  },
+  "rxn00777": {
+   "status": "estimated",
+   "dG": 5.8,
+   "reason": null
+  },
+  "rxn00778": {
+   "status": "estimated",
+   "dG": -18.0,
+   "reason": null
+  },
+  "rxn00781": {
+   "status": "estimated",
+   "dG": -0.7,
+   "reason": null
+  },
+  "rxn00783": {
+   "status": "estimated",
+   "dG": 2.8,
+   "reason": null
+  },
+  "rxn00784": {
+   "status": "estimated",
+   "dG": 22.9,
+   "reason": null
+  },
+  "rxn00785": {
+   "status": "estimated",
+   "dG": 18.2,
+   "reason": null
+  },
+  "rxn00786": {
+   "status": "estimated",
+   "dG": 62.0,
+   "reason": null
+  },
+  "rxn00798": {
+   "status": "estimated",
+   "dG": 1.4,
+   "reason": null
+  },
+  "rxn00799": {
+   "status": "estimated",
+   "dG": 14.6,
+   "reason": null
+  },
+  "rxn00800": {
+   "status": "estimated",
+   "dG": 3.6,
+   "reason": null
+  },
+  "rxn00802": {
+   "status": "blocked_unresolved_stereochemistry",
+   "dG": null,
+   "reason": null
+  },
+  "rxn00804": {
+   "status": "estimated",
+   "dG": 31.0,
+   "reason": null
+  },
+  "rxn00806": {
+   "status": "estimated",
+   "dG": 0.9,
+   "reason": null,
+   "source": "metag 0.3.0 recomputation"
+  },
+  "rxn00810": {
+   "status": "estimated",
+   "dG": -8.8,
+   "reason": null
+  },
+  "rxn00816": {
+   "status": "estimated",
+   "dG": -23.3,
+   "reason": null
+  },
+  "rxn00817": {
+   "status": "estimated",
+   "dG": -15.6,
+   "reason": null
+  },
+  "rxn00824": {
+   "status": "failed",
+   "dG": null,
+   "reason": "time budget (5400 s) exceeded, as in 0.2.0.dev24",
+   "source": "metag 0.3.0 recomputation"
+  },
+  "rxn00830": {
+   "status": "estimated",
+   "dG": -0.5,
+   "reason": null
+  },
+  "rxn00831": {
+   "status": "estimated",
+   "dG": -11.9,
+   "reason": null
+  },
+  "rxn00836": {
+   "status": "estimated",
+   "dG": 25.9,
+   "reason": null
+  },
+  "rxn00838": {
+   "status": "estimated",
+   "dG": -22.9,
+   "reason": null
+  },
+  "rxn00849": {
+   "status": "estimated",
+   "dG": -4.1,
+   "reason": null,
+   "source": "metag 0.3.0 recomputation"
+  },
+  "rxn00867": {
+   "status": "estimated",
+   "dG": -8.5,
+   "reason": null
+  },
+  "rxn00897": {
+   "status": "estimated",
+   "dG": 2.2,
+   "reason": null
+  },
+  "rxn00906": {
+   "status": "estimated",
+   "dG": 9.5,
+   "reason": null,
+   "source": "metag 0.3.0 recomputation"
+  },
+  "rxn00907": {
+   "status": "estimated",
+   "dG": 9.5,
+   "reason": null,
+   "source": "metag 0.3.0 recomputation"
+  },
+  "rxn00909": {
+   "status": "blocked_unresolved_stereochemistry",
+   "dG": null,
+   "reason": null
+  },
+  "rxn00911": {
+   "status": "blocked_unresolved_stereochemistry",
+   "dG": null,
+   "reason": null
+  },
+  "rxn00915": {
+   "status": "estimated",
+   "dG": 37.8,
+   "reason": null
+  },
+  "rxn00927": {
+   "status": "estimated",
+   "dG": -8.0,
+   "reason": null
+  },
+  "rxn00930": {
+   "status": "estimated",
+   "dG": 45.2,
+   "reason": null
+  },
+  "rxn00931": {
+   "status": "estimated",
+   "dG": 38.8,
+   "reason": null
+  },
+  "rxn00973": {
+   "status": "blocked_unresolved_stereochemistry",
+   "dG": null,
+   "reason": null
+  },
+  "rxn00974": {
+   "status": "estimated",
+   "dG": 17.0,
+   "reason": null
+  },
+  "rxn00987": {
+   "status": "blocked_unresolved_stereochemistry",
+   "dG": null,
+   "reason": null
+  },
+  "rxn00990": {
+   "status": "estimated",
+   "dG": -0.8,
+   "reason": null
+  },
+  "rxn00992": {
+   "status": "estimated",
+   "dG": 15.2,
+   "reason": null
+  },
+  "rxn01004": {
+   "status": "estimated",
+   "dG": 0.0,
+   "reason": null
+  },
+  "rxn01005": {
+   "status": "estimated",
+   "dG": 15.9,
+   "reason": null
+  },
+  "rxn01008": {
+   "status": "estimated",
+   "dG": 2.9,
+   "reason": null
+  },
+  "rxn01011": {
+   "status": "estimated",
+   "dG": 43.6,
+   "reason": null
+  },
+  "rxn01016": {
+   "status": "estimated",
+   "dG": 15.6,
+   "reason": null
+  },
+  "rxn01018": {
+   "status": "estimated",
+   "dG": -28.5,
+   "reason": null
+  },
+  "rxn01019": {
+   "status": "estimated",
+   "dG": -61.6,
+   "reason": null
+  },
+  "rxn01022": {
+   "status": "estimated",
+   "dG": 19.9,
+   "reason": null
+  },
+  "rxn01043": {
+   "status": "estimated",
+   "dG": 11.1,
+   "reason": null
+  },
+  "rxn01044": {
+   "status": "estimated",
+   "dG": 2.4,
+   "reason": null
+  },
+  "rxn01054": {
+   "status": "estimated",
+   "dG": -12.3,
+   "reason": null
+  },
+  "rxn01075": {
+   "status": "estimated",
+   "dG": -0.3,
+   "reason": null
+  },
+  "rxn01080": {
+   "status": "estimated",
+   "dG": -1.5,
+   "reason": null
+  },
+  "rxn01099": {
+   "status": "estimated",
+   "dG": -6.3,
+   "reason": null
+  },
+  "rxn01100": {
+   "status": "estimated",
+   "dG": 18.2,
+   "reason": null
+  },
+  "rxn01101": {
+   "status": "estimated",
+   "dG": 47.8,
+   "reason": null
+  },
+  "rxn01106": {
+   "status": "estimated",
+   "dG": -3.2,
+   "reason": null
+  },
+  "rxn01116": {
+   "status": "estimated",
+   "dG": -0.3,
+   "reason": null
+  },
+  "rxn01117": {
+   "status": "estimated",
+   "dG": -10.2,
+   "reason": null
+  },
+  "rxn01130": {
+   "status": "estimated",
+   "dG": -2.3,
+   "reason": null
+  },
+  "rxn01137": {
+   "status": "estimated",
+   "dG": 10.8,
+   "reason": null
+  },
+  "rxn01138": {
+   "status": "estimated",
+   "dG": 25.2,
+   "reason": null
+  },
+  "rxn01152": {
+   "status": "estimated",
+   "dG": 3.4,
+   "reason": null
+  },
+  "rxn01157": {
+   "status": "estimated",
+   "dG": -8.6,
+   "reason": null
+  },
+  "rxn01174": {
+   "status": "estimated",
+   "dG": 32.5,
+   "reason": null
+  },
+  "rxn01200": {
+   "status": "estimated",
+   "dG": -15.4,
+   "reason": null
+  },
+  "rxn01201": {
+   "status": "estimated",
+   "dG": 24.1,
+   "reason": null,
+   "source": "metag 0.3.0 recomputation"
+  },
+  "rxn01204": {
+   "status": "estimated",
+   "dG": 4.4,
+   "reason": null
+  },
+  "rxn01211": {
+   "status": "no_estimate",
+   "dG": null,
+   "reason": "species energy or minimum validation failed: 10-Formyltetrahydrofolate"
+  },
+  "rxn01219": {
+   "status": "estimated",
+   "dG": -0.3,
+   "reason": null
+  },
+  "rxn01241": {
+   "status": "estimated",
+   "dG": 18.1,
+   "reason": null
+  },
+  "rxn01249": {
+   "status": "estimated",
+   "dG": 19.1,
+   "reason": null
+  },
+  "rxn01253": {
+   "status": "estimated",
+   "dG": -2.4,
+   "reason": null
+  },
+  "rxn01258": {
+   "status": "estimated",
+   "dG": -6.4,
+   "reason": null
+  },
+  "rxn01259": {
+   "status": "estimated",
+   "dG": -17.0,
+   "reason": null
+  },
+  "rxn01265": {
+   "status": "estimated",
+   "dG": -22.2,
+   "reason": null
+  },
+  "rxn01277": {
+   "status": "estimated",
+   "dG": 45.5,
+   "reason": null
+  },
+  "rxn01280": {
+   "status": "blocked_unresolved_stereochemistry",
+   "dG": null,
+   "reason": null
+  },
+  "rxn01292": {
+   "status": "estimated",
+   "dG": 2.6,
+   "reason": null
+  },
+  "rxn01293": {
+   "status": "estimated",
+   "dG": 16.0,
+   "reason": null
+  },
+  "rxn01299": {
+   "status": "estimated",
+   "dG": -14.6,
+   "reason": null
+  },
+  "rxn01301": {
+   "status": "estimated",
+   "dG": 33.2,
+   "reason": null
+  },
+  "rxn01302": {
+   "status": "estimated",
+   "dG": 33.1,
+   "reason": null
+  },
+  "rxn01306": {
+   "status": "estimated",
+   "dG": 6.2,
+   "reason": null
+  },
+  "rxn01322": {
+   "status": "estimated",
+   "dG": 4.0,
+   "reason": null
+  },
+  "rxn01329": {
+   "status": "estimated",
+   "dG": 8.8,
+   "reason": null
+  },
+  "rxn01333": {
+   "status": "estimated",
+   "dG": -16.2,
+   "reason": null
+  },
+  "rxn01336": {
+   "status": "estimated",
+   "dG": 3.9,
+   "reason": null,
+   "source": "metag 0.3.0 recomputation"
+  },
+  "rxn01358": {
+   "status": "estimated",
+   "dG": 18.7,
+   "reason": null
+  },
+  "rxn01361": {
+   "status": "estimated",
+   "dG": 26.3,
+   "reason": null
+  },
+  "rxn01362": {
+   "status": "estimated",
+   "dG": 0.2,
+   "reason": null
+  },
+  "rxn01363": {
+   "status": "estimated",
+   "dG": 17.7,
+   "reason": null
+  },
+  "rxn01366": {
+   "status": "estimated",
+   "dG": 16.0,
+   "reason": null
+  },
+  "rxn01368": {
+   "status": "estimated",
+   "dG": -12.1,
+   "reason": null
+  },
+  "rxn01371": {
+   "status": "blocked",
+   "dG": null,
+   "reason": null
+  },
+  "rxn01380": {
+   "status": "estimated",
+   "dG": 3.6,
+   "reason": null,
+   "source": "metag 0.3.0 recomputation"
+  },
+  "rxn01383": {
+   "status": "estimated",
+   "dG": 12.9,
+   "reason": null
+  },
+  "rxn01385": {
+   "status": "estimated",
+   "dG": 13.4,
+   "reason": null
+  },
+  "rxn01386": {
+   "status": "estimated",
+   "dG": -1.6,
+   "reason": null
+  },
+  "rxn01388": {
+   "status": "blocked_unresolved_stereochemistry",
+   "dG": null,
+   "reason": null
+  },
+  "rxn01392": {
+   "status": "estimated",
+   "dG": 14.0,
+   "reason": null
+  },
+  "rxn01407": {
+   "status": "estimated",
+   "dG": 34.7,
+   "reason": null
+  },
+  "rxn01409": {
+   "status": "estimated",
+   "dG": -21.4,
+   "reason": null,
+   "source": "metag 0.3.0 recomputation"
+  },
+  "rxn01410": {
+   "status": "estimated",
+   "dG": 6.4,
+   "reason": null
+  },
+  "rxn01423": {
+   "status": "estimated",
+   "dG": 4.5,
+   "reason": null
+  },
+  "rxn01434": {
+   "status": "blocked_unresolved_stereochemistry",
+   "dG": null,
+   "reason": [
+    "truncation rejected: mangles a cationic center (Citrulline_t)"
+   ]
+  },
+  "rxn01447": {
+   "status": "blocked_unresolved_stereochemistry",
+   "dG": null,
+   "reason": null
+  },
+  "rxn01451": {
+   "status": "estimated",
+   "dG": 18.7,
+   "reason": null
+  },
+  "rxn01457": {
+   "status": "estimated",
+   "dG": 6.5,
+   "reason": null
+  },
+  "rxn01465": {
+   "status": "estimated",
+   "dG": -18.5,
+   "reason": null
+  },
+  "rxn01479": {
+   "status": "estimated",
+   "dG": -0.3,
+   "reason": null
+  },
+  "rxn01480": {
+   "status": "blocked_unresolved_stereochemistry",
+   "dG": null,
+   "reason": null
+  },
+  "rxn01485": {
+   "status": "estimated",
+   "dG": -27.4,
+   "reason": null
+  },
+  "rxn01491": {
+   "status": "failed",
+   "dG": null,
+   "reason": "Declared reaction wall budget or interruption"
+  },
+  "rxn01505": {
+   "status": "blocked_unresolved_stereochemistry",
+   "dG": null,
+   "reason": null
+  },
+  "rxn01506": {
+   "status": "failed",
+   "dG": null,
+   "reason": "Declared reaction wall budget or interruption"
+  },
+  "rxn01509": {
+   "status": "estimated",
+   "dG": -0.3,
+   "reason": null
+  },
+  "rxn01513": {
+   "status": "estimated",
+   "dG": -0.3,
+   "reason": null
+  },
+  "rxn01530": {
+   "status": "estimated",
+   "dG": 8.3,
+   "reason": null
+  },
+  "rxn01532": {
+   "status": "estimated",
+   "dG": 21.1,
+   "reason": null,
+   "source": "metag 0.3.0 recomputation"
+  },
+  "rxn01548": {
+   "status": "estimated",
+   "dG": 22.4,
+   "reason": null
+  },
+  "rxn01579": {
+   "status": "estimated",
+   "dG": 52.7,
+   "reason": null
+  },
+  "rxn01597": {
+   "status": "estimated",
+   "dG": -13.3,
+   "reason": null
+  },
+  "rxn01617": {
+   "status": "blocked_unresolved_stereochemistry",
+   "dG": null,
+   "reason": null
+  },
+  "rxn01620": {
+   "status": "estimated",
+   "dG": 13.4,
+   "reason": null
+  },
+  "rxn01621": {
+   "status": "estimated",
+   "dG": 16.1,
+   "reason": null
+  },
+  "rxn01626": {
+   "status": "estimated",
+   "dG": -13.5,
+   "reason": null
+  },
+  "rxn01636": {
+   "status": "estimated",
+   "dG": 24.2,
+   "reason": null
+  },
+  "rxn01638": {
+   "status": "estimated",
+   "dG": -5.7,
+   "reason": null
+  },
+  "rxn01643": {
+   "status": "estimated",
+   "dG": 16.2,
+   "reason": null
+  },
+  "rxn01646": {
+   "status": "estimated",
+   "dG": -22.9,
+   "reason": null
+  },
+  "rxn01682": {
+   "status": "estimated",
+   "dG": 20.2,
+   "reason": null
+  },
+  "rxn01692": {
+   "status": "estimated",
+   "dG": 4.2,
+   "reason": null
+  },
+  "rxn01702": {
+   "status": "estimated",
+   "dG": -40.5,
+   "reason": null,
+   "source": "metag 0.3.0 recomputation"
+  },
+  "rxn01713": {
+   "status": "estimated",
+   "dG": 9.5,
+   "reason": null
+  },
+  "rxn01725": {
+   "status": "estimated",
+   "dG": 34.6,
+   "reason": null
+  },
+  "rxn01726": {
+   "status": "estimated",
+   "dG": -20.4,
+   "reason": null,
+   "source": "metag 0.3.0 recomputation"
+  },
+  "rxn01740": {
+   "status": "estimated",
+   "dG": 14.3,
+   "reason": null
+  },
+  "rxn01745": {
+   "status": "estimated",
+   "dG": 27.9,
+   "reason": null
+  },
+  "rxn01746": {
+   "status": "estimated",
+   "dG": -1.6,
+   "reason": null
+  },
+  "rxn01761": {
+   "status": "estimated",
+   "dG": 16.0,
+   "reason": null
+  },
+  "rxn01780": {
+   "status": "estimated",
+   "dG": -0.1,
+   "reason": null
+  },
+  "rxn01790": {
+   "status": "estimated",
+   "dG": 33.5,
+   "reason": null
+  },
+  "rxn01792": {
+   "status": "estimated",
+   "dG": 4.4,
+   "reason": null
+  },
+  "rxn01834": {
+   "status": "estimated",
+   "dG": 30.7,
+   "reason": null
+  },
+  "rxn01846": {
+   "status": "blocked_unresolved_stereochemistry",
+   "dG": null,
+   "reason": null
+  },
+  "rxn01847": {
+   "status": "blocked_unresolved_stereochemistry",
+   "dG": null,
+   "reason": null
+  },
+  "rxn01870": {
+   "status": "failed",
+   "dG": null,
+   "reason": "Declared reaction wall budget or interruption"
+  },
+  "rxn01887": {
+   "status": "estimated",
+   "dG": 13.6,
+   "reason": null
+  },
+  "rxn01974": {
+   "status": "estimated",
+   "dG": -0.6,
+   "reason": null
+  },
+  "rxn01985": {
+   "status": "estimated",
+   "dG": 11.0,
+   "reason": null
+  },
+  "rxn01996": {
+   "status": "estimated",
+   "dG": 2.9,
+   "reason": null
+  },
+  "rxn01999": {
+   "status": "estimated",
+   "dG": 8.8,
+   "reason": null,
+   "source": "metag 0.3.0 recomputation"
+  },
+  "rxn02066": {
+   "status": "estimated",
+   "dG": 21.9,
+   "reason": null
+  },
+  "rxn02085": {
+   "status": "blocked_unresolved_stereochemistry",
+   "dG": null,
+   "reason": null
+  },
+  "rxn02095": {
+   "status": "estimated",
+   "dG": 1.0,
+   "reason": null
+  },
+  "rxn02132": {
+   "status": "estimated",
+   "dG": 10.4,
+   "reason": null
+  },
+  "rxn02167": {
+   "status": "estimated",
+   "dG": 4.4,
+   "reason": null
+  },
+  "rxn02168": {
+   "status": "estimated",
+   "dG": 3.6,
+   "reason": null
+  },
+  "rxn02202": {
+   "status": "blocked_unresolved_stereochemistry",
+   "dG": null,
+   "reason": null
+  },
+  "rxn02204": {
+   "status": "blocked_unresolved_stereochemistry",
+   "dG": null,
+   "reason": null
+  },
+  "rxn02213": {
+   "status": "estimated",
+   "dG": 7.4,
+   "reason": null
+  },
+  "rxn02263": {
+   "status": "estimated",
+   "dG": 15.7,
+   "reason": null
+  },
+  "rxn02305": {
+   "status": "estimated",
+   "dG": 25.0,
+   "reason": null
+  },
+  "rxn02320": {
+   "status": "estimated",
+   "dG": 4.7,
+   "reason": null,
+   "source": "metag 0.3.0 recomputation"
+  },
+  "rxn02322": {
+   "status": "estimated",
+   "dG": -0.3,
+   "reason": null
+  },
+  "rxn02360": {
+   "status": "estimated",
+   "dG": 1.5,
+   "reason": null
+  },
+  "rxn02403": {
+   "status": "estimated",
+   "dG": 22.5,
+   "reason": null
+  },
+  "rxn02451": {
+   "status": "estimated",
+   "dG": -7.5,
+   "reason": null
+  },
+  "rxn02459": {
+   "status": "blocked_unresolved_stereochemistry",
+   "dG": null,
+   "reason": null
+  },
+  "rxn02527": {
+   "status": "estimated",
+   "dG": -21.9,
+   "reason": null
+  },
+  "rxn02591": {
+   "status": "estimated",
+   "dG": -20.7,
+   "reason": null
+  },
+  "rxn02622": {
+   "status": "estimated",
+   "dG": 15.5,
+   "reason": null
+  },
+  "rxn02625": {
+   "status": "estimated",
+   "dG": 0.4,
+   "reason": null
+  },
+  "rxn02651": {
+   "status": "estimated",
+   "dG": 31.7,
+   "reason": null
+  },
+  "rxn02685": {
+   "status": "blocked",
+   "dG": null,
+   "reason": null
+  },
+  "rxn02749": {
+   "status": "estimated",
+   "dG": 28.1,
+   "reason": null
+  },
+  "rxn02756": {
+   "status": "blocked_unresolved_stereochemistry",
+   "dG": null,
+   "reason": null
+  },
+  "rxn02782": {
+   "status": "blocked_unresolved_stereochemistry",
+   "dG": null,
+   "reason": null
+  },
+  "rxn02842": {
+   "status": "estimated",
+   "dG": 27.1,
+   "reason": null
+  },
+  "rxn02887": {
+   "status": "estimated",
+   "dG": 17.5,
+   "reason": null
+  },
+  "rxn02900": {
+   "status": "blocked",
+   "dG": null,
+   "reason": null
+  },
+  "rxn02902": {
+   "status": "estimated",
+   "dG": 40.7,
+   "reason": null,
+   "source": "metag 0.3.0 recomputation"
+  },
+  "rxn02914": {
+   "status": "estimated",
+   "dG": 9.3,
+   "reason": null,
+   "source": "metag 0.3.0 recomputation"
+  },
+  "rxn02930": {
+   "status": "estimated",
+   "dG": 2.3,
+   "reason": null
+  },
+  "rxn02975": {
+   "status": "estimated",
+   "dG": 2.0,
+   "reason": null
+  },
+  "rxn03087": {
+   "status": "estimated",
+   "dG": 16.8,
+   "reason": null
+  },
+  "rxn03137": {
+   "status": "estimated",
+   "dG": 25.3,
+   "reason": null
+  },
+  "rxn03249": {
+   "status": "estimated",
+   "dG": 18.1,
+   "reason": null
+  },
+  "rxn03250": {
+   "status": "estimated",
+   "dG": 1.7,
+   "reason": null
+  },
+  "rxn03281": {
+   "status": "estimated",
+   "dG": -7.1,
+   "reason": null,
+   "source": "metag 0.3.0 recomputation"
+  },
+  "rxn03643": {
+   "status": "estimated",
+   "dG": -29.7,
+   "reason": null
+  },
+  "rxn03644": {
+   "status": "estimated",
+   "dG": -23.1,
+   "reason": null
+  },
+  "rxn03840": {
+   "status": "estimated",
+   "dG": -10.5,
+   "reason": null
+  },
+  "rxn03876": {
+   "status": "blocked_unresolved_stereochemistry",
+   "dG": null,
+   "reason": null
+  },
+  "rxn03884": {
+   "status": "estimated",
+   "dG": 7.5,
+   "reason": null
+  },
+  "rxn03886": {
+   "status": "estimated",
+   "dG": 0.5,
+   "reason": null
+  },
+  "rxn04082": {
+   "status": "estimated",
+   "dG": 0.7,
+   "reason": null
+  },
+  "rxn04684": {
+   "status": "estimated",
+   "dG": -12.2,
+   "reason": null
+  },
+  "rxn04785": {
+   "status": "blocked",
+   "dG": null,
+   "reason": null
+  },
+  "rxn04932": {
+   "status": "estimated",
+   "dG": 9.0,
+   "reason": null
+  },
+  "rxn04943": {
+   "status": "estimated",
+   "dG": -0.9,
+   "reason": null
+  },
+  "rxn04945": {
+   "status": "estimated",
+   "dG": -3.1,
+   "reason": null
+  },
+  "rxn05026": {
+   "status": "estimated",
+   "dG": -13.0,
+   "reason": null
+  },
+  "rxn08066": {
+   "status": "estimated",
+   "dG": -0.3,
+   "reason": null
+  },
+  "rxn08430": {
+   "status": "estimated",
+   "dG": -12.3,
+   "reason": null
+  },
+  "rxn08948": {
+   "status": "estimated",
+   "dG": -13.4,
+   "reason": null
+  },
+  "rxn10427": {
+   "status": "estimated",
+   "dG": -0.3,
+   "reason": null
+  },
+  "rxn11139": {
+   "status": "no_estimate",
+   "dG": null,
+   "reason": "incomplete declared sugar ensemble: Incomplete joint sugar/hydration state set: Maltose"
+  },
+  "rxn12158": {
+   "status": "estimated",
+   "dG": 20.8,
+   "reason": null
+  },
+  "rxn12188": {
+   "status": "estimated",
+   "dG": -15.0,
+   "reason": null
+  },
+  "rxn12217": {
+   "status": "estimated",
+   "dG": -34.8,
+   "reason": null
+  },
+  "rxn14063": {
+   "status": "estimated",
+   "dG": 18.9,
+   "reason": null
+  },
+  "rxn14104": {
+   "status": "estimated",
+   "dG": 5.3,
+   "reason": null
+  },
+  "rxn15055": {
+   "status": "estimated",
+   "dG": 2.0,
+   "reason": null
+  },
+  "rxn15726": {
+   "status": "estimated",
+   "dG": 33.0,
+   "reason": null
+  },
+  "rxn15750": {
+   "status": "estimated",
+   "dG": 4.7,
+   "reason": null
+  },
+  "rxn15964": {
+   "status": "no_estimate",
+   "dG": null,
+   "reason": "species energy or minimum validation failed: 5,10-Methylenetetrahydromethanopterin"
+  },
+  "rxn16141": {
+   "status": "estimated",
+   "dG": 24.1,
+   "reason": null,
+   "source": "metag 0.3.0 recomputation"
+  },
+  "rxn16378": {
+   "status": "estimated",
+   "dG": -1.3,
+   "reason": null
+  },
+  "rxn19090": {
+   "status": "estimated",
+   "dG": 27.3,
+   "reason": null
+  },
+  "rxn31240": {
+   "status": "estimated",
+   "dG": -0.3,
+   "reason": null
+  },
+  "rxn36656": {
+   "status": "estimated",
+   "dG": -6.0,
+   "reason": null
+  },
+  "rxn39373": {
+   "status": "estimated",
+   "dG": 11.3,
+   "reason": null
+  },
+  "rxn39443": {
+   "status": "estimated",
+   "dG": 25.6,
+   "reason": null
+  },
+  "rxn40442": {
+   "status": "estimated",
+   "dG": 2.4,
+   "reason": null
+  },
+  "rxn44278": {
+   "status": "estimated",
+   "dG": -6.5,
+   "reason": null
+  },
+  "rxn45677": {
+   "status": "estimated",
+   "dG": 13.2,
+   "reason": null
+  },
+  "rxn49067": {
+   "status": "estimated",
+   "dG": 3.3,
+   "reason": null
+  },
+  "rxn51768": {
+   "status": "blocked_unresolved_stereochemistry",
+   "dG": null,
+   "reason": null
+  },
+  "rxn52014": {
+   "status": "estimated",
+   "dG": -1.3,
+   "reason": null
+  },
+  "rxn53440": {
+   "status": "estimated",
+   "dG": -11.4,
+   "reason": null
+  },
+  "rxn53944": {
+   "status": "estimated",
+   "dG": -20.0,
+   "reason": null
+  },
+  "rxn54659": {
+   "status": "estimated",
+   "dG": -0.2,
+   "reason": null
+  }
+ }
+}

@@ -9,12 +9,15 @@ over a physically bounded pMg interval. The rule was fixed before any MetaG resi
 ([PREREGISTRATION.md](PREREGISTRATION.md)). Thresholds 1 and 4 kJ/mol are reported as sensitivities.
 
 ```bash
-python benchmark/score.py                              # archived MetaG predictions
+python benchmark/score.py                              # MetaG 0.3.0 panel predictions
 python benchmark/score.py metag_out/metag_all.json     # a fresh `metag score` run
 ```
 
-With the archived predictions (`metag_dev24_predictions.json`, 320 estimates for 364 inputs), the primary
-policy gives MetaG MAE 8.44 kJ/mol on 239 of 274 labels; the zero predictor gives 11.68 on the same labels.
+`metag_0.3.0_predictions.json` holds the 0.3.0 panel predictions (320 estimates for 364 inputs). With the
+primary policy they give MAE 8.42 kJ/mol on 239 of 274 labels; the zero predictor gives 11.68 on the
+same labels. They combine the 0.2.0.dev24 outcomes for reactions the 0.3.0 corrections do not touch
+with fresh 0.3.0 calculations for the 24 that they change; see [docs/validation.md](../docs/validation.md).
+`metag_dev24_predictions.json` keeps the dev24 outcomes (MAE 8.44) for reference.
 
 Caveats, as reported in the manuscript:
 
