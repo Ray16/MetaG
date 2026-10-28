@@ -22,7 +22,7 @@ SAMPLING_PROFILE_VERSION = "2026-10-11-search-effort-v1"
 
 # Bump whenever species-level physics changes in a way the settings below do not capture (sampling,
 # relaxation, thermal, solvation code). It is part of every species-cache key.
-PHYSICS_VERSION = "2026-10-24-official-uma-v1"
+PHYSICS_VERSION = "2026-10-28-heavy-atom-dedup-v1"
 
 
 @dataclass(frozen=True)
@@ -95,7 +95,7 @@ class Settings:
                "conv_tol": self.conv_tol, "conv_hits": self.conv_hits, "conv_max": self.conv_max,
                "sample_scale": self.sample_scale, "keep_scale": self.keep_scale,
                "physics": PHYSICS_VERSION, "hessian": self.hessian,
-               "dedup": f"rmsd-v2-etol{DEDUP_E_TOL}",
+               "dedup": f"rmsd-v3-heavy-fallback-etol{DEDUP_E_TOL}",
                "thermal_ensemble": f"v3-w{self.thermal_window_kj:g}-n{self.thermal_max}",
                "thermal_validation_max": self.thermal_validation_max,
                "thermal_relax_steps": self.thermal_relax_steps,

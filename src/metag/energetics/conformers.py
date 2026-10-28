@@ -58,6 +58,12 @@ class UniqueMinima:
     shortcut used first merged them (34 pairs for citric acid), undercounting conformational entropy for
     achiral species only, a bias that does not cancel against chiral partners.
 
+    Hydrogen rotor permutations grow factorially (3! per methyl; trimethylammonium, steroids, retinoids and
+    long acyl chains exceed 10^4-10^6 all-atom automorphisms). When the all-atom automorphism count exceeds
+    `max_matches`, an enumeration capped at `max_matches` could miss the permutation that superimposes two
+    copies of one basin and count it twice. Such species are compared by the heavy-atom RMSD instead, which
+    is exact over heavy-atom symmetry; rotamers of hydrogen-only rotors are not distinct heavy-atom basins.
+
     `template` = the RDKit molecule (with H) whose atom order matches the Atoms (pool_confs builds from
     Chem.AddHs(MolFromSmiles(smi))). Without a template (explicit water clusters) it falls back to
     energy + principal moments (can merge mirror images; that path is off by default)."""
@@ -65,6 +71,11 @@ class UniqueMinima:
     def __init__(self, e_tol=DEDUP_E_TOL, rmsd_tol=0.25, template=None, rot_tol=0.01, max_matches=20000):
         self.e_tol, self.rmsd_tol, self.rot_tol = e_tol, rmsd_tol, rot_tol
         self.template, self.max_matches = template, max_matches
+        self.heavy_atom_rmsd = False
+        if template is not None:
+            n_auto = len(template.GetSubstructMatches(template, uniquify=False, useChirality=False,
+                                                      maxMatches=max_matches + 1))
+            self.heavy_atom_rmsd = n_auto > max_matches
         self.E, self.G, self.ref = [], [], []
         self.n_seen = 0
         self.last_index = None
@@ -99,6 +110,9 @@ class UniqueMinima:
         # original coordinates, so alignment must never change the candidate
         # that may become the stored representative (finite grids can depend
         # on orientation even when the underlying energy is invariant).
+        if self.heavy_atom_rmsd:
+            return rdMolAlign.GetBestRMS(Chem.RemoveHs(rep), Chem.RemoveHs(self.ref[j]),
+                                         maxMatches=self.max_matches) < self.rmsd_tol
         return rdMolAlign.GetBestRMS(Chem.Mol(rep), self.ref[j], maxMatches=self.max_matches) < self.rmsd_tol
 
     def add(self, atoms, E_kJ, G_kJ):

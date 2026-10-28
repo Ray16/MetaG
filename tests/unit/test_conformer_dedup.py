@@ -119,3 +119,24 @@ if __name__ == "__main__":
         if name.startswith("test_"):
             fn(); print(f"  {name} OK")
     print("PASS: conformer dedup")
+
+
+def test_large_hydrogen_symmetry_uses_heavy_atom_rmsd():
+    """Above the automorphism cap a rotated copy of the same basin must still merge (no spurious -RT ln 2)."""
+    import numpy as np
+    from ase import Atoms
+    from rdkit import Chem
+    from rdkit.Chem import AllChem
+    from metag.energetics.conformers import UniqueMinima
+    big = Chem.AddHs(Chem.MolFromSmiles("CC(=O)OCC[N+](C)(C)C"))     # acetylcholine: >2e4 automorphisms
+    small = Chem.AddHs(Chem.MolFromSmiles("CCO"))
+    assert UniqueMinima(template=small).heavy_atom_rmsd is False
+    u = UniqueMinima(template=big)
+    assert u.heavy_atom_rmsd is True
+    AllChem.EmbedMolecule(big, randomSeed=1)
+    pos = big.GetConformer().GetPositions()
+    sym = [a.GetSymbol() for a in big.GetAtoms()]
+    rot = np.array([[0.0, -1.0, 0.0], [1.0, 0.0, 0.0], [0.0, 0.0, 1.0]])
+    assert u.add(Atoms(sym, positions=pos), -1.0, -1.0)
+    assert not u.add(Atoms(sym, positions=pos @ rot.T + 2.0), -1.0, -1.0)
+    assert len(u.E) == 1
