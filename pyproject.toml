@@ -1,0 +1,63 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "metag"
+version = "0.3.0"
+description = "Training-free biochemical reaction Gibbs energies (ΔrG'°) from structure: UMA + xTB/ALPB + Alberty transforms"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+authors = [{ name = "The MetaG authors" }]
+keywords = ["thermodynamics", "Gibbs energy", "metabolism", "machine-learned interatomic potential", "UMA"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "Intended Audience :: Science/Research",
+]
+dependencies = [
+    "numpy",
+    "rdkit",
+]
+
+[project.optional-dependencies]
+# GPU scoring: UMA through the pinned official FairChem SDK. Install the matching Torch wheel first
+# (see environments/README.md); UMA weights and an xtb executable are provisioned separately.
+qm = [
+    "ase>=3.26,<4",
+    "fairchem-core @ git+https://github.com/facebookresearch/fairchem.git@645af7d03e91138ef07e51de387316c9e2e152dc#subdirectory=packages/fairchem-core",
+    "torch~=2.13.0",
+]
+# Rebuilding the openTECR-derived benchmark reference (Legendre transform to pH 7, I = 0).
+reference = [
+    "equilibrator-api==0.6.0",
+]
+test = [
+    "ase",
+    "pytest",
+]
+
+[project.urls]
+Repository = "https://github.com/Ray16/MetaG"
+
+[project.scripts]
+metag = "metag.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["metag*"]
+
+[tool.setuptools.package-data]
+metag = ["data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests/unit", "tests/regression"]
+markers = [
+    "gpu: requires a CUDA GPU and the UMA runtime",
+    "integration: exercises external programs or the full scoring stack",
+]

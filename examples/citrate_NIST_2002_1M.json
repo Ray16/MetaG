@@ -1,0 +1,35 @@
+{
+  "kind": "sequential_macroscopic_acid_pka",
+  "reference_smiles": "O=C(O)CC(O)(CC(=O)O)C(=O)O",
+  "reference_deprotonations": 0,
+  "reference_scope": "fully_protonated_carboxylic_acid_family",
+  "reference_formula": "C6H8O7",
+  "pKas": [
+    3.12927,
+    4.76227,
+    6.39727
+  ],
+  "conditions": {
+    "T_K": 298.15,
+    "ionic_strength_M": 0.0,
+    "solvent": "water",
+    "standard_state": "solute_1M_activity",
+    "magnesium_binding": "absent"
+  },
+  "source": {
+    "locator": "https://www.nist.gov/system/files/documents/srd/jpcrd615.pdf",
+    "location": "Table7.22, printed265/PDF35; standard-state conversion Eq10/PDF3",
+    "artifact_sha256": "8b10624546d35856b7e88c2c8e94e498c11d58df55c6815d8a3a82eecf9b9cf2",
+    "determination": "evaluated",
+    "parameter_scale": "molarity_activity",
+    "conversion": "pKa(c)=pKa(m)+0.00127 for water at298.15K; NIST Eq10. Original values3.128/4.761/6.396.",
+    "uncertainty": [
+      0.003,
+      0.003,
+      0.003
+    ],
+    "uncertainty_kind": "authors' approximate subjective assessment; neither standard deviation nor a declared confidence level",
+    "covariance": null,
+    "development_exposure": true
+  }
+}
