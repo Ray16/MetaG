@@ -22,12 +22,59 @@ def route_reaction(reaction, allow_truncate=True, log=print, force_neutral=False
     Returns (rx, routes, truncated): `rx` is the rewritten reaction score_reaction scores (the input dict
     is never mutated), `routes` records which transforms fired plus any errors/warnings.
 
+    DIRECTION INVARIANCE: several stages are heuristics whose outcome can depend on which side is written
+    first (MCS pairing and atom maps, the reaction-centre ring gate). The reaction is therefore always
+    routed in a canonical orientation (the side with the lexicographically smaller sorted canonical-SMILES
+    key is the reactant side) and mapped back, so the reverse reaction routes to exactly the mirror image
+    and ΔG(reverse) = -ΔG(forward).
+
     BALANCE GUARD: every rewrite must keep the reaction element- and charge-balanced with its proton
     count in n_H+ -- the one invariant all of them share. A step whose output breaks a balance its input
     had is REVERTED and recorded in routes["reverted"]. Without it an element leak (e.g. a mixed disulfide
     replaced by a symmetric core, dropping the CoA half) reached QM and was caught, if at all, only by
     the |ΔG| sanity bound."""
     validate_reaction(reaction)
+    if not _reverse_is_canonical(reaction["species"]):
+        rx, routes, truncated = _route_oriented(reaction, allow_truncate, log, force_neutral)
+        routes["routed_orientation"] = "as_written"
+        return rx, routes, truncated
+    rx, routes, truncated = _route_oriented(_reversed(reaction), allow_truncate, log, force_neutral)
+    rx = _reversed(rx)
+    if routes.get("protonation_sites_by_species"):
+        routes["protonation_sites_by_species"] = {
+            name: [[_OTHER_SIDE[site[0]], *site[1:]] for site in sites]
+            for name, sites in routes["protonation_sites_by_species"].items()}
+    routes["routed_orientation"] = "reversed_to_canonical_and_back"
+    return rx, routes, truncated
+
+
+_OTHER_SIDE = {"react": "prod", "prod": "react"}
+
+
+def _side_key(species, sign):
+    from rdkit import Chem
+    return sorted((Chem.MolToSmiles(Chem.MolFromSmiles(smi)), abs(coeff), q)
+                  for coeff, q, smi in species.values() if sign * coeff > 0)
+
+
+def _reverse_is_canonical(species):
+    """True when the reverse of the written reaction is the canonical orientation."""
+    try:
+        return _side_key(species, +1) < _side_key(species, -1)
+    except Exception:
+        return False                                      # unparsable input: keep as written; validation reports it
+
+
+def _reversed(reaction):
+    """The same reaction written in the opposite direction (coefficients, n_H+ and pKa-site sides)."""
+    out = dict(reaction, species={n: [-c, q, s] for n, (c, q, s) in reaction["species"].items()},
+               n_Hplus=-reaction.get("n_Hplus", 0))
+    if reaction.get("pka_sites"):
+        out["pka_sites"] = [[_OTHER_SIDE[site[0]], *site[1:]] for site in reaction["pka_sites"]]
+    return out
+
+
+def _route_oriented(reaction, allow_truncate, log, force_neutral):
     from metag.routing.sugar_states import prepare_declared_sugar_inputs
     prepared, sugar_declarations = prepare_declared_sugar_inputs(reaction)
     rx = dict(prepared)

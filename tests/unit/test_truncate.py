@@ -59,3 +59,21 @@ if __name__ == "__main__":
         if name.startswith("test_"):
             fn(); print(f"  {name} OK")
     print("PASS: truncation guard")
+
+
+def test_routing_is_direction_invariant():
+    """The reverse reaction routes to the mirror image (same species and sites, opposite signs)."""
+    import json
+    from pathlib import Path
+    from metag.routing.planner import route_reaction
+    panel = json.loads((Path(__file__).resolve().parents[2] / "src/metag/data/reactions_opentecr_std.json").read_text())
+    for key in ("rxn01201", "rxn00806", "rxn00191"):       # direction-dependent before canonical orientation
+        fwd = panel[key]
+        rev = dict(fwd, species={k: [-v[0], *v[1:]] for k, v in fwd["species"].items()}, n_Hplus=-fwd["n_Hplus"])
+        a, ra, _ = route_reaction(fwd, log=lambda _: None)
+        b, rb, _ = route_reaction(rev, log=lambda _: None)
+        assert {k: [-c, q, s] for k, (c, q, s) in a["species"].items()} == {k: list(v) for k, v in b["species"].items()}
+        assert a["n_Hplus"] == -b["n_Hplus"]
+        flip = {"react": "prod", "prod": "react"}
+        assert sorted(map(tuple, ([flip[s[0]], *s[1:]] for s in a.get("pka_sites", [])))) == \
+            sorted(map(tuple, b.get("pka_sites", [])))
