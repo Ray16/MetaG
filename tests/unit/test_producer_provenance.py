@@ -88,7 +88,7 @@ def test_file_identity_changes_when_replaced_and_survives_relocation(tmp_path):
 
 
 def test_fairchem_reference_containers_have_content_based_identity():
-    from omegaconf import OmegaConf
+    OmegaConf = pytest.importorskip("omegaconf").OmegaConf   # ships with the qm extra (FairChem)
     plain = {'refs': {'omol': [1.0, 2.0]}, 'metadata': {'description': 'atomic references'}}
     configured = OmegaConf.create(plain)
     assert pr.content_hash(configured) == pr.content_hash(plain)

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use MetaG, please cite the software (and the accompanying article once published)."
+title: "MetaG: training-free biochemical reaction Gibbs energies from structure"
+version: 0.3.0
+date-released: 2026-10-27
+license: MIT
+repository-code: "https://github.com/Ray16/MetaG"
+type: software
+authors:
+  - family-names: Zhu
+    given-names: Ray
+    email: rzhu16@uchicago.edu
+    affiliation: "University of Chicago"
+keywords:
+  - thermodynamics
+  - Gibbs free energy
+  - metabolism
+  - machine-learned interatomic potential

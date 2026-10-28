@@ -1,0 +1,33 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  cpu:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install (CPU only; no FairChem, UMA weights or xtb)
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install -e '.[test]'
+      - name: Unit and regression tests
+        env:
+          OMP_NUM_THREADS: "2"
+        run: python -m pytest -q -m "not gpu"
+      - name: CLI smoke test
+        run: |
+          metag tools
+          metag preflight examples/amp_hydrolysis.json -o /tmp/preflight.json
+          python benchmark/score.py > /dev/null

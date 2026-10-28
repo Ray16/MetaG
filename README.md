@@ -164,7 +164,8 @@ examples/            small input files
 tests/               CPU unit tests (GPU tests are marked `gpu`)
 ```
 
-Run the tests with `pip install -e '.[test]' && pytest`.
+Run the CPU tests with `pip install -e '.[test]' && pytest`; they need a (CPU) Torch install but no
+FairChem, UMA weights or xtb.
 
 ## License and acknowledgements
 

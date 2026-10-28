@@ -15,7 +15,6 @@ freeze. All state on GPU; graphs rebuilt each step from current positions.
 import numpy as np
 import torch
 from ase import Atoms
-from fairchem.core.datasets.atomic_data import AtomicData, atomicdata_list_to_batch
 
 DEV = "cuda"
 
@@ -44,6 +43,7 @@ def load_uma(model="uma-s-1p2p1", *, profile=None):
 
 def _forward(pu, atoms_list, predict):
     """Build exact input geometry/charge/spin, then preserve reference precision."""
+    from fairchem.core.datasets.atomic_data import AtomicData, atomicdata_list_to_batch
     from metag.timing import timed
     with timed("uma.build"):           # item-A: from_ase rebuild + batch assembly + H2D copy
         datas = []
