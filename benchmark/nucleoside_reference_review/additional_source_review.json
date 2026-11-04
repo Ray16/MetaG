@@ -1,0 +1,31 @@
+{
+  "schema": "metag-additional-nucleoside-source-review-v1",
+  "sources": [
+    {
+      "doi": "10.1002/adsc.201901230",
+      "data_doi": "10.5281/zenodo.3530526",
+      "complete_source_table_compounds": 24,
+      "adjudication": "Native apparent concentration ratios authenticated separately. Ionic strength, actualpH(T), Mg convention, exact structures, source uncertainty and historical/training ancestry still need review. Repeated temperatures/aliquots are not independent reactions or source clusters.",
+      "primary_reference_admitted": false
+    },
+    {
+      "doi": "10.1038/s41467-024-47287-4",
+      "data_concept_doi": "10.5281/zenodo.8382795",
+      "resolved_data_version_doi": "10.5281/zenodo.10651788",
+      "publisher_SI_sha256": "1c000ea529b34e28a28abb54249e30ce96228a48fa8a092bb3b53c9c4d3b2002",
+      "data_version_SI_sha256": "d9c7c33d781154acf65650df8167281a5b9071fd81e34839dd13c2fe9394b182",
+      "native_conditions": {
+        "T": "room temperature, ca21C",
+        "pH": 10,
+        "buffer": "50mM glycine plus50mM proline",
+        "ionic_strength_M": null,
+        "free_Mg_M": null
+      },
+      "adjudication": "A measured N7-xanthosine equilibrium and pKa series provide source leads. The native temperature is approximate. N7 and N9 comparisons must first own their individual temperatures, methods and chemical-state pools; a quoted constant ratio is not automatically a matched isomerization free energy.",
+      "primary_reference_admitted": false
+    }
+  ],
+  "experimental_references_admitted": 0,
+  "predictions_performed": false,
+  "exposure": "Source outcomes necessarily visible during primary-text and arithmetic inspection; no candidate selected by a MetaG/dGbyG prediction, disagreement or residual."
+}

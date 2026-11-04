@@ -1,0 +1,149 @@
+{
+  "schema": "metag-legacy-source-adjudication-v1",
+  "date_utc": "2026-11-04T18:35:49.603150+00:00",
+  "cases": [
+    {
+      "training671_row": 474,
+      "case": "polyamine_transamination",
+      "reference_code": "97YOR/ISH",
+      "sources": [
+        {
+          "url": "https://www.jstage.jst.go.jp/article/biochemistry1922/122/3/122_3_537/_pdf",
+          "sha256": "645e6d2fee6b6fc3ca3aca4adc476d705b5485aadf9492133c13fd21ff03ab40",
+          "printed_page": 541
+        },
+        {
+          "url": "https://srd.nist.gov/jpcrdreprint/1.556041.pdf",
+          "sha256": "0ae14ed3c4debc647dac0124add2d57cb6a8ba50ce5d008fd584311557225df4",
+          "printed_page": "943-944"
+        }
+      ],
+      "native_conditions": {
+        "T_K": 303.15,
+        "pH": 9.0,
+        "buffer": "100mM Tris-HCl",
+        "ionic_strength_M": null,
+        "free_Mg_M": null
+      },
+      "adjudication": "Original study reports DAP+pyruvate to alanine+3-aminopropionaldehyde. NIST and the training equation use its reverse. Direct equilibrium sampling is described; an NAD/alanine-dehydrogenase endpoint assay measures alanine and does not add NAD to the reaction stoichiometry.",
+      "remaining": [
+        "Temperature and protonation/pool bridge to298.15K,pH7.",
+        "Owned ionic strength, Mg convention and reference uncertainty.",
+        "Complete measurement/development/training ancestry."
+      ],
+      "primary_reference_admitted": false,
+      "prediction_or_error_used_for_selection": false
+    },
+    {
+      "training671_row": 548,
+      "case": "imidazole_acetyl_transfer",
+      "reference_code": "54STA",
+      "sources": [
+        {
+          "url": "https://srd.nist.gov/jpcrdreprint/1.555948.pdf",
+          "sha256": "05b29004d6ce030b6aacfa7b454dfafb8a10e42ce2aa8f4e89010fbc6023fb1c",
+          "printed_page": "555,558"
+        }
+      ],
+      "native_conditions": {
+        "T_K": 299.15,
+        "pH_values": [
+          6.15,
+          6.45,
+          6.95,
+          7.2,
+          7.3
+        ],
+        "ionic_strength_M": null,
+        "free_Mg_M": null
+      },
+      "adjudication": "The same five pH-dependent measurements are printed under both enzyme headings; ten database rows are not ten independent measurements. Both enzyme activities were present. The evaluated bibliography identifies a1954Stadtman book chapter in The Mechanism of Enzyme Action,pp581-598.",
+      "source_duplicate_groups": [
+        [
+          978,
+          1011
+        ],
+        [
+          979,
+          1012
+        ],
+        [
+          980,
+          1013
+        ],
+        [
+          981,
+          1014
+        ],
+        [
+          982,
+          1015
+        ]
+      ],
+      "remaining": [
+        "Retrieve original chapter and resolve solution recipe.",
+        "Owned temperature, activity/protonation and Mg bridges.",
+        "Complete ancestry and uncertainty."
+      ],
+      "primary_reference_admitted": false,
+      "prediction_or_error_used_for_selection": false
+    },
+    {
+      "training671_row": 574,
+      "case": "cephalothin_side_chain_hydrolysis",
+      "reference_code": "80SVE/MAR",
+      "sources": [
+        {
+          "url": "https://srd.nist.gov/jpcrdreprint/1.555957.pdf",
+          "sha256": "3b267dae14f37f3bb329f7d14ba816c1892891a985059fc05384e7b54a4d72d0",
+          "printed_page": 1077
+        }
+      ],
+      "primary_publication_doi": "10.1016/0141-0229(80)90070-8",
+      "native_conditions": {
+        "T_K": 298.15,
+        "pH": 5.0,
+        "buffer": "citrate; concentration not supplied in evaluated entry",
+        "ionic_strength_M": null,
+        "free_Mg_M": null
+      },
+      "adjudication": "The reaction removes the acyl side chain while retaining the beta-lactam nucleus. It is not a beta-lactam-ring-opening benchmark. The primary article abstract distinguishes concentration-based constants from pH dependence; exact original recipe and convention remain needed.",
+      "remaining": [
+        "Own original concentration/activity convention and buffer composition.",
+        "Protonation and Mg transformation to the primary target.",
+        "Complete ancestry and uncertainty."
+      ],
+      "primary_reference_admitted": false,
+      "prediction_or_error_used_for_selection": false
+    },
+    {
+      "training671_row": 667,
+      "case": "xanthosine_phosphorolysis",
+      "reference_code": "92KIM/KIN",
+      "sources": [
+        {
+          "url": "https://srd.nist.gov/jpcrdreprint/1.555948.pdf",
+          "sha256": "05b29004d6ce030b6aacfa7b454dfafb8a10e42ce2aa8f4e89010fbc6023fb1c",
+          "printed_page": "565-566"
+        }
+      ],
+      "native_conditions": {
+        "T_K": 311.15,
+        "pH": 7.0,
+        "reported_ionic_strength_M": 0.25,
+        "reported_Mg_concentration_M": 0.001,
+        "free_Mg_M": null
+      },
+      "adjudication": "The evaluated source names alpha-D-ribose1-phosphate; the training description omits the anomer. This explains the strict named-match miss but does not by itself authenticate the encoded stereochemistry or target derivation. Reported Mg concentration is not silently assigned to free Mg.",
+      "remaining": [
+        "Authenticate product anomer against encoded structures.",
+        "Own temperature and magnesium-binding/activity bridges.",
+        "Retrieve original primary study and trace target ancestry."
+      ],
+      "primary_reference_admitted": false,
+      "prediction_or_error_used_for_selection": false
+    }
+  ],
+  "experimental_references_admitted": 0,
+  "scope": "Source identity/condition review. Native and standardized quantities remain distinct. These leads are not enrolled independent references."
+}

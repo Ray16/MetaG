@@ -154,6 +154,12 @@ formation labels. It admits no independent reference, trains no comparator,
 and does not supply enough screened unfamiliar cases for the primary validation
 design. Its counts are preparation evidence, not prediction performance.
 
+The [nucleoside source review](nucleoside_reference_review/README.md) separately
+reconstructs all 519 retained apparent-constant observations from a 576-observation
+source archive, preserving its 57 exclusions and unresolved standard-state
+requirements. This authenticates source arithmetic and provides no new independent
+standard Gibbs-energy benchmark or prediction accuracy result.
+
 `corrected_cycle_summary.json` records the current-source shared-record cycle audit: 30 of 49
 independent input-state vectors are evaluable, of which four fail numerical closure up to
 8.70 kJ/mol. The additionally named sucrose and amino-acid controls are not independent basis

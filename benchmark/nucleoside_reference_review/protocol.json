@@ -1,0 +1,31 @@
+{
+  "schema": "metag-nucleoside-source-audit-protocol-v1",
+  "date_utc": "2026-11-04T18:35:49.603150+00:00",
+  "status": "Retrospective source-arithmetic audit after source inspection; not benchmark preregistration.",
+  "source_sha256": "32943bccd490c8030398e0c1dce0d5d881d738a208bae6b6d1de37b6bb941cef",
+  "auditor_sha256": "22a228a3b6e5662a3091f83ca91b6cfe9a4ab6d390d2c498cd350c149607e8bf",
+  "scope": "Complete sourceFigure4table:24compounds,4nominaltemperatures,two reaction mixtures and three equilibrium aliquots per mixture. No selection by MetaG/dGbyG prediction or error.",
+  "numerical_checks": [
+    "Unique raw row/condition/time ownership.",
+    "Raw spectral fractions sum to1.",
+    "Every compiled product equals2mM times raw product fraction.",
+    "Every retained apparent equilibrium constant equalsx\u00b2/((1\u2212x)(5\u2212x)).",
+    "All576raw observations retained with explicit source-compilation inclusion mask."
+  ],
+  "missing_value_policy": "Absent compiled product cell means excluded by the source compilation, not zero product or zero free energy. Missing raw observations or duplicate keys are errors.",
+  "uncertainty_scope": "Spectral-fit spread is not total reference uncertainty. Two reaction replicates are not six independent equilibrations. Source exclusion decisions are preserved, not independently physically justified.",
+  "thermodynamic_quantity": "Buffered apparent concentration equilibrium ratio. No activity-based standard or transformed Gibbs label is constructed.",
+  "condition_admission": {
+    "primary_standard_reference_admitted": false,
+    "T_bridge_owned": false,
+    "pH_bridge_owned": false,
+    "ionic_strength_bridge_owned": false,
+    "free_Mg_owned": false
+  },
+  "current_eligibility_design_unchanged": true,
+  "primary_benchmark_launch_allowed": false,
+  "experimental_references_admitted": 0,
+  "model_training_performed": false,
+  "predictions_performed": false,
+  "source_reference_parameter_fitting_performed": false
+}

@@ -1,0 +1,43 @@
+{
+  "source_publication_doi": "10.1002/adsc.201901230",
+  "source_repository_doi": "10.5281/zenodo.3530526",
+  "record_id": 3530526,
+  "record_version": "1",
+  "creators": [
+    {
+      "name": "Kaspar, Felix",
+      "affiliation": "TU Braunschweig, TU Berlin, BioNukleo GmbH",
+      "orcid": "0000-0001-6391-043X"
+    },
+    {
+      "name": "Giessman, Robert T.",
+      "affiliation": "TU Berlin",
+      "orcid": "0000-0002-0254-1500"
+    },
+    {
+      "name": "Neubauer, Peter",
+      "affiliation": "TU Berlin",
+      "orcid": "0000-0002-1214-9713"
+    },
+    {
+      "name": "Wagner, Anke",
+      "affiliation": "TU Berlin, BioNukleo GmbH",
+      "orcid": "0000-0001-6919-725X"
+    },
+    {
+      "name": "Gimpel, Matthias",
+      "affiliation": "TU Berlin",
+      "orcid": "0000-0002-5136-8169"
+    }
+  ],
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "archive_file": "Supplementary_Material_Data.zip",
+  "archive_url": "https://zenodo.org/api/records/3530526/files/Supplementary_Material_Data.zip/content",
+  "archive_upstream_checksum": "md5:7cd524faaed3604cceaf69a1c6b84e05",
+  "archive_sha256": "32943bccd490c8030398e0c1dce0d5d881d738a208bae6b6d1de37b6bb941cef",
+  "record_metadata_sha256": "89fb80abd62f01af635cece7105d3104793bbbb0b54bee19addb303eadfd3aa5",
+  "source_supplementary_pdf_sha256": "d387c8a9eb8dcddb68855d4ea89ad82279e542478b5e733d51c7336a53eeed73",
+  "scope": "Raw numeric source archive retained unchanged under upstreamCCBY4. Source publication and full supplementary PDF retained locally, not redistributed here."
+}
