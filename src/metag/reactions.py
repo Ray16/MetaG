@@ -144,6 +144,11 @@ def validate_reaction(reaction: Mapping[str, Any]) -> None:
         molecule = Chem.MolFromSmiles(smiles)
         if molecule is None:
             raise ValueError(f"species {name!r}: unparseable SMILES {smiles!r}")
+        if any(atom.GetAtomicNum() == 0 for atom in molecule.GetAtoms()):
+            raise ValueError(
+                f"species {name!r}: wildcard/dummy atoms do not define a molecular species; "
+                "supply a concrete chemical structure before thermochemistry"
+            )
         if len(Chem.GetMolFrags(molecule)) != 1:
             raise ValueError(
                 f"species {name!r}: disconnected SMILES is not a supported single "

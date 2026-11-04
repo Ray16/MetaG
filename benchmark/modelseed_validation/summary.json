@@ -1,0 +1,116 @@
+{
+  "schema": "metag-modelseed-accounting-verification-v1",
+  "n_compounds": 45708,
+  "n_source_reactions": 56006,
+  "n_requested": 43650,
+  "excluded": {
+    "transport": 4734,
+    "obsolete": 7622
+  },
+  "input_statuses": {
+    "passes_cpu_input_gates": 6572,
+    "requires_curation_or_is_unsupported": 37078
+  },
+  "first_recorded_failure": {
+    "unresolved_stereochemistry": 20738,
+    "charge_imbalance": 524,
+    "undefined_atom": 8252,
+    "missing_smiles": 6047,
+    "unsupported_metal_spin": 203,
+    "element_imbalance": 1024,
+    "unsupported_phosphoryl_reference": 91,
+    "unsupported_reference_model": 21,
+    "charge_structure_mismatch": 18,
+    "invalid_smiles": 50,
+    "disconnected_species": 55,
+    "empty_net_equation": 43,
+    "identity_or_graph_collapsed_reaction": 10,
+    "unsupported_stoichiometry": 1,
+    "multiple_compartments_need_conditions": 1
+  },
+  "all_recorded_failure_categories": {
+    "unresolved_stereochemistry": 22906,
+    "charge_imbalance": 1010,
+    "undefined_atom": 12195,
+    "missing_smiles": 10109,
+    "unsupported_metal_spin": 407,
+    "charge_structure_mismatch": 50,
+    "element_imbalance": 1024,
+    "disconnected_species": 99,
+    "unsupported_phosphoryl_reference": 133,
+    "unsupported_reference_model": 27,
+    "invalid_smiles": 113,
+    "empty_net_equation": 43,
+    "identity_or_graph_collapsed_reaction": 10,
+    "unsupported_stoichiometry": 1,
+    "multiple_compartments_need_conditions": 1
+  },
+  "sole_recorded_failure_category": {
+    "unresolved_stereochemistry": 15219,
+    "charge_imbalance": 524,
+    "undefined_atom": 5928,
+    "missing_smiles": 4440,
+    "unsupported_metal_spin": 103,
+    "unsupported_phosphoryl_reference": 52,
+    "element_imbalance": 538,
+    "unsupported_reference_model": 17,
+    "charge_structure_mismatch": 13,
+    "invalid_smiles": 27,
+    "disconnected_species": 9,
+    "empty_net_equation": 43,
+    "identity_or_graph_collapsed_reaction": 10,
+    "unsupported_stoichiometry": 1
+  },
+  "n_failure_categories_per_unavailable_reaction": {
+    "1": 26924,
+    "2": 9284,
+    "3": 847,
+    "4": 20,
+    "5": 3
+  },
+  "structural_balance_and_warnings": {
+    "passing_with_protonation_warnings": 6109,
+    "literal_formula_known": 23742,
+    "literal_balanced": 19968,
+    "passing_without_recorded_protonation_warnings": 463,
+    "literal_unbalanced": 3774,
+    "literal_formula_unknown": 19864,
+    "latent_imbalance_with_unavailable_molecular_state": 2226
+  },
+  "admitted_compound_warning_counts": {
+    "class_pka_transfer_unvalidated": 10335,
+    "multiple_acid_sites_independent_site_approximation": 4618,
+    "aromatic_n_speciation_incomplete": 2609,
+    "unmodeled_anionic_site": 1382,
+    "protonated_n_uses_broad_class_approximation": 812,
+    "reference_retains_charge": 1452,
+    "guanidine_amidine_speciation_incomplete": 314,
+    "element_outside_protonation_rules": 151,
+    "phosphoramidate_pka_source_unverified": 16
+  },
+  "passing_reaction_warning_counts": {
+    "class_pka_transfer_unvalidated": 5971,
+    "multiple_acid_sites_independent_site_approximation": 4423,
+    "guanidine_amidine_speciation_incomplete": 178,
+    "protonated_n_uses_broad_class_approximation": 624,
+    "reference_retains_charge": 1015,
+    "unmodeled_anionic_site": 752,
+    "aromatic_n_speciation_incomplete": 2237,
+    "element_outside_protonation_rules": 33
+  },
+  "reservoir_completion_candidates": {
+    "proton_only": 29,
+    "water_and_proton_basis": 272,
+    "otherwise_passes_recorded_state_gates": 85
+  },
+  "source_sha256": "69f70daa33fd89f447adfe0c9e6830e66f24ad99180600d639eaaaf02cf13620",
+  "retained_protocol_sha256": "b17d2b8199b284c27d924e9e18ff2a876a1d654c28445b049412e91b5a049e99",
+  "modelseed_revision": "b539adb69a955dac15cc30dbeb3debbd87739018",
+  "preflight_elapsed_seconds": 159.17702843248844,
+  "physical_calculations_attempted": 0,
+  "numerical_prediction_coverage": null,
+  "experimental_accuracy_assessed": false,
+  "reservoir_nonempty_balance_only_candidates": 84,
+  "profile": "Strict literal inputs; experimental full-molecule state policy. No automatic source repairs.",
+  "scope": "Derived input admission, not Gibbs-energy applicability/accuracy or calibrated uncertainty."
+}
