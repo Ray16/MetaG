@@ -1,0 +1,11 @@
+{
+  "scope": "Source-curation decisions and candidate hypotheses only; no new benchmark or experimental-accuracy claim.",
+  "files_sha256": {
+    "candidate_chemical_hypotheses.json": "23c950cdcc5d027a0e749aceb22a60595d6d0a7bbe97838b1c288a1722f666b1",
+    "candidate_structural_audit.json": "f083adeaae9b313d432e9224eb22e2634363d30bcb747bbd4419e7adaf502a10",
+    "hydride_reference_bridge.json": "43dd1e5c10baaa5a0fdce2c882f287457638c46096caab695eaaa4ed8190cbfa",
+    "Goldberg2011_adjudication.json": "faef42a7ca945a96320a963bef59865b63c481b2797f40b99e286e0e8788884b",
+    "Gundersen2015_adjudication.json": "90aac955b9a24c50f6bcd5f533c96a0f4dc9611e46a27b3f49d59c2e31a34156",
+    "status.json": "c5d6686fd4c85e2a55b1be39759e4aa81d27d8bd9d6b844a28aa9576d1e0691d"
+  }
+}

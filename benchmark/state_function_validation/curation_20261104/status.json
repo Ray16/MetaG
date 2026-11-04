@@ -1,0 +1,42 @@
+{
+  "status": "source_curation_only_no_independent_references_admitted",
+  "original_eight_source_inventory": "../candidate_sources.json",
+  "research_prediction_source_remains_frozen": true,
+  "new_prediction_or_error_evaluation": false,
+  "new_benchmark_launch_allowed": false,
+  "full_primary_files_retained_locally_not_redistributed": {
+    "Cristobal2024": "10.1021/acs.biochem.3c00702",
+    "Reyes2015": "10.1021/ja5123842",
+    "Goldberg2011": "10.1016/j.jct.2010.09.002",
+    "Gundersen2015": "10.1016/j.tetasy.2015.04.006",
+    "Meier2015": "10.1002/cctc.201500347",
+    "Voges2017_supporting_information": "10.1021/acs.oprd.7b00078"
+  },
+  "training_corpora": {
+    "public671": {
+      "rows": 671,
+      "sha256": "b2e5968f4f976904aae9731228cbd6d00b585c9eaa5cb6689766bf2c3d14dfbc"
+    },
+    "author675": {
+      "rows": 675,
+      "sha256": "cd8ede797d2f1c088cccf6b6561d258a34e753ff1ea8c43ca8cb36ca28553f3c",
+      "source_url": "https://gitee.com/f-wc/dGbyG/raw/d539d2d4ace8905ae13dc93a18ce6f02493722a7/dGbyG/data/TrainingData.csv",
+      "bound_to_existing_cv_manifest": true
+    }
+  },
+  "interpretation": [
+    "The two transamination chemical hypotheses each have three absent compounds with nearest chiralMorgan similarity below0.5 in both concrete training corpora. This is a structural screen; experimental/condition/checkpoint/ancestry admission remains unresolved.",
+    "R/S alternatives are source-identity hypotheses, not two independent experimental reactions.",
+    "The all-E methyl-ferulate hypothesis fails the distant-chemistry threshold; its primary source instead specifies unresolved cis/trans mixtures.",
+    "Hydride-transfer source uses carbonyl-specific substrate concentrations. Under inherited GA/DHAP fractions, transformation to total hydration pools changes G by+4.994858kJ/mol. Fraction ancestry, uncertainties and condition bridge remain to be adjudicated.",
+    "The broader2015transamination panel used5%v/vDMSO at303.15K under its general protocol; a direct pure-water298.15K comparison is not admitted.",
+    "The2017primary supporting information was retrieved through publisher Figshare article5132641. Main-text standard-state/speciation definitions and condition transfer are still needed; activity-coefficient normalization cannot be inferred solely from the SI numbers.",
+    "DFT molecular-energy screening of transamination equilibria predates MetaG. This close prior art must inform methodological claims."
+  ],
+  "remaining_for_primary_enrollment": [
+    "Resolve full experimental protocols, exact enantiomer/mixture/pool identities and activity standard states.",
+    "Construct condition-matched references with owned transfer parameters and uncertainty dependencies.",
+    "Finish source/measurement ancestry and comparator checkpoint/training-overlap audit, including abstract training terms.",
+    "Establish adequate independent source/family clusters before claiming generalization or reliability."
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "scope": "Reconstruct a source-defined hydration bridge, without model predictions or fitting.\n\nThe constants remain conditional candidates. Source-property uncertainty, phosphate\nspeciation/activity conventions and measurement/training ancestry remain unresolved.\n",
+  "primary_sources": {
+    "Cristobal2024_primary.xml": "c699c1f7997fd790f88012ede4ee766bf84bdcddea8544ee14634a8ef374a079",
+    "PMC4311969.xml": "405d35f2a21c77df51e94a4d7e32910b6c63f91c47f701b98be1082878fb1893"
+  },
+  "conditions": {
+    "T_K": 298.15,
+    "pH": 7.5,
+    "ionic_strength_M": 0.12,
+    "forward_buffer": "20mMTEA",
+    "reverse_buffer": "10mMTEA"
+  },
+  "reference_equation": "L-glycerol3-phosphate + glycolaldehyde -> dihydroxyacetonephosphate + ethylene glycol",
+  "cofactor_cycle_cancellation": "The same E:NAD/E:NADH states cancel between the two paired substrate cycles. Individual K1/K2 values are not released-NAD equilibria.",
+  "concentration_basis": {
+    "GA_reactive_carbonyl_fraction": 0.06,
+    "DHAP_reactive_carbonyl_fraction": 0.45,
+    "equation": "K_total = K_carbonyl * f_GA / f_DHAP",
+    "direction": "GA consumed and DHAP produced; bridge to total hydration pools increases reactionG."
+  },
+  "source_typography": "Table1/Scheme6 giveK1=.019; one2024Discussion sentence says.19. Ratio from reportedkinetic efficiencies8.9e4/4.6e6 supports.019, but rendered primaryFigure6 inspection remains pending.",
+  "inherited_fraction_sources": [
+    {
+      "doi": "10.1021/bi700409b",
+      "pmcid": "PMC2556868",
+      "property": "GA hydration fraction",
+      "status": "ancestry identified; primary conditions/uncertainty not yet adjudicated"
+    },
+    {
+      "doi": "10.1042/bj1220285",
+      "pmcid": "PMC1176777",
+      "property": "DHAP hydration and related substrate forms",
+      "status": "ancestry identified; primary conditions/uncertainty not yet adjudicated"
+    }
+  ],
+  "branches": [
+    {
+      "branch": "unactivated",
+      "K1": 0.019,
+      "K2": 0.0007,
+      "K_carbonyl_reference": 27.142857142857142,
+      "K_total_hydration_pool_candidate": 3.619047619047619,
+      "delta_G_carbonyl_kj_per_mol": -8.183319565049063,
+      "delta_G_total_pool_candidate_kj_per_mol": -3.188461558400788,
+      "hydration_reference_bridge_kj_per_mol": 4.994858006648274
+    },
+    {
+      "branch": "phosphite_activated",
+      "K1": 0.019,
+      "K2": 0.001,
+      "K_carbonyl_reference": 19.0,
+      "K_total_hydration_pool_candidate": 2.533333333333333,
+      "delta_G_carbonyl_kj_per_mol": -7.2991377055054,
+      "delta_G_total_pool_candidate_kj_per_mol": -2.3042796988571257,
+      "hydration_reference_bridge_kj_per_mol": 4.994858006648274
+    }
+  ],
+  "no_model_prediction_or_residual_evaluated": true,
+  "admitted_to_primary_independent_benchmark": false,
+  "remaining": [
+    "Confirm primary rendered schemes/table and exact kinetic concentration conventions.",
+    "Trace originalhydration fractions and uncertainties; these inherited values are not independently remeasuredin2024.",
+    "Reconcile knownpH/I/activity/phosphate-speciation differences with frozen targetpH7,I0.",
+    "Complete measured-quantity and source/family/training-overlap audit.",
+    "Establish independent cohort size andclusters rather than counting two branches as independent reactions."
+  ]
+}

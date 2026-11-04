@@ -1,0 +1,724 @@
+{
+  "schema": "metag-independent-candidate-structure-audit-v1",
+  "source_sha256": "26b09c7868a763756da31518e1b992337f53033bfd6413c1cce4828247510feb",
+  "candidates_sha256": "23c950cdcc5d027a0e749aceb22a60595d6d0a7bbe97838b1c288a1722f666b1",
+  "rdkit_version": "2026.03.5",
+  "fingerprint": {
+    "kind": "Morgan",
+    "radius": 2,
+    "bits": 2048,
+    "includeChirality": true,
+    "threshold": 0.5
+  },
+  "standardization": "RDKit Uncharger; RemoveHs; canonical isomeric SMILES. No tautomer or solution-pool inference.",
+  "inference_performed": false,
+  "experimental_references_admitted": 0,
+  "training": {
+    "public671": {
+      "path": "tools/dGbyG/dGbyG/data/TrainingData.csv",
+      "sha256": "b2e5968f4f976904aae9731228cbd6d00b585c9eaa5cb6689766bf2c3d14dfbc",
+      "n_rows": 671,
+      "n_concrete_families": 625,
+      "n_concrete_equations": 431,
+      "unresolved_terms": [
+        {
+          "row": 227,
+          "smiles": "*SC(=O)C[C@@H](C)O",
+          "reason": "Abstract wildcard structure",
+          "description": "(3R)-3-hydroxybutanoyl-[acyl-carrier protein](aq) = cis-but-2-enoyl-[acyl-carrier protein](aq) + H2O(l)"
+        },
+        {
+          "row": 227,
+          "smiles": "*SC(=O)/C=C/C",
+          "reason": "Abstract wildcard structure",
+          "description": "(3R)-3-hydroxybutanoyl-[acyl-carrier protein](aq) = cis-but-2-enoyl-[acyl-carrier protein](aq) + H2O(l)"
+        },
+        {
+          "row": 339,
+          "smiles": "*C(=O)OCC(COP(=O)(O)O[C@@H]1[C@H](O)[C@H](O)[C@@H](O)[C@H](O)[C@H]1O)OC(*)=O",
+          "reason": "Abstract wildcard structure",
+          "description": "ATP(aq) + 1-phosphatidyl-1D-myo-inositol(aq) = ADP(aq) + 1-phosphatidyl-1D-myo-inositol 4-phosphate(aq)"
+        },
+        {
+          "row": 339,
+          "smiles": "*C(=O)OC[C@H](COP(=O)(O)O[C@H]1[C@H](O)[C@@H](O)[C@H](OP(=O)(O)O)[C@@H](O)[C@H]1O)OC(*)=O",
+          "reason": "Abstract wildcard structure",
+          "description": "ATP(aq) + 1-phosphatidyl-1D-myo-inositol(aq) = ADP(aq) + 1-phosphatidyl-1D-myo-inositol 4-phosphate(aq)"
+        },
+        {
+          "row": 358,
+          "smiles": "*NC(=O)[C@H](Cc1ccc(O)cc1)NC(*)=O",
+          "reason": "Abstract wildcard structure",
+          "description": "ATP(aq) + [L-glutamate:ammonia ligase(ADP-forming)](aq) = pyrophosphate(aq) + adenylyl-[L-glutamate:ammonia ligase(ADP-forming)](aq)"
+        },
+        {
+          "row": 358,
+          "smiles": "*NC(=O)[C@H](Cc1ccc(OP(=O)(O)OC[C@H]2O[C@@H](n3cnc4c(N)ncnc43)[C@H](O)[C@@H]2O)cc1)NC(*)=O",
+          "reason": "Abstract wildcard structure",
+          "description": "ATP(aq) + [L-glutamate:ammonia ligase(ADP-forming)](aq) = pyrophosphate(aq) + adenylyl-[L-glutamate:ammonia ligase(ADP-forming)](aq)"
+        },
+        {
+          "row": 371,
+          "smiles": "*NC(=O)[C@H](CO)NC(*)=O",
+          "reason": "Abstract wildcard structure",
+          "description": "ATP(aq) + myosin light chain(aq) = ADP(aq) + myosin light chain phosphate(aq)"
+        },
+        {
+          "row": 371,
+          "smiles": "*NC(=O)[C@H](COP(=O)(O)O)NC(*)=O",
+          "reason": "Abstract wildcard structure",
+          "description": "ATP(aq) + myosin light chain(aq) = ADP(aq) + myosin light chain phosphate(aq)"
+        },
+        {
+          "row": 552,
+          "smiles": "*S",
+          "reason": "Abstract wildcard structure",
+          "description": "acetyl-CoA(aq) + acyl-carrier protein(aq) = CoA(aq) + acetyl-[acyl-carrier protein](aq)"
+        },
+        {
+          "row": 552,
+          "smiles": "*SC(C)=O",
+          "reason": "Abstract wildcard structure",
+          "description": "acetyl-CoA(aq) + acyl-carrier protein(aq) = CoA(aq) + acetyl-[acyl-carrier protein](aq)"
+        },
+        {
+          "row": 554,
+          "smiles": "*/C1=C2/N=C(/C(*)=C3\\N=C(/C(*)=C4\\N([Co])C(*)(C(*)(*)C4(*)*)C4(*)N=C1C(*)(*)C4(*)*)C(*)(*)C3(*)*)C(*)(*)C2(*)*",
+          "reason": "Abstract wildcard structure",
+          "description": "acetyl-CoA(aq) + corrinoid protein(aq) = carbon monoxide(aq) + methylcorrinoid protein(aq) + CoA(aq)"
+        },
+        {
+          "row": 554,
+          "smiles": "*/C1=C2/N=C(/C(*)=C3\\N=C(/C(*)=C4\\N([Co+]C)C(*)(C(*)(*)C4(*)*)C4(*)N=C1C(*)(*)C4(*)*)C(*)(*)C3(*)*)C(*)(*)C2(*)*",
+          "reason": "Abstract wildcard structure",
+          "description": "acetyl-CoA(aq) + corrinoid protein(aq) = carbon monoxide(aq) + methylcorrinoid protein(aq) + CoA(aq)"
+        },
+        {
+          "row": 621,
+          "smiles": "*NC(=O)[C@H](CSC(C)C1=C(C)/C2=C/c3c(C(C)SC[C@H](NC(*)=O)C(=O)N*)c(C)c4n3[Fe+]n3/c(c(C)c(CCC(=O)O)/c3=C/C3=N/C(=C\\4)C(C)=C3CCC(=O)O)=C\\C1=N2)NC(*)=O",
+          "reason": "Abstract wildcard structure",
+          "description": "lactose(aq) + 2 cytochrome c(aq) = 3-oxolactose(aq) + 2 reduced cytochrome c(aq)"
+        },
+        {
+          "row": 621,
+          "smiles": "*NC(=O)[C@H](CSC(C)C1=C(C)/C2=C/c3c(C(C)SC[C@H](NC(*)=O)C(=O)N*)c(C)c4n3[Fe]n3/c(c(C)c(CCC(=O)O)/c3=C/C3=N/C(=C\\4)C(C)=C3CCC(=O)O)=C\\C1=N2)NC(*)=O",
+          "reason": "Abstract wildcard structure",
+          "description": "lactose(aq) + 2 cytochrome c(aq) = 3-oxolactose(aq) + 2 reduced cytochrome c(aq)"
+        },
+        {
+          "row": 625,
+          "smiles": "*S",
+          "reason": "Abstract wildcard structure",
+          "description": "malonyl-CoA(aq) + acyl-carrier protein(aq) = CoA(aq) + malonyl-[acyl-carrier protein](aq)"
+        },
+        {
+          "row": 625,
+          "smiles": "*SC(=O)CC(=O)O",
+          "reason": "Abstract wildcard structure",
+          "description": "malonyl-CoA(aq) + acyl-carrier protein(aq) = CoA(aq) + malonyl-[acyl-carrier protein](aq)"
+        },
+        {
+          "row": 652,
+          "smiles": "*N[C@@H](CS)C(=O)N[C@@H](*)C(=O)N[C@@H](*)C(=O)N[C@@H](CS)C(*)=O",
+          "reason": "Abstract wildcard structure",
+          "description": "reduced thioredoxin(aq) + NADP(aq) = oxidized thioredoxin(aq) + NADPH(aq)"
+        },
+        {
+          "row": 652,
+          "smiles": "*N[C@H]1CSSC[C@@H](C(*)=O)NC(=O)[C@H](*)NC(=O)[C@H](*)NC1=O",
+          "reason": "Abstract wildcard structure",
+          "description": "reduced thioredoxin(aq) + NADP(aq) = oxidized thioredoxin(aq) + NADPH(aq)"
+        }
+      ],
+      "results": [
+        {
+          "candidate": "Tufvesson2012_R_hypothesis",
+          "chemically_balanced": true,
+          "concrete_training_equation_present": false,
+          "molecules": [
+            {
+              "name": "4-phenylbutan-2-amine",
+              "supplied_smiles": "C[C@@H](N)CCc1ccccc1",
+              "family_key": "C[C@@H](N)CCc1ccccc1",
+              "concrete_family_present": false,
+              "matching_training_rows": [],
+              "nearest_concrete_family": "N[C@@H](Cc1ccccc1)C(=O)O",
+              "nearest_chiral_morgan_similarity": 0.3870967741935484,
+              "compatible_abstract_training_scaffolds": []
+            },
+            {
+              "name": "cyclohexanone",
+              "supplied_smiles": "O=C1CCCCC1",
+              "family_key": "O=C1CCCCC1",
+              "concrete_family_present": true,
+              "matching_training_rows": [
+                583
+              ],
+              "nearest_concrete_family": "O=C1CCCCC1",
+              "nearest_chiral_morgan_similarity": 1.0,
+              "compatible_abstract_training_scaffolds": []
+            },
+            {
+              "name": "4-phenylbutan-2-one",
+              "supplied_smiles": "CC(=O)CCc1ccccc1",
+              "family_key": "CC(=O)CCc1ccccc1",
+              "concrete_family_present": false,
+              "matching_training_rows": [],
+              "nearest_concrete_family": "O=C(O)Cc1ccccc1",
+              "nearest_chiral_morgan_similarity": 0.46153846153846156,
+              "compatible_abstract_training_scaffolds": []
+            },
+            {
+              "name": "cyclohexylamine",
+              "supplied_smiles": "NC1CCCCC1",
+              "family_key": "NC1CCCCC1",
+              "concrete_family_present": false,
+              "matching_training_rows": [],
+              "nearest_concrete_family": "OC1CCCCC1",
+              "nearest_chiral_morgan_similarity": 0.375,
+              "compatible_abstract_training_scaffolds": []
+            }
+          ],
+          "n_absent_concrete_families": 3,
+          "n_distant_absent_families": 3,
+          "meets_structural_screen_on_concrete_subset": true,
+          "training_rows_with_unresolved_terms": [
+            227,
+            339,
+            358,
+            371,
+            552,
+            554,
+            621,
+            625,
+            652
+          ],
+          "primary_benchmark_novelty_certified": false,
+          "qualification": "Concrete-subset chemistry screen only. Abstract labels, source ancestry, state-pool identity, actual scored structures and exact comparator/checkpoint ownership require separate adjudication."
+        },
+        {
+          "candidate": "Tufvesson2012_S_hypothesis",
+          "chemically_balanced": true,
+          "concrete_training_equation_present": false,
+          "molecules": [
+            {
+              "name": "4-phenylbutan-2-amine",
+              "supplied_smiles": "C[C@H](N)CCc1ccccc1",
+              "family_key": "C[C@H](N)CCc1ccccc1",
+              "concrete_family_present": false,
+              "matching_training_rows": [],
+              "nearest_concrete_family": "N[C@@H](Cc1ccccc1)C(=O)O",
+              "nearest_chiral_morgan_similarity": 0.3870967741935484,
+              "compatible_abstract_training_scaffolds": []
+            },
+            {
+              "name": "cyclohexanone",
+              "supplied_smiles": "O=C1CCCCC1",
+              "family_key": "O=C1CCCCC1",
+              "concrete_family_present": true,
+              "matching_training_rows": [
+                583
+              ],
+              "nearest_concrete_family": "O=C1CCCCC1",
+              "nearest_chiral_morgan_similarity": 1.0,
+              "compatible_abstract_training_scaffolds": []
+            },
+            {
+              "name": "4-phenylbutan-2-one",
+              "supplied_smiles": "CC(=O)CCc1ccccc1",
+              "family_key": "CC(=O)CCc1ccccc1",
+              "concrete_family_present": false,
+              "matching_training_rows": [],
+              "nearest_concrete_family": "O=C(O)Cc1ccccc1",
+              "nearest_chiral_morgan_similarity": 0.46153846153846156,
+              "compatible_abstract_training_scaffolds": []
+            },
+            {
+              "name": "cyclohexylamine",
+              "supplied_smiles": "NC1CCCCC1",
+              "family_key": "NC1CCCCC1",
+              "concrete_family_present": false,
+              "matching_training_rows": [],
+              "nearest_concrete_family": "OC1CCCCC1",
+              "nearest_chiral_morgan_similarity": 0.375,
+              "compatible_abstract_training_scaffolds": []
+            }
+          ],
+          "n_absent_concrete_families": 3,
+          "n_distant_absent_families": 3,
+          "meets_structural_screen_on_concrete_subset": true,
+          "training_rows_with_unresolved_terms": [
+            227,
+            339,
+            358,
+            371,
+            552,
+            554,
+            621,
+            625,
+            652
+          ],
+          "primary_benchmark_novelty_certified": false,
+          "qualification": "Concrete-subset chemistry screen only. Abstract labels, source ancestry, state-pool identity, actual scored structures and exact comparator/checkpoint ownership require separate adjudication."
+        },
+        {
+          "candidate": "Voges2017_S_hypothesis",
+          "chemically_balanced": true,
+          "concrete_training_equation_present": false,
+          "molecules": [
+            {
+              "name": "S-phenylethylamine",
+              "supplied_smiles": "C[C@H](N)c1ccccc1",
+              "family_key": "C[C@H](N)c1ccccc1",
+              "concrete_family_present": false,
+              "matching_training_rows": [],
+              "nearest_concrete_family": "Clc1ccccc1",
+              "nearest_chiral_morgan_similarity": 0.35,
+              "compatible_abstract_training_scaffolds": []
+            },
+            {
+              "name": "cyclohexanone",
+              "supplied_smiles": "O=C1CCCCC1",
+              "family_key": "O=C1CCCCC1",
+              "concrete_family_present": true,
+              "matching_training_rows": [
+                583
+              ],
+              "nearest_concrete_family": "O=C1CCCCC1",
+              "nearest_chiral_morgan_similarity": 1.0,
+              "compatible_abstract_training_scaffolds": []
+            },
+            {
+              "name": "acetophenone",
+              "supplied_smiles": "CC(=O)c1ccccc1",
+              "family_key": "CC(=O)c1ccccc1",
+              "concrete_family_present": false,
+              "matching_training_rows": [],
+              "nearest_concrete_family": "O=C(O)Cc1ccccc1",
+              "nearest_chiral_morgan_similarity": 0.375,
+              "compatible_abstract_training_scaffolds": []
+            },
+            {
+              "name": "cyclohexylamine",
+              "supplied_smiles": "NC1CCCCC1",
+              "family_key": "NC1CCCCC1",
+              "concrete_family_present": false,
+              "matching_training_rows": [],
+              "nearest_concrete_family": "OC1CCCCC1",
+              "nearest_chiral_morgan_similarity": 0.375,
+              "compatible_abstract_training_scaffolds": []
+            }
+          ],
+          "n_absent_concrete_families": 3,
+          "n_distant_absent_families": 3,
+          "meets_structural_screen_on_concrete_subset": true,
+          "training_rows_with_unresolved_terms": [
+            227,
+            339,
+            358,
+            371,
+            552,
+            554,
+            621,
+            625,
+            652
+          ],
+          "primary_benchmark_novelty_certified": false,
+          "qualification": "Concrete-subset chemistry screen only. Abstract labels, source ancestry, state-pool identity, actual scored structures and exact comparator/checkpoint ownership require separate adjudication."
+        },
+        {
+          "candidate": "Goldberg2011_E_hypothesis_not_source_identity",
+          "chemically_balanced": true,
+          "concrete_training_equation_present": false,
+          "molecules": [
+            {
+              "name": "E-methyl-ferulate",
+              "supplied_smiles": "COC(=O)/C=C/c1ccc(O)c(OC)c1",
+              "family_key": "COC(=O)/C=C/c1ccc(O)c(OC)c1",
+              "concrete_family_present": false,
+              "matching_training_rows": [],
+              "nearest_concrete_family": "COc1cc(/C=C/C=O)ccc1O",
+              "nearest_chiral_morgan_similarity": 0.6216216216216216,
+              "compatible_abstract_training_scaffolds": []
+            },
+            {
+              "name": "E-ferulic-acid",
+              "supplied_smiles": "COc1cc(/C=C/C(=O)O)ccc1O",
+              "family_key": "COc1cc(/C=C/C(=O)O)ccc1O",
+              "concrete_family_present": false,
+              "matching_training_rows": [],
+              "nearest_concrete_family": "COc1cc(/C=C/C(=O)O)cc(OC)c1O",
+              "nearest_chiral_morgan_similarity": 0.6764705882352942,
+              "compatible_abstract_training_scaffolds": []
+            },
+            {
+              "name": "methanol",
+              "supplied_smiles": "CO",
+              "family_key": "CO",
+              "concrete_family_present": true,
+              "matching_training_rows": [
+                179
+              ],
+              "nearest_concrete_family": "CO",
+              "nearest_chiral_morgan_similarity": 1.0,
+              "compatible_abstract_training_scaffolds": []
+            }
+          ],
+          "n_absent_concrete_families": 2,
+          "n_distant_absent_families": 0,
+          "meets_structural_screen_on_concrete_subset": false,
+          "training_rows_with_unresolved_terms": [
+            227,
+            339,
+            358,
+            371,
+            552,
+            554,
+            621,
+            625,
+            652
+          ],
+          "primary_benchmark_novelty_certified": false,
+          "qualification": "Concrete-subset chemistry screen only. Abstract labels, source ancestry, state-pool identity, actual scored structures and exact comparator/checkpoint ownership require separate adjudication."
+        }
+      ]
+    },
+    "author675": {
+      "path": "MetaG/analysis/independent_reference_curation_20261104_02/TrainingData_author675.csv",
+      "sha256": "cd8ede797d2f1c088cccf6b6561d258a34e753ff1ea8c43ca8cb36ca28553f3c",
+      "n_rows": 675,
+      "n_concrete_families": 626,
+      "n_concrete_equations": 437,
+      "unresolved_terms": [
+        {
+          "row": 228,
+          "smiles": "*SC(=O)C([H])([H])[C@]([H])(O[H])C([H])([H])[H]",
+          "reason": "Abstract wildcard structure",
+          "description": "(3R)-3-hydroxybutanoyl-[acyl-carrier protein](aq) = cis-but-2-enoyl-[acyl-carrier protein](aq) + H2O(l)"
+        },
+        {
+          "row": 228,
+          "smiles": "*SC(=O)/C([H])=C(\\[H])C([H])([H])[H]",
+          "reason": "Abstract wildcard structure",
+          "description": "(3R)-3-hydroxybutanoyl-[acyl-carrier protein](aq) = cis-but-2-enoyl-[acyl-carrier protein](aq) + H2O(l)"
+        },
+        {
+          "row": 341,
+          "smiles": "*C(=O)OC([H])([H])C([H])(OC(*)=O)C([H])([H])OP(=O)(O[H])O[C@@]1([H])[C@]([H])(O[H])[C@@]([H])(O[H])[C@]([H])(O[H])[C@@]([H])(O[H])[C@@]1([H])O[H]",
+          "reason": "Abstract wildcard structure",
+          "description": "ATP(aq) + 1-phosphatidyl-1D-myo-inositol(aq) = ADP(aq) + 1-phosphatidyl-1D-myo-inositol 4-phosphate(aq)"
+        },
+        {
+          "row": 341,
+          "smiles": "*C(=O)OC([H])([H])[C@@]([H])(OC(*)=O)C([H])([H])OP(=O)(O[H])O[C@]1([H])[C@]([H])(O[H])[C@]([H])(O[H])[C@@]([H])(OP(=O)(O[H])O[H])[C@]([H])(O[H])[C@@]1([H])O[H]",
+          "reason": "Abstract wildcard structure",
+          "description": "ATP(aq) + 1-phosphatidyl-1D-myo-inositol(aq) = ADP(aq) + 1-phosphatidyl-1D-myo-inositol 4-phosphate(aq)"
+        },
+        {
+          "row": 360,
+          "smiles": "*C(=O)N([H])[C@]([H])(C(=O)N(*)[H])C([H])([H])c1c([H])c([H])c(O[H])c([H])c1[H]",
+          "reason": "Abstract wildcard structure",
+          "description": "ATP(aq) + [L-glutamate:ammonia ligase(ADP-forming)](aq) = pyrophosphate(aq) + adenylyl-[L-glutamate:ammonia ligase(ADP-forming)](aq)"
+        },
+        {
+          "row": 360,
+          "smiles": "*C(=O)N([H])[C@]([H])(C(=O)N(*)[H])C([H])([H])c1c([H])c([H])c(OP(=O)(O[H])OC([H])([H])[C@@]2([H])O[C@@]([H])(n3c([H])nc4c(N([H])[H])nc([H])nc43)[C@]([H])(O[H])[C@]2([H])O[H])c([H])c1[H]",
+          "reason": "Abstract wildcard structure",
+          "description": "ATP(aq) + [L-glutamate:ammonia ligase(ADP-forming)](aq) = pyrophosphate(aq) + adenylyl-[L-glutamate:ammonia ligase(ADP-forming)](aq)"
+        },
+        {
+          "row": 373,
+          "smiles": "*C(=O)N([H])[C@]([H])(C(=O)N(*)[H])C([H])([H])O[H]",
+          "reason": "Abstract wildcard structure",
+          "description": "ATP(aq) + myosin light chain(aq) = ADP(aq) + myosin light chain phosphate(aq)"
+        },
+        {
+          "row": 373,
+          "smiles": "*C(=O)N([H])[C@]([H])(C(=O)N(*)[H])C([H])([H])OP(=O)(O[H])O[H]",
+          "reason": "Abstract wildcard structure",
+          "description": "ATP(aq) + myosin light chain(aq) = ADP(aq) + myosin light chain phosphate(aq)"
+        },
+        {
+          "row": 556,
+          "smiles": "*S[H]",
+          "reason": "Abstract wildcard structure",
+          "description": "acetyl-CoA(aq) + acyl-carrier protein(aq) = CoA(aq) + acetyl-[acyl-carrier protein](aq)"
+        },
+        {
+          "row": 556,
+          "smiles": "*SC(=O)C([H])([H])[H]",
+          "reason": "Abstract wildcard structure",
+          "description": "acetyl-CoA(aq) + acyl-carrier protein(aq) = CoA(aq) + acetyl-[acyl-carrier protein](aq)"
+        },
+        {
+          "row": 629,
+          "smiles": "*S[H]",
+          "reason": "Abstract wildcard structure",
+          "description": "malonyl-CoA(aq) + acyl-carrier protein(aq) = CoA(aq) + malonyl-[acyl-carrier protein](aq)"
+        },
+        {
+          "row": 629,
+          "smiles": "*SC(=O)C([H])([H])C(=O)O[H]",
+          "reason": "Abstract wildcard structure",
+          "description": "malonyl-CoA(aq) + acyl-carrier protein(aq) = CoA(aq) + malonyl-[acyl-carrier protein](aq)"
+        },
+        {
+          "row": 656,
+          "smiles": "*C(=O)[C@@]([H])(N([H])C(=O)[C@@](*)([H])N([H])C(=O)[C@@](*)([H])N([H])C(=O)[C@@]([H])(N(*)[H])C([H])([H])S[H])C([H])([H])S[H]",
+          "reason": "Abstract wildcard structure",
+          "description": "reduced thioredoxin(aq) + NADP(aq) = oxidized thioredoxin(aq) + NADPH(aq)"
+        },
+        {
+          "row": 656,
+          "smiles": "*C(=O)[C@@]1([H])N([H])C(=O)[C@@](*)([H])N([H])C(=O)[C@@](*)([H])N([H])C(=O)[C@@]([H])(N(*)[H])C([H])([H])SSC1([H])[H]",
+          "reason": "Abstract wildcard structure",
+          "description": "reduced thioredoxin(aq) + NADP(aq) = oxidized thioredoxin(aq) + NADPH(aq)"
+        }
+      ],
+      "results": [
+        {
+          "candidate": "Tufvesson2012_R_hypothesis",
+          "chemically_balanced": true,
+          "concrete_training_equation_present": false,
+          "molecules": [
+            {
+              "name": "4-phenylbutan-2-amine",
+              "supplied_smiles": "C[C@@H](N)CCc1ccccc1",
+              "family_key": "C[C@@H](N)CCc1ccccc1",
+              "concrete_family_present": false,
+              "matching_training_rows": [],
+              "nearest_concrete_family": "N[C@@H](Cc1ccccc1)C(=O)O",
+              "nearest_chiral_morgan_similarity": 0.3870967741935484,
+              "compatible_abstract_training_scaffolds": []
+            },
+            {
+              "name": "cyclohexanone",
+              "supplied_smiles": "O=C1CCCCC1",
+              "family_key": "O=C1CCCCC1",
+              "concrete_family_present": true,
+              "matching_training_rows": [
+                586
+              ],
+              "nearest_concrete_family": "O=C1CCCCC1",
+              "nearest_chiral_morgan_similarity": 1.0,
+              "compatible_abstract_training_scaffolds": []
+            },
+            {
+              "name": "4-phenylbutan-2-one",
+              "supplied_smiles": "CC(=O)CCc1ccccc1",
+              "family_key": "CC(=O)CCc1ccccc1",
+              "concrete_family_present": false,
+              "matching_training_rows": [],
+              "nearest_concrete_family": "O=C(O)Cc1ccccc1",
+              "nearest_chiral_morgan_similarity": 0.46153846153846156,
+              "compatible_abstract_training_scaffolds": []
+            },
+            {
+              "name": "cyclohexylamine",
+              "supplied_smiles": "NC1CCCCC1",
+              "family_key": "NC1CCCCC1",
+              "concrete_family_present": false,
+              "matching_training_rows": [],
+              "nearest_concrete_family": "OC1CCCCC1",
+              "nearest_chiral_morgan_similarity": 0.375,
+              "compatible_abstract_training_scaffolds": []
+            }
+          ],
+          "n_absent_concrete_families": 3,
+          "n_distant_absent_families": 3,
+          "meets_structural_screen_on_concrete_subset": true,
+          "training_rows_with_unresolved_terms": [
+            228,
+            341,
+            360,
+            373,
+            556,
+            629,
+            656
+          ],
+          "primary_benchmark_novelty_certified": false,
+          "qualification": "Concrete-subset chemistry screen only. Abstract labels, source ancestry, state-pool identity, actual scored structures and exact comparator/checkpoint ownership require separate adjudication."
+        },
+        {
+          "candidate": "Tufvesson2012_S_hypothesis",
+          "chemically_balanced": true,
+          "concrete_training_equation_present": false,
+          "molecules": [
+            {
+              "name": "4-phenylbutan-2-amine",
+              "supplied_smiles": "C[C@H](N)CCc1ccccc1",
+              "family_key": "C[C@H](N)CCc1ccccc1",
+              "concrete_family_present": false,
+              "matching_training_rows": [],
+              "nearest_concrete_family": "N[C@@H](Cc1ccccc1)C(=O)O",
+              "nearest_chiral_morgan_similarity": 0.3870967741935484,
+              "compatible_abstract_training_scaffolds": []
+            },
+            {
+              "name": "cyclohexanone",
+              "supplied_smiles": "O=C1CCCCC1",
+              "family_key": "O=C1CCCCC1",
+              "concrete_family_present": true,
+              "matching_training_rows": [
+                586
+              ],
+              "nearest_concrete_family": "O=C1CCCCC1",
+              "nearest_chiral_morgan_similarity": 1.0,
+              "compatible_abstract_training_scaffolds": []
+            },
+            {
+              "name": "4-phenylbutan-2-one",
+              "supplied_smiles": "CC(=O)CCc1ccccc1",
+              "family_key": "CC(=O)CCc1ccccc1",
+              "concrete_family_present": false,
+              "matching_training_rows": [],
+              "nearest_concrete_family": "O=C(O)Cc1ccccc1",
+              "nearest_chiral_morgan_similarity": 0.46153846153846156,
+              "compatible_abstract_training_scaffolds": []
+            },
+            {
+              "name": "cyclohexylamine",
+              "supplied_smiles": "NC1CCCCC1",
+              "family_key": "NC1CCCCC1",
+              "concrete_family_present": false,
+              "matching_training_rows": [],
+              "nearest_concrete_family": "OC1CCCCC1",
+              "nearest_chiral_morgan_similarity": 0.375,
+              "compatible_abstract_training_scaffolds": []
+            }
+          ],
+          "n_absent_concrete_families": 3,
+          "n_distant_absent_families": 3,
+          "meets_structural_screen_on_concrete_subset": true,
+          "training_rows_with_unresolved_terms": [
+            228,
+            341,
+            360,
+            373,
+            556,
+            629,
+            656
+          ],
+          "primary_benchmark_novelty_certified": false,
+          "qualification": "Concrete-subset chemistry screen only. Abstract labels, source ancestry, state-pool identity, actual scored structures and exact comparator/checkpoint ownership require separate adjudication."
+        },
+        {
+          "candidate": "Voges2017_S_hypothesis",
+          "chemically_balanced": true,
+          "concrete_training_equation_present": false,
+          "molecules": [
+            {
+              "name": "S-phenylethylamine",
+              "supplied_smiles": "C[C@H](N)c1ccccc1",
+              "family_key": "C[C@H](N)c1ccccc1",
+              "concrete_family_present": false,
+              "matching_training_rows": [],
+              "nearest_concrete_family": "Clc1ccccc1",
+              "nearest_chiral_morgan_similarity": 0.35,
+              "compatible_abstract_training_scaffolds": []
+            },
+            {
+              "name": "cyclohexanone",
+              "supplied_smiles": "O=C1CCCCC1",
+              "family_key": "O=C1CCCCC1",
+              "concrete_family_present": true,
+              "matching_training_rows": [
+                586
+              ],
+              "nearest_concrete_family": "O=C1CCCCC1",
+              "nearest_chiral_morgan_similarity": 1.0,
+              "compatible_abstract_training_scaffolds": []
+            },
+            {
+              "name": "acetophenone",
+              "supplied_smiles": "CC(=O)c1ccccc1",
+              "family_key": "CC(=O)c1ccccc1",
+              "concrete_family_present": false,
+              "matching_training_rows": [],
+              "nearest_concrete_family": "O=C(O)Cc1ccccc1",
+              "nearest_chiral_morgan_similarity": 0.375,
+              "compatible_abstract_training_scaffolds": []
+            },
+            {
+              "name": "cyclohexylamine",
+              "supplied_smiles": "NC1CCCCC1",
+              "family_key": "NC1CCCCC1",
+              "concrete_family_present": false,
+              "matching_training_rows": [],
+              "nearest_concrete_family": "OC1CCCCC1",
+              "nearest_chiral_morgan_similarity": 0.375,
+              "compatible_abstract_training_scaffolds": []
+            }
+          ],
+          "n_absent_concrete_families": 3,
+          "n_distant_absent_families": 3,
+          "meets_structural_screen_on_concrete_subset": true,
+          "training_rows_with_unresolved_terms": [
+            228,
+            341,
+            360,
+            373,
+            556,
+            629,
+            656
+          ],
+          "primary_benchmark_novelty_certified": false,
+          "qualification": "Concrete-subset chemistry screen only. Abstract labels, source ancestry, state-pool identity, actual scored structures and exact comparator/checkpoint ownership require separate adjudication."
+        },
+        {
+          "candidate": "Goldberg2011_E_hypothesis_not_source_identity",
+          "chemically_balanced": true,
+          "concrete_training_equation_present": false,
+          "molecules": [
+            {
+              "name": "E-methyl-ferulate",
+              "supplied_smiles": "COC(=O)/C=C/c1ccc(O)c(OC)c1",
+              "family_key": "COC(=O)/C=C/c1ccc(O)c(OC)c1",
+              "concrete_family_present": false,
+              "matching_training_rows": [],
+              "nearest_concrete_family": "COc1cc(/C=C/C=O)ccc1O",
+              "nearest_chiral_morgan_similarity": 0.6216216216216216,
+              "compatible_abstract_training_scaffolds": []
+            },
+            {
+              "name": "E-ferulic-acid",
+              "supplied_smiles": "COc1cc(/C=C/C(=O)O)ccc1O",
+              "family_key": "COc1cc(/C=C/C(=O)O)ccc1O",
+              "concrete_family_present": false,
+              "matching_training_rows": [],
+              "nearest_concrete_family": "COc1cc(/C=C/C(=O)O)cc(OC)c1O",
+              "nearest_chiral_morgan_similarity": 0.6764705882352942,
+              "compatible_abstract_training_scaffolds": []
+            },
+            {
+              "name": "methanol",
+              "supplied_smiles": "CO",
+              "family_key": "CO",
+              "concrete_family_present": true,
+              "matching_training_rows": [
+                179
+              ],
+              "nearest_concrete_family": "CO",
+              "nearest_chiral_morgan_similarity": 1.0,
+              "compatible_abstract_training_scaffolds": []
+            }
+          ],
+          "n_absent_concrete_families": 2,
+          "n_distant_absent_families": 0,
+          "meets_structural_screen_on_concrete_subset": false,
+          "training_rows_with_unresolved_terms": [
+            228,
+            341,
+            360,
+            373,
+            556,
+            629,
+            656
+          ],
+          "primary_benchmark_novelty_certified": false,
+          "qualification": "Concrete-subset chemistry screen only. Abstract labels, source ancestry, state-pool identity, actual scored structures and exact comparator/checkpoint ownership require separate adjudication."
+        }
+      ]
+    }
+  }
+}

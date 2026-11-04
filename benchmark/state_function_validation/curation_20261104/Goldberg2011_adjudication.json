@@ -1,0 +1,53 @@
+{
+  "schema": "metag-primary-reference-adjudication-v1",
+  "doi": "10.1016/j.jct.2010.09.002",
+  "citation": "Goldberg, Lang, Selig and Decker, Journal of Chemical Thermodynamics43(2011)235\u2013239",
+  "primary_url": "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=906068",
+  "primary_pdf_sha256": "531d490a4ce2a20b40798bddc34766d3c0edb6e678a836ec2c02c0abcc18cac0",
+  "status": "not_admitted_unresolved_cis_trans_identity",
+  "primary_reference": {
+    "equation": "methylferulate(aq)+water(l)=methanol(aq)+ferulicacid-(aq)+H+(aq)",
+    "T_K": 298.15,
+    "I_molal": 0.0,
+    "solute_standard": "hypothetical ideal1mol/kg solution",
+    "solvent_standard": "purewater",
+    "pressure_MPa": 0.1,
+    "G_kj_per_mol": 21.25,
+    "G_expanded_uncertainty_final_body_kj_per_mol": 0.08,
+    "abstract_uncertainty_kj_per_mol": 0.07,
+    "K_final": 0.000189,
+    "K_final_uncertainty": 6e-06
+  },
+  "measurement": {
+    "method": "HPLC equilibrium approached from both directions",
+    "pH": 4.98,
+    "I_molal": 0.39,
+    "K_prime": 29.6,
+    "expanded_uncertainty": 0.7,
+    "measurement_model": "Model-based zero-I chemical reference derived with extended Debye\u2013Huckel, ion-size parameter1.6; measurement and parameter uncertainties discussed separately."
+  },
+  "source_acid_steps": {
+    "ferulic_acid": [
+      4.29,
+      8.75
+    ],
+    "methyl_ferulate": [
+      8.75
+    ],
+    "estimated_uncertainty": [
+      0.05,
+      0.3,
+      0.3
+    ],
+    "methyl_phenol_value_estimated_from_structural_similarity": true
+  },
+  "identity_gate": "Section3.1 explicitly states both substrates are cis/trans mixtures with unknown fractions and unknown interconversion equilibria. A single all-E molecular graph must not be silently substituted.",
+  "novelty_gate": "The all-E structural hypothesis is absent but has nearest chiralMorgan similarity0.622(methylester) and0.676(acid) in both671/675concrete corpora; it fails the predeclared<0.5unfamiliar-chemistry screen.",
+  "additional_gates": [
+    "ReferencepH transform and molal-to-molar standard conversion are not yet a source-owned admitted label.",
+    "Expanded\u00b1.08body result must not be replaced by abstract\u00b1.07if used.",
+    "Correlations between source acid parameters and equilibrium-model reference need preservation."
+  ],
+  "prediction_or_residual_evaluated": false,
+  "admitted": false
+}

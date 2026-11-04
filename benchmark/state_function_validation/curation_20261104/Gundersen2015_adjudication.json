@@ -1,0 +1,42 @@
+{
+  "schema": "metag-primary-reference-adjudication-v1",
+  "doi": "10.1016/j.tetasy.2015.04.006",
+  "primary_author_host": "https://backend.orbit.dtu.dk/ws/files/142467051/711866_DTU_PhD_Maria_Gundersen_Deslauriers_enkeltsider_til_orbit.pdf",
+  "primary_thesis_sha256": "8aefa6b44d6af31f4399e38bcbed365dd446f327509bbe4c8b8279853a6d8172",
+  "reprinted_article_pdf_pages": [
+    172,
+    173,
+    174,
+    175
+  ],
+  "status": "not_admitted_mixed_solvent_and_condition_bridge",
+  "conditions": {
+    "temperature_K": 303.15,
+    "pH": 7.0,
+    "buffer": "0.1MTris-HCl",
+    "cosolvent": "5%(v/v)DMSO",
+    "substrate_mM": [
+      2,
+      10
+    ],
+    "PLP_mM": 1.0,
+    "incubation_h": 48.0,
+    "n_experiments_per_reaction_minimum": 6
+  },
+  "source_gate": "Concentration-based apparent equilibria in mixed solvent cannot label a pure-waterI0target without a justified solvent/activity/temperature bridge.",
+  "secondary_protocol_gate": "The paper has separate experimental setups for aminoindane/alanine cases; those conditions must not be inherited from the general protocol.",
+  "novelty": "Potential structurally unfamiliartransamination chemistry; not a measured pure-waterbenchmark.",
+  "admitted": false,
+  "prediction_or_residual_evaluated": false,
+  "close_methodological_precedent": {
+    "doi": "10.1002/cctc.201500347",
+    "reprinted_article_pdf_pages": [
+      176,
+      177,
+      178,
+      179
+    ],
+    "method": "B3LYP/6-311+(d,p) molecular optimizations and additive reaction electronic energy differences, used to screen transamination thermodynamics; thermal/solvent/dynamical terms omitted under a cancellation assumption.",
+    "implication": "Atomistic reaction-energy decomposition and reuse of molecular energies predate MetaG. Novelty must concern the demonstrated MLIP biochemical framework and validated benefits, not the atomistic route itself."
+  }
+}

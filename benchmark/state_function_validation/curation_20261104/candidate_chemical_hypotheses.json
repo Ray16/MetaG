@@ -1,0 +1,113 @@
+{
+  "scope": "Source-curation hypotheses, not frozen or admitted benchmark structures. No experimental numbers or predictions select these inputs.",
+  "candidates": [
+    {
+      "id": "Tufvesson2012_R_hypothesis",
+      "doi": "10.1002/bit.24472",
+      "source_state_admission": "Reaction chemistry from review; enantiomeric composition and experimental protocol unresolved. Both hypotheses retained.",
+      "species": [
+        {
+          "name": "4-phenylbutan-2-amine",
+          "coefficient": -1,
+          "smiles": "C[C@@H](N)CCc1ccccc1"
+        },
+        {
+          "name": "cyclohexanone",
+          "coefficient": -1,
+          "smiles": "O=C1CCCCC1"
+        },
+        {
+          "name": "4-phenylbutan-2-one",
+          "coefficient": 1,
+          "smiles": "CC(=O)CCc1ccccc1"
+        },
+        {
+          "name": "cyclohexylamine",
+          "coefficient": 1,
+          "smiles": "NC1CCCCC1"
+        }
+      ]
+    },
+    {
+      "id": "Tufvesson2012_S_hypothesis",
+      "doi": "10.1002/bit.24472",
+      "source_state_admission": "Reaction chemistry from review; enantiomeric composition and experimental protocol unresolved. Both hypotheses retained.",
+      "species": [
+        {
+          "name": "4-phenylbutan-2-amine",
+          "coefficient": -1,
+          "smiles": "C[C@H](N)CCc1ccccc1"
+        },
+        {
+          "name": "cyclohexanone",
+          "coefficient": -1,
+          "smiles": "O=C1CCCCC1"
+        },
+        {
+          "name": "4-phenylbutan-2-one",
+          "coefficient": 1,
+          "smiles": "CC(=O)CCc1ccccc1"
+        },
+        {
+          "name": "cyclohexylamine",
+          "coefficient": 1,
+          "smiles": "NC1CCCCC1"
+        }
+      ]
+    },
+    {
+      "id": "Voges2017_S_hypothesis",
+      "doi": "10.1021/acs.oprd.7b00078",
+      "source_state_admission": "S enantiomer named by primary abstract; activity/pKa/temperature and full-text protocol pending.",
+      "species": [
+        {
+          "name": "S-phenylethylamine",
+          "coefficient": -1,
+          "smiles": "C[C@H](N)c1ccccc1"
+        },
+        {
+          "name": "cyclohexanone",
+          "coefficient": -1,
+          "smiles": "O=C1CCCCC1"
+        },
+        {
+          "name": "acetophenone",
+          "coefficient": 1,
+          "smiles": "CC(=O)c1ccccc1"
+        },
+        {
+          "name": "cyclohexylamine",
+          "coefficient": 1,
+          "smiles": "NC1CCCCC1"
+        }
+      ]
+    },
+    {
+      "id": "Goldberg2011_E_hypothesis_not_source_identity",
+      "doi": "10.1016/j.jct.2010.09.002",
+      "source_state_admission": "Primary paper explicitly uses unresolved cis/trans mixtures. This all-E hypothesis is not the experimental input and is not admitted.",
+      "species": [
+        {
+          "name": "E-methyl-ferulate",
+          "coefficient": -1,
+          "smiles": "COC(=O)/C=C/c1ccc(O)c(OC)c1"
+        },
+        {
+          "name": "water",
+          "coefficient": -1,
+          "smiles": "O"
+        },
+        {
+          "name": "E-ferulic-acid",
+          "coefficient": 1,
+          "smiles": "COc1cc(/C=C/C(=O)O)ccc1O"
+        },
+        {
+          "name": "methanol",
+          "coefficient": 1,
+          "smiles": "CO"
+        }
+      ]
+    }
+  ]
+}
