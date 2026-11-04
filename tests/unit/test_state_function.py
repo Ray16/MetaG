@@ -85,6 +85,19 @@ def test_proton_drawings_share_reference_and_sampling_uncertainty():
     assert result["U_samp"] == 0
 
 
+@pytest.mark.parametrize("left,q_left,right,q_right,n_hplus", [
+    ("NCC(=O)O", 0, "[NH3+]CC(=O)[O-]", 0, 0),
+    ("CCN", 0, "CC[NH3+]", 1, -1),
+])
+def test_supported_base_drawings_share_the_same_transformed_family(left,q_left,right,q_right,n_hplus):
+    estimator = StateFunctionEstimator(Backend())
+    reaction = {"species": {"left": [-1,q_left,left], "right": [1,q_right,right]},
+                "n_Hplus": n_hplus}
+    result = estimator.score_reaction(reaction)
+    assert result["dG"] == 0, result["suspect"]
+    assert result["U_samp"] == 0
+
+
 def test_records_and_ledger_exports_are_copies():
     estimator = StateFunctionEstimator(Backend())
     a = estimator.state(-1, "CC(=O)[O-]")

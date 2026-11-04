@@ -52,23 +52,34 @@ to a reaction result is made to force cycle closure.
 
 ## Supported scope
 
-The initial profile supports specified individual molecular inputs and automatic
-source-registry acid models. It refuses flat caller pKa terms, caller protonation
-models and declared sugar pools. It also refuses unresolved stereochemistry,
+The profile supports specified individual molecular inputs, automatic
+source-registry acid models and explicitly declared reducing-sugar pools.
+For a pool, each required ring/open-chain state receives its own protonation
+and hydration treatment before the complete partition is formed. Its identity
+depends on the declared chemical state set rather than the starting drawing or
+the source label. The source declaration remains attached to each reaction.
+An unavailable constituent refuses the whole pool; retained states are never
+renormalized to rescue an incomplete estimate.
+
+The profile refuses flat caller pKa terms and caller protonation
+models. It also refuses unresolved stereochemistry outside an admitted pool,
 isotopes, unbalanced reactions and failed reference or molecular calculations.
 It must not silently substitute a single sugar drawing for a declared solution
 pool. Full-molecule calculations can be substantially more expensive than the
 established reduced-molecule workflow.
 
 `dG_unrounded` is retained for closure and reversal checks. `dG` is rounded to
-0.1 kJ/mol. Sampling spreads of exactly shared molecular references are grouped
-before propagation. Correlations between distinct hydration families, physical
+0.1 kJ/mol. Sampling derivatives propagate through both hydration and ring/chain
+partitions. Shared raw molecular estimates are combined before quadrature, even
+when a fixed state is also a constituent of a pool. Distinct raw estimates are
+assumed independent. Physical
 model error, missing states and parameter uncertainty are not calibrated by
 `U_samp`; it is not a total prediction interval.
 
 ## Verification and promotion
 
-Run the focused tests with `python -m pytest tests/unit/test_state_function.py`.
+Run the focused tests with
+`python -m pytest tests/unit/test_state_function.py tests/unit/test_state_function_pools.py`.
 The all-input synthetic audit accepts a separately retained input-state cycle
 basis:
 
@@ -81,8 +92,8 @@ synthetic values include structural terms and changing repeated-call values to
 exercise retained-state behaviour. These checks establish bookkeeping properties,
 not experimental accuracy or physical calculation coverage.
 
-Promotion requires owned physical checks of the reference treatment, admission
-and consistent assembly of declared state pools, full-molecule resource and
+Promotion requires owned physical checks of the reference treatment and
+declared state-pool populations, full-molecule resource and
 coverage measurements, and evaluation with the frozen experimental protocol.
 The pre-enrollment design and candidate inventory are in
 `benchmark/state_function_validation/`. They currently admit no experimental

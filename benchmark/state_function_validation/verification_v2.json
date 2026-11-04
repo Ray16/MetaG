@@ -1,0 +1,58 @@
+{
+  "schema": "metag-state-function-verification-v2",
+  "policy": "full-molecule-species-potential-v2",
+  "status": "bookkeeping_and_pool_assembly_verified; experimental_accuracy_not_validated",
+  "files_sha256": {
+    "src/metag/state_function.py": "d63ea1a0131b6ed78dace035ced35336bd0a5dcba92358514a58ca45fb061215",
+    "tests/unit/test_state_function.py": "a4f2d584e7979c29adf4d5b547c9eed36e4fafc4ace236a48b83a0e4f91e1773",
+    "tests/unit/test_state_function_pools.py": "315eff186eb704cf4d3744ecaf67a4136519dc811786eeb8f6786b7d453a15dc",
+    "benchmark/audit_state_function.py": "704787fc073cab2b4d2baaea78ba201279f08c94214316766ef81747b5a03888"
+  },
+  "focused_tests": {
+    "passed": 25,
+    "working_checkout": true,
+    "clean_HEAD_plus_feature_files": true
+  },
+  "full_suite": {
+    "passed": 791,
+    "scope": "Full working-checkout suite included the 23 focused tests then present. The two subsequently added neutral/charged-base drawing controls passed in the 25-test focused rerun."
+  },
+  "synthetic_audit": {
+    "inputs_sha256": "69a54e6887cffffb53b25577f2cbc330acdfa78aae33bad726ec11f653f01d30",
+    "cycles_sha256": "373b63f62c4eda8aed54eb9dee6c66fb5e61300c6270190eface1d5e1c91a0a9",
+    "n_requested": 364,
+    "n_synthetic_estimates": 331,
+    "n_input_cycles": 49,
+    "n_evaluable_cycles": 47,
+    "max_cycle_residual_kj": 1.1368683772161603e-13,
+    "max_reversal_error_kj": 0.0,
+    "max_scaling_error_kj": 1.1141310096718371e-11,
+    "raw_backend_max_calls_per_identity": 1
+  },
+  "retained_record_replay": {
+    "n_requested": 364,
+    "n_estimates_from_available_records": 140,
+    "n_input_cycles": 49,
+    "n_evaluable_cycles": 8,
+    "max_cycle_residual_kj": 0.0,
+    "retained_index_sha256": "ca7faed897c83bc8c52fc91bbc4564479290ed13ccef3702b8d37fc2b9d96615",
+    "water_record_sha256": "ba7d8a050a12c5acd3e5739e1d26abc1384ae096710bf8e75a1d55223fa86fda"
+  },
+  "named_physical_controls": {
+    "alanine_glutamate_cycle_kj": 0.0,
+    "aspartate_glutamate_witness_kj": 0.0,
+    "scope": "Additional named cycles, not extra independent basis vectors. These are internal physical-record consistency checks, not accuracy tests.",
+    "sucrose_cycle": "One full ADP-glucose calculation is pending."
+  },
+  "independent_validation": {
+    "estimator_source_and_assumptions": "Frozen in analysis/metag_state_consistency_20261103_02/assembly_freeze.json before new primary-source outcome curation.",
+    "experimental_reactions_admitted": 0,
+    "exact_test_set_frozen": false
+  },
+  "limitations": [
+    "Synthetic structural admission does not measure physical calculation coverage.",
+    "The global reference policy inherits approximate protonation and solvent physics.",
+    "No reaction-energy accuracy numbers are inherited from the preceding estimator.",
+    "The established default scoring path is unchanged."
+  ]
+}

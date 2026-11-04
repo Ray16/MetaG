@@ -65,9 +65,14 @@ def main():
         # Verify declared cycles independently in the original input-state basis.
         states, protons = Counter(), Fraction(0)
         for rid, weight in cycle.items():
-            for coefficient, charge, smiles in panel[rid]["species"].values():
+            for name, (coefficient, charge, smiles) in panel[rid]["species"].items():
                 smi = Chem.MolToSmiles(Chem.MolFromSmiles(smiles), isomericSmiles=True)
-                states[(charge, smi)] += Fraction(str(weight))*Fraction(str(coefficient))
+                # Declared pools and protonation models are part of the input
+                # thermodynamic state, not interchangeable with a fixed drawing.
+                identity = json.dumps({"charge": charge, "smiles": smi,
+                    "pool": panel[rid].get("species_state_pools", {}).get(name),
+                    "protonation": panel[rid].get("species_protonation_models", {}).get(name)}, sort_keys=True)
+                states[identity] += Fraction(str(weight))*Fraction(str(coefficient))
             protons += Fraction(str(weight))*Fraction(str(panel[rid].get("n_Hplus", 0)))
         if protons or any(states.values()):
             raise ValueError("supplied cycle does not close on original states")

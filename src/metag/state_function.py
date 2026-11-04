@@ -18,12 +18,32 @@ from metag.energetics.protonation import reaction_transform
 from metag.energetics.provenance import content_hash
 from metag.reactions import validate_reaction
 
-POLICY = "full-molecule-species-potential-v1"
+POLICY = "full-molecule-species-potential-v2"
 
 
 def _finite(value):
     return (isinstance(value, (int, float)) and not isinstance(value, bool)
             and math.isfinite(value))
+
+
+def _combine_sampling(weighted_records):
+    """Propagate derivatives of shared raw estimates before quadrature.
+
+    Distinct raw molecular estimates are assumed independent. These are
+    conditional sampling diagnostics, excluding physical/parameter uncertainty.
+    """
+    combined = {}
+    for weight, record in weighted_records:
+        for key, row in record["sampling_inputs"].items():
+            if key not in combined:
+                combined[key] = dict(row, sensitivity=0.)
+            current = combined[key]
+            if (current["sigma_kj"] != row["sigma_kj"]
+                    or current["charge"] != row["charge"] or current["smiles"] != row["smiles"]):
+                raise ValueError("shared molecular sampling identity has inconsistent estimates")
+            current["sensitivity"] += weight * row["sensitivity"]
+    sigma = math.sqrt(math.fsum((r["sensitivity"]*r["sigma_kj"])**2 for r in combined.values()))
+    return sigma, combined
 
 
 def plan_state(charge, smiles):
@@ -109,9 +129,11 @@ class StateFunctionEstimator:
         diagnostics.update(detail)
         return value, sigma
 
-    def state(self, charge, smiles):
+    def state(self, charge, smiles, *, pool=None):
         """Return a copy of a retained state record; callers cannot mutate it."""
         self._check_identity()
+        if pool is not None:
+            return self._pool(charge, smiles, pool)
         plan = plan_state(charge, smiles)
         key = content_hash({"charge": plan["input_charge"], "smiles": plan["input_smiles"]})
         if key not in self._records:
@@ -121,6 +143,71 @@ class StateFunctionEstimator:
             record["record_sha256"] = content_hash(record)
             self._records[key] = json.dumps(record, sort_keys=True, allow_nan=False)
         return json.loads(self._records[key])
+
+    def _pool(self, charge, smiles, declaration):
+        """A complete, molecule-local ring/chain partition, independent of gauge."""
+        from metag.routing.sugar_states import prepare_declared_sugar_inputs
+        from metag.state_pools import KT_KJ
+        original = {"species": {"state": [1, charge, smiles]},
+                    "species_state_pools": {"state": declaration}}
+        validate_reaction(original)
+        _, prepared = prepare_declared_sugar_inputs(original)
+        pool = prepared["state"]
+        states = sorted(row["smiles"] for row in pool["source_states"])
+        plan = {"kind": pool["kind"], "pool_policy": pool["policy"],
+                "input_charge": int(charge), "source_states": states,
+                "source_state_set_sha256": pool["source_state_set_sha256"]}
+        key = content_hash(plan)
+        if key not in self._records:
+            # Each state receives its own owned protonation and hydration
+            # terms before the complete partition is formed. No common
+            # reference factor from one drawing is applied to another.
+            records = []
+            for state in states:
+                try:
+                    records.append(self.state(charge, state))
+                except (ValueError, SpeciesRearranged) as exc:
+                    raise ValueError("incomplete declared sugar ensemble: " + state + ": " + str(exc)) from exc
+            energies = [r["potential_kj"] for r in records]
+            low = min(energies)
+            weights = [math.exp(-(g-low)/KT_KJ) for g in energies]
+            normalization = math.fsum(weights)
+            populations = [w/normalization for w in weights]
+            sigma, inputs = _combine_sampling(zip(populations, records))
+            record = {"plan": plan, "potential_kj": low-KT_KJ*math.log(normalization),
+                      "sampling_sigma_kj": sigma, "sampling_inputs": inputs,
+                      "states": [{"state_id": r["state_id"], "smiles": state,
+                                  "record_sha256": r["record_sha256"],
+                                  "potential_kj": r["potential_kj"], "conditional_population": p}
+                                 for state, r, p in zip(states, records, populations)],
+                      "state_id": key}
+            record["record_sha256"] = content_hash(record)
+            self._check_identity()
+            self._records[key] = json.dumps(record, sort_keys=True, allow_nan=False)
+        return json.loads(self._records[key])
+
+    def _sampling_inputs(self, charge, smiles, routes):
+        if is_water(smiles, charge):
+            return {}
+        hydration = routes.get("hydration_diagnostics", {}).get("state")
+        inputs = [(charge, smiles, 1.)]
+        if hydration:
+            hydrated = [r for r in hydration["states"] if r["status"] == "estimated"]
+            sensitivities = hydration["sampling_uncertainty"]["input_sensitivities"]
+            if len(sensitivities) != len(hydrated)+1:
+                raise ValueError("hydration sampling derivatives do not match retained states")
+            inputs = [(charge, smiles, sensitivities[0])] + [
+                (charge, r["smiles"], derivative)
+                for r, derivative in zip(hydrated, sensitivities[1:])]
+        rows = {}
+        for q, smi, derivative in inputs:
+            canonical = Chem.MolToSmiles(Chem.MolFromSmiles(smi), isomericSmiles=True)
+            _, sigma, _ = json.loads(self._raw[(int(q), canonical)])
+            key = content_hash({"charge": int(q), "smiles": canonical})
+            row = rows.setdefault(key, {"charge": int(q), "smiles": canonical,
+                                        "sigma_kj": sigma, "sensitivity": 0.})
+            row["sensitivity"] += derivative
+        return rows
 
     def _evaluate(self, plan):
         from metag.energetics.aqueous_states import hydrate_all_sites
@@ -152,7 +239,10 @@ class StateFunctionEstimator:
         potential = energies["state"] + transform + reservoir
         if not _finite(potential) or not _finite(sigmas["state"]):
             raise ValueError("nonfinite transformed molecular potential")
-        return {"plan": plan, "potential_kj": potential, "sampling_sigma_kj": sigmas["state"],
+        sampling_inputs = self._sampling_inputs(q, smi, routes)
+        sigma, _ = _combine_sampling([(1., {"sampling_inputs": sampling_inputs})])
+        return {"plan": plan, "potential_kj": potential, "sampling_sigma_kj": sigma,
+                "sampling_inputs": sampling_inputs,
                 "solution_reference_kj": energies["state"], "protonation_kj": transform,
                 "reference_proton_kj": reservoir, "molecular_diagnostics": detail,
                 "aqueous_diagnostics": routes, "source_protonation": registry,
@@ -172,38 +262,41 @@ class StateFunctionEstimator:
                   "conditions": dict(CONDITIONS), "config": json.loads(json.dumps(self.config)),
                   "original_species": copy.deepcopy(reaction["species"]), "state_records": {},
                   "suspect": None, "uncertainty_scope": "sampling only; no calibrated total-error interval"}
-        for field in ("pka_sites", "species_state_pools", "species_protonation_models"):
+        for field in ("pka_sites", "species_protonation_models"):
             if reaction.get(field):
                 result["suspect"] = "unsupported in state-function profile: " + field
                 return result
+        if reaction.get("species_state_pools"):
+            from metag.routing.sugar_states import prepare_declared_sugar_inputs
+            try:
+                prepare_declared_sugar_inputs(reaction)
+            except (ValueError, TypeError, KeyError) as exc:
+                result["suspect"] = "unsupported species_state_pools: " + str(exc)
+                return result
+            result["declared_species_state_pools"] = copy.deepcopy(reaction["species_state_pools"])
         if not is_balanced(reaction["species"], reaction.get("n_Hplus", 0)):
             result["suspect"] = "input reaction not element/charge balanced"
             return result
         terms = [reaction.get("n_Hplus", 0) * G_HPLUS]
-        groups = {}
+        weighted_records = []
         for name, (coefficient, charge, smiles) in reaction["species"].items():
             try:
-                record = self.state(charge, smiles)
+                record = self.state(charge, smiles,
+                                    pool=reaction.get("species_state_pools", {}).get(name))
             except (ValueError, SpeciesRearranged) as exc:
                 result["suspect"] = f"{name}: {exc}"
                 result["failed_state"] = {"name": name, "charge": charge, "smiles": smiles}
                 return result
             result["state_records"][name] = record
             terms.append(coefficient * record["potential_kj"])
-            # Different proton drawings can share exactly the same sampled
-            # reference. Their reservoir/protonation offsets are deterministic.
-            reference = record["plan"]
-            identity = (reference["reference_charge"], reference["reference_smiles"])
-            group = groups.setdefault(identity, [0., record["sampling_sigma_kj"]])
-            if not math.isclose(group[1], record["sampling_sigma_kj"], rel_tol=0, abs_tol=1e-12):
-                raise ValueError("shared reference has inconsistent sampling diagnostics")
-            group[0] += coefficient
+            weighted_records.append((coefficient, record))
         total = math.fsum(terms)
-        sigma = math.sqrt(math.fsum((c * s)**2 for c, s in groups.values()))
+        sigma, sampling_inputs = _combine_sampling(weighted_records)
         if not _finite(total) or not _finite(sigma):
             result["suspect"] = "reaction assembly exceeded finite numeric range"
             return result
-        result.update(dG=round(total, 1), dG_unrounded=total, U_samp=sigma)
+        result.update(dG=round(total, 1), dG_unrounded=total, U_samp=sigma,
+                      sampling_inputs=sampling_inputs)
         return result
 
     def ledger(self):
