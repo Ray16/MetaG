@@ -1,0 +1,10 @@
+{
+  "pid": 4025145,
+  "host": "lambda2",
+  "start_ticks": "1460720503",
+  "cpu_affinity": [
+    79
+  ],
+  "rdkit_version": "2026.03.5",
+  "source_sha256": "d254ce4f92ee867d92c8a9744768bb6b459014c4c4a0ec4173d2f8cc9d245280"
+}

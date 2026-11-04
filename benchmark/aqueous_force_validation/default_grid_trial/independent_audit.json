@@ -1,0 +1,26 @@
+{
+  "scope": "Raw-result numerical replay, including declared failed gates. No backend execution, molecular Gibbs accuracy or production acceptance.",
+  "cases": [
+    {
+      "name": "ethanol",
+      "native_executions": 218,
+      "finite_differences": [
+        {
+          "step_A": 0.002,
+          "max_error_eV_A": 6.526880275664615e-06,
+          "RMS_error_eV_A": 1.4536466412901416e-06
+        },
+        {
+          "step_A": 0.001,
+          "max_error_eV_A": 2.034861472155697e-06,
+          "RMS_error_eV_A": 7.000217278701047e-07
+        }
+      ],
+      "net_torque_eV": 0.005807468791288568,
+      "passed": false
+    }
+  ],
+  "n_native_executions": 218,
+  "all_cases_passed": false,
+  "n_cases": 1
+}

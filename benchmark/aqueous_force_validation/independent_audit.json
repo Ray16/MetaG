@@ -1,0 +1,80 @@
+{
+  "scope": "Raw-result numerical replay, including declared failed gates. No backend execution, molecular Gibbs accuracy or production acceptance.",
+  "cases": [
+    {
+      "name": "ethanol",
+      "native_executions": 218,
+      "finite_differences": [
+        {
+          "step_A": 0.002,
+          "max_error_eV_A": 5.524248536947773e-06,
+          "RMS_error_eV_A": 1.202656419753797e-06
+        },
+        {
+          "step_A": 0.001,
+          "max_error_eV_A": 1.3065049413660268e-06,
+          "RMS_error_eV_A": 5.259343321695671e-07
+        }
+      ],
+      "net_torque_eV": 5.328267883579285e-05,
+      "passed": true
+    },
+    {
+      "name": "acetate",
+      "native_executions": 170,
+      "finite_differences": [
+        {
+          "step_A": 0.002,
+          "max_error_eV_A": 6.09885346469774e-06,
+          "RMS_error_eV_A": 2.0790515087909483e-06
+        },
+        {
+          "step_A": 0.001,
+          "max_error_eV_A": 2.7368845866831276e-06,
+          "RMS_error_eV_A": 1.2347849479934898e-06
+        }
+      ],
+      "net_torque_eV": 2.113929510236392e-05,
+      "passed": true
+    },
+    {
+      "name": "glycine_zwitterion",
+      "native_executions": 242,
+      "finite_differences": [
+        {
+          "step_A": 0.002,
+          "max_error_eV_A": 9.10971162137314e-06,
+          "RMS_error_eV_A": 2.592125626403435e-06
+        },
+        {
+          "step_A": 0.001,
+          "max_error_eV_A": 6.07679742659073e-06,
+          "RMS_error_eV_A": 1.8724847280538674e-06
+        }
+      ],
+      "net_torque_eV": 8.150977445723191e-05,
+      "passed": true
+    },
+    {
+      "name": "dihydrogen_phosphate",
+      "native_executions": 170,
+      "finite_differences": [
+        {
+          "step_A": 0.002,
+          "max_error_eV_A": 1.2926005115154737e-05,
+          "RMS_error_eV_A": 4.213124050476497e-06
+        },
+        {
+          "step_A": 0.001,
+          "max_error_eV_A": 1.0715040592579328e-05,
+          "RMS_error_eV_A": 3.5514558022769846e-06
+        }
+      ],
+      "net_torque_eV": 7.173136227917311e-05,
+      "passed": true
+    }
+  ],
+  "n_native_executions": 800,
+  "all_cases_passed": true,
+  "n_cases": 4
+}

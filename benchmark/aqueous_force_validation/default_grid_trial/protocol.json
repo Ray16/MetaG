@@ -1,0 +1,64 @@
+{
+  "schema": "metag-alpb-solvent-force-validation-v1",
+  "created_utc": "2026-11-04T15:32:41.638585+00:00",
+  "scope": "Validate the gradient of the same matched xTB total-energy solvent increment before attempting a solution-relaxed MetaG profile. No production change or experimental benchmark.",
+  "potential": "E_solv_delta(R)=E_GFN2_ALPB_water(R)-E_GFN2_gas(R)",
+  "force": "-grad(E_solv_delta); Hartree/Bohr converted to eV/Angstrom",
+  "fixtures": [
+    {
+      "name": "ethanol",
+      "smiles": "CCO",
+      "charge": 0
+    },
+    {
+      "name": "acetate",
+      "smiles": "CC(=O)[O-]",
+      "charge": -1
+    },
+    {
+      "name": "glycine_zwitterion",
+      "smiles": "[NH3+]CC(=O)[O-]",
+      "charge": 0
+    },
+    {
+      "name": "dihydrogen_phosphate",
+      "smiles": "O=P([O-])(O)O",
+      "charge": -1
+    }
+  ],
+  "conformer_seed": 41,
+  "initial_geometry": "RDKit ETKDGv3 then MMFF94s; frozen before derivative evaluations.",
+  "xtb": "/nfs/lambda_stor_01/homes/rzhu/miniforge3/envs/xtb/bin/xtb",
+  "xtb_sha256": "481a1e7d8151fc08e0341b8e06ab60ac09cf1c2628738eeb83346271274bf8f4",
+  "gfn": 2,
+  "solvent": "water",
+  "solvent_standard_state": "gsolv",
+  "accuracy": 0.1,
+  "restarts": false,
+  "xyz_decimal_digits": 17,
+  "finite_difference_steps_A": [
+    0.002,
+    0.001
+  ],
+  "maximum_force_component_error_eV_A": 0.002,
+  "RMS_force_error_eV_A": 0.0005,
+  "maximum_step_difference_eV_A": 0.001,
+  "maximum_net_force_eV_A": 5e-05,
+  "maximum_net_torque_eV": 0.0001,
+  "Hartree_to_eV": 27.211386245988,
+  "Bohr_to_A": 0.529177210903,
+  "resource_ceiling": {
+    "cpu_affinity": [
+      79
+    ],
+    "native_threads": 1,
+    "wall_seconds": 300
+  },
+  "expected_chemical_cases": 4,
+  "no_UMA_loading": true,
+  "no_experimental_labels": true,
+  "documentation": [
+    "https://xtb-docs.readthedocs.io/en/latest/basics.html",
+    "https://xtb-docs.readthedocs.io/en/latest/gbsa.html"
+  ]
+}

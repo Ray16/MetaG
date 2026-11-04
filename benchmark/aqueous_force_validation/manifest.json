@@ -1,0 +1,31 @@
+{
+  "files": {
+    "protocol.json": "17d976ec0ddf9c6248c579a9e8519206630058638cc297662d29811240a41134",
+    "validate_forces.py": "d254ce4f92ee867d92c8a9744768bb6b459014c4c4a0ec4173d2f8cc9d245280",
+    "owner.json": "50fd37c35362694388a48e0e982e09620377e257f0fa1d5a4bf954f83d59576c",
+    "partial_results.json": "917d059bac3895fd3777568278a0bee2390ccd0ceb13c7e9f3b80b46c8668af3",
+    "independent_audit.json": "7d66f0217803a3fd02aa548f8f1aa94a8c542cfa8aa5ae7f93f8c0e0c3f3ad1f",
+    "result.json": "e5322a60174c2f171f9aa5aa8449c751a2e832ab1bb4ef386e318107a7f59d82",
+    "ethanol.raw.jsonl.gz": "677a2a4842860d647cecc4e3e44cee0aacf69472d5e67794b9f0b49ed7b46bdd",
+    "acetate.raw.jsonl.gz": "1218d4b1f9984b16c55b9ca112ac1df010507133817a59f82f9d0184fa5d860a",
+    "glycine_zwitterion.raw.jsonl.gz": "ff0579e807f8a1c4f4699371349d6e0d418ac57c3e33ab4a16ac78973b12104f",
+    "dihydrogen_phosphate.raw.jsonl.gz": "b717bccb065dbf5397829330087cbefb9b23f43cd02b3342253a45756f047b19",
+    "audit_force_records.py": "6bbb5610d4c689fd26b9721a2036eb425eaf7d887d93d6996e7a990432467c7e",
+    "default_grid_trial/protocol.json": "a4c5eb9a90570abf81da1de4ce27fad28429574bd296f70afdaf5490862c9404",
+    "default_grid_trial/validate_forces.py": "32a03e2a6e7dd6935b1e0f0d8170b2730a59660b402546b7f7ed821f379873bc",
+    "default_grid_trial/owner.json": "2a9fe61126fc79661bc99c572c90b4a9c2855cf680b6b648bf5c67f2bdc76154",
+    "default_grid_trial/partial_results.json": "e9641b872e74b6c6d7fc623064a0aef9c9accc58fe8e770c86fd5cee11b2ef6a",
+    "default_grid_trial/independent_audit.json": "f3a06858a424a0d22e8bbb1a7d8a7bf539981c3b52706dc180448da049647536",
+    "default_grid_trial/failure.json": "ddd924a699ff9892caca65d34e1797667aff0dc18531d3001f9ab6257c91c981",
+    "default_grid_trial/ethanol.raw.jsonl.gz": "af63a64cb0b2bb8e096fa8d6dd07a67c7eb7099653a6c7c7b4fc8321739ea10e",
+    "README.md": "c8f1065d9d18bfc2766713b5c406fc288af9f41f6efb4c29b4f944abb52957e3"
+  },
+  "raw_uncompressed_sha256": {
+    "ethanol.raw.jsonl": "76828b65b2d4e71bd2745d60c5dabace528a44b4517c6c742d847c8299018461",
+    "acetate.raw.jsonl": "1be478bfa6291f7aa6ac71c3e34d8bfc09ade418b920f9c04c9dbd2706e9a44e",
+    "glycine_zwitterion.raw.jsonl": "54b2b2bca5bc7615bfca8e6a375956219e5bbf0886fabe768e940e20988eb85d",
+    "dihydrogen_phosphate.raw.jsonl": "31e5501dd0fc6d4d0dad8942e9bdb2dfcd50b5d2c29b315fc9238a0cf28e5707",
+    "default_grid_trial/ethanol.raw.jsonl": "c75ad63f59093a96a7b9a512f56ce737bc8fb00441e82a72c3d27ffa32bc8a31"
+  },
+  "scope": "800refined-grid native executions on4molecules plus218default-grid executions on the repeated ethanol fixture. The default-grid torque failure remains retained. Numerical validation only; no molecular Gibbs or experimental-accuracy claim."
+}
