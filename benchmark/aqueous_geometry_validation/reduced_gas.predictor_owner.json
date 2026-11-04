@@ -1,0 +1,16 @@
+{
+  "host": "lambda2",
+  "pid": 320388,
+  "start_ticks": "1462018392",
+  "cpu_affinity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "argv": [
+    "/homes/rzhu/miniforge3/envs/redox/bin/python",
+    "/nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG/analysis/aqueous_geometry_parent_control_20261104_01/reference_point.py",
+    "reduced_gas"
+  ]
+}

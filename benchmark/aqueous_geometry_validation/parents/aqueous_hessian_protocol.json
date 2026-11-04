@@ -1,0 +1,75 @@
+{
+  "schema": "metag-aqueous-hessian-control-v2",
+  "created_utc": "2026-11-04T16:49:14.168895+00:00",
+  "scope": "UMA exact electronic Hessians for4owned geometry candidates, followed by separately owned CPU solvent Hessians for2aqueous candidates. No experimental labels or production replacement.",
+  "states": [
+    "oxidized_gas",
+    "reduced_gas",
+    "oxidized_aqueous",
+    "reduced_aqueous"
+  ],
+  "initial_geometries": "Each saved240-step endpoint from the original shared-start comparison; FIRE momenta reset. Original budget refusals remain unchanged.",
+  "potential": "E_UMA+E_GFN2_ALPB-E_GFN2_gas; same matched total-energy definition for energy and gradient.",
+  "solvent_grid": "extreme",
+  "xtb_accuracy": 0.001,
+  "xtb_standard_state": "gsolv",
+  "xtb_restart": false,
+  "xtb_xyz_digits": 17,
+  "optimizer": "ASE FIRE",
+  "optimizer_settings": {
+    "dt": 0.05,
+    "dtmax": 0.5,
+    "maxstep": 0.1
+  },
+  "max_steps": 960,
+  "fmax_eV_A": 0.02,
+  "final_scoring": "Same combined potential for all four endpoints, including the gas-only optimized endpoints.",
+  "identity": "Original ordered explicit-H molecular connectivity and specified stereochemistry; all failures retained.",
+  "runtime_budget_seconds": 600,
+  "attempts_per_state": 1,
+  "consecutive_failure_limit": 3,
+  "resources": {
+    "host": "lambda2",
+    "gpu_index": 7,
+    "cpus": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "native_threads": 1
+  },
+  "units": {
+    "Hartree_to_kj": 2625.4996394799,
+    "eV_to_kj": 96.485,
+    "Bohr_to_A": 0.529177210903
+  },
+  "source_engine": "/nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG/analysis/nicotinamide_reference_control_20261104_01/uma_source/src",
+  "source_sdk": "/nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG/analysis/nicotinamide_reference_control_20261104_01/fairchem_sdk/src",
+  "source_manifest_sha256": "e442336f5f839dbb495ac38c568f9243acb493dd4f3e5f78e661038a236f6d6c",
+  "validated_force_source_sha256": "d254ce4f92ee867d92c8a9744768bb6b459014c4c4a0ec4173d2f8cc9d245280",
+  "xtb": "/nfs/lambda_stor_01/homes/rzhu/miniforge3/envs/xtb/bin/xtb",
+  "xtb_sha256": "481a1e7d8151fc08e0341b8e06ab60ac09cf1c2628738eeb83346271274bf8f4",
+  "no_labels_or_fitted_offsets": true,
+  "cumulative_iteration_ceiling": 1200,
+  "parent_protocol_sha256": "47b49fd5eccdfb4fe3c9d85da64a4d334cf6c2c93ff71d5eabf3ca70fb09a648",
+  "profile_change": "Iteration-budget extension with unchanged potential, optimizer settings, force criterion and chemistry; explicit restart at owned endpoints.",
+  "Hessian_rows": 8,
+  "solvent_Hessian_steps_A": [
+    0.003,
+    0.0015
+  ],
+  "max_solvent_Hessian_asymmetry_eV_A2": 0.02,
+  "RRHO_step_sensitivity_max_kj": 0.5,
+  "imaginary_mode_threshold_cm": 50,
+  "frequency_floor_cm": 50,
+  "temperature_K": 298.15,
+  "pressure_Pa": 101325.0,
+  "symmetry_number": 1,
+  "CPU_Hessian_budget_seconds": 1800,
+  "parent_geometry_protocol_sha256": "989c2a9bbf6d6f645144efe2a9a80cf9f076defc7e94fb92e91c9b0c4b78b0ba",
+  "numerical_energy_refinement_max_eV": 0.0001,
+  "parent_CPU_protocol_sha256": "110537a6367f363252247850d696b01f5103a15b307e5b760f858223ccfd6fd3",
+  "parent_GPU_protocol_sha256": "110537a6367f363252247850d696b01f5103a15b307e5b760f858223ccfd6fd3",
+  "refinement": "Tighten xTB SCC accuracy0.1to0.001 at unchanged geometries, grid, finite-difference steps and acceptance thresholds. Reuse exact UMA Hessians; original symmetry refusals remain unchanged."
+}

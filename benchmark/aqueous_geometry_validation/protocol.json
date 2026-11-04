@@ -1,0 +1,60 @@
+{
+  "schema": "metag-aqueous-geometry-parent-control-v1",
+  "created_utc": "2026-11-04T18:58:08.268376+00:00",
+  "question": "Does the parentDFT/SMD model support the direction and magnitude of the owned UMA/ALPB geometry-intervention energy effect?",
+  "expected_slots": [
+    "oxidized_gas",
+    "reduced_gas",
+    "oxidized_aqueous",
+    "reduced_aqueous"
+  ],
+  "weights": {
+    "oxidized_gas": 1,
+    "reduced_gas": -1,
+    "oxidized_aqueous": -1,
+    "reduced_aqueous": 1
+  },
+  "geometry_rule": "All four previously converged identity-preserving chargedNAD endpoints, unchanged ordered coordinates; no geometry selected or altered using a new quantum result.",
+  "endpoint": "(reduced_aqueous-oxidized_aqueous)-(reduced_gas-oxidized_gas), separately under each scoring arm",
+  "original_matched_UMA_ALPB_intervention_kj": -44.706440788693726,
+  "numerical_protocol_sha256": "fd9bf422bcb2ec7b5eb02dcfbb3b89a469e086cc317d7bba3c849eb6af43c2ac",
+  "parent_worker_source_sha256": "13774aafddad87168e2e4d8c6f76089297e27b5b96eed0c2c9ea93d2e23b13ef",
+  "basis_and_functional": "Restricted-singlet wb97m-v/def2-tzvpd with def2-universal-jkfit; grids4/3; SMD water590SWIG; all AO directions admitted at overlap>=1e-8 retained.",
+  "arms": [
+    "UMA_ALPB",
+    "DFT_ALPB",
+    "UMA_SMD",
+    "DFT_SMD"
+  ],
+  "UMA_energy_basis": "Owned exact-autograd-Hessian replay energies used by the matched scoring profile. Original endpoint energies and their sub0.0003kJ replay differences are retained separately.",
+  "resource_ceiling": {
+    "host": "lambda2",
+    "gpu_workers": 1,
+    "gpu_index": 7,
+    "cpus": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "native_threads": 1,
+    "overall_seconds": 5400,
+    "attempts_per_geometry": 1,
+    "consecutive_actual_failures": 3
+  },
+  "element_residual": {},
+  "charge_residual": 0,
+  "molecule_residual": 0,
+  "scope": "Fixed-microgeometry electronic/solvent sensitivity, not a closed equilibrium-metabolite cycle or reactionGibbs energy. Distinct geometry constraints are distinct microstates.",
+  "limitations": [
+    "One geometry per optimized state; no aqueous conformational ensemble.",
+    "Gas anion HOMO and orbital-gradient diagnostics retained; no bound-gas-ion or orbital-stability proof.",
+    "SCF orbital stationarity is not nuclear-force convergence; these are not parentDFT-optimized geometries.",
+    "No new parent Hessian or RRHO evaluation; inherited thermal terms remain a separate model sensitivity only.",
+    "No pH, Mg or experimental-reference admission and no default production promotion."
+  ],
+  "empirical_offsets_fitted": 0,
+  "experimental_labels_admitted": 0,
+  "production_runtime_changed": false,
+  "source_preparer_sha256": "0214ea95530a97a0063703d3d2e2cfc610d57bb6d65124460051d4bfc9d0872d"
+}

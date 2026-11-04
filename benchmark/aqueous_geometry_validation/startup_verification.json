@@ -1,0 +1,71 @@
+{
+  "verified": true,
+  "processes": [
+    {
+      "record": "launcher_owner.json",
+      "pid": 291653,
+      "start_ticks": "1461935993",
+      "verified_live": true,
+      "cpu_affinity": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "native_thread_caps": {
+        "OMP_NUM_THREADS": "1",
+        "OMP_THREAD_LIMIT": "1",
+        "MKL_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1"
+      }
+    },
+    {
+      "record": "controller_owner.json",
+      "pid": 291882,
+      "start_ticks": "1461936082",
+      "verified_live": true,
+      "cpu_affinity": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "native_thread_caps": {
+        "NUMEXPR_NUM_THREADS": "1",
+        "OMP_THREAD_LIMIT": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1"
+      }
+    },
+    {
+      "record": "oxidized_gas.predictor_owner.json",
+      "pid": 292740,
+      "start_ticks": "1461936931",
+      "verified_live": true,
+      "cpu_affinity": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "native_thread_caps": {
+        "NUMEXPR_NUM_THREADS": "1",
+        "OMP_THREAD_LIMIT": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1"
+      }
+    }
+  ],
+  "gpu_resident_snapshot": "GPU-fab99e67-e6e2-56bb-e07d-ea240da3e84a, 292740, 21714 MiB\n",
+  "smoke_passed": true,
+  "load": [
+    5.20849609375,
+    4.82373046875,
+    4.47509765625
+  ],
+  "host": "lambda2",
+  "gpu_uuid": "GPU-fab99e67-e6e2-56bb-e07d-ea240da3e84a"
+}

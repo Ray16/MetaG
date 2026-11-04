@@ -1,0 +1,13 @@
+{
+  "slot": "reduced_aqueous",
+  "candidate_sha256": "22375c095ebc712855389a93d09c43043d3cc1d603762c8ab2a08af284ac8053",
+  "source_sha256": "9385a6f74813c6eeb71814e7d9046f01854444429b235a4c46dc410240440379",
+  "protocol_sha256": "110537a6367f363252247850d696b01f5103a15b307e5b760f858223ccfd6fd3",
+  "Hessian_archive_sha256": "f3b88aa9f29d9228a736a658116faf7bb238e69114b626ecf3bfb490242ede99",
+  "charge": -2,
+  "n_atoms": 71,
+  "UMA_energy_replay_difference_kj": -0.00020259477008949034,
+  "elapsed_seconds": 6.468843260779977,
+  "Hessian_kind": "Exact UMA Cartesian electronic Hessian; no solvent curvature included yet.",
+  "passed": true
+}

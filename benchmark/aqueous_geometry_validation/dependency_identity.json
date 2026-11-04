@@ -1,0 +1,58 @@
+{
+  "host": "lambda2",
+  "python": "/homes/rzhu/miniforge3/envs/redox/bin/python",
+  "cpu_affinity": [
+    79
+  ],
+  "versions": {
+    "pyscf": "2.14.0",
+    "gpu4pyscf-cuda12x": "1.8.1",
+    "gpu4pyscf-libxc-cuda12x": "0.8.1",
+    "numpy": "2.2.6",
+    "cupy-cuda12x": "14.1.1"
+  },
+  "installed_file_sha256": {
+    "/homes/rzhu/miniforge3/envs/redox/lib/python3.11/site-packages/pyscf/gto/mole.py": "005bd63c5fa100a20cc264a995c38f44f2e05c7c82d37bd36eba2355dc651392",
+    "/homes/rzhu/miniforge3/envs/redox/lib/python3.11/site-packages/pyscf/gto/basis/def2-tzvpd.dat": "68615e4a8284b1c8d5cf9403087e7ba0294ce190eae40ee4a75119222adc3773",
+    "/homes/rzhu/miniforge3/envs/redox/lib/python3.11/site-packages/pyscf/gto/basis/def2-universal-jkfit.dat": "8970edf068a6010954535eb2b1ee978900dbea989b20e305c730dabb0298de5a",
+    "/homes/rzhu/miniforge3/envs/redox/lib/python3.11/site-packages/pyscf/dft/rks.py": "fcc8d3dbd03df368f3b70f3ce5999be6a19c608a6ff0bdc1890074616f0befa8",
+    "/homes/rzhu/miniforge3/envs/redox/lib/python3.11/site-packages/gpu4pyscf/scf/hf.py": "c4608fb29bd6b985b17235e972dad68b11d2fca06b38e565c0ee7ebb560275e9",
+    "/homes/rzhu/miniforge3/envs/redox/lib/python3.11/site-packages/gpu4pyscf/dft/rks.py": "34b36e22458b13dda3a122582b54f613341b0a2680ba3b95df393098be22261a",
+    "/homes/rzhu/miniforge3/envs/redox/lib/python3.11/site-packages/gpu4pyscf/solvent/smd.py": "1af82c3a1997abbe2db69db4dab71891a6a582f7e69154e7e046c04f40638f06",
+    "/homes/rzhu/miniforge3/envs/redox/lib/python3.11/site-packages/gpu4pyscf/solvent/pcm.py": "94957b113c663ab4e39613b641568013fec702bae5b66a01159e7efc12cfc6b1"
+  },
+  "rows": [
+    {
+      "slot": "oxidized_gas",
+      "n_AO": 1916,
+      "n_electrons": 344,
+      "minimum_overlap_eigenvalue": 2.3116758891967006e-07,
+      "passed": true
+    },
+    {
+      "slot": "reduced_gas",
+      "n_AO": 1925,
+      "n_electrons": 346,
+      "minimum_overlap_eigenvalue": 2.9551005052639736e-07,
+      "passed": true
+    },
+    {
+      "slot": "oxidized_aqueous",
+      "n_AO": 1916,
+      "n_electrons": 344,
+      "minimum_overlap_eigenvalue": 2.3661187579927868e-07,
+      "passed": true
+    },
+    {
+      "slot": "reduced_aqueous",
+      "n_AO": 1925,
+      "n_electrons": 346,
+      "minimum_overlap_eigenvalue": 2.2190457882462483e-07,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "geometry_inputs_sha256": "dc02b013cef91d0440d08af51a67aeee0c980e45be3c9aac7405015d3d461116",
+  "numeric_settings_sha256": "fd9bf422bcb2ec7b5eb02dcfbb3b89a469e086cc317d7bba3c849eb6af43c2ac",
+  "source_sha256": "8f1cd69b4580911b7716e4ef94de787d59c7ab66e2b806878b0860fb882eb90f"
+}

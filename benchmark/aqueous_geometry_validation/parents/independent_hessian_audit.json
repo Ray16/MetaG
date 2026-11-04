@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "scope": "Native-record Hessian reconstruction and independent QR/RRHO arithmetic, conditional on the declared approximate effective-solution model. No experimental accuracy or ensemble-completeness validation.",
+  "native_calls_reconstructed": 3388,
+  "states": {
+    "oxidized_aqueous": {
+      "passed": true,
+      "steps": [
+        {
+          "step_A": 0.003,
+          "RRHO_kj": 1199.0376202213643,
+          "n_imag": 0,
+          "Hessian_asymmetry_eV_A2": 0.0029379737708130627
+        },
+        {
+          "step_A": 0.0015,
+          "RRHO_kj": 1199.0413863227066,
+          "n_imag": 0,
+          "Hessian_asymmetry_eV_A2": 0.0015500420762111777
+        }
+      ],
+      "fresh_force_max_eV_A": 0.019862256121817034,
+      "raw_G_candidate_kj": -7706777.428511945
+    },
+    "reduced_aqueous": {
+      "passed": true,
+      "steps": [
+        {
+          "step_A": 0.003,
+          "RRHO_kj": 1218.6438423074524,
+          "n_imag": 0,
+          "Hessian_asymmetry_eV_A2": 0.0035884344269192514
+        },
+        {
+          "step_A": 0.0015,
+          "RRHO_kj": 1218.6440741540239,
+          "n_imag": 0,
+          "Hessian_asymmetry_eV_A2": 0.0008544954422928797
+        }
+      ],
+      "fresh_force_max_eV_A": 0.019645530221346245,
+      "raw_G_candidate_kj": -7708748.58944515
+    }
+  },
+  "accepted_model_RRHO_candidates": 2,
+  "auditor_sha256": "9f6cb1fb43c059f906a98a76c16a9fed34aeb882693d5d4656f8a1b33fb3ff58",
+  "native_parser_sha256": "6bbb5610d4c689fd26b9721a2036eb425eaf7d887d93d6996e7a990432467c7e"
+}

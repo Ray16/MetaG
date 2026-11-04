@@ -1,0 +1,106 @@
+{
+  "slot": "smoke",
+  "geometry": {
+    "symbols": [
+      "O",
+      "H",
+      "H"
+    ],
+    "positions_angstrom": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0.7586,
+        0,
+        0.5043
+      ],
+      [
+        -0.7586,
+        0,
+        0.5043
+      ]
+    ],
+    "charge": 0,
+    "spin_multiplicity": 1
+  },
+  "owner": {
+    "host": "lambda2",
+    "pid": 291893,
+    "start_ticks": "1461936095",
+    "utc": "2026-11-04T18:59:05.814032+00:00",
+    "cpu_affinity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "managed_cuda_visible_devices": "7",
+    "native_thread_caps": {
+      "OMP_NUM_THREADS": "1",
+      "OMP_THREAD_LIMIT": "1",
+      "MKL_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1"
+    }
+  },
+  "source_sha256": "13774aafddad87168e2e4d8c6f76089297e27b5b96eed0c2c9ea93d2e23b13ef",
+  "protocol_sha256": "fd9bf422bcb2ec7b5eb02dcfbb3b89a469e086cc317d7bba3c849eb6af43c2ac",
+  "input_sha256": "dc02b013cef91d0440d08af51a67aeee0c980e45be3c9aac7405015d3d461116",
+  "versions": {
+    "pyscf": "2.14.0",
+    "gpu4pyscf-cuda12x": "1.8.1",
+    "gpu4pyscf-libxc-cuda12x": "0.8.1",
+    "numpy": "2.2.6",
+    "cupy-cuda12x": "14.1.1"
+  },
+  "n_AO": 58,
+  "n_electrons": 10,
+  "overlap_minimum_eigenvalue": 0.0016963288909453134,
+  "limitation": "Converged restricted-singlet fixed-geometry point; no orbital stability proof.",
+  "gas": {
+    "energy_Eh": -76.427379444605,
+    "converged": true,
+    "n_molecular_orbitals": 58,
+    "orbital_gradient_norm": 3.301188138516834e-07,
+    "HOMO_Eh": -0.43057490546255595,
+    "LUMO_Eh": 0.043172267741896676,
+    "scf_summary": {
+      "e1": -123.79416645143493,
+      "e2": 37.72328021908474,
+      "coul": 47.071919060468055,
+      "exc": -9.348638841383314,
+      "nuc": 9.6435067877452,
+      "gap": 12.89131720595016
+    }
+  },
+  "water": {
+    "energy_Eh": -76.43829436145533,
+    "converged": true,
+    "n_molecular_orbitals": 58,
+    "orbital_gradient_norm": 1.9114071048600512e-07,
+    "HOMO_Eh": -0.43296205046770686,
+    "LUMO_Eh": 0.05935331790142836,
+    "scf_summary": {
+      "e1": -123.84407281585186,
+      "e2": 37.77556755813355,
+      "coul": 47.127317388125626,
+      "exc": -9.351749829992073,
+      "e_solvent": -0.015538044017197676,
+      "e_cds": 0.002242152534962916,
+      "nuc": 9.6435067877452,
+      "gap": 13.396583532271036
+    }
+  },
+  "SMD_delta_Eh": -0.010914916850339296,
+  "CDS_Eh": 0.002242152534962916,
+  "surface_discretization_method": "SWIG",
+  "elapsed_seconds": 3.496627924963832,
+  "CPU_GPU_absolute_difference_kj": {
+    "gas_Eh": 7.274972578191989e-05,
+    "water_total_Eh": 8.262445950360297e-05
+  },
+  "passed": true
+}

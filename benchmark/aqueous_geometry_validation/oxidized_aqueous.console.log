@@ -1,0 +1,8 @@
+/homes/rzhu/miniforge3/envs/redox/lib/python3.11/site-packages/gpu4pyscf/lib/cutensor.py:154: UserWarning: using cupy as the tensor contraction engine.
+  warnings.warn(f'using {contract_engine} as the tensor contraction engine.')
+output file: /nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG/analysis/aqueous_geometry_parent_control_20261104_01/points/oxidized_aqueous.scf.log
+START gas oxidized_aqueous, AO=1916
+COMPLETE gas oxidized_aqueous
+START SMD oxidized_aqueous
+<class 'gpu4pyscf.solvent.smd.SMD'> does not have attributes  surface_discretization_method
+COMPLETE gas/SMD oxidized_aqueous; delta=-0.209133357064 Eh

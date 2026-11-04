@@ -1,0 +1,315 @@
+{
+  "schema": "metag-aqueous-geometry-parent-evidence-v1",
+  "scope": "Fixed-microgeometry electronic/solvent sensitivity only; no experimental accuracy or production promotion.",
+  "auditor_sha256": "e07029bd75f9e4cd85bfb7f0c91f6a4998712297a62cfba50bcbf3d461022b83",
+  "files": {
+    ".gitattributes": {
+      "sha256": "0eb4813cfb6526d4ec5455d29d5c087ca8745acc018991611177e3d865312249",
+      "bytes": 105
+    },
+    "README.md": {
+      "sha256": "2764ec43aa94f9cebdea6133ec640286c5d85e2044dc09fc4b22509ceac860c7",
+      "bytes": 3815
+    },
+    "audit_summary.json": {
+      "sha256": "4634e73446b9705ec04a300b6897f134db7bc256439cb9e1a1889fac129fd94e",
+      "bytes": 4442
+    },
+    "control_common.py": {
+      "sha256": "dea3cce5cc3634412a9c0e807906af14a2c3aa488c69c27f594fce389d17c2e5",
+      "bytes": 2269
+    },
+    "control_status.json": {
+      "sha256": "15e5ff66976481d5cf163796309b5d5ff9531a56584229f841ba41787b436aca",
+      "bytes": 288
+    },
+    "controller_owner.json": {
+      "sha256": "25bf677ca4e62b26192b14ad3d014354f52df4f1ecffd60b05e762546117087a",
+      "bytes": 388
+    },
+    "cpu_smoke.py": {
+      "sha256": "192f050ccec0be2129eefa36ab8869eaaae27b66f2d88b5325ddb439f1ae4280",
+      "bytes": 1724
+    },
+    "cpu_water_smoke.json": {
+      "sha256": "4da96af053227f1d15aba8f1647ec1ec9f086ec5d9280342dafc26a875bc6e9d",
+      "bytes": 627
+    },
+    "dependency_identity.json": {
+      "sha256": "ba1bf60674513d25b76ab4c0584e718edeed25710d7692815626bbcc547d8f54",
+      "bytes": 2620
+    },
+    "dependency_preflight.json": {
+      "sha256": "6899a6004aa76367de543a37001a2dea9db1b5c575a4599fd914006b602628d2",
+      "bytes": 332
+    },
+    "fixed_geometry_protocol.json": {
+      "sha256": "fd9bf422bcb2ec7b5eb02dcfbb3b89a469e086cc317d7bba3c849eb6af43c2ac",
+      "bytes": 814
+    },
+    "gate_wrapper_affinity_adjustment.json": {
+      "sha256": "4b9fc491b162c83debf8623eb9138d21e0b1bc4075ef46510a6ef820371e14be",
+      "bytes": 965
+    },
+    "geometry_inputs.json": {
+      "sha256": "dc02b013cef91d0440d08af51a67aeee0c980e45be3c9aac7405015d3d461116",
+      "bytes": 52054
+    },
+    "launch_control.py": {
+      "sha256": "70f08949a0fbf81d9d5aed24e793d145cd7d916d66d1a4107f4051ce27c27644",
+      "bytes": 4404
+    },
+    "launch_manifest.json": {
+      "sha256": "8e667822f5d03d605fb2dd85421f79682bbd3293fff709b098126751943af76c",
+      "bytes": 5430
+    },
+    "launch_resources.json": {
+      "sha256": "b3ec580288fa9c00a06c9d12a74eb669088351d421f864be07d7c15e8c85ebbb",
+      "bytes": 377
+    },
+    "launcher_owner.json": {
+      "sha256": "0369529072eca89a8c5c2b9db172b108f8c18c03b111b7fc358986a44ef4fdbf",
+      "bytes": 72
+    },
+    "oxidized_aqueous.console.log": {
+      "sha256": "b62c049705064bfc07307144c6a5fbae334a45f156b3a0aafa95e5af253e1f41",
+      "bytes": 645
+    },
+    "oxidized_aqueous.predictor_owner.json": {
+      "sha256": "49e6c0d68d0c83e29eea1291e8843ac031bd7487f468b00ff3ba2870852dbf15",
+      "bytes": 367
+    },
+    "oxidized_gas.console.log": {
+      "sha256": "0bed3bbc9807af022006a408da1fefd544fe1f1fe3ff2b57f9ed9c565b4433f2",
+      "bytes": 625
+    },
+    "oxidized_gas.predictor_owner.json": {
+      "sha256": "732a0dde140473f24928758c9f22bd67a50cc8acfe1c2be8b2cc2aee7e7ab4a3",
+      "bytes": 363
+    },
+    "parents/aqueous_hessian_protocol.json": {
+      "sha256": "fd0ec998306deb167addc588aba166b8ad4bf3de05a34a0fb3797d80c080d568",
+      "bytes": 3472
+    },
+    "parents/geometry_audit.json": {
+      "sha256": "342daaa0ff3cf68263040ea22c75ea2b01af082e651d29c7e7ed3a8dbe2a5d7a",
+      "bytes": 2106
+    },
+    "parents/independent_hessian_audit.json": {
+      "sha256": "94ebf8934c56861d9febed53bba5ce1a1803d5e1fdc215bd79a5851b2d33a665",
+      "bytes": 1555
+    },
+    "parents/initial_geometry_inputs.json": {
+      "sha256": "ca3aef344417e7b3eb5c9147ece990abb36d16d5ff5f9b9f3ea99ec7bb23d077",
+      "bytes": 43355
+    },
+    "parents/matched_profile_diagnostic.json": {
+      "sha256": "240f321f1ccdd4c34b82d9caa964c03c24fd09a9ab5e12c094ee9a7840114cc0",
+      "bytes": 1821
+    },
+    "parents/oxidized_aqueous.alpb.raw.jsonl": {
+      "sha256": "54e41356bf625fe147b8c1c542668df6258f829601cf527c3b943da5cbf08730",
+      "bytes": 83924
+    },
+    "parents/oxidized_aqueous.candidate.json": {
+      "sha256": "b0bdaecb2b33a103c5ae411133c0964ed377823317ef298333815ea038e859f4",
+      "bytes": 8540
+    },
+    "parents/oxidized_aqueous.hessian.json": {
+      "sha256": "79f46ed305a9b372b8cb3bb511c9db06fc78a59dfe5652f215926d2aaf897318",
+      "bytes": 643
+    },
+    "parents/oxidized_aqueous.hessian.npz": {
+      "sha256": "52155ccb42f3e933b844c22c6fc03e98cd40d4e569fb498039e551889f8e3066",
+      "bytes": 208580
+    },
+    "parents/oxidized_aqueous.last_trace.json": {
+      "sha256": "97ea396d05e0d70d2b6f6f742d8a016cbfa85177839e716eeeace4a65f157c8c",
+      "bytes": 14188
+    },
+    "parents/oxidized_gas.alpb.raw.jsonl": {
+      "sha256": "9a4023423a915d1fd56f299e93dd6e40c6bf2973d4efd3698a591f3783fc2f87",
+      "bytes": 83351
+    },
+    "parents/oxidized_gas.candidate.json": {
+      "sha256": "02567a90088cbb7cef4c7399d1dca5cbd00d8fcdb013a77c16ec0cea08ee121d",
+      "bytes": 8536
+    },
+    "parents/oxidized_gas.hessian.json": {
+      "sha256": "0e73b5ffe82ff199f66b85bf079f39643719bcde4794c1ec1cb7ae474d47fc69",
+      "bytes": 1305
+    },
+    "parents/oxidized_gas.hessian.npz": {
+      "sha256": "9dadacab49aedc20f991e4acb2d46f3d5a9d8dd78d61f85f0adec1fce7524cb3",
+      "bytes": 208629
+    },
+    "parents/oxidized_gas.last_trace.json": {
+      "sha256": "be35ac65bcc6c4c96b3e6a878d90976918266244477d3c27ef98ae4dc3f24d56",
+      "bytes": 14171
+    },
+    "parents/parent_fixed_geometry_protocol.json": {
+      "sha256": "508823c5e7da14ff9956b275128117f266463909b0700585ae260b52600269e5",
+      "bytes": 1603
+    },
+    "parents/reduced_aqueous.alpb.raw.jsonl": {
+      "sha256": "af004cd0544b29d527ce7d1cf689c37f65058c38289c97b36ea14bcbe5e59283",
+      "bytes": 84386
+    },
+    "parents/reduced_aqueous.candidate.json": {
+      "sha256": "22375c095ebc712855389a93d09c43043d3cc1d603762c8ab2a08af284ac8053",
+      "bytes": 8620
+    },
+    "parents/reduced_aqueous.hessian.json": {
+      "sha256": "a542b6251934895bce6f6ba88469812d225c43bce23c5a9e2d33f34b3e7ea8d7",
+      "bytes": 643
+    },
+    "parents/reduced_aqueous.hessian.npz": {
+      "sha256": "f3b88aa9f29d9228a736a658116faf7bb238e69114b626ecf3bfb490242ede99",
+      "bytes": 214058
+    },
+    "parents/reduced_aqueous.last_trace.json": {
+      "sha256": "9c730e683662a4cb4247965e5c24c676309db339110bb1a74d7686653861b352",
+      "bytes": 14362
+    },
+    "parents/reduced_gas.alpb.raw.jsonl": {
+      "sha256": "a840c154cd9fa13ee1154bf0cb0f8b9ae27cb449fff1b40c8e0ccdfedb614348",
+      "bytes": 84107
+    },
+    "parents/reduced_gas.candidate.json": {
+      "sha256": "7983bf6cb0ac51e88c287a9e77e806fa384bb25ea116b887502478ebaaabef10",
+      "bytes": 8623
+    },
+    "parents/reduced_gas.hessian.json": {
+      "sha256": "e0548a59ce724bc78c957e2a5630e88e39265f08bd32f7f84037273bc1c96e8b",
+      "bytes": 1306
+    },
+    "parents/reduced_gas.hessian.npz": {
+      "sha256": "f7440d19fc6be68a9e623f6a236fdec3d56b92a76dafd93c2de8792fc8694dcc",
+      "bytes": 214033
+    },
+    "parents/reduced_gas.last_trace.json": {
+      "sha256": "b2e69d5028960815e93a71366fb3d8effe139cf80b2e583360799791bf8576bb",
+      "bytes": 14395
+    },
+    "points/oxidized_aqueous.gas.json": {
+      "sha256": "ba47b565c8a234e5ecf8e2aa2bfaed8165acdd653e23234872d7f6916c715745",
+      "bytes": 9597
+    },
+    "points/oxidized_aqueous.json": {
+      "sha256": "332c81c8abc480bd271995fcb1a29c71eea9375bc3dfc372431fe5624bf5b418",
+      "bytes": 10307
+    },
+    "points/oxidized_aqueous.scf.log": {
+      "sha256": "b6de28bb3c2b12932635b5761a1207ea552f45f314675a4d86008f42c85a3058",
+      "bytes": 25919
+    },
+    "points/oxidized_gas.gas.json": {
+      "sha256": "d0afcaadad2cd9c76bf7879a78d21987af126a932417a0da0b8191cd420f1c60",
+      "bytes": 9603
+    },
+    "points/oxidized_gas.json": {
+      "sha256": "ed2d8db5fb4f7c08c21c97951bd1f1fc78a0224f21255f1c54b9488e7ad0caa1",
+      "bytes": 10318
+    },
+    "points/oxidized_gas.scf.log": {
+      "sha256": "065b9cbb286dcd2d3ff80f7eb812c7ad4fc0403de135766ff7dc9d666e4f962e",
+      "bytes": 25931
+    },
+    "points/reduced_aqueous.gas.json": {
+      "sha256": "89c8d11c1821a2094453bd6455bbaed50d1fded21eb7a4eb22e293c15bb3c0a1",
+      "bytes": 9693
+    },
+    "points/reduced_aqueous.json": {
+      "sha256": "1cea50b3c7819952ef311e52bc375d8e6e5601539d32bcc782523d75932efba7",
+      "bytes": 10403
+    },
+    "points/reduced_aqueous.scf.log": {
+      "sha256": "6bc16323008a2b8b9352e839cae83ec8d63b0b62f99b62a95b5354667b02b0dd",
+      "bytes": 26091
+    },
+    "points/reduced_gas.gas.json": {
+      "sha256": "c3d47cb880e04b41f4cfe1d47ed99f0be7c32f05f8adb9c8c69c6dab1a2a0bcf",
+      "bytes": 9698
+    },
+    "points/reduced_gas.json": {
+      "sha256": "dada8006379d9cab324a01c8e30e50859ee7306df6c9a94558d802c4aaa7c07b",
+      "bytes": 10401
+    },
+    "points/reduced_gas.scf.log": {
+      "sha256": "7f127df4d8b1f53ea77cd7186dc02b9a6f099c400c793018290843a15c770747",
+      "bytes": 25707
+    },
+    "points/smoke.gas.json": {
+      "sha256": "67773aa693a6ec5b67213c306b4c370b4586fcf7c0512d42081b643650605ff2",
+      "bytes": 1853
+    },
+    "points/smoke.json": {
+      "sha256": "63a5603e80086e494f28a5ec7232164e3117deadb74fb7734406f47964d79c93",
+      "bytes": 2688
+    },
+    "points/smoke.scf.log": {
+      "sha256": "4de6e462a91dfb6635fbb0e364b1a793ead4f0f133168c77c9abcc70748ac175",
+      "bytes": 13930
+    },
+    "portable_replay_receipt.json": {
+      "sha256": "9209442320f80357feb9e0f3595e4b2e7a45e37d52169c6d4c4b27edad30b34d",
+      "bytes": 314
+    },
+    "preflight_basis.py": {
+      "sha256": "8f1cd69b4580911b7716e4ef94de787d59c7ab66e2b806878b0860fb882eb90f",
+      "bytes": 2319
+    },
+    "prepare_inputs.py": {
+      "sha256": "0214ea95530a97a0063703d3d2e2cfc610d57bb6d65124460051d4bfc9d0872d",
+      "bytes": 10324
+    },
+    "protocol.json": {
+      "sha256": "530f08fa4012444d4995e5945b1411d0f2b11b56f3c6017efdddc41876490c6c",
+      "bytes": 2775
+    },
+    "reduced_aqueous.console.log": {
+      "sha256": "3f69bbdde0b336eaf16490e087549ca0f970ce044689b02b63e0832da1b94b9b",
+      "bytes": 640
+    },
+    "reduced_aqueous.predictor_owner.json": {
+      "sha256": "dac701661a27e357150032f301ed3a3d0dda09e3b27d68a2db3e22a1de103c0b",
+      "bytes": 366
+    },
+    "reduced_gas.console.log": {
+      "sha256": "2aed5328fbb8b37f844fe6c481fcb4d55df0678cb349b09f402047324d451b65",
+      "bytes": 620
+    },
+    "reduced_gas.predictor_owner.json": {
+      "sha256": "884e0a5d2cf0d4dd0c836cbb693a01c2ca4d7791abd2a08e0519eae7a5d48def",
+      "bytes": 362
+    },
+    "reference_point.py": {
+      "sha256": "13774aafddad87168e2e4d8c6f76089297e27b5b96eed0c2c9ea93d2e23b13ef",
+      "bytes": 5374
+    },
+    "resources.json": {
+      "sha256": "f879378ccef13efc04ec639d681ccc9c908dc585f8b53ecb79e12bf1ae838001",
+      "bytes": 3901
+    },
+    "run_control.py": {
+      "sha256": "5c42bd4c262c6ba90ae3fd98f35515dd27f1d3fce8aa80b9ad3bb68e0fa7bb3e",
+      "bytes": 4542
+    },
+    "smoke.console.log": {
+      "sha256": "92f1e86686763da4f151d24a34c850def15fb1ca31d9d71ce23ac33593c05092",
+      "bytes": 589
+    },
+    "startup_verification.json": {
+      "sha256": "fba4ed1a253c3d29773bd72ae735011eb63e0aa37c0ade7f03034ce9de444da3",
+      "bytes": 1588
+    },
+    "upstream/Hessian_model.json": {
+      "sha256": "e7f52ade8d6c5730b81aca7494ab94f712e8adfef17287bfb90575775f220914",
+      "bytes": 2298
+    },
+    "upstream/geometry_model.json": {
+      "sha256": "e7f52ade8d6c5730b81aca7494ab94f712e8adfef17287bfb90575775f220914",
+      "bytes": 2298
+    }
+  }
+}

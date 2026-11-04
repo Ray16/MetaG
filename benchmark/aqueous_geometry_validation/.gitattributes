@@ -1,0 +1,3 @@
+# Preserve authenticated native outputs, JSON and numerical archives verbatim.
+* -text
+*.log -whitespace

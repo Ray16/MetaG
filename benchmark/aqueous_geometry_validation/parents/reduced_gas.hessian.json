@@ -1,0 +1,31 @@
+{
+  "slot": "reduced_gas",
+  "candidate_sha256": "7983bf6cb0ac51e88c287a9e77e806fa384bb25ea116b887502478ebaaabef10",
+  "source_sha256": "9385a6f74813c6eeb71814e7d9046f01854444429b235a4c46dc410240440379",
+  "protocol_sha256": "110537a6367f363252247850d696b01f5103a15b307e5b760f858223ccfd6fd3",
+  "Hessian_archive_sha256": "f7440d19fc6be68a9e623f6a236fdec3d56b92a76dafd93c2de8792fc8694dcc",
+  "charge": -2,
+  "n_atoms": 71,
+  "UMA_energy_replay_difference_kj": -0.00014567492602509446,
+  "elapsed_seconds": 6.418773137032986,
+  "Hessian_kind": "Exact UMA Cartesian electronic Hessian; no solvent curvature included yet.",
+  "passed": true,
+  "gas_RRHO_diagnostic": {
+    "correction_kj": 1218.6490563350576,
+    "n_imag": 0,
+    "max_imag_cm": 16.7,
+    "thermodynamics": {
+      "temperature_K": 298.15,
+      "pressure_Pa": 101325.0,
+      "enthalpy_correction_kj": 1516.2784264367103,
+      "entropy_kj_per_K": 0.9982537987624813,
+      "minus_T_entropy_kj": -297.62937010103377,
+      "gibbs_correction_kj": 1218.6490563350576,
+      "zpe_kj": 1409.3798537584312,
+      "n_internal_modes": 207,
+      "n_floored_modes": 9,
+      "scope": "Single-geometry ideal-gas thermochemistry; projected RRHO with 50 cm^-1 floor. No solution or ensemble correction."
+    },
+    "accepted_by_mode_policy": true
+  }
+}

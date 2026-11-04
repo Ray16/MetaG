@@ -1,0 +1,40 @@
+{
+  "scope": "Matched pilot geometry/curvature sensitivity. Not a historical-release comparison, experimental accuracy test or production-state replacement.",
+  "states": {
+    "oxidized_gas": {
+      "combined_potential_kj": -7707969.640919407,
+      "RRHO_kj": 1203.4622482776203,
+      "raw_G_kj": -7706766.178671129,
+      "n_imag": 0,
+      "numerical_energy_refinement_eV": -1.877033639630099e-09
+    },
+    "reduced_gas": {
+      "combined_potential_kj": -7709915.698099653,
+      "RRHO_kj": 1218.6490563350576,
+      "raw_G_kj": -7708697.049043318,
+      "n_imag": 0,
+      "numerical_energy_refinement_eV": 9.061889016948044e-09
+    },
+    "oxidized_aqueous": {
+      "combined_potential_kj": -7707976.469898268,
+      "RRHO_kj": 1199.0413863227066,
+      "raw_G_kj": -7706777.428511945,
+      "n_imag": 0
+    },
+    "reduced_aqueous": {
+      "combined_potential_kj": -7709967.233519305,
+      "RRHO_kj": 1218.6440741540239,
+      "raw_G_kj": -7708748.58944515,
+      "n_imag": 0
+    }
+  },
+  "electronic_solvent_profile_shift_kj": -44.70644079055637,
+  "RRHO_profile_shift_kj": 4.415879773880079,
+  "raw_G_profile_shift_kj": -40.29056101664901,
+  "weight_definition": "(reduced_aqueous-oxidized_aqueous)-(reduced_gas-oxidized_gas)",
+  "model_basis": "One geometry per state. Both arms scored with the same accuracy0.001/extreme-grid matched xTB solvent increment. Gas arm retains gas electronic curvature; aqueous arm uses combined effective-potential curvature.",
+  "standard_state_note": "Solute standard-state and common elemental/charge offsets cancel in this difference. Individual raw quantities omit later biochemical transformations.",
+  "experimental_labels_admitted": 0,
+  "empirical_offsets_fitted": 0,
+  "source_auditor_sha256": "9f6cb1fb43c059f906a98a76c16a9fed34aeb882693d5d4656f8a1b33fb3ff58"
+}

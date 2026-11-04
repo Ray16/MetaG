@@ -1,0 +1,22 @@
+{
+  "functional": "wb97m-v",
+  "basis": "def2-tzvpd",
+  "density_fitting": true,
+  "auxbasis": "def2-universal-jkfit",
+  "grid_level": 4,
+  "nlc_grid_level": 3,
+  "SCF_tolerance_Eh": 1e-10,
+  "SCF_gradient_tolerance": 1e-06,
+  "stationary_gradient_maximum": 5e-05,
+  "max_cycle": 150,
+  "overlap_minimum_eigenvalue": 1e-08,
+  "max_memory_MB": 64000,
+  "solvent": "water",
+  "SMD_sasa_ng": 590,
+  "SMD_equilibrium_solvation": true,
+  "Hartree_to_kj_per_mol": 2625.4996394799,
+  "numerical_smoke_tolerance_kj": 0.05,
+  "schema": "metag-fixed-geometry-DFT-settings-v1",
+  "scope": "Four owned charged-NAD gas/aqueous optimized endpoints. Numerical settings inherited unchanged from the earlier fixed-geometry control.",
+  "parent_protocol_sha256": "508823c5e7da14ff9956b275128117f266463909b0700585ae260b52600269e5"
+}

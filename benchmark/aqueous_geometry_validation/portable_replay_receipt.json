@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "isolated_cwd": true,
+  "original_workspace_data_paths_needed": false,
+  "dependencies": "Python standard library and NumPy; no inference backend",
+  "all_four_quantum_points_and_arms_reproduced": true,
+  "auditor_sha256": "e07029bd75f9e4cd85bfb7f0c91f6a4998712297a62cfba50bcbf3d461022b83"
+}

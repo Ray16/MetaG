@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "expected_slots": [
+    "oxidized_gas",
+    "reduced_gas",
+    "oxidized_aqueous",
+    "reduced_aqueous"
+  ],
+  "completed": [
+    "oxidized_gas",
+    "reduced_gas",
+    "oxidized_aqueous",
+    "reduced_aqueous"
+  ],
+  "failures": [],
+  "smoke_passed": true
+}

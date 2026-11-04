@@ -166,6 +166,12 @@ absolute sugar configurations. It retains a generic stereo-unspecified database
 entry alongside the source-specific isomer, and does not infer solution-state
 or experimental-reference eligibility from a successful structure lookup.
 
+The [aqueous geometry control](aqueous_geometry_validation/README.md) compares
+four fixed charged-NAD endpoints under UMA/DFT and ALPB/SMD scoring. The energy
+intervention is −44.71 kJ/mol under UMA/ALPB and −20.09 under parent DFT/SMD.
+It authenticates a model-dependent geometry response and supplies no experimental
+Gibbs-energy correction or validated production replacement.
+
 `corrected_cycle_summary.json` records the current-source shared-record cycle audit: 30 of 49
 independent input-state vectors are evaluable, of which four fail numerical closure up to
 8.70 kJ/mol. The additionally named sucrose and amino-acid controls are not independent basis

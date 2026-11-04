@@ -1,0 +1,59 @@
+{
+  "scope": "Converged geometry candidates only. No Hessian validation, RRHO, conformer ensembles or molecular Gibbs estimates.",
+  "n_requested": 4,
+  "n_converged_identity_preserving_candidates": 4,
+  "rows": [
+    {
+      "slot": "oxidized_gas",
+      "initial_steps": 240,
+      "additional_steps": 557,
+      "cumulative_steps": 797,
+      "force_max_eV_A": 0.019195476066941743,
+      "combined_force_max_eV_A": 1.5036712448566536,
+      "identity_passed": true,
+      "status": "accepted_geometry_candidate",
+      "endpoint_trace_binding_verified": true,
+      "elapsed_seconds": 50.15858711488545
+    },
+    {
+      "slot": "reduced_gas",
+      "initial_steps": 240,
+      "additional_steps": 778,
+      "cumulative_steps": 1018,
+      "force_max_eV_A": 0.019995460107523007,
+      "combined_force_max_eV_A": 2.0994213753686326,
+      "identity_passed": true,
+      "status": "accepted_geometry_candidate",
+      "endpoint_trace_binding_verified": true,
+      "elapsed_seconds": 64.83038530498743
+    },
+    {
+      "slot": "oxidized_aqueous",
+      "initial_steps": 240,
+      "additional_steps": 41,
+      "cumulative_steps": 281,
+      "force_max_eV_A": 0.019861482683393283,
+      "combined_force_max_eV_A": 0.019861482683393283,
+      "identity_passed": true,
+      "status": "accepted_geometry_candidate",
+      "endpoint_trace_binding_verified": true,
+      "elapsed_seconds": 35.20937791466713
+    },
+    {
+      "slot": "reduced_aqueous",
+      "initial_steps": 240,
+      "additional_steps": 20,
+      "cumulative_steps": 260,
+      "force_max_eV_A": 0.019644770703746213,
+      "combined_force_max_eV_A": 0.019644770703746213,
+      "identity_passed": true,
+      "status": "accepted_geometry_candidate",
+      "endpoint_trace_binding_verified": true,
+      "elapsed_seconds": 16.925920458510518
+    }
+  ],
+  "matched_geometry_treatment_change_in_scored_redox_potential_kj": -44.70635042991489,
+  "unit_note": "Combined UMA+ALPB potential energy; not an electrochemical potential in volts or a Gibbs prediction.",
+  "Gibbs_estimates": 0,
+  "original_240step_refusals_retained": true
+}

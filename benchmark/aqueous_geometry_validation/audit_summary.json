@@ -1,0 +1,128 @@
+{
+  "schema": "metag-aqueous-geometry-parent-audit-v1",
+  "passed": true,
+  "source_sha256": "e07029bd75f9e4cd85bfb7f0c91f6a4998712297a62cfba50bcbf3d461022b83",
+  "protocol_sha256": "530f08fa4012444d4995e5945b1411d0f2b11b56f3c6017efdddc41876490c6c",
+  "water_fixture_GPU_CPU_difference_kj": {
+    "gas": 7.274972578191989e-05,
+    "water": 8.262445950360297e-05
+  },
+  "rows": [
+    {
+      "slot": "oxidized_gas",
+      "weight": 1,
+      "components_kj": {
+        "UMA_electronic": -7707477.291815898,
+        "DFT_electronic": -7707497.843439943,
+        "ALPB": -492.3491035084264,
+        "SMD": -425.406861412648
+      },
+      "arm_potentials_kj": {
+        "UMA_ALPB": -7707969.640919407,
+        "DFT_ALPB": -7707990.192543452,
+        "UMA_SMD": -7707902.698677311,
+        "DFT_SMD": -7707923.250301356
+      },
+      "gas_HOMO_Eh": -0.22195947172932867,
+      "water_HOMO_Eh": -0.31625154791178745,
+      "n_AO": 1916,
+      "n_electrons": 344,
+      "overlap_min": 2.3116758891967006e-07,
+      "limitations": []
+    },
+    {
+      "slot": "reduced_gas",
+      "weight": -1,
+      "components_kj": {
+        "UMA_electronic": -7709036.727132161,
+        "DFT_electronic": -7709058.014984519,
+        "ALPB": -878.9709674927111,
+        "SMD": -790.0528671550927
+      },
+      "arm_potentials_kj": {
+        "UMA_ALPB": -7709915.698099654,
+        "DFT_ALPB": -7709936.985952012,
+        "UMA_SMD": -7709826.779999317,
+        "DFT_SMD": -7709848.067851674
+      },
+      "gas_HOMO_Eh": -0.11369994291094727,
+      "water_HOMO_Eh": -0.2779209616900803,
+      "n_AO": 1925,
+      "n_electrons": 346,
+      "overlap_min": 2.9551005052639736e-07,
+      "limitations": []
+    },
+    {
+      "slot": "oxidized_aqueous",
+      "weight": -1,
+      "components_kj": {
+        "UMA_electronic": -7707365.778147904,
+        "DFT_electronic": -7707387.023574713,
+        "ALPB": -610.6917503639944,
+        "SMD": -549.0795535754742
+      },
+      "arm_potentials_kj": {
+        "UMA_ALPB": -7707976.469898269,
+        "DFT_ALPB": -7707997.715325077,
+        "UMA_SMD": -7707914.857701479,
+        "DFT_SMD": -7707936.103128288
+      },
+      "gas_HOMO_Eh": -0.19350483646166,
+      "water_HOMO_Eh": -0.31438304803848455,
+      "n_AO": 1916,
+      "n_electrons": 344,
+      "overlap_min": 2.3661187579927868e-07,
+      "limitations": []
+    },
+    {
+      "slot": "reduced_aqueous",
+      "weight": 1,
+      "components_kj": {
+        "UMA_electronic": -7708981.428651118,
+        "DFT_electronic": -7709002.20064744,
+        "ALPB": -985.8048681872242,
+        "SMD": -878.8128963836004
+      },
+      "arm_potentials_kj": {
+        "UMA_ALPB": -7709967.233519305,
+        "DFT_ALPB": -7709988.005515627,
+        "UMA_SMD": -7709860.241547502,
+        "DFT_SMD": -7709881.013543824
+      },
+      "gas_HOMO_Eh": -0.09188001420361894,
+      "water_HOMO_Eh": -0.28013622510785663,
+      "n_AO": 1925,
+      "n_electrons": 346,
+      "overlap_min": 2.2190457882462483e-07,
+      "limitations": []
+    }
+  ],
+  "geometry_intervention_kj": {
+    "UMA_ALPB": -44.706440788693726,
+    "DFT_ALPB": -43.49678198900074,
+    "UMA_SMD": -21.30252401623875,
+    "DFT_SMD": -20.092865218408406
+  },
+  "per_family_aqueous_minus_gas_geometry_kj": {
+    "oxidized": {
+      "UMA_ALPB": -6.828978861682117,
+      "DFT_ALPB": -7.522781625390053,
+      "UMA_SMD": -12.159024168737233,
+      "DFT_SMD": -12.852826931513846
+    },
+    "reduced": {
+      "UMA_ALPB": -51.53541965037584,
+      "DFT_ALPB": -51.01956361439079,
+      "UMA_SMD": -33.46154818497598,
+      "DFT_SMD": -32.94569214992225
+    }
+  },
+  "parent_DFT_gas_electronic_change_to_geometry_effect_kj": 1.2096587996929884,
+  "parent_SMD_change_to_geometry_effect_at_UMA_kj": 23.403916772454977,
+  "combined_parent_DFT_SMD_minus_UMA_ALPB_change_kj": 24.61357557028532,
+  "source_thermal_geometry_effect_kj": 4.415879773880079,
+  "scope": "Fixed-microgeometry electronic/implicit-solvent energy intervention only. No equilibrium cycle-closure requirement, parent nuclear minima/Hessians, complete conformer ensembles, biochemical standardGibbs or experimental-accuracy validation.",
+  "factorization_note": "SMD increments are shared parent-density corrections in the two electronic arms. Single-geometry linear arithmetic makes the factorial interaction identically zero; it is not evidence of independent physical errors.",
+  "production_promotion": false,
+  "experimental_labels_admitted": 0
+}
