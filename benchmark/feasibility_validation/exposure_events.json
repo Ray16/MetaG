@@ -1,0 +1,25 @@
+{
+  "scope": "Reference/schema exposure record. No candidate predictions, paired errors, residual-based exclusions or model training were performed.",
+  "events": [
+    {
+      "kind": "schema_inspection",
+      "source": "tools/dGbyG/dGbyG/data/TrainingData.csv",
+      "row_zero_based": 0,
+      "detail": "The first formation row target was displayed before projection was restricted. Not used as a selection criterion."
+    },
+    {
+      "kind": "headerless_file_discovery",
+      "source": "data/experimental/TECRDB.tsv",
+      "row_zero_based": 0,
+      "source_reference": "07LIN/ALG",
+      "detail": "Treating the headerless TSV as a header displayed the first measurement row during schema inspection. Subsequent parsing must use the documented14-column layout. No prediction/error or model-development action followed from its value."
+    }
+  ],
+  "additional_source_inspection_event": {
+    "source": "NIST 2007 evaluated-table printed page1363 and search snippets for its original2000valine study",
+    "measurement_values_visible_during_identity_review": true,
+    "candidate_selection_based_on_measurement_values": false,
+    "prediction_errors_inspected": false,
+    "purpose": "Resolve the branched versus straight-chain keto-acid identity discrepancy. No experimental reference admitted."
+  }
+}

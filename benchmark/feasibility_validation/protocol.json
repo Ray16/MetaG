@@ -1,0 +1,92 @@
+{
+  "schema": "metag-feasibility-portable-protocol-v1",
+  "created_utc": "2026-11-04T18:09:42.331519+00:00",
+  "source_sha256": "667e022d1091554d1bbdbf4ce196d2c9c8209916a0182c03ea72a8b9c7355d42",
+  "inputs": {
+    "training671_structural.csv": {
+      "parent_path": "tools/dGbyG/dGbyG/data/TrainingData.csv",
+      "parent_sha256": "b2e5968f4f976904aae9731228cbd6d00b585c9eaa5cb6689766bf2c3d14dfbc",
+      "exported_columns": [
+        "description",
+        "reaction",
+        "type",
+        "T",
+        "I",
+        "pH",
+        "pMg",
+        "EC"
+      ],
+      "rows": 671
+    },
+    "training675_structural.csv": {
+      "parent_path": "MetaG/analysis/independent_reference_curation_20261104_02/TrainingData_author675.csv",
+      "parent_sha256": "cd8ede797d2f1c088cccf6b6561d258a34e753ff1ea8c43ca8cb36ca28553f3c",
+      "exported_columns": [
+        "description",
+        "reaction",
+        "type",
+        "T",
+        "I",
+        "pH",
+        "pMg",
+        "EC"
+      ],
+      "rows": 675
+    },
+    "opentecr_source_metadata.csv": {
+      "parent_path": "MetaG/analysis/benchmark_feasibility_20261104_01/opentecr_nightly_20261104.csv",
+      "parent_sha256": "4b74c2ef81e777ae6b0e2e26edfa32fec6fab59b9ae2198b7bcb67f455e469e8",
+      "exported_columns": [
+        "part",
+        "page",
+        "col l/r",
+        "table from top",
+        "entry nr",
+        "reaction",
+        "reference",
+        "temperature",
+        "ionic_strength",
+        "p_h",
+        "p_mg"
+      ],
+      "rows": 5735
+    },
+    "historical_inputs.json": {
+      "parent_path": "MetaG/analysis/benchmark_feasibility_20261104_01/historical_input_union.json",
+      "parent_sha256": "8051a5f55fee2d45d2085c933a29cbbbc5922ed8d0d8cb8167e0ad3cb1a67c34",
+      "projection": "species input triples only; witness paths omitted",
+      "rows": 383
+    }
+  },
+  "candidate_rule": "All reaction targets without an exact/pool match to the bounded historical input union. Molecular holdout previews additionally require a resolved absent broad family and no unresolved candidate aliases. No outcome magnitude, prediction or residual selects candidates.",
+  "heldout_rule": "For each candidate, exclude its target, exact/pool-equivalent equations, all reaction and formation targets involving held-out broad families, and every unresolved training row. Broad families ignore stereochemistry for conservative exclusion; this is not a scaffold holdout.",
+  "distance_scope": "Morgan radius2/2048bits/chirality on explicit pool keys, evaluated after declared training exclusions. Original concrete-domain neighbours are also reported to expose effects of removing unresolved rows. No native released-model novelty or uncertainty claim.",
+  "source_matching": "Case, whitespace, primitive rational extent and direction only. Named equations retain phase and stereochemical text. Matches remain ancestry leads, never verified label derivations.",
+  "benchmark_design": "state_function_validation/design.json remains authoritative; no gates or success thresholds changed.",
+  "launch_allowed": false,
+  "experimental_references_admitted": 0,
+  "method_frozen": false,
+  "test_set_frozen": false,
+  "historical_exposure_scope": "Bounded reaction-shaped JSON inventory only, not an exhaustive audit of old scripts, molecular records, notebooks, spreadsheets or private outcomes. Absence is not independence.",
+  "comparator_controls_required": [
+    "Use the same conservative unresolved-row exclusions in nested controls.",
+    "Use training-only scaling/normalization and source-pinned training settings.",
+    "Hold out source/measurement duplicates and all held-out-family formation labels.",
+    "Control for training-support loss; do not compare a reduced retraining corpus as if it were the native full-corpus model.",
+    "Use the native100-member ensemble for a native-uncertainty comparison; five-member or CV-repeat spread is a different estimator.",
+    "A confidence interval spanning zero is inconclusive, not evidence of equivalence."
+  ],
+  "metag_runtime_source_commit": "a61f94ce5b2015cd39e25f017b5312fc122df247",
+  "runtime_module_sha256": {
+    "src/metag/routing/pka_transform.py": "9af8a418d40c0b904c4a50be198459a8872e2be027a1237a3eb54e3904022630",
+    "src/metag/routing/sugar_states.py": "bf80ed5ce1c6bc9279440c077ee809816e48a58129f46c77bcb6816352ba4fd0",
+    "src/metag/routing/pka_domain.py": "0e0ca7f0672bd8747de9a739f2b613a032432bd65a72cc50d5fc3e9722dff83d",
+    "src/metag/validation/stereochemistry.py": "d4fc6b37d3bdeda36ef6474e40ca26bf4f2f4a44c7fd74ff0ae211da10450360"
+  },
+  "python_version": "3.12.13 | packaged by conda-forge | (main, Mar  5 2026, 16:50:00) [GCC 14.3.0]",
+  "input_sources": {
+    "public671": "Local reviewed copy tools/dGbyG/dGbyG/data/TrainingData.csv, SHA256 pinned above. Exact upstream training/checkpoint correspondence remains unverified; repository https://github.com/f-wc/dGbyG is attribution, not a verified snapshot URL.",
+    "author675": "https://gitee.com/f-wc/dGbyG/raw/d539d2d4ace8905ae13dc93a18ce6f02493722a7/dGbyG/data/TrainingData.csv",
+    "opentecr": "https://opentecr.github.io/TECRDB-data/data.csv"
+  }
+}

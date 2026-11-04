@@ -147,6 +147,13 @@ common-target comparisons and the preceding error distribution of newly unavaila
 On the 198 admitted primary labels, current/preceding common-target MAEs are 8.38/8.37 kJ/mol.
 No accuracy improvement follows from the smaller aggregate error after coverage falls.
 
+The [independent-benchmark feasibility audit](feasibility_validation/README.md)
+provides portable structural inputs, bounded development-history matching,
+source metadata leads, and proposed exclusions from both dGbyG reaction and
+formation labels. It admits no independent reference, trains no comparator,
+and does not supply enough screened unfamiliar cases for the primary validation
+design. Its counts are preparation evidence, not prediction performance.
+
 `corrected_cycle_summary.json` records the current-source shared-record cycle audit: 30 of 49
 independent input-state vectors are evaluable, of which four fail numerical closure up to
 8.70 kJ/mol. The additionally named sucrose and amino-acid controls are not independent basis

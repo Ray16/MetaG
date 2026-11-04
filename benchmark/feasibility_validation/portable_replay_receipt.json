@@ -1,0 +1,40 @@
+{
+  "utc": "2026-11-04T18:13:08.637768+00:00",
+  "auditor_sha256": "667e022d1091554d1bbdbf4ce196d2c9c8209916a0182c03ea72a8b9c7355d42",
+  "checks": [
+    {
+      "corpus": "public671",
+      "artifact": "audit",
+      "equal_to_published_output": true
+    },
+    {
+      "corpus": "public671",
+      "artifact": "source_candidates",
+      "equal_to_published_output": true
+    },
+    {
+      "corpus": "public671",
+      "artifact": "holdout_previews",
+      "equal_to_published_output": true
+    },
+    {
+      "corpus": "author675",
+      "artifact": "audit",
+      "equal_to_published_output": true
+    },
+    {
+      "corpus": "author675",
+      "artifact": "source_candidates",
+      "equal_to_published_output": true
+    },
+    {
+      "corpus": "author675",
+      "artifact": "holdout_previews",
+      "equal_to_published_output": true
+    }
+  ],
+  "passed": true,
+  "isolated_cwd": true,
+  "copied_source_import_verified": true,
+  "original_workspace_paths_needed": false
+}

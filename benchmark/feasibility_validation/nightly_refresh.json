@@ -1,0 +1,10 @@
+{
+  "url": "https://opentecr.github.io/TECRDB-data/data.csv",
+  "utc": "2026-11-04T17:55:37.533991+00:00",
+  "old_sha256": "4b74c2ef81e777ae6b0e2e26edfa32fec6fab59b9ae2198b7bcb67f455e469e8",
+  "new_sha256": "4b74c2ef81e777ae6b0e2e26edfa32fec6fab59b9ae2198b7bcb67f455e469e8",
+  "bytes_identical": true,
+  "old_rows": 5735,
+  "new_rows": 5735,
+  "scope": "Byte/count comparison only; no new measurements admitted or prediction errors computed. A changed row is not proof of a new independent experiment."
+}

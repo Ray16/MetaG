@@ -1,0 +1,83 @@
+{
+  "schema": "metag-feasibility-evidence-manifest-v1",
+  "scope": "Structural feasibility and source leads only; zero references admitted, no predictions or model fitting.",
+  "files": {
+    ".gitattributes": {
+      "sha256": "888de0385fde0b909bd3feea8cfefa411d3767cddb95fccb15ac2b2bf9151bcb",
+      "bytes": 151
+    },
+    "DGBYG_LICENSE": {
+      "sha256": "b2b34b098ec5e19c0200cf6db8945d512dea991812d058fb9cf969c976af0766",
+      "bytes": 1087
+    },
+    "README.md": {
+      "sha256": "c54128baabdec22ce067dc697221e5829398d65f698261299765955e7562e0d1",
+      "bytes": 7038
+    },
+    "author675_audit.json": {
+      "sha256": "861406cf7d844359e28399baae924df1f650fecb861d96a3e4582b8488ed9a06",
+      "bytes": 1378915
+    },
+    "author675_holdout_previews.json": {
+      "sha256": "989a0ed455f2352e48fc18362fc50f6cc303480b34bff748fa3edcc84cbc420e",
+      "bytes": 663155
+    },
+    "author675_source_candidates.json": {
+      "sha256": "267666a8245839cb2b1d121564d51d9592b6d6b3384016c98cc4c6323db39fbb",
+      "bytes": 307024
+    },
+    "exposure_events.json": {
+      "sha256": "a54e069f149df7d54a2a18a7380e92e7688fd0e4e79d2fdad165e04fe5b53e2e",
+      "bytes": 1314
+    },
+    "historical_inputs.json": {
+      "sha256": "51fa9ccaab3dfe3179995bf9606fa50f29ec66783f1249670495113c1e5d4463",
+      "bytes": 207547
+    },
+    "historical_inventory.json": {
+      "sha256": "0a28e0a17ce35a62d719d525bf6edc6263aa3cfdad7daafb26a2d58f63c41465",
+      "bytes": 166346
+    },
+    "nightly_refresh.json": {
+      "sha256": "b97386812c1679d3b2865f8d02a02614a81c5c7b6e376bfb83a5a24369743006",
+      "bytes": 505
+    },
+    "opentecr_source_metadata.csv": {
+      "sha256": "72213cd3fb5b1ad793bb87c9a709f46f637dc1cc09b52431726073f3bdd926be",
+      "bytes": 574327
+    },
+    "portable_replay_receipt.json": {
+      "sha256": "b19c5c6772406aeebc0aa9d04401368073dca2c2e71a64efd0cc8250d5aef605",
+      "bytes": 981
+    },
+    "protocol.json": {
+      "sha256": "d22d9a6c57426a99e804335aeb43012c86ea3ad094f3d1446af52f13550bd151",
+      "bytes": 5162
+    },
+    "public671_audit.json": {
+      "sha256": "f3d4a45bfe323ea97c7126e8180c4fc5385dcb7f51524af3de309af0dd2242ab",
+      "bytes": 1127326
+    },
+    "public671_holdout_previews.json": {
+      "sha256": "c4787a35cad4225d738c6849747c0ec37d8a1ce1c05f79448521aa37483d8555",
+      "bytes": 600992
+    },
+    "public671_source_candidates.json": {
+      "sha256": "d0784498ca621e96ecfdcf023206a8443f3e8aee44d6e334fb8e521b6234b803",
+      "bytes": 302697
+    },
+    "training671_structural.csv": {
+      "sha256": "c91636a509a6be3eb98651043436caa8dc9fe4df1885ecc206fc292652bffc39",
+      "bytes": 155849
+    },
+    "training675_structural.csv": {
+      "sha256": "f6509f3164f5cdc544603b3622c10bd7095a10acabcd74dc25514c48f666a6ad",
+      "bytes": 262154
+    },
+    "valine_identity_adjudication.json": {
+      "sha256": "40062d722e6893aa96ae762e64f635d39212c62a4d75e075a2efd59c860bac9e",
+      "bytes": 1874
+    }
+  },
+  "source_sha256": "667e022d1091554d1bbdbf4ce196d2c9c8209916a0182c03ea72a8b9c7355d42"
+}

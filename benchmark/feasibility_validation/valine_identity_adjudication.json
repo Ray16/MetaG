@@ -1,0 +1,26 @@
+{
+  "schema": "metag-source-identity-adjudication-v1",
+  "training_sha256": "b2e5968f4f976904aae9731228cbd6d00b585c9eaa5cb6689766bf2c3d14dfbc",
+  "training_row": 517,
+  "original_equation": "CC(C)[C@H](N)C(=O)O + O=C(O)CCC(=O)C(=O)O = CCCC(=O)C(=O)O + N[C@@H](CCC(=O)O)C(=O)O",
+  "source_supported_equation_hypothesis": "CC(C)[C@H](N)C(=O)O + O=C(O)CCC(=O)C(=O)O = CC(C)C(=O)C(=O)O + N[C@@H](CCC(=O)O)C(=O)O",
+  "original_product_smiles": "CCCC(=O)C(=O)O",
+  "source_supported_product_smiles": "CC(C)C(=O)C(=O)O",
+  "finding": "Encoded product is straight-chain 2-oxovalerate. Original-study NIST abstract identifies branched 2-oxoisovalerate. The 2007 evaluated table heading uses 2-oxovalerate, while its explicit chemical-reference annotation uses 2-oxoisovalerate. This supports propagation of a source-name error into structural encoding; numeric target ancestry is not proved.",
+  "original_study_nist_url": "https://www.nist.gov/publications/thermodynamics-reactions-catalyzed-branched-chain-amino-acid-transaminase",
+  "evaluated_table_url": "https://srd.nist.gov/jpcrdreprint/1.2789450.pdf",
+  "evaluated_table_sha256": "d7ce697cd79e0cbac61dee3d142ccf7203f5de78e6dd1ff634b0c2b58056c92d",
+  "evaluated_table_printed_page": 1363,
+  "evaluated_table_pdf_page_zero_based": 17,
+  "reference_code": "00TEW/GOL",
+  "named_source_rows": [
+    5243,
+    5244
+  ],
+  "corrected_hypothesis_matches_MetaG_development_equations": [],
+  "original_training_file_modified": false,
+  "experimental_target_modified": false,
+  "decision": "Exclude the encoded reaction from independent enrollment pending source/label adjudication. If the source-supported product is confirmed, exclude from independent evaluation as development-exposed whenever the corrected equation matches a development equation.",
+  "independence_certified": false,
+  "new_experimental_references_admitted": 0
+}
