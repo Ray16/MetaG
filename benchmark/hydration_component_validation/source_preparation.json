@@ -1,0 +1,17 @@
+{
+  "structures": 648,
+  "compounds": 21,
+  "pure_water_accuracy_compounds": 13,
+  "acid_medium_held_compounds": 6,
+  "covalent_identity_held_compounds": 2,
+  "phases": {
+    "gas": 290,
+    "solv": 358
+  },
+  "ordered_coordinate_and_reference_graphs_checked": 648,
+  "no_prediction_or_error_selection": true,
+  "source_conventions": "Kaw=c_air/c_water; molar gas-to-water hydration = RT ln(Kaw).",
+  "script_sha256": "4d3fdc06cb5f08496d5cb99a93e6e7688ceb93f7aba677107b01fa1ab3b75630",
+  "inputs_sha256": "136fe792c3e8b86df2dd84142c9b34df5c6c170b702047ac201f6f7782e902cd",
+  "references_sha256": "f69cfac5ec637f30d33146891b913f2bb2892bc4ad41248b48472635f4f0b577"
+}

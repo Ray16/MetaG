@@ -1,0 +1,16 @@
+[
+  {
+    "path": "upstream/data/raw_energies/energies.csv",
+    "url": "https://raw.githubusercontent.com/grimme-lab/flexisol/7b44798f26c888ef541faa6143a813136921483f/data/raw_energies/energies.csv",
+    "bytes": 12156245,
+    "sha256": "1f0d794b2e7cee99bd08d4ea44433a87cba073aa4b033f21ec2a5cb4d37226fb",
+    "retrieved_utc": "2026-11-04T21:40:01.073881+00:00"
+  },
+  {
+    "path": "flexisol_pinned.tar.gz",
+    "url": "https://codeload.github.com/grimme-lab/flexisol/tar.gz/7b44798f26c888ef541faa6143a813136921483f",
+    "bytes": 30781495,
+    "sha256": "868f53301e9ab5ea03245dbd6150af567e0a515f0a32ad878baef3b65db41831",
+    "retrieved_utc": "2026-11-04T21:40:06.029203+00:00"
+  }
+]

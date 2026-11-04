@@ -1,0 +1,86 @@
+[
+  {
+    "path": "upstream/README.md",
+    "url": "https://raw.githubusercontent.com/grimme-lab/flexisol/7b44798f26c888ef541faa6143a813136921483f/README.md",
+    "bytes": 9474,
+    "sha256": "64f64dfbcae4c767e5b66247ae7275453f01d1c84b701678d7896f2518181bfb",
+    "retrieved_utc": "2026-11-04T21:37:12.005312+00:00"
+  },
+  {
+    "path": "upstream/LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/grimme-lab/flexisol/7b44798f26c888ef541faa6143a813136921483f/LICENSE.txt",
+    "bytes": 1093,
+    "sha256": "d682927491968a96bff8adc618af6adb3d92eae54b7a9c3ac80bb685bf684c0f",
+    "retrieved_utc": "2026-11-04T21:37:12.112200+00:00"
+  },
+  {
+    "path": "upstream/CITATION.bib",
+    "url": "https://raw.githubusercontent.com/grimme-lab/flexisol/7b44798f26c888ef541faa6143a813136921483f/CITATION.bib",
+    "bytes": 478,
+    "sha256": "13c18f726b9e3a8a7a39d306ed40ff032bd60ba38e4b75405433b5f43be5ecfb",
+    "retrieved_utc": "2026-11-04T21:37:12.257592+00:00"
+  },
+  {
+    "path": "upstream/flexisol_cli/reader.py",
+    "url": "https://raw.githubusercontent.com/grimme-lab/flexisol/7b44798f26c888ef541faa6143a813136921483f/flexisol_cli/reader.py",
+    "bytes": 4942,
+    "sha256": "f2f875f8f01be281a23b01083fe8428759ac89fb506019d1f2811066aa928f10",
+    "retrieved_utc": "2026-11-04T21:37:12.371517+00:00"
+  },
+  {
+    "path": "upstream/flexisol_cli/evaluation.py",
+    "url": "https://raw.githubusercontent.com/grimme-lab/flexisol/7b44798f26c888ef541faa6143a813136921483f/flexisol_cli/evaluation.py",
+    "bytes": 5760,
+    "sha256": "04fc1f463ad7bc7658f8277b76e53a156008968da18646200c46a7f3a3899558",
+    "retrieved_utc": "2026-11-04T21:37:12.513315+00:00"
+  },
+  {
+    "path": "upstream/flexisol_cli/config.py",
+    "url": "https://raw.githubusercontent.com/grimme-lab/flexisol/7b44798f26c888ef541faa6143a813136921483f/flexisol_cli/config.py",
+    "bytes": 3731,
+    "sha256": "752bef1be3c358e28880eda544f517f89afd36487995a58fe264e753c97fbcf8",
+    "retrieved_utc": "2026-11-04T21:37:12.644116+00:00"
+  },
+  {
+    "path": "upstream/flexisol_cli/registry.json",
+    "url": "https://raw.githubusercontent.com/grimme-lab/flexisol/7b44798f26c888ef541faa6143a813136921483f/flexisol_cli/registry.json",
+    "bytes": 1194,
+    "sha256": "dd71210cf545612bc4eab8141bdb2ddd146ff1171ee041b76f67ae33258e36ea",
+    "retrieved_utc": "2026-11-04T21:37:12.743398+00:00"
+  },
+  {
+    "path": "upstream/data/references/dgsolv-references.csv",
+    "url": "https://raw.githubusercontent.com/grimme-lab/flexisol/7b44798f26c888ef541faa6143a813136921483f/data/references/dgsolv-references.csv",
+    "bytes": 85925,
+    "sha256": "73a6f25ea9a9fae31bcb7e7c0fb04e452b0df2d24308e25419b98f01daa6ed5f",
+    "retrieved_utc": "2026-11-04T21:37:12.927940+00:00"
+  },
+  {
+    "path": "upstream/data/raw_energies/structures.csv",
+    "url": "https://raw.githubusercontent.com/grimme-lab/flexisol/7b44798f26c888ef541faa6143a813136921483f/data/raw_energies/structures.csv",
+    "bytes": 2020032,
+    "sha256": "cb76720fd31de17cf892e9bc81c61fdab1f8e9bcc844bedbbd93a807b02b298b",
+    "retrieved_utc": "2026-11-04T21:37:13.136774+00:00"
+  },
+  {
+    "path": "Endo2023.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10249623/fullTextXML",
+    "bytes": 119278,
+    "sha256": "74a13ac771ebf23ad9846997baf5d6058028cb26e1a732c242f66708a39a6cae",
+    "retrieved_utc": "2026-11-04T21:39:16.631959+00:00"
+  },
+  {
+    "path": "upstream/flexisol_cli/cli.py",
+    "url": "https://raw.githubusercontent.com/grimme-lab/flexisol/7b44798f26c888ef541faa6143a813136921483f/flexisol_cli/cli.py",
+    "bytes": 23178,
+    "sha256": "2b6af5f48ceac1c89d7d1851c65af2c59aa0a6c8d84edb6908821b686cfb7de5",
+    "retrieved_utc": "2026-11-04T21:39:36.571460+00:00"
+  },
+  {
+    "path": "Endo2023_supplementary.zip",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10249623/supplementaryFiles",
+    "bytes": 1370291,
+    "sha256": "26ac478f278225ae1b891ae0c0cdbb3151f7e954bc590b65a93b68cab1d29d42",
+    "retrieved_utc": "2026-11-04T21:39:49.486853+00:00"
+  }
+]

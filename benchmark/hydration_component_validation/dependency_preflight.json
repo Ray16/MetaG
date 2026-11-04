@@ -1,0 +1,20 @@
+{
+  "host": "lambda2",
+  "python": "/nfs/lambda_stor_01/homes/rzhu/.cache/metag-environments/uma-nitro-20261023-645af7d/venv/bin/python",
+  "ok": true,
+  "errors": [],
+  "online_cpus": 80,
+  "load": 4.99658203125,
+  "affinity": [
+    2,
+    3
+  ],
+  "available_ram_mib": 479344.5703125,
+  "modules": {
+    "torch": "2.13.0+cu126",
+    "ase": "3.29.0",
+    "fairchem.core": "0.1.dev1+g645af7d03",
+    "metag.energetics.uma": "import OK"
+  },
+  "stderr": "Warp UserWarning: \n   Insufficient CUDA driver version.\n   The minimum required CUDA driver version is 13.0, but the installed CUDA driver version is 12.4.\n   Visit https://nvidia.github.io/warp/stable/user_guide/installation.html for guidance."
+}

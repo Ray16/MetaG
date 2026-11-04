@@ -1,0 +1,59 @@
+{
+  "scope": "Single native molar-reference check; numerical source comparison, not experimental accuracy.",
+  "input_path": "flexisol/solv/water/3-1ftoh_chrg0_t0_c0",
+  "coordinate_sha256": "c3617048f856247474e40d2ccb014c76d7b16f1ca85379a93933a75aa6a0b52f",
+  "published_ALPB_Eh": -0.0077455503910002,
+  "native_ALPB_delta_Eh": -0.007745550384001376,
+  "difference_kj": 1.8375408302539878e-08,
+  "xtb_sha256": "481a1e7d8151fc08e0341b8e06ab60ac09cf1c2628738eeb83346271274bf8f4",
+  "records": [
+    {
+      "mode": "gas",
+      "total_Eh": -47.264820098885,
+      "argv": [
+        "/usr/bin/taskset",
+        "-c",
+        "79",
+        "/nfs/lambda_stor_01/homes/rzhu/miniforge3/envs/xtb/bin/xtb",
+        "coord.xyz",
+        "--gfn",
+        "2",
+        "--chrg",
+        "0",
+        "--uhf",
+        "0",
+        "--acc",
+        "0.1",
+        "--sp",
+        "--norestart"
+      ],
+      "log_sha256": "e6c22dfd194fb67769c10e97f1b71484a98eb68f6ddfb1f39c56f3d64b081df3"
+    },
+    {
+      "mode": "water",
+      "total_Eh": -47.272565649269,
+      "argv": [
+        "/usr/bin/taskset",
+        "-c",
+        "79",
+        "/nfs/lambda_stor_01/homes/rzhu/miniforge3/envs/xtb/bin/xtb",
+        "coord.xyz",
+        "--gfn",
+        "2",
+        "--chrg",
+        "0",
+        "--uhf",
+        "0",
+        "--acc",
+        "0.1",
+        "--sp",
+        "--norestart",
+        "--alpb",
+        "water",
+        "gsolv"
+      ],
+      "log_sha256": "35208fdc361a6b966a9cad41eebfd0aeb2b71f0f2f56673e8d015b146b94a799"
+    }
+  ],
+  "utc": "2026-11-04T21:46:17.030437+00:00"
+}

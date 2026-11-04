@@ -1,5 +1,11 @@
 # Benchmark: Mg-bounded openTECR reference
 
+The separate [hydration component ablation](hydration_component_validation/README.md)
+compares electronic, solvent, geometry and aggregation choices on 13 nominal-water
+PFAS using fixed external conformers. It reports all source holds, the zero baseline
+and every specified arm. These experimental labels were previously consulted during
+development; the study is not an independent metabolic reaction benchmark.
+
 `reference_mg_bounded.json` holds experimental ΔrG'° labels transformed to pH 7,
 I = 0 and pMg 14 for the reactions of the packaged panel
 (`src/metag/data/reactions_opentecr_std.json`). They were derived from the openTECR re-curation of TECRDB

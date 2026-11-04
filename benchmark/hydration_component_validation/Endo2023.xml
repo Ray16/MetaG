@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?><article xml:lang="en" article-type="research-article"><front><journal-meta><journal-id journal-id-type="pmc-domain-id">822</journal-id><journal-id journal-id-type="pmc-domain">acssd</journal-id><journal-title-group><journal-title>Environmental Science &amp; Technology</journal-title><abbrev-journal-title>Environ Sci Technol</abbrev-journal-title></journal-title-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC10249623</article-id><article-id pub-id-type="pmcaid">10249623</article-id><article-id pub-id-type="pmcaiid">10249623</article-id><article-id pub-id-type="pmid">37232091</article-id><article-id pub-id-type="doi">10.1021/acs.est.3c02545</article-id><title-group><article-title>Experimental Determination
+of Air/Water Partition
+Coefficients for 21 Per- and Polyfluoroalkyl Substances Reveals Variable
+Performance of Property Prediction Models</article-title></title-group><contrib-group content-type="author"><contrib><name name-style="western"><surname>Endo</surname><given-names initials="S">Satoshi</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref rid="cor1" ref-type="author-notes">*</xref></contrib><contrib><name name-style="western"><surname>Hammer</surname><given-names initials="J">Jort</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib><contrib><name name-style="western"><surname>Matsuzawa</surname><given-names initials="S">Sadao</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib></contrib-group><aff id="aff1"><label>1</label>Health and Environmental
+Risk Division, National Institute for Environmental
+Studies (NIES), Onogawa 16-2, 305-8506 Tsukuba, Ibaraki, Japan</aff><author-notes><fn id="cor1"><label>*</label><p>Email: <email>endo.satoshi@nies.go.jp</email>. Tel.: +81-29-850-2695.</p></fn></author-notes><pub-date><day>26</day><month>5</month><year>2023</year></pub-date><volume>57</volume><issue>22</issue><fpage>8406</fpage><page-range>8406–8413</page-range><pub-history><event event-type="pmc-release"><date><day>26</day><month>5</month><year>2024</year></date></event></pub-history><permissions><copyright-statement>© 2023 The Authors. Published by American Chemical Society</copyright-statement><license><license-p>Permits the broadest form of re-use including for commercial purposes, provided that author attribution and integrity are maintained (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://creativecommons.org/licenses/by/4.0/" ext-link-type="uri">https://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="es3c02545.pdf" content-type="pmc-pdf"><?cloudpmc-path 43fa/10249623/c2bdfe84eebc/es3c02545.pdf?><?cloudpmc-bucket app?><?size 2745754?></self-uri><abstract id="abstract1"><title>Abstract</title><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="ab-tgr1" xlink:href="es3c02545_0004.jpg"><?cloudpmc-path blobs/43fa/10249623/38e57c0fd043/es3c02545_0004.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 500?><?original-width 1000?><?scaled-height 333?><?scaled-width 666?></graphic><p>Per- and polyfluoroalkyl substances (PFAS) are a group
+of chemicals
+of high environmental concern. However, reliable data for the air/water
+partition coefficients (<italic>K</italic><sub>aw</sub>), which are
+required for fate, exposure, and risk analysis, are available for
+only a few PFAS. In this study, <italic>K</italic><sub>aw</sub> values
+at 25 °C were determined for 21 neutral PFAS by using the hexadecane/air/water
+thermodynamic cycle. Hexadecane/water partition coefficients (<italic>K</italic><sub>Hxd/w</sub>) were measured with batch partition, shared-headspace,
+and/or modified variable phase ratio headspace methods and were divided
+by hexadecane/air partition coefficients (<italic>K</italic><sub>Hxd/air</sub>) to obtain <italic>K</italic><sub>aw</sub> values over 7 orders
+of magnitude (10<sup>–4.9</sup> to 10<sup>2.3</sup>). Comparison
+to predicted <italic>K</italic><sub>aw</sub> values by four models
+showed that the quantum chemically based COSMO<italic>therm</italic> model stood out for accuracy with a root-mean-squared error (RMSE)
+of 0.42 log units, as compared to HenryWin, OPERA, and the linear
+solvation energy relationship with predicted descriptors (RMSE, 1.28–2.23).
+The results indicate the advantage of a theoretical model over empirical
+models for a data-poor class like PFAS and the importance of experimentally
+filling data gaps in the chemical domain of environmental interest. <italic>K</italic><sub>aw</sub> values for 222 neutral (or neutral species
+of) PFAS were predicted using COSMO<italic>therm</italic> as current
+best estimates for practical and regulatory use.</p><sec id="kwd-group1" sec-type="kwd-group" disp-level="2"><p><bold>Keywords:</bold> Henry’s law constant, hexadecane/water partition
+coefficient, thermodynamic cycle, shared-headspace, variable phase ratio headspace method, COSMO<italic>therm</italic>, fluorotelomer substance, perfluoroalkane
+sulfonamide</p></sec></abstract><abstract id="abstract2" abstract-type="short"><title>Short abstract</title><p>New data for air/water partition coefficients
+for 21 PFAS
+demonstrated accurate prediction by quantum chemically based COSMO<italic>therm</italic> and lower performance of empirical fit models.</p></abstract><custom-meta-group><custom-meta><meta-name>status</meta-name><meta-value>released</meta-value></custom-meta><custom-meta><meta-name>display-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-in-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-journal-matter</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-scanned</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-retracted</meta-name><meta-value>no</meta-value></custom-meta></custom-meta-group></article-meta><notes notes-type="article-notes"><sec id="historyarticle-meta1" sec-type="history" disp-level="2"><p>Received 2023 Apr 4; Accepted 2023 May 16; Revised 2023 May 15; Collection date 2023 Jun 6.</p></sec></notes></front><body><sec id="sec1" disp-level="1"><label>1.</label><title>Introduction</title><p>Per- and polyfluoroalkyl
+substances (PFAS) are a group of chemicals
+with high environmental concern because they are either resistant
+to degradation or transform into substances that are persistent in
+the environment and ecosystems. Some PFAS [e.g., perfluorooctane sulfonate
+(PFOS), perfluorooctanoic acid (PFOA)] have been proven to have significant
+health influences on some populations at the current levels of contamination.<sup><xref rid="ref1" ref-type="bibr">1</xref></sup> Since accumulation of PFAS in humans and animals
+was reported in 2001,<sup><xref rid="ref2" ref-type="bibr">2</xref>−<xref rid="ref5" ref-type="bibr">5</xref></sup> active research has been conducted on this class of chemicals worldwide.
+According to Bakhshoodeh and Santos,<sup><xref rid="ref6" ref-type="bibr">6</xref></sup> the
+annual number of scientific publications on PFAS exceeded 100 in 2007
+and reached ∼900 in 2020. Despite the proliferation of literature
+on PFAS, experimental data for basic physicochemical properties, including
+air/water partition coefficients (<italic>K</italic><sub>aw</sub>),
+are scarce. <italic>K</italic><sub>aw</sub> largely dictates the contaminant
+transfer between air and water and has a tremendous influence on the
+fate of the chemical in the environment. In addition, <italic>K</italic><sub>aw</sub> has implications for analytical methods (e.g., sample
+collection, storage, extraction), remediation techniques (e.g., air
+stripping), and ecotoxicological test settings suitable for given
+chemicals.</p><p>There have been only a few scientific articles that
+reported direct
+measurements of <italic>K</italic><sub>aw</sub> for PFAS with a perfluorocarbon
+chain length of 4 or more. Three studies measured <italic>K</italic><sub>aw</sub> for 3 or 4 fluorotelomer alcohols (FTOHs).<sup><xref rid="ref7" ref-type="bibr">7</xref>−<xref rid="ref9" ref-type="bibr">9</xref></sup> Some of the reported values, however, differ between the studies
+by up to a factor of 130 for a single compound. Two other studies
+took on the challenge of measuring <italic>K</italic><sub>aw</sub> of the neutral species of the strong acid PFOA and provided values
+that are an order of magnitude different.<sup><xref rid="ref10" ref-type="bibr">10</xref>,<xref rid="ref11" ref-type="bibr">11</xref></sup> To fill the huge data gap, various researchers derived <italic>K</italic><sub>aw</sub> from the saturated vapor pressure relative to the aqueous
+solubility (VP/S).<sup><xref rid="ref8" ref-type="bibr">8</xref>,<xref rid="ref9" ref-type="bibr">9</xref>,<xref rid="ref12" ref-type="bibr">12</xref>,<xref rid="ref13" ref-type="bibr">13</xref></sup> Even including such indirectly measured <italic>K</italic><sub>aw</sub> data, the authors of a recent review<sup><xref rid="ref13" ref-type="bibr">13</xref></sup> listed experimental data for only seven PFAS.
+A reason for the data limitation could be that PFAS of major concern are strong acids, which ionize and become
+strongly soluble in water, making <italic>K</italic><sub>aw</sub> of
+the neutral species less important for environmental fate analysis.
+Nevertheless, there exist many neutral or largely neutral PFAS, some
+of which are known precursors of the PFAS of high concern (i.e., PFOS,
+PFOA).<sup><xref rid="ref14" ref-type="bibr">14</xref>−<xref rid="ref16" ref-type="bibr">16</xref></sup> Another reason may be measurement difficulty associated
+with the interfacial active nature of many PFAS. Direct measurement
+of <italic>K</italic><sub>aw</sub> often requires quantification of
+the gas phase PFAS concentrations<sup><xref rid="ref11" ref-type="bibr">11</xref>,<xref rid="ref17" ref-type="bibr">17</xref></sup> or relies
+on the mass balance in a closed air/water system,<sup><xref rid="ref7" ref-type="bibr">7</xref>,<xref rid="ref8" ref-type="bibr">8</xref></sup> neither
+of which could conveniently be achieved if the adsorption to a third
+phase such as a glass wall or air/water interface is significant.
+As <italic>K</italic><sub>aw</sub> data are largely missing, environmental
+transport models inevitably use model-based predictions.<sup><xref rid="ref18" ref-type="bibr">18</xref>,<xref rid="ref19" ref-type="bibr">19</xref></sup> However, no experimental data means no model calibration and validation;
+indeed, Arp et al.<sup><xref rid="ref20" ref-type="bibr">20</xref></sup> reported prediction
+errors of several orders of magnitude in <italic>K</italic><sub>aw</sub> by some models.</p><p>The objectives of this study are to obtain
+new experimental data
+for <italic>K</italic><sub>aw</sub> at 25 °C for a series of
+neutral PFAS and to evaluate <italic>K</italic><sub>aw</sub> prediction
+models. New data for PFAS with various molecular structures can also
+improve our understanding on the structure–property relationship.
+To circumvent the difficulty associated with direct measurement of <italic>K</italic><sub>aw</sub>, we determined <italic>K</italic><sub>aw</sub> indirectly by measuring the hexadecane/water partition coefficient
+(<italic>K</italic><sub>Hxd/w</sub>) and applying the hexadecane/air/water
+thermodynamic cycle:</p><disp-formula id="eq1"><label>1</label><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" xlink:href="es3c02545_m001.jpg"><?cloudpmc-path blobs/43fa/10249623/8863c39e3f99/es3c02545_m001.jpg?><?cloudpmc-bucket cdn?><?image-server-status NEVER_LOAD?><?original-height 16?><?original-width 118?><?scaled-height 16?><?scaled-width 118?></graphic></disp-formula><p>where <italic>K</italic><sub>Hxd/air</sub> is the hexadecane/air partition coefficient. <italic>K</italic><sub>Hxd/w</sub> can be measured more reliably than <italic>K</italic><sub>aw</sub> because gas phase quantification is not needed
+and hexadecane has a larger solubilization capacity than water, which
+minimizes the problem of third-phase sorption. Experimental <italic>K</italic><sub>Hxd/air</sub> values for 61 PFAS have already been
+reported in our previous study.<sup><xref rid="ref21" ref-type="bibr">21</xref></sup> A similar
+approach could be taken with the octanol/air/water cycle. However,
+octanol/air partition coefficients are unavailable for most PFAS.
+Additionally, there is some mutual solubility between octanol and
+water, and water-saturated octanol has been shown to have slightly
+different properties than pure octanol.<sup><xref rid="ref22" ref-type="bibr">22</xref></sup> In contrast, hexadecane has very little mutual solubility with water
+and is an ideal solvent to be used for the thermodynamic cycle approach.<sup><xref rid="ref23" ref-type="bibr">23</xref></sup> The new <italic>K</italic><sub>aw</sub> data
+for 21 PFAS were compared to predictions by four models that are often
+used in environmental risk assessments. <italic>K</italic><sub>aw</sub> prediction models have been evaluated against experimental data
+in the literature but only for four FTOHs<sup><xref rid="ref20" ref-type="bibr">20</xref>,<xref rid="ref24" ref-type="bibr">24</xref></sup> and four additional PFAS<sup><xref rid="ref13" ref-type="bibr">13</xref></sup> so far because
+of the data limitation.</p></sec><sec id="sec2" disp-level="1"><label>2.</label><title>Materials and Methods</title><sec id="sec2.1" disp-level="2"><label>2.1.</label><title>Chemicals</title><p><italic>K</italic><sub>Hxd/w</sub> values were measured for 21 PFAS; their names, abbreviations,
+and CAS registry numbers are listed in <xref rid="tbl1" ref-type="table">Table <xref rid="tbl1" ref-type="table">1</xref></xref>. These compounds were selected according
+to their environmental relevance, structural variation, and measurement
+possibility. The providers and purity of the reagents are provided
+in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.3c02545/suppl_file/es3c02545_si_001.pdf" ext-link-type="uri">Table S1</ext-link>, Supporting Information (SI).
+Hexadecane (anhydrous, ≥99%) was purchased from Sigma-Aldrich
+(Tokyo, Japan). Methanol, acetone, and <italic>n</italic>-hexane were
+of analytical grade and from Fujifilm Wako Chemicals (Osaka, Japan).
+Reverse osmosis-treated tap water was further purified with an Ultrapure
+Water System (RFU665DA, Advantec, Tokyo, Japan).</p><table-wrap id="tbl1" position="float"><?disp-level 3?><label>Table 1</label><caption><title>List of PFAS Used in This Study<xref rid="t1fn1" ref-type="table-fn"><sup>a</sup></xref></title></caption><table frame="hsides" rules="groups" border="0"><colgroup span="1"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/></colgroup><thead><tr><th style="border:none;" align="left" colspan="1" rowspan="1">name</th><th style="border:none;" align="left" colspan="1" rowspan="1">abbreviation</th><th style="border:none;" align="left" colspan="1" rowspan="1">CAS-RN</th></tr></thead><tbody><tr><td style="border:none;" align="left" colspan="1" rowspan="1">1H,1H-perfluorobutan-1-ol</td><td style="border:none;" align="left" colspan="1" rowspan="1">3:1 FTOH</td><td style="border:none;" align="left" colspan="1" rowspan="1">375-01-9</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">3-(perfluoropropyl)propan-1-ol</td><td style="border:none;" align="left" colspan="1" rowspan="1">3:3 FTOH</td><td style="border:none;" align="left" colspan="1" rowspan="1">679-02-7</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">1H,1H,2H,2H-perfluorohexan-1-ol</td><td style="border:none;" align="left" colspan="1" rowspan="1">4:2 FTOH</td><td style="border:none;" align="left" colspan="1" rowspan="1">2043-47-2</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">4-(perfluorobutyl)butan-1-ol</td><td style="border:none;" align="left" colspan="1" rowspan="1">4:4 FTOH</td><td style="border:none;" align="left" colspan="1" rowspan="1">3792-02-7</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">1H,1H,2H,2H-perfluorooctan-1-ol</td><td style="border:none;" align="left" colspan="1" rowspan="1">6:2 FTOH</td><td style="border:none;" align="left" colspan="1" rowspan="1">647-42-7</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">1H,1H-perfluorooctan-1-ol</td><td style="border:none;" align="left" colspan="1" rowspan="1">7:1 FTOH</td><td style="border:none;" align="left" colspan="1" rowspan="1">307-30-2</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">1H,1H,2H,2H-perfluorodecan-1-ol</td><td style="border:none;" align="left" colspan="1" rowspan="1">8:2 FTOH</td><td style="border:none;" align="left" colspan="1" rowspan="1">678-39-7</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">1H,1H,1H,2H-perfluoroheptan-2-ol</td><td style="border:none;" align="left" colspan="1" rowspan="1">5:2s FTOH</td><td style="border:none;" align="left" colspan="1" rowspan="1">914637-05-1</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">1H,1H,2H,2H-perfluorohexyl iodide</td><td style="border:none;" align="left" colspan="1" rowspan="1">4:2 FTI</td><td style="border:none;" align="left" colspan="1" rowspan="1">2043-55-2</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">1H,1H-perfluoroheptyl iodide</td><td style="border:none;" align="left" colspan="1" rowspan="1">6:1 FTI</td><td style="border:none;" align="left" colspan="1" rowspan="1">212563-43-4</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">1H,1H,7H-perfluoroheptyl iodide</td><td style="border:none;" align="left" colspan="1" rowspan="1">6:1 FTI-7H</td><td style="border:none;" align="left" colspan="1" rowspan="1">376-32-9</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">1H,1H,2H,2H-perfluorooctyl acrylate</td><td style="border:none;" align="left" colspan="1" rowspan="1">6:2 FTAC</td><td style="border:none;" align="left" colspan="1" rowspan="1">17527-29-6</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">1H,1H,2H,2H-perfluorohexyl
+methacrylate</td><td style="border:none;" align="left" colspan="1" rowspan="1">4:2 FTMAC</td><td style="border:none;" align="left" colspan="1" rowspan="1">1799-84-4</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">perfluorobutane
+sulfonamide</td><td style="border:none;" align="left" colspan="1" rowspan="1">PFBSA</td><td style="border:none;" align="left" colspan="1" rowspan="1">30334-69-1</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">perfluorohexane sulfonamide</td><td style="border:none;" align="left" colspan="1" rowspan="1">PFHxSA</td><td style="border:none;" align="left" colspan="1" rowspan="1">41997-13-1</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">perfluorooctane sulfonamide</td><td style="border:none;" align="left" colspan="1" rowspan="1">PFOSA</td><td style="border:none;" align="left" colspan="1" rowspan="1">754-91-6</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><italic>N</italic>-methyl perfluorobutane sulfonamide</td><td style="border:none;" align="left" colspan="1" rowspan="1">MeFBSA</td><td style="border:none;" align="left" colspan="1" rowspan="1">68298-12-4</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><italic>N</italic>-methyl
+perfluorohexane sulfonamide</td><td style="border:none;" align="left" colspan="1" rowspan="1">MeFHxSA</td><td style="border:none;" align="left" colspan="1" rowspan="1">68259-15-4</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><italic>N</italic>-ethyl perfluorohexane sulfonamide</td><td style="border:none;" align="left" colspan="1" rowspan="1">EtFHxSA</td><td style="border:none;" align="left" colspan="1" rowspan="1">87988-56-5</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><italic>N</italic>-methyl perfluorobutane sulfonamidoethanol</td><td style="border:none;" align="left" colspan="1" rowspan="1">MeFBSE</td><td style="border:none;" align="left" colspan="1" rowspan="1">34454-97-2</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><italic>N</italic>-ethyl perfluorohexane sulfonamidoethanol</td><td style="border:none;" align="left" colspan="1" rowspan="1">EtFHxSE</td><td style="border:none;" align="left" colspan="1" rowspan="1">34455-03-3</td></tr></tbody></table><table-wrap-foot><fn id="t1fn1"><label>a</label><p>See <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.3c02545/suppl_file/es3c02545_si_001.pdf" ext-link-type="uri">Table S2</ext-link> for the molecular structure represented by SMILES strings.</p></fn></table-wrap-foot></table-wrap></sec><sec id="sec2.2" disp-level="2"><label>2.2.</label><title>Experimental Determination of <italic>K</italic><sub>Hxd/w</sub></title><p><italic>K</italic><sub>Hxd/w</sub> values
+were determined by batch partition, shared-headspace, and/or modified
+variable phase ratio headspace (VPR-HS) methods. The experimental
+procedures for these methods are described in full in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.3c02545/suppl_file/es3c02545_si_001.pdf" ext-link-type="uri">SI-1</ext-link>; here, brief explanations are provided.</p><sec id="sec2.2.1" disp-level="3"><label>2.2.1.</label><title>Batch Partition Method</title><p>Hexadecane
+solution of PFAS (0.1–2000 mg/L) and water were put in 10-mL
+glass vials and gently shaken for 24 h (60 rpm, 25 °C). An aliquot
+of the water phase was analyzed by liquid chromatography/mass spectrometry
+(LC/MS; for all eight sulfonamides) or liquid–liquid-extracted
+with <italic>n</italic>-hexane and analyzed by gas chromatography
+(GC)/MS (for all others). The conditions for LC/MS and GC/MS analyses
+are described in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.3c02545/suppl_file/es3c02545_si_001.pdf" ext-link-type="uri">SI-2</ext-link>. <italic>K</italic><sub>Hxd/w</sub> was calculated using the measured water phase concentration
+under the mass conservation assumption. The 95% confidence interval
+(CI) of the mean (<italic>x</italic>) was calculated with the formula, <italic>x</italic> ± 2.78 SD/√5, where SD is the standard deviation,
+based on the <italic>t</italic>-distribution and <italic>n</italic> = 5. The hexadecane phase was also analyzed with LC/MS or GC/MS,
+which confirmed 93–112% of the expected concentrations present
+in hexadecane. The PFAS concentration prepared in hexadecane and volumes
+of water and hexadecane, and recovery from the hexadecane phase for
+each compound are given in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.3c02545/suppl_file/es3c02545_si_001.pdf" ext-link-type="uri">Table S3</ext-link>. The
+batch partition method was performed for 18 PFAS. It was not performed
+for 3:1 FTOH because its extraction from water and GC-separation from
+the solvent peak was difficult by the current method. Moreover, 7:1
+and 8:2 FTOHs were not measured, as the shared-headspace method was
+expected to provide more accurate values of <italic>K</italic><sub>Hxd/w</sub> for these relatively hydrophobic chemicals (see the Results
+section).</p><p>For unsubstituted perfluoroalkane sulfonamides (PFASAs)
+and their <italic>N</italic>-alkyl derivatives, namely, PFBSA, PFHxSA,
+PFOSA, MeFBSA, MeFHxSA, and EtFHxSA, 1 mM HCl aqueous solution instead
+of pure water was used. Preliminary experiments with PFBSA and PFHxSA
+with pure water resulted in log <italic>K</italic><sub>Hxd/w</sub> values that were 0.5–0.9 log units lower than those determined
+with 1 mM HCl solution later. While measured p<italic>K</italic><sub>a</sub> values of these compounds are unavailable, an experimental
+p<italic>K</italic><sub>a</sub> value of 6.33 was reported for trifluoromethane
+sulfonamide (CF<sub>3</sub>-SO<sub>2</sub>NH<sub>2</sub>).<sup><xref rid="ref25" ref-type="bibr">25</xref></sup> COSMO<italic>therm</italic> predicted p<italic>K</italic><sub>a</sub> values of 6.4 and 6.3 for PFBSA and PFHxSA,
+respectively, and 7.3 and 7.2 for MeFBSA and MeFHxSA, respectively.
+These results suggest that PFASAs and their <italic>N</italic>-alkyl
+compounds can be deprotonated in unbuffered water but remain largely
+neutral in 1 mM HCl.</p></sec><sec id="sec2.2.2" disp-level="3"><label>2.2.2.</label><title>Shared-Headspace Method</title><p>The method
+concept is based on the existing publications that used a shared-headspace
+system for salting-out experiments<sup><xref rid="ref26" ref-type="bibr">26</xref></sup> and
+ecotoxicity tests.<sup><xref rid="ref27" ref-type="bibr">27</xref>,<xref rid="ref28" ref-type="bibr">28</xref></sup> Hexadecane solution of PFAS was
+placed in a 350 μL insert hosted by a 1.5 mL GC vial. This small
+vial was put in a 10 mL headspace vial that contained 1 mL of water.
+The 10 mL vial was closed with a PTFE-lined septum and gently shaken
+at 25 °C for 24 h. During this time, the compound dissolved in
+hexadecane was partially transferred to water via the headspace until
+a three-phase partition equilibrium was reached between hexadecane,
+air, and water. Water was then sampled and immediately extracted with <italic>n</italic>-hexane for GC/MS analysis. The hexadecane phase was also
+analyzed, which confirmed 85–100% mass conservation (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.3c02545/suppl_file/es3c02545_si_001.pdf" ext-link-type="uri">Table S3</ext-link>). <italic>K</italic><sub>Hxd/w</sub> was obtained from the measured concentration in water, as in the
+batch partition method. The shared-headspace approach does not require
+a direct contact between water and hexadecane, avoiding the possible
+formation of emulsions or microdroplets in water. The shared-headspace
+method is useful for compounds with sufficient volatility (relatively
+high <italic>K</italic><sub>aw</sub>, low <italic>K</italic><sub>Hxd/air</sub>) and hydrophobicity (relatively high <italic>K</italic><sub>Hxd/w</sub>), as these properties ensure an efficient transfer from hexadecane
+to water via air and negligible concentration depletion in hexadecane.
+Therefore, nine PFAS that meet this requirement were measured by this
+method, while all eight sulfonamides and four short-chain FTOHs were
+not.</p></sec><sec id="sec2.2.3" disp-level="3"><label>2.2.3.</label><title>Modified VPR-HS Method</title><p><italic>K</italic><sub>Hxd/w</sub> was also measured with a modified version
+of the VPR-HS method; 20 mL headspace vials were filled with water
+and hexadecane with different volume ratios. The total liquid volume
+was always 20 mL. All vials received the same amount of the target
+compound. After equilibration at 25 °C, the headspace was injected
+into the GC/MS. Based on the mass balance, the peak area (PA) should
+have the following relationship with <italic>K</italic><sub>Hxd/w</sub>:</p><disp-formula id="eq2"><label>2</label><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" xlink:href="es3c02545_m002.jpg"><?cloudpmc-path blobs/43fa/10249623/53a6b0513236/es3c02545_m002.jpg?><?cloudpmc-bucket cdn?><?image-server-status NEVER_LOAD?><?original-height 32?><?original-width 152?><?scaled-height 32?><?scaled-width 152?></graphic></disp-formula><p>where α is the GC/MS
+response factor, <italic>m</italic> is the mass of the compound added
+to the vial, <italic>V</italic><sub>tot</sub> is the total liquid
+volume, and <italic>V</italic><sub>Hxd</sub> is the volume of hexadecane
+solution. Here, response linearity as well as no significant mass
+of the compound in the headspace and any other interface (e.g., vial
+wall, hexadecane/water interface, septum) was assumed. As α, <italic>m</italic>, and <italic>V</italic><sub>tot</sub> (=20 mL) are constant
+for a given compound, <italic>K</italic><sub>Hxd/w</sub> can be fitted
+on the data of PA vs <italic>V</italic><sub>Hxd</sub>. Theoretically, <italic>K</italic><sub>Hxd/w</sub> could be determined with a minimum of
+two <italic>V</italic><sub>Hxd</sub> conditions (e.g., 0 and 20 mL),
+whereas at least four <italic>V</italic><sub>Hxd</sub> values were
+prepared in this work. Five FTOHs were measured with this method,
+which were measurable by headspace GC/MS and expected to have <italic>K</italic><sub>Hxd/w</sub> that is low enough for this method.</p></sec></sec><sec id="sec2.3" disp-level="2"><label>2.3.</label><title>Direct Measurement of <italic>K</italic><sub>aw</sub> Using the VPR-HS Method</title><p><italic>K</italic><sub>aw</sub> values for five PFAS were directly measured using a standard
+VPR-HS method, as in the literature.<sup><xref rid="ref7" ref-type="bibr">7</xref>,<xref rid="ref8" ref-type="bibr">8</xref></sup> The experimental
+procedure is similar to what has been described previously for <italic>K</italic><sub>Hxd/air</sub>(<xref rid="ref21" ref-type="bibr">21</xref>) and is
+summarized in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.3c02545/suppl_file/es3c02545_si_001.pdf" ext-link-type="uri">SI-3</ext-link>. This measurement was
+conducted for a comparison purpose because the VPR-HS measurement
+for <italic>K</italic><sub>aw</sub> could result in substantial errors
+if the mass balance assumption does not hold true, as was experimentally
+demonstrated before.<sup><xref rid="ref8" ref-type="bibr">8</xref></sup></p></sec><sec id="sec2.4" disp-level="2"><label>2.4.</label><title>Prediction Models for <italic>K</italic><sub>aw</sub></title><p>In this work, four prediction models for <italic>K</italic><sub>aw</sub> were considered. All need only the molecular
+structure as an input parameter.</p><sec id="sec2.4.1" disp-level="3"><label>2.4.1.</label><title>HenryWin</title><p>HenryWin (v3.21, April
+2015) is a module of EPI-Suite (v4.11) provided by US EPA<sup><xref rid="ref12" ref-type="bibr">12</xref></sup> and predicts the Henry’s law constants
+using two-dimensional structure-based quantitative structure/property
+relationships (QSPRs) calibrated on experimental data.<sup><xref rid="ref29" ref-type="bibr">29</xref></sup> HenryWin offers the bond contribution method
+and the group contribution method, but the former was mainly considered
+here because the latter did not calculate a prediction for any of
+the eight sulfonamides used in this work. SMILES strings as shown
+in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.3c02545/suppl_file/es3c02545_si_001.pdf" ext-link-type="uri">Table S2</ext-link> were entered, and the output
+Henry’s law constants at 25 °C were converted to <italic>K</italic><sub>aw</sub> following the ideal gas law.</p></sec><sec id="sec2.4.2" disp-level="3"><label>2.4.2.</label><title>OPERA</title><p>OPERA (v 2.9, downloaded
+in January 2023) stands for OPEn structure–activity/property
+Relationship App and is provided by US EPA.<sup><xref rid="ref30" ref-type="bibr">30</xref></sup> It predicts physicochemical properties based on a <italic>k</italic>-nearest neighbor method using PaDEL descriptors. For <italic>K</italic><sub>aw</sub>, the model is calibrated on the PhysProp experimental
+database. As for HenryWin, SMILES strings were the input, and predicted
+Henry’s law constants at 25 °C were converted to <italic>K</italic><sub>aw</sub>. For evaluation of the applicability domain
+(AD), the OPERA software provides a “global AD” based
+on the leverage calculation and a “local AD index” derived
+from the similarity to the five nearest neighbor chemicals.<sup><xref rid="ref30" ref-type="bibr">30</xref></sup></p></sec><sec id="sec2.4.3" disp-level="3"><label>2.4.3.</label><title>LSER-IFSQSAR</title><p>The linear solvation
+energy relationship (LSER) is a polyparameter linear free energy relationship
+developed by Abraham and is a multiple linear regression model that
+describes logarithmic partition coefficients using five solute descriptors.<sup><xref rid="ref31" ref-type="bibr">31</xref>,<xref rid="ref32" ref-type="bibr">32</xref></sup> The iterative fragment selection quantitative structure–activity
+relationship (IFSQSAR)<sup><xref rid="ref33" ref-type="bibr">33</xref></sup> predicts these
+solute descriptors. Combined with the published LSER equation for
+log <italic>K</italic><sub>aw</sub>,<sup><xref rid="ref34" ref-type="bibr">34</xref></sup> IFSQSAR
+predicts log <italic>K</italic><sub>aw</sub> values based only on
+the molecular structure. An online toolbox, EAS-E Suite (Ver. 0.96-Beta,
+released November 2022, accessed in February 2023)<sup><xref rid="ref35" ref-type="bibr">35</xref></sup> was used for the calculation. As an AD indicator, EAS-E
+Suite provides an “uncertainty level (UL)”, which indicates
+reliability of the predicted solute descriptors. In addition, EAS-E
+Suite calculates “estimated errors”, which are estimates
+of overall prediction errors resulting from uncertainty in both solute
+descriptors and the LSER equation.<sup><xref rid="ref33" ref-type="bibr">33</xref></sup></p></sec><sec id="sec2.4.4" disp-level="3"><label>2.4.4.</label><title>COSMO<italic>therm</italic></title><p>COSMO<italic>therm</italic> is a program that predicts activity-related properties
+including partition coefficients, following the COSMO-RS theory.<sup><xref rid="ref36" ref-type="bibr">36</xref></sup> Turbomole, COSMO<italic>confX</italic>, and
+COSMO<italic>thermX</italic> (COSMO<italic>logic</italic>, Dassault
+Systèmes, version 2021) were used to perform COSMO<italic>therm</italic> calculations, as described previously.<sup><xref rid="ref21" ref-type="bibr">21</xref></sup> Briefly, for each compound, an initial structure was entered to
+COSMO<italic>confX</italic>, which generated and evaluated a number
+of possible conformers. Quantum chemical calculations were performed
+with Turbomole to obtain “COSMO files”, which contain
+the necessary information such as molecular surface polarity. COSMO<italic>thermX</italic> read the generated COSMO files, calculated pairwise
+interaction energy between molecules, and derived partition coefficients
+from statistical thermodynamics using the COSMO<italic>therm</italic> algorithm. The parameterization applied was BP_TZVPD_FINE_21. Log <italic>K</italic><sub>Hxd/w</sub> and log <italic>K</italic><sub>aw</sub> at 25 °C were predicted with this method.</p></sec></sec></sec><sec id="sec3" disp-level="1"><label>3.</label><title>Results and Discussion</title><sec id="sec3.1" disp-level="2"><label>3.1.</label><title>Measurement of <italic>K</italic><sub>Hxd/w</sub></title><p><italic>K</italic><sub>Hxd/w</sub> values measured in this
+study are summarized in <xref rid="tbl2" ref-type="table">Table <xref rid="tbl2" ref-type="table">2</xref></xref>.</p><table-wrap id="tbl2" position="float"><?disp-level 3?><label>Table 2</label><caption><title>Log <italic>K</italic><sub>Hxd/w</sub> Values Measured in This Study and Log <italic>K</italic><sub>aw</sub> Derived from <xref rid="eq1" ref-type="disp-formula">Eq <xref rid="eq1" ref-type="disp-formula">1</xref></xref></title></caption><table frame="hsides" rules="groups" border="0"><colgroup span="1"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/></colgroup><thead><tr><th rowspan="3" style="border:none;" align="left" colspan="1"> </th><th colspan="6" align="center" rowspan="1">log <italic>K</italic><sub>Hxd/w</sub><hr/></th><th colspan="2" align="center" rowspan="1">log <italic>K</italic><sub>aw</sub><hr/></th></tr><tr><th colspan="2" align="center" rowspan="1">batch partition
+method<xref rid="t2fn1" ref-type="table-fn"><sup>a</sup></xref></th><th colspan="2" align="center" rowspan="1">shared-headspace
+method<xref rid="t2fn1" ref-type="table-fn"><sup>a</sup></xref></th><th colspan="2" align="center" rowspan="1">modified VPR-HS
+method</th><th rowspan="2" style="border:none;" align="left" colspan="1"><xref rid="eq1" ref-type="disp-formula">eq <xref rid="eq1" ref-type="disp-formula">1</xref></xref></th><th rowspan="2" style="border:none;" align="left" colspan="1">VPR-HS
+or VP/S</th></tr><tr><th style="border:none;" align="left" colspan="1" rowspan="1">mean</th><th style="border:none;" align="left" colspan="1" rowspan="1">95% CI</th><th style="border:none;" align="left" colspan="1" rowspan="1">mean</th><th style="border:none;" align="left" colspan="1" rowspan="1">95% CI</th><th style="border:none;" align="left" colspan="1" rowspan="1">mean</th><th style="border:none;" align="left" colspan="1" rowspan="1">95% CI</th></tr></thead><tbody><tr><td style="border:none;" align="left" colspan="1" rowspan="1">3:1 FTOH</td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1"><underline>–0.35</underline></td><td style="border:none;" align="left" colspan="1" rowspan="1">[−0.37, −0.32]</td><td style="border:none;" align="left" colspan="1" rowspan="1">–1.89</td><td style="border:none;" align="left" colspan="1" rowspan="1">–2.03<xref rid="t2fn4" ref-type="table-fn"><sup>d</sup></xref></td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">3:3 FTOH</td><td style="border:none;" align="left" colspan="1" rowspan="1"><underline>0.52</underline></td><td style="border:none;" align="left" colspan="1" rowspan="1">[0.51, 0.54]</td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">0.32</td><td style="border:none;" align="left" colspan="1" rowspan="1">[0.17, 0.47]</td><td style="border:none;" align="left" colspan="1" rowspan="1">–2.17</td><td style="border:none;" align="left" colspan="1" rowspan="1">–2.04<xref rid="t2fn4" ref-type="table-fn"><sup>d</sup></xref></td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">4:2 FTOH</td><td style="border:none;" align="left" colspan="1" rowspan="1"><underline>0.79</underline></td><td style="border:none;" align="left" colspan="1" rowspan="1">[0.77, 0.81]</td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">0.75</td><td style="border:none;" align="left" colspan="1" rowspan="1">[0.70, 0.80]</td><td style="border:none;" align="left" colspan="1" rowspan="1">–1.57</td><td style="border:none;" align="left" colspan="1" rowspan="1">–1.56<xref rid="t2fn4" ref-type="table-fn"><sup>d</sup></xref>, −1.30<xref rid="t2fn5" ref-type="table-fn"><sup>e</sup></xref>, −1.63<xref rid="t2fn6" ref-type="table-fn"><sup>f</sup></xref>, −1.21<xref rid="t2fn7" ref-type="table-fn"><sup>g</sup></xref>, −1.52<xref rid="t2fn8" ref-type="table-fn"><sup>h</sup></xref></td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">4:4 FTOH</td><td style="border:none;" align="left" colspan="1" rowspan="1"><underline>1.60</underline></td><td style="border:none;" align="left" colspan="1" rowspan="1">[1.58, 1.62]</td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">1.43</td><td style="border:none;" align="left" colspan="1" rowspan="1">[1.09, 1.71]</td><td style="border:none;" align="left" colspan="1" rowspan="1">–1.97</td><td style="border:none;" align="left" colspan="1" rowspan="1">–1.28<xref rid="t2fn4" ref-type="table-fn"><sup>d</sup></xref></td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">6:2 FTOH</td><td style="border:none;" align="left" colspan="1" rowspan="1">2.50</td><td style="border:none;" align="left" colspan="1" rowspan="1">[2.42, 2.59]</td><td style="border:none;" align="left" colspan="1" rowspan="1"><underline>2.51</underline></td><td style="border:none;" align="left" colspan="1" rowspan="1">[2.44, 2.58]</td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">–0.64</td><td style="border:none;" align="left" colspan="1" rowspan="1">–1.47<xref rid="t2fn5" ref-type="table-fn"><sup>e</sup></xref>, −0.56<xref rid="t2fn6" ref-type="table-fn"><sup>f</sup></xref>, 0.37<xref rid="t2fn7" ref-type="table-fn"><sup>g</sup></xref>, −0.44<xref rid="t2fn8" ref-type="table-fn"><sup>h</sup></xref></td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">7:1 FTOH</td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1"><underline>2.70</underline></td><td style="border:none;" align="left" colspan="1" rowspan="1">[2.56, 2.84]</td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">–0.26</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">8:2 FTOH</td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1"><underline>3.75</underline></td><td style="border:none;" align="left" colspan="1" rowspan="1">[3.73, 3.78]</td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">0.11</td><td style="border:none;" align="left" colspan="1" rowspan="1">–1.82<xref rid="t2fn5" ref-type="table-fn"><sup>e</sup></xref>, 0.58<xref rid="t2fn6" ref-type="table-fn"><sup>f</sup></xref>, 0.31<xref rid="t2fn7" ref-type="table-fn"><sup>g</sup></xref>, 0.96<xref rid="t2fn8" ref-type="table-fn"><sup>h</sup></xref></td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">5:2s FTOH</td><td style="border:none;" align="left" colspan="1" rowspan="1">2.00</td><td style="border:none;" align="left" colspan="1" rowspan="1">[1.93, 2.08]</td><td style="border:none;" align="left" colspan="1" rowspan="1"><underline>2.04</underline></td><td style="border:none;" align="left" colspan="1" rowspan="1">[1.98, 2.11]</td><td style="border:none;" align="left" colspan="1" rowspan="1">1.55</td><td style="border:none;" align="left" colspan="1" rowspan="1">[1.18,
+1.75]</td><td style="border:none;" align="left" colspan="1" rowspan="1">–0.15</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">4:2 FTI</td><td style="border:none;" align="left" colspan="1" rowspan="1">4.13<xref rid="t2fn2" ref-type="table-fn"><sup>b</sup></xref></td><td style="border:none;" align="left" colspan="1" rowspan="1">[3.89, 4.36]</td><td style="border:none;" align="left" colspan="1" rowspan="1"><underline>4.93</underline></td><td style="border:none;" align="left" colspan="1" rowspan="1">[4.86, 4.99]</td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">1.60</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">6:1 FTI</td><td style="border:none;" align="left" colspan="1" rowspan="1">4.34<xref rid="t2fn2" ref-type="table-fn"><sup>b</sup></xref></td><td style="border:none;" align="left" colspan="1" rowspan="1">[3.82, 4.86]</td><td style="border:none;" align="left" colspan="1" rowspan="1"><underline>5.66</underline></td><td style="border:none;" align="left" colspan="1" rowspan="1">[5.36, 5.95]</td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">2.28</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">6:1 FTI-7H</td><td style="border:none;" align="left" colspan="1" rowspan="1">4.06<xref rid="t2fn2" ref-type="table-fn"><sup>b</sup></xref></td><td style="border:none;" align="left" colspan="1" rowspan="1">[3.72, 4.39]</td><td style="border:none;" align="left" colspan="1" rowspan="1"><underline>4.62</underline></td><td style="border:none;" align="left" colspan="1" rowspan="1">[4.55, 4.70]</td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">0.70</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">6:2 FTAC</td><td style="border:none;" align="left" colspan="1" rowspan="1">4.22<xref rid="t2fn2" ref-type="table-fn"><sup>b</sup></xref></td><td style="border:none;" align="left" colspan="1" rowspan="1">[3.92, 4.51]</td><td style="border:none;" align="left" colspan="1" rowspan="1"><underline>5.43</underline></td><td style="border:none;" align="left" colspan="1" rowspan="1">[5.40, 5.46]</td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">1.27</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">4:2 FTMAC</td><td style="border:none;" align="left" colspan="1" rowspan="1">4.02<xref rid="t2fn2" ref-type="table-fn"><sup>b</sup></xref></td><td style="border:none;" align="left" colspan="1" rowspan="1">[3.82, 4.21]</td><td style="border:none;" align="left" colspan="1" rowspan="1"><underline>4.65</underline></td><td style="border:none;" align="left" colspan="1" rowspan="1">[4.58, 4.72]</td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">0.62</td><td style="border:none;" align="left" colspan="1" rowspan="1">–0.14<xref rid="t2fn4" ref-type="table-fn"><sup>d</sup></xref></td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">PFBSA</td><td style="border:none;" align="left" colspan="1" rowspan="1"><underline>–1.15</underline><xref rid="t2fn3" ref-type="table-fn"><sup>c</sup></xref></td><td style="border:none;" align="left" colspan="1" rowspan="1">[−1.20, −1.10]</td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">–4.89</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">PFHxSA</td><td style="border:none;" align="left" colspan="1" rowspan="1"><underline>0.39</underline><xref rid="t2fn3" ref-type="table-fn"><sup>c</sup></xref></td><td style="border:none;" align="left" colspan="1" rowspan="1">[0.28, 0.51]</td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">–3.94</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">PFOSA</td><td style="border:none;" align="left" colspan="1" rowspan="1"><underline>1.80</underline><xref rid="t2fn3" ref-type="table-fn"><sup>c</sup></xref></td><td style="border:none;" align="left" colspan="1" rowspan="1">[1.72, 1.87]</td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">–3.04</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">MeFBSA</td><td style="border:none;" align="left" colspan="1" rowspan="1"><underline>0.82</underline><xref rid="t2fn3" ref-type="table-fn"><sup>c</sup></xref></td><td style="border:none;" align="left" colspan="1" rowspan="1">[0.80, 0.85]</td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">–2.85</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">MeFHxSA</td><td style="border:none;" align="left" colspan="1" rowspan="1"><underline>2.25</underline><xref rid="t2fn3" ref-type="table-fn"><sup>c</sup></xref></td><td style="border:none;" align="left" colspan="1" rowspan="1">[2.16, 2.34]</td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">–2.01</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">EtFHxSA</td><td style="border:none;" align="left" colspan="1" rowspan="1"><underline>2.95</underline><xref rid="t2fn3" ref-type="table-fn"><sup>c</sup></xref></td><td style="border:none;" align="left" colspan="1" rowspan="1">[2.85, 3.04]</td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">–1.58</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">MeFBSE</td><td style="border:none;" align="left" colspan="1" rowspan="1"><underline>0.49</underline></td><td style="border:none;" align="left" colspan="1" rowspan="1">[0.45, 0.52]</td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">–4.35</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">EtFHxSE</td><td style="border:none;" align="left" colspan="1" rowspan="1"><underline>2.76</underline></td><td style="border:none;" align="left" colspan="1" rowspan="1">[2.66, 2.87]</td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">NA</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">–3.02</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td></tr></tbody></table><table-wrap-foot><fn id="t2fn1"><label>a</label><p><italic>n</italic> = 5. <italic>T</italic> = 25 °C unless otherwise noted.</p></fn><fn id="t2fn2"><label>b</label><p>Likely inaccurate because of the
+presence of hexadecane in water.</p></fn><fn id="t2fn3"><label>c</label><p>1 mM HCl was used.</p></fn><fn id="t2fn4"><label>d</label><p>Measured
+by the VPR-HS method in
+this study.</p></fn><fn id="t2fn5"><label>e</label><p>Ref (<xref rid="ref7" ref-type="bibr">7</xref>).</p></fn><fn id="t2fn6"><label>f</label><p>Ref (<xref rid="ref8" ref-type="bibr">8</xref>).</p></fn><fn id="t2fn7"><label>g</label><p>Ref (<xref rid="ref9" ref-type="bibr">9</xref>).</p></fn><fn id="t2fn8"><label>h</label><p>Ref (<xref rid="ref12" ref-type="bibr">12</xref>), 23 or 24 °C. CI, confidence interval.
+NA, not available. Underlined values were used for <xref rid="eq1" ref-type="disp-formula">eq <xref rid="eq1" ref-type="disp-formula">1</xref></xref>.</p></fn></table-wrap-foot></table-wrap><p>Log <italic>K</italic><sub>Hxd/w</sub> values measured
+by both
+batch and shared-headspace methods are available for seven compounds.
+The two methods resulted in practically identical values for 6:2 and
+5:2s FTOHs. However, the log <italic>K</italic><sub>Hxd/w</sub> values
+measured by the batch method were significantly lower than those by
+the shared-headspace method for the remaining five compounds (i.e.,
+4:2 FTI, 6:1 FTI, 6:1 FTI-7H, 6:2 FTAC, 4:2 FTMAC), which are all
+relatively hydrophobic. The batch method-measured values for the five
+compounds were all ∼4 with wide 95% CIs. It is likely that
+the water phase equilibrated in the batch method contained invisible
+microdroplets of hexadecane, which increased the apparent concentration
+of the water phase and decreased the measured (apparent) <italic>K</italic><sub>Hxd/w</sub>. Indeed, if we assume that the water phase contained
+0.006 vol % hexadecane droplets and that log <italic>K</italic><sub>Hxd/w</sub> determined by the shared-headspace method is accurate,
+we can reproduce the “apparent log <italic>K</italic><sub>Hxd/w</sub>” values measured by the batch method (see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.3c02545/suppl_file/es3c02545_si_001.pdf" ext-link-type="uri">SI-4</ext-link> for the calculation). The presence of 0.006 vol % hexadecane
+in water suggests that the current batch partition method is applicable
+to measure log <italic>K</italic><sub>Hxd/w</sub> values up to 3.6.
+For higher <italic>K</italic><sub>Hxd/w</sub>, an error of &gt;0.1
+log
+unit would occur. The method could be improved by making an additional
+effort to remove hexadecane from water, e.g., by centrifugation or
+filtration. In the shared-headspace method, the water phase is free
+of hexadecane. The shared-headspace method appears applicable for
+compounds with log <italic>K</italic><sub>Hxd/w</sub> values higher
+than 4, although the test compound should be sufficiently volatile
+and hydrophobic (see the Methods section). Thus, the batch partition
+and shared-headspace methods are largely complementary and, by combining
+these two methods, we were able to measure log <italic>K</italic><sub>Hxd/w</sub> from −1.15 to 5.66 for PFAS with different molecular
+structures.</p><p>The modified VPR-HS method resulted in log <italic>K</italic><sub>Hxd/w</sub> values comparable to those measured by
+the batch partition
+method (<xref rid="tbl2" ref-type="table">Table <xref rid="tbl2" ref-type="table">2</xref></xref>). However,
+the data plot did not always follow the relationship between PA and <italic>V</italic><sub>Hxd</sub> expected by <xref rid="eq2" ref-type="disp-formula">eq <xref rid="eq2" ref-type="disp-formula">2</xref></xref> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.3c02545/suppl_file/es3c02545_si_001.pdf" ext-link-type="uri">Figure S1</ext-link>). As a result,
+the CIs were large, particularly for 4:4 and 5:2s FTOHs. The reason
+may be significant adsorption to, e.g., the glass wall, septum, air/water
+interface, and syringe used for GC injection, which violates the assumption
+of <xref rid="eq2" ref-type="disp-formula">eq <xref rid="eq2" ref-type="disp-formula">2</xref></xref>. Thus, although
+the method is by far the simplest, the use of this method may be limited
+to weakly sorptive compounds. In the following discussion, we consider
+only the data for 3:1 FTOH determined by the modified VPR-HS method
+because no other data are available for this compound.</p></sec><sec id="sec3.2" disp-level="2"><label>3.2.</label><title>Determination of <italic>K</italic><sub>aw</sub></title><p>Using <xref rid="eq1" ref-type="disp-formula">eq <xref rid="eq1" ref-type="disp-formula">1</xref></xref>, we obtained log <italic>K</italic><sub>aw</sub> values (25 °C)
+from −4.89 to 2.28, thus over 7 log units (<xref rid="tbl2" ref-type="table">Table <xref rid="tbl2" ref-type="table">2</xref></xref>). Such a wide range would not
+be achievable by direct measurement methods alone, demonstrating an
+advantage of the thermodynamic cycle approach used here. <xref rid="tbl2" ref-type="table">Table <xref rid="tbl2" ref-type="table">2</xref></xref> also shows log <italic>K</italic><sub>aw</sub> values determined by direct methods including
+the standard VPR-HS method in this study (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.3c02545/suppl_file/es3c02545_si_001.pdf" ext-link-type="uri">Figure S2</ext-link>) and the literature as well as values derived from VP/S
+calculation in the literature. The values for 3:1, 3:3, and 4:2 FTOHs
+from different sources agree well with each other, mostly within 0.1–0.2
+log units. However, larger difference was found for 4:4, 6:2, 8:2
+FTOHs, and 4:2 FTMAC, which are less water-soluble and less volatile
+than the former three compounds and are likely more susceptible to
+experimental artifacts. As shown below, our values from <xref rid="eq1" ref-type="disp-formula">eq <xref rid="eq1" ref-type="disp-formula">1</xref></xref> are internally consistent and should
+represent the most reliable set of experimental values available for
+PFAS. In the course of this work, a new paper appeared that reported <italic>K</italic><sub>aw</sub> values for 15 PFAS measured by the standard
+VPR-HS method.<sup><xref rid="ref37" ref-type="bibr">37</xref></sup> These data, however, are
+inconsistent with the available knowledge for <italic>K</italic><sub>aw</sub> of PFAS (see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.3c02545/suppl_file/es3c02545_si_001.pdf" ext-link-type="uri">SI-5</ext-link> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.3c02545/suppl_file/es3c02545_si_001.pdf" ext-link-type="uri">Figures S5, S6</ext-link> for more details) and thus are
+not further considered here.</p></sec><sec id="sec3.3" disp-level="2"><label>3.3.</label><title>PFAS Molecular Structure and Partition Coefficients</title><p>From the data obtained in this work, several important relationships
+between the structure of PFAS and the partition coefficients can be
+noted.</p><p>Fluorotelomer substances (i.e., FTIs, FTACs, FTMACs)
+favor air over water (log <italic>K</italic><sub>aw</sub> &gt; 0),
+except
+for FTOHs. Even with a polar functional group such as acrylate or
+methacrylate, these chemicals readily partition from water to air.
+In contrast, unsubstituted PFASAs are water-soluble (log <italic>K</italic><sub>aw</sub> &lt; −3), even if their ionization in water
+as discussed above is disregarded. <italic>N</italic>-methyl substitution
+of PFASAs increases <italic>K</italic><sub>aw</sub> by 2 log units,
+making them substantially less water favoring. Further <italic>N</italic>-hydroxyethyl substitution (e.g., from MeFBSA to MeFBSE) decreases <italic>K</italic><sub>aw</sub> back by 1.5 log units, because of the introduction
+of the polar −OH group.</p><p>We have <italic>K</italic><sub>aw</sub> data for two X:1 FTOHs,
+three X:2 FTOHs, three PFASAs, and two <italic>N</italic>-methyl FASAs,
+from which we can calculate the dependence of log <italic>K</italic><sub>aw</sub> on the CF<sub>2</sub> chain length (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>B and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.3c02545/suppl_file/es3c02545_si_001.pdf" ext-link-type="uri">Table S4</ext-link>). Log <italic>K</italic><sub>aw</sub> of these four groups
+increases consistently by 0.43 ± 0.02 log units per CF<sub>2</sub>. This value is useful when the log <italic>K</italic><sub>aw</sub> for PFAS needs to be extrapolated from available data for shorter-chain
+homologues. The high consistency of the observed CF<sub>2</sub> dependence
+over four classes of PFASs supports accuracy of our data. Noteworthy
+is that log <italic>K</italic><sub>aw</sub> increases only by 0.14
+± 0.04 log units per CH<sub>2</sub>. This small change in log <italic>K</italic><sub>aw</sub> with the addition of CH<sub>2</sub> can be
+explained by the fact that the increased van der Waals interaction
+energy with water molecules is nearly offset by the increased cavity
+formation energy cost. In the case of CF<sub>2</sub>, the increase
+in cavity formation energy exceeds the increase in interaction energy,
+and thus, CF<sub>2</sub> has a substantially larger influence on log <italic>K</italic><sub>aw</sub> than CH<sub>2</sub>. Interestingly, the CF<sub>2</sub> and CH<sub>2</sub> increments have similar influences on
+log <italic>K</italic><sub>Hxd/w</sub> (0.74 ± 0.02 and 0.64
+± 0.04, respectively; <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>A), as opposed to the differing influences on log <italic>K</italic><sub>aw</sub>.</p><fig id="fig1" position="float"><?disp-level 3?><label>Figure 1</label><caption><p>Dependence of (A) log <italic>K</italic><sub>Hxd/w</sub> and (B)
+log <italic>K</italic><sub>aw</sub> on the number of CF<sub>2</sub> or CH<sub>2</sub> units. Data for <italic>n</italic>-alkan-1-enes, <italic>n</italic>-alkylbenzenes, and <italic>n</italic>-alkan-1-ols are
+from Abraham et al.<sup><xref rid="ref41" ref-type="bibr">41</xref>,<xref rid="ref42" ref-type="bibr">42</xref></sup> The lines indicate the linear
+regression.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr1" xlink:href="es3c02545_0002.jpg"><?cloudpmc-path blobs/43fa/10249623/888853988093/es3c02545_0002.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 435?><?original-width 1250?><?scaled-height 218?><?scaled-width 625?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="es3c02545_0002.gif"><?cloudpmc-path blobs/43fa/10249623/94fd636085dd/es3c02545_0002.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>Another finding is that log <italic>K</italic><sub>Hxd/w</sub> of
+6:1 FTI-7H is 1.0 log unit lower than that of 6:1 FTI and that log <italic>K</italic><sub>aw</sub> of the former is 1.6 log units lower than
+that of the latter. Both indicate that 6:1 FTI-7H has substantially
+higher water affinity than 6:1 FTI does. The only structural difference
+between 6:1 FTI-7H and 6:1 FTI is the F substitution pattern of the
+terminal methyl group (−CF<sub>2</sub>H vs −CF<sub>3</sub>, respectively). The H atom at the end of the perfluoroalkyl chain
+can serve as a relatively strong H-bond donor site because of the
+strong electron-withdrawing property of the F atoms, substantially
+strengthening the polar interactions with water molecules. It has
+been reported in the literature that H atoms of halogenated aliphatic
+compounds can serve as H-bond donor sites (e.g., chloroform,<sup><xref rid="ref38" ref-type="bibr">38</xref></sup> hexachlorocyclohexanes,<sup><xref rid="ref39" ref-type="bibr">39</xref></sup> and chlorinated paraffins)<sup><xref rid="ref40" ref-type="bibr">40</xref></sup> and affect
+the partition properties of the compounds.</p></sec><sec id="sec3.4" disp-level="2"><label>3.4.</label><title>Evaluation of Prediction Models</title><p>Model
+predictions of log <italic>K</italic><sub>aw</sub> are presented in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.3c02545/suppl_file/es3c02545_si_001.pdf" ext-link-type="uri">Table S5</ext-link> and were compared to the experimental
+values obtained in this study (<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>; a larger version is provided in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.3c02545/suppl_file/es3c02545_si_001.pdf" ext-link-type="uri">Figure S3</ext-link>). For each model, the root-mean-squared error (RMSE)
+was calculated from the difference between experimental and predicted
+values.</p><fig id="fig2" position="float"><?disp-level 3?><label>Figure 2</label><caption><p>Predicted vs experimental log <italic>K</italic><sub>aw</sub> for
+21 PFAS. Solid lines indicate the 1:1 agreement and dashed lines 1
+log unit difference. A larger version is available in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.3c02545/suppl_file/es3c02545_si_001.pdf" ext-link-type="uri">SI</ext-link>. RMSE, root-mean-squared error; ME, mean error,
+i.e., the mean of predicted minus experimental values.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr2" xlink:href="es3c02545_0003.jpg"><?cloudpmc-path blobs/43fa/10249623/e288dc5198fa/es3c02545_0003.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 906?><?original-width 1250?><?scaled-height 453?><?scaled-width 625?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="es3c02545_0003.gif"><?cloudpmc-path blobs/43fa/10249623/b54d92ab0b15/es3c02545_0003.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>HenryWin (bond contribution model) suffered from
+a high RMSE (2.2
+log units) with strong biases to overprediction. Deviations from experimental
+values increased with increasing chain length. Particularly large
+errors were found for PFOSA (error, +4.9), PFHxSA (error, +4.4), PFBSA
+(error, +3.9), and 6:1 FTI-7H (error, +3.0), with the plus sign in
+the parentheses indicating overprediction. Predictions for FTOHs were
+better but still errors up to +2.1 were found. The group contribution
+model of HenryWin was not any better (RMSE 2.1 log units; <italic>n</italic> = 13; see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.3c02545/suppl_file/es3c02545_si_001.pdf" ext-link-type="uri">Table S5</ext-link>). In 2006,
+Arp et al.<sup><xref rid="ref20" ref-type="bibr">20</xref></sup> demonstrated similar overprediction
+for four FTOHs by a former version of HenryWin. There appears to be
+no major improvement in predicting log <italic>K</italic><sub>aw</sub> for PFAS.</p><p>OPERA also resulted in a high RMSE (1.8 log units).
+The OPERA prediction
+did not even follow the increasing trend of log <italic>K</italic><sub>aw</sub> with the chain length, but instead, it calculated a
+narrow range of log <italic>K</italic><sub>aw</sub> from −2.9
+to −1.5 for 19 out of 21 compounds. More specifically, OPERA
+calculated ∼ −1.6 for 10 and ∼ −2.3 for
+3 compounds. As shown in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.3c02545/suppl_file/es3c02545_si_001.pdf" ext-link-type="uri">Table S6</ext-link>, all
+predictions were outside the global AD defined by the leverage calculation
+of OPERA. Moreover, the local AD indices generated by OPERA were low
+(&lt;0.4) for all but 3:1 FTOH, meaning that the five nearest neighbors
+were not similar to the predicted compound. Thus, OPERA clearly indicated
+that its log <italic>K</italic><sub>aw</sub> predictions for the 21
+PFAS were not trustworthy. Looking closer at the output file, we found
+that a few calibration chemicals (e.g., 6:2, 8:2 FTOHs) were frequently
+identified as neighboring compounds, which resulted in similar predictions
+for many of the tested PFAS. Lampic and Parnis<sup><xref rid="ref13" ref-type="bibr">13</xref></sup> proposed to compute <italic>K</italic><sub>ow</sub> and <italic>K</italic><sub>oa</sub> with OPERA and apply a thermodynamic cycle
+to calculate <italic>K</italic><sub>aw</sub>. This approach, however,
+did not result in major improvement in RMSE (1.7 log units, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.3c02545/suppl_file/es3c02545_si_001.pdf" ext-link-type="uri">Table S5</ext-link>) even though all 21 compounds were considered
+within AD of both <italic>K</italic><sub>ow</sub> and <italic>K</italic><sub>oa</sub> prediction models.</p><p>LSER-IFSQSAR provided a better
+RMSE (1.3 log units) than the former
+two methods, and it captured the chain-length dependence of log <italic>K</italic><sub>aw</sub>. LSER-IFSQSAR consistently underestimated
+sulfonamides and their derivatives (errors, −2.7 to −1.0)
+and tended to overestimate the others including FTOHs (errors, −0.2
+to +1.5), except 5:2s FTOH (error, −1.6). The ULs provided
+by EAS-E Suite did not have a relationship with the observed absolute
+errors (<italic>R</italic><sup>2</sup>, 0.01) but the estimated errors
+from EAS-E Suite did have a positive correlation with the observed
+absolute errors (<italic>R</italic><sup>2</sup>, 0.38) (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.3c02545/suppl_file/es3c02545_si_001.pdf" ext-link-type="uri">Table S6</ext-link>).</p><p>COSMO<italic>therm</italic> was
+by far the most accurate of the
+four models tested (RMSE, 0.4 log units). The accuracy of log <italic>K</italic><sub>aw</sub> prediction for neutral PFAS is comparable
+to that for nonfluorinated chemicals (∼0.3 log units).<sup><xref rid="ref43" ref-type="bibr">43</xref></sup> Thus, COSMO<italic>therm</italic> accurately
+modeled the influence of the perfluoroalkyl structure on log <italic>K</italic><sub>aw</sub> discussed in the previous section. There
+was slight overall underprediction with a mean error (ME) of −0.34
+log units. This minor but consistent bias is similar to the prediction
+for log <italic>K</italic><sub>Hxd/air</sub>, reported in our previous
+paper.<sup><xref rid="ref21" ref-type="bibr">21</xref></sup> The ME of log <italic>K</italic><sub>Hxd/air</sub> predictions for the current 21 compounds is +0.48
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.3c02545/suppl_file/es3c02545_si_001.pdf" ext-link-type="uri">Figure S4</ext-link>). COSMO<italic>therm</italic> appears to slightly overestimate the partitioning of PFAS from air
+to liquid phases. In contrast, log <italic>K</italic><sub>Hxd/w</sub> predictions by COSMO<italic>therm</italic> have little bias (ME,
++0.14; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.3c02545/suppl_file/es3c02545_si_001.pdf" ext-link-type="uri">Figure S4</ext-link>), suggesting the liquid/liquid
+partitioning can be predicted more accurately. Note that, if we correct
+the COSMO<italic>therm</italic>-predicted log <italic>K</italic><sub>aw</sub> values by adding 0.34, the RMSE would become 0.26 log units.</p><p>Overall, the evaluation of four models presented above suggests
+that fully empirical models (e.g., HenryWin, OPERA) do not seem to
+be useful for predicting <italic>K</italic><sub>aw</sub> of PFAS,
+at least for the moment. Errors by 4 or 5 orders of magnitude may
+be too high even for chemical screening purposes. The low performance
+might be no surprise, as there have not been sufficient calibration
+data for PFAS. Apparently, HenryWin lacks fragment values and correction
+factors required to describe the influence of F substitutions on log <italic>K</italic><sub>aw</sub>. OPERA needs far more <italic>K</italic><sub>aw</sub> data for PFAS that could serve as useful nearest neighbors.
+HenryWin and OPERA could be recalibrated with the experimental log <italic>K</italic><sub>aw</sub> data from this study, which should improve
+their prediction for PFAS that are similar to any of the test compounds
+of this study. However, large errors could still occur for the other
+PFAS. As the architecture of LSER-IFSQSAR is more complicated than
+that of HenryWin and OPERA, it is not straightforward to interpret
+the results. LSER-IFSQSAR has been built on the mechanically based
+LSER equation and calibrated not only on log <italic>K</italic><sub>aw</sub> but on many different partition data available, which could
+explain the better predictions. The high prediction performance of
+COSMO<italic>therm</italic> indicates that this theoretically based
+model is suitable for predicting <italic>K</italic><sub>aw</sub> of
+PFAS. Arguably, for an extremely data-poor class of chemicals such
+as PFAS, a theoretical model that does not require substructure-specific
+calibration generates more accurate predictions than empirical models.
+An obstacle to using COSMO<italic>therm</italic> for a broad range
+of PFAS is that it is not a free tool. For practical and regulatory
+use, we predicted log <italic>K</italic><sub>aw</sub> using COSMO<italic>therm</italic> for 222 PFAS, including 107 neutral PFAS that Kissel
+et al. recently listed as candidate compounds as well as neutral species
+of PFAS acids of major concern such as PFOA and its alternatives (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.3c02545/suppl_file/es3c02545_si_001.pdf" ext-link-type="uri">Table S7</ext-link>). The predicted log <italic>K</italic><sub>aw</sub> values were in the range of −10.0 to 9.7, and
+200 (90%) of the 222 values were from −5 to 5, indicating a
+large variation of the partition properties. Further model validation
+would be desirable though, considering the diverse structures of existing
+PFAS. Nevertheless, as long as we do not have reliable experimental
+data, these predictions may be considered current best estimates and
+useful for various purposes, such as fate, exposure, and risk analysis.</p></sec></sec><sec id="ack1" sec-type="ack" disp-level="1"><title>Acknowledgments</title><p>We thank Yoko Katakura for her technical assistance.
+Calculations with COSMO<italic>confX</italic> and Turbomole were performed
+using the NIES supercomputer system. This work was supported by the
+Environment Research and Technology Development Fund 3-2102 (JPMEERF20213002)
+of the Environmental Restoration and Conservation Agency provided
+by the Ministry of Environment of Japan.</p></sec><sec id="notes1" disp-level="1"><title>Supporting Information Available</title><p>The Supporting Information is
+available free of charge at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/10.1021/acs.est.3c02545?goto=supporting-info" ext-link-type="uri">https://pubs.acs.org/doi/10.1021/acs.est.3c02545</ext-link>.</p><list list-type="simple" id="silist"><list-item><p>Additional descriptions of experimental methods; evaluation
+of new literature data; lists of all PFAS used; SMILES strings for
+PFAS; experimental parameters; statistics of the regression lines;
+all predicted log <italic>K</italic><sub>aw</sub> values; figures
+for experimental methods and raw data; and COSMO<italic>therm</italic>-predicted vs experimental values (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.3c02545/suppl_file/es3c02545_si_001.pdf" ext-link-type="uri">PDF</ext-link>)</p></list-item></list></sec><sec id="notes2" disp-level="1"><title>Author Contributions</title><p>Study design:
+S.E. Experiment: S.E., J.H., and S.M. Data evaluation: S.E., J.H.,
+and S.M. Modeling: S.E. and J.H. Drafting of the manuscript: S.E.
+Revising of the manuscript: S.E., J.H., and S.M.</p></sec><sec id="NOTES-d14e1663-autogenerated" disp-level="1"><p>The authors declare no
+competing financial interest.</p></sec><sec id="sec19" disp-level="1"><title>Supplementary Material</title><supplementary-material id="sifile1" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="es3c02545_si_001.pdf" mimetype="application" mime-subtype="pdf"><?cloudpmc-path 43fa/10249623/e2715d2d9412/es3c02545_si_001.pdf?><?cloudpmc-bucket app?><?size 1253200?><caption><p>es3c02545_si_001.pdf</p></caption></media></supplementary-material></sec><sec id="ref-list1" sec-type="ref-list" disp-level="1"><title>References</title><sec id="ref-list1_sec2" disp-level="2"><ref-list><ref id="ref1"><mixed-citation id="cit1"><named-content content-type="citation-string">Fenton S. E.; Ducatman A.; Boobis A.; DeWitt J. C.; Lau C.; Ng C.; Smith J. S.; Roberts S. M.
+Per- and polyfluoroalkyl substance
+toxicity and human health review: Current state of knowledge and strategies
+for informing future research. Environ. Toxicol.
+Chem.
+2021, 40, 606–630. 10.1002/etc.4890.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/etc.4890"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7906952"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="33017053"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environ. Toxicol. Chem.&amp;title=Per- and polyfluoroalkyl substance toxicity and human health review: Current state of knowledge and strategies for informing future research&amp;author=S. E. Fenton&amp;author=A. Ducatman&amp;author=A. Boobis&amp;author=J. C. DeWitt&amp;author=C. Lau&amp;volume=40&amp;publication_year=2021&amp;pages=606-630&amp;pmid=33017053&amp;doi=10.1002/etc.4890&amp;"/></mixed-citation></ref><ref id="ref2"><mixed-citation id="cit2"><named-content content-type="citation-string">Hansen K. J.; Clemen L. A.; Ellefson M. E.; Johnson H. O.
+Compound-specific,
+quantitative characterization of organic fluorochemicals in biological
+matrices. Environ. Sci. Technol.
+2001, 35, 766–770. 10.1021/es001489z.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/es001489z"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="11349290"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environ. Sci. Technol.&amp;title=Compound-specific, quantitative characterization of organic fluorochemicals in biological matrices&amp;author=K. J. Hansen&amp;author=L. A. Clemen&amp;author=M. E. Ellefson&amp;author=H. O. Johnson&amp;volume=35&amp;publication_year=2001&amp;pages=766-770&amp;pmid=11349290&amp;doi=10.1021/es001489z&amp;"/></mixed-citation></ref><ref id="ref3"><mixed-citation id="cit3"><named-content content-type="citation-string">Giesy J. P.; Kannan K.
+Global distribution of perfluorooctane sulfonate in
+wildlife. Environ. Sci. Technol.
+2001, 35, 1339–1342. 10.1021/es001834k.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/es001834k"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="11348064"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environ. Sci. Technol.&amp;title=Global distribution of perfluorooctane sulfonate in wildlife&amp;author=J. P. Giesy&amp;author=K. Kannan&amp;volume=35&amp;publication_year=2001&amp;pages=1339-1342&amp;pmid=11348064&amp;doi=10.1021/es001834k&amp;"/></mixed-citation></ref><ref id="ref4"><mixed-citation id="cit4"><named-content content-type="citation-string">Kannan K.; Koistinen J.; Beckmen K.; Evans T.; Gorzelany J. F.; Hansen K. J.; Jones P. D.; Helle E.; Nyman M.; Giesy J. P.
+Accumulation of perfluorooctane sulfonate in marine
+mammals. Environ. Sci. Technol.
+2001, 35, 1593–1598. 10.1021/es001873w.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/es001873w"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="11329707"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environ. Sci. Technol.&amp;title=Accumulation of perfluorooctane sulfonate in marine mammals&amp;author=K. Kannan&amp;author=J. Koistinen&amp;author=K. Beckmen&amp;author=T. Evans&amp;author=J. F. Gorzelany&amp;volume=35&amp;publication_year=2001&amp;pages=1593-1598&amp;pmid=11329707&amp;doi=10.1021/es001873w&amp;"/></mixed-citation></ref><ref id="ref5"><mixed-citation id="cit5"><named-content content-type="citation-string">Kannan K.; Franson J. C.; Bowerman W. W.; Hansen K. J.; Jones P. D.; Giesy J. P.
+Perfluorooctane sulfonate in fish-eating water birds
+including bald eagles and albatrosses. Environ.
+Sci. Technol.
+2001, 35, 3065–3070. 10.1021/es001935i.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/es001935i"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="11505980"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environ. Sci. Technol.&amp;title=Perfluorooctane sulfonate in fish-eating water birds including bald eagles and albatrosses&amp;author=K. Kannan&amp;author=J. C. Franson&amp;author=W. W. Bowerman&amp;author=K. J. Hansen&amp;author=P. D. Jones&amp;volume=35&amp;publication_year=2001&amp;pages=3065-3070&amp;pmid=11505980&amp;doi=10.1021/es001935i&amp;"/></mixed-citation></ref><ref id="ref6"><mixed-citation id="cit6"><named-content content-type="citation-string">Bakhshoodeh R.; Santos R. M.
+Comparative bibliometric
+trends of microplastics and
+perfluoroalkyl and polyfluoroalkyl substances: How these hot environmental
+remediation research topics developed over time. RSC Adv.
+2022, 12, 4973–4987. 10.1039/D1RA09344D.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/D1RA09344D"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC8981264"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="35425503"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=RSC Adv.&amp;title=Comparative bibliometric trends of microplastics and perfluoroalkyl and polyfluoroalkyl substances: How these hot environmental remediation research topics developed over time&amp;author=R. Bakhshoodeh&amp;author=R. M. Santos&amp;volume=12&amp;publication_year=2022&amp;pages=4973-4987&amp;pmid=35425503&amp;doi=10.1039/D1RA09344D&amp;"/></mixed-citation></ref><ref id="ref7"><mixed-citation id="cit7"><named-content content-type="citation-string">Lei Y. D.; Wania F.; Mathers D.; Mabury S. A.
+Determination of
+vapor pressures, octanol-air, and water-air partition coefficients
+for polyfluorinated sulfonamide, sulfonamidoethanols, and telomer
+alcohols. J. Chem. Eng. Data
+2004, 49, 1013–1022. 10.1021/je049949h.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/je049949h"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Chem. Eng. Data&amp;title=Determination of vapor pressures, octanol-air, and water-air partition coefficients for polyfluorinated sulfonamide, sulfonamidoethanols, and telomer alcohols&amp;author=Y. D. Lei&amp;author=F. Wania&amp;author=D. Mathers&amp;author=S. A. Mabury&amp;volume=49&amp;publication_year=2004&amp;pages=1013-1022&amp;doi=10.1021/je049949h&amp;"/></mixed-citation></ref><ref id="ref8"><mixed-citation id="cit8"><named-content content-type="citation-string">Goss K.-U.; Bronner G.; Harner T.; Hertel M.; Schmidt T. C.
+The partition
+behavior of fluorotelomer alcohols and olefins. Environ. Sci. Technol.
+2006, 40, 3572–3577. 10.1021/es060004p.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/es060004p"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="16786696"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environ. Sci. Technol.&amp;title=The partition behavior of fluorotelomer alcohols and olefins&amp;author=K.-U. Goss&amp;author=G. Bronner&amp;author=T. Harner&amp;author=M. Hertel&amp;author=T. C. Schmidt&amp;volume=40&amp;publication_year=2006&amp;pages=3572-3577&amp;pmid=16786696&amp;doi=10.1021/es060004p&amp;"/></mixed-citation></ref><ref id="ref9"><mixed-citation id="cit9"><named-content content-type="citation-string">Wu Y.; Chang V. W. C.
+The effect of
+surface adsorption and molecular geometry
+on the determination of Henry’s law constants for fluorotelomer
+alcohols. J. Chem. Eng. Data
+2011, 56, 3442–3448. 10.1021/je200466w.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/je200466w"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Chem. Eng. Data&amp;title=The effect of surface adsorption and molecular geometry on the determination of Henry’s law constants for fluorotelomer alcohols&amp;author=Y. Wu&amp;author=V. W. C. Chang&amp;volume=56&amp;publication_year=2011&amp;pages=3442-3448&amp;doi=10.1021/je200466w&amp;"/></mixed-citation></ref><ref id="ref10"><mixed-citation id="cit10"><named-content content-type="citation-string">Li H.; Ellis D.; Mackay D.
+Measurement of low air–water
+partition coefficients of organic acids by evaporation from a water
+surface. J. Chem. Eng. Data
+2007, 52, 1580–1584. 10.1021/je600556d.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/je600556d"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Chem. Eng. Data&amp;title=Measurement of low air–water partition coefficients of organic acids by evaporation from a water surface&amp;author=H. Li&amp;author=D. Ellis&amp;author=D. Mackay&amp;volume=52&amp;publication_year=2007&amp;pages=1580-1584&amp;doi=10.1021/je600556d&amp;"/></mixed-citation></ref><ref id="ref11"><mixed-citation id="cit11"><named-content content-type="citation-string">Kutsuna S.; Hori H.
+Experimental determination of Henry’s law constant of perfluorooctanoic
+acid (PFOA) at 298K by means of an inert-gas stripping method with
+a helical plate. Atmos. Environ.
+2008, 42, 8883–8892. 10.1016/j.atmosenv.2008.09.008.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.atmosenv.2008.09.008"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Atmos. Environ.&amp;title=Experimental determination of Henry’s law constant of perfluorooctanoic acid (PFOA) at 298K by means of an inert-gas stripping method with a helical plate&amp;author=S. Kutsuna&amp;author=H. Hori&amp;volume=42&amp;publication_year=2008&amp;pages=8883-8892&amp;doi=10.1016/j.atmosenv.2008.09.008&amp;"/></mixed-citation></ref><ref id="ref12"><mixed-citation id="cit12"><named-content content-type="citation-string"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.epa.gov/tsca-screening-tools/epi-suitetm-estimation-program-interface" ext-link-type="uri">https://www.epa.gov/tsca-screening-tools/epi-suitetm-estimation-program-interface</ext-link></named-content></mixed-citation></ref><ref id="ref13"><mixed-citation id="cit13"><named-content content-type="citation-string">Lampic A.; Parnis J. M.
+Property estimation of per- and polyfluoroalkyl substances:
+A comparative assessment of estimation methods. Environ. Toxicol. Chem.
+2020, 39, 775–786. 10.1002/etc.4681.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/etc.4681"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="32022323"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environ. Toxicol. Chem.&amp;title=Property estimation of per- and polyfluoroalkyl substances: A comparative assessment of estimation methods&amp;author=A. Lampic&amp;author=J. M. Parnis&amp;volume=39&amp;publication_year=2020&amp;pages=775-786&amp;pmid=32022323&amp;doi=10.1002/etc.4681&amp;"/></mixed-citation></ref><ref id="ref14"><mixed-citation id="cit14"><named-content content-type="citation-string">Ellis D. A.; Martin J. W.; De Silva A. O.; Mabury S. A.; Hurley M. D.; Sulbaek Andersen M. P.; Wallington T. J.
+Degradation of fluorotelomer alcohols:
+A likely atmospheric source of perfluorinated carboxylic acids. Environ. Sci. Technol.
+2004, 38, 3316–3321. 10.1021/es049860w.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/es049860w"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="15260330"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environ. Sci. Technol.&amp;title=Degradation of fluorotelomer alcohols: A likely atmospheric source of perfluorinated carboxylic acids&amp;author=D. A. Ellis&amp;author=J. W. Martin&amp;author=A. O. De Silva&amp;author=S. A. Mabury&amp;author=M. D. Hurley&amp;volume=38&amp;publication_year=2004&amp;pages=3316-3321&amp;pmid=15260330&amp;doi=10.1021/es049860w&amp;"/></mixed-citation></ref><ref id="ref15"><mixed-citation id="cit15"><named-content content-type="citation-string">D’eon J. C.; Hurley M. D.; Wallington T. J.; Mabury S. A.
+Atmospheric chemistry
+of <italic>N</italic>-methyl perfluorobutane sulfonamidoethanol, C<sub>4</sub>F<sub>9</sub>SO<sub>2</sub>N(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>2</sub>OH: Kinetics and mechanism of reaction with oh. Environ. Sci. Technol.
+2006, 40, 1862–1868. 10.1021/es0520767.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/es0520767"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="16570609"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environ. Sci. Technol.&amp;title=Atmospheric chemistry of N-methyl perfluorobutane sulfonamidoethanol, C4F9SO2N(CH3)CH2CH2OH: Kinetics and mechanism of reaction with oh&amp;author=J. C. D’eon&amp;author=M. D. Hurley&amp;author=T. J. Wallington&amp;author=S. A. Mabury&amp;volume=40&amp;publication_year=2006&amp;pages=1862-1868&amp;pmid=16570609&amp;doi=10.1021/es0520767&amp;"/></mixed-citation></ref><ref id="ref16"><mixed-citation id="cit16"><named-content content-type="citation-string">Löfstedt
+Gilljam J.; Leonel J.; Cousins I. T.; Benskin J. P.
+Is ongoing
+sulfluramid use in south america a significant source of perfluorooctanesulfonate
+(PFOS)? Production inventories, environmental fate, and local occurrence. Environ. Sci. Technol.
+2016, 50, 653–659. 10.1021/acs.est.5b04544.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.est.5b04544"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26653085"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environ. Sci. Technol.&amp;title=Is ongoing sulfluramid use in south america a significant source of perfluorooctanesulfonate (PFOS)? Production inventories, environmental fate, and local occurrence&amp;author=J. Löfstedt Gilljam&amp;author=J. Leonel&amp;author=I. T. Cousins&amp;author=J. P. Benskin&amp;volume=50&amp;publication_year=2016&amp;pages=653-659&amp;pmid=26653085&amp;doi=10.1021/acs.est.5b04544&amp;"/></mixed-citation></ref><ref id="ref17"><mixed-citation id="cit17"><named-content content-type="citation-string">Chen L.; Takenaka N.; Bandow H.; Maeda Y.
+Henry’s law
+constants for C<sub>2</sub>–C<sub>3</sub> fluorinated alcohols
+and their wet deposition in the atmosphere. Atmos. Environ.
+2003, 37, 4817–4822. 10.1016/j.atmosenv.2003.08.002.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.atmosenv.2003.08.002"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Atmos. Environ.&amp;title=Henry’s law constants for C2–C3 fluorinated alcohols and their wet deposition in the atmosphere&amp;author=L. Chen&amp;author=N. Takenaka&amp;author=H. Bandow&amp;author=Y. Maeda&amp;volume=37&amp;publication_year=2003&amp;pages=4817-4822&amp;doi=10.1016/j.atmosenv.2003.08.002&amp;"/></mixed-citation></ref><ref id="ref18"><mixed-citation id="cit18"><named-content content-type="citation-string">Armitage J. M.; MacLeod M.; Cousins I. T.
+Comparative
+assessment of the global
+fate and transport pathways of long-chain perfluorocarboxylic acids
+(PFCAs) and perfluorocarboxylates (PFCs) emitted from direct sources. Environ. Sci. Technol.
+2009, 43, 5830–5836. 10.1021/es900753y.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/es900753y"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="19731684"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environ. Sci. Technol.&amp;title=Comparative assessment of the global fate and transport pathways of long-chain perfluorocarboxylic acids (PFCAs) and perfluorocarboxylates (PFCs) emitted from direct sources&amp;author=J. M. Armitage&amp;author=M. MacLeod&amp;author=I. T. Cousins&amp;volume=43&amp;publication_year=2009&amp;pages=5830-5836&amp;pmid=19731684&amp;doi=10.1021/es900753y&amp;"/></mixed-citation></ref><ref id="ref19"><mixed-citation id="cit19"><named-content content-type="citation-string">Li L.; Liu J.; Hu J.; Wania F.
+Degradation of fluorotelomer-based
+polymers contributes to the global occurrence of fluorotelomer alcohol
+and perfluoroalkyl carboxylates: A combined dynamic substance flow
+and environmental fate modeling analysis. Environ.
+Sci. Technol.
+2017, 51, 4461–4470. 10.1021/acs.est.6b04021.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.est.6b04021"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28301932"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environ. Sci. Technol.&amp;title=Degradation of fluorotelomer-based polymers contributes to the global occurrence of fluorotelomer alcohol and perfluoroalkyl carboxylates: A combined dynamic substance flow and environmental fate modeling analysis&amp;author=L. Li&amp;author=J. Liu&amp;author=J. Hu&amp;author=F. Wania&amp;volume=51&amp;publication_year=2017&amp;pages=4461-4470&amp;pmid=28301932&amp;doi=10.1021/acs.est.6b04021&amp;"/></mixed-citation></ref><ref id="ref20"><mixed-citation id="cit20"><named-content content-type="citation-string">Arp H. P. H.; Niederer C.; Goss K.-U.
+Predicting
+the partitioning behavior
+of various highly fluorinated compounds. Environ.
+Sci. Technol.
+2006, 40, 7298–7304. 10.1021/es060744y.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/es060744y"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="17180981"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environ. Sci. Technol.&amp;title=Predicting the partitioning behavior of various highly fluorinated compounds&amp;author=H. P. H. Arp&amp;author=C. Niederer&amp;author=K.-U. Goss&amp;volume=40&amp;publication_year=2006&amp;pages=7298-7304&amp;pmid=17180981&amp;doi=10.1021/es060744y&amp;"/></mixed-citation></ref><ref id="ref21"><mixed-citation id="cit21"><named-content content-type="citation-string">Hammer J.; Endo S.
+Volatility and nonspecific
+van der Waals interaction properties of
+per- and polyfluoroalkyl substances (PFAS): Evaluation using hexadecane/air
+partition coefficients. Environ. Sci. Technol.
+2022, 56, 15737–15745. 10.1021/acs.est.2c05804.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.est.2c05804"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9671037"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="36240042"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environ. Sci. Technol.&amp;title=Volatility and nonspecific van der Waals interaction properties of per- and polyfluoroalkyl substances (PFAS): Evaluation using hexadecane/air partition coefficients&amp;author=J. Hammer&amp;author=S. Endo&amp;volume=56&amp;publication_year=2022&amp;pages=15737-15745&amp;pmid=36240042&amp;doi=10.1021/acs.est.2c05804&amp;"/></mixed-citation></ref><ref id="ref22"><mixed-citation id="cit22"><named-content content-type="citation-string">Beyer A.; Wania F.; Gouin T.; Mackay D.; Matthies M.
+Selecting
+internally consistent physicochemical properties of organic compounds. Environ. Toxicol. Chem.
+2002, 21, 941–953. 10.1002/etc.5620210508.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/etc.5620210508"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="12013140"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environ. Toxicol. Chem.&amp;title=Selecting internally consistent physicochemical properties of organic compounds&amp;author=A. Beyer&amp;author=F. Wania&amp;author=T. Gouin&amp;author=D. Mackay&amp;author=M. Matthies&amp;volume=21&amp;publication_year=2002&amp;pages=941-953&amp;pmid=12013140&amp;doi=10.1002/etc.5620210508&amp;"/></mixed-citation></ref><ref id="ref23"><mixed-citation id="cit23"><named-content content-type="citation-string">Abraham M. H.; Grellier P. L.; McGill R. A.
+Determination
+of olive oil-gas and
+hexadecane-gas partition coefficients, and calculation of the corresponding
+olive oil-water and hexadecane-water partition coefficients. J. Chem. Soc., Perkin Trans. 2
+1987, 2, 797–803. 10.1039/P29870000797.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/P29870000797"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Chem. Soc., Perkin Trans. 2&amp;title=Determination of olive oil-gas and hexadecane-gas partition coefficients, and calculation of the corresponding olive oil-water and hexadecane-water partition coefficients&amp;author=M. H. Abraham&amp;author=P. L. Grellier&amp;author=R. A. McGill&amp;volume=2&amp;publication_year=1987&amp;pages=797-803&amp;doi=10.1039/P29870000797&amp;"/></mixed-citation></ref><ref id="ref24"><mixed-citation id="cit24"><named-content content-type="citation-string">Wang Z. Y.; MacLeod M.; Cousins I. T.; Scheringer M.; Hungerbühler K.
+Using COSMOtherm to predict physicochemical properties
+of poly- and perfluorinated alkyl substances (PFASs). Environ. Chem.
+2011, 8, 389–398. 10.1071/EN10143.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1071/EN10143"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environ. Chem.&amp;title=Using COSMOtherm to predict physicochemical properties of poly- and perfluorinated alkyl substances (PFASs)&amp;author=Z. Y. Wang&amp;author=M. MacLeod&amp;author=I. T. Cousins&amp;author=M. Scheringer&amp;author=K. Hungerbühler&amp;volume=8&amp;publication_year=2011&amp;pages=389-398&amp;doi=10.1071/EN10143&amp;"/></mixed-citation></ref><ref id="ref25"><mixed-citation id="cit25"><named-content content-type="citation-string">Trepka R. D.; Belisle J. W.; Harrington J. K.
+Acidities
+and partition coefficients
+of fluoromethanesulfonamides. J. Org. Chem.
+1974, 39, 1094–1098. 10.1021/jo00922a017.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/jo00922a017"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Org. Chem.&amp;title=Acidities and partition coefficients of fluoromethanesulfonamides&amp;author=R. D. Trepka&amp;author=J. W. Belisle&amp;author=J. K. Harrington&amp;volume=39&amp;publication_year=1974&amp;pages=1094-1098&amp;doi=10.1021/jo00922a017&amp;"/></mixed-citation></ref><ref id="ref26"><mixed-citation id="cit26"><named-content content-type="citation-string">Endo S.; Pfennigsdorff A.; Goss K.-U.
+Salting-out effect
+in aqueous NaCl
+solutions: Trends with size and polarity of solute molecules. Environ. Sci. Technol.
+2012, 46, 1496–1503. 10.1021/es203183z.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/es203183z"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="22191628"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environ. Sci. Technol.&amp;title=Salting-out effect in aqueous NaCl solutions: Trends with size and polarity of solute molecules&amp;author=S. Endo&amp;author=A. Pfennigsdorff&amp;author=K.-U. Goss&amp;volume=46&amp;publication_year=2012&amp;pages=1496-1503&amp;pmid=22191628&amp;doi=10.1021/es203183z&amp;"/></mixed-citation></ref><ref id="ref27"><mixed-citation id="cit27"><named-content content-type="citation-string">Trac L. N.; Schmidt S. N.; Mayer P.
+Headspace
+passive dosing of volatile
+hydrophobic chemicals - aquatic toxicity testing exactly at the saturation
+level. Chemosphere
+2018, 211, 694–700. 10.1016/j.chemosphere.2018.07.150.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.chemosphere.2018.07.150"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30098565"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Chemosphere&amp;title=Headspace passive dosing of volatile hydrophobic chemicals - aquatic toxicity testing exactly at the saturation level&amp;author=L. N. Trac&amp;author=S. N. Schmidt&amp;author=P. Mayer&amp;volume=211&amp;publication_year=2018&amp;pages=694-700&amp;pmid=30098565&amp;doi=10.1016/j.chemosphere.2018.07.150&amp;"/></mixed-citation></ref><ref id="ref28"><mixed-citation id="cit28"><named-content content-type="citation-string">Trac L. N.; Schmidt S. N.; Holmstrup M.; Mayer P.
+Headspace passive dosing
+of volatile hydrophobic organic chemicals from a lipid donor-linking
+their toxicity to well-defined exposure for an improved risk assessment. Environ. Sci. Technol.
+2019, 53, 13468–13476. 10.1021/acs.est.9b04681.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.est.9b04681"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="31612707"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environ. Sci. Technol.&amp;title=Headspace passive dosing of volatile hydrophobic organic chemicals from a lipid donor-linking their toxicity to well-defined exposure for an improved risk assessment&amp;author=L. N. Trac&amp;author=S. N. Schmidt&amp;author=M. Holmstrup&amp;author=P. Mayer&amp;volume=53&amp;publication_year=2019&amp;pages=13468-13476&amp;pmid=31612707&amp;doi=10.1021/acs.est.9b04681&amp;"/></mixed-citation></ref><ref id="ref29"><mixed-citation id="cit29"><named-content content-type="citation-string">Meylan W. M.; Howard P. H.
+Bond contribution method for estimating Henry’s
+law constants. Environ. Toxicol. Chem.
+1991, 10, 1283–1293. 10.1002/etc.5620101007.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/etc.5620101007"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environ. Toxicol. Chem.&amp;title=Bond contribution method for estimating Henry’s law constants&amp;author=W. M. Meylan&amp;author=P. H. Howard&amp;volume=10&amp;publication_year=1991&amp;pages=1283-1293&amp;doi=10.1002/etc.5620101007&amp;"/></mixed-citation></ref><ref id="ref30"><mixed-citation id="cit30"><named-content content-type="citation-string">Mansouri K.; Grulke C. M.; Judson R. S.; Williams A. J.
+OPERA models
+for
+predicting physicochemical properties and environmental fate endpoints. J. Cheminf.
+2018, 10, 10. 10.1186/s13321-018-0263-1.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1186/s13321-018-0263-1"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5843579"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29520515"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Cheminf.&amp;title=OPERA models for predicting physicochemical properties and environmental fate endpoints&amp;author=K. Mansouri&amp;author=C. M. Grulke&amp;author=R. S. Judson&amp;author=A. J. Williams&amp;volume=10&amp;publication_year=2018&amp;pages=10&amp;pmid=29520515&amp;doi=10.1186/s13321-018-0263-1&amp;"/></mixed-citation></ref><ref id="ref31"><mixed-citation id="cit31"><named-content content-type="citation-string">Abraham M. H.; Ibrahim A.; Zissimos A. M.
+Determination
+of sets of solute descriptors
+from chromatographic measurements. J. Chromatogr.
+A
+2004, 1037, 29–47. 10.1016/j.chroma.2003.12.004.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.chroma.2003.12.004"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="15214659"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Chromatogr. A&amp;title=Determination of sets of solute descriptors from chromatographic measurements&amp;author=M. H. Abraham&amp;author=A. Ibrahim&amp;author=A. M. Zissimos&amp;volume=1037&amp;publication_year=2004&amp;pages=29-47&amp;pmid=15214659&amp;doi=10.1016/j.chroma.2003.12.004&amp;"/></mixed-citation></ref><ref id="ref32"><mixed-citation id="cit32"><named-content content-type="citation-string">Endo S.; Goss K.-U.
+Applications of
+polyparameter linear free energy relationships
+in environmental chemistry. Environ. Sci. Technol.
+2014, 48, 12477–12491. 10.1021/es503369t.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/es503369t"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25280011"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environ. Sci. Technol.&amp;title=Applications of polyparameter linear free energy relationships in environmental chemistry&amp;author=S. Endo&amp;author=K.-U. Goss&amp;volume=48&amp;publication_year=2014&amp;pages=12477-12491&amp;pmid=25280011&amp;doi=10.1021/es503369t&amp;"/></mixed-citation></ref><ref id="ref33"><mixed-citation id="cit33"><named-content content-type="citation-string">Brown T. N.
+QSPRs for
+predicting equilibrium partitioning in solvent–air systems
+from the chemical structures of solutes and solvents. J. Solution Chem.
+2022, 51, 1101–1132. 10.1007/s10953-022-01162-2.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s10953-022-01162-2"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Solution Chem.&amp;title=QSPRs for predicting equilibrium partitioning in solvent–air systems from the chemical structures of solutes and solvents&amp;author=T. N. Brown&amp;volume=51&amp;publication_year=2022&amp;pages=1101-1132&amp;doi=10.1007/s10953-022-01162-2&amp;"/></mixed-citation></ref><ref id="ref34"><mixed-citation id="cit34"><named-content content-type="citation-string">Brown T. N.
+Empirical
+regressions between system parameters and solute descriptors of polyparameter
+linear free energy relationships (PPLFERs) for predicting solvent-air
+partitioning. Fluid Phase Equilib.
+2021, 540, 113035 10.1016/j.fluid.2021.113035.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.fluid.2021.113035"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Fluid Phase Equilib.&amp;title=Empirical regressions between system parameters and solute descriptors of polyparameter linear free energy relationships (PPLFERs) for predicting solvent-air partitioning&amp;author=T. N. Brown&amp;volume=540&amp;publication_year=2021&amp;pages=113035&amp;doi=10.1016/j.fluid.2021.113035&amp;"/></mixed-citation></ref><ref id="ref35"><mixed-citation id="cit35"><named-content content-type="citation-string"><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.eas-e-suite.com" ext-link-type="uri">www.eas-e-suite.com</ext-link></named-content></mixed-citation></ref><ref id="ref36"><mixed-citation id="cit36"><named-content content-type="citation-string">Klamt A.
+Conductor-like
+screening model for real solvents: A new approach to the quantitative
+calculation of solvation phenomena. J. Phys.
+Chem.
+1995, 99, 2224–2235. 10.1021/j100007a062.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/j100007a062"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Phys. Chem.&amp;title=Conductor-like screening model for real solvents: A new approach to the quantitative calculation of solvation phenomena&amp;author=A. Klamt&amp;volume=99&amp;publication_year=1995&amp;pages=2224-2235&amp;doi=10.1021/j100007a062&amp;"/></mixed-citation></ref><ref id="ref37"><mixed-citation id="cit37"><named-content content-type="citation-string">Abusallout I.; Holton C.; Wang J.; Hanigan D.
+Henry’s law
+constants of 15 per- and polyfluoroalkyl substances determined by
+static headspace analysis. J. Hazard. Mater.
+Lett.
+2022, 3, 100070 10.1016/j.hazl.2022.100070.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.hazl.2022.100070"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Hazard. Mater. Lett.&amp;title=Henry’s law constants of 15 per- and polyfluoroalkyl substances determined by static headspace analysis&amp;author=I. Abusallout&amp;author=C. Holton&amp;author=J. Wang&amp;author=D. Hanigan&amp;volume=3&amp;publication_year=2022&amp;pages=100070&amp;doi=10.1016/j.hazl.2022.100070&amp;"/></mixed-citation></ref><ref id="ref38"><mixed-citation id="cit38"><named-content content-type="citation-string">Abraham M. H.
+Scales
+of solute hydrogen-bonding: Their construction and application to
+physicochemical and biochemical processes. Chem.
+Soc. Rev.
+1993, 22, 73–83. 10.1039/cs9932200073.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/cs9932200073"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Chem. Soc. Rev.&amp;title=Scales of solute hydrogen-bonding: Their construction and application to physicochemical and biochemical processes&amp;author=M. H. Abraham&amp;volume=22&amp;publication_year=1993&amp;pages=73-83&amp;doi=10.1039/cs9932200073&amp;"/></mixed-citation></ref><ref id="ref39"><mixed-citation id="cit39"><named-content content-type="citation-string">Goss K.-U.; Arp H. P. H.; Bronner G.; Niederer C.
+Partition behavior
+of hexachlorocyclohexane isomers. J. Chem. Eng.
+Data
+2008, 53, 750–754. 10.1021/je700595y.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/je700595y"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Chem. Eng. Data&amp;title=Partition behavior of hexachlorocyclohexane isomers&amp;author=K.-U. Goss&amp;author=H. P. H. Arp&amp;author=G. Bronner&amp;author=C. Niederer&amp;volume=53&amp;publication_year=2008&amp;pages=750-754&amp;doi=10.1021/je700595y&amp;"/></mixed-citation></ref><ref id="ref40"><mixed-citation id="cit40"><named-content content-type="citation-string">Hammer J.; Matsukami H.; Endo S.
+Congener-specific partition properties
+of chlorinated paraffins evaluated with COSMOtherm and gas chromatographic
+retention indices. Sci. Rep.
+2021, 11, 4426. 10.1038/s41598-021-84040-z.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41598-021-84040-z"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7904792"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="33627839"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Sci. Rep.&amp;title=Congener-specific partition properties of chlorinated paraffins evaluated with COSMOtherm and gas chromatographic retention indices&amp;author=J. Hammer&amp;author=H. Matsukami&amp;author=S. Endo&amp;volume=11&amp;publication_year=2021&amp;pages=4426&amp;pmid=33627839&amp;doi=10.1038/s41598-021-84040-z&amp;"/></mixed-citation></ref><ref id="ref41"><mixed-citation id="cit41"><named-content content-type="citation-string">Abraham M. H.; Whiting G. S.; Fuchs R.; Chambers E. J.
+Thermodynamics of
+solute transfer from water to hexadecane. J.
+Chem. Soc., Perkin Trans. 2
+1990, 291–300. 10.1039/p29900000291.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/p29900000291"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Chem. Soc., Perkin Trans. 2&amp;title=Thermodynamics of solute transfer from water to hexadecane&amp;author=M. H. Abraham&amp;author=G. S. Whiting&amp;author=R. Fuchs&amp;author=E. J. Chambers&amp;publication_year=1990&amp;pages=291-300&amp;doi=10.1039/p29900000291&amp;"/></mixed-citation></ref><ref id="ref42"><mixed-citation id="cit42"><named-content content-type="citation-string">Abraham M. H.; Andonian-Haftvan J.; Whiting G. S.; Leo A.; Taft R. S.
+Hydrogen
+bonding. Part 34. The factors that influence the solubility of gases
+and vapors in water at 298 K, and a new method for its determination. J. Chem. Soc., Perkin Trans. 2
+1994, 1777–1791. 10.1039/p29940001777.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/p29940001777"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Chem. Soc., Perkin Trans. 2&amp;title=Hydrogen bonding. Part 34. The factors that influence the solubility of gases and vapors in water at 298 K, and a new method for its determination&amp;author=M. H. Abraham&amp;author=J. Andonian-Haftvan&amp;author=G. S. Whiting&amp;author=A. Leo&amp;author=R. S. Taft&amp;publication_year=1994&amp;pages=1777-1791&amp;doi=10.1039/p29940001777&amp;"/></mixed-citation></ref><ref id="ref43"><mixed-citation id="cit43"><named-content content-type="citation-string">Klamt A.; Jonas V.; Buerger T.; Lohrenz J. C. W.
+Refinement and
+parametrization of COSMO-RS. J. Phys. Chem.
+A
+1998, 102, 5074–5085. 10.1021/jp980017s.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/jp980017s"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Phys. Chem. A&amp;title=Refinement and parametrization of COSMO-RS&amp;author=A. Klamt&amp;author=V. Jonas&amp;author=T. Buerger&amp;author=J. C. W. Lohrenz&amp;volume=102&amp;publication_year=1998&amp;pages=5074-5085&amp;doi=10.1021/jp980017s&amp;"/></mixed-citation></ref></ref-list></sec></sec><sec id="_ad93_" xml:lang="en" sec-type="associated-data" disp-level="1"><title>Associated Data</title><sec id="_adsm93_" xml:lang="en" sec-type="supplementary-materials" disp-level="2"><title>Supplementary Materials</title><supplementary-material id="db_ds_supplementary-material1_reqid_" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="es3c02545_si_001.pdf" mimetype="application" mime-subtype="pdf"><?cloudpmc-path 43fa/10249623/e2715d2d9412/es3c02545_si_001.pdf?><?cloudpmc-bucket app?><?size 1253200?><caption><p>es3c02545_si_001.pdf</p></caption></media></supplementary-material></sec></sec></body></article>

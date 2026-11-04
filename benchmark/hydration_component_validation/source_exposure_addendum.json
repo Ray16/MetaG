@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-04T21:50:00.870101+00:00",
+  "frozen_protocol_unchanged": true,
+  "discovered_after_predictions": true,
+  "prior_source": "MetaG/manuscript/sections/methods.tex: Physical diagnostics, and SI S3",
+  "prior_source_sha256": "c2cf3d807d5a2a56540bf83d40a3d8c86cc2e57a3c0172d3c0ac92a66c2bce3a",
+  "correction": "Endo2023 experimental source had already been consulted in MetaG development and used for a preceding14-case neutral-water transfer-range panel. This is a new fixed-external-geometry component ablation on development-exposed reference chemistry, not independent experimental validation. Source/method independence and independent metabolic benchmark gates remain unfulfilled.",
+  "no_new_selection_or_prediction": true,
+  "additional_condition_limits": "Native nominal-water recipes can retain a small acetone fraction (preceding source audit estimates <0.3% v/v), finite concentrations, commercial purity/isomer qualifications and shared cycle-measurement uncertainties. These are not newly verified strict pure-water activity-standard references. No experimental-cycle covariance is propagated.",
+  "relationship_to_earlier14": "Earlier MetaG14 compound geometries used source-corrected acrylate/methacrylate inputs. This new frozen external-geometry13 panel excludes the two unchanged FlexiSol mismatches and includes the singly stereogenic secondary FTOH as an enantiomer-insensitive hydration observable in achiral water. The two cohorts and their estimators are not interchangeable."
+}

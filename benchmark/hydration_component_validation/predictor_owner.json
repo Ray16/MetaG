@@ -1,0 +1,10 @@
+{
+  "host": "lambda2",
+  "pid": 652266,
+  "start_ticks": "1462937085",
+  "affinity": [
+    2,
+    3
+  ],
+  "CUDA_VISIBLE_DEVICES": "7"
+}

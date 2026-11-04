@@ -1,0 +1,121 @@
+Warp UserWarning: 
+   Insufficient CUDA driver version.
+   The minimum required CUDA driver version is 13.0, but the installed CUDA driver version is 12.4.
+   Visit https://nvidia.github.io/warp/stable/user_guide/installation.html for guidance.
+PREDICT START 0000 flexisol/gas/water/3-1ftoh_chrg0_t0_c0
+WARNING:root:Running (9ae7818) with inference settings: batch
+PREDICT COMPLETE 0000 8 / 461
+PREDICT START 0001 flexisol/gas/water/3-3ftoh_chrg0_t0_c0
+PREDICT COMPLETE 0001 16 / 461
+PREDICT START 0002 flexisol/gas/water/3-3ftoh_chrg0_t0_c8
+PREDICT COMPLETE 0002 24 / 461
+PREDICT START 0003 flexisol/gas/water/4-2fti_chrg0_t0_c6
+PREDICT COMPLETE 0003 32 / 461
+PREDICT START 0004 flexisol/gas/water/4-2ftoh_chrg0_t0_c12
+PREDICT COMPLETE 0004 40 / 461
+PREDICT START 0005 flexisol/gas/water/4-2ftoh_chrg0_t0_c5
+PREDICT COMPLETE 0005 48 / 461
+PREDICT START 0006 flexisol/gas/water/4-4ftoh_chrg0_t0_c11
+PREDICT COMPLETE 0006 56 / 461
+PREDICT START 0007 flexisol/gas/water/4-4ftoh_chrg0_t0_c19
+PREDICT COMPLETE 0007 64 / 461
+PREDICT START 0008 flexisol/gas/water/4-4ftoh_chrg0_t0_c26
+PREDICT COMPLETE 0008 72 / 461
+PREDICT START 0009 flexisol/gas/water/4-4ftoh_chrg0_t0_c33
+PREDICT COMPLETE 0009 80 / 461
+PREDICT START 0010 flexisol/gas/water/4-4ftoh_chrg0_t0_c40
+PREDICT COMPLETE 0010 88 / 461
+PREDICT START 0011 flexisol/gas/water/4-4ftoh_chrg0_t0_c5
+PREDICT COMPLETE 0011 96 / 461
+PREDICT START 0012 flexisol/gas/water/5-2sftoh_chrg0_t0_c2
+PREDICT COMPLETE 0012 104 / 461
+PREDICT START 0013 flexisol/gas/water/6-1fti-7h_chrg0_t0_c0
+PREDICT COMPLETE 0013 112 / 461
+PREDICT START 0014 flexisol/gas/water/6-1fti-7h_chrg0_t0_c8
+PREDICT COMPLETE 0014 120 / 461
+PREDICT START 0015 flexisol/gas/water/6-2ftoh_chrg0_t0_c14
+PREDICT COMPLETE 0015 128 / 461
+PREDICT START 0016 flexisol/gas/water/6-2ftoh_chrg0_t0_c21
+PREDICT COMPLETE 0016 136 / 461
+PREDICT START 0017 flexisol/gas/water/6-2ftoh_chrg0_t0_c7
+PREDICT COMPLETE 0017 144 / 461
+PREDICT START 0018 flexisol/gas/water/8-2ftoh_chrg0_t0_c0
+PREDICT COMPLETE 0018 152 / 461
+PREDICT START 0019 flexisol/gas/water/8-2ftoh_chrg0_t0_c16
+PREDICT COMPLETE 0019 160 / 461
+PREDICT START 0020 flexisol/gas/water/8-2ftoh_chrg0_t0_c7
+PREDICT COMPLETE 0020 168 / 461
+PREDICT START 0021 flexisol/gas/water/etfhxse_chrg0_t0_c13
+PREDICT COMPLETE 0021 176 / 461
+PREDICT START 0022 flexisol/gas/water/etfhxse_chrg0_t0_c6
+PREDICT COMPLETE 0022 184 / 461
+PREDICT START 0023 flexisol/gas/water/mefbse_chrg0_t0_c12
+PREDICT COMPLETE 0023 192 / 461
+PREDICT START 0024 flexisol/gas/water/mefbse_chrg0_t0_c2
+PREDICT COMPLETE 0024 200 / 461
+PREDICT START 0025 flexisol/gas/water/mefbse_chrg0_t0_c8
+PREDICT COMPLETE 0025 208 / 461
+PREDICT START 0026 flexisol/solv/water/3-1ftoh_chrg0_t0_c3
+PREDICT COMPLETE 0026 216 / 461
+PREDICT START 0027 flexisol/solv/water/3-3ftoh_chrg0_t0_c1
+PREDICT COMPLETE 0027 224 / 461
+PREDICT START 0028 flexisol/solv/water/3-3ftoh_chrg0_t0_c5
+PREDICT COMPLETE 0028 232 / 461
+PREDICT START 0029 flexisol/solv/water/4-2fti_chrg0_t0_c11
+PREDICT COMPLETE 0029 240 / 461
+PREDICT START 0030 flexisol/solv/water/4-2fti_chrg0_t0_c7
+PREDICT COMPLETE 0030 248 / 461
+PREDICT START 0031 flexisol/solv/water/4-2ftoh_chrg0_t0_c13
+PREDICT COMPLETE 0031 256 / 461
+PREDICT START 0032 flexisol/solv/water/4-2ftoh_chrg0_t0_c20
+PREDICT COMPLETE 0032 264 / 461
+PREDICT START 0033 flexisol/solv/water/4-2ftoh_chrg0_t0_c28
+PREDICT COMPLETE 0033 272 / 461
+PREDICT START 0034 flexisol/solv/water/4-2ftoh_chrg0_t0_c8
+PREDICT COMPLETE 0034 280 / 461
+PREDICT START 0035 flexisol/solv/water/4-4ftoh_chrg0_t0_c14
+PREDICT COMPLETE 0035 288 / 461
+PREDICT START 0036 flexisol/solv/water/4-4ftoh_chrg0_t0_c21
+PREDICT COMPLETE 0036 296 / 461
+PREDICT START 0037 flexisol/solv/water/4-4ftoh_chrg0_t0_c29
+PREDICT COMPLETE 0037 304 / 461
+PREDICT START 0038 flexisol/solv/water/4-4ftoh_chrg0_t0_c4
+PREDICT COMPLETE 0038 312 / 461
+PREDICT START 0039 flexisol/solv/water/5-2sftoh_chrg0_t0_c2
+PREDICT COMPLETE 0039 320 / 461
+PREDICT START 0040 flexisol/solv/water/6-1fti-7h_chrg0_t0_c2
+PREDICT COMPLETE 0040 328 / 461
+PREDICT START 0041 flexisol/solv/water/6-1fti_chrg0_t0_c0
+PREDICT COMPLETE 0041 336 / 461
+PREDICT START 0042 flexisol/solv/water/6-1fti_chrg0_t0_c8
+PREDICT COMPLETE 0042 344 / 461
+PREDICT START 0043 flexisol/solv/water/6-2ftoh_chrg0_t0_c14
+PREDICT COMPLETE 0043 352 / 461
+PREDICT START 0044 flexisol/solv/water/6-2ftoh_chrg0_t0_c21
+PREDICT COMPLETE 0044 360 / 461
+PREDICT START 0045 flexisol/solv/water/6-2ftoh_chrg0_t0_c29
+PREDICT COMPLETE 0045 368 / 461
+PREDICT START 0046 flexisol/solv/water/6-2ftoh_chrg0_t0_c7
+PREDICT COMPLETE 0046 376 / 461
+PREDICT START 0047 flexisol/solv/water/7-1ftoh_chrg0_t0_c13
+PREDICT COMPLETE 0047 384 / 461
+PREDICT START 0048 flexisol/solv/water/7-1ftoh_chrg0_t0_c3
+PREDICT COMPLETE 0048 392 / 461
+PREDICT START 0049 flexisol/solv/water/8-2ftoh_chrg0_t0_c1
+PREDICT COMPLETE 0049 400 / 461
+PREDICT START 0050 flexisol/solv/water/8-2ftoh_chrg0_t0_c17
+PREDICT COMPLETE 0050 408 / 461
+PREDICT START 0051 flexisol/solv/water/8-2ftoh_chrg0_t0_c24
+PREDICT COMPLETE 0051 416 / 461
+PREDICT START 0052 flexisol/solv/water/8-2ftoh_chrg0_t0_c31
+PREDICT COMPLETE 0052 424 / 461
+PREDICT START 0053 flexisol/solv/water/8-2ftoh_chrg0_t0_c5
+PREDICT COMPLETE 0053 432 / 461
+PREDICT START 0054 flexisol/solv/water/etfhxse_chrg0_t0_c11
+PREDICT COMPLETE 0054 440 / 461
+PREDICT START 0055 flexisol/solv/water/etfhxse_chrg0_t0_c4
+PREDICT COMPLETE 0055 448 / 461
+PREDICT START 0056 flexisol/solv/water/mefbse_chrg0_t0_c10
+PREDICT COMPLETE 0056 456 / 461
+PREDICT START 0057 flexisol/solv/water/mefbse_chrg0_t0_c5
+PREDICT COMPLETE 0057 461 / 461
