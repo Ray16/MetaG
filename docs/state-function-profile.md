@@ -1,0 +1,89 @@
+# Experimental state function profile
+
+`StateFunctionEstimator` assigns each admitted molecular input one retained
+potential for a calculation session. Reaction class, direction, extent and
+neighbouring metabolites cannot change that assignment. This experimental API
+addresses reaction-dependent reference selection and molecular reduction. It
+does not change `metag.pipeline.score_reaction` or inherit that estimator's
+accuracy and coverage results.
+
+```python
+from metag.state_function import StateFunctionEstimator
+
+# backend implements the same species/liquid_water interface as UMABackend.
+estimator = StateFunctionEstimator(backend)
+results = {key: estimator.score_reaction(rx, key=key)
+           for key, rx in reactions.items()}
+ledger = estimator.ledger()
+```
+
+Use the same instance across the network. Raw molecular energies and the liquid
+water reference are retained once, including when the backend is stochastic or
+does not normally cache. Returned records and ledger exports are copies.
+Backend producer or settings changes invalidate the session. The exported
+ledger retains provenance; it is not accepted as a resumable molecular cache.
+Execution is serial.
+
+## Reference treatment
+
+The profile uses full molecules without cofactor replacement, nucleotide caps,
+generic truncation or a whole-reaction neutral-reference fallback. Each molecule
+uses the existing global acid/base reference construction. Its conversion must
+preserve every element and charge when the explicit proton exchange is included.
+Source-backed acid ladders are resolved through the existing exact-reference
+registry; other admitted sites retain the existing class-based approximations.
+
+For an input state with charge `q` and computed reference charge `q_ref`, the
+retained input-gauge potential is
+
+```text
+mu = G_solution_reference + G_protonation + (q - q_ref) * G_Hplus
+dG = sum(coefficient * mu) + input_n_Hplus * G_Hplus
+```
+
+These potentials are not absolute experimental formation energies. Elemental
+reference gauges cancel in balanced reactions. The explicit proton terms make
+the reference conversion auditable. The chemical accuracy of the class pKas,
+aqueous proton convention and solvent model requires separate validation.
+
+Hydration is evaluated in a molecule-local context using the same retained raw
+energies and water value. Incomplete hydration fails explicitly. No adjustment
+to a reaction result is made to force cycle closure.
+
+## Supported scope
+
+The initial profile supports specified individual molecular inputs and automatic
+source-registry acid models. It refuses flat caller pKa terms, caller protonation
+models and declared sugar pools. It also refuses unresolved stereochemistry,
+isotopes, unbalanced reactions and failed reference or molecular calculations.
+It must not silently substitute a single sugar drawing for a declared solution
+pool. Full-molecule calculations can be substantially more expensive than the
+established reduced-molecule workflow.
+
+`dG_unrounded` is retained for closure and reversal checks. `dG` is rounded to
+0.1 kJ/mol. Sampling spreads of exactly shared molecular references are grouped
+before propagation. Correlations between distinct hydration families, physical
+model error, missing states and parameter uncertainty are not calibrated by
+`U_samp`; it is not a total prediction interval.
+
+## Verification and promotion
+
+Run the focused tests with `python -m pytest tests/unit/test_state_function.py`.
+The all-input synthetic audit accepts a separately retained input-state cycle
+basis:
+
+```bash
+python benchmark/audit_state_function.py --cycles input_nullspace.json --output audit.json
+```
+
+The audit verifies original-state cancellation before evaluating each cycle. Its
+synthetic values include structural terms and changing repeated-call values to
+exercise retained-state behaviour. These checks establish bookkeeping properties,
+not experimental accuracy or physical calculation coverage.
+
+Promotion requires owned physical checks of the reference treatment, admission
+and consistent assembly of declared state pools, full-molecule resource and
+coverage measurements, and evaluation with the frozen experimental protocol.
+The pre-enrollment design and candidate inventory are in
+`benchmark/state_function_validation/`. They currently admit no experimental
+reactions and are explicitly not a frozen prediction benchmark.

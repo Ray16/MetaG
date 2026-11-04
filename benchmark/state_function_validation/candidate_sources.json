@@ -1,0 +1,150 @@
+{
+  "schema": "metag-independent-enrollment-candidates-v1",
+  "status": "no_reactions_admitted",
+  "candidate_sources": [
+    {
+      "doi": "10.1042/BJ20050167",
+      "pmid": "15799715",
+      "pmc_id": "PMC1175129",
+      "entry_ids": [
+        14224,
+        14225,
+        14230,
+        14231
+      ],
+      "status": "candidate_only",
+      "independent_source_verified": false,
+      "dGbyG_overlap": "unresolved",
+      "condition_eligibility": "unresolved",
+      "prior_exposure": "SABIO metadata and source identities screened in October 2026; not an untouched source discovery; no new outcome values inspected in this work",
+      "possible_tecr_reference_count_by_token": 0
+    },
+    {
+      "doi": "10.1002/bit.20842",
+      "pmid": "16508996",
+      "pmc_id": null,
+      "entry_ids": [
+        56727,
+        56728
+      ],
+      "status": "candidate_only",
+      "independent_source_verified": false,
+      "dGbyG_overlap": "unresolved",
+      "condition_eligibility": "unresolved",
+      "prior_exposure": "SABIO metadata and source identities screened in October 2026; not an untouched source discovery; no new outcome values inspected in this work",
+      "possible_tecr_reference_count_by_token": 0
+    },
+    {
+      "doi": "10.1021/bi052232m",
+      "pmid": "16519510",
+      "pmc_id": "PMC2532824",
+      "entry_ids": [
+        56806,
+        56807
+      ],
+      "status": "candidate_only",
+      "independent_source_verified": false,
+      "dGbyG_overlap": "unresolved",
+      "condition_eligibility": "unresolved",
+      "prior_exposure": "SABIO metadata and source identities screened in October 2026; not an untouched source discovery; no new outcome values inspected in this work",
+      "possible_tecr_reference_count_by_token": 2
+    },
+    {
+      "doi": "10.1074/jbc.M512727200",
+      "pmid": "16644739",
+      "pmc_id": null,
+      "entry_ids": [
+        52626,
+        52628,
+        52630,
+        52632,
+        52634
+      ],
+      "status": "candidate_only",
+      "independent_source_verified": false,
+      "dGbyG_overlap": "unresolved",
+      "condition_eligibility": "unresolved",
+      "prior_exposure": "SABIO metadata and source identities screened in October 2026; not an untouched source discovery; no new outcome values inspected in this work",
+      "possible_tecr_reference_count_by_token": 0
+    },
+    {
+      "doi": "10.1271/bbb.70.1102",
+      "pmid": "16717409",
+      "pmc_id": null,
+      "entry_ids": [
+        36030,
+        36031,
+        36036,
+        36037
+      ],
+      "status": "candidate_only",
+      "independent_source_verified": false,
+      "dGbyG_overlap": "unresolved",
+      "condition_eligibility": "unresolved",
+      "prior_exposure": "SABIO metadata and source identities screened in October 2026; not an untouched source discovery; no new outcome values inspected in this work",
+      "possible_tecr_reference_count_by_token": 0
+    },
+    {
+      "doi": "10.1002/biot.200600039",
+      "pmid": "16892294",
+      "pmc_id": null,
+      "entry_ids": [
+        41428,
+        41429,
+        41430,
+        41431,
+        41433,
+        41434,
+        41435
+      ],
+      "status": "candidate_only",
+      "independent_source_verified": false,
+      "dGbyG_overlap": "unresolved",
+      "condition_eligibility": "unresolved",
+      "prior_exposure": "SABIO metadata and source identities screened in October 2026; not an untouched source discovery; no new outcome values inspected in this work",
+      "possible_tecr_reference_count_by_token": 0
+    },
+    {
+      "doi": "10.1016/j.bbapap.2008.02.021",
+      "pmid": "18395530",
+      "pmc_id": null,
+      "entry_ids": [
+        51914,
+        51915
+      ],
+      "status": "candidate_only",
+      "independent_source_verified": false,
+      "dGbyG_overlap": "unresolved",
+      "condition_eligibility": "unresolved",
+      "prior_exposure": "SABIO metadata and source identities screened in October 2026; not an untouched source discovery; no new outcome values inspected in this work",
+      "possible_tecr_reference_count_by_token": 0
+    },
+    {
+      "doi": "10.1111/febs.14782",
+      "pmid": "30761759",
+      "pmc_id": null,
+      "entry_ids": [
+        75196,
+        75197,
+        75198,
+        75203
+      ],
+      "status": "candidate_only",
+      "independent_source_verified": false,
+      "dGbyG_overlap": "unresolved",
+      "condition_eligibility": "unresolved",
+      "prior_exposure": "SABIO metadata and source identities screened in October 2026; not an untouched source discovery; no new outcome values inspected in this work",
+      "possible_tecr_reference_count_by_token": 0
+    }
+  ],
+  "historical_metadata_sha256": {
+    "analysis/metag_sabio_metadata_screen_20261029_01/protocol.json": "876f4f2f0447314243a727ea39388a2471080df82eb147663f0f5aabfee3eeae",
+    "analysis/metag_sabio_metadata_screen_20261029_01/metadata.json": "2b208ae34f9e27aed4b3d537001dadd7e6a35fd9e321efe498ca11f20fd407d8",
+    "analysis/metag_sabio_metadata_screen_20261029_01/classification.json": "bb42ca43c74789d62aec78f19687cb43ef3af7f7fea5adf31ab57fb97acb8755",
+    "analysis/metag_sabio_metadata_screen_20261029_01/source_metadata.json": "dec73cee2736ec1de3af2db561618d357610a225e86ddbe03e79edcb2a064f83",
+    "analysis/metag_sabio_metadata_screen_20261029_01/reaction_match.json": "65268c56c6652ae8ab7418d1f58e5da3505ccc1b5c785fcb79d8630c4783a6a8",
+    "analysis/metag_sabio_metadata_screen_20261029_01/structure_quality.json": "43a557922cb64c0b7345f04f071745804dfd97984d679090a864ac08be056b67",
+    "analysis/metag_sabio_metadata_screen_20261029_01/comment_flags.json": "c23a05fe97d4e9589b83654cef5ac72678686a277ece5261c4840bcb71b74ded"
+  },
+  "independence_requirement": "Primary-source provenance, measured equilibrium meaning, complete state identity/conditions and source/measurement/training/development overlap must all be adjudicated. Token nonmatches are not verified independence."
+}

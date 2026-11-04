@@ -1,0 +1,136 @@
+{
+  "schema": "metag-state-function-validation-design-v1",
+  "status": "pre_enrollment_design; final method, exact test set and benchmark are NOT frozen",
+  "created_date": "2026-11-03",
+  "hypothesis": "MetaG provides experimentally useful estimates of metabolic reaction Gibbs energies for transformations poorly represented in experimental thermodynamic training datasets. No superiority is assumed.",
+  "launch_allowed": false,
+  "prerequisites": [
+    "Physically justify and validate the global species-reference policy; consistency checks alone do not establish accuracy.",
+    "Declare supported molecular-state pools and assess losses from the current experimental full-molecule profile.",
+    "Complete primary-source curation and independent exposure audit for every enrolled equation.",
+    "Freeze estimator source/settings/checkpoint/producer, comparator versions/training tables, exact inputs/labels, novelty strata, exclusions, cluster assignments, time/resource budget and ablation arms before evaluating target errors."
+  ],
+  "current_evidence": {
+    "development_exposed": true,
+    "attempted": 364,
+    "predicted": 270,
+    "reference_labels": 274,
+    "labeled_predictions": 198,
+    "MAE_kj_per_mol": 8.384646464646465,
+    "unavailable_attempts": {
+      "unresolved_stereochemistry": 27,
+      "routing_failure": 8,
+      "species_or_minimum_failure": 43,
+      "incomplete_sugar_pool": 10,
+      "incomplete_hydration_pool": 4,
+      "time_budget": 2
+    },
+    "source": "analysis/metag_corrected_validation_20261030_01/RESULTS_REVIEW.md",
+    "new_state_function_profile_inherits_these_metrics": false
+  },
+  "eligibility": {
+    "primary_observation": "Experimentally determined dimensionless thermodynamic equilibrium constant with activity/standard-state convention, or evaluated Gibbs energy with an auditable experimental derivation. Rate-law fit parameters, unspecified apparent ratios and concentration-unit constants need explicit derivation and are not automatically admitted.",
+    "conditions": {
+      "T_K": 298.15,
+      "pH": 7.0,
+      "ionic_strength_M": 0.0,
+      "magnesium_binding": "absent",
+      "solute_standard_state": "1 M activity",
+      "water_activity": 1.0
+    },
+    "condition_transfer": "Use source-owned parameters and propagate reference/bridge uncertainty. Temperature transfer requires thermochemical information; retaining native-temperature measurements is not normalization. Missing ionic strength/free Mg is not imputed for the primary analysis. Unresolved transfers remain secondary or excluded with reasons.",
+    "identity": "Resolve stereochemistry, proton and water conventions, chemical-state families, reaction orientation and primitive stoichiometric extent. Pool identity must be shared by all uses of a metabolite.",
+    "independence": "Exclude measurements used in MetaG development or component calibration and exact/derived duplicate measurements in comparator training; record source ancestry. Different publication or database ID alone does not establish independence.",
+    "enrollment": "Enroll complete eligible source tables/families from the documented inventory. Publish every screened candidate and reason. No selection by experimental magnitude, prediction, disagreement or residual.",
+    "reference_replication": "Do not count repeated conditions or duplicate database rows as independent reactions. Declare one reference construction per equation; carry source uncertainty and conflicts.",
+    "candidate_inventory": "candidate_sources.json",
+    "n_admitted_now": 0
+  },
+  "novelty": {
+    "training_identity": "Audit the exact comparator checkpoint and training snapshot, parsing failures and unknown rows. Match exact/reverse/scaled equations, full molecular identities and declared protonation/tautomer families. Unresolved identity cannot certify novelty.",
+    "primary_unfamiliar_definition": "At least one noncurrency compound family is absent from the audited experimental training corpus AND the greatest nearest-neighbour similarity for that absent compound is below 0.5. Currency set is limited to H2O and explicit H+ for this definition.",
+    "fingerprint": "Morgan radius 2, 2048 bits, chirality enabled; freeze RDKit version and standardization implementation before enrollment. Similarity is Tanimoto. The 0.5 threshold is a declared operational rule, not a physical extrapolation boundary.",
+    "secondary_dimensions": [
+      "Reaction absent with all compounds present",
+      "Absent compound with nearest similarity >=0.5",
+      "Transformation-family absence under a fixed, reviewed reacting-center annotation",
+      "Scaffold absence where a nonempty scaffold exists; acyclic empty scaffolds are unclassifiable"
+    ],
+    "UMA_exposure": "Report verified overlap when a usable training index exists; otherwise estimated chemistry similarity and unknown exact overlap. Absence from dGbyG labels is not absence from UMA pretraining.",
+    "scored_structures": "Audit both original and actually scored structures; no novel-input claim may rely on a reduction to familiar fragments."
+  },
+  "comparators": {
+    "methods": [
+      "Frozen StateFunctionEstimator experimental profile",
+      "Pinned dGbyG model with verified training exclusion or an explicitly specified held-out retraining protocol",
+      "Pinned eQuilibrator/component-contribution implementation with training-overlap audit",
+      "Zero reaction energy"
+    ],
+    "comparison": "Identical chemical equations, extents and target conditions. Report each method denominator and every pairwise intersection separately; unavailable comparator outputs never become zero.",
+    "uncertainty_baseline": "Use the pinned dGbyG ensemble uncertainty definition and raw ensemble outputs. Missing uncertainty makes the incremental reliability question unresolved."
+  },
+  "primary_success": {
+    "scope": "Experimental usefulness on the predeclared unfamiliar-chemistry cohort; the numerical thresholds are prospective engineering targets, not universal thermodynamic standards.",
+    "error": "Upper endpoint of the 95% clustered interval for conditional MAE <=10 kJ/mol on all admitted targets with an estimate.",
+    "coverage": "Lower endpoint of the 95% clustered interval for coverage >=0.75 on ALL reference-eligible requests.",
+    "joint_rule": "Both conditions must hold. An empty or inadequately supported unfamiliar cohort is inconclusive. Unsupported molecules, quality refusals and timeouts remain in the coverage denominator.",
+    "superiority": "Not a primary requirement; any lower-error claim uses the paired absolute-error difference and its predeclared uncertainty interval."
+  },
+  "statistics": {
+    "unit": "Unique chemical equation at primitive extent; retain repeated-measurement/source ancestry.",
+    "dependence": "Before outcomes, assign source/family dependence clusters conservatively as connected components of shared experimental sources or predeclared transformation families. Report sensitivity to source-only and family-only grouping.",
+    "interval": "10000 cluster bootstrap replicates with a recorded random seed, percentile 95% intervals. Recalculate paired differences within the same resampled clusters.",
+    "precision": "Use development-only dispersion to justify the enrolled size before scoring. Fewer than 10 independent clusters or an interval too broad to decide the joint success rule yields inconclusive evidence, not a generalization claim. Ten clusters is a minimum gate, not a guarantee of adequate power.",
+    "secondary_metrics": [
+      "RMSE",
+      "median absolute error",
+      "bias",
+      "frequency of |error|>20 kJ/mol",
+      "coverage by fixed novelty and chemical class",
+      "runtime and resource use per requested reaction"
+    ],
+    "direction": "A standard-state sign is not a physiological direction claim. Evaluate direction only under declared activities/concentrations and predeclared near-equilibrium uncertainty rules.",
+    "multiplicity": "Treat secondary subgroup and ablation comparisons as exploratory unless separately prespecified with multiplicity handling."
+  },
+  "reliability": {
+    "freeze": "Choose diagnostic features, agreement thresholds and prediction/refusal rules using development data only.",
+    "evaluation": "Compare retained-error and severe-error risk at identical retained coverage against dGbyG uncertainty alone; report risk-coverage curves and clustered intervals.",
+    "no_assumption": "Agreement does not imply independent errors. Shared dissociation information and model/reference bridges must be disclosed."
+  },
+  "ablations": {
+    "freeze_before_scoring": true,
+    "candidate_arms": [
+      "Conformer ensemble versus fixed, prespecified single-minimum policy",
+      "Solvation-model intervention with the same reference and standard state",
+      "Independent-site versus source-owned coupled protonation where physically admitted",
+      "Full molecules versus a chemically justified, context-independent approximation with explicit reference accounting"
+    ],
+    "requirements": "Each arm must target the same thermodynamic quantity. Preserve initial outcomes, common-target errors and all arm-specific refusals. No zero filling, outcome-tuned offsets, missing-state renormalization or numerical projection offered as a physical repair.",
+    "interpretation": "A change in numerical predictions is sensitivity evidence; improved reference agreement or independently owned component data is required for a physical benefit claim."
+  },
+  "coverage_reporting": {
+    "primary_denominator": "All frozen, reference-eligible requested reactions",
+    "categories": [
+      "unsupported chemistry",
+      "unresolved molecular state",
+      "routing or ownership failure",
+      "molecular numerical failure",
+      "quality-control refusal",
+      "time/resource budget",
+      "successful estimate"
+    ],
+    "causal_record": "Preserve original input, attempted molecular states, first causal failure, secondary diagnostics and unattempted downstream states.",
+    "uncertainty": "Sampling spread is not a calibrated total prediction interval."
+  },
+  "freeze_receipt_required": [
+    "exact reaction and reference manifests with SHA256",
+    "all screened/excluded candidate rows",
+    "source and training-overlap decisions",
+    "source/family clusters",
+    "estimator and comparator identities",
+    "fixed statistical code and seed",
+    "resource/time/retry policy",
+    "physical repair validation report"
+  ],
+  "prohibited_interpretation": "This design and its candidate inventory do not establish an independent test set, completed physical repair, prediction accuracy or publication readiness."
+}
