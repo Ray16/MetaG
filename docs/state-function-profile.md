@@ -78,6 +78,13 @@ model error, missing states and parameter uncertainty are not calibrated by
 
 ## Verification and promotion
 
+The first retained-record development check gives MAE 16.30 kJ/mol on 111
+available labels, versus 12.12 for zero. On 109 labels shared with the
+reduction-based estimator, the corresponding MAEs are 16.14 and 7.59 kJ/mol.
+These conditional reassemblies do not establish fresh-run coverage or independent
+accuracy. Internal consistency is insufficient grounds to promote this profile
+over the established scorer.
+
 Run the focused tests with
 `python -m pytest tests/unit/test_state_function.py tests/unit/test_state_function_pools.py`.
 The all-input synthetic audit accepts a separately retained input-state cycle
@@ -91,6 +98,21 @@ The audit verifies original-state cancellation before evaluating each cycle. Its
 synthetic values include structural terms and changing repeated-call values to
 exercise retained-state behaviour. These checks establish bookkeeping properties,
 not experimental accuracy or physical calculation coverage.
+
+`benchmark/verify_state_function_ledger.py` independently checks v2 retained
+component arithmetic, chemical/proton bookkeeping, complete declared partitions,
+shared sampling derivatives and reaction sums. With the original raw directory,
+index and intervention protocol it also authenticates molecular records and
+reconstructs the declared component changes. This is stronger than cycle closure
+alone: its tests reject opposite reaction offsets that preserve a cycle while
+disagreeing with the molecular ledger.
+
+```bash
+python benchmark/verify_state_function_ledger.py STUDY/full.json \
+  --raw-root ORIGINAL/shared_record_ledger \
+  --raw-index ORIGINAL/shared_record_index.json \
+  --protocol STUDY/protocol.json --cycles ORIGINAL/input_nullspace.json
+```
 
 Promotion requires owned physical checks of the reference treatment and
 declared state-pool populations, full-molecule resource and

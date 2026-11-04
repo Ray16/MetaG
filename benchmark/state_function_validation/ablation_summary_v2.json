@@ -1,0 +1,194 @@
+{
+  "scope": "Descriptive component interventions on development-exposed, condition-modeled labels. Not an independent experimental benchmark or outcome-based model selection.",
+  "protocol_sha256": "b159c29a78014aa2710295dd95d82b4f1f0a9c8f3583d00dd96a8ada54894e55",
+  "n_reference_labels": 274,
+  "arms": {
+    "full": {
+      "n_requested": 364,
+      "n_assembled_from_retained_records": 140,
+      "n_labeled_available": 111,
+      "conditional_error": {
+        "n": 111,
+        "MAE": 16.303740835786456,
+        "RMSE": 22.865336173949515,
+        "bias": -9.56913358042107,
+        "median_abs": 9.679929607938975,
+        "n_abs_error_gt20": 30
+      },
+      "zero_same_targets": {
+        "n": 111,
+        "MAE": 12.121891891891892,
+        "RMSE": 15.728651740870404,
+        "bias": -5.760990990990991,
+        "median_abs": 9.99,
+        "n_abs_error_gt20": 23
+      }
+    },
+    "lowest_conformer": {
+      "n_requested": 364,
+      "n_assembled_from_retained_records": 140,
+      "n_labeled_available": 111,
+      "conditional_error": {
+        "n": 111,
+        "MAE": 16.53965238181759,
+        "RMSE": 23.169341575640992,
+        "bias": -9.370774557186285,
+        "median_abs": 9.955084194877418,
+        "n_abs_error_gt20": 30
+      },
+      "zero_same_targets": {
+        "n": 111,
+        "MAE": 12.121891891891892,
+        "RMSE": 15.728651740870404,
+        "bias": -5.760990990990991,
+        "median_abs": 9.99,
+        "n_abs_error_gt20": 23
+      }
+    },
+    "omit_alpb": {
+      "n_requested": 364,
+      "n_assembled_from_retained_records": 140,
+      "n_labeled_available": 111,
+      "conditional_error": {
+        "n": 111,
+        "MAE": 60.51855796384225,
+        "RMSE": 99.94224647895383,
+        "bias": -42.36561673162252,
+        "median_abs": 15.79387985377689,
+        "n_abs_error_gt20": 49
+      },
+      "zero_same_targets": {
+        "n": 111,
+        "MAE": 12.121891891891892,
+        "RMSE": 15.728651740870404,
+        "bias": -5.760990990990991,
+        "median_abs": 9.99,
+        "n_abs_error_gt20": 23
+      }
+    },
+    "independent_acid_sites": {
+      "n_requested": 364,
+      "n_assembled_from_retained_records": 140,
+      "n_labeled_available": 111,
+      "conditional_error": {
+        "n": 111,
+        "MAE": 16.39627276173894,
+        "RMSE": 22.9008801442858,
+        "bias": -9.496997683172658,
+        "median_abs": 9.914280690160812,
+        "n_abs_error_gt20": 30
+      },
+      "zero_same_targets": {
+        "n": 111,
+        "MAE": 12.121891891891892,
+        "RMSE": 15.728651740870404,
+        "bias": -5.760990990990991,
+        "median_abs": 9.99,
+        "n_abs_error_gt20": 23
+      }
+    },
+    "lowest_sugar_state": {
+      "n_requested": 364,
+      "n_assembled_from_retained_records": 140,
+      "n_labeled_available": 111,
+      "conditional_error": {
+        "n": 111,
+        "MAE": 16.183782012898327,
+        "RMSE": 22.837623118049933,
+        "bias": -9.558771794173127,
+        "median_abs": 9.679929607938975,
+        "n_abs_error_gt20": 30
+      },
+      "zero_same_targets": {
+        "n": 111,
+        "MAE": 12.121891891891892,
+        "RMSE": 15.728651740870404,
+        "bias": -5.760990990990991,
+        "median_abs": 9.99,
+        "n_abs_error_gt20": 23
+      }
+    }
+  },
+  "paired_contrasts": {
+    "lowest_conformer": {
+      "n_common": 111,
+      "full": {
+        "n": 111,
+        "MAE": 16.303740835786456,
+        "RMSE": 22.865336173949515,
+        "bias": -9.56913358042107,
+        "median_abs": 9.679929607938975,
+        "n_abs_error_gt20": 30
+      },
+      "intervention": {
+        "n": 111,
+        "MAE": 16.53965238181759,
+        "RMSE": 23.169341575640992,
+        "bias": -9.370774557186285,
+        "median_abs": 9.955084194877418,
+        "n_abs_error_gt20": 30
+      },
+      "mean_absolute_prediction_change": 1.1996506111363898
+    },
+    "omit_alpb": {
+      "n_common": 111,
+      "full": {
+        "n": 111,
+        "MAE": 16.303740835786456,
+        "RMSE": 22.865336173949515,
+        "bias": -9.56913358042107,
+        "median_abs": 9.679929607938975,
+        "n_abs_error_gt20": 30
+      },
+      "intervention": {
+        "n": 111,
+        "MAE": 60.51855796384225,
+        "RMSE": 99.94224647895383,
+        "bias": -42.36561673162252,
+        "median_abs": 15.79387985377689,
+        "n_abs_error_gt20": 49
+      },
+      "mean_absolute_prediction_change": 49.55123647724421
+    },
+    "independent_acid_sites": {
+      "n_common": 111,
+      "full": {
+        "n": 111,
+        "MAE": 16.303740835786456,
+        "RMSE": 22.865336173949515,
+        "bias": -9.56913358042107,
+        "median_abs": 9.679929607938975,
+        "n_abs_error_gt20": 30
+      },
+      "intervention": {
+        "n": 111,
+        "MAE": 16.39627276173894,
+        "RMSE": 22.9008801442858,
+        "bias": -9.496997683172658,
+        "median_abs": 9.914280690160812,
+        "n_abs_error_gt20": 30
+      },
+      "mean_absolute_prediction_change": 0.11292795465655021
+    },
+    "lowest_sugar_state": {
+      "n_common": 111,
+      "full": {
+        "n": 111,
+        "MAE": 16.303740835786456,
+        "RMSE": 22.865336173949515,
+        "bias": -9.56913358042107,
+        "median_abs": 9.679929607938975,
+        "n_abs_error_gt20": 30
+      },
+      "intervention": {
+        "n": 111,
+        "MAE": 16.183782012898327,
+        "RMSE": 22.837623118049933,
+        "bias": -9.558771794173127,
+        "median_abs": 9.679929607938975,
+        "n_abs_error_gt20": 30
+      },
+      "mean_absolute_prediction_change": 0.22119210754009383
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "scope": "Matched, development-exposed descriptive comparison only; full-mode raw availability differs from fresh legacy prediction coverage.",
+  "n_common": 109,
+  "full_state_MAE": 16.138947130602258,
+  "preceding_MAE": 7.588073394495413,
+  "zero_MAE": 12.175779816513762,
+  "new_mode_labeled_without_old_estimate": [
+    "rxn00906",
+    "rxn00191"
+  ]
+}

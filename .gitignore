@@ -8,3 +8,8 @@ dist/
 .metag_cache/
 metag_out/
 tests/.tmp/
+# Separate manuscript checkout, synchronized through Overleaf.
+/manuscript/
+/analysis/
+/artifacts/
+/docs/comprehensive-review-2026-10-06.md

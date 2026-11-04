@@ -1,0 +1,13 @@
+{
+  "scope": "One full ADP-glucose molecular calculation; no reaction labels or fitted offsets.",
+  "status": "physical_quality_refusal",
+  "molecular_formula_role": "full ADP-glucose reference for a sucrose-cycle control",
+  "G_kj": null,
+  "sampling_sigma_kj": null,
+  "sampled_candidates": 67,
+  "validation_limit": 64,
+  "reason": "candidate validation budget exceeded",
+  "elapsed_seconds": 1173.137093031779,
+  "protocol_sha256": "2e81786bf35b2f7fa1debec4b04c5ce0e490cac012c2667fd196e6f7ea6f1f78",
+  "interpretation": "A separate increased-budget refinement does not replace this refusal in the frozen 64-candidate profile."
+}
