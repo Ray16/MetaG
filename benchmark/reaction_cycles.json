@@ -1,0 +1,12 @@
+{
+  "sucrose_adp_glucose": {
+    "rxn00577": 1,
+    "rxn12158": 1,
+    "rxn14104": -1
+  },
+  "alanine_glutamate_redox": {
+    "rxn00191": 1,
+    "rxn00182": 1,
+    "rxn00278": -1
+  }
+}

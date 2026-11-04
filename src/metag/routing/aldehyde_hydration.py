@@ -1,4 +1,4 @@
-"""Aqueous carbonyl-hydration microspecies correction (self-gating, experiment-free).
+"""Aqueous carbonyl-hydration microspecies correction.
 
 A hydratable aldehyde exists in water as an equilibrium of the free carbonyl R-CHO and its gem-diol
 R-CH(OH)2 (= carbonyl + H2O). Scoring only the free carbonyl puts the species free energy too high for a
@@ -8,12 +8,14 @@ we fold it into ONE effective species free energy exactly as microspecies.py fol
     G_eff = -RT ln[ exp(-G_carbonyl/RT) + exp(-(G_diol - G*_liq(H2O))/RT) ]
 
 subtracting the aqueous water free energy keeps it at unit water activity, so the hydration water is NOT
-added to the reaction stoichiometry (parallel to not adding H+ for protonation). SELF-GATING: a strongly
-hydrated aldehyde (glyoxylate, ΔG_hyd very negative) -> diol term dominates -> G_eff pulled down (fixed);
-a weakly hydrated one (GAP, ΔG_hyd ~0) -> carbonyl dominates -> G_eff ~ unchanged (no harm).
+added to the reaction stoichiometry (parallel to not adding H+ for protonation). A favorable hydration
+free energy increases the diol population; a weakly favored hydrate contributes less to the mixture.
 
-The hydration free energies are calibrated against independent experimental hydration constants
-(HYDRATION_CAL below), not against reaction free energies.
+The hydration free energies are calibrated against experimental hydration constants
+(HYDRATION_CAL below), not against reaction free energies. Reaction benchmark results informed
+historical hydration routing decisions; absence of a fitted reaction-energy offset does not imply
+an unexposed evaluation. The activated-aldehyde helpers below are retained for historical comparison;
+the production ensemble uses the general enumeration defined later in this module.
 """
 import math
 from dataclasses import dataclass
@@ -29,8 +31,9 @@ _ALDE = Chem.MolFromSmarts("[CX3;H1,H2]=[OX1]")               # aldehyde R-CHO o
 # carbon is. Strongly hydrated == carbonyl activated by an alpha electron-withdrawing group, OR formaldehyde
 # (no alkyl donor). alpha-ALKYL aldehydes (the aliphatic semialdehydes: aspartate-4-semialdehyde,
 # succinic semialdehyde) are electron-RICH -> weakly hydrated -> EXCLUDED (this is exactly where UMA's
-# ΔG_hyd over-estimated and the uniform correction regressed). This is a-priori carbonyl-hydration organic
-# chemistry, not a TECRDB-tuned list, so it GENERALISES to ModelSEED. alpha-hydroxy (glyceraldehyde/GAP) is
+# ΔG_hyd over-estimated and the uniform correction regressed). The pattern has a chemical rationale,
+# but its historical selection was development-exposed; generalization requires independent testing.
+# alpha-hydroxy (glyceraldehyde/GAP) is
 # only a MILD activator and UMA is unreliable there too -> also excluded (kept strict).
 _ACTIVATED = [
     Chem.MolFromSmarts("[CX3H2]=[OX1]"),                       # formaldehyde
@@ -40,8 +43,7 @@ _ACTIVATED = [
 
 
 def is_strongly_hydrated(smi):
-    """True iff the molecule bears an aldehyde whose carbonyl is EWG-activated (electron-poor) -> reliably
-    hydrated. This is the physical gate; a-priori organic chemistry, benchmark-independent."""
+    """Identify the historical activated-aldehyde pattern, not a validated hydration prediction."""
     m = Chem.MolFromSmiles(smi)
     if m is None:
         return False
@@ -49,8 +51,7 @@ def is_strongly_hydrated(smi):
 
 
 def gem_diol(smi):
-    """gem-diol SMILES for a STRONGLY-hydrated (EWG-activated) aldehyde, or None otherwise. The gate keeps
-    the correction to carbonyls where hydration is physically favoured AND UMA's ΔG_hyd is trustworthy."""
+    """Construct a gem-diol for the historical activated-aldehyde pattern, or return None."""
     m = Chem.MolFromSmiles(smi)
     if m is None or not m.HasSubstructMatch(_ALDE) or not is_strongly_hydrated(smi):
         return None

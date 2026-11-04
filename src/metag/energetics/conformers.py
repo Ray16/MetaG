@@ -11,6 +11,7 @@ import numpy as np
 from rdkit import Chem
 from rdkit.Chem import AllChem
 from ase import Atoms
+from metag.energetics.errors import SymmetryEnumerationError
 
 EV2KJ = 96.485
 # Retained gas-energy tolerance from the historical float32 implementation.
@@ -62,7 +63,8 @@ class UniqueMinima:
     long acyl chains exceed 10^4-10^6 all-atom automorphisms). When the all-atom automorphism count exceeds
     `max_matches`, an enumeration capped at `max_matches` could miss the permutation that superimposes two
     copies of one basin and count it twice. Such species are compared by the heavy-atom RMSD instead, which
-    is exact over heavy-atom symmetry; rotamers of hydrogen-only rotors are not distinct heavy-atom basins.
+    uses heavy-atom symmetry; rotamers of hydrogen-only rotors are not distinct heavy-atom basins.
+    If heavy-atom symmetry itself exceeds the mapping cap, the ensemble is withheld.
 
     `template` = the RDKit molecule (with H) whose atom order matches the Atoms (pool_confs builds from
     Chem.AddHs(MolFromSmiles(smi))). Without a template (explicit water clusters) it falls back to
@@ -76,6 +78,13 @@ class UniqueMinima:
             n_auto = len(template.GetSubstructMatches(template, uniquify=False, useChirality=False,
                                                       maxMatches=max_matches + 1))
             self.heavy_atom_rmsd = n_auto > max_matches
+            if self.heavy_atom_rmsd:
+                heavy = Chem.RemoveHs(template)
+                n_heavy = len(heavy.GetSubstructMatches(heavy, uniquify=False, useChirality=False,
+                                                       maxMatches=max_matches + 1))
+                if n_heavy > max_matches:
+                    raise SymmetryEnumerationError(
+                        f"heavy-atom automorphisms exceed the {max_matches} mapping limit")
         self.E, self.G, self.ref = [], [], []
         self.n_seen = 0
         self.last_index = None

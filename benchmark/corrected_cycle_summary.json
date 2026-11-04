@@ -1,0 +1,931 @@
+{
+  "protocol_sha256": "09e06ab8076779cc2ccf420868cfb59cdafb46ab317908424127c899f0adf209",
+  "n_requested_reactions": 112,
+  "n_available_reactions": 85,
+  "n_available_cycles": 31,
+  "cycles": [
+    {
+      "name": "null_00",
+      "coefficients": {
+        "rxn00070": 1,
+        "rxn00083": -1,
+        "rxn00086": -1
+      },
+      "available": false,
+      "unavailable_reactions": [
+        "rxn00070",
+        "rxn00086"
+      ]
+    },
+    {
+      "name": "null_01",
+      "coefficients": {
+        "rxn00062": 1,
+        "rxn00097": -1,
+        "rxn00147": -1,
+        "rxn00148": 1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": 0.0,
+      "stage_sums_kj": {
+        "species_sum": 0.0,
+        "proton": 0.0,
+        "protonation": -4.440892098500626e-16
+      },
+      "rounding_bound_kj": 0.2,
+      "rounded_cycle_sum_kj": -0.09999999999999859,
+      "noncanceling_routed_species": {}
+    },
+    {
+      "name": "null_02",
+      "coefficients": {
+        "rxn00001": 1,
+        "rxn00147": -1,
+        "rxn00151": 1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": 0.0,
+      "stage_sums_kj": {
+        "species_sum": 0.0,
+        "proton": 0.0,
+        "protonation": -8.881784197001252e-16
+      },
+      "rounding_bound_kj": 0.15000000000000002,
+      "rounded_cycle_sum_kj": 0.0,
+      "noncanceling_routed_species": {}
+    },
+    {
+      "name": "null_03",
+      "coefficients": {
+        "rxn00001": 1,
+        "rxn00062": -1,
+        "rxn00097": 1,
+        "rxn00172": -1,
+        "rxn00175": 1
+      },
+      "available": false,
+      "unavailable_reactions": [
+        "rxn00172",
+        "rxn00175"
+      ]
+    },
+    {
+      "name": "null_04",
+      "coefficients": {
+        "rxn00083": 1,
+        "rxn00182": -1,
+        "rxn00184": 1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": 0.0,
+      "stage_sums_kj": {
+        "species_sum": 0.0,
+        "proton": 0.0,
+        "protonation": 0.0
+      },
+      "rounding_bound_kj": 0.15000000000000002,
+      "rounded_cycle_sum_kj": 0.0,
+      "noncanceling_routed_species": {}
+    },
+    {
+      "name": "null_05",
+      "coefficients": {
+        "rxn00062": 1,
+        "rxn00187": -1,
+        "rxn00189": -1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": -1.7763568394002505e-15,
+      "stage_sums_kj": {
+        "species_sum": 0.0,
+        "proton": 0.0,
+        "protonation": -4.440892098500626e-16
+      },
+      "rounding_bound_kj": 0.15000000000000002,
+      "rounded_cycle_sum_kj": 0.0,
+      "noncanceling_routed_species": {}
+    },
+    {
+      "name": "null_06",
+      "coefficients": {
+        "rxn00062": 1,
+        "rxn00216": -1,
+        "rxn00220": -1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": 1.7763568394002505e-15,
+      "stage_sums_kj": {
+        "species_sum": 0.0,
+        "proton": 0.0,
+        "protonation": 0.0
+      },
+      "rounding_bound_kj": 0.15000000000000002,
+      "rounded_cycle_sum_kj": 0.0,
+      "noncanceling_routed_species": {}
+    },
+    {
+      "name": "null_07",
+      "coefficients": {
+        "rxn00172": 1,
+        "rxn00173": 1,
+        "rxn00225": -1
+      },
+      "available": false,
+      "unavailable_reactions": [
+        "rxn00172",
+        "rxn00173"
+      ]
+    },
+    {
+      "name": "null_08",
+      "coefficients": {
+        "rxn00062": 1,
+        "rxn00256": 1,
+        "rxn00257": -1
+      },
+      "available": false,
+      "unavailable_reactions": [
+        "rxn00256",
+        "rxn00257"
+      ]
+    },
+    {
+      "name": "null_09",
+      "coefficients": {
+        "rxn00062": 1,
+        "rxn00172": -1,
+        "rxn00256": 1,
+        "rxn00265": -1
+      },
+      "available": false,
+      "unavailable_reactions": [
+        "rxn00172",
+        "rxn00256"
+      ]
+    },
+    {
+      "name": "null_10",
+      "coefficients": {
+        "rxn00266": 1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": 0.0,
+      "stage_sums_kj": {
+        "species_sum": 0.0,
+        "proton": 0.0,
+        "protonation": 0.0
+      },
+      "rounding_bound_kj": 0.05,
+      "rounded_cycle_sum_kj": 0.0,
+      "noncanceling_routed_species": {}
+    },
+    {
+      "name": "null_11",
+      "coefficients": {
+        "rxn00182": 1,
+        "rxn00191": 1,
+        "rxn00278": -1
+      },
+      "available": false,
+      "unavailable_reactions": [
+        "rxn00191"
+      ]
+    },
+    {
+      "name": "null_12",
+      "coefficients": {
+        "rxn00237": 1,
+        "rxn00285": -1,
+        "rxn00306": 1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": 0.0,
+      "stage_sums_kj": {
+        "species_sum": 0.0,
+        "proton": 0.0,
+        "protonation": 0.0
+      },
+      "rounding_bound_kj": 0.15000000000000002,
+      "rounded_cycle_sum_kj": 0.0,
+      "noncanceling_routed_species": {}
+    },
+    {
+      "name": "null_13",
+      "coefficients": {
+        "rxn00001": 1,
+        "rxn00420": -1,
+        "rxn00421": -1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": -1.7763568394002505e-15,
+      "stage_sums_kj": {
+        "species_sum": 0.0,
+        "proton": 0.0,
+        "protonation": -2.220446049250313e-16
+      },
+      "rounding_bound_kj": 0.15000000000000002,
+      "rounded_cycle_sum_kj": 0.09999999999999964,
+      "noncanceling_routed_species": {}
+    },
+    {
+      "name": "null_14",
+      "coefficients": {
+        "rxn00062": 1,
+        "rxn00545": -1,
+        "rxn00549": -1
+      },
+      "available": false,
+      "unavailable_reactions": [
+        "rxn00545",
+        "rxn00549"
+      ]
+    },
+    {
+      "name": "null_15",
+      "coefficients": {
+        "rxn00001": 1,
+        "rxn00062": -1,
+        "rxn00545": 1,
+        "rxn00551": -1
+      },
+      "available": false,
+      "unavailable_reactions": [
+        "rxn00545",
+        "rxn00551"
+      ]
+    },
+    {
+      "name": "null_16",
+      "coefficients": {
+        "rxn00001": 1,
+        "rxn00062": -1,
+        "rxn00117": 1,
+        "rxn00213": 1,
+        "rxn00577": 1,
+        "rxn00579": 1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": 3.8510071584023535,
+      "stage_sums_kj": {
+        "species_sum": 3.8510071584023535,
+        "proton": 0.0,
+        "protonation": 0.0
+      },
+      "rounding_bound_kj": 0.30000000000000004,
+      "rounded_cycle_sum_kj": 3.9000000000000004,
+      "noncanceling_routed_species": {
+        "0|COP(=O)(O)OP(=O)(O)O[C@H]1OC[C@@H](O)[C@H](O)[C@H]1O": 1.0,
+        "0|O=P(O)(O)O[C@H]1OC[C@@H](O)[C@H](O)[C@H]1O": -1.0,
+        "0|O=P(O)(O)O[C@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O": 1.0,
+        "0|COP(=O)(O)OP(=O)(O)O[C@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O": -1.0
+      }
+    },
+    {
+      "name": "null_17",
+      "coefficients": {
+        "rxn00083": 1,
+        "rxn00629": -1,
+        "rxn00630": 1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": 0.0,
+      "stage_sums_kj": {
+        "species_sum": 0.0,
+        "proton": 0.0,
+        "protonation": 0.0
+      },
+      "rounding_bound_kj": 0.15000000000000002,
+      "rounded_cycle_sum_kj": 0.0,
+      "noncanceling_routed_species": {}
+    },
+    {
+      "name": "null_18",
+      "coefficients": {
+        "rxn00001": 1,
+        "rxn00062": -2,
+        "rxn00097": 1,
+        "rxn00695": 1,
+        "rxn00697": 1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": -3.552713678800501e-15,
+      "stage_sums_kj": {
+        "species_sum": 0.0,
+        "proton": 0.0,
+        "protonation": 0.0
+      },
+      "rounding_bound_kj": 0.30000000000000004,
+      "rounded_cycle_sum_kj": 0.09999999999999859,
+      "noncanceling_routed_species": {}
+    },
+    {
+      "name": "null_19",
+      "coefficients": {
+        "rxn00062": 1,
+        "rxn00172": -1,
+        "rxn00753": -1,
+        "rxn00754": -1
+      },
+      "available": false,
+      "unavailable_reactions": [
+        "rxn00172",
+        "rxn00753"
+      ]
+    },
+    {
+      "name": "null_20",
+      "coefficients": {
+        "rxn00001": 1,
+        "rxn00062": -2,
+        "rxn00097": 1,
+        "rxn00131": 1,
+        "rxn00139": -1,
+        "rxn00770": 1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": 1.3322676295501878e-15,
+      "stage_sums_kj": {
+        "species_sum": 0.0,
+        "proton": 0.0,
+        "protonation": -1.1102230246251565e-16
+      },
+      "rounding_bound_kj": 0.35000000000000003,
+      "rounded_cycle_sum_kj": 0.1000000000000017,
+      "noncanceling_routed_species": {}
+    },
+    {
+      "name": "null_21",
+      "coefficients": {
+        "rxn00182": 1,
+        "rxn00248": -1,
+        "rxn00260": 1,
+        "rxn00347": -1,
+        "rxn00799": 1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": -6.566685928264633,
+      "stage_sums_kj": {
+        "species_sum": -6.566685928264633,
+        "proton": 0.0,
+        "protonation": -1.7763568394002505e-15
+      },
+      "rounding_bound_kj": 0.25,
+      "rounded_cycle_sum_kj": -6.599999999999998,
+      "noncanceling_routed_species": {
+        "0|N[C@@H](CCC(=O)O)C(=O)O": -1.0,
+        "1|[NH3+][C@@H](CCC(=O)O)C(=O)O": 1.0,
+        "1|[NH3+][C@@H](CC(=O)O)C(=O)O": -1.0,
+        "0|N[C@@H](CC(=O)O)C(=O)O": 1.0
+      }
+    },
+    {
+      "name": "null_22",
+      "coefficients": {
+        "rxn00182": 1,
+        "rxn00804": -1,
+        "rxn00806": 1
+      },
+      "available": false,
+      "unavailable_reactions": [
+        "rxn00806"
+      ]
+    },
+    {
+      "name": "null_23",
+      "coefficients": {
+        "rxn00191": 1,
+        "rxn00193": 1,
+        "rxn00283": -1,
+        "rxn00849": -1
+      },
+      "available": false,
+      "unavailable_reactions": [
+        "rxn00191",
+        "rxn00283"
+      ]
+    },
+    {
+      "name": "null_24",
+      "coefficients": {
+        "rxn00083": 1,
+        "rxn00906": -1,
+        "rxn00907": 1
+      },
+      "available": false,
+      "unavailable_reactions": [
+        "rxn00906",
+        "rxn00907"
+      ]
+    },
+    {
+      "name": "null_25",
+      "coefficients": {
+        "rxn00172": 1,
+        "rxn00285": -1,
+        "rxn00290": -1,
+        "rxn00990": -1
+      },
+      "available": false,
+      "unavailable_reactions": [
+        "rxn00172",
+        "rxn00990"
+      ]
+    },
+    {
+      "name": "null_26",
+      "coefficients": {
+        "rxn01004": 1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": 0.0,
+      "stage_sums_kj": {
+        "species_sum": 0.0,
+        "proton": 0.0,
+        "protonation": 0.0
+      },
+      "rounding_bound_kj": 0.05,
+      "rounded_cycle_sum_kj": 0.0,
+      "noncanceling_routed_species": {}
+    },
+    {
+      "name": "null_27",
+      "coefficients": {
+        "rxn00248": 1,
+        "rxn00499": -1,
+        "rxn01054": 1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": -3.552713678800501e-15,
+      "stage_sums_kj": {
+        "species_sum": 0.0,
+        "proton": 0.0,
+        "protonation": 0.0
+      },
+      "rounding_bound_kj": 0.15000000000000002,
+      "rounded_cycle_sum_kj": -3.552713678800501e-15,
+      "noncanceling_routed_species": {}
+    },
+    {
+      "name": "null_28",
+      "coefficients": {
+        "rxn00062": 1,
+        "rxn00132": -1,
+        "rxn00237": -1,
+        "rxn00347": 1,
+        "rxn00800": -1,
+        "rxn00831": 1,
+        "rxn00838": -1,
+        "rxn01137": -1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": -8.69586941698385,
+      "stage_sums_kj": {
+        "species_sum": 1174.9236970471975,
+        "proton": -1170.7610427111,
+        "protonation": -12.858523753081453
+      },
+      "rounding_bound_kj": 0.4,
+      "rounded_cycle_sum_kj": -8.700000000000003,
+      "noncanceling_routed_species": {
+        "0|Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O": -1.0,
+        "0|N": 1.0,
+        "0|O=C(O)C[C@H](Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]1O)C(=O)O": 1.0,
+        "0|O=c1[nH]cnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]1O": -1.0,
+        "0|O=c1[nH]cnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O": 1.0,
+        "0|O=C(O)C[C@H](Nc1ncnc2c1ncn2[C@@H]1OC[C@@H](O)[C@H]1O)C(=O)O": -1.0,
+        "0|Nc1ncnc2c1ncn2[C@@H]1OC[C@@H](O)[C@H]1O": 1.0,
+        "1|[NH4+]": -1.0
+      }
+    },
+    {
+      "name": "null_29",
+      "coefficients": {
+        "rxn00131": 1,
+        "rxn00132": -1,
+        "rxn00778": -1,
+        "rxn01138": -1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": -1.7763568394002505e-15,
+      "stage_sums_kj": {
+        "species_sum": 0.0,
+        "proton": 0.0,
+        "protonation": 0.0
+      },
+      "rounding_bound_kj": 0.2,
+      "rounded_cycle_sum_kj": 0.10000000000000053,
+      "noncanceling_routed_species": {}
+    },
+    {
+      "name": "null_30",
+      "coefficients": {
+        "rxn00132": 1,
+        "rxn00139": -1,
+        "rxn00831": -1,
+        "rxn00836": 1,
+        "rxn00927": 1,
+        "rxn01299": -1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": 3.552713678800501e-15,
+      "stage_sums_kj": {
+        "species_sum": 0.0,
+        "proton": 0.0,
+        "protonation": 0.0
+      },
+      "rounding_bound_kj": 0.30000000000000004,
+      "rounded_cycle_sum_kj": 0.0,
+      "noncanceling_routed_species": {}
+    },
+    {
+      "name": "null_31",
+      "coefficients": {
+        "rxn00083": 1,
+        "rxn01301": -1,
+        "rxn01302": 1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": 0.0,
+      "stage_sums_kj": {
+        "species_sum": 0.0,
+        "proton": 0.0,
+        "protonation": 0.0
+      },
+      "rounding_bound_kj": 0.15000000000000002,
+      "rounded_cycle_sum_kj": 0.0,
+      "noncanceling_routed_species": {}
+    },
+    {
+      "name": "null_32",
+      "coefficients": {
+        "rxn00131": 1,
+        "rxn00139": -1,
+        "rxn00778": -1,
+        "rxn00831": -1,
+        "rxn00836": 1,
+        "rxn01358": -1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": 1.7763568394002505e-15,
+      "stage_sums_kj": {
+        "species_sum": 0.0,
+        "proton": 0.0,
+        "protonation": 0.0
+      },
+      "rounding_bound_kj": 0.30000000000000004,
+      "rounded_cycle_sum_kj": 8.881784197001252e-16,
+      "noncanceling_routed_species": {}
+    },
+    {
+      "name": "null_33",
+      "coefficients": {
+        "rxn00083": 1,
+        "rxn01043": 1,
+        "rxn01044": 1,
+        "rxn01385": -1
+      },
+      "available": false,
+      "unavailable_reactions": [
+        "rxn01044",
+        "rxn01385"
+      ]
+    },
+    {
+      "name": "null_34",
+      "coefficients": {
+        "rxn00973": 1,
+        "rxn00974": -1,
+        "rxn01388": 1
+      },
+      "available": false,
+      "unavailable_reactions": [
+        "rxn00973",
+        "rxn01388"
+      ]
+    },
+    {
+      "name": "null_35",
+      "coefficients": {
+        "rxn01846": 1,
+        "rxn01847": -1
+      },
+      "available": false,
+      "unavailable_reactions": [
+        "rxn01846",
+        "rxn01847"
+      ]
+    },
+    {
+      "name": "null_36",
+      "coefficients": {
+        "rxn00191": 1,
+        "rxn00420": 1,
+        "rxn00422": 1,
+        "rxn01011": -1,
+        "rxn01099": -1,
+        "rxn01101": 1,
+        "rxn02914": -1
+      },
+      "available": false,
+      "unavailable_reactions": [
+        "rxn00191",
+        "rxn00422"
+      ]
+    },
+    {
+      "name": "null_37",
+      "coefficients": {
+        "rxn00083": 1,
+        "rxn00558": 1,
+        "rxn00603": 1,
+        "rxn03886": -1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": 0.0,
+      "stage_sums_kj": {
+        "species_sum": 0.0,
+        "proton": 0.0,
+        "protonation": 0.0
+      },
+      "rounding_bound_kj": 0.2,
+      "rounded_cycle_sum_kj": 1.1102230246251565e-16,
+      "noncanceling_routed_species": {}
+    },
+    {
+      "name": "null_38",
+      "coefficients": {
+        "rxn00083": 1,
+        "rxn00217": -1,
+        "rxn04945": 1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": 0.0,
+      "stage_sums_kj": {
+        "species_sum": 0.0,
+        "proton": 0.0,
+        "protonation": 0.0
+      },
+      "rounding_bound_kj": 0.15000000000000002,
+      "rounded_cycle_sum_kj": 0.0,
+      "noncanceling_routed_species": {}
+    },
+    {
+      "name": "null_39",
+      "coefficients": {
+        "rxn00007": 1,
+        "rxn00062": -1,
+        "rxn00216": 1,
+        "rxn00704": -1,
+        "rxn05026": -1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": -1.7763568394002505e-15,
+      "stage_sums_kj": {
+        "species_sum": 0.0,
+        "proton": 0.0,
+        "protonation": 0.0
+      },
+      "rounding_bound_kj": 0.25,
+      "rounded_cycle_sum_kj": -1.7763568394002505e-15,
+      "noncanceling_routed_species": {}
+    },
+    {
+      "name": "null_40",
+      "coefficients": {
+        "rxn00097": 1,
+        "rxn00237": -1,
+        "rxn08066": -1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": 0.0,
+      "stage_sums_kj": {
+        "species_sum": 0.0,
+        "proton": 0.0,
+        "protonation": 0.0
+      },
+      "rounding_bound_kj": 0.15000000000000002,
+      "rounded_cycle_sum_kj": 0.0,
+      "noncanceling_routed_species": {}
+    },
+    {
+      "name": "null_41",
+      "coefficients": {
+        "rxn00062": 1,
+        "rxn00216": -1,
+        "rxn00223": 1,
+        "rxn00558": -1,
+        "rxn08430": -1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": 1.7763568394002505e-15,
+      "stage_sums_kj": {
+        "species_sum": 0.0,
+        "proton": 0.0,
+        "protonation": 0.0
+      },
+      "rounding_bound_kj": 0.25,
+      "rounded_cycle_sum_kj": 9.992007221626409e-16,
+      "noncanceling_routed_species": {}
+    },
+    {
+      "name": "null_42",
+      "coefficients": {
+        "rxn00062": 1,
+        "rxn00216": -1,
+        "rxn00223": 1,
+        "rxn00558": -1,
+        "rxn00559": 1,
+        "rxn00636": -1,
+        "rxn08948": -1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": 1.7763568394002505e-15,
+      "stage_sums_kj": {
+        "species_sum": 0.0,
+        "proton": 0.0,
+        "protonation": 0.0
+      },
+      "rounding_bound_kj": 0.35000000000000003,
+      "rounded_cycle_sum_kj": 9.992007221626409e-16,
+      "noncanceling_routed_species": {}
+    },
+    {
+      "name": "null_43",
+      "coefficients": {
+        "rxn00022": 1,
+        "rxn00062": -1,
+        "rxn00216": 1,
+        "rxn00704": -1,
+        "rxn11139": -1
+      },
+      "available": false,
+      "unavailable_reactions": [
+        "rxn00022",
+        "rxn11139"
+      ]
+    },
+    {
+      "name": "null_44",
+      "coefficients": {
+        "rxn00001": 1,
+        "rxn00062": -1,
+        "rxn00695": 1,
+        "rxn12158": -1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": 0.0,
+      "stage_sums_kj": {
+        "species_sum": 0.0,
+        "proton": 0.0,
+        "protonation": 4.440892098500626e-16
+      },
+      "rounding_bound_kj": 0.2,
+      "rounded_cycle_sum_kj": 0.0,
+      "noncanceling_routed_species": {}
+    },
+    {
+      "name": "null_45",
+      "coefficients": {
+        "rxn00062": 2,
+        "rxn00216": -1,
+        "rxn00223": 1,
+        "rxn00545": -1,
+        "rxn00558": -1,
+        "rxn01491": -1,
+        "rxn12188": -1
+      },
+      "available": false,
+      "unavailable_reactions": [
+        "rxn00545",
+        "rxn01491"
+      ]
+    },
+    {
+      "name": "null_46",
+      "coefficients": {
+        "rxn00001": 1,
+        "rxn00062": -1,
+        "rxn00577": 1,
+        "rxn00695": 1,
+        "rxn14104": -1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": 3.8510071584023535,
+      "stage_sums_kj": {
+        "species_sum": 3.8510071584023535,
+        "proton": 0.0,
+        "protonation": 0.0
+      },
+      "rounding_bound_kj": 0.25,
+      "rounded_cycle_sum_kj": 3.9000000000000004,
+      "noncanceling_routed_species": {
+        "0|O=P(O)(O)O[C@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O": 1.0,
+        "0|O=P(O)(O)O[C@H]1OC[C@@H](O)[C@H](O)[C@H]1O": -1.0,
+        "0|COP(=O)(O)OP(=O)(O)O[C@H]1OC[C@@H](O)[C@H](O)[C@H]1O": 1.0,
+        "0|COP(=O)(O)OP(=O)(O)O[C@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O": -1.0
+      }
+    },
+    {
+      "name": "null_47",
+      "coefficients": {
+        "rxn00083": 1,
+        "rxn01201": -1,
+        "rxn16141": 1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": 0.0,
+      "stage_sums_kj": {
+        "species_sum": 0.0,
+        "proton": 0.0,
+        "protonation": 0.0
+      },
+      "rounding_bound_kj": 0.15000000000000002,
+      "rounded_cycle_sum_kj": 0.0,
+      "noncanceling_routed_species": {}
+    },
+    {
+      "name": "null_48",
+      "coefficients": {
+        "rxn00083": 1,
+        "rxn01130": -1,
+        "rxn40442": -1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": 0.0,
+      "stage_sums_kj": {
+        "species_sum": 0.0,
+        "proton": 0.0,
+        "protonation": 0.0
+      },
+      "rounding_bound_kj": 0.15000000000000002,
+      "rounded_cycle_sum_kj": 0.0,
+      "noncanceling_routed_species": {}
+    },
+    {
+      "name": "sucrose_adp_glucose",
+      "coefficients": {
+        "rxn00577": 1,
+        "rxn12158": 1,
+        "rxn14104": -1
+      },
+      "available": true,
+      "unavailable_reactions": [],
+      "unrounded_cycle_sum_kj": 3.8510071584023535,
+      "stage_sums_kj": {
+        "species_sum": 3.8510071584023535,
+        "proton": 0.0,
+        "protonation": -4.440892098500626e-16
+      },
+      "rounding_bound_kj": 0.15000000000000002,
+      "rounded_cycle_sum_kj": 3.9000000000000004,
+      "noncanceling_routed_species": {
+        "0|O=P(O)(O)O[C@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O": 1.0,
+        "0|O=P(O)(O)O[C@H]1OC[C@@H](O)[C@H](O)[C@H]1O": -1.0,
+        "0|COP(=O)(O)OP(=O)(O)O[C@H]1OC[C@@H](O)[C@H](O)[C@H]1O": 1.0,
+        "0|COP(=O)(O)OP(=O)(O)O[C@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O": -1.0
+      }
+    },
+    {
+      "name": "alanine_glutamate_redox",
+      "coefficients": {
+        "rxn00191": 1,
+        "rxn00182": 1,
+        "rxn00278": -1
+      },
+      "available": false,
+      "unavailable_reactions": [
+        "rxn00191"
+      ]
+    }
+  ]
+}

@@ -2,8 +2,8 @@
 
 Per reaction:
   1. Structural routing (``metag.routing.planner``): NAD(P)/GSH ring cores, nucleotide caps, spectator
-     truncation (radius 3 at anomeric centres), pH-0 neutral reference species with an exact
-     Alberty pKa transform, zwitterion guard. Every rewrite is element/charge-balance guarded.
+     truncation (radius 3 at anomeric centres), protonated reference species with approximate
+     site or source-owned coupled pKa transforms, zwitterion guard. Every rewrite is balance guarded.
   2. Species free energies from the backend (``metag.energetics.backend.UMABackend``): Boltzmann over
      validated minima of E_UMA + ΔG_solv(xTB-ALPB) + RRHO(UMA Hessian), + 1 atm -> 1 M; liquid water
      from its experimental hydration free energy.
@@ -12,7 +12,8 @@ Per reaction:
   4. ΔG = Σ ν·G + n_H+·G(H+, pH 7) + Σ pKa-transform terms; charge-closure and finiteness guards fail
      closed (dG = None).
 
-No parameter fitted to reaction free energies enters the estimate.
+No numerical offset fitted to the biochemical reaction benchmark is added. UMA is pretrained,
+the hydration map is component-calibrated, and discrete policies were benchmark-informed.
 """
 import functools
 import hashlib
@@ -22,12 +23,13 @@ import math
 from metag.assembly import assemble_reaction
 from metag.chem import fmt_num, is_water
 from metag.constants import CONDITIONS, G_HPLUS, PH, RT_LN10, STD_STATE_KJ
-from metag.energetics.errors import SpeciesRearranged
+from metag.energetics.errors import SpeciesRearranged, valid_energy, valid_sampling_sigma
 from metag.reactions import validate_reaction
 from metag.settings import PHYSICS_VERSION, SAMPLING_PROFILE_VERSION
 
 
-def score_reaction(reaction, backend=None, *, model=None, key="rxn", log=print, allow_truncate=True):
+def score_reaction(reaction, backend=None, *, model=None, key="rxn", log=print, allow_truncate=True,
+                   base_reference="gated"):
     """Standard transformed reaction Gibbs energy ΔrG'° (kJ/mol, 298.15 K, pH 7, I = 0) from structure.
 
     `reaction` = {"species": {name: [coeff, charge, smiles]}, "n_Hplus": float, "note": str, and
@@ -46,15 +48,17 @@ def score_reaction(reaction, backend=None, *, model=None, key="rxn", log=print, 
     pu = getattr(backend, "pu", None)
     traced = getattr(pu, "_metag_official_calculator", False) is True
     before = pu.execution_snapshot() if traced else None
-    result = _score_reaction(reaction, backend, key=key, log=log, allow_truncate=allow_truncate)
+    result = _score_reaction(reaction, backend, key=key, log=log, allow_truncate=allow_truncate,
+                             base_reference=base_reference)
     if traced:
         result["backend_execution"] = pu.execution_since(before)
     return result
 
 
-def _score_reaction(reaction, backend, *, key, log, allow_truncate, _force_neutral=False):
+def _score_reaction(reaction, backend, *, key, log, allow_truncate, _force_neutral=False, base_reference="gated"):
     validate_reaction(reaction)
-    cfg = effective_config(backend, allow_truncate=allow_truncate, force_neutral=_force_neutral)
+    cfg = effective_config(backend, allow_truncate=allow_truncate, force_neutral=_force_neutral,
+                           base_reference=base_reference)
     if reaction.get('species_state_pools'):
         from metag.energetics.provenance import content_hash
         from metag.routing.sugar_states import POLICY
@@ -72,7 +76,7 @@ def _score_reaction(reaction, backend, *, key, log, allow_truncate, _force_neutr
                            "input_balanced": is_balanced(orig_species, reaction.get("n_Hplus", 0))}, reason, log)
     from metag.routing.planner import route_reaction
     rx, routes, truncated = route_reaction(reaction, allow_truncate=allow_truncate, log=log,
-                                           force_neutral=_force_neutral)
+                                           force_neutral=_force_neutral, base_reference=base_reference)
     routes["rearrangement_reroute"] = bool(_force_neutral)
     if routes["errors"]:
         # An unexpected exception inside a routing transform would silently score a different estimator
@@ -148,14 +152,14 @@ def _score_reaction(reaction, backend, *, key, log, allow_truncate, _force_neutr
                                f"or incompatible with supplied pKa sites: {e}", log)
         log(f"  [{e} -> re-route through the neutral-microspecies path]")
         result = _score_reaction(reaction, backend, key=key, log=log, allow_truncate=allow_truncate,
-                                 _force_neutral=True)
+                                 _force_neutral=True, base_reference=base_reference)
         result["routes"]["species_rearrangement"] = attempt
         return result
     if any(v is None for v in G.values()) or len(G) < len(rx["species"]):
         if truncated:                                        # a truncated core failed -> retry FULL molecules
             log(f"  [retry {key} with truncation OFF (full molecules)]")
             return _score_reaction(reaction, backend, key=key, log=log, allow_truncate=False,
-                                   _force_neutral=_force_neutral)
+                                   _force_neutral=_force_neutral, base_reference=base_reference)
         failed = [name for name in rx["species"] if G.get(name) is None]
         routes["failed_species"] = failed
         return no_estimate(key, reaction, routes,
@@ -181,8 +185,9 @@ def _score_reaction(reaction, backend, *, key, log, allow_truncate, _force_neutr
                                                detail['species'])
             except SpeciesRearranged as exc:
                 raise ValueError('Sugar state identity unresolved: ' + str(exc)) from exc
-            if value is None or sigma is None:
-                return value, sigma, detail
+            if not valid_energy(value) or not valid_sampling_sigma(sigma):
+                detail['warnings'].append(f'{name}: invalid sugar-state energy or sampling diagnostic')
+                return None, None, detail
             alt_G, alt_sig = {name: value + std}, {name: sigma}
             alt_routes = {'warnings': detail['warnings']}
             alt_rx = dict(rx, species={name: [rx['species'][name][0], charge, smiles]})
@@ -263,12 +268,15 @@ def _species_free_energies(backend, rx, routes, G, sig, std, log):
         if is_water(smi, q):                              # liquid water (hydrolysis / hydration)
             diagnostic.update(method="liquid_water_reference", sampling={"status": "not_applicable"})
             G[name] = backend.liquid_water(); sig[name] = 0.0     # deterministic reference: no sampling σ
-            log(f"    {name:9s} q+0 [water ref liquid]: {G[name]:.1f}")
         else:
             G[name], sig[name] = backend.species(q, smi, name, routes["warnings"], diagnostic)
-        if G[name] is None:
+        if not valid_energy(G[name]) or not valid_sampling_sigma(sig[name]):
+            routes["warnings"].append(f"{name}: invalid species energy or sampling diagnostic")
+            G[name], sig[name] = None, None
             log(f"    {name}: FAILED")
             return
+        if is_water(smi, q):
+            log(f"    {name:9s} q+0 [water ref liquid]: {G[name]:.1f}")
         G[name] += std                                    # 1 atm -> 1 M, applied outside the species cache
         _release_gpu_memory()
 
@@ -361,7 +369,7 @@ def _constants_hash(module, names):
     return hashlib.sha256(payload.encode()).hexdigest()[:12]
 
 
-def effective_config(backend, *, allow_truncate=True, force_neutral=False):
+def effective_config(backend, *, allow_truncate=True, force_neutral=False, base_reference="gated"):
     """Fingerprint of everything that changes a reported number: model and producer, physics version,
     numerical settings, routing constants, pKa and hydration constant tables, conditions and software."""
     from metag.energetics.minimum_optimizer import policy as minimum_optimizer_policy
@@ -386,7 +394,7 @@ def effective_config(backend, *, allow_truncate=True, force_neutral=False):
            "reaction_sampling_uncertainty": "2026-10-09-shared-estimate-groups",
            "aqueous_state_coverage": "2026-10-07-unique-hydrates",
            "trunc_radius": TRUNCATION_RADIUS, "allow_truncate": bool(allow_truncate),
-           "force_neutral": bool(force_neutral),
+           "force_neutral": bool(force_neutral), "base_reference": base_reference,
            **pk.pka_model_config(), "pka_table": pk.PKA_TABLE_VERSION,
            "pka_constants": _constants_hash(pk, ("P_LADDER", "ACYL_P_LADDER", "CARBONATE_LADDER", "PPI_LADDER",
                                                  "SULFATE_LADDER", "CARBOXYL_PKA", "CARBOXYL_PKA_ALPHA",

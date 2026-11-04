@@ -1,0 +1,1829 @@
+{
+  "created_utc": "2026-10-29T09:19:54.859635+00:00",
+  "scope": "Frozen current-source predictions only; no experimental references or residuals.",
+  "assembly_sha256": "292b80904243d67f6e44bb04d882f0bf2670d5bdb0ba9ea331f6f53d6d7d7da1",
+  "cohort_validation_sha256": "96b04eb5f29981dca8b2b21296cb628080e2f8b74e3fc2e8987b96958c16019d",
+  "script_sha256": "ba0ef03671eb890c1379db85905c423338490918c9c946d0decd69ba56596d42",
+  "predictions": {
+    "rxn00001": {
+      "status": "estimated",
+      "dG": -31.5,
+      "reason": null
+    },
+    "rxn00007": {
+      "status": "estimated",
+      "dG": -36.1,
+      "reason": null
+    },
+    "rxn00022": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "incomplete declared sugar ensemble: Incomplete joint sugar/hydration state set: Maltose"
+    },
+    "rxn00062": {
+      "status": "estimated",
+      "dG": -36.5,
+      "reason": null
+    },
+    "rxn00065": {
+      "status": "estimated",
+      "dG": -2.3,
+      "reason": null
+    },
+    "rxn00070": {
+      "status": "estimated",
+      "dG": 3.3,
+      "reason": null
+    },
+    "rxn00077": {
+      "status": "estimated",
+      "dG": -44.4,
+      "reason": null
+    },
+    "rxn00083": {
+      "status": "estimated",
+      "dG": 0.0,
+      "reason": null
+    },
+    "rxn00086": {
+      "status": "estimated",
+      "dG": 3.3,
+      "reason": null
+    },
+    "rxn00097": {
+      "status": "estimated",
+      "dG": -0.3,
+      "reason": null
+    },
+    "rxn00100": {
+      "status": "estimated",
+      "dG": -21.2,
+      "reason": null
+    },
+    "rxn00105": {
+      "status": "estimated",
+      "dG": 6.5,
+      "reason": null
+    },
+    "rxn00117": {
+      "status": "estimated",
+      "dG": 0.0,
+      "reason": null
+    },
+    "rxn00131": {
+      "status": "estimated",
+      "dG": -4.3,
+      "reason": null
+    },
+    "rxn00132": {
+      "status": "estimated",
+      "dG": -11.6,
+      "reason": null
+    },
+    "rxn00139": {
+      "status": "estimated",
+      "dG": 32.9,
+      "reason": null
+    },
+    "rxn00141": {
+      "status": "estimated",
+      "dG": 35.7,
+      "reason": null
+    },
+    "rxn00147": {
+      "status": "estimated",
+      "dG": -9.3,
+      "reason": null
+    },
+    "rxn00148": {
+      "status": "estimated",
+      "dG": 26.8,
+      "reason": null
+    },
+    "rxn00151": {
+      "status": "estimated",
+      "dG": 22.2,
+      "reason": null
+    },
+    "rxn00157": {
+      "status": "estimated",
+      "dG": 16.8,
+      "reason": null
+    },
+    "rxn00171": {
+      "status": "estimated",
+      "dG": -13.3,
+      "reason": null
+    },
+    "rxn00172": {
+      "status": "estimated",
+      "dG": 8.6,
+      "reason": null
+    },
+    "rxn00173": {
+      "status": "estimated",
+      "dG": 6.9,
+      "reason": null
+    },
+    "rxn00175": {
+      "status": "estimated",
+      "dG": 3.9,
+      "reason": null
+    },
+    "rxn00178": {
+      "status": "estimated",
+      "dG": 26.3,
+      "reason": null
+    },
+    "rxn00182": {
+      "status": "estimated",
+      "dG": 32.0,
+      "reason": null
+    },
+    "rxn00184": {
+      "status": "estimated",
+      "dG": 32.0,
+      "reason": null
+    },
+    "rxn00187": {
+      "status": "estimated",
+      "dG": -29.0,
+      "reason": null
+    },
+    "rxn00189": {
+      "status": "estimated",
+      "dG": -7.5,
+      "reason": null
+    },
+    "rxn00191": {
+      "status": "estimated",
+      "dG": 1.6,
+      "reason": null
+    },
+    "rxn00193": {
+      "status": "estimated",
+      "dG": 0.1,
+      "reason": null
+    },
+    "rxn00195": {
+      "status": "estimated",
+      "dG": -9.2,
+      "reason": null
+    },
+    "rxn00213": {
+      "status": "estimated",
+      "dG": 15.5,
+      "reason": null
+    },
+    "rxn00214": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "unresolved stereochemical identity: specify each stereogenic atom/bond; an unspecified SMILES is not a declared equilibrating stereoisomer pool"
+    },
+    "rxn00216": {
+      "status": "estimated",
+      "dG": -26.3,
+      "reason": null
+    },
+    "rxn00217": {
+      "status": "estimated",
+      "dG": -2.9,
+      "reason": null
+    },
+    "rxn00220": {
+      "status": "estimated",
+      "dG": -10.2,
+      "reason": null
+    },
+    "rxn00223": {
+      "status": "estimated",
+      "dG": -0.9,
+      "reason": null
+    },
+    "rxn00225": {
+      "status": "estimated",
+      "dG": 15.5,
+      "reason": null
+    },
+    "rxn00234": {
+      "status": "estimated",
+      "dG": 8.2,
+      "reason": null
+    },
+    "rxn00237": {
+      "status": "estimated",
+      "dG": 0.0,
+      "reason": null
+    },
+    "rxn00239": {
+      "status": "estimated",
+      "dG": -0.3,
+      "reason": null
+    },
+    "rxn00248": {
+      "status": "estimated",
+      "dG": 44.4,
+      "reason": null
+    },
+    "rxn00250": {
+      "status": "estimated",
+      "dG": 1.6,
+      "reason": null
+    },
+    "rxn00256": {
+      "status": "estimated",
+      "dG": 51.1,
+      "reason": null
+    },
+    "rxn00257": {
+      "status": "estimated",
+      "dG": 14.6,
+      "reason": null
+    },
+    "rxn00260": {
+      "status": "estimated",
+      "dG": 10.9,
+      "reason": null
+    },
+    "rxn00265": {
+      "status": "estimated",
+      "dG": 6.0,
+      "reason": null
+    },
+    "rxn00266": {
+      "status": "estimated",
+      "dG": 0.0,
+      "reason": null
+    },
+    "rxn00276": {
+      "status": "estimated",
+      "dG": 15.4,
+      "reason": null
+    },
+    "rxn00278": {
+      "status": "estimated",
+      "dG": 30.8,
+      "reason": null
+    },
+    "rxn00280": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "unresolved stereochemical identity: specify each stereogenic atom/bond; an unspecified SMILES is not a declared equilibrating stereoisomer pool"
+    },
+    "rxn00283": {
+      "status": "estimated",
+      "dG": 5.9,
+      "reason": null
+    },
+    "rxn00285": {
+      "status": "estimated",
+      "dG": 8.1,
+      "reason": null
+    },
+    "rxn00290": {
+      "status": "estimated",
+      "dG": 2.1,
+      "reason": null
+    },
+    "rxn00293": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "unresolved stereochemical identity: specify each stereogenic atom/bond; an unspecified SMILES is not a declared equilibrating stereoisomer pool"
+    },
+    "rxn00302": {
+      "status": "estimated",
+      "dG": 35.3,
+      "reason": null
+    },
+    "rxn00306": {
+      "status": "estimated",
+      "dG": 8.1,
+      "reason": null
+    },
+    "rxn00320": {
+      "status": "estimated",
+      "dG": 1.4,
+      "reason": null
+    },
+    "rxn00321": {
+      "status": "estimated",
+      "dG": -8.6,
+      "reason": null
+    },
+    "rxn00326": {
+      "status": "estimated",
+      "dG": -7.0,
+      "reason": null
+    },
+    "rxn00328": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "unresolved stereochemical identity: specify each stereogenic atom/bond; an unspecified SMILES is not a declared equilibrating stereoisomer pool"
+    },
+    "rxn00331": {
+      "status": "estimated",
+      "dG": 25.2,
+      "reason": null
+    },
+    "rxn00336": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "unresolved stereochemical identity: specify each stereogenic atom/bond; an unspecified SMILES is not a declared equilibrating stereoisomer pool"
+    },
+    "rxn00337": {
+      "status": "estimated",
+      "dG": 28.9,
+      "reason": null
+    },
+    "rxn00347": {
+      "status": "estimated",
+      "dG": 19.7,
+      "reason": null
+    },
+    "rxn00364": {
+      "status": "estimated",
+      "dG": -0.3,
+      "reason": null
+    },
+    "rxn00379": {
+      "status": "estimated",
+      "dG": 53.3,
+      "reason": null
+    },
+    "rxn00396": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "routing error: ph0: phosphoramidate pKa assignment quarantined: the legacy P-N ladder has unverified/wrong-site provenance and no validated microstate mapping; independent state-specific speciation data are required; zwitterion_ph0: phosphoramidate pKa assignment quarantined: the legacy P-N ladder has unverified/wrong-site provenance and no validated microstate mapping; independent state-specific speciation data are required"
+    },
+    "rxn00402": {
+      "status": "estimated",
+      "dG": 36.4,
+      "reason": null
+    },
+    "rxn00404": {
+      "status": "estimated",
+      "dG": 3.1,
+      "reason": null
+    },
+    "rxn00415": {
+      "status": "estimated",
+      "dG": -0.8,
+      "reason": null
+    },
+    "rxn00420": {
+      "status": "estimated",
+      "dG": -14.9,
+      "reason": null
+    },
+    "rxn00421": {
+      "status": "estimated",
+      "dG": -16.7,
+      "reason": null
+    },
+    "rxn00422": {
+      "status": "estimated",
+      "dG": 11.5,
+      "reason": null
+    },
+    "rxn00423": {
+      "status": "estimated",
+      "dG": -22.3,
+      "reason": null
+    },
+    "rxn00459": {
+      "status": "estimated",
+      "dG": 7.9,
+      "reason": null
+    },
+    "rxn00462": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "routing error: ph0: unsupported phosphoryl environment at atom 6: no pKa parameters for this P coordination/substitution"
+    },
+    "rxn00473": {
+      "status": "estimated",
+      "dG": 12.8,
+      "reason": null
+    },
+    "rxn00493": {
+      "status": "estimated",
+      "dG": 10.8,
+      "reason": null
+    },
+    "rxn00495": {
+      "status": "estimated",
+      "dG": -2.5,
+      "reason": null
+    },
+    "rxn00499": {
+      "status": "estimated",
+      "dG": 32.1,
+      "reason": null
+    },
+    "rxn00500": {
+      "status": "estimated",
+      "dG": 32.0,
+      "reason": null
+    },
+    "rxn00510": {
+      "status": "estimated",
+      "dG": 38.4,
+      "reason": null
+    },
+    "rxn00512": {
+      "status": "estimated",
+      "dG": 48.9,
+      "reason": null
+    },
+    "rxn00514": {
+      "status": "estimated",
+      "dG": -41.1,
+      "reason": null
+    },
+    "rxn00515": {
+      "status": "estimated",
+      "dG": 0.0,
+      "reason": null
+    },
+    "rxn00527": {
+      "status": "estimated",
+      "dG": 10.7,
+      "reason": null
+    },
+    "rxn00541": {
+      "status": "estimated",
+      "dG": 13.0,
+      "reason": null
+    },
+    "rxn00543": {
+      "status": "estimated",
+      "dG": 23.0,
+      "reason": null
+    },
+    "rxn00545": {
+      "status": "estimated",
+      "dG": -49.0,
+      "reason": null
+    },
+    "rxn00546": {
+      "status": "estimated",
+      "dG": -0.9,
+      "reason": null
+    },
+    "rxn00549": {
+      "status": "estimated",
+      "dG": 12.5,
+      "reason": null
+    },
+    "rxn00551": {
+      "status": "estimated",
+      "dG": -44.0,
+      "reason": null
+    },
+    "rxn00552": {
+      "status": "estimated",
+      "dG": 15.8,
+      "reason": null
+    },
+    "rxn00558": {
+      "status": "estimated",
+      "dG": 1.3,
+      "reason": null
+    },
+    "rxn00559": {
+      "status": "estimated",
+      "dG": -5.9,
+      "reason": null
+    },
+    "rxn00562": {
+      "status": "estimated",
+      "dG": 8.2,
+      "reason": null
+    },
+    "rxn00577": {
+      "status": "estimated",
+      "dG": -11.1,
+      "reason": null
+    },
+    "rxn00579": {
+      "status": "estimated",
+      "dG": -5.2,
+      "reason": null
+    },
+    "rxn00602": {
+      "status": "estimated",
+      "dG": -15.7,
+      "reason": null
+    },
+    "rxn00603": {
+      "status": "estimated",
+      "dG": -0.7,
+      "reason": null
+    },
+    "rxn00604": {
+      "status": "estimated",
+      "dG": 2.6,
+      "reason": null
+    },
+    "rxn00605": {
+      "status": "estimated",
+      "dG": -20.2,
+      "reason": null
+    },
+    "rxn00611": {
+      "status": "estimated",
+      "dG": 24.8,
+      "reason": null
+    },
+    "rxn00629": {
+      "status": "estimated",
+      "dG": 0.5,
+      "reason": null
+    },
+    "rxn00630": {
+      "status": "estimated",
+      "dG": 0.5,
+      "reason": null
+    },
+    "rxn00631": {
+      "status": "estimated",
+      "dG": 41.3,
+      "reason": null
+    },
+    "rxn00634": {
+      "status": "estimated",
+      "dG": -1.5,
+      "reason": null
+    },
+    "rxn00636": {
+      "status": "estimated",
+      "dG": -4.9,
+      "reason": null
+    },
+    "rxn00641": {
+      "status": "estimated",
+      "dG": 7.3,
+      "reason": null
+    },
+    "rxn00643": {
+      "status": "estimated",
+      "dG": -5.8,
+      "reason": null
+    },
+    "rxn00656": {
+      "status": "estimated",
+      "dG": -8.1,
+      "reason": null
+    },
+    "rxn00674": {
+      "status": "estimated",
+      "dG": 3.4,
+      "reason": null
+    },
+    "rxn00686": {
+      "status": "estimated",
+      "dG": -8.9,
+      "reason": null
+    },
+    "rxn00690": {
+      "status": "estimated",
+      "dG": -24.2,
+      "reason": null
+    },
+    "rxn00692": {
+      "status": "estimated",
+      "dG": 2.5,
+      "reason": null
+    },
+    "rxn00695": {
+      "status": "estimated",
+      "dG": 15.5,
+      "reason": null
+    },
+    "rxn00697": {
+      "status": "estimated",
+      "dG": -56.6,
+      "reason": null
+    },
+    "rxn00698": {
+      "status": "estimated",
+      "dG": 0.6,
+      "reason": null
+    },
+    "rxn00699": {
+      "status": "estimated",
+      "dG": 2.4,
+      "reason": null
+    },
+    "rxn00700": {
+      "status": "estimated",
+      "dG": 15.5,
+      "reason": null
+    },
+    "rxn00702": {
+      "status": "estimated",
+      "dG": 15.5,
+      "reason": null
+    },
+    "rxn00704": {
+      "status": "estimated",
+      "dG": -13.0,
+      "reason": null
+    },
+    "rxn00741": {
+      "status": "estimated",
+      "dG": 33.3,
+      "reason": null
+    },
+    "rxn00746": {
+      "status": "estimated",
+      "dG": 31.9,
+      "reason": null
+    },
+    "rxn00747": {
+      "status": "estimated",
+      "dG": -10.3,
+      "reason": null
+    },
+    "rxn00753": {
+      "status": "estimated",
+      "dG": -21.8,
+      "reason": null
+    },
+    "rxn00754": {
+      "status": "estimated",
+      "dG": -23.2,
+      "reason": null
+    },
+    "rxn00762": {
+      "status": "estimated",
+      "dG": 21.9,
+      "reason": null
+    },
+    "rxn00765": {
+      "status": "estimated",
+      "dG": 33.0,
+      "reason": null
+    },
+    "rxn00770": {
+      "status": "estimated",
+      "dG": -3.9,
+      "reason": null
+    },
+    "rxn00777": {
+      "status": "estimated",
+      "dG": 5.8,
+      "reason": null
+    },
+    "rxn00778": {
+      "status": "estimated",
+      "dG": -18.0,
+      "reason": null
+    },
+    "rxn00781": {
+      "status": "estimated",
+      "dG": -0.5,
+      "reason": null
+    },
+    "rxn00783": {
+      "status": "estimated",
+      "dG": 2.8,
+      "reason": null
+    },
+    "rxn00784": {
+      "status": "estimated",
+      "dG": 22.9,
+      "reason": null
+    },
+    "rxn00785": {
+      "status": "estimated",
+      "dG": 18.1,
+      "reason": null
+    },
+    "rxn00786": {
+      "status": "estimated",
+      "dG": 62.0,
+      "reason": null
+    },
+    "rxn00798": {
+      "status": "estimated",
+      "dG": 1.4,
+      "reason": null
+    },
+    "rxn00799": {
+      "status": "estimated",
+      "dG": 14.6,
+      "reason": null
+    },
+    "rxn00800": {
+      "status": "estimated",
+      "dG": 3.6,
+      "reason": null
+    },
+    "rxn00802": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "unresolved stereochemical identity: specify each stereogenic atom/bond; an unspecified SMILES is not a declared equilibrating stereoisomer pool"
+    },
+    "rxn00804": {
+      "status": "estimated",
+      "dG": 31.1,
+      "reason": null
+    },
+    "rxn00806": {
+      "status": "estimated",
+      "dG": 0.9,
+      "reason": null
+    },
+    "rxn00810": {
+      "status": "estimated",
+      "dG": -8.7,
+      "reason": null
+    },
+    "rxn00816": {
+      "status": "estimated",
+      "dG": -23.3,
+      "reason": null
+    },
+    "rxn00817": {
+      "status": "estimated",
+      "dG": -15.6,
+      "reason": null
+    },
+    "rxn00824": {
+      "status": "estimated",
+      "dG": -14.8,
+      "reason": null
+    },
+    "rxn00830": {
+      "status": "estimated",
+      "dG": -0.5,
+      "reason": null
+    },
+    "rxn00831": {
+      "status": "estimated",
+      "dG": -12.0,
+      "reason": null
+    },
+    "rxn00836": {
+      "status": "estimated",
+      "dG": 26.0,
+      "reason": null
+    },
+    "rxn00838": {
+      "status": "estimated",
+      "dG": -22.9,
+      "reason": null
+    },
+    "rxn00849": {
+      "status": "estimated",
+      "dG": -4.1,
+      "reason": null
+    },
+    "rxn00867": {
+      "status": "estimated",
+      "dG": -8.5,
+      "reason": null
+    },
+    "rxn00897": {
+      "status": "estimated",
+      "dG": 2.2,
+      "reason": null
+    },
+    "rxn00906": {
+      "status": "estimated",
+      "dG": 9.5,
+      "reason": null
+    },
+    "rxn00907": {
+      "status": "estimated",
+      "dG": 9.5,
+      "reason": null
+    },
+    "rxn00909": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "unresolved stereochemical identity: specify each stereogenic atom/bond; an unspecified SMILES is not a declared equilibrating stereoisomer pool"
+    },
+    "rxn00911": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "unresolved stereochemical identity: specify each stereogenic atom/bond; an unspecified SMILES is not a declared equilibrating stereoisomer pool"
+    },
+    "rxn00915": {
+      "status": "estimated",
+      "dG": 37.8,
+      "reason": null
+    },
+    "rxn00927": {
+      "status": "estimated",
+      "dG": -8.0,
+      "reason": null
+    },
+    "rxn00930": {
+      "status": "estimated",
+      "dG": 45.3,
+      "reason": null
+    },
+    "rxn00931": {
+      "status": "estimated",
+      "dG": 38.9,
+      "reason": null
+    },
+    "rxn00973": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "unresolved stereochemical identity: specify each stereogenic atom/bond; an unspecified SMILES is not a declared equilibrating stereoisomer pool"
+    },
+    "rxn00974": {
+      "status": "estimated",
+      "dG": 17.0,
+      "reason": null
+    },
+    "rxn00987": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "unresolved stereochemical identity: specify each stereogenic atom/bond; an unspecified SMILES is not a declared equilibrating stereoisomer pool"
+    },
+    "rxn00990": {
+      "status": "estimated",
+      "dG": -0.7,
+      "reason": null
+    },
+    "rxn00992": {
+      "status": "estimated",
+      "dG": 15.5,
+      "reason": null
+    },
+    "rxn01004": {
+      "status": "estimated",
+      "dG": 0.0,
+      "reason": null
+    },
+    "rxn01005": {
+      "status": "estimated",
+      "dG": 15.5,
+      "reason": null
+    },
+    "rxn01008": {
+      "status": "estimated",
+      "dG": 2.9,
+      "reason": null
+    },
+    "rxn01011": {
+      "status": "estimated",
+      "dG": 43.8,
+      "reason": null
+    },
+    "rxn01016": {
+      "status": "estimated",
+      "dG": 15.6,
+      "reason": null
+    },
+    "rxn01018": {
+      "status": "estimated",
+      "dG": -28.6,
+      "reason": null
+    },
+    "rxn01019": {
+      "status": "estimated",
+      "dG": -61.7,
+      "reason": null
+    },
+    "rxn01022": {
+      "status": "estimated",
+      "dG": 19.9,
+      "reason": null
+    },
+    "rxn01043": {
+      "status": "estimated",
+      "dG": 11.2,
+      "reason": null
+    },
+    "rxn01044": {
+      "status": "estimated",
+      "dG": 2.3,
+      "reason": null
+    },
+    "rxn01054": {
+      "status": "estimated",
+      "dG": -12.3,
+      "reason": null
+    },
+    "rxn01075": {
+      "status": "estimated",
+      "dG": -0.3,
+      "reason": null
+    },
+    "rxn01080": {
+      "status": "estimated",
+      "dG": -1.5,
+      "reason": null
+    },
+    "rxn01099": {
+      "status": "estimated",
+      "dG": -6.4,
+      "reason": null
+    },
+    "rxn01100": {
+      "status": "estimated",
+      "dG": 18.2,
+      "reason": null
+    },
+    "rxn01101": {
+      "status": "estimated",
+      "dG": 47.9,
+      "reason": null
+    },
+    "rxn01106": {
+      "status": "estimated",
+      "dG": -3.2,
+      "reason": null
+    },
+    "rxn01116": {
+      "status": "estimated",
+      "dG": -0.3,
+      "reason": null
+    },
+    "rxn01117": {
+      "status": "estimated",
+      "dG": -10.1,
+      "reason": null
+    },
+    "rxn01130": {
+      "status": "estimated",
+      "dG": -2.4,
+      "reason": null
+    },
+    "rxn01137": {
+      "status": "estimated",
+      "dG": 10.8,
+      "reason": null
+    },
+    "rxn01138": {
+      "status": "estimated",
+      "dG": 25.2,
+      "reason": null
+    },
+    "rxn01152": {
+      "status": "estimated",
+      "dG": 3.4,
+      "reason": null
+    },
+    "rxn01157": {
+      "status": "estimated",
+      "dG": -8.6,
+      "reason": null
+    },
+    "rxn01174": {
+      "status": "estimated",
+      "dG": 32.7,
+      "reason": null
+    },
+    "rxn01200": {
+      "status": "estimated",
+      "dG": -15.4,
+      "reason": null
+    },
+    "rxn01201": {
+      "status": "estimated",
+      "dG": 24.1,
+      "reason": null
+    },
+    "rxn01204": {
+      "status": "estimated",
+      "dG": 4.4,
+      "reason": null
+    },
+    "rxn01211": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "species energy or minimum validation failed: 10-Formyltetrahydrofolate, 5-10-Methenyltetrahydrofolate, H2O"
+    },
+    "rxn01219": {
+      "status": "estimated",
+      "dG": -0.3,
+      "reason": null
+    },
+    "rxn01241": {
+      "status": "estimated",
+      "dG": 18.2,
+      "reason": null
+    },
+    "rxn01249": {
+      "status": "estimated",
+      "dG": 19.3,
+      "reason": null
+    },
+    "rxn01253": {
+      "status": "estimated",
+      "dG": -2.4,
+      "reason": null
+    },
+    "rxn01258": {
+      "status": "estimated",
+      "dG": -6.4,
+      "reason": null
+    },
+    "rxn01259": {
+      "status": "estimated",
+      "dG": -17.0,
+      "reason": null
+    },
+    "rxn01265": {
+      "status": "estimated",
+      "dG": -22.2,
+      "reason": null
+    },
+    "rxn01277": {
+      "status": "estimated",
+      "dG": 45.6,
+      "reason": null
+    },
+    "rxn01280": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "unresolved stereochemical identity: specify each stereogenic atom/bond; an unspecified SMILES is not a declared equilibrating stereoisomer pool"
+    },
+    "rxn01292": {
+      "status": "estimated",
+      "dG": 2.6,
+      "reason": null
+    },
+    "rxn01293": {
+      "status": "estimated",
+      "dG": 16.2,
+      "reason": null
+    },
+    "rxn01299": {
+      "status": "estimated",
+      "dG": -14.6,
+      "reason": null
+    },
+    "rxn01301": {
+      "status": "estimated",
+      "dG": 33.4,
+      "reason": null
+    },
+    "rxn01302": {
+      "status": "estimated",
+      "dG": 33.4,
+      "reason": null
+    },
+    "rxn01306": {
+      "status": "estimated",
+      "dG": 6.1,
+      "reason": null
+    },
+    "rxn01322": {
+      "status": "estimated",
+      "dG": 4.0,
+      "reason": null
+    },
+    "rxn01329": {
+      "status": "estimated",
+      "dG": 8.8,
+      "reason": null
+    },
+    "rxn01333": {
+      "status": "estimated",
+      "dG": -16.1,
+      "reason": null
+    },
+    "rxn01336": {
+      "status": "estimated",
+      "dG": 3.9,
+      "reason": null
+    },
+    "rxn01358": {
+      "status": "estimated",
+      "dG": 18.7,
+      "reason": null
+    },
+    "rxn01361": {
+      "status": "estimated",
+      "dG": 26.3,
+      "reason": null
+    },
+    "rxn01362": {
+      "status": "estimated",
+      "dG": 0.2,
+      "reason": null
+    },
+    "rxn01363": {
+      "status": "estimated",
+      "dG": 17.9,
+      "reason": null
+    },
+    "rxn01366": {
+      "status": "estimated",
+      "dG": 16.0,
+      "reason": null
+    },
+    "rxn01368": {
+      "status": "estimated",
+      "dG": -12.2,
+      "reason": null
+    },
+    "rxn01371": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "routing error: ph0: phosphoramidate pKa assignment quarantined: the legacy P-N ladder has unverified/wrong-site provenance and no validated microstate mapping; independent state-specific speciation data are required; zwitterion_ph0: phosphoramidate pKa assignment quarantined: the legacy P-N ladder has unverified/wrong-site provenance and no validated microstate mapping; independent state-specific speciation data are required"
+    },
+    "rxn01380": {
+      "status": "estimated",
+      "dG": 3.6,
+      "reason": null
+    },
+    "rxn01383": {
+      "status": "estimated",
+      "dG": 13.1,
+      "reason": null
+    },
+    "rxn01385": {
+      "status": "estimated",
+      "dG": 13.6,
+      "reason": null
+    },
+    "rxn01386": {
+      "status": "estimated",
+      "dG": -1.6,
+      "reason": null
+    },
+    "rxn01388": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "unresolved stereochemical identity: specify each stereogenic atom/bond; an unspecified SMILES is not a declared equilibrating stereoisomer pool"
+    },
+    "rxn01392": {
+      "status": "estimated",
+      "dG": 14.1,
+      "reason": null
+    },
+    "rxn01407": {
+      "status": "estimated",
+      "dG": 34.8,
+      "reason": null
+    },
+    "rxn01409": {
+      "status": "estimated",
+      "dG": -21.4,
+      "reason": null
+    },
+    "rxn01410": {
+      "status": "estimated",
+      "dG": 6.4,
+      "reason": null
+    },
+    "rxn01423": {
+      "status": "estimated",
+      "dG": 4.5,
+      "reason": null
+    },
+    "rxn01434": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "unresolved stereochemical identity: specify each stereogenic atom/bond; an unspecified SMILES is not a declared equilibrating stereoisomer pool"
+    },
+    "rxn01447": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "unresolved stereochemical identity: specify each stereogenic atom/bond; an unspecified SMILES is not a declared equilibrating stereoisomer pool"
+    },
+    "rxn01451": {
+      "status": "estimated",
+      "dG": 18.9,
+      "reason": null
+    },
+    "rxn01457": {
+      "status": "estimated",
+      "dG": 6.5,
+      "reason": null
+    },
+    "rxn01465": {
+      "status": "estimated",
+      "dG": -18.5,
+      "reason": null
+    },
+    "rxn01479": {
+      "status": "estimated",
+      "dG": -0.3,
+      "reason": null
+    },
+    "rxn01480": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "unresolved stereochemical identity: specify each stereogenic atom/bond; an unspecified SMILES is not a declared equilibrating stereoisomer pool"
+    },
+    "rxn01485": {
+      "status": "estimated",
+      "dG": -27.4,
+      "reason": null
+    },
+    "rxn01491": {
+      "status": "estimated",
+      "dG": 15.1,
+      "reason": null
+    },
+    "rxn01505": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "unresolved stereochemical identity: specify each stereogenic atom/bond; an unspecified SMILES is not a declared equilibrating stereoisomer pool"
+    },
+    "rxn01506": {
+      "status": "estimated",
+      "dG": 0.3,
+      "reason": null
+    },
+    "rxn01509": {
+      "status": "estimated",
+      "dG": -0.3,
+      "reason": null
+    },
+    "rxn01513": {
+      "status": "estimated",
+      "dG": -0.3,
+      "reason": null
+    },
+    "rxn01530": {
+      "status": "estimated",
+      "dG": 8.4,
+      "reason": null
+    },
+    "rxn01532": {
+      "status": "estimated",
+      "dG": 21.1,
+      "reason": null
+    },
+    "rxn01548": {
+      "status": "estimated",
+      "dG": 22.4,
+      "reason": null
+    },
+    "rxn01579": {
+      "status": "estimated",
+      "dG": 45.8,
+      "reason": null
+    },
+    "rxn01597": {
+      "status": "estimated",
+      "dG": -13.4,
+      "reason": null
+    },
+    "rxn01617": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "unresolved stereochemical identity: specify each stereogenic atom/bond; an unspecified SMILES is not a declared equilibrating stereoisomer pool"
+    },
+    "rxn01620": {
+      "status": "estimated",
+      "dG": 13.4,
+      "reason": null
+    },
+    "rxn01621": {
+      "status": "estimated",
+      "dG": 16.1,
+      "reason": null
+    },
+    "rxn01626": {
+      "status": "estimated",
+      "dG": -13.5,
+      "reason": null
+    },
+    "rxn01636": {
+      "status": "estimated",
+      "dG": 24.2,
+      "reason": null
+    },
+    "rxn01638": {
+      "status": "estimated",
+      "dG": -5.7,
+      "reason": null
+    },
+    "rxn01643": {
+      "status": "estimated",
+      "dG": 16.3,
+      "reason": null
+    },
+    "rxn01646": {
+      "status": "estimated",
+      "dG": -22.8,
+      "reason": null
+    },
+    "rxn01682": {
+      "status": "estimated",
+      "dG": 20.2,
+      "reason": null
+    },
+    "rxn01692": {
+      "status": "estimated",
+      "dG": 4.4,
+      "reason": null
+    },
+    "rxn01702": {
+      "status": "estimated",
+      "dG": -40.5,
+      "reason": null
+    },
+    "rxn01713": {
+      "status": "estimated",
+      "dG": 9.4,
+      "reason": null
+    },
+    "rxn01725": {
+      "status": "estimated",
+      "dG": 34.8,
+      "reason": null
+    },
+    "rxn01726": {
+      "status": "estimated",
+      "dG": -20.4,
+      "reason": null
+    },
+    "rxn01740": {
+      "status": "estimated",
+      "dG": 14.5,
+      "reason": null
+    },
+    "rxn01745": {
+      "status": "estimated",
+      "dG": 27.9,
+      "reason": null
+    },
+    "rxn01746": {
+      "status": "estimated",
+      "dG": -0.4,
+      "reason": null
+    },
+    "rxn01761": {
+      "status": "estimated",
+      "dG": 15.9,
+      "reason": null
+    },
+    "rxn01780": {
+      "status": "estimated",
+      "dG": -0.1,
+      "reason": null
+    },
+    "rxn01790": {
+      "status": "estimated",
+      "dG": 33.6,
+      "reason": null
+    },
+    "rxn01792": {
+      "status": "estimated",
+      "dG": 4.4,
+      "reason": null
+    },
+    "rxn01834": {
+      "status": "estimated",
+      "dG": 30.7,
+      "reason": null
+    },
+    "rxn01846": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "unresolved stereochemical identity: specify each stereogenic atom/bond; an unspecified SMILES is not a declared equilibrating stereoisomer pool"
+    },
+    "rxn01847": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "unresolved stereochemical identity: specify each stereogenic atom/bond; an unspecified SMILES is not a declared equilibrating stereoisomer pool"
+    },
+    "rxn01870": {
+      "status": "estimated",
+      "dG": 34.5,
+      "reason": null
+    },
+    "rxn01887": {
+      "status": "estimated",
+      "dG": 13.8,
+      "reason": null
+    },
+    "rxn01974": {
+      "status": "estimated",
+      "dG": -0.6,
+      "reason": null
+    },
+    "rxn01985": {
+      "status": "estimated",
+      "dG": 11.0,
+      "reason": null
+    },
+    "rxn01996": {
+      "status": "estimated",
+      "dG": 2.9,
+      "reason": null
+    },
+    "rxn01999": {
+      "status": "estimated",
+      "dG": 8.8,
+      "reason": null
+    },
+    "rxn02066": {
+      "status": "estimated",
+      "dG": 22.1,
+      "reason": null
+    },
+    "rxn02085": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "unresolved stereochemical identity: specify each stereogenic atom/bond; an unspecified SMILES is not a declared equilibrating stereoisomer pool"
+    },
+    "rxn02095": {
+      "status": "estimated",
+      "dG": 1.1,
+      "reason": null
+    },
+    "rxn02132": {
+      "status": "estimated",
+      "dG": 10.5,
+      "reason": null
+    },
+    "rxn02167": {
+      "status": "estimated",
+      "dG": 4.4,
+      "reason": null
+    },
+    "rxn02168": {
+      "status": "estimated",
+      "dG": 3.7,
+      "reason": null
+    },
+    "rxn02202": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "unresolved stereochemical identity: specify each stereogenic atom/bond; an unspecified SMILES is not a declared equilibrating stereoisomer pool"
+    },
+    "rxn02204": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "unresolved stereochemical identity: specify each stereogenic atom/bond; an unspecified SMILES is not a declared equilibrating stereoisomer pool"
+    },
+    "rxn02213": {
+      "status": "estimated",
+      "dG": 7.4,
+      "reason": null
+    },
+    "rxn02263": {
+      "status": "estimated",
+      "dG": 15.7,
+      "reason": null
+    },
+    "rxn02305": {
+      "status": "estimated",
+      "dG": 25.0,
+      "reason": null
+    },
+    "rxn02320": {
+      "status": "estimated",
+      "dG": 4.7,
+      "reason": null
+    },
+    "rxn02322": {
+      "status": "estimated",
+      "dG": -0.3,
+      "reason": null
+    },
+    "rxn02360": {
+      "status": "estimated",
+      "dG": 1.5,
+      "reason": null
+    },
+    "rxn02403": {
+      "status": "estimated",
+      "dG": 22.7,
+      "reason": null
+    },
+    "rxn02451": {
+      "status": "estimated",
+      "dG": -7.5,
+      "reason": null
+    },
+    "rxn02459": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "unresolved stereochemical identity: specify each stereogenic atom/bond; an unspecified SMILES is not a declared equilibrating stereoisomer pool"
+    },
+    "rxn02527": {
+      "status": "estimated",
+      "dG": -22.1,
+      "reason": null
+    },
+    "rxn02591": {
+      "status": "estimated",
+      "dG": -20.7,
+      "reason": null
+    },
+    "rxn02622": {
+      "status": "estimated",
+      "dG": 15.5,
+      "reason": null
+    },
+    "rxn02625": {
+      "status": "estimated",
+      "dG": 0.4,
+      "reason": null
+    },
+    "rxn02651": {
+      "status": "estimated",
+      "dG": 31.7,
+      "reason": null
+    },
+    "rxn02685": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "routing error: ph0: phosphoramidate pKa assignment quarantined: the legacy P-N ladder has unverified/wrong-site provenance and no validated microstate mapping; independent state-specific speciation data are required; zwitterion_ph0: phosphoramidate pKa assignment quarantined: the legacy P-N ladder has unverified/wrong-site provenance and no validated microstate mapping; independent state-specific speciation data are required"
+    },
+    "rxn02749": {
+      "status": "estimated",
+      "dG": 28.1,
+      "reason": null
+    },
+    "rxn02756": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "unresolved stereochemical identity: specify each stereogenic atom/bond; an unspecified SMILES is not a declared equilibrating stereoisomer pool"
+    },
+    "rxn02782": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "unresolved stereochemical identity: specify each stereogenic atom/bond; an unspecified SMILES is not a declared equilibrating stereoisomer pool"
+    },
+    "rxn02842": {
+      "status": "estimated",
+      "dG": 27.2,
+      "reason": null
+    },
+    "rxn02887": {
+      "status": "estimated",
+      "dG": 17.6,
+      "reason": null
+    },
+    "rxn02900": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "routing error: ph0: unsupported phosphoryl environment at atom 3: no pKa parameters for this P coordination/substitution; zwitterion_ph0: unsupported phosphoryl environment at atom 3: no pKa parameters for this P coordination/substitution"
+    },
+    "rxn02902": {
+      "status": "estimated",
+      "dG": 40.7,
+      "reason": null
+    },
+    "rxn02914": {
+      "status": "estimated",
+      "dG": 9.3,
+      "reason": null
+    },
+    "rxn02930": {
+      "status": "estimated",
+      "dG": 2.5,
+      "reason": null
+    },
+    "rxn02975": {
+      "status": "estimated",
+      "dG": 2.0,
+      "reason": null
+    },
+    "rxn03087": {
+      "status": "estimated",
+      "dG": 16.8,
+      "reason": null
+    },
+    "rxn03137": {
+      "status": "estimated",
+      "dG": 25.4,
+      "reason": null
+    },
+    "rxn03249": {
+      "status": "estimated",
+      "dG": 18.3,
+      "reason": null
+    },
+    "rxn03250": {
+      "status": "estimated",
+      "dG": 1.7,
+      "reason": null
+    },
+    "rxn03281": {
+      "status": "estimated",
+      "dG": -7.1,
+      "reason": null
+    },
+    "rxn03643": {
+      "status": "estimated",
+      "dG": -29.7,
+      "reason": null
+    },
+    "rxn03644": {
+      "status": "estimated",
+      "dG": -23.1,
+      "reason": null
+    },
+    "rxn03840": {
+      "status": "estimated",
+      "dG": -10.5,
+      "reason": null
+    },
+    "rxn03876": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "unresolved stereochemical identity: specify each stereogenic atom/bond; an unspecified SMILES is not a declared equilibrating stereoisomer pool"
+    },
+    "rxn03884": {
+      "status": "estimated",
+      "dG": 7.4,
+      "reason": null
+    },
+    "rxn03886": {
+      "status": "estimated",
+      "dG": 0.7,
+      "reason": null
+    },
+    "rxn04082": {
+      "status": "estimated",
+      "dG": 0.7,
+      "reason": null
+    },
+    "rxn04684": {
+      "status": "estimated",
+      "dG": -12.2,
+      "reason": null
+    },
+    "rxn04785": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "routing error: ph0: phosphoramidate pKa assignment quarantined: the legacy P-N ladder has unverified/wrong-site provenance and no validated microstate mapping; independent state-specific speciation data are required; zwitterion_ph0: phosphoramidate pKa assignment quarantined: the legacy P-N ladder has unverified/wrong-site provenance and no validated microstate mapping; independent state-specific speciation data are required"
+    },
+    "rxn04932": {
+      "status": "estimated",
+      "dG": 9.1,
+      "reason": null
+    },
+    "rxn04943": {
+      "status": "estimated",
+      "dG": -0.7,
+      "reason": null
+    },
+    "rxn04945": {
+      "status": "estimated",
+      "dG": -2.9,
+      "reason": null
+    },
+    "rxn05026": {
+      "status": "estimated",
+      "dG": -12.9,
+      "reason": null
+    },
+    "rxn08066": {
+      "status": "estimated",
+      "dG": -0.3,
+      "reason": null
+    },
+    "rxn08430": {
+      "status": "estimated",
+      "dG": -12.4,
+      "reason": null
+    },
+    "rxn08948": {
+      "status": "estimated",
+      "dG": -13.4,
+      "reason": null
+    },
+    "rxn10427": {
+      "status": "estimated",
+      "dG": -0.3,
+      "reason": null
+    },
+    "rxn11139": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "incomplete declared sugar ensemble: Incomplete joint sugar/hydration state set: Maltose"
+    },
+    "rxn12158": {
+      "status": "estimated",
+      "dG": 20.5,
+      "reason": null
+    },
+    "rxn12188": {
+      "status": "estimated",
+      "dG": -15.0,
+      "reason": null
+    },
+    "rxn12217": {
+      "status": "estimated",
+      "dG": -34.8,
+      "reason": null
+    },
+    "rxn14063": {
+      "status": "estimated",
+      "dG": 18.9,
+      "reason": null
+    },
+    "rxn14104": {
+      "status": "estimated",
+      "dG": 5.2,
+      "reason": null
+    },
+    "rxn15055": {
+      "status": "estimated",
+      "dG": 2.0,
+      "reason": null
+    },
+    "rxn15726": {
+      "status": "estimated",
+      "dG": 33.0,
+      "reason": null
+    },
+    "rxn15750": {
+      "status": "estimated",
+      "dG": 4.7,
+      "reason": null
+    },
+    "rxn15964": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "species energy or minimum validation failed: 5,10-Methylenetetrahydromethanopterin, Glycine, H2O, H4MPT, L-Serine"
+    },
+    "rxn16141": {
+      "status": "estimated",
+      "dG": 24.1,
+      "reason": null
+    },
+    "rxn16378": {
+      "status": "estimated",
+      "dG": -1.3,
+      "reason": null
+    },
+    "rxn19090": {
+      "status": "estimated",
+      "dG": 27.3,
+      "reason": null
+    },
+    "rxn31240": {
+      "status": "estimated",
+      "dG": -0.3,
+      "reason": null
+    },
+    "rxn36656": {
+      "status": "estimated",
+      "dG": -6.0,
+      "reason": null
+    },
+    "rxn39373": {
+      "status": "estimated",
+      "dG": 11.4,
+      "reason": null
+    },
+    "rxn39443": {
+      "status": "estimated",
+      "dG": 25.6,
+      "reason": null
+    },
+    "rxn40442": {
+      "status": "estimated",
+      "dG": 2.4,
+      "reason": null
+    },
+    "rxn44278": {
+      "status": "estimated",
+      "dG": -6.4,
+      "reason": null
+    },
+    "rxn45677": {
+      "status": "estimated",
+      "dG": 13.1,
+      "reason": null
+    },
+    "rxn49067": {
+      "status": "estimated",
+      "dG": 3.5,
+      "reason": null
+    },
+    "rxn51768": {
+      "status": "workflow_no_estimate",
+      "dG": null,
+      "reason": "unresolved stereochemical identity: specify each stereogenic atom/bond; an unspecified SMILES is not a declared equilibrating stereoisomer pool"
+    },
+    "rxn52014": {
+      "status": "estimated",
+      "dG": -1.3,
+      "reason": null
+    },
+    "rxn53440": {
+      "status": "estimated",
+      "dG": -11.4,
+      "reason": null
+    },
+    "rxn53944": {
+      "status": "estimated",
+      "dG": -19.9,
+      "reason": null
+    },
+    "rxn54659": {
+      "status": "estimated",
+      "dG": -0.2,
+      "reason": null
+    }
+  }
+}

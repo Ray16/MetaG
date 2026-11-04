@@ -1,8 +1,6 @@
 cff-version: 1.2.0
 message: "If you use MetaG, please cite the software (and the accompanying article once published)."
-title: "MetaG: training-free biochemical reaction Gibbs energies from structure"
-version: 0.3.0
-date-released: 2026-10-27
+title: "MetaG: biochemical reaction Gibbs energies from molecular models"
 license: MIT
 repository-code: "https://github.com/Ray16/MetaG"
 type: software

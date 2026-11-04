@@ -1,7 +1,8 @@
-"""Aldehyde-hydration gate (metag.routing.aldehyde_hydration). The gem-diol correction fires ONLY for
-alpha-EWG-activated aldehydes (glyoxylate/methylglyoxal/formaldehyde), NOT for ordinary alkyl aldehydes
-(GAP, acetaldehyde) whose UMA hydration free energy is unreliable -- the physical gate that made the
-correction a net positive on the benchmark."""
+"""Regression checks for the historical activated-aldehyde helper functions.
+
+The production hydration ensemble uses the general site enumeration; these
+helper tests do not describe its scope or establish predictive accuracy.
+"""
 from metag.routing import aldehyde_hydration
 
 HYDRATED = ["O=CC(=O)[O-]",     # glyoxylate

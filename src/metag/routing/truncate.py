@@ -2,31 +2,30 @@
 
 Given a reaction (reactant SMILES + product SMILES), build the SMALLEST QM model
 that preserves the reactive center on both sides, replacing the conserved spectator
-moiety (nucleotide tail, peptide backbone, ...) with a small methyl cap.
+moiety (nucleotide tail, peptide backbone, ...) with hydrogen caps.
 
-Why this is well-posed *at the reaction level*: we have BOTH sides in hand, so the
-spectator is exactly the sub-structure that is atom-mapped and bonding-unchanged
-across the reaction. Cutting it at the same point on both sides makes its energy AND
-its conformer noise cancel in ΔG (validated by hand: redox 49->7 kJ noise; nucleotidyl
-solved). This module automates the hand construction and adds machine guards.
+Reaction-level atom mapping identifies substructures with unchanged bonding on both
+sides and applies symmetric cuts where possible. These structural checks do not
+guarantee cancellation of solvation, conformational or other energetic effects.
+Routing decisions and earlier comparisons were exposed to benchmark outcomes.
 
 Algorithm (deterministic):
   1. pair reactants<->products by maximum common substructure (greedy, MCS atom count)
   2. per pair, get the ATOM MAP from the shared MCS
   3. reaction center = {unmapped atoms} U {mapped atoms whose bonding changed}
   4. keep = reaction center grown by `radius` bonds, then RING-CLOSED (no partial rings);
-     FragmentOnBonds at the boundary; cap the severed valence with methyl
+     FragmentOnBonds at the boundary; cap the severed valence with hydrogen
 Guards (all automated):
   A. balance      : truncated rxn is atom + charge + H balanced          (hard reject)
   B. consistency  : each removed fragment is identical on both sides       (else no cancel)
-  C. sensitivity  : caller compares ΔG(radius) vs ΔG(radius+1) < tol       (hook: emit both)
-  D. rigidity     : rotatable bonds in each reacting core                  (report, not gate)
+  C. sensitivity  : radius variation can be evaluated separately; it is not an automatic acceptance test
+  D. rigidity     : rotatable bonds in each reacting core can be inspected; they are not an acceptance gate
   E. ring-closure : cuts fall ONLY on acyclic bonds (`_ring_close`)        (a priori structural)
                     -- a severed ring bond opens the ring + changes hybridization (cyclic lactone
                     -> acyclic methyl ester), a stably-wrong cut B/C cannot catch. Fixes the
                     aldose-dehydrogenase +33 kJ artifact (D-Glucose_t COC(O)C(C)O -> ring intact).
 
-Cap-length (methyl at radius R vs the extra bond at R+1) IS the Me/Et sensitivity knob.
+Increasing the radius retains more local structure; it is a sensitivity analysis, not an exact error bound.
 """
 from __future__ import annotations
 from collections import Counter
@@ -37,22 +36,75 @@ from rdkit.Chem import rdMolDescriptors as rdMD
 
 
 # ---------------------------------------------------------------- MCS atom map
-def _mcs(a, b, timeout=30):
-    return rdFMCS.FindMCS(
-        [a, b], ringMatchesRingOnly=True, completeRingsOnly=True, timeout=timeout,
-        atomCompare=rdFMCS.AtomCompare.CompareElements,
-        bondCompare=rdFMCS.BondCompare.CompareOrder)
+# DETERMINISTIC SEARCH BUDGET. A wall-clock MCS timeout made routing depend on machine load: the same
+# reaction could be truncated on an idle node and refused on a busy one. The budget is a count of RDKit
+# progress-callback invocations, which is identical on every machine. Profile of the packaged 364-reaction
+# panel (2026-11-03): every completing pair needs <= 4.1e5 calls (<= 10 s); the pathological methylene- vs
+# methenyl-tetrahydrofolate pair needs > 4e6. The wall-clock limit is only a hang guard.
+MCS_CALL_BUDGET = 2_000_000
+MCS_WALL_BACKSTOP_S = 600
+
+
+class MCSBudgetExceeded(RuntimeError):
+    """The common-substructure search did not finish within its budget; no atom map is available.
+    Callers fall back to full molecules (truncation not applicable); a partial map is never used."""
+
+
+class _CallBudget(rdFMCS.MCSProgress):
+    def __init__(self, limit):
+        super().__init__()
+        self.calls, self.limit = 0, limit
+
+    def __call__(self, stat, params):
+        self.calls += 1
+        return self.calls < self.limit
+
+
+def _mcs(a, b, timeout=MCS_WALL_BACKSTOP_S, budget=None):
+    params = rdFMCS.MCSParameters()
+    params.Timeout = int(timeout)
+    params.AtomTyper = rdFMCS.AtomCompare.CompareElements
+    params.BondTyper = rdFMCS.BondCompare.CompareOrder
+    params.BondCompareParameters.RingMatchesRingOnly = True
+    params.BondCompareParameters.CompleteRingsOnly = True
+    counter = _CallBudget(MCS_CALL_BUDGET if budget is None else budget)
+    params.ProgressCallback = counter
+    res = rdFMCS.FindMCS([a, b], params)
+    if counter.calls >= counter.limit:
+        raise MCSBudgetExceeded(f"maximum common substructure search exceeded its deterministic budget "
+                                f"({counter.limit} progress steps); partial atom map rejected")
+    return res
 
 
 def mcs_atom_map(a, b):
-    """Return (a_idx -> b_idx) correspondence for the largest common substructure."""
+    """Return a reproducible largest-common-substructure map in caller indices.
+
+    Canonical SMILES fixes graph traversal and first-match tie resolution before
+    the MCS search. Atom maps are translated back to the original molecules.
+    This chooses one reproducible mapping; it does not prove energetic locality.
+    """
+    import json
+    def ordered(mol):
+        smiles = Chem.MolToSmiles(mol, isomericSmiles=True)
+        original_indices = json.loads(mol.GetProp('_smilesAtomOutputOrder'))
+        params = Chem.SmilesParserParams()
+        params.removeHs = False
+        canonical = Chem.MolFromSmiles(smiles, params)
+        if canonical is None or canonical.GetNumAtoms() != len(original_indices):
+            raise ValueError('canonical MCS graph changed atom count')
+        return canonical, original_indices
+    a, ai = ordered(a)
+    b, bi = ordered(b)
     res = _mcs(a, b)
+    if res.canceled:
+        raise MCSBudgetExceeded("maximum common substructure search hit the wall-clock hang guard; "
+                                "partial atom map rejected")
     if res.numAtoms == 0:
         return {}, 0
     patt = Chem.MolFromSmarts(res.smartsString)
     ma = a.GetSubstructMatch(patt)
     mb = b.GetSubstructMatch(patt)
-    return dict(zip(ma, mb)), res.numAtoms
+    return {ai[i]: bi[j] for i, j in zip(ma, mb)}, res.numAtoms
 
 
 # ------------------------------------------------------------- pairing species

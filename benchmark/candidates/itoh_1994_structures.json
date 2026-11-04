@@ -1,0 +1,106 @@
+{
+  "tagatose_to_sorbose": {
+    "note": "Itoh 1994 rare-sugar epimerization candidate; experimental labels excluded",
+    "n_Hplus": 0,
+    "species": {
+      "D-tagatose": [
+        -1,
+        0,
+        "O=C(CO)[C@@H](O)[C@@H](O)[C@H](O)CO"
+      ],
+      "D-sorbose": [
+        1,
+        0,
+        "O=C(CO)[C@H](O)[C@@H](O)[C@H](O)CO"
+      ]
+    },
+    "species_state_pools": {
+      "D-tagatose": {
+        "kind": "reducing_sugar_equilibrium",
+        "source": "Itoh et al. 1994 reports unprotected sugar parent; solution pool representation is an explicit hypothesis."
+      },
+      "D-sorbose": {
+        "kind": "reducing_sugar_equilibrium",
+        "source": "Itoh et al. 1994 reports unprotected sugar parent; solution pool representation is an explicit hypothesis."
+      }
+    }
+  },
+  "fructose_to_psicose": {
+    "note": "Itoh 1994 rare-sugar epimerization candidate; experimental labels excluded",
+    "n_Hplus": 0,
+    "species": {
+      "D-fructose": [
+        -1,
+        0,
+        "O=C(CO)[C@@H](O)[C@H](O)[C@H](O)CO"
+      ],
+      "D-psicose": [
+        1,
+        0,
+        "O=C(CO)[C@H](O)[C@H](O)[C@H](O)CO"
+      ]
+    },
+    "species_state_pools": {
+      "D-fructose": {
+        "kind": "reducing_sugar_equilibrium",
+        "source": "Itoh et al. 1994 reports unprotected sugar parent; solution pool representation is an explicit hypothesis."
+      },
+      "D-psicose": {
+        "kind": "reducing_sugar_equilibrium",
+        "source": "Itoh et al. 1994 reports unprotected sugar parent; solution pool representation is an explicit hypothesis."
+      }
+    }
+  },
+  "ribulose_to_xylulose_D": {
+    "note": "Itoh 1994 rare-sugar epimerization candidate; experimental labels excluded",
+    "n_Hplus": 0,
+    "species": {
+      "D-ribulose": [
+        -1,
+        0,
+        "O=C(CO)[C@H](O)[C@H](O)CO"
+      ],
+      "D-xylulose": [
+        1,
+        0,
+        "O=C(CO)[C@@H](O)[C@H](O)CO"
+      ]
+    },
+    "species_state_pools": {
+      "D-ribulose": {
+        "kind": "reducing_sugar_equilibrium",
+        "source": "Itoh et al. 1994 reports unprotected sugar parent; solution pool representation is an explicit hypothesis."
+      },
+      "D-xylulose": {
+        "kind": "reducing_sugar_equilibrium",
+        "source": "Itoh et al. 1994 reports unprotected sugar parent; solution pool representation is an explicit hypothesis."
+      }
+    }
+  },
+  "ribulose_to_xylulose_L": {
+    "note": "Itoh 1994 rare-sugar epimerization candidate; experimental labels excluded",
+    "n_Hplus": 0,
+    "species": {
+      "L-ribulose": [
+        -1,
+        0,
+        "O=C(CO)[C@@H](O)[C@@H](O)CO"
+      ],
+      "L-xylulose": [
+        1,
+        0,
+        "O=C(CO)[C@H](O)[C@@H](O)CO"
+      ]
+    },
+    "species_state_pools": {
+      "L-ribulose": {
+        "kind": "reducing_sugar_equilibrium",
+        "source": "Itoh et al. 1994 reports unprotected sugar parent; solution pool representation is an explicit hypothesis."
+      },
+      "L-xylulose": {
+        "kind": "reducing_sugar_equilibrium",
+        "source": "Itoh et al. 1994 reports unprotected sugar parent; solution pool representation is an explicit hypothesis."
+      }
+    }
+  }
+}

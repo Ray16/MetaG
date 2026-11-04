@@ -1,0 +1,1464 @@
+{
+  "scope": "All corrected-source original-input outcomes; execution failures and refusals have null energy.",
+  "predictions": {
+    "rxn01211": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00973": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00216": {
+      "dG": -26.3,
+      "status": "estimated"
+    },
+    "rxn00695": {
+      "dG": 15.5,
+      "status": "estimated"
+    },
+    "rxn00290": {
+      "dG": 2.1,
+      "status": "estimated"
+    },
+    "rxn10427": {
+      "dG": -0.3,
+      "status": "estimated"
+    },
+    "rxn03643": {
+      "dG": -29.7,
+      "status": "estimated"
+    },
+    "rxn00184": {
+      "dG": 32.0,
+      "status": "estimated"
+    },
+    "rxn00499": {
+      "dG": 32.1,
+      "status": "estimated"
+    },
+    "rxn00070": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01008": {
+      "dG": 2.9,
+      "status": "estimated"
+    },
+    "rxn00173": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01530": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00132": {
+      "dG": -11.6,
+      "status": "estimated"
+    },
+    "rxn00421": {
+      "dG": -16.7,
+      "status": "estimated"
+    },
+    "rxn00086": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00545": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn04082": {
+      "dG": 0.7,
+      "status": "estimated"
+    },
+    "rxn01740": {
+      "dG": 14.5,
+      "status": "estimated"
+    },
+    "rxn00634": {
+      "dG": -1.5,
+      "status": "estimated"
+    },
+    "rxn02132": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01371": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00543": {
+      "dG": 23.0,
+      "status": "estimated"
+    },
+    "rxn00558": {
+      "dG": 1.3,
+      "status": "estimated"
+    },
+    "rxn00097": {
+      "dG": -0.3,
+      "status": "estimated"
+    },
+    "rxn00765": {
+      "dG": 33.0,
+      "status": "estimated"
+    },
+    "rxn01746": {
+      "dG": -0.4,
+      "status": "estimated"
+    },
+    "rxn01385": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01101": {
+      "dG": 47.9,
+      "status": "estimated"
+    },
+    "rxn01358": {
+      "dG": 18.7,
+      "status": "estimated"
+    },
+    "rxn00602": {
+      "dG": -15.7,
+      "status": "estimated"
+    },
+    "rxn00549": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn03249": {
+      "dG": 18.3,
+      "status": "estimated"
+    },
+    "rxn01451": {
+      "dG": 18.9,
+      "status": "estimated"
+    },
+    "rxn01100": {
+      "dG": 18.2,
+      "status": "estimated"
+    },
+    "rxn01362": {
+      "dG": 0.2,
+      "status": "estimated"
+    },
+    "rxn01761": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00747": {
+      "dG": -10.3,
+      "status": "estimated"
+    },
+    "rxn01016": {
+      "dG": 16.2,
+      "status": "estimated"
+    },
+    "rxn00151": {
+      "dG": 22.2,
+      "status": "estimated"
+    },
+    "rxn01106": {
+      "dG": -3.2,
+      "status": "estimated"
+    },
+    "rxn01044": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01201": {
+      "dG": 24.1,
+      "status": "estimated"
+    },
+    "rxn00187": {
+      "dG": -29.0,
+      "status": "estimated"
+    },
+    "rxn00559": {
+      "dG": -5.9,
+      "status": "estimated"
+    },
+    "rxn02451": {
+      "dG": -7.5,
+      "status": "estimated"
+    },
+    "rxn00065": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00293": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00577": {
+      "dG": -11.1,
+      "status": "estimated"
+    },
+    "rxn51768": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00191": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00636": {
+      "dG": -4.9,
+      "status": "estimated"
+    },
+    "rxn00396": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01548": {
+      "dG": 22.4,
+      "status": "estimated"
+    },
+    "rxn00992": {
+      "dG": 15.5,
+      "status": "estimated"
+    },
+    "rxn00280": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00629": {
+      "dG": 0.5,
+      "status": "estimated"
+    },
+    "rxn00402": {
+      "dG": 36.4,
+      "status": "estimated"
+    },
+    "rxn00283": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00077": {
+      "dG": null,
+      "status": "execution_failure"
+    },
+    "rxn01620": {
+      "dG": 13.3,
+      "status": "estimated"
+    },
+    "rxn00336": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00799": {
+      "dG": 14.6,
+      "status": "estimated"
+    },
+    "rxn01646": {
+      "dG": -22.8,
+      "status": "estimated"
+    },
+    "rxn00141": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00223": {
+      "dG": -0.9,
+      "status": "estimated"
+    },
+    "rxn01204": {
+      "dG": 2.7,
+      "status": "estimated"
+    },
+    "rxn31240": {
+      "dG": -0.3,
+      "status": "estimated"
+    },
+    "rxn00182": {
+      "dG": 32.0,
+      "status": "estimated"
+    },
+    "rxn01407": {
+      "dG": 34.8,
+      "status": "estimated"
+    },
+    "rxn02320": {
+      "dG": 4.7,
+      "status": "estimated"
+    },
+    "rxn00552": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00800": {
+      "dG": 3.6,
+      "status": "estimated"
+    },
+    "rxn00117": {
+      "dG": 0.0,
+      "status": "estimated"
+    },
+    "rxn01157": {
+      "dG": -8.6,
+      "status": "estimated"
+    },
+    "rxn08430": {
+      "dG": -12.4,
+      "status": "estimated"
+    },
+    "rxn04945": {
+      "dG": -2.9,
+      "status": "estimated"
+    },
+    "rxn00686": {
+      "dG": -8.9,
+      "status": "estimated"
+    },
+    "rxn00415": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn02914": {
+      "dG": 9.3,
+      "status": "estimated"
+    },
+    "rxn00278": {
+      "dG": 30.8,
+      "status": "estimated"
+    },
+    "rxn00927": {
+      "dG": -8.0,
+      "status": "estimated"
+    },
+    "rxn00213": {
+      "dG": 15.5,
+      "status": "estimated"
+    },
+    "rxn01249": {
+      "dG": 19.3,
+      "status": "estimated"
+    },
+    "rxn01322": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn02459": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00260": {
+      "dG": 10.9,
+      "status": "estimated"
+    },
+    "rxn02756": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01423": {
+      "dG": 5.4,
+      "status": "estimated"
+    },
+    "rxn00704": {
+      "dG": -13.0,
+      "status": "estimated"
+    },
+    "rxn39443": {
+      "dG": 25.6,
+      "status": "estimated"
+    },
+    "rxn01043": {
+      "dG": 11.2,
+      "status": "estimated"
+    },
+    "rxn00171": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00770": {
+      "dG": -3.9,
+      "status": "estimated"
+    },
+    "rxn00248": {
+      "dG": 44.4,
+      "status": "estimated"
+    },
+    "rxn00546": {
+      "dG": -0.9,
+      "status": "estimated"
+    },
+    "rxn00347": {
+      "dG": 19.7,
+      "status": "estimated"
+    },
+    "rxn00802": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00131": {
+      "dG": -4.3,
+      "status": "estimated"
+    },
+    "rxn00604": {
+      "dG": 2.6,
+      "status": "estimated"
+    },
+    "rxn01368": {
+      "dG": -12.2,
+      "status": "estimated"
+    },
+    "rxn02975": {
+      "dG": 2.0,
+      "status": "estimated"
+    },
+    "rxn00692": {
+      "dG": 2.5,
+      "status": "estimated"
+    },
+    "rxn01333": {
+      "dG": -16.1,
+      "status": "estimated"
+    },
+    "rxn00810": {
+      "dG": -8.7,
+      "status": "estimated"
+    },
+    "rxn00579": {
+      "dG": -5.5,
+      "status": "estimated"
+    },
+    "rxn00806": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn02749": {
+      "dG": 28.1,
+      "status": "estimated"
+    },
+    "rxn01277": {
+      "dG": 45.7,
+      "status": "estimated"
+    },
+    "rxn00083": {
+      "dG": 0.0,
+      "status": "estimated"
+    },
+    "rxn01479": {
+      "dG": -0.3,
+      "status": "estimated"
+    },
+    "rxn02842": {
+      "dG": 27.2,
+      "status": "estimated"
+    },
+    "rxn00786": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01506": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00328": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn02202": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01465": {
+      "dG": -18.5,
+      "status": "estimated"
+    },
+    "rxn00364": {
+      "dG": -0.3,
+      "status": "estimated"
+    },
+    "rxn02930": {
+      "dG": 2.5,
+      "status": "estimated"
+    },
+    "rxn00816": {
+      "dG": -23.3,
+      "status": "estimated"
+    },
+    "rxn00824": {
+      "dG": -12.9,
+      "status": "estimated"
+    },
+    "rxn01366": {
+      "dG": 16.0,
+      "status": "estimated"
+    },
+    "rxn00990": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00778": {
+      "dG": -18.0,
+      "status": "estimated"
+    },
+    "rxn01491": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00906": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00974": {
+      "dG": 17.0,
+      "status": "estimated"
+    },
+    "rxn00836": {
+      "dG": 25.9,
+      "status": "estimated"
+    },
+    "rxn02263": {
+      "dG": 15.7,
+      "status": "estimated"
+    },
+    "rxn00753": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00331": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00777": {
+      "dG": 5.8,
+      "status": "estimated"
+    },
+    "rxn01790": {
+      "dG": 33.7,
+      "status": "estimated"
+    },
+    "rxn00214": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00831": {
+      "dG": -12.0,
+      "status": "estimated"
+    },
+    "rxn00220": {
+      "dG": -10.2,
+      "status": "estimated"
+    },
+    "rxn00459": {
+      "dG": 7.9,
+      "status": "estimated"
+    },
+    "rxn00907": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn15964": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00746": {
+      "dG": 31.9,
+      "status": "estimated"
+    },
+    "rxn01116": {
+      "dG": -0.3,
+      "status": "estimated"
+    },
+    "rxn00175": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn02625": {
+      "dG": 0.4,
+      "status": "estimated"
+    },
+    "rxn01626": {
+      "dG": -13.5,
+      "status": "estimated"
+    },
+    "rxn00265": {
+      "dG": 6.0,
+      "status": "estimated"
+    },
+    "rxn01745": {
+      "dG": 27.9,
+      "status": "estimated"
+    },
+    "rxn01383": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00007": {
+      "dG": -36.1,
+      "status": "estimated"
+    },
+    "rxn01870": {
+      "dG": 34.5,
+      "status": "estimated"
+    },
+    "rxn15750": {
+      "dG": 4.7,
+      "status": "estimated"
+    },
+    "rxn01617": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01075": {
+      "dG": -0.3,
+      "status": "estimated"
+    },
+    "rxn01388": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01011": {
+      "dG": 43.8,
+      "status": "estimated"
+    },
+    "rxn00250": {
+      "dG": 1.6,
+      "status": "estimated"
+    },
+    "rxn00909": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01280": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01265": {
+      "dG": -22.2,
+      "status": "estimated"
+    },
+    "rxn00838": {
+      "dG": -22.9,
+      "status": "estimated"
+    },
+    "rxn00754": {
+      "dG": -23.2,
+      "status": "estimated"
+    },
+    "rxn00379": {
+      "dG": 53.3,
+      "status": "estimated"
+    },
+    "rxn01638": {
+      "dG": -5.7,
+      "status": "estimated"
+    },
+    "rxn00915": {
+      "dG": 37.8,
+      "status": "estimated"
+    },
+    "rxn00139": {
+      "dG": 32.9,
+      "status": "estimated"
+    },
+    "rxn00321": {
+      "dG": -5.3,
+      "status": "estimated"
+    },
+    "rxn00178": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn53944": {
+      "dG": -19.9,
+      "status": "estimated"
+    },
+    "rxn01259": {
+      "dG": -17.0,
+      "status": "estimated"
+    },
+    "rxn03876": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01847": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01005": {
+      "dG": 15.5,
+      "status": "estimated"
+    },
+    "rxn00784": {
+      "dG": 22.9,
+      "status": "estimated"
+    },
+    "rxn00189": {
+      "dG": -7.5,
+      "status": "estimated"
+    },
+    "rxn45677": {
+      "dG": 13.7,
+      "status": "estimated"
+    },
+    "rxn02591": {
+      "dG": -20.7,
+      "status": "estimated"
+    },
+    "rxn01532": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00422": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00148": {
+      "dG": 26.8,
+      "status": "estimated"
+    },
+    "rxn02782": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01138": {
+      "dG": 25.2,
+      "status": "estimated"
+    },
+    "rxn03250": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn02168": {
+      "dG": 3.7,
+      "status": "estimated"
+    },
+    "rxn40442": {
+      "dG": 2.4,
+      "status": "estimated"
+    },
+    "rxn02167": {
+      "dG": 4.4,
+      "status": "estimated"
+    },
+    "rxn00849": {
+      "dG": -4.1,
+      "status": "estimated"
+    },
+    "rxn04943": {
+      "dG": -0.7,
+      "status": "estimated"
+    },
+    "rxn01447": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01505": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01258": {
+      "dG": -6.4,
+      "status": "estimated"
+    },
+    "rxn01117": {
+      "dG": -10.1,
+      "status": "estimated"
+    },
+    "rxn00867": {
+      "dG": -8.5,
+      "status": "estimated"
+    },
+    "rxn02066": {
+      "dG": 22.1,
+      "status": "estimated"
+    },
+    "rxn19090": {
+      "dG": 27.3,
+      "status": "estimated"
+    },
+    "rxn01726": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01253": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01386": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00781": {
+      "dG": -0.5,
+      "status": "estimated"
+    },
+    "rxn00500": {
+      "dG": 32.0,
+      "status": "estimated"
+    },
+    "rxn00741": {
+      "dG": 33.3,
+      "status": "estimated"
+    },
+    "rxn44278": {
+      "dG": -6.7,
+      "status": "estimated"
+    },
+    "rxn02204": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01130": {
+      "dG": -2.4,
+      "status": "estimated"
+    },
+    "rxn01392": {
+      "dG": 14.1,
+      "status": "estimated"
+    },
+    "rxn01302": {
+      "dG": 33.4,
+      "status": "estimated"
+    },
+    "rxn00022": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00510": {
+      "dG": 38.4,
+      "status": "estimated"
+    },
+    "rxn00512": {
+      "dG": 48.9,
+      "status": "estimated"
+    },
+    "rxn00473": {
+      "dG": 12.8,
+      "status": "estimated"
+    },
+    "rxn01306": {
+      "dG": 6.1,
+      "status": "estimated"
+    },
+    "rxn00817": {
+      "dG": -15.6,
+      "status": "estimated"
+    },
+    "rxn03886": {
+      "dG": 0.6,
+      "status": "estimated"
+    },
+    "rxn00762": {
+      "dG": 21.8,
+      "status": "estimated"
+    },
+    "rxn01682": {
+      "dG": 20.2,
+      "status": "estimated"
+    },
+    "rxn00562": {
+      "dG": 8.2,
+      "status": "estimated"
+    },
+    "rxn01054": {
+      "dG": -12.3,
+      "status": "estimated"
+    },
+    "rxn08948": {
+      "dG": -13.4,
+      "status": "estimated"
+    },
+    "rxn01329": {
+      "dG": 8.8,
+      "status": "estimated"
+    },
+    "rxn00172": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00930": {
+      "dG": 45.3,
+      "status": "estimated"
+    },
+    "rxn00699": {
+      "dG": 2.4,
+      "status": "estimated"
+    },
+    "rxn39373": {
+      "dG": 11.4,
+      "status": "estimated"
+    },
+    "rxn00462": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01485": {
+      "dG": -27.4,
+      "status": "estimated"
+    },
+    "rxn00225": {
+      "dG": 15.5,
+      "status": "estimated"
+    },
+    "rxn00495": {
+      "dG": -2.5,
+      "status": "estimated"
+    },
+    "rxn01241": {
+      "dG": 18.2,
+      "status": "estimated"
+    },
+    "rxn01099": {
+      "dG": -6.4,
+      "status": "estimated"
+    },
+    "rxn05026": {
+      "dG": -12.9,
+      "status": "estimated"
+    },
+    "rxn03840": {
+      "dG": -10.5,
+      "status": "estimated"
+    },
+    "rxn00302": {
+      "dG": 35.3,
+      "status": "estimated"
+    },
+    "rxn00239": {
+      "dG": -0.3,
+      "status": "estimated"
+    },
+    "rxn00611": {
+      "dG": 24.7,
+      "status": "estimated"
+    },
+    "rxn12158": {
+      "dG": 20.5,
+      "status": "estimated"
+    },
+    "rxn00702": {
+      "dG": 15.5,
+      "status": "estimated"
+    },
+    "rxn14063": {
+      "dG": 18.9,
+      "status": "estimated"
+    },
+    "rxn02651": {
+      "dG": 31.7,
+      "status": "estimated"
+    },
+    "rxn01597": {
+      "dG": -13.4,
+      "status": "estimated"
+    },
+    "rxn01293": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01513": {
+      "dG": -0.3,
+      "status": "estimated"
+    },
+    "rxn01410": {
+      "dG": 6.4,
+      "status": "estimated"
+    },
+    "rxn01996": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00285": {
+      "dG": 8.1,
+      "status": "estimated"
+    },
+    "rxn00423": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn15726": {
+      "dG": 33.0,
+      "status": "estimated"
+    },
+    "rxn00697": {
+      "dG": -56.6,
+      "status": "estimated"
+    },
+    "rxn01361": {
+      "dG": 26.3,
+      "status": "estimated"
+    },
+    "rxn00234": {
+      "dG": 8.2,
+      "status": "estimated"
+    },
+    "rxn03884": {
+      "dG": 7.4,
+      "status": "estimated"
+    },
+    "rxn00798": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01702": {
+      "dG": -40.5,
+      "status": "estimated"
+    },
+    "rxn01137": {
+      "dG": 10.8,
+      "status": "estimated"
+    },
+    "rxn00237": {
+      "dG": 0.0,
+      "status": "estimated"
+    },
+    "rxn00001": {
+      "dG": -31.5,
+      "status": "estimated"
+    },
+    "rxn01380": {
+      "dG": 3.6,
+      "status": "estimated"
+    },
+    "rxn00217": {
+      "dG": -2.9,
+      "status": "estimated"
+    },
+    "rxn02322": {
+      "dG": -0.3,
+      "status": "estimated"
+    },
+    "rxn00062": {
+      "dG": -36.5,
+      "status": "estimated"
+    },
+    "rxn00193": {
+      "dG": 0.1,
+      "status": "estimated"
+    },
+    "rxn36656": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01846": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00515": {
+      "dG": 0.0,
+      "status": "estimated"
+    },
+    "rxn01292": {
+      "dG": 2.6,
+      "status": "estimated"
+    },
+    "rxn00147": {
+      "dG": -9.3,
+      "status": "estimated"
+    },
+    "rxn00337": {
+      "dG": 28.9,
+      "status": "estimated"
+    },
+    "rxn15055": {
+      "dG": 2.0,
+      "status": "estimated"
+    },
+    "rxn00690": {
+      "dG": -24.2,
+      "status": "estimated"
+    },
+    "rxn00987": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01336": {
+      "dG": 3.9,
+      "status": "estimated"
+    },
+    "rxn02360": {
+      "dG": 1.5,
+      "status": "estimated"
+    },
+    "rxn11139": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn02685": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn04785": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn16378": {
+      "dG": -1.3,
+      "status": "estimated"
+    },
+    "rxn52014": {
+      "dG": -1.3,
+      "status": "estimated"
+    },
+    "rxn00698": {
+      "dG": 0.6,
+      "status": "estimated"
+    },
+    "rxn00306": {
+      "dG": 8.1,
+      "status": "estimated"
+    },
+    "rxn00105": {
+      "dG": 6.5,
+      "status": "estimated"
+    },
+    "rxn14104": {
+      "dG": 5.5,
+      "status": "estimated"
+    },
+    "rxn00551": {
+      "dG": null,
+      "status": "execution_failure"
+    },
+    "rxn03087": {
+      "dG": 16.8,
+      "status": "estimated"
+    },
+    "rxn01004": {
+      "dG": 0.0,
+      "status": "estimated"
+    },
+    "rxn00195": {
+      "dG": -9.2,
+      "status": "estimated"
+    },
+    "rxn01409": {
+      "dG": -21.4,
+      "status": "estimated"
+    },
+    "rxn02527": {
+      "dG": -22.1,
+      "status": "estimated"
+    },
+    "rxn00631": {
+      "dG": 41.3,
+      "status": "estimated"
+    },
+    "rxn00785": {
+      "dG": 18.2,
+      "status": "estimated"
+    },
+    "rxn01985": {
+      "dG": 11.0,
+      "status": "estimated"
+    },
+    "rxn01200": {
+      "dG": -15.4,
+      "status": "estimated"
+    },
+    "rxn00656": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn04684": {
+      "dG": -12.2,
+      "status": "estimated"
+    },
+    "rxn01834": {
+      "dG": 30.7,
+      "status": "estimated"
+    },
+    "rxn01174": {
+      "dG": 32.7,
+      "status": "estimated"
+    },
+    "rxn12188": {
+      "dG": -15.0,
+      "status": "estimated"
+    },
+    "rxn01974": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00100": {
+      "dG": -21.2,
+      "status": "estimated"
+    },
+    "rxn00326": {
+      "dG": -7.0,
+      "status": "estimated"
+    },
+    "rxn00420": {
+      "dG": -14.9,
+      "status": "estimated"
+    },
+    "rxn01434": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00783": {
+      "dG": 2.8,
+      "status": "estimated"
+    },
+    "rxn03644": {
+      "dG": -23.1,
+      "status": "estimated"
+    },
+    "rxn02085": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn53440": {
+      "dG": -11.4,
+      "status": "estimated"
+    },
+    "rxn01713": {
+      "dG": 9.3,
+      "status": "estimated"
+    },
+    "rxn00257": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01152": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01999": {
+      "dG": 8.8,
+      "status": "estimated"
+    },
+    "rxn01018": {
+      "dG": -32.4,
+      "status": "estimated"
+    },
+    "rxn01219": {
+      "dG": -0.3,
+      "status": "estimated"
+    },
+    "rxn01636": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01725": {
+      "dG": 34.8,
+      "status": "estimated"
+    },
+    "rxn01457": {
+      "dG": 6.5,
+      "status": "estimated"
+    },
+    "rxn01080": {
+      "dG": -1.5,
+      "status": "estimated"
+    },
+    "rxn01643": {
+      "dG": 16.3,
+      "status": "estimated"
+    },
+    "rxn00541": {
+      "dG": 13.0,
+      "status": "estimated"
+    },
+    "rxn02902": {
+      "dG": 40.7,
+      "status": "estimated"
+    },
+    "rxn02305": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01780": {
+      "dG": -0.1,
+      "status": "estimated"
+    },
+    "rxn02213": {
+      "dG": 7.4,
+      "status": "estimated"
+    },
+    "rxn00527": {
+      "dG": 10.7,
+      "status": "estimated"
+    },
+    "rxn00493": {
+      "dG": 10.8,
+      "status": "estimated"
+    },
+    "rxn02900": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn08066": {
+      "dG": -0.3,
+      "status": "estimated"
+    },
+    "rxn00320": {
+      "dG": 1.4,
+      "status": "estimated"
+    },
+    "rxn00514": {
+      "dG": -41.1,
+      "status": "estimated"
+    },
+    "rxn00643": {
+      "dG": -5.8,
+      "status": "estimated"
+    },
+    "rxn02622": {
+      "dG": 15.5,
+      "status": "estimated"
+    },
+    "rxn49067": {
+      "dG": 3.5,
+      "status": "estimated"
+    },
+    "rxn01363": {
+      "dG": 17.8,
+      "status": "estimated"
+    },
+    "rxn02095": {
+      "dG": 1.1,
+      "status": "estimated"
+    },
+    "rxn01299": {
+      "dG": -14.6,
+      "status": "estimated"
+    },
+    "rxn00256": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00897": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01621": {
+      "dG": 16.2,
+      "status": "estimated"
+    },
+    "rxn00830": {
+      "dG": -0.5,
+      "status": "estimated"
+    },
+    "rxn01792": {
+      "dG": 4.4,
+      "status": "estimated"
+    },
+    "rxn01509": {
+      "dG": -0.3,
+      "status": "estimated"
+    },
+    "rxn00266": {
+      "dG": 0.0,
+      "status": "estimated"
+    },
+    "rxn00404": {
+      "dG": 3.1,
+      "status": "estimated"
+    },
+    "rxn00931": {
+      "dG": 38.9,
+      "status": "estimated"
+    },
+    "rxn01887": {
+      "dG": 13.8,
+      "status": "estimated"
+    },
+    "rxn02887": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00603": {
+      "dG": -0.7,
+      "status": "estimated"
+    },
+    "rxn01480": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00804": {
+      "dG": 31.1,
+      "status": "estimated"
+    },
+    "rxn00157": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01301": {
+      "dG": 33.4,
+      "status": "estimated"
+    },
+    "rxn01692": {
+      "dG": 4.4,
+      "status": "estimated"
+    },
+    "rxn00911": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn00700": {
+      "dG": 15.5,
+      "status": "estimated"
+    },
+    "rxn00641": {
+      "dG": 7.3,
+      "status": "estimated"
+    },
+    "rxn16141": {
+      "dG": 24.1,
+      "status": "estimated"
+    },
+    "rxn54659": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01022": {
+      "dG": 19.9,
+      "status": "estimated"
+    },
+    "rxn00630": {
+      "dG": 0.5,
+      "status": "estimated"
+    },
+    "rxn00674": {
+      "dG": 3.4,
+      "status": "estimated"
+    },
+    "rxn01019": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn01579": {
+      "dG": 45.8,
+      "status": "estimated"
+    },
+    "rxn03281": {
+      "dG": -7.1,
+      "status": "estimated"
+    },
+    "rxn00276": {
+      "dG": 15.4,
+      "status": "estimated"
+    },
+    "rxn00605": {
+      "dG": -20.2,
+      "status": "estimated"
+    },
+    "rxn04932": {
+      "dG": null,
+      "status": "workflow_no_estimate"
+    },
+    "rxn02403": {
+      "dG": 22.7,
+      "status": "estimated"
+    },
+    "rxn12217": {
+      "dG": -34.8,
+      "status": "estimated"
+    },
+    "rxn03137": {
+      "dG": 25.3,
+      "status": "estimated"
+    }
+  },
+  "estimator_source_sha256": "3d42323af063483c2bcc44f96e8b86ba5ae85024369a39ae59d67f20579dcd47",
+  "raw_species_source_sha256": "dec7fca2fe0078ce06099c945756abaaf9cc81602d32d9a9a25d487f5d596828",
+  "model_checkpoint_sha256": "b2673b85037b075674c25f55c34ffe1ff1e15db924be977b10a184765df0d5ce"
+}

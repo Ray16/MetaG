@@ -1,0 +1,247 @@
+[
+  {
+    "reaction": "rxn00191",
+    "original_input": {
+      "EC": "2.6.1.2",
+      "n_Hplus": 0,
+      "note": "TECRDB rxn00191 alanine transaminase | flags=CLEAN(tractable)",
+      "species": {
+        "2-Oxoglutarate": [
+          -1,
+          -2,
+          "O=C([O-])CCC(=O)C(=O)[O-]"
+        ],
+        "L-Alanine": [
+          -1,
+          0,
+          "C[C@H]([NH3+])C(=O)[O-]"
+        ],
+        "Pyruvate": [
+          1,
+          -1,
+          "CC(=O)C(=O)[O-]"
+        ],
+        "L-Glutamate": [
+          1,
+          -1,
+          "[NH3+][C@@H](CCC(=O)[O-])C(=O)[O-]"
+        ]
+      },
+      "exp_exclusions": {
+        "Mg_condition_unspecified": 12,
+        "missing_or_invalid_Kprime": 1
+      },
+      "exp": [],
+      "exp_n": 0,
+      "exp_reference_id": "36bb6318f5a72df9b0a531e204c420da651353a4480708e5f449807f062c2a0c",
+      "exp_status": "unresolved_reference",
+      "exp_conditions": "pH 7, I 0, pMg 14; temperature as measured (not a 298.15 K normalization)",
+      "exp_temperatures_K": [],
+      "exp_I_imputed": false,
+      "exp_sd": null,
+      "exp_source_rows": []
+    },
+    "atom_order_only_input": {
+      "EC": "2.6.1.2",
+      "n_Hplus": 0,
+      "note": "TECRDB rxn00191 alanine transaminase | flags=CLEAN(tractable)",
+      "species": {
+        "2-Oxoglutarate": [
+          -1,
+          -2,
+          "C(=O)([O-])C(CCC(=O)[O-])=O"
+        ],
+        "L-Alanine": [
+          -1,
+          0,
+          "[O-]C(=O)[C@@H]([NH3+])C"
+        ],
+        "Pyruvate": [
+          1,
+          -1,
+          "[O-]C(=O)C(C)=O"
+        ],
+        "L-Glutamate": [
+          1,
+          -1,
+          "C(=O)([C@@H]([NH3+])CCC([O-])=O)[O-]"
+        ]
+      },
+      "exp_exclusions": {
+        "Mg_condition_unspecified": 12,
+        "missing_or_invalid_Kprime": 1
+      },
+      "exp": [],
+      "exp_n": 0,
+      "exp_reference_id": "36bb6318f5a72df9b0a531e204c420da651353a4480708e5f449807f062c2a0c",
+      "exp_status": "unresolved_reference",
+      "exp_conditions": "pH 7, I 0, pMg 14; temperature as measured (not a 298.15 K normalization)",
+      "exp_temperatures_K": [],
+      "exp_I_imputed": false,
+      "exp_sd": null,
+      "exp_source_rows": []
+    }
+  },
+  {
+    "reaction": "rxn01204",
+    "original_input": {
+      "EC": "2.6.1.19",
+      "n_Hplus": 0,
+      "note": "TECRDB rxn01204 4-aminobutyrate transaminase | flags=CLEAN(tractable)",
+      "species": {
+        "2-Oxoglutarate": [
+          -1,
+          -2,
+          "O=C([O-])CCC(=O)C(=O)[O-]"
+        ],
+        "GABA": [
+          -1,
+          0,
+          "[NH3+]CCCC(=O)[O-]"
+        ],
+        "L-Glutamate": [
+          1,
+          -1,
+          "[NH3+][C@@H](CCC(=O)[O-])C(=O)[O-]"
+        ],
+        "4-Oxobutanoate": [
+          1,
+          -1,
+          "O=CCCC(=O)[O-]"
+        ]
+      },
+      "exp_exclusions": {
+        "Mg_condition_unspecified": 4
+      },
+      "exp": [],
+      "exp_n": 0,
+      "exp_reference_id": "36bb6318f5a72df9b0a531e204c420da651353a4480708e5f449807f062c2a0c",
+      "exp_status": "unresolved_reference",
+      "exp_conditions": "pH 7, I 0, pMg 14; temperature as measured (not a 298.15 K normalization)",
+      "exp_temperatures_K": [],
+      "exp_I_imputed": false,
+      "exp_sd": null,
+      "exp_source_rows": []
+    },
+    "atom_order_only_input": {
+      "EC": "2.6.1.19",
+      "n_Hplus": 0,
+      "note": "TECRDB rxn01204 4-aminobutyrate transaminase | flags=CLEAN(tractable)",
+      "species": {
+        "2-Oxoglutarate": [
+          -1,
+          -2,
+          "[O-]C(C(=O)CCC(=O)[O-])=O"
+        ],
+        "GABA": [
+          -1,
+          0,
+          "C(CC[NH3+])C(=O)[O-]"
+        ],
+        "L-Glutamate": [
+          1,
+          -1,
+          "C([C@@H]([NH3+])CCC(=O)[O-])([O-])=O"
+        ],
+        "4-Oxobutanoate": [
+          1,
+          -1,
+          "C(=O)([O-])CCC=O"
+        ]
+      },
+      "exp_exclusions": {
+        "Mg_condition_unspecified": 4
+      },
+      "exp": [],
+      "exp_n": 0,
+      "exp_reference_id": "36bb6318f5a72df9b0a531e204c420da651353a4480708e5f449807f062c2a0c",
+      "exp_status": "unresolved_reference",
+      "exp_conditions": "pH 7, I 0, pMg 14; temperature as measured (not a 298.15 K normalization)",
+      "exp_temperatures_K": [],
+      "exp_I_imputed": false,
+      "exp_sd": null,
+      "exp_source_rows": []
+    }
+  },
+  {
+    "reaction": "rxn02320",
+    "original_input": {
+      "EC": "2.6.1.9",
+      "n_Hplus": 0,
+      "note": "TECRDB rxn02320 histidinol-phosphate transaminase | flags=CLEAN(tractable)",
+      "species": {
+        "2-Oxoglutarate": [
+          -1,
+          -2,
+          "O=C([O-])CCC(=O)C(=O)[O-]"
+        ],
+        "L-histidinol-phosphate": [
+          -1,
+          -1,
+          "[NH3+][C@H](COP(=O)([O-])[O-])Cc1c[nH]cn1"
+        ],
+        "L-Glutamate": [
+          1,
+          -1,
+          "[NH3+][C@@H](CCC(=O)[O-])C(=O)[O-]"
+        ],
+        "imidazole acetol-phosphate": [
+          1,
+          -2,
+          "O=C(COP(=O)([O-])[O-])Cc1c[nH]cn1"
+        ]
+      },
+      "exp_exclusions": {
+        "Mg_condition_unspecified": 1
+      },
+      "exp": [],
+      "exp_n": 0,
+      "exp_reference_id": "36bb6318f5a72df9b0a531e204c420da651353a4480708e5f449807f062c2a0c",
+      "exp_status": "unresolved_reference",
+      "exp_conditions": "pH 7, I 0, pMg 14; temperature as measured (not a 298.15 K normalization)",
+      "exp_temperatures_K": [],
+      "exp_I_imputed": false,
+      "exp_sd": null,
+      "exp_source_rows": []
+    },
+    "atom_order_only_input": {
+      "EC": "2.6.1.9",
+      "n_Hplus": 0,
+      "note": "TECRDB rxn02320 histidinol-phosphate transaminase | flags=CLEAN(tractable)",
+      "species": {
+        "2-Oxoglutarate": [
+          -1,
+          -2,
+          "C(CCC(C(=O)[O-])=O)([O-])=O"
+        ],
+        "L-histidinol-phosphate": [
+          -1,
+          -1,
+          "c1(C[C@H]([NH3+])COP([O-])([O-])=O)nc[nH]c1"
+        ],
+        "L-Glutamate": [
+          1,
+          -1,
+          "C(CC[C@@H](C([O-])=O)[NH3+])(=O)[O-]"
+        ],
+        "imidazole acetol-phosphate": [
+          1,
+          -2,
+          "[O-]P([O-])(OCC(Cc1c[nH]cn1)=O)=O"
+        ]
+      },
+      "exp_exclusions": {
+        "Mg_condition_unspecified": 1
+      },
+      "exp": [],
+      "exp_n": 0,
+      "exp_reference_id": "36bb6318f5a72df9b0a531e204c420da651353a4480708e5f449807f062c2a0c",
+      "exp_status": "unresolved_reference",
+      "exp_conditions": "pH 7, I 0, pMg 14; temperature as measured (not a 298.15 K normalization)",
+      "exp_temperatures_K": [],
+      "exp_I_imputed": false,
+      "exp_sd": null,
+      "exp_source_rows": []
+    }
+  }
+]

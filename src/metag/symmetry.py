@@ -30,18 +30,21 @@ def _com_frame(symbols, coords):
 
 def is_linear(symbols, coords, tol=0.05):
     """True if all atoms are collinear (linear molecule / diatomic). tol in Angstrom."""
-    x, m = _com_frame(symbols, coords)
+    x, _ = _com_frame(symbols, coords)
     if len(x) <= 1:
         return False                                    # monatomic handled separately
     if len(x) == 2:
         return True
-    # inertia tensor: linear => one principal moment ~ 0 and the other two ~ equal
-    I = np.zeros((3, 3))
-    for mi, ri in zip(m, x):
-        I += mi * (np.dot(ri, ri) * np.eye(3) - np.outer(ri, ri))
-    w = np.sort(np.linalg.eigvalsh(I))                  # ascending
-    # smallest ~0 relative to the largest, and the top two comparable
-    return w[0] < 1e-3 * max(w[2], 1e-9) or w[0] < 0.5
+    # Best-fit line through the geometric centroid, independent of atomic mass.
+    # Bound both absolute transverse displacement and the relative geometric
+    # rank; an absolute inertia floor misclassified strongly bent light species.
+    x = x - x.mean(axis=0)
+    _, singular, axes = np.linalg.svd(x, full_matrices=False)
+    if singular[0] <= np.finfo(float).eps:
+        return False  # coincident atoms do not establish a molecular axis
+    transverse = x - np.outer(x @ axes[0], axes[0])
+    return bool(np.max(np.linalg.norm(transverse, axis=1)) <= tol
+                and singular[1] / singular[0] <= 1e-3)
 
 
 def _rotation_matrix(axis, angle):

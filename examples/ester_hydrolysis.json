@@ -1,0 +1,12 @@
+{
+  "ester_hydrolysis": {
+    "note": "ethyl acetate + H2O -> acetic acid + ethanol",
+    "n_Hplus": 0,
+    "species": {
+      "ethyl_acetate": [-1, 0, "CCOC(C)=O"],
+      "water": [-1, 0, "O"],
+      "acetic_acid": [1, 0, "CC(=O)O"],
+      "ethanol": [1, 0, "CCO"]
+    }
+  }
+}

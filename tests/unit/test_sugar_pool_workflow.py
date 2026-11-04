@@ -78,6 +78,21 @@ def test_public_scoring_uses_every_required_state_and_retains_original_input(pip
     assert 'sigma_pred' not in result and 'ci95' not in result
 
 
+def test_invalid_sugar_state_fails_the_complete_pool(pipeline):
+    scorer, _, _ = pipeline
+    original = scorer.backend.species
+
+    def invalid_state(q, smi, label, warnings, diagnostics):
+        if '(sugar-state)' in label:
+            return float('nan'), 0.1
+        return original(q, smi, label, warnings, diagnostics)
+
+    scorer.backend.species = invalid_state
+    result = scorer.score_reaction(rx(), log=lambda _: None)
+    assert result['dG'] is None
+    assert 'incomplete declared sugar ensemble' in result['suspect']
+
+
 def test_undeclared_source_remains_unresolved_without_species_work(pipeline):
     p,values,calls=pipeline;reaction=rx();reaction.pop('species_state_pools')
     result=p.score_reaction(reaction,log=lambda _:None)

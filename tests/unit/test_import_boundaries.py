@@ -49,8 +49,9 @@ def test_cli_checkpoints_failure_before_scoring_next_reaction(tmp_path, monkeypa
     output = tmp_path / "metag_all.json"
     backend = object()
 
-    def score(rx, be, *, key, log):
+    def score(rx, be, *, key, log, base_reference):
         assert be is backend
+        assert base_reference == 'gated'
         if key == "first":
             raise RuntimeError("backend failure")
         saved = json.loads(output.read_text())
@@ -61,6 +62,8 @@ def test_cli_checkpoints_failure_before_scoring_next_reaction(tmp_path, monkeypa
     monkeypatch.setattr(pipeline, "score_reaction", score)
     rows = run_batch(reactions, ["first", "second"], backend, str(tmp_path), log=lambda *_: None)
     assert [r["reaction"] for r in rows] == ["first", "second"] and rows[0]["dG"] is None
+    assert 'backend failure' in rows[0]['suspect']
+    assert rows[1]['dG'] == 1.0
     assert len(json.loads(output.read_text())) == 2
 
 

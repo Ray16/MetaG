@@ -1,0 +1,13 @@
+{
+  "evaluated_fingerprint": "ccadb915d53ffd77075bbdd9e2d3bdba959a2285bf176806d15242e3b5ae5368",
+  "current_fingerprint": "2fbf84b81445c6c38542142d0c542cc325be67efe5e6e394beb84cd48119c8b0",
+  "raw_species_fingerprint": "c0e6901fdf1303ac3404e7023bc904458679e6ac1f1b4f60834d4ced165cc3fd",
+  "evaluated_version": "0.3.0",
+  "current_version": "0.3.1.dev0",
+  "n_files": 55,
+  "byte_different_files": [
+    "__init__.py"
+  ],
+  "normalized_init_ast_equal": true,
+  "scope": "All package files byte-identical except a literal version-marker assignment; raw-species fingerprint identical. Source-level comparison only; package metadata or runtime introspection may differ."
+}

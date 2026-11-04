@@ -8,6 +8,8 @@ dist/
 .metag_cache/
 metag_out/
 tests/.tmp/
+.ruff_cache/
+diag.log
 # Separate manuscript checkout, synchronized through Overleaf.
 /manuscript/
 /analysis/

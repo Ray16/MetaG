@@ -26,6 +26,8 @@ def sampling_budget(smi, sample_scale=1.0, keep_scale=1.0):
     # pool only); larger values reduce under-counted conformational entropy for floppy species. Cache-keyed.
     if keep_scale != 1:
         keep = int(round(keep * keep_scale)); pool = max(pool, keep * 8)
+    if keep < 1 or pool < 1:
+        raise ValueError("sampling scales produce an empty conformer pool or zero retained conformers")
     return seeds, keep, pool
 
 

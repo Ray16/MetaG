@@ -1,0 +1,82 @@
+{
+  "scope": "Deterministic backend control of dispatch/bookkeeping, no actual UMA energies.",
+  "water": {
+    "O": {
+      "canonical": "O",
+      "is_water": true
+    },
+    "[OH2]": {
+      "canonical": "O",
+      "is_water": true
+    },
+    "[H]O[H]": {
+      "canonical": "O",
+      "is_water": true
+    },
+    "[OH2:1]": {
+      "canonical": "[OH2:1]",
+      "is_water": false
+    }
+  },
+  "hydrolysis": {
+    "O": {
+      "dG": -2212.7,
+      "suspect": null,
+      "water_diagnostic": {
+        "sampling": {
+          "status": "not_applicable"
+        },
+        "method": "liquid_water_reference"
+      },
+      "calls": [
+        [
+          0,
+          "CC(=O)O",
+          "AcOH"
+        ],
+        [
+          0,
+          "CO",
+          "MeOH"
+        ],
+        [
+          0,
+          "COC(C)=O",
+          "MeOAc"
+        ]
+      ]
+    },
+    "[OH2:1]": {
+      "dG": 225.8,
+      "suspect": null,
+      "water_diagnostic": {
+        "sampling": {
+          "status": "unavailable",
+          "reason": "backend did not provide diagnostics"
+        }
+      },
+      "calls": [
+        [
+          0,
+          "CC(=O)O",
+          "AcOH"
+        ],
+        [
+          0,
+          "CO",
+          "MeOH"
+        ],
+        [
+          0,
+          "COC(C)=O",
+          "MeOAc"
+        ],
+        [
+          0,
+          "[OH2:1]",
+          "H2O"
+        ]
+      ]
+    }
+  }
+}

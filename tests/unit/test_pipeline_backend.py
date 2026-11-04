@@ -68,6 +68,29 @@ def test_failed_species_gives_no_estimate(allow_truncate):
     assert "MeOAc" in r["suspect"] and r["routes"]["failed_species"]
 
 
+@pytest.mark.parametrize("energy,sigma", [(float('nan'), 0.1), (float('inf'), 0.1),
+                                         (1.0, None), (1.0, -1.0), (1.0, float('nan')),
+                                         (True, 0.1), (1.0, True)])
+def test_invalid_backend_species_values_fail_closed(energy, sigma):
+    backend = FakeBackend()
+    backend.species = lambda *args: (energy, sigma)
+    result = score_reaction(ESTER_HYDROLYSIS, backend, key="t", log=lambda *_: None,
+                            allow_truncate=False)
+    assert result['dG'] is None
+    assert result['routes']['failed_species']
+    assert any('invalid species energy or sampling diagnostic' in w for w in result['routes']['warnings'])
+
+
+@pytest.mark.parametrize("value", [None, float('nan'), float('inf'), True])
+def test_invalid_water_reference_fails_closed(value):
+    backend = FakeBackend()
+    backend.liquid_water = lambda: value
+    result = score_reaction(ESTER_HYDROLYSIS, backend, key="t", log=lambda *_: None,
+                            allow_truncate=False)
+    assert result['dG'] is None
+    assert 'H2O' in result['routes']['failed_species']
+
+
 def test_explicit_water_request_raises():
     with pytest.raises(ValueError):
         score_reaction(dict(ESTER_HYDROLYSIS, explicit=True), FakeBackend(), key="t", log=lambda *_: None)
@@ -76,6 +99,14 @@ def test_explicit_water_request_raises():
 def test_missing_backend_and_model_is_a_type_error():
     with pytest.raises(TypeError):
         score_reaction(ESTER_HYDROLYSIS, log=lambda *_: None)
+
+
+@pytest.mark.parametrize('bad_reference', [None, '1.2', [True], [float('nan')], [float('inf')], ['1.2']])
+def test_invalid_reference_metadata_is_rejected_before_backend_work(bad_reference):
+    backend = FakeBackend()
+    with pytest.raises(ValueError, match='reaction exp'):
+        score_reaction(dict(ESTER_HYDROLYSIS, exp=bad_reference), backend, log=lambda *_: None)
+    assert backend.calls == []
 
 
 def test_no_estimate_and_effective_config():

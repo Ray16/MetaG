@@ -1,0 +1,8 @@
+{
+  "scope": "Byte-preserved dev24 decision history; historical paths and incomplete-audit statements describe that version, not 0.3.0. The full historical JSON inventory and frozen source remain in the archived workspace.",
+  "files_sha256": {
+    "DECISION_LOG_CURRENT.md": "447ceefacee4f7f1cb93b788e44bb176cb1bdda9de4d7d8ba345ec528100be4a",
+    "decision_exposure_interpretation.json": "724000c04b13f9c99cf8608436d810021726665fe2aec012aaadfaef88c92c0a",
+    "decision_inventory_current.tsv": "cc9c128a5ff113062454f894da39f91fc7974cb44f4a64eda4a6fade890f033a"
+  }
+}

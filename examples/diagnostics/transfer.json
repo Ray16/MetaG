@@ -1,0 +1,24 @@
+{
+  "charge": 0,
+  "standard_state": "1M_gas_to_1M_solution",
+  "rt_kj": 2.4789,
+  "states": [
+    {
+      "id": "conformer_1",
+      "electronic_kj": 0,
+      "thermal_kj": 0,
+      "solvation_kj": -10
+    },
+    {
+      "id": "conformer_2",
+      "electronic_kj": 3,
+      "thermal_kj": 0,
+      "solvation_kj": -5
+    }
+  ],
+  "reference_center_kj": 0,
+  "reference_interval_kj": [
+    -1,
+    1
+  ]
+}

@@ -48,6 +48,22 @@ def test_mostly_failed_solvation_fails_the_species(sampled):
     assert any('species failed' in w for w in warnings)
 
 
+def test_mixed_identity_and_solvation_failures_do_not_claim_all_rearranged(sampled):
+    run, _, writes = sampled
+    result, _, warnings = run(['rearranged', 'nonfinite_solv_low'])
+    assert result == (None, None)
+    assert not writes
+    assert any('1 identity failures, 1 solvation failures' in message for message in warnings)
+
+
+def test_all_checked_conformers_rearranged_still_raises(sampled):
+    from metag.energetics.errors import SpeciesRearranged
+    run, _, writes = sampled
+    with pytest.raises(SpeciesRearranged, match='connectivity or specified stereochemistry'):
+        run(['rearranged', 'rearranged'])
+    assert not writes
+
+
 @pytest.mark.parametrize('empty_kind',['unconverged','rearranged','stereo_changed','nonfinite_gas'])
 def test_empty_batches_cannot_manufacture_plateau_or_successful_trajectory(sampled,empty_kind):
     run,state,_=sampled

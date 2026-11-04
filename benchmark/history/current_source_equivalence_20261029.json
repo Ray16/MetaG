@@ -1,0 +1,239 @@
+{
+  "evaluated_fingerprint": "6662bffb1b34a2dba2f2a58792ba54dae56bdf246bc1523f81ecbfb7f288eb54",
+  "current_fingerprint": "79b5006e1d6beaf85e4d476e7ed08120fe963346efebdbe8cbbec3e390eb40fc",
+  "n_evaluated_files": 55,
+  "n_current_files": 55,
+  "missing_current": [],
+  "missing_evaluated": [],
+  "byte_changed_files": [
+    "routing/aldehyde_hydration.py",
+    "routing/pka_transform.py",
+    "routing/truncate.py",
+    "routing/truncation_gate.py"
+  ],
+  "semantic_tree_differences": [],
+  "files": {
+    "__init__.py": {
+      "evaluated_sha256": "31d8c1717694410a270f3f1435999bb8537bba34ed268b071ef45ba1a3ca3f79",
+      "current_sha256": "31d8c1717694410a270f3f1435999bb8537bba34ed268b071ef45ba1a3ca3f79"
+    },
+    "assembly.py": {
+      "evaluated_sha256": "fdb8b8a5fc24e7041f810c5b9375311e45153a6161219c7c5138d185f1e9d8c2",
+      "current_sha256": "fdb8b8a5fc24e7041f810c5b9375311e45153a6161219c7c5138d185f1e9d8c2"
+    },
+    "chem.py": {
+      "evaluated_sha256": "e9515d3c457b1c8885e1a85fc773316698defaf1fbe4f33846335d479abe6e0a",
+      "current_sha256": "e9515d3c457b1c8885e1a85fc773316698defaf1fbe4f33846335d479abe6e0a"
+    },
+    "cli.py": {
+      "evaluated_sha256": "e588f458c1cb529531894381b8ca1cb84bd1397d24699805a3233d2a02ffac86",
+      "current_sha256": "e588f458c1cb529531894381b8ca1cb84bd1397d24699805a3233d2a02ffac86"
+    },
+    "constants.py": {
+      "evaluated_sha256": "a3b08893aaef92e46973670916801e537e5726f4ab4b93ca9fa20782b87ef0f9",
+      "current_sha256": "a3b08893aaef92e46973670916801e537e5726f4ab4b93ca9fa20782b87ef0f9"
+    },
+    "data/reactions_opentecr_std.json": {
+      "evaluated_sha256": "69a54e6887cffffb53b25577f2cbc330acdfa78aae33bad726ec11f653f01d30",
+      "current_sha256": "69a54e6887cffffb53b25577f2cbc330acdfa78aae33bad726ec11f653f01d30"
+    },
+    "data/source_protonation_models.json": {
+      "evaluated_sha256": "c089a9ff545f6022d528f5d0b80817223353c60d2bb4b644ccbceb56cc313d2e",
+      "current_sha256": "c089a9ff545f6022d528f5d0b80817223353c60d2bb4b644ccbceb56cc313d2e"
+    },
+    "energetics/__init__.py": {
+      "evaluated_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "energetics/aqueous_states.py": {
+      "evaluated_sha256": "f128b3c7ad58e40c7a04affec45dcedcc40f8ec4fc9c8619015d435d1d29abdb",
+      "current_sha256": "f128b3c7ad58e40c7a04affec45dcedcc40f8ec4fc9c8619015d435d1d29abdb"
+    },
+    "energetics/backend.py": {
+      "evaluated_sha256": "f3ed9becefbeb27cbe8f5e951ab19036bd0c314e43bbc6e6a4e4c509dc14965c",
+      "current_sha256": "f3ed9becefbeb27cbe8f5e951ab19036bd0c314e43bbc6e6a4e4c509dc14965c"
+    },
+    "energetics/conformers.py": {
+      "evaluated_sha256": "43515b47119f3fda40cb2a0e39c6d3b654a035749af0fc7040d1cea9aa1523a6",
+      "current_sha256": "43515b47119f3fda40cb2a0e39c6d3b654a035749af0fc7040d1cea9aa1523a6"
+    },
+    "energetics/errors.py": {
+      "evaluated_sha256": "3edea832ef4ae822c7d36801dff46713c2910cd5248382c07877c25914dce986",
+      "current_sha256": "3edea832ef4ae822c7d36801dff46713c2910cd5248382c07877c25914dce986"
+    },
+    "energetics/microstates.py": {
+      "evaluated_sha256": "9e0a9bca07bb5a7ec9b362bbe2cb26f6f68719175fdbd277aeb989e723b9dc49",
+      "current_sha256": "9e0a9bca07bb5a7ec9b362bbe2cb26f6f68719175fdbd277aeb989e723b9dc49"
+    },
+    "energetics/minimum_optimizer.py": {
+      "evaluated_sha256": "c2001c0bb08286ed76ce4bc0a10fe01764829a69bebd9191e8deebfd342e5208",
+      "current_sha256": "c2001c0bb08286ed76ce4bc0a10fe01764829a69bebd9191e8deebfd342e5208"
+    },
+    "energetics/official_uma.py": {
+      "evaluated_sha256": "679b1af449cef4c91b8f0ace192c4dc7d48ad10762124aa1a06003d1c23461cd",
+      "current_sha256": "679b1af449cef4c91b8f0ace192c4dc7d48ad10762124aa1a06003d1c23461cd"
+    },
+    "energetics/protonation.py": {
+      "evaluated_sha256": "eea65e818bf667da6aa9160d252b97660966a6ff7294691899d8266366d6f8e0",
+      "current_sha256": "eea65e818bf667da6aa9160d252b97660966a6ff7294691899d8266366d6f8e0"
+    },
+    "energetics/protonation_models.py": {
+      "evaluated_sha256": "8f8f733944c2df422d946498864673372613af616eda09a76e02baba5285078a",
+      "current_sha256": "8f8f733944c2df422d946498864673372613af616eda09a76e02baba5285078a"
+    },
+    "energetics/provenance.py": {
+      "evaluated_sha256": "284a7be2a00890e5be635ada120e065c99530a0b061af8c86cdf0b50e62d142f",
+      "current_sha256": "284a7be2a00890e5be635ada120e065c99530a0b061af8c86cdf0b50e62d142f"
+    },
+    "energetics/sampling.py": {
+      "evaluated_sha256": "0afc16f50b9f3af77a1dc6980cc3a05413073ab3aab98b0b149778c9b15c0077",
+      "current_sha256": "0afc16f50b9f3af77a1dc6980cc3a05413073ab3aab98b0b149778c9b15c0077"
+    },
+    "energetics/species.py": {
+      "evaluated_sha256": "deb5a8c0bdbd71f35e1084c576a436f086dcd5f72275157244f0f3a082e0e6d8",
+      "current_sha256": "deb5a8c0bdbd71f35e1084c576a436f086dcd5f72275157244f0f3a082e0e6d8"
+    },
+    "energetics/species_cache.py": {
+      "evaluated_sha256": "0384529e591a21103fc34c84baf81b5512e8ffa8d7b0a1f0c45d8d5d7cf32de4",
+      "current_sha256": "0384529e591a21103fc34c84baf81b5512e8ffa8d7b0a1f0c45d8d5d7cf32de4"
+    },
+    "energetics/thermal.py": {
+      "evaluated_sha256": "164617d2d57f87f190773acfa88a4714927320ca8d53162eafb33077d3ab1f86",
+      "current_sha256": "164617d2d57f87f190773acfa88a4714927320ca8d53162eafb33077d3ab1f86"
+    },
+    "energetics/thermal_ensemble.py": {
+      "evaluated_sha256": "9f5919693ba1ccb008623dbc6fdc003831c97644e84334fcaf3c77e9c3605ae0",
+      "current_sha256": "9f5919693ba1ccb008623dbc6fdc003831c97644e84334fcaf3c77e9c3605ae0"
+    },
+    "energetics/uma.py": {
+      "evaluated_sha256": "15542b3cacc9b78ce205a5e214181015c092c78c511b902339cb89525583725f",
+      "current_sha256": "15542b3cacc9b78ce205a5e214181015c092c78c511b902339cb89525583725f"
+    },
+    "execution/__init__.py": {
+      "evaluated_sha256": "7ae0822669cf11e4943e17ea374ee86f85e9a8ac2beb6b4fc029e23d30f3073f",
+      "current_sha256": "7ae0822669cf11e4943e17ea374ee86f85e9a8ac2beb6b4fc029e23d30f3073f"
+    },
+    "execution/filesystem.py": {
+      "evaluated_sha256": "88d77a6386d6f5dea086dc4f6c659d42f6ae0fbb5d8b95b027ad10a1e05543ec",
+      "current_sha256": "88d77a6386d6f5dea086dc4f6c659d42f6ae0fbb5d8b95b027ad10a1e05543ec"
+    },
+    "pipeline.py": {
+      "evaluated_sha256": "3bb9184976657df06933e8240c19eed92289ceb9c1b08362b44db6723eeb49a1",
+      "current_sha256": "3bb9184976657df06933e8240c19eed92289ceb9c1b08362b44db6723eeb49a1"
+    },
+    "protonation_registry.py": {
+      "evaluated_sha256": "33e615581e15c26449c94ce90be4c45f2ca6c2590af8a127b686743614ffd366",
+      "current_sha256": "33e615581e15c26449c94ce90be4c45f2ca6c2590af8a127b686743614ffd366"
+    },
+    "reactions.py": {
+      "evaluated_sha256": "1485ab5a78478a1d199b9de479c4d1b3c829bae74d9b123124571c1e57a58155",
+      "current_sha256": "1485ab5a78478a1d199b9de479c4d1b3c829bae74d9b123124571c1e57a58155"
+    },
+    "routing/__init__.py": {
+      "evaluated_sha256": "8b49244de00441e059d7ed4ece4f9fff8eb61651c8f9e1e9f2099e00d91a5627",
+      "current_sha256": "8b49244de00441e059d7ed4ece4f9fff8eb61651c8f9e1e9f2099e00d91a5627"
+    },
+    "routing/aldehyde_hydration.py": {
+      "evaluated_sha256": "bcc63d681f77d3c68ba637c96a7a6079b5fec2cc55d5078fddbff3add83320b3",
+      "current_sha256": "ed934c622bc8f4bb7d8193a191815d6b830afb5151221cd4b851c80757ebcaa1"
+    },
+    "routing/cofactor_cores.py": {
+      "evaluated_sha256": "325c8c71b4156ec8b8a8791719aeef00175ca4d80a8f3a1cbe2a68a991534e5f",
+      "current_sha256": "325c8c71b4156ec8b8a8791719aeef00175ca4d80a8f3a1cbe2a68a991534e5f"
+    },
+    "routing/ntp_core.py": {
+      "evaluated_sha256": "94078ffade25cb0251b126eef30163a5855205c4668b802815ab60db16377eb9",
+      "current_sha256": "94078ffade25cb0251b126eef30163a5855205c4668b802815ab60db16377eb9"
+    },
+    "routing/pka_domain.py": {
+      "evaluated_sha256": "0e0ca7f0672bd8747de9a739f2b613a032432bd65a72cc50d5fc3e9722dff83d",
+      "current_sha256": "0e0ca7f0672bd8747de9a739f2b613a032432bd65a72cc50d5fc3e9722dff83d"
+    },
+    "routing/pka_transform.py": {
+      "evaluated_sha256": "c930fd4f8faf8f7d169e8c08d436f1157ab3df9663de2fec2083644e1d46f96f",
+      "current_sha256": "3e057f9b8e11c248b3782d01ecd1048e0225c8a8bf6d97566d859ab828a8bcd7"
+    },
+    "routing/planner.py": {
+      "evaluated_sha256": "90e4476e06fb2dd8bc563238ed27a6d82c47cff6f57bd7a283cfa13dc6db54d6",
+      "current_sha256": "90e4476e06fb2dd8bc563238ed27a6d82c47cff6f57bd7a283cfa13dc6db54d6"
+    },
+    "routing/sugar_states.py": {
+      "evaluated_sha256": "bf80ed5ce1c6bc9279440c077ee809816e48a58129f46c77bcb6816352ba4fd0",
+      "current_sha256": "bf80ed5ce1c6bc9279440c077ee809816e48a58129f46c77bcb6816352ba4fd0"
+    },
+    "routing/truncate.py": {
+      "evaluated_sha256": "f4d798ddaf0f658b4955b1d65640932ddde6f3b722eb50c159d27d386e0065c9",
+      "current_sha256": "869149b226d82a87917390b566d07e1cedddb0d4d0753d5bc116d5f195055fca"
+    },
+    "routing/truncation_gate.py": {
+      "evaluated_sha256": "29ee589acbb47e9c6b4ae70983de0fa4447ba2cbb777d6a73894dd7a09420172",
+      "current_sha256": "961c1a7d76be5cbd09915b71147aaadb9b44fdd180bf4020c5cdb36c4bbee953"
+    },
+    "settings.py": {
+      "evaluated_sha256": "5e7db534c5b9760fc9ba000c2b02ab681abe173ec526c7a0be115d81360fb0c2",
+      "current_sha256": "5e7db534c5b9760fc9ba000c2b02ab681abe173ec526c7a0be115d81360fb0c2"
+    },
+    "state_pools.py": {
+      "evaluated_sha256": "4a6cab1015585777e65e024162495b79dd9a9e198661c863fba054b9efb68676",
+      "current_sha256": "4a6cab1015585777e65e024162495b79dd9a9e198661c863fba054b9efb68676"
+    },
+    "symmetry.py": {
+      "evaluated_sha256": "da1f5cc289b7cbdcfa557abd761620c68624570d542a5e7515abca81fc2bc49a",
+      "current_sha256": "da1f5cc289b7cbdcfa557abd761620c68624570d542a5e7515abca81fc2bc49a"
+    },
+    "timing.py": {
+      "evaluated_sha256": "fd892ec53fabe6976bc4662c7982b32ce8e3b0014f79942e229ee4079e1fbf4d",
+      "current_sha256": "fd892ec53fabe6976bc4662c7982b32ce8e3b0014f79942e229ee4079e1fbf4d"
+    },
+    "tools/__init__.py": {
+      "evaluated_sha256": "d8bf76e68668efa9d0f03b59e7cce61912a2f3234955c9173a9d60027dca52f0",
+      "current_sha256": "d8bf76e68668efa9d0f03b59e7cce61912a2f3234955c9173a9d60027dca52f0"
+    },
+    "tools/build_reference.py": {
+      "evaluated_sha256": "6c46afb216fbc4da567a853e9fdf598487d2bc409c2103ff0af53daa51391a77",
+      "current_sha256": "6c46afb216fbc4da567a853e9fdf598487d2bc409c2103ff0af53daa51391a77"
+    },
+    "tools/evaluate.py": {
+      "evaluated_sha256": "4d9facb5b39508b0769f0d9faa26d892f1e2acfe3280fc2b9067dd4105140bb6",
+      "current_sha256": "4d9facb5b39508b0769f0d9faa26d892f1e2acfe3280fc2b9067dd4105140bb6"
+    },
+    "tools/preflight.py": {
+      "evaluated_sha256": "876904d68d2c8c727eb993e8ac96aa324db78d082a8a177fca235a25f0fbc196",
+      "current_sha256": "876904d68d2c8c727eb993e8ac96aa324db78d082a8a177fca235a25f0fbc196"
+    },
+    "validation/__init__.py": {
+      "evaluated_sha256": "b2c2e342d6be8c6aa1bd24d3148c5882134e94d79472a33923080c862171efc7",
+      "current_sha256": "b2c2e342d6be8c6aa1bd24d3148c5882134e94d79472a33923080c862171efc7"
+    },
+    "validation/evaluation.py": {
+      "evaluated_sha256": "da187a07a7d2022f442b920a51d8aea21c8c23792b9c9f78f1cc6172c0bf6478",
+      "current_sha256": "da187a07a7d2022f442b920a51d8aea21c8c23792b9c9f78f1cc6172c0bf6478"
+    },
+    "validation/evaluation_conditions.py": {
+      "evaluated_sha256": "3ce159352892c68561eedbf67cc54f81f866c90301837bca3b644e195b88fd69",
+      "current_sha256": "3ce159352892c68561eedbf67cc54f81f866c90301837bca3b644e195b88fd69"
+    },
+    "validation/protonation.py": {
+      "evaluated_sha256": "0e6a9323ac3f968b8e8f4442a2fc9f3571cdfa241be5d7b02a57e2b6b16d941d",
+      "current_sha256": "0e6a9323ac3f968b8e8f4442a2fc9f3571cdfa241be5d7b02a57e2b6b16d941d"
+    },
+    "validation/provenance.py": {
+      "evaluated_sha256": "173690dd5baffad05446ad8174cefd1ee77a00750000e769828c26ea5edea65a",
+      "current_sha256": "173690dd5baffad05446ad8174cefd1ee77a00750000e769828c26ea5edea65a"
+    },
+    "validation/reference_conditions.py": {
+      "evaluated_sha256": "46e58620baaba751d8730021024025339446d51fcf017b87e8d47d4a7b10d533",
+      "current_sha256": "46e58620baaba751d8730021024025339446d51fcf017b87e8d47d4a7b10d533"
+    },
+    "validation/reference_transform.py": {
+      "evaluated_sha256": "279f8085f93b7c08c7c1b0b7243381d4196ee059294219fc07d2ff5c7b15b65a",
+      "current_sha256": "279f8085f93b7c08c7c1b0b7243381d4196ee059294219fc07d2ff5c7b15b65a"
+    },
+    "validation/stereochemistry.py": {
+      "evaluated_sha256": "d4fc6b37d3bdeda36ef6474e40ca26bf4f2f4a44c7fd74ff0ae211da10450360",
+      "current_sha256": "d4fc6b37d3bdeda36ef6474e40ca26bf4f2f4a44c7fd74ff0ae211da10450360"
+    }
+  },
+  "python_version": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "scope": "Python AST comparison after removing docstrings and byte comparison of packaged JSON. Not a runtime equivalence proof; source-byte or docstring introspection may differ."
+}

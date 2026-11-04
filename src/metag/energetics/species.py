@@ -5,7 +5,7 @@
 over the unique, validated gas-phase minima i. Conformer seed batches are added until the ensemble free
 energy and the lowest electronic energy both stop moving (a plateau heuristic, not a completeness proof).
 Every sampled minimum must pass strict thermal validation (no imaginary mode after one tight
-re-optimisation, mode following or artefact probing); any unresolved minimum fails the species instead of
+re-optimisation or mode following); any unresolved minimum fails the species instead of
 being dropped. Values are on the 1 atm gas standard state; the 1 M correction is added by the caller.
 """
 import time
@@ -19,7 +19,7 @@ from metag.constants import EV2KJ
 from metag.energetics import species_cache as cache
 from metag.energetics.conformers import (XTB_WORKERS, UniqueMinima, bond_graph, boltz, pool_confs,
                                          same_connectivity, same_stereochemistry, spin_multiplicity)
-from metag.energetics.errors import SpeciesRearranged
+from metag.energetics.errors import SpeciesRearranged, SymmetryEnumerationError
 from metag.energetics.provenance import ordered_geometry_record
 from metag.energetics.sampling import sampling_budget, sampling_diagnostics, species_diagnostics
 from metag.energetics.thermal import dgsolv, uma_gibbs_corr
@@ -55,8 +55,8 @@ def species_free_energy(pu, q, smi, name, *, settings, model_name, producer, log
                         diagnostics=None):
     """(G, sigma) in kJ/mol for species `smi` with formal charge `q`, or (None, None) if it fails.
 
-    Raises SpeciesRearranged when every sampled conformer changed bonding during gas relaxation (e.g. a
-    zwitterion's proton transfer): the species is not a gas-phase minimum under this SMILES. Species-level
+    Raises SpeciesRearranged when every converged, evaluated conformer fails the connectivity or specified
+    stereochemistry check. This does not establish that no minimum exists. Species-level
     problems are appended to `warnings` and stored with the cached value, so a cache hit reports them too.
     `diagnostics` receives sampling and thermal metadata."""
     # Cache identity and the finite conformer search use the same atom ordering.
@@ -82,7 +82,13 @@ def species_free_energy(pu, q, smi, name, *, settings, model_name, producer, log
         log(f"    {name:9s} q{q:+d} [open-shell: spin multiplicity {mult}]")
     _, keep, pool = sampling_budget(smi, sample_scale=settings.sample_scale, keep_scale=settings.keep_scale)
     ref_graph = bond_graph(template)
-    uniq = UniqueMinima(template=template)
+    try:
+        uniq = UniqueMinima(template=template)
+    except SymmetryEnumerationError as exc:
+        warnings.append(f"{name} ({smi}): {exc}; species failed")
+        if diagnostics is not None:
+            diagnostics['sampling'] = {'status': 'incomplete', 'reason': str(exc)}
+        return None, None
     # CONNECTIVITY GUARD: a conformer whose bonding or stereochemistry changed during relaxation is a
     # different species; such conformers are set aside.
     rearranged = []
@@ -150,8 +156,12 @@ def species_free_energy(pu, q, smi, name, *, settings, model_name, producer, log
         prev_Gens, prev_best = Gens, best_E
     sp_warn = []
     if not uniq.G:
-        if rearranged:
+        if rearranged and len(rearranged) == n_relaxed:
             raise SpeciesRearranged(name, smi, len(rearranged))
+        if rearranged or n_xtb_fail:
+            warnings.append(f"{name} ({smi}): no usable conformers "
+                            f"({len(rearranged)} identity failures, {n_xtb_fail} solvation failures, "
+                            f"{n_relaxed} converged conformers)")
         return None, None
     if rearranged:
         log(f"    {name}: {len(rearranged)} conformer(s) changed bonding during relaxation -> excluded")
@@ -282,7 +292,7 @@ def _validated_minima(ctx, uniq, template, ref_graph, q, mult, *, track, diagnos
         "n_merged_after_resolution": len(uniq.G) - len(output.G),
         "validation_maximum": s.thermal_validation_max, "resolution_kinds": kinds,
         "optimizer_trials": optimizer_trials,
-        "validation_scope": "all sampled candidates; heuristic mode-following artefact test; no unsampled-basin bound",
+        "validation_scope": "all sampled candidates; strict Hessian after mode following; no unsampled-basin bound",
         "validated_minima": [
             {"electronic_kj": e, "solvation_kj": vertical - e, "thermal_kj": g,
              "total_kj": vertical + g,
@@ -299,7 +309,7 @@ def _thermal_at_minimum(ctx, uniq, template, ref_graph, q, mult, *, optimization
     tightly (fmax 0.01 eV/Å); if still not a minimum, every strong imaginary mode is followed; else the
     next candidate is tried. Returns (Gcorr, info, resolution) or (None, per-candidate info, resolution).
 
-    resolution = {"index": accepted minimum index or None, "kind": "as_is" | "artefact" | "retightened" |
+    resolution = {"index": accepted minimum index or None, "kind": "as_is" | "retightened" |
     "mode_followed" | None, "pos": geometry the correction belongs to, "rejected": [indices that are not
     minima]}. _apply_resolution makes E, ΔG_solv, geometry and Gcorr refer to the SAME structure."""
     pu, s, name, log = ctx.pu, ctx.settings, ctx.name, ctx.log
@@ -327,14 +337,10 @@ def _thermal_at_minimum(ctx, uniq, template, ref_graph, q, mult, *, optimization
                 return g, info, {"index": j, "kind": "retightened" if attempt else "as_is", "pos": pos,
                                  "rejected": rejected}
             if attempt == 1:
-                # A harmless strongest mode does not establish that every other negative mode is harmless.
-                all_artefacts = bool(vecs) and len(vecs) == info["n_imag"]
                 for mode in vecs:
                     verdict, new_pos = _follow_imaginary_mode(ctx, syms, pos, mode, q, mult, ref_graph,
                                                               template=template,
                                                               optimization_steps=optimization_steps)
-                    if verdict != "artefact":
-                        all_artefacts = False
                     if verdict == "saddle":
                         g2, info2 = _gibbs_corr(ctx, syms, new_pos, q, mult)
                         record_thermal(new_pos, g2, info2)
@@ -343,13 +349,9 @@ def _thermal_at_minimum(ctx, uniq, template, ref_graph, q, mult, *, optimization
                             info2.update(retightened=True, mode_followed=True)
                             return g2, info2, {"index": j, "kind": "mode_followed", "pos": new_pos,
                                               "rejected": rejected}
-                if all_artefacts:
-                    g_soft, info_soft = _gibbs_corr(ctx, syms, pos, q, mult, imag_as_soft=True)
-                    info_soft.pop("_imag_vecs")
-                    info_soft.update(retightened=True, imag_artefact_cm=info["max_imag_cm"],
-                                     n_imag_probed=len(vecs))
-                    kind = "retightened" if pos is not pos0 else "artefact"
-                    return g_soft, info_soft, {"index": j, "kind": kind, "pos": pos, "rejected": rejected}
+                # Failed descent is not evidence that negative curvature is an
+                # artefact. Only an endpoint passing its own strict Hessian can
+                # replace the original candidate; never soften a strong mode.
             tried.append(info["max_imag_cm"])
             if attempt == 0:                              # re-optimise tightly once, keep only if unrearranged
                 at = Atoms(symbols=syms, positions=pos, info={"charge": int(q), "spin": int(mult)})
@@ -423,10 +425,12 @@ def _apply_resolution(ctx, uniq, res, template, q, mult):
     return j
 
 
-def _follow_imaginary_mode(ctx, syms, pos, mode, q, mult, ref_graph, step=0.1, drop_kJ=1.0,
+def _follow_imaginary_mode(ctx, syms, pos, mode, q, mult, ref_graph, step=0.1, drop_kJ=1e-6,
                            template=None, optimization_steps=None):
     """('saddle', lower_pos) if relaxing from pos +- step·mode reaches an energy > drop_kJ below pos (same
-    connectivity); ('artefact', None) if both probes return; otherwise ('inconclusive', None)."""
+    connectivity). The endpoint still requires strict Hessian validation by the caller.
+    Otherwise return ('inconclusive', None): lack of a large drop cannot prove a minimum.
+    drop_kJ is a numerical energy-resolution floor, not a physical barrier cutoff."""
     pu, name = ctx.pu, ctx.name
     at0 = Atoms(symbols=syms, positions=pos, info={"charge": int(q), "spin": int(mult)})
     e0 = float(batched_energies(pu, [at0])[0]) * EV2KJ
@@ -435,7 +439,6 @@ def _follow_imaginary_mode(ctx, syms, pos, mode, q, mult, ref_graph, step=0.1, d
     steps = ctx.settings.thermal_relax_steps if optimization_steps is None else optimization_steps
     rel, E, conv = batched_fire(pu, disp, fmax=0.01, steps=steps, return_converged=True, label=f"{name}-mode")
     best = None
-    n_valid = 0
     probes = []
     for a, e, c in zip(rel, E, conv):
         e = float(e) * EV2KJ
@@ -443,14 +446,12 @@ def _follow_imaginary_mode(ctx, syms, pos, mode, q, mult, ref_graph, step=0.1, d
         probes.append({"converged": bool(c), "identity": bool(identity),
                        "delta_kj": float(e-e0) if np.isfinite(e) and np.isfinite(e0) else None})
         if c and np.isfinite(e) and np.isfinite(e0) and identity:
-            n_valid += 1
             if e < e0 - drop_kJ and (best is None or e < best[0]):
                 best = (e, a.get_positions())
     ctx.log(f"    {name}: imaginary-mode probes {probes}")
     if best is not None:
         return "saddle", best[1]
-    # A failed/rearranged/nonfinite probe cannot establish that negative curvature is numerical noise.
-    return ("artefact", None) if n_valid == 2 else ("inconclusive", None)
+    return "inconclusive", None
 
 
 def water_geometry(pu):

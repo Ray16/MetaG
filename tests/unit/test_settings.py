@@ -49,6 +49,33 @@ def test_invalid_env_hessian_and_profile_raise():
         Settings().with_profile("fast")
 
 
+@pytest.mark.parametrize("name", ["conv_tol", "sample_scale", "keep_scale", "thermal_window_kj", "dg_sanity_kj"])
+@pytest.mark.parametrize("value", [float("nan"), float("inf"), -1.0, True])
+def test_invalid_numeric_settings_fail_before_scoring(name, value):
+    with pytest.raises(ValueError, match=name):
+        Settings(**{name: value})
+
+
+@pytest.mark.parametrize("name", ["conv_hits", "conv_max", "thermal_max", "thermal_validation_max",
+                                  "thermal_relax_steps", "thermal_retry_steps", "seed_offset"])
+@pytest.mark.parametrize("value", [True, 1.5])
+def test_count_settings_require_integers(name, value):
+    with pytest.raises(ValueError, match=name):
+        Settings(**{name: value})
+
+
+def test_nonfinite_environment_and_empty_budgets_are_rejected():
+    from metag.energetics.sampling import sampling_budget
+    with pytest.raises(ValueError, match="sample_scale"):
+        Settings.from_env({"SAMPLE_SCALE": "nan"})
+    with pytest.raises(ValueError, match="thermal_window_kj"):
+        Settings(thermal_window_kj=0)
+    with pytest.raises(ValueError, match="empty conformer pool"):
+        sampling_budget("C", sample_scale=0.001)
+    with pytest.raises(ValueError, match="zero retained"):
+        sampling_budget("C", keep_scale=0.001)
+
+
 def test_settings_are_frozen():
     with pytest.raises(dataclasses.FrozenInstanceError):
         Settings().conv_tol = 1.0

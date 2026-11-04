@@ -140,3 +140,23 @@ def test_large_hydrogen_symmetry_uses_heavy_atom_rmsd():
     assert u.add(Atoms(sym, positions=pos), -1.0, -1.0)
     assert not u.add(Atoms(sym, positions=pos @ rot.T + 2.0), -1.0, -1.0)
     assert len(u.E) == 1
+
+
+def test_heavy_atom_symmetry_above_cap_fails_closed_before_qm():
+    from metag.energetics.errors import SymmetryEnumerationError
+    from metag.energetics.species import species_free_energy
+    from metag.settings import Settings
+
+    # Four identical tert-butyl arms have more than 20,000 heavy-atom
+    # automorphisms, so a capped heavy-atom search is not exhaustive.
+    smiles = 'C(C(C)(C)C)(C(C)(C)C)(C(C)(C)C)C(C)(C)C'
+    molecule = Chem.AddHs(Chem.MolFromSmiles(smiles))
+    with pytest.raises(SymmetryEnumerationError, match='heavy-atom automorphisms'):
+        UniqueMinima(template=molecule)
+    warnings, diagnostics = [], {}
+    result = species_free_energy(None, 0, smiles, 'symmetric', settings=Settings(),
+                                 model_name='fake', producer={'cacheable': False},
+                                 log=lambda _: None, warnings=warnings, diagnostics=diagnostics)
+    assert result == (None, None)
+    assert any('heavy-atom automorphisms' in message for message in warnings)
+    assert diagnostics['sampling']['status'] == 'incomplete'

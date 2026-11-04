@@ -1,11 +1,11 @@
 [build-system]
-requires = ["setuptools>=69"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "metag"
-version = "0.3.0"
-description = "Training-free biochemical reaction Gibbs energies (ΔrG'°) from structure: UMA + xTB/ALPB + Alberty transforms"
+version = "0.3.1.dev0"
+description = "Biochemical reaction Gibbs energies (ΔrG'°) from molecular models: UMA + xTB/ALPB + Alberty transforms"
 readme = "README.md"
 license = "MIT"
 license-files = ["LICENSE"]
@@ -37,6 +37,18 @@ reference = [
 test = [
     "ase",
     "pytest",
+    "sympy>=1.12,<2",
+    "scipy>=1.11,<2",
+    "torch~=2.13.0",
+]
+# Data-only manuscript checks and reproducible figure generation.
+audit = [
+    "ase",
+    "networkx>=3,<4",
+    "sympy>=1.12,<2",
+    "scipy>=1.11,<2",
+    "matplotlib>=3.8,<4",
+    "pypdf>=5,<7",
 ]
 
 [project.urls]

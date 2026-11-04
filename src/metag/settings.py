@@ -10,6 +10,8 @@ control search effort, the electronic model checkpoint and the Hessian implement
 from __future__ import annotations
 
 import os
+import math
+from numbers import Integral, Real
 from dataclasses import asdict, dataclass, replace
 
 # Search-effort presets. "thorough" uses stricter plateaus and larger pools; it costs more and does not
@@ -22,7 +24,7 @@ SAMPLING_PROFILE_VERSION = "2026-10-11-search-effort-v1"
 
 # Bump whenever species-level physics changes in a way the settings below do not capture (sampling,
 # relaxation, thermal, solvation code). It is part of every species-cache key.
-PHYSICS_VERSION = "2026-10-28-heavy-atom-dedup-v1"
+PHYSICS_VERSION = "2026-10-29-canonical-routing-strict-modes-v1"
 
 
 @dataclass(frozen=True)
@@ -44,16 +46,25 @@ class Settings:
     sampling_profile: str = "current"
 
     def __post_init__(self):
+        if not isinstance(self.model, str) or not self.model.strip():
+            raise ValueError("model must be a nonempty string")
         if self.hessian not in ("autograd", "fd"):
             raise ValueError(f"hessian must be 'autograd' or 'fd', got {self.hessian!r}")
         if self.sampling_profile not in SAMPLING_PROFILES:
             raise ValueError("sampling profile must be one of " + ", ".join(SAMPLING_PROFILES))
-        if self.thermal_relax_steps < 1:
-            raise ValueError("thermal_relax_steps must be positive")
-        if self.seed_offset < 0:
-            raise ValueError("seed_offset must be nonnegative")
-        if self.conv_max < 1 or self.conv_hits < 1:
-            raise ValueError("conv_max and conv_hits must be positive")
+        for name in ("conv_hits", "conv_max", "thermal_max", "thermal_validation_max",
+                     "thermal_relax_steps", "thermal_retry_steps", "seed_offset"):
+            value = getattr(self, name)
+            minimum = 0 if name == "seed_offset" else 1
+            if isinstance(value, bool) or not isinstance(value, Integral) or value < minimum:
+                raise ValueError(f"{name} must be an integer >= {minimum}")
+        for name in ("conv_tol", "sample_scale", "keep_scale", "thermal_window_kj", "dg_sanity_kj"):
+            value = getattr(self, name)
+            if isinstance(value, bool) or not isinstance(value, Real) or not math.isfinite(value):
+                raise ValueError(f"{name} must be a finite number")
+            positive = name in ("sample_scale", "keep_scale", "thermal_window_kj")
+            if value < 0 or (positive and value == 0):
+                raise ValueError(f"{name} must be {'positive' if positive else 'nonnegative'}")
 
     @classmethod
     def from_env(cls, environ=None, *, sampling_profile=None) -> "Settings":

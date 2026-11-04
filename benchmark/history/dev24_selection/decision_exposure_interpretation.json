@@ -1,0 +1,618 @@
+{
+  "n_current_module_files": 105,
+  "n_inventory_records": 678,
+  "mechanical_keyword_flagged_records": 91,
+  "keyword_interpretation": "Mechanical matches include nearby comments, property benchmarks, numerical/stoichiometric residuals and direct reaction-error evidence. The count is not a count of TECRDB-selected decisions.",
+  "registered_switches": [
+    {
+      "name": "PKA_ENV",
+      "default": true,
+      "exposure_assessment": "historical_selection_unknown",
+      "interpretation": "The current docstring says accuracy should be evaluated independently; that recommendation is not proof of an unexposed adoption history.",
+      "decision_date": {
+        "date": null,
+        "kind": "adoption/rejection date not reconstructed"
+      },
+      "mechanical_inventory_context_dates": [],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "FREE_PPI_PKA",
+      "default": true,
+      "exposure_assessment": "physical_reference_documented_historical_selection_unknown",
+      "interpretation": "The current function owns free-PPi's measured ladder. The neighboring POLYACID_PKA benchmark comment is not evidence about this flag.",
+      "decision_date": {
+        "date": null,
+        "kind": "adoption/rejection date not reconstructed"
+      },
+      "mechanical_inventory_context_dates": [],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "ANHYDRIDE_PKA",
+      "default": false,
+      "exposure_assessment": "historical_selection_unknown",
+      "interpretation": "No complete adoption rationale is established here. Nearby comments and source-presence dates do not prove this flag was unexposed or selected using reaction residuals.",
+      "decision_date": {
+        "date": null,
+        "kind": "adoption/rejection date not reconstructed"
+      },
+      "mechanical_inventory_context_dates": [],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "CARBOXYL_PAIRS",
+      "default": false,
+      "exposure_assessment": "physical_reference_documented_historical_selection_unknown",
+      "interpretation": "Parent-acid ladder discrepancies are property/model comparisons, not automatically TECRDB reaction-residual selection.",
+      "decision_date": {
+        "date": null,
+        "kind": "adoption/rejection date not reconstructed"
+      },
+      "mechanical_inventory_context_dates": [],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "POLYACID_PKA",
+      "default": false,
+      "exposure_assessment": "benchmark_outcome_discussed",
+      "interpretation": "The function discusses a TECRDB effect near0.02kJ and a transferability rationale. This does not identify the complete adoption history.",
+      "decision_date": {
+        "date": null,
+        "kind": "adoption/rejection date not reconstructed"
+      },
+      "mechanical_inventory_context_dates": [],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "ARYLAMINE_NONBASIC",
+      "default": true,
+      "exposure_assessment": "historical_selection_unknown",
+      "interpretation": "No complete adoption rationale is established here. Nearby comments and source-presence dates do not prove this flag was unexposed or selected using reaction residuals.",
+      "decision_date": {
+        "date": null,
+        "kind": "adoption/rejection date not reconstructed"
+      },
+      "mechanical_inventory_context_dates": [],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "PH0_REDOX_PROTON",
+      "default": true,
+      "exposure_assessment": "stoichiometric_rule_with_benchmark_implementation_examples",
+      "interpretation": "h_residual denotes an elemental proton-balance residual. Reaction examples test implementation; this arithmetic residual is not an experimental energy residual.",
+      "decision_date": {
+        "date": null,
+        "kind": "adoption/rejection date not reconstructed"
+      },
+      "mechanical_inventory_context_dates": [],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "SOURCE_PKA_REGISTRY",
+      "default": true,
+      "exposure_assessment": "benchmark_evaluated_adoption_context",
+      "interpretation": "The retained pre-review switch history records benchmark-evaluated adoption. Source constants and resulting reaction residuals are distinct evidence.",
+      "decision_date": {
+        "date": null,
+        "kind": "adoption/rejection date not reconstructed"
+      },
+      "mechanical_inventory_context_dates": [],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "RING_PROTON_ENSEMBLE",
+      "default": false,
+      "exposure_assessment": "benchmark_evaluated_rejection_context",
+      "interpretation": "The retained pre-review switch history and whole-panel rejection document benchmark exposure.",
+      "decision_date": {
+        "date": null,
+        "kind": "adoption/rejection date not reconstructed"
+      },
+      "mechanical_inventory_context_dates": [],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "COFACTOR_RING",
+      "default": true,
+      "exposure_assessment": "historical_selection_unknown",
+      "interpretation": "No complete adoption rationale is established here. Nearby comments and source-presence dates do not prove this flag was unexposed or selected using reaction residuals.",
+      "decision_date": {
+        "date": null,
+        "kind": "adoption/rejection date not reconstructed"
+      },
+      "mechanical_inventory_context_dates": [],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "COA_CORE",
+      "default": false,
+      "exposure_assessment": "benchmark_structure_validation_residual_selection_unknown",
+      "interpretation": "The module reports coverage and element balance on CoA reactions. Structure exposure is not by itself experimental energy-error selection.",
+      "decision_date": {
+        "date": null,
+        "kind": "adoption/rejection date not reconstructed"
+      },
+      "mechanical_inventory_context_dates": [],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "NTP_CORE",
+      "default": true,
+      "exposure_assessment": "direct_benchmark_outcome_evidence",
+      "interpretation": "The named adoption comment reports TECRDB MAE changes and reaction examples.",
+      "decision_date": {
+        "date": "2026-10-01",
+        "kind": "explicitly named source decision",
+        "action": "adopted",
+        "source": "config.py",
+        "source_excerpt_anchor": "NTP_CORE ADOPTED 2026-10-01"
+      },
+      "mechanical_inventory_context_dates": [
+        "2026-10-01"
+      ],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "AUTO_TRUNCATE",
+      "default": true,
+      "exposure_assessment": "historical_selection_unknown",
+      "interpretation": "No complete adoption rationale is established here. Nearby comments and source-presence dates do not prove this flag was unexposed or selected using reaction residuals.",
+      "decision_date": {
+        "date": null,
+        "kind": "adoption/rejection date not reconstructed"
+      },
+      "mechanical_inventory_context_dates": [
+        "2026-10-01"
+      ],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "ROUTE_FULL",
+      "default": true,
+      "exposure_assessment": "historical_selection_unknown",
+      "interpretation": "No complete adoption rationale is established here. Nearby comments and source-presence dates do not prove this flag was unexposed or selected using reaction residuals.",
+      "decision_date": {
+        "date": null,
+        "kind": "adoption/rejection date not reconstructed"
+      },
+      "mechanical_inventory_context_dates": [
+        "2026-10-01"
+      ],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "TRUNC_V2",
+      "default": false,
+      "exposure_assessment": "historical_selection_unknown",
+      "interpretation": "No complete adoption rationale is established here. Nearby comments and source-presence dates do not prove this flag was unexposed or selected using reaction residuals.",
+      "decision_date": {
+        "date": null,
+        "kind": "adoption/rejection date not reconstructed"
+      },
+      "mechanical_inventory_context_dates": [
+        "2026-10-01"
+      ],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "TRUNC_VALIDATE",
+      "default": false,
+      "exposure_assessment": "historical_selection_unknown",
+      "interpretation": "No complete adoption rationale is established here. Nearby comments and source-presence dates do not prove this flag was unexposed or selected using reaction residuals.",
+      "decision_date": {
+        "date": null,
+        "kind": "adoption/rejection date not reconstructed"
+      },
+      "mechanical_inventory_context_dates": [
+        "2026-10-01"
+      ],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "PH0_AUTO",
+      "default": true,
+      "exposure_assessment": "historical_selection_unknown",
+      "interpretation": "No complete adoption rationale is established here. Nearby comments and source-presence dates do not prove this flag was unexposed or selected using reaction residuals.",
+      "decision_date": {
+        "date": null,
+        "kind": "adoption/rejection date not reconstructed"
+      },
+      "mechanical_inventory_context_dates": [
+        "2026-10-01"
+      ],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "PH0_BASES",
+      "default": true,
+      "exposure_assessment": "direct_benchmark_outcome_evidence",
+      "interpretation": "The formamidinium/base gate explicitly discusses rxn01211 and its experimental error; structural gating does not erase this exposure.",
+      "decision_date": {
+        "date": null,
+        "kind": "adoption/rejection date not reconstructed"
+      },
+      "mechanical_inventory_context_dates": [
+        "2026-10-01"
+      ],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "ZWITTERION_PH0",
+      "default": true,
+      "exposure_assessment": "historical_selection_unknown",
+      "interpretation": "No complete adoption rationale is established here. Nearby comments and source-presence dates do not prove this flag was unexposed or selected using reaction residuals.",
+      "decision_date": {
+        "date": null,
+        "kind": "adoption/rejection date not reconstructed"
+      },
+      "mechanical_inventory_context_dates": [
+        "2026-10-01"
+      ],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "NEUTRAL_QM",
+      "default": false,
+      "exposure_assessment": "historical_selection_unknown",
+      "interpretation": "No complete adoption rationale is established here. Nearby comments and source-presence dates do not prove this flag was unexposed or selected using reaction residuals.",
+      "decision_date": {
+        "date": null,
+        "kind": "adoption/rejection date not reconstructed"
+      },
+      "mechanical_inventory_context_dates": [
+        "2026-10-01"
+      ],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "PH0_ISOMERASE",
+      "default": true,
+      "exposure_assessment": "direct_benchmark_outcome_evidence",
+      "interpretation": "The named adoption comment reports isomerase and whole-panel MAE changes.",
+      "decision_date": {
+        "date": "2026-10-01",
+        "kind": "explicitly named source decision",
+        "action": "adopted",
+        "source": "config.py",
+        "source_excerpt_anchor": "PH0_ISOMERASE ADOPTED 2026-10-01"
+      },
+      "mechanical_inventory_context_dates": [
+        "2026-10-01"
+      ],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "CARBONYL_HYDRATION_ALL",
+      "default": true,
+      "exposure_assessment": "historical_selection_unknown",
+      "interpretation": "No complete adoption rationale is established here. Nearby comments and source-presence dates do not prove this flag was unexposed or selected using reaction residuals.",
+      "decision_date": {
+        "date": null,
+        "kind": "adoption/rejection date not reconstructed"
+      },
+      "mechanical_inventory_context_dates": [
+        "2026-10-01"
+      ],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "RING_CHAIN",
+      "default": false,
+      "exposure_assessment": "direct_benchmark_outcome_evidence",
+      "interpretation": "The rejection discusses a measured reaction-error change alongside missing ring-acid pKa information.",
+      "decision_date": {
+        "date": "2026-10-06",
+        "kind": "explicitly named source decision",
+        "action": "not adopted",
+        "source": "config.py",
+        "source_excerpt_anchor": "RING_CHAIN NOT ADOPTED 2026-10-06"
+      },
+      "mechanical_inventory_context_dates": [
+        "2026-10-06"
+      ],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "HYDRATION_CAL",
+      "default": true,
+      "exposure_assessment": "independent_property_calibration_documented_reaction_exposure_unknown",
+      "interpretation": "The source describes calibration/LOO against hydration constants. A nearby RING_CHAIN reaction-error comment is not evidence about this flag's own adoption.",
+      "decision_date": {
+        "date": null,
+        "kind": "adoption/rejection date not reconstructed"
+      },
+      "mechanical_inventory_context_dates": [
+        "2026-10-06"
+      ],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "STD_STATE_1M",
+      "default": true,
+      "exposure_assessment": "thermodynamic_convention_benchmark_context_not_isolated_adoption",
+      "interpretation": "The1atm-to1M term is a standard-state convention. The nearby multi-change TECRDB revision does not isolate this switch's selection rationale.",
+      "decision_date": {
+        "date": null,
+        "kind": "adoption/rejection date not reconstructed"
+      },
+      "mechanical_inventory_context_dates": [
+        "2026-10-01"
+      ],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "ALDEHYDE_HYDRATION",
+      "default": true,
+      "exposure_assessment": "direct_benchmark_outcome_evidence",
+      "interpretation": "The module docstring dates an A/B validation on rxn00276 and six reaction errors. Its validation date is not inferred as the adoption date.",
+      "decision_date": {
+        "date": null,
+        "kind": "adoption/rejection date not reconstructed"
+      },
+      "mechanical_inventory_context_dates": [
+        "2026-10-01"
+      ],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "ANCHOR_CORRECT",
+      "default": false,
+      "exposure_assessment": "historical_selection_unknown",
+      "interpretation": "No complete adoption rationale is established here. Nearby comments and source-presence dates do not prove this flag was unexposed or selected using reaction residuals.",
+      "decision_date": {
+        "date": null,
+        "kind": "adoption/rejection date not reconstructed"
+      },
+      "mechanical_inventory_context_dates": [
+        "2026-10-01"
+      ],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "SMD_SOLV",
+      "default": false,
+      "exposure_assessment": "historical_selection_unknown",
+      "interpretation": "No complete adoption rationale is established here. Nearby comments and source-presence dates do not prove this flag was unexposed or selected using reaction residuals.",
+      "decision_date": {
+        "date": null,
+        "kind": "adoption/rejection date not reconstructed"
+      },
+      "mechanical_inventory_context_dates": [
+        "2026-10-01"
+      ],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "WATER_REF_HYDROLYASE",
+      "default": false,
+      "exposure_assessment": "historical_selection_unknown",
+      "interpretation": "No complete adoption rationale is established here. Nearby comments and source-presence dates do not prove this flag was unexposed or selected using reaction residuals.",
+      "decision_date": {
+        "date": null,
+        "kind": "adoption/rejection date not reconstructed"
+      },
+      "mechanical_inventory_context_dates": [
+        "2026-10-01"
+      ],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "WATER_REF_EXP",
+      "default": true,
+      "exposure_assessment": "historical_selection_unknown",
+      "interpretation": "No complete adoption rationale is established here. Nearby comments and source-presence dates do not prove this flag was unexposed or selected using reaction residuals.",
+      "decision_date": {
+        "date": null,
+        "kind": "adoption/rejection date not reconstructed"
+      },
+      "mechanical_inventory_context_dates": [
+        "2026-10-01"
+      ],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "TRUNC_SPECTATOR_CATIONS",
+      "default": false,
+      "exposure_assessment": "historical_selection_unknown",
+      "interpretation": "No complete adoption rationale is established here. Nearby comments and source-presence dates do not prove this flag was unexposed or selected using reaction residuals.",
+      "decision_date": {
+        "date": null,
+        "kind": "adoption/rejection date not reconstructed"
+      },
+      "mechanical_inventory_context_dates": [
+        "2026-10-01"
+      ],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "TRUNC_MAXANION_RETRY",
+      "default": false,
+      "exposure_assessment": "historical_selection_unknown",
+      "interpretation": "No complete adoption rationale is established here. Nearby comments and source-presence dates do not prove this flag was unexposed or selected using reaction residuals.",
+      "decision_date": {
+        "date": null,
+        "kind": "adoption/rejection date not reconstructed"
+      },
+      "mechanical_inventory_context_dates": [
+        "2026-10-01"
+      ],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "TRUNC_FG_CUTS",
+      "default": true,
+      "exposure_assessment": "direct_benchmark_outcome_evidence",
+      "interpretation": "A chemically motivated cut correction was also evaluated with subset reaction MAE/RMS.",
+      "decision_date": {
+        "date": "2026-09-30",
+        "kind": "explicitly named source decision",
+        "action": "adopted",
+        "source": "config.py",
+        "source_excerpt_anchor": "ADOPTED 2026-09-30 (correctness)"
+      },
+      "mechanical_inventory_context_dates": [
+        "2026-09-30"
+      ],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    },
+    {
+      "name": "TRUNC_ANOMERIC_RADIUS",
+      "default": true,
+      "exposure_assessment": "direct_benchmark_outcome_evidence",
+      "interpretation": "The named adoption compares radii using a completed reaction-error panel.",
+      "decision_date": {
+        "date": "2026-09-30",
+        "kind": "explicitly named source decision",
+        "action": "adopted",
+        "source": "config.py",
+        "source_excerpt_anchor": "ADOPTED 2026-09-30: radius 2"
+      },
+      "mechanical_inventory_context_dates": [
+        "2026-09-30"
+      ],
+      "mechanical_context_warning": "Nearby context dates are not attributed adoption dates.",
+      "source_file_sha256": "69842c4952eb2b8beaf5fcbb5ef9030395854f6a23cf0ab5c4abaa585f103cae",
+      "first_exact_retained_git_observation": null
+    }
+  ],
+  "examples_not_establishing_reaction_error_adoption": {
+    "energetics/state_cycles.py:acid_hydration_cycle": "Thermodynamic cycle closure residual.",
+    "energetics/state_registry.py:resolve": "State-graph consistency residual.",
+    "energetics/uma.py:_forward": "Learned neural residual energy/forces, not experimental reaction errors.",
+    "routing/compound_reference.py:POLICY_VERSION": "Nearby import of the stoichiometric reaction_residual helper.",
+    "routing/compound_reference.py:compound_reference": "Nearby import of the stoichiometric reaction_residual helper.",
+    "routing/compound_reference.py:build_compound_reference_reaction": "Element/charge-balance residual.",
+    "routing/planner.py:route_reaction": "Element/charge-balance residual.",
+    "routing/planner.py:_balance_guard": "Element/charge-balance residual."
+  },
+  "new_runtime_decisions": [
+    {
+      "decision": "Nitro-preferred default",
+      "basis": "User-requested faster backend; no reaction-loss criterion used to choose this migration.",
+      "first_sealed_runtime_validation_UTC": "2026-10-24T17:36:31.067259+00:00",
+      "date_warning": "Validation timestamp, not an inferred invention/adoption date."
+    },
+    {
+      "decision": "General FP32 ranking/final energies",
+      "basis": "Numerical fidelity requirement; separate from approximate optimization.",
+      "first_sealed_runtime_validation_UTC": "2026-10-24T17:36:31.067259+00:00",
+      "date_warning": "Validation timestamp, not an inferred invention/adoption date."
+    },
+    {
+      "decision": "General FP32 force-autograd Hessians",
+      "basis": "Higher-derivative precision and finite-difference comparison.",
+      "first_sealed_runtime_validation_UTC": "2026-10-24T17:36:31.067259+00:00",
+      "date_warning": "Validation timestamp, not an inferred invention/adoption date."
+    },
+    {
+      "decision": "FP32 endpoint verification within original budget",
+      "basis": "Convergence correctness; no extra hidden optimization steps.",
+      "first_sealed_runtime_validation_UTC": "2026-10-24T17:36:31.067259+00:00",
+      "date_warning": "Validation timestamp, not an inferred invention/adoption date."
+    },
+    {
+      "decision": "V100 general-FP32 fallback",
+      "basis": "Hardware compatibility requirement, verified with real calculations.",
+      "first_sealed_runtime_validation_UTC": "2026-10-24T17:36:31.067259+00:00",
+      "date_warning": "Validation timestamp, not an inferred invention/adoption date."
+    },
+    {
+      "decision": "Composition/charge/spin-specific Nitro units",
+      "basis": "Vendor runtime contract and state-isolation tests.",
+      "first_sealed_runtime_validation_UTC": "2026-10-24T17:36:31.067259+00:00",
+      "date_warning": "Validation timestamp, not an inferred invention/adoption date."
+    },
+    {
+      "decision": "Preserve caller RNG around lazy SDK loading",
+      "basis": "SDK constructor behavior; protects the declared conformer-search randomness.",
+      "first_sealed_runtime_validation_UTC": "2026-10-24T17:36:31.067259+00:00",
+      "date_warning": "Validation timestamp, not an inferred invention/adoption date."
+    },
+    {
+      "decision": "Genuine official model identity",
+      "basis": "No spoofed model ID or production legacy-composition override.",
+      "first_sealed_runtime_validation_UTC": "2026-10-24T17:36:31.067259+00:00",
+      "date_warning": "Validation timestamp, not an inferred invention/adoption date."
+    },
+    {
+      "decision": "Producer/source/cache identity migration",
+      "basis": "Prevents substitution or relabelling of old SDK values.",
+      "first_sealed_runtime_validation_UTC": "2026-10-24T17:36:31.067259+00:00",
+      "date_warning": "Validation timestamp, not an inferred invention/adoption date."
+    }
+  ],
+  "source_sha256": {
+    "/nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG_JCIM/analysis/official_default_20261024_01/selection_official_01/inventory_current_01/decision_inventory_current.json": "d6d47c9eb5ad68e3201554066d4baf64d89f5aa23eb1959b6f60db87dab146f0",
+    "/nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG_JCIM/manuscript/evidence/production_switch_decisions.tsv": "6756111be3334b2a8b513f9eb6c3f6b47c02fd431aec9673b7e1abc53fe9f075",
+    "/nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG_JCIM/analysis/official_default_20261024_01/default_validation_current.json": "5bfd694ffa5cc9f9515a610c8ae2685de4ecaa7c3da5cb1791d7453e07832534",
+    "/nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG_JCIM/analysis/official_default_20261024_01/selection_official_01/prepare_decision_log.py": "0c1aa3c4bb2b82b0c30bd07ef6a3c381e4cfd025c8db0c75d888d6bdd629e32c"
+  },
+  "scope": "Interpretation layer for the exhaustive source inventory. Unknown is not unexposed. Independent property calibration is not reaction-error fitting. This ledger neither reconstructs discarded human hypotheses nor provides a numerical optimism correction."
+}

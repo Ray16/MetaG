@@ -1,7 +1,6 @@
 """Physics-grounded routing gate: prefer the FULL molecule over truncation.
 
-Full-molecule scoring is the safe, correct-chemistry choice EXACTLY when none of the truncation-motivating
-error sources are present:
+The following structural conditions motivate retaining full molecules rather than truncating:
   (1) no created/destroyed charged species   -> no anion-solvation wall exposed by running full
   (2) reaction is NOT an isomerization        -> conserved scaffold does not reorganize (no strain)
   (3) reaction center is ring-embedded        -> where truncation mis-cuts (ring-opening); full keeps chemistry
@@ -11,8 +10,8 @@ error sources are present:
                                                  bisphosphate/SAH conformer-non-cancellation blow-ups).
 
 When all four hold, run the full molecule (skip spectator truncation). Otherwise fall through to the normal
-truncation logic. Validated: +1.05 kJ MAE vs current-pipeline baseline on the ring-fix candidate set,
-with every large regression (disaccharides, bisphosphate, SAH, G6P) correctly kept at baseline.
+truncation logic. The gate and its historical evaluation were exposed to benchmark outcomes. These
+conditions are heuristics, not a guarantee of correct chemistry or generalization.
 """
 from rdkit import Chem
 from metag.routing import pka_transform as pfa
@@ -75,7 +74,7 @@ def _any_floppy_linker(species):
 
 
 def prefer_full(species):
-    """True -> route to the full molecule (skip truncation). Physics gate, no benchmark-fitted thresholds."""
+    """Return whether the structure-based heuristic prefers full molecules."""
     return (_n_ion_change(species) == 0
             and not pfa.is_isomerization(species)
             and _rc_in_ring(species)

@@ -15,4 +15,4 @@ GPU scoring (needs the ``qm`` extra, UMA weights and an xtb executable)::
     from metag.pipeline import score_reaction
     result = score_reaction(reaction, model=load_uma())
 """
-__version__ = "0.3.0"
+__version__ = "0.3.1.dev0"

@@ -51,9 +51,13 @@ def test_preflight_checks_input_and_routed_species_without_labels():
     assert report["reactions"]["arbitrary"] == renamed["reactions"]["another"]
 
 
-def test_missing_preflight_input_is_not_an_empty_success(tmp_path):
-    with pytest.raises(FileNotFoundError):
-        main([str(tmp_path / "missing.json"), "-o", str(tmp_path / "report.json")])
+def test_missing_preflight_input_is_not_an_empty_success(tmp_path, capsys):
+    report = tmp_path / "report.json"
+    with pytest.raises(SystemExit) as error:
+        main([str(tmp_path / "missing.json"), "-o", str(report)])
+    assert error.value.code == 2
+    assert not report.exists()
+    assert 'cannot read reactions' in capsys.readouterr().err
 
 
 @pytest.mark.parametrize("phosphoryl", ["C", "N"])

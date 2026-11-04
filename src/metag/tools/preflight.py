@@ -16,6 +16,12 @@ from metag.energetics.protonation_models import reference_assignments
 
 
 def audit_reactions(reactions):
+    """Return structural admission diagnostics for a mapping of input reactions.
+
+    This routine does not run a molecular calculator. A successful structural
+    check does not establish complete aqueous speciation or energy accuracy.
+    Invalid individual reactions are retained with their diagnostic status.
+    """
     from metag.protonation_registry import registry_identity
     from metag.routing.planner import TRUNCATION_RADIUS
     config = dict(pka_model_config(), trunc_radius=TRUNCATION_RADIUS,
@@ -108,8 +114,11 @@ def main(argv=None):
     parser.add_argument("input", type=Path)
     parser.add_argument("-o", "--output", type=Path, required=True)
     args = parser.parse_args(argv)
-    raw = args.input.read_bytes()
-    reactions = json.loads(raw)
+    try:
+        raw = args.input.read_bytes()
+        reactions = json.loads(raw)
+    except (OSError, UnicodeError, json.JSONDecodeError) as exc:
+        parser.error(f"cannot read reactions from {args.input}: {exc}")
     if not isinstance(reactions, dict):
         parser.error("input must be a JSON mapping of reaction identifiers to reactions")
     report = audit_reactions(reactions)

@@ -21,7 +21,7 @@ def _track():
     ([False,False],[-100.,-100.],'inconclusive'),
     ([True,False],[-100.,-100.],'inconclusive'),
     ([True,True],[-100.,float('nan')],'inconclusive'),
-    ([True,True],[-100.,-99.],'artefact'),
+    ([True,True],[-100.,-99.],'inconclusive'),
     ([True,False],[-102.,-100.],'saddle'),
 ])
 def test_mode_following_requires_usable_evidence(monkeypatch,converged,energies,expected):
@@ -32,6 +32,44 @@ def test_mode_following_requires_usable_evidence(monkeypatch,converged,energies,
         np.array([[0.,0.,.1],[0.,0.,-.1]]),0,1,set())
     assert verdict==expected
     assert (pos is not None)==(expected=='saddle')
+
+
+def test_shallow_lower_probes_require_endpoint_validation(monkeypatch):
+    original = np.array([[0.,0.,0.],[.74,0.,0.]])
+    probes = [Atoms('H2', positions=[[0,0,0],[r,0,0]]) for r in (.72,.76)]
+    monkeypatch.setattr(P, 'batched_energies', lambda *a, **k: np.array([0.]))
+    monkeypatch.setattr(P, 'batched_fire', lambda *a, **k:
+                        (probes, np.array([-.5,-.5])/EV2KJ, np.array([True,True])))
+    verdict, pos = P._follow_imaginary_mode(_ctx(), ['H','H'], original,
+                      np.array([[0.,0.,0.],[1.,0.,0.]]), 0, 1, {(0,1)})
+    assert verdict == 'saddle'
+    assert not np.array_equal(pos, original)
+
+
+@pytest.mark.parametrize('endpoint_imag', [0, 1])
+def test_lower_probe_is_accepted_only_after_its_own_hessian(monkeypatch, endpoint_imag):
+    from rdkit import Chem
+    template = Chem.AddHs(Chem.MolFromSmiles('[H][H]'))
+    at = Atoms('H2', positions=[[0,0,0],[.74,0,0]])
+    u = UniqueMinima(template=template); u.add(at, 0., 0.)
+    endpoint = np.array([[0.,0.,0.],[.72,0.,0.]])
+    checked = []
+    def correction(ctx, symbols, positions, *args, **kwargs):
+        is_endpoint = np.array_equal(positions, endpoint)
+        checked.append(is_endpoint)
+        n = endpoint_imag if is_endpoint else 1
+        return (5. if n==0 else None), dict(n_imag=n,max_imag_cm=100. if n else 0.,
+                                           _imag_vecs=[np.ones_like(positions)] if n else [])
+    monkeypatch.setattr(P, '_gibbs_corr', correction)
+    monkeypatch.setattr(P, '_follow_imaginary_mode', lambda *a, **k: ('saddle', endpoint))
+    monkeypatch.setattr(P, 'batched_fire', lambda pu, ats, **kw:
+                        (ats, np.zeros(len(ats)), np.ones(len(ats), dtype=bool)))
+    monkeypatch.setattr(P, 'same_connectivity', lambda *a: True)
+    monkeypatch.setattr(P, 'same_stereochemistry', lambda *a: True)
+    value, _, resolution = P._thermal_at_minimum(_ctx(), u, template, None, 0, 1)
+    assert checked[-1] is True
+    assert (value is not None) == (endpoint_imag == 0)
+    assert (resolution['kind']=='mode_followed') == (endpoint_imag == 0)
 
 
 def test_robustness_policy_has_distinct_cache_identity():

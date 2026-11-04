@@ -104,16 +104,19 @@ def test_provisional_soft_modes_cannot_supply_strict_validation():
     assert tr.validated=={}
 
 
-def test_failed_species_keeps_thermal_diagnostics():
+@pytest.mark.parametrize('failed_name', ['a', 'b', 'h2'])
+def test_failed_species_keeps_thermal_diagnostics(failed_name):
     def fail(q, smi, label, warnings, diagnostics):
+        if label != failed_name:
+            return 0., 0.
         diagnostics['thermal'] = {'status': 'incomplete', 'n_sampled': 3}
         return None, None
     result = p.score_reaction({'species': {'a': [-1, 0, 'CCO'], 'b': [1, 0, 'CC=O'], 'h2': [1, 0, '[HH]']}},
                               _Backend(fail), log=lambda *_: None)
     assert result['dG'] is None
     assert 'minimum validation failed' in result['suspect']
-    assert result['routes']['species_diagnostics']['a']['thermal']['n_sampled'] == 3
-    assert 'a' in result['routes']['failed_species']
+    assert result['routes']['species_diagnostics'][failed_name]['thermal']['n_sampled'] == 3
+    assert failed_name in result['routes']['failed_species']
 
 
 def test_thermal_resolution_budget_reaches_optimizer(monkeypatch):
@@ -156,7 +159,7 @@ def test_unresolved_candidate_retried_without_dropping_ensemble(monkeypatch):
     assert out[2]['n_candidates_retried']==1
 
 
-@pytest.mark.parametrize('second,accepted',[('artefact',True),('inconclusive',False)])
+@pytest.mark.parametrize('second,accepted',[('artefact',False),('inconclusive',False)])
 def test_strongest_artefact_does_not_validate_other_negative_modes(monkeypatch,second,accepted):
     import numpy as np
     from ase import Atoms

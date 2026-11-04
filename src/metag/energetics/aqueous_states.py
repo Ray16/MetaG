@@ -7,7 +7,7 @@ and receives species energies from the caller's backend.
 import math
 import numpy as np
 
-from metag.energetics.errors import SpeciesRearranged
+from metag.energetics.errors import SpeciesRearranged, valid_energy, valid_sampling_sigma
 
 
 def mixture_sampling_uncertainty(state_energies, input_sigmas, rt, jacobian=None):
@@ -63,7 +63,12 @@ def hydrate_all_sites(backend, rx, name, q, smi, G, sig, std, log, routes, *, ac
         return
     on_ph0 = bool(rx.get("pka_sites")) and q == 0
     t_c = acid_transform(smi) if on_ph0 else 0.0
-    g_w = backend.liquid_water() + std
+    water = backend.liquid_water()
+    if not valid_energy(water):
+        routes["warnings"].append(f"{name}: invalid liquid-water reference for hydration")
+        routes.setdefault("incomplete_hydration", []).append(name)
+        return
+    g_w = water + std
     folded, sds = [], []
     diagnostic = {"n_site_subsets": enumeration.n_subsets, "n_unique_states": len(states),
                   "states": [], "status": "incomplete"}
@@ -78,8 +83,7 @@ def hydrate_all_sites(backend, rx, name, q, smi, G, sig, std, log, routes, *, ac
             routes["warnings"].append(f"hydration state omitted (not a minimum): {e}")
             routes.setdefault("incomplete_hydration", []).append(name)
             continue
-        if (Gd is None or not math.isfinite(Gd) or sd is None
-                or not math.isfinite(sd) or sd < 0):
+        if not valid_energy(Gd) or not valid_sampling_sigma(sd):
             state_info["status"] = "no_estimate"
             routes["warnings"].append(f"hydration state omitted (QM failed): {name} {hyd}")
             routes.setdefault("incomplete_hydration", []).append(name)

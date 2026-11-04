@@ -45,3 +45,15 @@ def test_hydration_limit_fails_closed_at_reaction_level():
     assert result["dG"] is None
     assert result["routes"]["input_balanced"]
     assert "incomplete hydration" in result["suspect"]
+
+
+@pytest.mark.parametrize("water", [None, float('nan'), float('inf'), True])
+def test_invalid_hydration_water_reference_fails_closed(water):
+    energies, sigmas = {"x": -20.0}, {"x": 0.1}
+    routes = {"warnings": []}
+    backend = _Backend((-25.0, 0.1), water)
+    hydrate_all_sites(backend, {}, "x", 0, "CC=O", energies, sigmas, 0.0,
+                      lambda _: None, routes, acid_transform=lambda _: 0.0)
+    assert routes['incomplete_hydration'] == ['x']
+    assert energies['x'] == -20.0
+    backend.species.assert_not_called()

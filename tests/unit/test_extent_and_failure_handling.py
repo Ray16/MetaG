@@ -69,7 +69,7 @@ def test_cli_records_all_failures_and_keeps_completed_work(monkeypatch, tmp_path
     from metag.cli import run_batch
     reactions = {k: equation() for k in ("ok", "invalid", "exception")}
     good = {"reaction": "ok", "dG": 1.0, "dG_raw": 1.0, "U_samp": 0.0, "exp": None, "err": []}
-    def run(rx, backend, *, key, log):
+    def run(rx, backend, *, key, log, **_):
         if key == "ok":
             return good
         # Results must already be persisted before the next computation begins.

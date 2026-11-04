@@ -36,6 +36,13 @@ therefore exercises every reaction-level code path on CPU.
 effort, the model checkpoint and the Hessian implementation. It is resolved once per backend, and the
 same object both drives the computation and builds the species-cache key. Each result's `config`
 records the settings, constant-table hashes, source hash, producer identity and software versions.
+The cache directory, xtb executable, worker count and some GPU chunk sizes are still read when their
+modules are imported. Set these execution settings before importing the corresponding modules; they
+are not per-backend overrides.
+
+Autograd Hessian evaluation temporarily wraps FairChem module functions and is not thread-safe with
+other inference in the same Python process. Run concurrent calculations in separate processes, with
+separate GPU allocations and an appropriate shared or private species cache.
 
 **Units.** UMA returns eV, converted with `EV2KJ = 96.485`. xtb returns Hartree, converted with
 2625.499639. Everything downstream is kJ/mol. Species values are cached on the 1 atm gas standard state.

@@ -292,9 +292,9 @@ def uma_gibbs_corr(pu, symbols, coords, q, delta=0.01, chunk=None,
     method = hessian or hessian_method()
     if method not in ("autograd", "fd"):
         raise ValueError(f"hessian={method!r}: expected 'fd' or 'autograd'")
-    # HESSIAN MEMO (result-preserving): the pipeline evaluates the SAME geometry more than once -- the
-    # thermal-ensemble track (imag_as_soft) and _thermal_at_minimum's strict validation both hit the lowest
-    # minimum, and an "artefact" verdict recomputes it with imag_as_soft. Everything those calls vary acts
+    # HESSIAN MEMO (result-preserving): the pipeline evaluates the same geometry more than once.
+    # The provisional thermal-ensemble track (imag_as_soft) and final strict validation can
+    # inspect the same candidate. Provisional softening never authorizes final acceptance. The calls vary
     # AFTER H, so (E_elec, H) is reused for an identical geometry/charge/spin/method. Stored on the predict
     # unit (scoped to that model); HESS_MEMO_N=0 disables. Not part of any cache key.
     memo = _hess_memo(pu)
@@ -330,7 +330,7 @@ def gibbs_corr_from_hessian(base, H, E_elec, geometry, symmetrynumber, spin=1, r
     Explicit temperature/pressure apply only to this supplied-Hessian gas
     calculation; they do not change the reaction pipeline or its solution-state
     models. Returned thermodynamic components are conditional on the same
-    projected modes, frequency floor and optional qRRHO entropy model as Gcorr.
+    projected modes and hard frequency floor as Gcorr.
     They support phase-matched diagnostics, not an uncertainty estimate.
     """
     temperature = T if temperature_K is None else temperature_K
@@ -346,7 +346,7 @@ def gibbs_corr_from_hessian(base, H, E_elec, geometry, symmetrynumber, spin=1, r
     temperature, pressure = float(temperature), float(pressure_Pa)
     vib, imag_cm, imag_vecs = internal_vib_energies(base, H, geometry, return_modes=True)
     # soft imaginary modes (<= IMAG_TOL_CM) are numerical noise on floppy torsions: floored like soft modes.
-    # imag_as_soft: the caller has shown by mode following that the larger ones are artefacts too.
+    # imag_as_soft is a provisional sampling diagnostic only; final candidate validation is strict.
     soft = imag_cm if imag_as_soft else imag_cm[imag_cm <= IMAG_TOL_CM]
     n_imag = 0 if imag_as_soft else int(np.sum(imag_cm > IMAG_TOL_CM))   # genuine negative curvature
     mags_real = np.sort(np.concatenate([vib, soft * CM2EV]))

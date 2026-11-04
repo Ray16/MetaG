@@ -91,6 +91,12 @@ def validate_reaction(reaction: Mapping[str, Any]) -> None:
     if reaction.get("explicit"):
         raise ValueError("explicit-water cluster solvation is not supported; use implicit solvation "
                          "(the pH-0 route handles created/destroyed anions)")
+    if 'exp' in reaction:
+        exp = reaction['exp']
+        if (not isinstance(exp, (list, tuple)) or any(
+                isinstance(value, bool) or not isinstance(value, (int, float)) or not math.isfinite(value)
+                for value in exp)):
+            raise ValueError('reaction exp must be a list of finite numerical reference values')
     n_hplus = reaction.get("n_Hplus", 0)
     if 'species_protonation_models' in reaction:
         models = reaction['species_protonation_models']
@@ -144,6 +150,13 @@ def validate_reaction(reaction: Mapping[str, Any]) -> None:
         molecule = Chem.MolFromSmiles(smiles)
         if molecule is None:
             raise ValueError(f"species {name!r}: unparseable SMILES {smiles!r}")
+        if any(atom.HasProp("molAtomMapNumber")
+               for atom in Chem.MolFromSmiles(smiles, sanitize=False).GetAtoms()):
+            raise ValueError(
+                f"species {name!r}: atom-mapped input SMILES are unsupported; "
+                "remove atom-map annotations before scoring (preserve isotopes, "
+                "formal charge and stereochemistry)"
+            )
         if any(atom.GetAtomicNum() == 0 for atom in molecule.GetAtoms()):
             raise ValueError(
                 f"species {name!r}: wildcard/dummy atoms do not define a molecular species; "

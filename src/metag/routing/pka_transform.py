@@ -354,6 +354,83 @@ def _canonicalize_maxanion(smi):
     return Chem.MolToSmiles(m2)
 
 
+def _is_canonical_basic_amine(atom):
+    """Neutral, closed-shell, non-aromatic trivalent N bonded only to H and sp3 carbon: ammonia and
+    aliphatic amines, whose conjugate acids (pKa 9.25-10.6 in this module) dominate at pH 7. Same
+    selection as the amine branch of _neutral_base_pkas. Amidines/guanidines are excluded on purpose:
+    their neutral drawings span very different basicities (creatinine ~4.8 vs arginine ~12.5)."""
+    if atom.GetSymbol() != "N" or atom.GetFormalCharge() != 0 or atom.GetIsAromatic() \
+            or atom.GetNumRadicalElectrons() or atom.GetTotalValence() != 3:
+        return False
+    return all(n.GetAtomicNum() == 6 and n.GetHybridization() == Chem.HybridizationType.SP3
+               for n in atom.GetNeighbors() if n.GetAtomicNum() != 1)
+
+
+def _strong_amidine_imine_ns(mol):
+    """Imine N of ACYCLIC amidines/guanidines that are strong bases (alkyl amidines pKa ~12,
+    guanidines ~12.5-13.5): central sp2 C not in a ring, double-bonded to a neutral imine N, every N on
+    the centre neutral and non-aromatic, and no N bonded to an acyl/thioacyl C, P, S or an aromatic
+    atom (those substituents lower the pKa by many units: acylguanidines, phosphagens, aryl-amidines).
+    Cyclic amidines (creatinine ~4.8, imidazolines) are excluded."""
+    out = []
+    for c in mol.GetAtoms():
+        if c.GetSymbol() != "C" or c.IsInRing() or c.GetHybridization() != Chem.HybridizationType.SP2:
+            continue
+        ns = [a for a in c.GetNeighbors() if a.GetAtomicNum() == 7]
+        if len(ns) < 2 or any(a.GetFormalCharge() or a.GetIsAromatic() or a.GetNumRadicalElectrons() for a in ns):
+            continue
+        imine = [a for a in ns if mol.GetBondBetweenAtoms(c.GetIdx(), a.GetIdx()).GetBondType() == Chem.BondType.DOUBLE]
+        if len(imine) != 1 or imine[0].GetTotalValence() != 3:
+            continue
+        def deactivating(n):
+            for nb in n.GetNeighbors():
+                if nb.GetIdx() == c.GetIdx():
+                    continue
+                if nb.GetAtomicNum() in (15, 16) or nb.GetIsAromatic():
+                    return True
+                if nb.GetAtomicNum() == 6 and any(
+                        b.GetBondType() == Chem.BondType.DOUBLE and b.GetOtherAtom(nb).GetAtomicNum() in (7, 8, 16)
+                        for b in nb.GetBonds()):
+                    return True
+                if nb.GetAtomicNum() not in (1, 6):
+                    return True
+            return False
+        if any(deactivating(n) for n in ns):
+            continue
+        out.append(imine[0].GetIdx())
+    return out
+
+
+def canonicalize_basic_amines(smi):
+    """Protonate every neutral ammonia/aliphatic-amine N to its dominant pH-7 cation.
+
+    The base-side mirror of _canonicalize_maxanion: routes that keep cations charged (the anion-only
+    pH-0 path, the charged baseline) otherwise score a neutrally drawn amine as the minor pH-7 species
+    with no base transform, so ΔG' depended on the input drawing by RT ln10 (pKa - 7) per amine
+    (about 13 kJ/mol for NH3, 20 for a primary amine). Returns (canonical_smiles, protons_added);
+    the input is returned unchanged with 0 on parse/sanitize failure or when nothing applies."""
+    mol = Chem.MolFromSmiles(smi)
+    if mol is None:
+        return smi, 0
+    targets = [a.GetIdx() for a in mol.GetAtoms() if _is_canonical_basic_amine(a)]
+    targets += [i for i in _strong_amidine_imine_ns(mol) if i not in targets]
+    if not targets:
+        return smi, 0
+    rw = Chem.RWMol(mol)
+    for idx in targets:
+        a = rw.GetAtomWithIdx(idx)
+        nH = a.GetTotalNumHs()
+        a.SetFormalCharge(1)
+        a.SetNoImplicit(True)
+        a.SetNumExplicitHs(nH + 1)
+    m2 = rw.GetMol()
+    try:
+        Chem.SanitizeMol(m2)
+    except Exception:
+        return smi, 0
+    return Chem.MolToSmiles(m2), len(targets)
+
+
 def _hcount(smi):
     """Total hydrogen count (explicit + implicit) of a SMILES, or None on parse failure.
     Used by build_ph0_reaction's mass-balance guard."""
@@ -576,7 +653,8 @@ def _base_gate(species):
     """Should the pH-0 build ALSO neutralize basic cations / take the base path (the old v2/PH0_BASES
     path), or stay anion-only (the old v1 path)? PHYSICS: fire when a NITROGEN that is genuinely CATIONIC
     at pH 7 is CREATED/DESTROYED, so its unmatched cation solvation (and the proton bookkeeping) needs the
-    base path. Two families of such cation, both textbook, nothing fitted to the DB:
+    base path. The structural rules have chemical motivations, but reaction residuals informed
+    historical development and do not constitute independent validation. Two families are:
       (i) basic AMINE / ammonium on sp3 C (pKa 9-11) -> _amine_cn_change; guarded by the amide + NAD-imine
           exclusions below (an amine that becomes a neutral amide, or an NAD-driven in-place imine, must
           NOT emit a spurious base-pKa).
@@ -588,7 +666,8 @@ def _base_gate(species):
           the base path's only effect is to neutralise the accompanying ANIONS (that the anion-only path
           FALSELY refuses on, collapsing to the over-solvated multi-anion) and carry the residual as n_H+.
           Gated off nicotinamide (NAD-coupled formamidinium formation is a redox that cofactor-ring
-          references). Validated: methenyl-THF cyclohydrolase rxn01211 -128 -> ~-7 (exp -1.5)."""
+          references). Methenyl-THF cyclohydrolase rxn01211 was a development example, not an
+          independent validation case."""
     if _count_change(species, _FORMAMIDINIUM) and not _has_nicotinamide(species):
         return True                                           # (ii) formamidinium/amidinium hydrolysis
     if _amine_cn_change(species) == 0:                        # (i) GATE: only when a C-N amine is

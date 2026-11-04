@@ -15,7 +15,10 @@ from metag.reactions import validate_reaction
 TRUNCATION_RADIUS = 2
 
 
-def route_reaction(reaction, allow_truncate=True, log=print, force_neutral=False):
+BASE_REFERENCES = ("gated", "global")
+
+
+def route_reaction(reaction, allow_truncate=True, log=print, force_neutral=False, base_reference="gated"):
     """Structural routing -- pure logic, no QM: cofactor ring cores -> NTP cores -> full-vs-truncate
     gate -> spectator truncation -> pH-0 transform -> zwitterion invariant.
 
@@ -34,17 +37,46 @@ def route_reaction(reaction, allow_truncate=True, log=print, force_neutral=False
     replaced by a symmetric core, dropping the CoA half) reached QM and was caught, if at all, only by
     the |ΔG| sanity bound."""
     validate_reaction(reaction)
+    if base_reference not in BASE_REFERENCES:
+        raise ValueError(f"base_reference must be one of {BASE_REFERENCES}, got {base_reference!r}")
+    # Canonicalize the actual matching graphs, not just the direction-comparison
+    # key. First-match graph heuristics otherwise see the caller's SMILES order.
+    # Keep every declared state/stereocentre and copy metadata without mutation.
+    from rdkit import Chem
+    species = {
+        name: [c, q, Chem.MolToSmiles(Chem.MolFromSmiles(s), isomericSmiles=True)]
+        for name, (c, q, s) in reaction["species"].items()}
+    # DRAWING INVARIANCE for bases: protonate neutral ammonia/aliphatic amines to their dominant pH-7
+    # cation before any route decision (acids are already canonicalized to max-anion inside the pH-0
+    # build). The proton count moves into n_H+ so the reaction stays element- and charge-balanced.
+    # Caller-supplied pka_sites declare their own protonation states and are left as drawn.
+    amine_canonicalized = []
+    if not reaction.get("pka_sites"):
+        from metag.routing.pka_transform import canonicalize_basic_amines
+        n_hplus = reaction.get("n_Hplus", 0)
+        for name, (c, q, s) in species.items():
+            canon, added = canonicalize_basic_amines(s)
+            if added:
+                species[name] = [c, q + added, canon]
+                n_hplus -= c * added
+                amine_canonicalized.append(name)
+        if amine_canonicalized:
+            reaction = dict(reaction, n_Hplus=n_hplus)
+    reaction = dict(reaction, species=dict(sorted(
+        species.items(), key=lambda item: (item[1][2], item[1][0], item[1][1], item[0]))))
     if not _reverse_is_canonical(reaction["species"]):
-        rx, routes, truncated = _route_oriented(reaction, allow_truncate, log, force_neutral)
+        rx, routes, truncated = _route_oriented(reaction, allow_truncate, log, force_neutral, base_reference)
         routes["routed_orientation"] = "as_written"
+        routes["amine_canonicalized"] = amine_canonicalized
         return rx, routes, truncated
-    rx, routes, truncated = _route_oriented(_reversed(reaction), allow_truncate, log, force_neutral)
+    rx, routes, truncated = _route_oriented(_reversed(reaction), allow_truncate, log, force_neutral, base_reference)
     rx = _reversed(rx)
     if routes.get("protonation_sites_by_species"):
         routes["protonation_sites_by_species"] = {
             name: [[_OTHER_SIDE[site[0]], *site[1:]] for site in sites]
             for name, sites in routes["protonation_sites_by_species"].items()}
     routes["routed_orientation"] = "reversed_to_canonical_and_back"
+    routes["amine_canonicalized"] = amine_canonicalized
     return rx, routes, truncated
 
 
@@ -74,7 +106,7 @@ def _reversed(reaction):
     return out
 
 
-def _route_oriented(reaction, allow_truncate, log, force_neutral):
+def _route_oriented(reaction, allow_truncate, log, force_neutral, base_reference="gated"):
     from metag.routing.sugar_states import prepare_declared_sugar_inputs
     prepared, sugar_declarations = prepare_declared_sugar_inputs(reaction)
     rx = dict(prepared)
@@ -95,6 +127,7 @@ def _route_oriented(reaction, allow_truncate, log, force_neutral):
               "truncated": False, "trunc_radius": None, "ph0": False, "zwitterion_ph0": False,
               "errors": [], "warnings": [], "reverted": [], "input_balanced": True}
     routes["stereo_preservation_policy"] = "2026-10-18-source-centres-and-defined-fragments"
+    routes["base_reference"] = base_reference
     if sugar_declarations:
         routes['declared_sugar_pools'] = sugar_declarations
         routes['generic_truncation_disabled_for_declared_sugar_pools'] = True
@@ -107,7 +140,7 @@ def _route_oriented(reaction, allow_truncate, log, force_neutral):
     rx = _route_cores(rx, routes, log)
     rx = _route_truncation(rx, routes, allow_truncate and not sugar_declarations, log)
     truncated = routes["truncated"]
-    rx = _route_ph0(rx, routes, log)
+    rx = _route_ph0(rx, routes, log, base_reference)
     rx = _route_neutral_reference(rx, routes, force_neutral, log)
     if _route_extent != 1.0:
         rx = dict(rx, species={n: [c * _route_extent, q, s] for n, (c, q, s) in rx["species"].items()},
@@ -185,7 +218,11 @@ def _route_truncation(rx, routes, allow_truncate, log):
             from metag.routing.truncation_gate import prefer_full
             _prefer_full = prefer_full(rx["species"])
         except Exception as e:
-            _prefer_full = False; routes["errors"].append(f"prefer_full: {e}")
+            from metag.routing.truncate import MCSBudgetExceeded
+            if isinstance(e, MCSBudgetExceeded):        # no atom map: score the full molecules
+                _prefer_full = True; routes["warnings"].append(f"prefer_full: {e}; full molecules")
+            else:
+                _prefer_full = False; routes["errors"].append(f"prefer_full: {e}")
         routes["prefer_full"] = bool(_prefer_full)
         if _prefer_full:
             log("  [route: prefer FULL molecule (compact ring, charge-conserved, no floppy linker) -> skip truncation]")
@@ -251,14 +288,24 @@ def _route_truncation(rx, routes, allow_truncate, log):
             else:
                 log(f"  [auto-truncation fallback: full molecules]")
         except Exception as e:
-            log(f"  [auto-truncation error: {e}; full molecules]"); routes["errors"].append(f"truncation: {e}")
+            from metag.routing.truncate import MCSBudgetExceeded
+            log(f"  [auto-truncation error: {e}; full molecules]")
+            if isinstance(e, MCSBudgetExceeded):        # truncation not applicable, not an invalid result
+                routes["warnings"].append(f"truncation: {e}; full molecules")
+            else:
+                routes["errors"].append(f"truncation: {e}")
     rx = _balance_guard("truncation", _pre, rx, routes, log, reset={"truncated": False, "trunc_radius": None})
     truncated = routes["truncated"]
     return rx
 
 
-def _route_ph0(rx, routes, log):
-    """Build neutral reference species and their protonation terms after core selection."""
+def _route_ph0(rx, routes, log, base_reference="gated"):
+    """Build neutral reference species and their protonation terms after core selection.
+
+    base_reference='gated': basic amines are neutralized only when the reaction-class gate
+    (pka_transform._base_gate) fires, so one species can take different reference states in
+    different reactions. 'global': every eligible base is neutralized in every reaction, so each
+    species has a single reference state and shared species cancel around closed cycles."""
     _pre = rx
     if not rx.get("pka_sites"):
         try:
@@ -269,7 +316,8 @@ def _route_ph0(rx, routes, log):
             why = []
             owned = {}
             out = build_ph0_reaction(rx["species"], rx["n_Hplus"],
-                                     base=True, why=why, site_ownership=owned)
+                                     base=True, force_base=(base_reference == "global"),
+                                     why=why, site_ownership=owned)
             if out is not None:
                 ns, pks, nh = out
                 rx = dict(rx, species=ns, n_Hplus=nh, pka_sites=pks,
