@@ -1,0 +1,393 @@
+{
+  "schema": "metag-equal-coverage-reliability-v1",
+  "n": 69,
+  "declared_cohort_exposure": "development-exposed exact-family69-target cohort",
+  "supplied_spread_definition": "Population SD across100archivedOOFrepeats, divided by absolute signed extent. Not the released pretrained-model uncertainty; condition-bridge uncertainty is excluded.",
+  "severe_threshold_kj": 20.0,
+  "full_cohort_comparator_severe_count": 3,
+  "ranking": "Ascending feature score; rank_sum is equal-weight sum of doubled empirical midranks.",
+  "ties": "Expected risk over all exact-k boundary-tier subsets. No use of labels to break ties.",
+  "highlights": {
+    "spread": {
+      "0.25": {
+        "retained": 18,
+        "coverage": 0.2608695652173913,
+        "boundary_tier_size": 1,
+        "boundary_tier_selected": 1,
+        "MAE": {
+          "comparator": 2.1164647564559176,
+          "metag": 4.293333333333333,
+          "zero": 5.162222222222223
+        },
+        "expected_severe_count": {
+          "comparator": 0.0,
+          "metag": 0.0,
+          "zero": 0.0
+        },
+        "severe_rate": {
+          "comparator": 0.0,
+          "metag": 0.0,
+          "zero": 0.0
+        }
+      },
+      "0.5": {
+        "retained": 35,
+        "coverage": 0.5072463768115942,
+        "boundary_tier_size": 1,
+        "boundary_tier_selected": 1,
+        "MAE": {
+          "comparator": 3.276351645023684,
+          "metag": 5.930857142857143,
+          "zero": 7.1331428571428575
+        },
+        "expected_severe_count": {
+          "comparator": 1.0,
+          "metag": 0.0,
+          "zero": 2.0
+        },
+        "severe_rate": {
+          "comparator": 0.02857142857142857,
+          "metag": 0.0,
+          "zero": 0.05714285714285714
+        }
+      },
+      "0.75": {
+        "retained": 52,
+        "coverage": 0.7536231884057971,
+        "boundary_tier_size": 1,
+        "boundary_tier_selected": 1,
+        "MAE": {
+          "comparator": 3.65931038166335,
+          "metag": 7.189038461538463,
+          "zero": 7.552499999999998
+        },
+        "expected_severe_count": {
+          "comparator": 1.0,
+          "metag": 1.0,
+          "zero": 2.0
+        },
+        "severe_rate": {
+          "comparator": 0.019230769230769232,
+          "metag": 0.019230769230769232,
+          "zero": 0.038461538461538464
+        }
+      },
+      "1.0": {
+        "retained": 69,
+        "coverage": 1.0,
+        "boundary_tier_size": 1,
+        "boundary_tier_selected": 1,
+        "MAE": {
+          "comparator": 4.5919483909612895,
+          "metag": 7.785652173913047,
+          "zero": 7.813478260869561
+        },
+        "expected_severe_count": {
+          "comparator": 3.0,
+          "metag": 2.0,
+          "zero": 4.0
+        },
+        "severe_rate": {
+          "comparator": 0.043478260869565216,
+          "metag": 0.028985507246376812,
+          "zero": 0.057971014492753624
+        }
+      }
+    },
+    "disagreement": {
+      "0.25": {
+        "retained": 18,
+        "coverage": 0.2608695652173913,
+        "boundary_tier_size": 1,
+        "boundary_tier_selected": 1,
+        "MAE": {
+          "comparator": 2.1448151366971278,
+          "metag": 2.628888888888889,
+          "zero": 4.456666666666667
+        },
+        "expected_severe_count": {
+          "comparator": 0.0,
+          "metag": 0.0,
+          "zero": 0.0
+        },
+        "severe_rate": {
+          "comparator": 0.0,
+          "metag": 0.0,
+          "zero": 0.0
+        }
+      },
+      "0.5": {
+        "retained": 35,
+        "coverage": 0.5072463768115942,
+        "boundary_tier_size": 1,
+        "boundary_tier_selected": 1,
+        "MAE": {
+          "comparator": 2.0750443180711575,
+          "metag": 4.146285714285714,
+          "zero": 5.166857142857142
+        },
+        "expected_severe_count": {
+          "comparator": 0.0,
+          "metag": 0.0,
+          "zero": 0.0
+        },
+        "severe_rate": {
+          "comparator": 0.0,
+          "metag": 0.0,
+          "zero": 0.0
+        }
+      },
+      "0.75": {
+        "retained": 52,
+        "coverage": 0.7536231884057971,
+        "boundary_tier_size": 1,
+        "boundary_tier_selected": 1,
+        "MAE": {
+          "comparator": 2.6100778312131725,
+          "metag": 5.716730769230769,
+          "zero": 6.359807692307692
+        },
+        "expected_severe_count": {
+          "comparator": 0.0,
+          "metag": 0.0,
+          "zero": 2.0
+        },
+        "severe_rate": {
+          "comparator": 0.0,
+          "metag": 0.0,
+          "zero": 0.038461538461538464
+        }
+      },
+      "1.0": {
+        "retained": 69,
+        "coverage": 1.0,
+        "boundary_tier_size": 1,
+        "boundary_tier_selected": 1,
+        "MAE": {
+          "comparator": 4.5919483909612895,
+          "metag": 7.785652173913044,
+          "zero": 7.813478260869563
+        },
+        "expected_severe_count": {
+          "comparator": 3.0,
+          "metag": 2.0,
+          "zero": 4.0
+        },
+        "severe_rate": {
+          "comparator": 0.043478260869565216,
+          "metag": 0.028985507246376812,
+          "zero": 0.057971014492753624
+        }
+      }
+    },
+    "rank_sum": {
+      "0.25": {
+        "retained": 18,
+        "coverage": 0.2608695652173913,
+        "boundary_tier_size": 1,
+        "boundary_tier_selected": 1,
+        "MAE": {
+          "comparator": 1.3848178993377145,
+          "metag": 2.641111111111111,
+          "zero": 4.045555555555556
+        },
+        "expected_severe_count": {
+          "comparator": 0.0,
+          "metag": 0.0,
+          "zero": 0.0
+        },
+        "severe_rate": {
+          "comparator": 0.0,
+          "metag": 0.0,
+          "zero": 0.0
+        }
+      },
+      "0.5": {
+        "retained": 35,
+        "coverage": 0.5072463768115942,
+        "boundary_tier_size": 3,
+        "boundary_tier_selected": 2,
+        "MAE": {
+          "comparator": 2.1549495161832986,
+          "metag": 4.706666666666667,
+          "zero": 5.591238095238095
+        },
+        "expected_severe_count": {
+          "comparator": 0.0,
+          "metag": 0.0,
+          "zero": 0.0
+        },
+        "severe_rate": {
+          "comparator": 0.0,
+          "metag": 0.0,
+          "zero": 0.0
+        }
+      },
+      "0.75": {
+        "retained": 52,
+        "coverage": 0.7536231884057971,
+        "boundary_tier_size": 2,
+        "boundary_tier_selected": 1,
+        "MAE": {
+          "comparator": 3.1347259978519344,
+          "metag": 6.064423076923078,
+          "zero": 7.322307692307693
+        },
+        "expected_severe_count": {
+          "comparator": 1.0,
+          "metag": 0.0,
+          "zero": 2.5
+        },
+        "severe_rate": {
+          "comparator": 0.019230769230769232,
+          "metag": 0.0,
+          "zero": 0.04807692307692308
+        }
+      },
+      "1.0": {
+        "retained": 69,
+        "coverage": 1.0,
+        "boundary_tier_size": 1,
+        "boundary_tier_selected": 1,
+        "MAE": {
+          "comparator": 4.5919483909612895,
+          "metag": 7.7856521739130455,
+          "zero": 7.813478260869565
+        },
+        "expected_severe_count": {
+          "comparator": 3.0,
+          "metag": 2.0,
+          "zero": 4.0
+        },
+        "severe_rate": {
+          "comparator": 0.043478260869565216,
+          "metag": 0.028985507246376812,
+          "zero": 0.057971014492753624
+        }
+      }
+    },
+    "prediction_magnitude": {
+      "0.25": {
+        "retained": 18,
+        "coverage": 0.2608695652173913,
+        "boundary_tier_size": 1,
+        "boundary_tier_selected": 1,
+        "MAE": {
+          "comparator": 2.953181393740729,
+          "metag": 5.143888888888889,
+          "zero": 3.057222222222222
+        },
+        "expected_severe_count": {
+          "comparator": 0.0,
+          "metag": 0.0,
+          "zero": 0.0
+        },
+        "severe_rate": {
+          "comparator": 0.0,
+          "metag": 0.0,
+          "zero": 0.0
+        }
+      },
+      "0.5": {
+        "retained": 35,
+        "coverage": 0.5072463768115942,
+        "boundary_tier_size": 1,
+        "boundary_tier_selected": 1,
+        "MAE": {
+          "comparator": 3.1093632734161094,
+          "metag": 6.183428571428572,
+          "zero": 4.1085714285714285
+        },
+        "expected_severe_count": {
+          "comparator": 0.0,
+          "metag": 0.0,
+          "zero": 0.0
+        },
+        "severe_rate": {
+          "comparator": 0.0,
+          "metag": 0.0,
+          "zero": 0.0
+        }
+      },
+      "0.75": {
+        "retained": 52,
+        "coverage": 0.7536231884057971,
+        "boundary_tier_size": 1,
+        "boundary_tier_selected": 1,
+        "MAE": {
+          "comparator": 3.4747169824641113,
+          "metag": 6.864423076923078,
+          "zero": 5.279423076923077
+        },
+        "expected_severe_count": {
+          "comparator": 1.0,
+          "metag": 0.0,
+          "zero": 0.0
+        },
+        "severe_rate": {
+          "comparator": 0.019230769230769232,
+          "metag": 0.0,
+          "zero": 0.0
+        }
+      },
+      "1.0": {
+        "retained": 69,
+        "coverage": 1.0,
+        "boundary_tier_size": 1,
+        "boundary_tier_selected": 1,
+        "MAE": {
+          "comparator": 4.5919483909612895,
+          "metag": 7.785652173913042,
+          "zero": 7.813478260869567
+        },
+        "expected_severe_count": {
+          "comparator": 3.0,
+          "metag": 2.0,
+          "zero": 4.0
+        },
+        "severe_rate": {
+          "comparator": 0.043478260869565216,
+          "metag": 0.028985507246376812,
+          "zero": 0.057971014492753624
+        }
+      }
+    }
+  },
+  "comparator_AURC": {
+    "spread": 2.8473257847532123,
+    "disagreement": 2.384603890958257,
+    "rank_sum": 2.279435125736353,
+    "prediction_magnitude": 3.1530283946993363
+  },
+  "comparator_AURC_minus_spread": {
+    "spread": 0.0,
+    "disagreement": -0.4627218937949551,
+    "rank_sum": -0.5678906590168591,
+    "prediction_magnitude": 0.30570260994612397
+  },
+  "bootstrap": {
+    "status": "not_estimated",
+    "reason": "Complete, justified source/family clusters were not supplied."
+  },
+  "scope": "Finite supplied cohort. Generalization, total error calibration and source/experimental independence require separate evidence. Rankings are compared using the same retained counts; no new predictor is selected or fitted.",
+  "input_sha256": "d217b2fce3e51f823fb17c35c98bbee71afbf07477895952e8649d2d1526fe3d",
+  "analysis_source_sha256": "97d254e14181a6e2e5beb8e10cd3d8da687e9806ded209995a921db24266d5df",
+  "source_repeat_authentication": {
+    "n_values": 67500,
+    "n_repeats": 100,
+    "max_reassembled_mean_difference_kj": 7.105427357601002e-15
+  },
+  "independent_arithmetic_verification": {
+    "scope": "Independent finite-cohort/tie arithmetic; imports no reliability implementation.",
+    "status": "passed",
+    "n_targets": 69,
+    "n_policies": 4,
+    "n_risk_values_checked": 2484,
+    "max_absolute_reconstruction_difference": 3.552713678800501e-15,
+    "n_severe": 3,
+    "source_sha256": "f30f7f36382c0ae13cef71a6f481f43d55f1a4834fde58f0067f3fa1a3bc39a7",
+    "report_sha256": "a0b19f65dd4af3980b261b0a58ef801a4504e157ab8823f71bace7019bd096f4",
+    "input_sha256": "d217b2fce3e51f823fb17c35c98bbee71afbf07477895952e8649d2d1526fe3d",
+    "qualification": "Checks finite-cohort arithmetic only; does not authenticate experimental independence, generalization or native pretrained-model uncertainty."
+  }
+}

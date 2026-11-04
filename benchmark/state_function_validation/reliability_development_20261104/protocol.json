@@ -1,0 +1,33 @@
+{
+  "schema": "metag-reliability-development-protocol-v1",
+  "created_utc": "2026-11-04T11:30:31.677657+00:00",
+  "scope": "Fixed development-exposed69-target feasibility analysis; not independent experimental or generalization validation. No new molecular predictions, model fitting or selected estimator.",
+  "cohort": "All69exact-family pairs in the existing corrected OOF comparison, without error-based exclusion.",
+  "sources_sha256": {
+    "analysis/metag_corrected_validation_20261030_01/corrected_oof_comparison.json": "8a2e75acf8b99c6b85b5bbdd750824c8cd09d53e3bc4552f25fbf04f31869434",
+    "MetaG/benchmark/dgbyg_cv_manifest.json": "6a986df8db23bb2cb4bbfc341a9c9b1f6122eace962e7b19ccbf5a8cd23b905a",
+    "MetaG/benchmark/dgbyg_family_identity_complete.json": "c58b8492f951b5266eb75d5d66a7ffb0ee0c6e324ad51d8cd7cba6bb9e38d775"
+  },
+  "spread": "Population SD of the100archivedauthor-selectedOOFreplicate predictions, divided by absolute signed extent scale. This is a development proxy, not the released pretrained-model uncertainty and not a total-error interval.",
+  "score_policies": [
+    "ascending_OOF_repeat_spread",
+    "ascending_absolute_MetaG_minus_OOF_mean",
+    "ascending_sum_of_doubled_midranks_for_spread_and_disagreement",
+    "ascending_absolute_OOF_mean_magnitude_control"
+  ],
+  "primary_risk": "OOF comparator mean absolute error among retained targets. MetaG and zero errors reported on exactly the same retained subsets.",
+  "coverage_counts": "All integer counts1..N; highlighted fractions.25,.5,.75,1useceil(N*fraction).",
+  "ties": "Average over every exact-k subset of the boundary score tier; no label-based or ID-based favorable tie breaking.",
+  "combined_policy": "Equal-weight rank combination fixed before new ranking outcomes. No fitted coefficients or post-outcome score selection.",
+  "severe_error_threshold_kj_per_mol": 20.0,
+  "aggregate": "Discrete AURC is the mean of MAE across k=1..N, on identical target counts.",
+  "random_selection_context": "Exact finite-cohort probability of zero severe comparator errors in a uniformly sampled k-subset, conditional on observed full-cohort severe count. Not a generalization probability or formal model-comparison p-value.",
+  "uncertainty": "Do not invent reaction-independent confidence intervals. Source/family dependence clusters have not been curated for this aggregate-label cohort; current output is descriptive only. Optional future cluster bootstrap requires explicit clusters, at least10clusters, and independent enrollment validated separately.",
+  "bootstrap_if_eligible": {
+    "replicates": 10000,
+    "seed": 20261104,
+    "interval": "percentile95% on paired fixed-score resampled clusters"
+  },
+  "interpretation": "A favorable development result is a hypothesis for a later independently frozen evaluation. Agreement does not imply independent errors or total predictive reliability.",
+  "new_ranking_outcomes_examined_before_protocol": false
+}
