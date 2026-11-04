@@ -1,0 +1,8 @@
+{
+  "reason": "GPU4PySCF default removes overlap eigenvectors below1e-6 although predeclared minimum admissible eigenvalue is1e-8. Enforce1e-8 in job-local configuration and verify nMO=nAO. No geometry or physical-method selection changes.",
+  "archived_completed_slots": 1,
+  "archived_interrupted_slots": 1,
+  "previous_manifest": "infrastructure_attempt2/launch_manifest.json",
+  "no_cross_revision_energy_mixing": true,
+  "original_overall_budget_seconds": 5400
+}

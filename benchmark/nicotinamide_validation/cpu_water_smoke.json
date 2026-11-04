@@ -1,0 +1,35 @@
+{
+  "geometry": [
+    [
+      "O",
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      "H",
+      [
+        0.7586,
+        0,
+        0.5043
+      ]
+    ],
+    [
+      "H",
+      [
+        -0.7586,
+        0,
+        0.5043
+      ]
+    ]
+  ],
+  "gas_Eh": -76.4273794723139,
+  "water_total_Eh": -76.43829439292533,
+  "SMD_delta_Eh": -0.010914920611426737,
+  "CDS_Eh": 0.002242152534962916,
+  "source_sha256": "192f050ccec0be2129eefa36ab8869eaaae27b66f2d88b5325ddb439f1ae4280",
+  "elapsed_seconds": 133.4306400977075,
+  "scope": "CPU density-fitted numerical implementation fixture, not experimental accuracy."
+}

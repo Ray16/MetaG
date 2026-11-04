@@ -1,0 +1,18 @@
+{
+  "expected_slots": [
+    "core_ox__minimum_000",
+    "core_ox__minimum_001",
+    "core_ox__minimum_002",
+    "core_red__minimum_000",
+    "core_red__minimum_001",
+    "core_red__minimum_002",
+    "core_red__minimum_003",
+    "full_ox__minimum_031",
+    "full_red__minimum_046"
+  ],
+  "completed": [],
+  "failures": [],
+  "status": "stopped",
+  "controller_error": "gpu_smoke returned 1; inspect durable console log",
+  "traceback": "Traceback (most recent call last):\n  File \"/nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG/analysis/nicotinamide_reference_control_20261104_01/run_control.py\", line 66, in <module>\n    run([manifest['dft_python'],str(HERE/'reference_point.py'),'smoke'],'gpu_smoke',environment)\n  File \"/nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG/analysis/nicotinamide_reference_control_20261104_01/run_control.py\", line 54, in run\n    if code:raise RuntimeError(f'{name} returned {code}; inspect durable console log')\nRuntimeError: gpu_smoke returned 1; inspect durable console log\n"
+}

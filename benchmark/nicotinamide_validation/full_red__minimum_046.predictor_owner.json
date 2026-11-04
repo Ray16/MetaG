@@ -1,0 +1,16 @@
+{
+  "pid": 3882911,
+  "start_ticks": "1460358117",
+  "argv": [
+    "/homes/rzhu/miniforge3/envs/redox/bin/python",
+    "/nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG/analysis/nicotinamide_reference_control_20261104_01/reference_point.py",
+    "full_red__minimum_046"
+  ],
+  "host": "lambda2",
+  "cpu_affinity": [
+    2,
+    3,
+    4,
+    5
+  ]
+}

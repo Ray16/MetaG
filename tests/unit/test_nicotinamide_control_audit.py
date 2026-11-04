@@ -53,3 +53,15 @@ def test_pool_changes_reference_without_changing_probabilities():
     shifted=audit.pool([dict(row,electronic_kj=row['electronic_kj']+1234.) for row in rows],2.4789)
     assert shifted['G_kj']-original['G_kj']==pytest.approx(1234.,abs=1e-10)
     assert shifted['probabilities']==pytest.approx(original['probabilities'],abs=1e-12)
+
+def test_published_packet_reconstructs_all_four_arms():
+    packet=SOURCE.parent/'nicotinamide_validation'
+    report=audit.audit(packet,packet/'raw_records')
+    assert report['n_slots']==9
+    assert report['independent_experimental_labels_admitted']==0
+    # Independent decimal reconstruction in the manuscript checker supplies
+    # these values; no backend or external workspace is needed by this test.
+    expected={'UMA_ALPB':-41.79569172164487,'UMA_SMD':-43.52053462832513,
+              'DFT_ALPB':-41.91735383775112,'DFT_SMD':-43.68302454934846}
+    for arm,value in expected.items():
+        assert report['arms'][arm]['exchange_kj']==pytest.approx(value,abs=1e-7,rel=0)

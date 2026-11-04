@@ -1,0 +1,362 @@
+#INFO: **** input file is /nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG/analysis/nicotinamide_reference_control_20261104_01/reference_point.py ****
+"""One restricted-singlet DF-DFT gas/SMD pair on an unchanged stored geometry.
+
+SMD total energy already includes electrostatic and CDS terms. Its difference
+from the gas total is the complete solvent increment used by this control.
+"""
+import argparse
+import importlib.metadata
+import json
+import math
+import time
+from control_common import HERE, authenticate, owner, sha, write
+
+parser = argparse.ArgumentParser()
+parser.add_argument('slot')
+args = parser.parse_args()
+inputs, protocol = authenticate()
+import numpy as np
+import cupy as cp
+from pyscf import gto, lib
+from gpu4pyscf import dft, solvent
+from gpu4pyscf.scf import hf as gpu_hf
+# The package default silently discards overlap directions below1e-6.
+# Retain every direction admitted by the predeclared1e-8 input gate.
+gpu_hf.overlap_zero_eigenvalue_threshold = protocol['overlap_minimum_eigenvalue']
+lib.num_threads(1)
+assert cp.cuda.runtime.getDeviceCount() == 1
+start = time.monotonic()
+output = HERE/'points'
+output.mkdir(exist_ok=True)
+if args.slot == 'smoke':
+    reference = json.loads((HERE/'cpu_water_smoke.json').read_text())
+    assert reference['source_sha256'] == sha(HERE/'cpu_smoke.py')
+    geometry = dict(symbols=[x[0] for x in reference['geometry']],
+                    positions_angstrom=[x[1] for x in reference['geometry']],
+                    charge=0, spin_multiplicity=1)
+else:
+    geometry = inputs['inputs'][args.slot]['geometry']
+
+mol = gto.M(atom=list(zip(geometry['symbols'],geometry['positions_angstrom'])),
+            unit='Angstrom', basis=protocol['basis'], charge=geometry['charge'],
+            spin=geometry['spin_multiplicity']-1, verbose=4,
+            output=str(output/(args.slot+'.scf.log')),
+            max_memory=protocol['max_memory_MB'])
+overlap_min = float(np.linalg.eigvalsh(mol.intor('int1e_ovlp'))[0])
+assert overlap_min >= protocol['overlap_minimum_eigenvalue'], overlap_min
+if args.slot != 'smoke':
+    assert mol.nao_nr() == inputs['inputs'][args.slot]['n_AO']
+    assert mol.nelectron == inputs['inputs'][args.slot]['n_electrons']
+
+def calculator():
+    mf = dft.RKS(mol, xc=protocol['functional']).density_fit(auxbasis=protocol['auxbasis'])
+    mf.grids.level = protocol['grid_level']
+    mf.nlcgrids.level = protocol['nlc_grid_level']
+    mf.conv_tol = protocol['SCF_tolerance_Eh']
+    mf.conv_tol_grad = protocol['SCF_gradient_tolerance']
+    mf.max_cycle = protocol['max_cycle']
+    mf.chkfile = None
+    assert mf.do_nlc()
+    return mf
+
+def scalar(value):
+    return float(value.get() if hasattr(value, 'get') else value)
+
+def stage(mf, **kwargs):
+    energy = scalar(mf.kernel(**kwargs))
+    gradient = scalar(cp.linalg.norm(mf.get_grad(mf.mo_coeff, mf.mo_occ, mf.get_fock())))
+    assert mf.mo_coeff.shape[1] == mol.nao_nr(), 'AO directions unexpectedly discarded'
+    assert mf.converged and math.isfinite(energy), 'SCF not converged'
+    assert gradient <= protocol['stationary_gradient_maximum'], gradient
+    occupied = mf.mo_energy[mf.mo_occ > 0]
+    virtual = mf.mo_energy[mf.mo_occ == 0]
+    return dict(energy_Eh=energy, converged=bool(mf.converged),
+                n_molecular_orbitals=int(mf.mo_coeff.shape[1]),
+                orbital_gradient_norm=gradient, HOMO_Eh=scalar(occupied.max()),
+                LUMO_Eh=scalar(virtual.min()),
+                scf_summary={str(k):scalar(v) for k,v in mf.scf_summary.items()})
+
+result = dict(slot=args.slot, geometry=geometry, owner=owner(),
+              source_sha256=sha(__file__), protocol_sha256=sha(HERE/'fixed_geometry_protocol.json'),
+              input_sha256=sha(HERE/'geometry_inputs.json'),
+              versions={key:importlib.metadata.version(key) for key in
+                        ['pyscf','gpu4pyscf-cuda12x','gpu4pyscf-libxc-cuda12x','numpy','cupy-cuda12x']},
+              n_AO=mol.nao_nr(), n_electrons=mol.nelectron, overlap_minimum_eigenvalue=overlap_min,
+              limitation='Converged restricted-singlet fixed-geometry point; no orbital stability proof.')
+print(f'START gas {args.slot}, AO={mol.nao_nr()}', flush=True)
+gas = calculator()
+result['gas'] = stage(gas)
+write(output/(args.slot+'.gas.json'), result)
+print(f'COMPLETE gas {args.slot}', flush=True)
+water = calculator()
+water.with_df = gas.with_df
+water = solvent.SMD(water)
+water.with_solvent.solvent = 'water'
+water.with_solvent.sasa_ng = protocol['SMD_sasa_ng']
+water.with_solvent.equilibrium_solvation = protocol['SMD_equilibrium_solvation']
+print(f'START SMD {args.slot}', flush=True)
+result['water'] = stage(water, dm0=gas.make_rdm1())
+result['SMD_delta_Eh'] = result['water']['energy_Eh']-result['gas']['energy_Eh']
+result['CDS_Eh'] = scalar(water.with_solvent.e_cds)
+result['surface_discretization_method'] = water.with_solvent.surface_discretization_method
+assert abs(result['water']['scf_summary']['e_cds']-result['CDS_Eh']) < 1e-12
+result['elapsed_seconds'] = time.monotonic()-start
+if args.slot == 'smoke':
+    checks = {key:abs(result[stage_name]['energy_Eh']-reference[key])*protocol['Hartree_to_kj_per_mol']
+              for stage_name,key in [('gas','gas_Eh'),('water','water_total_Eh')]}
+    result['CPU_GPU_absolute_difference_kj'] = checks
+    assert max(checks.values()) <= protocol['numerical_smoke_tolerance_kj'], checks
+result['passed'] = True
+write(output/(args.slot+'.json'), result)
+print(f'COMPLETE gas/SMD {args.slot}; delta={result["SMD_delta_Eh"]:.12g} Eh', flush=True)
+#INFO: ******************** input file end ********************
+
+
+System: uname_result(system='Linux', node='lambda2', release='5.15.0-177-generic', version='#187-Ubuntu SMP Sat Apr 11 22:54:33 UTC 2026', machine='x86_64')  Threads 1
+Python 3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]
+numpy 2.2.6  scipy 1.17.1  h5py 3.16.0
+Date: Wed Nov  4 08:21:43 2026
+PySCF version 2.14.0
+PySCF path  /homes/rzhu/miniforge3/envs/redox/lib/python3.11/site-packages/pyscf/__init__.py
+CUDA Environment
+    CuPy 14.1.1
+    CUDA Path None
+    CUDA Build Version 12090
+    CUDA Driver Version 12040
+    CUDA Runtime Version 12090
+CUDA toolkit
+    cuSolver (11, 7, 5)
+    cuBLAS 120902
+    cuTENSOR None
+Device info
+    Device name b'Tesla V100-SXM2-32GB'
+    Device global memory 31.73 GB
+    CuPy memory fraction 0.9
+    Num. Devices 1
+GPU4PySCF 1.8.1
+GPU4PySCF path  /homes/rzhu/miniforge3/envs/redox/lib/python3.11/site-packages/gpu4pyscf
+
+[CONFIG] conf_file None
+[INPUT] verbose = 4
+[INPUT] num. atoms = 20
+[INPUT] num. electrons = 74
+[INPUT] charge = 0
+[INPUT] spin (= nelec alpha-beta = 2S) = 0
+[INPUT] symmetry False subgroup None
+[INPUT] Mole.unit = Angstrom
+[INPUT] Symbol           X                Y                Z      unit          X                Y                Z       unit  Magmom
+[INPUT]  1 C      2.650169610977   0.743125498295   0.073481544852 AA    5.008094748392   1.404303667958   0.138859994981 Bohr   0.0
+[INPUT]  2 N      1.423760294914  -0.023092130199   0.057183045894 AA    2.690517024418  -0.043637801709   0.108060295708 Bohr   0.0
+[INPUT]  3 C      1.399387240410  -1.292845726013  -0.522468209267 AA    2.644458626586  -2.443124343479  -0.987321824306 Bohr   0.0
+[INPUT]  4 C      0.280590415001  -1.988925814629  -0.696068346500 AA    0.530239037530  -3.758525071726  -1.315378538865 Bohr   0.0
+[INPUT]  5 C     -1.073761224747  -1.476526737213  -0.286697149277 AA   -2.029114637949  -2.790231148930  -0.541779092827 Bohr   0.0
+[INPUT]  6 C     -0.964874982834  -0.040510576218   0.163856491446 AA   -1.823349462000  -0.076553894201   0.309643892566 Bohr   0.0
+[INPUT]  7 C     -2.228409290314   0.615461051464   0.558143794537 AA   -4.211083252129   1.163052827604   1.054738909800 Bohr   0.0
+[INPUT]  8 N     -2.264833927155   1.994325160980   0.508019268513 AA   -4.279915839945   3.768728357582   0.960017283491 Bohr   0.0
+[INPUT]  9 O     -3.192673683167  -0.029843013734   0.927590966225 AA   -6.033278866291  -0.056395122688   1.752892881785 Bohr   0.0
+[INPUT] 10 C      0.216939568520   0.574527859688   0.322464495897 AA    0.409956370083   1.085700305742   0.609369582142 Bohr   0.0
+[INPUT] 11 H      2.625695466995   1.458823561668   0.894232094288 AA    4.961845319133   2.756776995616   1.689853750000 Bohr   0.0
+[INPUT] 12 H      3.491364955902   0.072376295924   0.242707580328 AA    6.597723567559   0.136771377207   0.458650855176 Bohr   0.0
+[INPUT] 13 H      2.822825431824   1.286522507668  -0.861488282681 AA    5.334366963604   2.431175192580  -1.627976913788 Bohr   0.0
+[INPUT] 14 H      2.368345260620  -1.679203629494  -0.808694362640 AA    4.475523910984  -3.173234967119  -1.528210863870 Bohr   0.0
+[INPUT] 15 H      0.356932282448  -2.976251602173  -1.131186485291 AA    0.674504258842  -5.624300405905  -2.137632653008 Bohr   0.0
+[INPUT] 16 H     -1.507407546043  -2.082956790924   0.514917433262 AA   -2.848587420125  -3.936217864149   0.973052925629 Bohr   0.0
+[INPUT] 17 H     -1.786133885384  -1.555024862289  -1.114866375923 AA   -3.375303865180  -2.938571106617  -2.106792115981 Bohr   0.0
+[INPUT] 18 H     -1.707665324211   2.443876504898  -0.198121860623 AA   -3.227019775176   4.618257276517  -0.374396055867 Bohr   0.0
+[INPUT] 19 H     -3.188895463943   2.375457763672   0.637175738811 AA   -6.026139066721   4.488964593812   1.204087639571 Bohr   0.0
+[INPUT] 20 H      0.278644889593   1.580683231354   0.719819366932 AA    0.526562527341   2.987058396951   1.360261462659 Bohr   0.0
+
+nuclear repulsion = 518.358546915648
+number of shells = 181
+number of NR pGTOs = 633
+number of NR cGTOs = 463
+basis = def2-tzvpd
+ecp = {}
+CPU time:         1.12
+
+
+******** <class 'gpu4pyscf.df.df_jk.DFRKS'> ********
+method = DFRKS
+initial guess = minao
+damping factor = None
+level_shift factor = None
+DIIS = <class 'gpu4pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-10
+SCF conv_tol_grad = 1e-06
+SCF max_cycles = 150
+direct_scf = False
+XC library gpu4pyscf.dft.libxc version 7.0.0 (CUDA)
+    unable to decode the reference due to https://github.com/NVIDIA/cuda-python/issues/29
+XC functionals = wb97m-v
+radial grids: 
+    Treutler-Ahlrichs [JCP 102, 346 (1995); DOI:10.1063/1.469408] (M4) radial grids
+    
+becke partition: Becke, JCP 88, 2547 (1988); DOI:10.1063/1.454033
+pruning grids: <function nwchem_prune at 0x7f07aed38860>
+grids dens level: 4
+symmetrized grids: False
+atomic radii adjust function: <function treutler_atomic_radii_adjust at 0x7f07aed38900>
+** Following is NLC and NLC Grids **
+NLC functional = wb97m-v
+radial grids: 
+    Treutler-Ahlrichs [JCP 102, 346 (1995); DOI:10.1063/1.469408] (M4) radial grids
+    
+becke partition: Becke, JCP 88, 2547 (1988); DOI:10.1063/1.454033
+pruning grids: <function nwchem_prune at 0x7f07aed38860>
+grids dens level: 3
+symmetrized grids: False
+atomic radii adjust function: <function treutler_atomic_radii_adjust at 0x7f07aed38900>
+small_rho_cutoff = 0
+tot grids = 441600
+tot grids = 238848
+Create RSH-DF object <gpu4pyscf.df.df.DF object at 0x7f07ad9ab710> for omega=0.3
+init E= -459.68933940636
+  HOMO = -0.182285815432562  LUMO = -0.0475640989080854  gap/eV = 3.66596
+cycle= 1 E= -457.299917375509  delta_E= 2.39  |g|= 0.902  |ddm|= 10.1
+  HOMO = -0.153484538878184  LUMO = 0.00743342741240401  gap/eV = 4.37880
+cycle= 2 E= -457.161208816521  delta_E= 0.139  |g|= 1.33  |ddm|= 7.32
+  HOMO = -0.270937690487204  LUMO = 0.0230273234308401  gap/eV = 7.99920
+cycle= 3 E= -457.477990591438  delta_E= -0.317  |g|= 0.0991  |ddm|=    3
+  HOMO = -0.279170609494036  LUMO = 0.0247330430544282  gap/eV = 8.26964
+cycle= 4 E= -457.4798294628  delta_E= -0.00184  |g|= 0.0604  |ddm|= 0.734
+  HOMO = -0.277582043614437  LUMO = 0.025383394759619  gap/eV = 8.24411
+cycle= 5 E= -457.480635729062  delta_E= -0.000806  |g|= 0.012  |ddm|= 0.416
+  HOMO = -0.276334936117098  LUMO = 0.0256736999858912  gap/eV = 8.21807
+cycle= 6 E= -457.480687469569  delta_E= -5.17e-05  |g|= 0.00603  |ddm|= 0.0918
+  HOMO = -0.276887836004466  LUMO = 0.0256412080824123  gap/eV = 8.23223
+cycle= 7 E= -457.480702029403  delta_E= -1.46e-05  |g|= 0.00257  |ddm|= 0.0455
+  HOMO = -0.276869709550822  LUMO = 0.025703670344864  gap/eV = 8.23344
+cycle= 8 E= -457.480705673473  delta_E= -3.64e-06  |g|= 0.000801  |ddm|= 0.0324
+  HOMO = -0.276783377122652  LUMO = 0.0257236275570951  gap/eV = 8.23163
+cycle= 9 E= -457.480706132746  delta_E= -4.59e-07  |g|= 0.000389  |ddm|= 0.0117
+  HOMO = -0.276800912949483  LUMO = 0.0257316156916779  gap/eV = 8.23233
+cycle= 10 E= -457.480706228802  delta_E= -9.61e-08  |g|= 9.93e-05  |ddm|= 0.00393
+  HOMO = -0.276800067515319  LUMO = 0.0257316325250891  gap/eV = 8.23231
+cycle= 11 E= -457.480706242579  delta_E= -1.38e-08  |g|= 6.56e-05  |ddm|= 0.00186
+  HOMO = -0.276798512454534  LUMO = 0.025732328320965  gap/eV = 8.23228
+cycle= 12 E= -457.480706245681  delta_E= -3.1e-09  |g|= 2.45e-05  |ddm|= 0.000743
+  HOMO = -0.276798024735228  LUMO = 0.0257328310983681  gap/eV = 8.23228
+cycle= 13 E= -457.480706246402  delta_E= -7.21e-10  |g|= 1.29e-05  |ddm|= 0.000384
+  HOMO = -0.276798441446945  LUMO = 0.0257325600434737  gap/eV = 8.23229
+cycle= 14 E= -457.480706246457  delta_E= -5.53e-11  |g|= 4.84e-06  |ddm|= 0.000143
+  HOMO = -0.27679842843641  LUMO = 0.0257325826632417  gap/eV = 8.23229
+cycle= 15 E= -457.480706246466  delta_E= -9.09e-12  |g|= 1.96e-06  |ddm|= 3.72e-05
+  HOMO = -0.276798336449882  LUMO = 0.0257326117849984  gap/eV = 8.23229
+cycle= 16 E= -457.480706246468  delta_E= -1.48e-12  |g|= 8.41e-07  |ddm|= 1.79e-05
+converged SCF energy = -457.480706246468
+
+
+******** <class 'gpu4pyscf.solvent._attach_solvent.SMDDFRKS'> ********
+method = SMDDFRKS
+initial guess = minao
+damping factor = None
+level_shift factor = None
+DIIS = <class 'gpu4pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-10
+SCF conv_tol_grad = 1e-06
+SCF max_cycles = 150
+direct_scf = False
+XC library gpu4pyscf.dft.libxc version 7.0.0 (CUDA)
+    unable to decode the reference due to https://github.com/NVIDIA/cuda-python/issues/29
+XC functionals = wb97m-v
+radial grids: 
+    Treutler-Ahlrichs [JCP 102, 346 (1995); DOI:10.1063/1.469408] (M4) radial grids
+    
+becke partition: Becke, JCP 88, 2547 (1988); DOI:10.1063/1.454033
+pruning grids: <function nwchem_prune at 0x7f07aed38860>
+grids dens level: 4
+symmetrized grids: False
+atomic radii adjust function: <function treutler_atomic_radii_adjust at 0x7f07aed38900>
+** Following is NLC and NLC Grids **
+NLC functional = wb97m-v
+radial grids: 
+    Treutler-Ahlrichs [JCP 102, 346 (1995); DOI:10.1063/1.469408] (M4) radial grids
+    
+becke partition: Becke, JCP 88, 2547 (1988); DOI:10.1063/1.454033
+pruning grids: <function nwchem_prune at 0x7f07aed38860>
+grids dens level: 3
+symmetrized grids: False
+atomic radii adjust function: <function treutler_atomic_radii_adjust at 0x7f07aed38900>
+small_rho_cutoff = 0
+<class 'gpu4pyscf.solvent.smd.SMD'> does not have attributes  surface_discretization_method
+******** <class 'gpu4pyscf.solvent.smd.SMD'> ********
+sasa_ng = 590
+eps = 78.355
+frozen = False
+---------- SMD solvent descriptors -------
+n     = 1.3328
+alpha = 0.82
+beta  = 0.35
+gamma = -1.0
+phi   = -1.0
+psi   = -1.0
+--------------------- end ----------------
+equilibrium_solvation = True
+tot grids = 441600
+tot grids = 238848
+CDS correction = 0.008169133886721
+Solvent Energy = -0.0194733614891182
+init E= -457.49201047407
+  HOMO = -0.273568794595914  LUMO = 0.036300194239292  gap/eV = 8.43196
+CDS correction = 0.008169133886721
+Solvent Energy = -0.0293496262386396
+cycle= 1 E= -457.496328439524  delta_E= -0.00432  |g|= 0.0612  |ddm|= 1.87
+  HOMO = -0.271966510269471  LUMO = 0.0365398225061661  gap/eV = 8.39488
+CDS correction = 0.008169133886721
+Solvent Energy = -0.0295834502258363
+cycle= 2 E= -457.49666750905  delta_E= -0.000339  |g|= 0.0637  |ddm|=  0.5
+  HOMO = -0.272155718178309  LUMO = 0.0364845689539851  gap/eV = 8.39853
+CDS correction = 0.008169133886721
+Solvent Energy = -0.0314259343356259
+cycle= 3 E= -457.497390648414  delta_E= -0.000723  |g|= 0.0107  |ddm|= 0.12
+  HOMO = -0.272870919210728  LUMO = 0.0364619377281226  gap/eV = 8.41738
+CDS correction = 0.008169133886721
+Solvent Energy = -0.0323656649059155
+cycle= 4 E= -457.497459827625  delta_E= -6.92e-05  |g|= 0.00483  |ddm|= 0.112
+  HOMO = -0.272583414353512  LUMO = 0.0364865555017713  gap/eV = 8.41022
+CDS correction = 0.008169133886721
+Solvent Energy = -0.0326505737934948
+cycle= 5 E= -457.497471926872  delta_E= -1.21e-05  |g|= 0.00134  |ddm|= 0.0407
+  HOMO = -0.272541117190814  LUMO = 0.0364873231857775  gap/eV = 8.40909
+CDS correction = 0.008169133886721
+Solvent Energy = -0.0327242653915513
+cycle= 6 E= -457.49747350118  delta_E= -1.57e-06  |g|= 0.000812  |ddm|= 0.0138
+  HOMO = -0.272608059676179  LUMO = 0.0364851249553565  gap/eV = 8.41085
+CDS correction = 0.008169133886721
+Solvent Energy = -0.0327487124009449
+cycle= 7 E= -457.497473968293  delta_E= -4.67e-07  |g|= 0.000297  |ddm|= 0.0104
+  HOMO = -0.272592163499027  LUMO = 0.0364852576791209  gap/eV = 8.41043
+CDS correction = 0.008169133886721
+Solvent Energy = -0.0327558339997927
+cycle= 8 E= -457.497474062507  delta_E= -9.42e-08  |g|= 0.000115  |ddm|= 0.0036
+  HOMO = -0.272590071697562  LUMO = 0.0364856906536515  gap/eV = 8.41038
+CDS correction = 0.008169133886721
+Solvent Energy = -0.0327566216309773
+cycle= 9 E= -457.497474077702  delta_E= -1.52e-08  |g|= 5.18e-05  |ddm|= 0.00133
+  HOMO = -0.2725912821949  LUMO = 0.0364856017456541  gap/eV = 8.41041
+CDS correction = 0.008169133886721
+Solvent Energy = -0.0327568813926316
+cycle= 10 E= -457.49747408137  delta_E= -3.67e-09  |g|= 2.02e-05  |ddm|= 0.000928
+  HOMO = -0.272590595948541  LUMO = 0.0364856533505786  gap/eV = 8.41039
+CDS correction = 0.008169133886721
+Solvent Energy = -0.0327567345063878
+cycle= 11 E= -457.49747408195  delta_E= -5.8e-10  |g|= 9.61e-06  |ddm|= 0.000576
+  HOMO = -0.272590512800749  LUMO = 0.0364856873048094  gap/eV = 8.41039
+CDS correction = 0.008169133886721
+Solvent Energy = -0.0327569007893055
+cycle= 12 E= -457.497474081995  delta_E= -4.47e-11  |g|= 3.98e-06  |ddm|= 7.84e-05
+  HOMO = -0.272590403486433  LUMO = 0.0364856914251597  gap/eV = 8.41039
+CDS correction = 0.008169133886721
+Solvent Energy = -0.0327569337277556
+cycle= 13 E= -457.497474082  delta_E= -5.23e-12  |g|= 1.63e-06  |ddm|= 6.31e-05
+  HOMO = -0.272590496172157  LUMO = 0.0364856845481341  gap/eV = 8.41039
+CDS correction = 0.008169133886721
+Solvent Energy = -0.0327569748281076
+cycle= 14 E= -457.497474082001  delta_E= -5.68e-13  |g|= 5.64e-07  |ddm|= 2.13e-05
+converged SCF energy = -457.497474082001

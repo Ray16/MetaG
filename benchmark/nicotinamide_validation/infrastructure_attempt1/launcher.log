@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG/analysis/nicotinamide_reference_control_20261104_01/run_control.py", line 66, in <module>
+    run([manifest['dft_python'],str(HERE/'reference_point.py'),'smoke'],'gpu_smoke',environment)
+  File "/nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG/analysis/nicotinamide_reference_control_20261104_01/run_control.py", line 54, in run
+    if code:raise RuntimeError(f'{name} returned {code}; inspect durable console log')
+RuntimeError: gpu_smoke returned 1; inspect durable console log

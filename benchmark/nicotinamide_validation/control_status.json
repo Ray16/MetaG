@@ -1,0 +1,26 @@
+{
+  "expected_slots": [
+    "core_ox__minimum_000",
+    "core_ox__minimum_001",
+    "core_ox__minimum_002",
+    "core_red__minimum_000",
+    "core_red__minimum_001",
+    "core_red__minimum_002",
+    "core_red__minimum_003",
+    "full_ox__minimum_031",
+    "full_red__minimum_046"
+  ],
+  "completed": [
+    "core_ox__minimum_000",
+    "core_ox__minimum_001",
+    "core_ox__minimum_002",
+    "core_red__minimum_000",
+    "core_red__minimum_001",
+    "core_red__minimum_002",
+    "core_red__minimum_003",
+    "full_ox__minimum_031",
+    "full_red__minimum_046"
+  ],
+  "failures": [],
+  "status": "complete"
+}

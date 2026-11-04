@@ -1,0 +1,71 @@
+{
+  "schema": "metag-nicotinamide-primary-reference-adjudication-v1",
+  "utc": "2026-11-04T14:23:31.942985+00:00",
+  "independent_experimental_labels_admitted": 0,
+  "sources": [
+    {
+      "id": "Mirzahosseini2016",
+      "doi": "10.1038/srep37596",
+      "url": "https://www.nature.com/articles/srep37596",
+      "owned_primary_files": {
+        "Mirzahosseini2016_primary.xml": "587df955b8ac2e322c0bed6351134c52d29d19139205788690a36cb0c22b4725",
+        "Mirzahosseini2016_primary.pdf": "e3dd99297979564b4db93ec9515344622816285c06ca7d6eb03d303a695fcd23"
+      },
+      "locators": {
+        "conditions": "Experimental Section, printed page3",
+        "structure": "Figure6, printed page7; visually inspected",
+        "potential": "Equations12-15 and Figure7B, printed pages7-8"
+      },
+      "oxidized_smiles": "C[n+]1cccc(C(N)=O)c1",
+      "reduced_smiles": "CN1C=CCC(C(N)=O)=C1",
+      "figure_1_4_reduction_confirmed": true,
+      "potential_reference": "SCE measurement converted to SHE by authors",
+      "intercept_V": -0.194,
+      "reported_plus_minus_V": 0.002,
+      "uncertainty_type": "As reported; interval interpretation not identified",
+      "direct_electrode_temperature_C": 25,
+      "direct_electrode_temperature_plus_minus_C": 2,
+      "direct_electrode_ionic_strength_M": null,
+      "activity_extrapolation_to_I_zero": null,
+      "calibration_buffer_M": 0.15,
+      "calibration_buffer_is_sample_ionic_strength": false,
+      "NMR_ionic_strength_M": 0.15,
+      "NMR_water_D2O_volume_ratio": [
+        95,
+        5
+      ],
+      "MNAH_log_protonation_K": 1.51,
+      "MNAH_logK_plus_minus": 0.01,
+      "numeric_transform": {
+        "kind": "Derived candidate, not a condition-matched experimental label",
+        "T_K": 298.15,
+        "pH": 7.0,
+        "n_electrons": 2,
+        "n_protons": 1,
+        "R_J_mol_K": 8.31446261815324,
+        "F_C_mol": 96485.33212,
+        "Nernst_shift_V": -0.20705772390384142,
+        "candidate_E_V": -0.4010577239038414,
+        "protonated_fraction_using_NMR_logK": 3.2359260980446846e-06,
+        "activity_correction_applied": false
+      },
+      "admission": "held: direct-electrode ionic strength/activity bridge to modelI0 unresolved"
+    },
+    {
+      "id": "Alberty2004",
+      "doi": "10.1016/j.bpc.2004.05.003",
+      "url": "https://doi.org/10.1016/j.bpc.2004.05.003",
+      "primary_text_mirror": "https://electronicsandbooks.com/edt/manual/Magazine/B/Biophysical%20Chemistry/2004%20%28Volume%20111%29/Issue%2002%20%2895-190%29/115-122.pdf",
+      "locator": "Table8, printed page121",
+      "type": "Calculated transformed thermodynamic reference, not a new equilibrium measurement",
+      "T_K": 298.15,
+      "pH": 7,
+      "ionic_strength_M": 0.25,
+      "E_transformed_V": -0.316,
+      "deltaG_transformed_kj": 60.99,
+      "admission": "held: different ionic strength; source-derived reference, not independently held-out metabolic label"
+    }
+  ],
+  "policy": "No fitted offsets, no mixed-condition exchange error, no benchmark enrollment from these potentials.",
+  "model_state_note": "The new DFT/SMD controls use neutral phosphate reference states with charge+1/0. They do not resolve the aqueous NAD protonation or magnesium ensemble."
+}

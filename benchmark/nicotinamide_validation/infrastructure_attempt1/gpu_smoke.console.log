@@ -1,0 +1,12 @@
+/homes/rzhu/miniforge3/envs/redox/lib/python3.11/site-packages/gpu4pyscf/lib/cutensor.py:154: UserWarning: using cupy as the tensor contraction engine.
+  warnings.warn(f'using {contract_engine} as the tensor contraction engine.')
+output file: /nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG/analysis/nicotinamide_reference_control_20261104_01/points/smoke.scf.log
+START gas smoke, AO=58
+Traceback (most recent call last):
+  File "/nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG/analysis/nicotinamide_reference_control_20261104_01/reference_point.py", line 81, in <module>
+    result['gas'] = stage(gas)
+                    ^^^^^^^^^^
+  File "/nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG/analysis/nicotinamide_reference_control_20261104_01/reference_point.py", line 62, in stage
+    gradient = scalar(cp.linalg.norm(mf.get_grad(mf.mo_coeff, mf.mo_occ)))
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: get_grad() missing 1 required positional argument: 'fock_ao'

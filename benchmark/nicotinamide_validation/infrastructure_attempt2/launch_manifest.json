@@ -1,0 +1,59 @@
+{
+  "utc": "2026-11-04T14:17:59.563239+00:00",
+  "host": "lambda2",
+  "gpu_index": 7,
+  "gpu_uuid": "GPU-fab99e67-e6e2-56bb-e07d-ea240da3e84a",
+  "cpus": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "argv": [
+    "/nfs/lambda_stor_01/homes/rzhu/bin/gpu_reserve",
+    "run",
+    "7",
+    "--label",
+    "metag_nicotinamide_reference_control",
+    "--",
+    "/usr/bin/taskset",
+    "-c",
+    "2,3,4,5",
+    "/usr/bin/python",
+    "/nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG/analysis/nicotinamide_reference_control_20261104_01/run_control.py"
+  ],
+  "uma_python": "/nfs/lambda_stor_01/homes/rzhu/.cache/metag-environments/uma-nitro-20261023-645af7d/venv/bin/python",
+  "dft_python": "/homes/rzhu/miniforge3/envs/redox/bin/python",
+  "redox_library_path": "/homes/rzhu/miniforge3/envs/redox/lib",
+  "overall_runtime_budget_seconds": 5400,
+  "expected_geometry_slots": [
+    "core_ox__minimum_000",
+    "core_ox__minimum_001",
+    "core_ox__minimum_002",
+    "core_red__minimum_000",
+    "core_red__minimum_001",
+    "core_red__minimum_002",
+    "core_red__minimum_003",
+    "full_ox__minimum_031",
+    "full_red__minimum_046"
+  ],
+  "owned_file_sha256": {
+    "geometry_inputs.json": "40f946868c9136fba98bdfdb296b7a7a15ebc63da45fbc77c5c8c8a8ac55e64c",
+    "fixed_geometry_protocol.json": "508823c5e7da14ff9956b275128117f266463909b0700585ae260b52600269e5",
+    "dependency_sources.json": "e442336f5f839dbb495ac38c568f9243acb493dd4f3e5f78e661038a236f6d6c",
+    "cpu_smoke.py": "192f050ccec0be2129eefa36ab8869eaaae27b66f2d88b5325ddb439f1ae4280",
+    "cpu_water_smoke.json": "4da96af053227f1d15aba8f1647ec1ec9f086ec5d9280342dafc26a875bc6e9d",
+    "control_common.py": "7101a30935bbade3b5c07b9b686c82cbb8bb1bd2cfb0dac8ad973c769df06e11",
+    "replay_uma.py": "b064991165141e6dda92ea8078d519bb925d948622d177831d6420070e6cb3cb",
+    "reference_point.py": "446d40022a05917cf0d9a8d7ede9dba8fc951f2ccde4ceb7e1916049ee6efcc9",
+    "run_control.py": "b85f19e5c3110e87cb2ca95fa0d26cb293e4e6b911e1155aeaa046039433e5eb",
+    "launch_control.py": "3b5d8c0f512aecbf1649e29160737262efa8640386f210a478b69633383fa5f4",
+    "uma_final_preflight.json": "a05af7fe08110c8a08938fcf361810a5df7b6b6dd2d5c2a5dee442810e62e9e1",
+    "dft_final_preflight.json": "b99631eea94d51cf14ab156092e8db098ba7350ec204045ff593e759ebb24cdc",
+    "uma_replay.json": "0493d6105a9931eb73f7c353283ad9ee831eb24155f1ce442faa8aad4874689a",
+    "infrastructure_attempt1/launch_manifest.json": "4d3563db08e95f44ebe0ca42dbce15d1d994c56842538173b7b14424bac6dd19",
+    "infrastructure_revision.json": "c75c5756e62b046c4f1181ab75cfa73b3d7b43def87896213dbf944b86808413"
+  },
+  "dependency_preflight": "uma_final_preflight.json; dft_final_preflight.json",
+  "scope": "One bounded fixed-geometry reference control; no production change or empirical fit."
+}

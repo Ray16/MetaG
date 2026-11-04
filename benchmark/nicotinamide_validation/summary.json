@@ -1,0 +1,312 @@
+{
+  "schema": "metag-nicotinamide-fixed-geometry-audit-v1",
+  "passed": true,
+  "scope": "Fixed retained geometries/RRHO; method sensitivity, not experimental accuracy or a production replacement.",
+  "n_slots": 9,
+  "weights": {
+    "full_red": 1,
+    "full_ox": -1,
+    "core_red": -1,
+    "core_ox": 1
+  },
+  "element_residual": {},
+  "charge_residual": 0,
+  "molecule_residual": 0,
+  "CPU_GPU_difference_kj": {
+    "gas_Eh": 7.274972578191989e-05,
+    "water_total_Eh": 8.262445950360297e-05
+  },
+  "max_UMA_replay_difference_kj": 0.0001746155321598053,
+  "arms": {
+    "UMA_ALPB": {
+      "exchange_kj": -41.79569172183983,
+      "components_kj": {
+        "electronic_kj": 19.77202553744428,
+        "solvation_kj": -59.78292809868129,
+        "thermal_kj": -0.3498904282696458,
+        "configurational_kj": -1.4348987315604849
+      },
+      "families": {
+        "full_red": {
+          "G_kj": -7710904.950909242,
+          "components_kj": {
+            "electronic_kj": -7712001.997802268,
+            "solvation_kj": -184.48763750772923,
+            "thermal_kj": 1281.5345305337305,
+            "configurational_kj": 0.0
+          },
+          "probabilities": [
+            1.0
+          ],
+          "n_retained_minima": 1
+        },
+        "full_ox": {
+          "G_kj": -7708965.850700792,
+          "components_kj": {
+            "electronic_kj": -7709897.087767706,
+            "solvation_kj": -328.1427412563935,
+            "thermal_kj": 1259.379808170264,
+            "configurational_kj": 0.0
+          },
+          "probabilities": [
+            1.0
+          ],
+          "n_retained_minima": 1
+        },
+        "core_red": {
+          "G_kj": -1200819.461077903,
+          "components_kj": {
+            "electronic_kj": -1201120.5307462108,
+            "solvation_kj": -40.567034914311016,
+            "thermal_kj": 342.6374963362172,
+            "configurational_kj": -1.000793114020621
+          },
+          "probabilities": [
+            0.9090175080253268,
+            0.02401361629243159,
+            0.032941334374836914,
+            0.034027541307404735
+          ],
+          "n_retained_minima": 4
+        },
+        "core_ox": {
+          "G_kj": -1198922.1565611747,
+          "components_kj": {
+            "electronic_kj": -1198995.8486861119,
+            "solvation_kj": -244.00506676165656,
+            "thermal_kj": 320.132883544481,
+            "configurational_kj": -2.435691845581106
+          },
+          "probabilities": [
+            0.5687164957075611,
+            0.2124707858811538,
+            0.21881271841128516
+          ],
+          "n_retained_minima": 3
+        }
+      }
+    },
+    "UMA_SMD": {
+      "exchange_kj": -43.52053462760523,
+      "components_kj": {
+        "electronic_kj": 19.502454051282257,
+        "solvation_kj": -60.989116825839645,
+        "thermal_kj": -0.4392026707838568,
+        "configurational_kj": -1.5946691815334493
+      },
+      "families": {
+        "full_red": {
+          "G_kj": -7710895.627772634,
+          "components_kj": {
+            "electronic_kj": -7712001.997802268,
+            "solvation_kj": -175.164500899622,
+            "thermal_kj": 1281.5345305337305,
+            "configurational_kj": 0.0
+          },
+          "probabilities": [
+            1.0
+          ],
+          "n_retained_minima": 1
+        },
+        "full_ox": {
+          "G_kj": -7708967.830069005,
+          "components_kj": {
+            "electronic_kj": -7709897.087767706,
+            "solvation_kj": -330.1221094686771,
+            "thermal_kj": 1259.379808170264,
+            "configurational_kj": 0.0
+          },
+          "probabilities": [
+            1.0
+          ],
+          "n_retained_minima": 1
+        },
+        "core_red": {
+          "G_kj": -1200824.0821856847,
+          "components_kj": {
+            "electronic_kj": -1201120.9599586104,
+            "solvation_kj": -45.188226525460195,
+            "thermal_kj": 342.63001659927687,
+            "configurational_kj": -0.5640171483754702
+          },
+          "probabilities": [
+            0.9561858474979403,
+            0.011591665568818826,
+            0.01584588061711628,
+            0.01637660631612461
+          ],
+          "n_retained_minima": 4
+        },
+        "core_ox": {
+          "G_kj": -1198939.805016683,
+          "components_kj": {
+            "electronic_kj": -1198996.5474699975,
+            "solvation_kj": -261.1349519203549,
+            "thermal_kj": 320.0360915650264,
+            "configurational_kj": -2.1586863299089196
+          },
+          "probabilities": [
+            0.6642925608233279,
+            0.166140710901694,
+            0.16956672827497804
+          ],
+          "n_retained_minima": 3
+        }
+      }
+    },
+    "DFT_ALPB": {
+      "exchange_kj": -41.917353838682175,
+      "components_kj": {
+        "electronic_kj": 19.34763445262797,
+        "solvation_kj": -59.586381916125,
+        "thermal_kj": -0.384595549137714,
+        "configurational_kj": -1.294010825367733
+      },
+      "families": {
+        "full_red": {
+          "G_kj": -7710928.003033196,
+          "components_kj": {
+            "electronic_kj": -7712025.049926221,
+            "solvation_kj": -184.48763750772923,
+            "thermal_kj": 1281.5345305337305,
+            "configurational_kj": 0.0
+          },
+          "probabilities": [
+            1.0
+          ],
+          "n_retained_minima": 1
+        },
+        "full_ox": {
+          "G_kj": -7708989.614392582,
+          "components_kj": {
+            "electronic_kj": -7709920.851459497,
+            "solvation_kj": -328.1427412563935,
+            "thermal_kj": 1259.379808170264,
+            "configurational_kj": 0.0
+          },
+          "probabilities": [
+            1.0
+          ],
+          "n_retained_minima": 1
+        },
+        "core_red": {
+          "G_kj": -1200822.5376477796,
+          "components_kj": {
+            "electronic_kj": -1201123.5449765113,
+            "solvation_kj": -40.57276925991396,
+            "thermal_kj": 342.63895953579436,
+            "configurational_kj": -1.0588615441967253
+          },
+          "probabilities": [
+            0.902112787207352,
+            0.0268733293069112,
+            0.03468665036616733,
+            0.03632723311956955
+          ],
+          "n_retained_minima": 4
+        },
+        "core_ox": {
+          "G_kj": -1198926.066361005,
+          "components_kj": {
+            "electronic_kj": -1198999.998875334,
+            "solvation_kj": -243.81425492470322,
+            "thermal_kj": 320.09964162319005,
+            "configurational_kj": -2.352872369564458
+          },
+          "probabilities": [
+            0.6009436408332057,
+            0.2033217712738971,
+            0.1957345878928971
+          ],
+          "n_retained_minima": 3
+        }
+      }
+    },
+    "DFT_SMD": {
+      "exchange_kj": -43.68302454939112,
+      "components_kj": {
+        "electronic_kj": 19.09258243115619,
+        "solvation_kj": -60.85104659030974,
+        "thermal_kj": -0.4696679307161844,
+        "configurational_kj": -1.4548924589954182
+      },
+      "families": {
+        "full_red": {
+          "G_kj": -7710918.6798965875,
+          "components_kj": {
+            "electronic_kj": -7712025.049926221,
+            "solvation_kj": -175.164500899622,
+            "thermal_kj": 1281.5345305337305,
+            "configurational_kj": 0.0
+          },
+          "probabilities": [
+            1.0
+          ],
+          "n_retained_minima": 1
+        },
+        "full_ox": {
+          "G_kj": -7708991.593760795,
+          "components_kj": {
+            "electronic_kj": -7709920.851459497,
+            "solvation_kj": -330.1221094686771,
+            "thermal_kj": 1259.379808170264,
+            "configurational_kj": 0.0
+          },
+          "probabilities": [
+            1.0
+          ],
+          "n_retained_minima": 1
+        },
+        "core_red": {
+          "G_kj": -1200827.1489787502,
+          "components_kj": {
+            "electronic_kj": -1201123.9950391143,
+            "solvation_kj": -45.18434854761717,
+            "thermal_kj": 342.6307528882509,
+            "configurational_kj": -0.6003439766989606
+          },
+          "probabilities": [
+            0.952672798217574,
+            0.013023347010184823,
+            0.016751373327102692,
+            0.017552481445138438
+          ],
+          "n_retained_minima": 4
+        },
+        "core_ox": {
+          "G_kj": -1198943.745867507,
+          "components_kj": {
+            "electronic_kj": -1199000.7039899584,
+            "solvation_kj": -260.993003706982,
+            "thermal_kj": 320.00636259406815,
+            "configurational_kj": -2.0552364356943786
+          },
+          "probabilities": [
+            0.6931979723407047,
+            0.1570076092911586,
+            0.14979441836813673
+          ],
+          "n_retained_minima": 3
+        }
+      }
+    }
+  },
+  "factorial_contrasts": {
+    "DFT_minus_UMA_at_ALPB_kj": -0.1216621168423444,
+    "SMD_minus_ALPB_at_UMA_kj": -1.7248429057653993,
+    "DFT_minus_UMA_at_SMD_kj": -0.16248992178589106,
+    "SMD_minus_ALPB_at_DFT_kj": -1.765670710708946,
+    "interaction_kj": -0.04082780494354665
+  },
+  "original_all_minima_exchange_kj": -41.89397261268459,
+  "restricted_geometry_effect_kj": 0.09828089084476233,
+  "independent_experimental_labels_admitted": 0,
+  "empirical_offsets_fitted": 0,
+  "limitations": [
+    "One selected retained minimum per full cofactor; original41/55 ensembles preserved.",
+    "SMD is an alternative continuum model, not measured solvation or an exact reference.",
+    "Original RRHO terms retained at fixed geometries; no new stationary nuclei or Hessians.",
+    "Numerical fixture does not bound large-molecule density-fitting, grid, functional, sampling or state errors.",
+    "No orbital-stability proof or total-error interval."
+  ]
+}
