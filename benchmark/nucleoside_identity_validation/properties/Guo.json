@@ -1,0 +1,12 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 135398635,
+        "MolecularFormula": "C10H13N5O5",
+        "SMILES": "C1=NC2=C(N1[C@H]3[C@@H]([C@@H]([C@H](O3)CO)O)O)N=C(NC2=O)N",
+        "InChIKey": "NYHBQMYGNKIUIF-UUOKFMHZSA-N"
+      }
+    ]
+  }
+}

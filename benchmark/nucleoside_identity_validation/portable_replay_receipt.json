@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "isolated_cwd": true,
+  "original_workspace_data_paths_needed": false,
+  "network_access_used": false,
+  "complete_audit_reproduced": true,
+  "auditor_sha256": "1d3d71048545e9d7d7fad03132467ee1d1ec2926c813d4b2c02144271b976eb7"
+}

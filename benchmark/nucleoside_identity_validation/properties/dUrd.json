@@ -1,0 +1,12 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 13712,
+        "MolecularFormula": "C9H12N2O5",
+        "SMILES": "C1[C@@H]([C@H](O[C@H]1N2C=CC(=O)NC2=O)CO)O",
+        "InChIKey": "MXHRCPNRJAMMIM-SHYZEUOFSA-N"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 97188,
+        "MolecularFormula": "C10H14N6O3",
+        "SMILES": "C1[C@@H]([C@H](O[C@H]1N2C=NC3=C(N=C(N=C32)N)N)CO)O",
+        "InChIKey": "NOLHIMIFXOBLFF-KVQBGUIXSA-N"
+      }
+    ]
+  }
+}

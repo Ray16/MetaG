@@ -1,0 +1,12 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 8974,
+        "MolecularFormula": "C10H12ClN5O4",
+        "SMILES": "C1=NC2=C(N=C(N=C2N1[C@H]3[C@@H]([C@@H]([C@H](O3)CO)O)O)Cl)N",
+        "InChIKey": "BIXYYZIIJIXVFW-UUOKFMHZSA-N"
+      }
+    ]
+  }
+}

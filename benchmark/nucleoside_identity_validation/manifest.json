@@ -1,0 +1,131 @@
+{
+  "schema": "metag-nucleoside-identity-manifest-v1",
+  "scope": "Neutral covalent identities only; zero thermodynamic references admitted.",
+  "auditor_sha256": "1d3d71048545e9d7d7fad03132467ee1d1ec2926c813d4b2c02144271b976eb7",
+  "files": {
+    "README.md": {
+      "sha256": "459c86c7b00959106a9ed51a430bc35e4a96a818aed5fe9e08dc33541bfc8675",
+      "bytes": 2506
+    },
+    "identity_audit.json": {
+      "sha256": "69df11c7b966e0c6b13bbbaf18da9d3c6a1b06b693ed520a23d5f5d091d91b63",
+      "bytes": 18909
+    },
+    "portable_replay_receipt.json": {
+      "sha256": "80039acc96597e341ec7aaf8bc7856b83717acee4242db96d358cfd69d1f1f91",
+      "bytes": 251
+    },
+    "properties/2AAdo.json": {
+      "sha256": "5364fd172d6000c1223eaf3bb38baa59062006516fe0dd3a5fe8e07c8723b259",
+      "bytes": 265
+    },
+    "properties/2AdAdo.json": {
+      "sha256": "74ca5917c27905ad7b00af8d16d7986aede3098054cdad779ba265d891a6833f",
+      "bytes": 257
+    },
+    "properties/2ClAdo.json": {
+      "sha256": "bc998f7fdf1e01db5975a1abb640a6da4f012e479a5c2684808b10e89d7db378",
+      "bytes": 267
+    },
+    "properties/2CldAdo.json": {
+      "sha256": "f73da8b74b73367aa7e9f6eb3c99d5ff5a63d2a529fcc026a128fd8d962063bc",
+      "bytes": 260
+    },
+    "properties/2FAdo.json": {
+      "sha256": "983f230a83a8f63cc77109d3762f7a33eeaebebe0c69cba1fe38e752b9588897",
+      "bytes": 265
+    },
+    "properties/2FdAdo.json": {
+      "sha256": "d3346b7dd5fa362f47704ad978893d07a71bfa127c8a7810f273c3a7b8f5d1b2",
+      "bytes": 259
+    },
+    "properties/5BrUrd.json": {
+      "sha256": "a0603b3fbfa3302378edc0ac9a98d0c4431f62316ba4abe46201a450276a26f2",
+      "bytes": 264
+    },
+    "properties/5BrdUrd.json": {
+      "sha256": "bf2961ed54b20a13f38ef0438c1ae02301df322b01595147db9a7752fc22e3fe",
+      "bytes": 253
+    },
+    "properties/5EUrd.json": {
+      "sha256": "0a290e6ddf8dad8154e9067f25b7337f91bd657be869658cf0720218ae97a991",
+      "bytes": 265
+    },
+    "properties/5EdUrd.json": {
+      "sha256": "9ce67977c20fee27501f5bf90a19deb0578f2dbddfcaefc625a18e752d2ee1f6",
+      "bytes": 255
+    },
+    "properties/5FUrd.json": {
+      "sha256": "f6d2480482558f690016a39201cdf0bfbaff017b60fd42843fa21176bacc180f",
+      "bytes": 261
+    },
+    "properties/5FdUrd.json": {
+      "sha256": "ad9f60b8edf496d99e179b0da2ff5e58f9f80fec2d3d7d58f163c5209f12da3d",
+      "bytes": 238
+    },
+    "properties/5FdUrd_source_stereo.json": {
+      "sha256": "cf258a27af9336f216ffd22da6022b23ddeff99a240011a9f92454f5bc1a17f0",
+      "bytes": 251
+    },
+    "properties/5IUrd.json": {
+      "sha256": "1cf56ddfc051d723aecdd937918eb2aa8701e5f685f82261916b132db230b85e",
+      "bytes": 264
+    },
+    "properties/5IdUrd.json": {
+      "sha256": "03ff1bb68ad47d6a2f1216c84ed139845ab7087b71a8f403f8709248ea6b7d61",
+      "bytes": 251
+    },
+    "properties/5MUrd.json": {
+      "sha256": "6611f36d94a182d69b273c5ccdd6a6c9248bde0a4087f668d7a994173e5713c4",
+      "bytes": 261
+    },
+    "properties/Ado.json": {
+      "sha256": "1f94a695be5e76aeef7889f00bc3b6f1dbde398ff3835fbf6057e7a817873105",
+      "bytes": 266
+    },
+    "properties/Guo.json": {
+      "sha256": "34267708da44c598057299b375e9b203dc84fd58b8d558d5e6d23dfa51c8898f",
+      "bytes": 269
+    },
+    "properties/Ino.json": {
+      "sha256": "2ad20e3f39c1e84a751c1ee5474763662d450e5a11b4497e93203d28be597498",
+      "bytes": 268
+    },
+    "properties/Thd.json": {
+      "sha256": "a3c4ef8ec4def07358c947076bb8690106f389577c7402f21771101c2b0926bf",
+      "bytes": 251
+    },
+    "properties/Urd.json": {
+      "sha256": "fe84ed6382b0bd90a0c0d46fbedf8a77da012087a51b4469028821e0f39c3ce9",
+      "bytes": 257
+    },
+    "properties/dAdo.json": {
+      "sha256": "e32a0a88424a053b8a337405367dbffde727ee47ff29cefbf56e3a862f5b6f0f",
+      "bytes": 254
+    },
+    "properties/dGuo.json": {
+      "sha256": "55062045856676559377a821f57dc95548d97de772f84f5b9924f338e2e83635",
+      "bytes": 259
+    },
+    "properties/dIno.json": {
+      "sha256": "6b9b6514c995dbe0c3a454de1077887a1c37f851d4fbdfe17f0dc0ae73077098",
+      "bytes": 256
+    },
+    "properties/dUrd.json": {
+      "sha256": "ed9c31e63d10ca1a5fa03307eeb1a98b97c69a11c8f02be2ef235e635c4043d7",
+      "bytes": 248
+    },
+    "pubchem_retrieval_receipts.json": {
+      "sha256": "8f91a99b5644738a1e2141225117f5994b8e0a02ea8c9c545a2105a526d7de57",
+      "bytes": 8092
+    },
+    "source_compounds.json": {
+      "sha256": "9207f3effe72e8e5bac7cbc6c9bfc8caa410a547d15e39bf61f2b80f83b2b586",
+      "bytes": 10115
+    },
+    "specific_stereo_retrieval.json": {
+      "sha256": "742884755417c5b1087556d58ad73145f4c3baf9e9352206f09cd596bfb444f6",
+      "bytes": 461
+    }
+  }
+}

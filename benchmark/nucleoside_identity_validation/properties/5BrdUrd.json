@@ -1,0 +1,12 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 6035,
+        "MolecularFormula": "C9H11BrN2O5",
+        "SMILES": "C1[C@@H]([C@H](O[C@H]1N2C=C(C(=O)NC2=O)Br)CO)O",
+        "InChIKey": "WOVKYSAHUYNSMH-RRKCRQDMSA-N"
+      }
+    ]
+  }
+}

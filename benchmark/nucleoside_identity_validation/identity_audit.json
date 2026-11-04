@@ -1,0 +1,755 @@
+{
+  "schema": "metag-nucleoside-source-identity-v1",
+  "source_sha256": "1d3d71048545e9d7d7fad03132467ee1d1ec2926c813d4b2c02144271b976eb7",
+  "input_sha256": "9207f3effe72e8e5bac7cbc6c9bfc8caa410a547d15e39bf61f2b80f83b2b586",
+  "RDKit_version": "2026.03.5",
+  "n_compounds": 24,
+  "n_absolute_sugar_checks": 24,
+  "n_relational_checks": 20,
+  "records": [
+    {
+      "code": "Urd",
+      "SI_compound_number": 1,
+      "PubChem_CID": 6029,
+      "InChIKey": "DRTQHJPVMGBUCF-XVFCMESISA-N",
+      "formula": "C9H12N2O6",
+      "canonical_isomeric_smiles": "O=c1ccn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c(=O)[nH]1",
+      "sugar": {
+        "roles": {
+          "C1prime": 8,
+          "C2prime": 9,
+          "C3prime": 10,
+          "C4prime": 11
+        },
+        "CIP": [
+          "R",
+          "R",
+          "S",
+          "R"
+        ]
+      },
+      "reference_drawing_charge": 0,
+      "solution_state_pool_admitted": false
+    },
+    {
+      "code": "dUrd",
+      "SI_compound_number": 2,
+      "PubChem_CID": 13712,
+      "InChIKey": "MXHRCPNRJAMMIM-SHYZEUOFSA-N",
+      "formula": "C9H12N2O5",
+      "canonical_isomeric_smiles": "O=c1ccn([C@H]2C[C@H](O)[C@@H](CO)O2)c(=O)[nH]1",
+      "sugar": {
+        "roles": {
+          "C1prime": 4,
+          "C2prime": 0,
+          "C3prime": 1,
+          "C4prime": 2
+        },
+        "CIP": [
+          "R",
+          "achiral",
+          "S",
+          "R"
+        ]
+      },
+      "reference_drawing_charge": 0,
+      "solution_state_pool_admitted": false
+    },
+    {
+      "code": "5MUrd",
+      "SI_compound_number": 9,
+      "PubChem_CID": 445408,
+      "InChIKey": "DWRXFEITVBNRMK-JXOAFFINSA-N",
+      "formula": "C10H14N2O6",
+      "canonical_isomeric_smiles": "Cc1cn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c(=O)[nH]c1=O",
+      "sugar": {
+        "roles": {
+          "C1prime": 9,
+          "C2prime": 10,
+          "C3prime": 11,
+          "C4prime": 12
+        },
+        "CIP": [
+          "R",
+          "R",
+          "S",
+          "R"
+        ]
+      },
+      "reference_drawing_charge": 0,
+      "solution_state_pool_admitted": false
+    },
+    {
+      "code": "Thd",
+      "SI_compound_number": 10,
+      "PubChem_CID": 5789,
+      "InChIKey": "IQFYYKKMVGJFEH-XLPZGREQSA-N",
+      "formula": "C10H14N2O5",
+      "canonical_isomeric_smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](CO)O2)c(=O)[nH]c1=O",
+      "sugar": {
+        "roles": {
+          "C1prime": 9,
+          "C2prime": 10,
+          "C3prime": 11,
+          "C4prime": 12
+        },
+        "CIP": [
+          "R",
+          "achiral",
+          "S",
+          "R"
+        ]
+      },
+      "reference_drawing_charge": 0,
+      "solution_state_pool_admitted": false
+    },
+    {
+      "code": "5FUrd",
+      "SI_compound_number": 3,
+      "PubChem_CID": 9427,
+      "InChIKey": "FHIDNBAQOFJWCA-UAKXSSHOSA-N",
+      "formula": "C9H11FN2O6",
+      "canonical_isomeric_smiles": "O=c1[nH]c(=O)n([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)cc1F",
+      "sugar": {
+        "roles": {
+          "C1prime": 8,
+          "C2prime": 9,
+          "C3prime": 10,
+          "C4prime": 11
+        },
+        "CIP": [
+          "R",
+          "R",
+          "S",
+          "R"
+        ]
+      },
+      "reference_drawing_charge": 0,
+      "solution_state_pool_admitted": false
+    },
+    {
+      "code": "5FdUrd",
+      "SI_compound_number": 4,
+      "PubChem_CID": 5790,
+      "InChIKey": "ODKNJVUHOIMIIZ-RRKCRQDMSA-N",
+      "formula": "C9H11FN2O5",
+      "canonical_isomeric_smiles": "O=c1[nH]c(=O)n([C@H]2C[C@H](O)[C@@H](CO)O2)cc1F",
+      "sugar": {
+        "roles": {
+          "C1prime": 4,
+          "C2prime": 0,
+          "C3prime": 1,
+          "C4prime": 2
+        },
+        "CIP": [
+          "R",
+          "achiral",
+          "S",
+          "R"
+        ]
+      },
+      "reference_drawing_charge": 0,
+      "solution_state_pool_admitted": false
+    },
+    {
+      "code": "5BrUrd",
+      "SI_compound_number": 11,
+      "PubChem_CID": 91494,
+      "InChIKey": "AGFIRQJZCNVMCW-UAKXSSHOSA-N",
+      "formula": "C9H11BrN2O6",
+      "canonical_isomeric_smiles": "O=c1[nH]c(=O)n([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)cc1Br",
+      "sugar": {
+        "roles": {
+          "C1prime": 8,
+          "C2prime": 9,
+          "C3prime": 10,
+          "C4prime": 11
+        },
+        "CIP": [
+          "R",
+          "R",
+          "S",
+          "R"
+        ]
+      },
+      "reference_drawing_charge": 0,
+      "solution_state_pool_admitted": false
+    },
+    {
+      "code": "5BrdUrd",
+      "SI_compound_number": 12,
+      "PubChem_CID": 6035,
+      "InChIKey": "WOVKYSAHUYNSMH-RRKCRQDMSA-N",
+      "formula": "C9H11BrN2O5",
+      "canonical_isomeric_smiles": "O=c1[nH]c(=O)n([C@H]2C[C@H](O)[C@@H](CO)O2)cc1Br",
+      "sugar": {
+        "roles": {
+          "C1prime": 4,
+          "C2prime": 0,
+          "C3prime": 1,
+          "C4prime": 2
+        },
+        "CIP": [
+          "R",
+          "achiral",
+          "S",
+          "R"
+        ]
+      },
+      "reference_drawing_charge": 0,
+      "solution_state_pool_admitted": false
+    },
+    {
+      "code": "5IUrd",
+      "SI_compound_number": 13,
+      "PubChem_CID": 1268108,
+      "InChIKey": "RKSLVDIXBGWPIS-UAKXSSHOSA-N",
+      "formula": "C9H11IN2O6",
+      "canonical_isomeric_smiles": "O=c1[nH]c(=O)n([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)cc1I",
+      "sugar": {
+        "roles": {
+          "C1prime": 8,
+          "C2prime": 9,
+          "C3prime": 10,
+          "C4prime": 11
+        },
+        "CIP": [
+          "R",
+          "R",
+          "S",
+          "R"
+        ]
+      },
+      "reference_drawing_charge": 0,
+      "solution_state_pool_admitted": false
+    },
+    {
+      "code": "5IdUrd",
+      "SI_compound_number": 14,
+      "PubChem_CID": 5905,
+      "InChIKey": "XQFRJNBWHJMXHO-RRKCRQDMSA-N",
+      "formula": "C9H11IN2O5",
+      "canonical_isomeric_smiles": "O=c1[nH]c(=O)n([C@H]2C[C@H](O)[C@@H](CO)O2)cc1I",
+      "sugar": {
+        "roles": {
+          "C1prime": 4,
+          "C2prime": 0,
+          "C3prime": 1,
+          "C4prime": 2
+        },
+        "CIP": [
+          "R",
+          "achiral",
+          "S",
+          "R"
+        ]
+      },
+      "reference_drawing_charge": 0,
+      "solution_state_pool_admitted": false
+    },
+    {
+      "code": "5EUrd",
+      "SI_compound_number": 15,
+      "PubChem_CID": 14885960,
+      "InChIKey": "QCWBIPKYTBFWHH-FDDDBJFASA-N",
+      "formula": "C11H12N2O6",
+      "canonical_isomeric_smiles": "C#Cc1cn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c(=O)[nH]c1=O",
+      "sugar": {
+        "roles": {
+          "C1prime": 10,
+          "C2prime": 11,
+          "C3prime": 12,
+          "C4prime": 13
+        },
+        "CIP": [
+          "R",
+          "R",
+          "S",
+          "R"
+        ]
+      },
+      "reference_drawing_charge": 0,
+      "solution_state_pool_admitted": false
+    },
+    {
+      "code": "5EdUrd",
+      "SI_compound_number": 16,
+      "PubChem_CID": 472172,
+      "InChIKey": "CDEURGJCGCHYFH-DJLDLDEBSA-N",
+      "formula": "C11H12N2O5",
+      "canonical_isomeric_smiles": "C#Cc1cn([C@H]2C[C@H](O)[C@@H](CO)O2)c(=O)[nH]c1=O",
+      "sugar": {
+        "roles": {
+          "C1prime": 10,
+          "C2prime": 11,
+          "C3prime": 12,
+          "C4prime": 13
+        },
+        "CIP": [
+          "R",
+          "achiral",
+          "S",
+          "R"
+        ]
+      },
+      "reference_drawing_charge": 0,
+      "solution_state_pool_admitted": false
+    },
+    {
+      "code": "Ado",
+      "SI_compound_number": 5,
+      "PubChem_CID": 60961,
+      "InChIKey": "OIRDTQYFTABQOQ-KQYNXXCUSA-N",
+      "formula": "C10H13N5O4",
+      "canonical_isomeric_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O",
+      "sugar": {
+        "roles": {
+          "C1prime": 9,
+          "C2prime": 10,
+          "C3prime": 11,
+          "C4prime": 12
+        },
+        "CIP": [
+          "R",
+          "R",
+          "S",
+          "R"
+        ]
+      },
+      "reference_drawing_charge": 0,
+      "solution_state_pool_admitted": false
+    },
+    {
+      "code": "dAdo",
+      "SI_compound_number": 6,
+      "PubChem_CID": 13730,
+      "InChIKey": "OLXZPDWKRNYJJZ-RRKCRQDMSA-N",
+      "formula": "C10H13N5O3",
+      "canonical_isomeric_smiles": "Nc1ncnc2c1ncn2[C@H]1C[C@H](O)[C@@H](CO)O1",
+      "sugar": {
+        "roles": {
+          "C1prime": 4,
+          "C2prime": 0,
+          "C3prime": 1,
+          "C4prime": 2
+        },
+        "CIP": [
+          "R",
+          "achiral",
+          "S",
+          "R"
+        ]
+      },
+      "reference_drawing_charge": 0,
+      "solution_state_pool_admitted": false
+    },
+    {
+      "code": "2FAdo",
+      "SI_compound_number": 17,
+      "PubChem_CID": 8975,
+      "InChIKey": "HBUBKKRHXORPQB-UUOKFMHZSA-N",
+      "formula": "C10H12FN5O4",
+      "canonical_isomeric_smiles": "Nc1nc(F)nc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O",
+      "sugar": {
+        "roles": {
+          "C1prime": 9,
+          "C2prime": 10,
+          "C3prime": 11,
+          "C4prime": 12
+        },
+        "CIP": [
+          "R",
+          "R",
+          "S",
+          "R"
+        ]
+      },
+      "reference_drawing_charge": 0,
+      "solution_state_pool_admitted": false
+    },
+    {
+      "code": "2FdAdo",
+      "SI_compound_number": 18,
+      "PubChem_CID": 447864,
+      "InChIKey": "ZWPYUXAXLRFWQC-KVQBGUIXSA-N",
+      "formula": "C10H12FN5O3",
+      "canonical_isomeric_smiles": "Nc1nc(F)nc2c1ncn2[C@H]1C[C@H](O)[C@@H](CO)O1",
+      "sugar": {
+        "roles": {
+          "C1prime": 4,
+          "C2prime": 0,
+          "C3prime": 1,
+          "C4prime": 2
+        },
+        "CIP": [
+          "R",
+          "achiral",
+          "S",
+          "R"
+        ]
+      },
+      "reference_drawing_charge": 0,
+      "solution_state_pool_admitted": false
+    },
+    {
+      "code": "2ClAdo",
+      "SI_compound_number": 7,
+      "PubChem_CID": 8974,
+      "InChIKey": "BIXYYZIIJIXVFW-UUOKFMHZSA-N",
+      "formula": "C10H12ClN5O4",
+      "canonical_isomeric_smiles": "Nc1nc(Cl)nc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O",
+      "sugar": {
+        "roles": {
+          "C1prime": 9,
+          "C2prime": 10,
+          "C3prime": 11,
+          "C4prime": 12
+        },
+        "CIP": [
+          "R",
+          "R",
+          "S",
+          "R"
+        ]
+      },
+      "reference_drawing_charge": 0,
+      "solution_state_pool_admitted": false
+    },
+    {
+      "code": "2CldAdo",
+      "SI_compound_number": 8,
+      "PubChem_CID": 20279,
+      "InChIKey": "PTOAARAWEBMLNO-KVQBGUIXSA-N",
+      "formula": "C10H12ClN5O3",
+      "canonical_isomeric_smiles": "Nc1nc(Cl)nc2c1ncn2[C@H]1C[C@H](O)[C@@H](CO)O1",
+      "sugar": {
+        "roles": {
+          "C1prime": 4,
+          "C2prime": 0,
+          "C3prime": 1,
+          "C4prime": 2
+        },
+        "CIP": [
+          "R",
+          "achiral",
+          "S",
+          "R"
+        ]
+      },
+      "reference_drawing_charge": 0,
+      "solution_state_pool_admitted": false
+    },
+    {
+      "code": "2AAdo",
+      "SI_compound_number": 19,
+      "PubChem_CID": 72200,
+      "InChIKey": "ZDTFMPXQUSBYRL-UUOKFMHZSA-N",
+      "formula": "C10H14N6O4",
+      "canonical_isomeric_smiles": "Nc1nc(N)c2ncn([C@@H]3O[C@H](CO)[C@@H](O)[C@H]3O)c2n1",
+      "sugar": {
+        "roles": {
+          "C1prime": 9,
+          "C2prime": 10,
+          "C3prime": 11,
+          "C4prime": 12
+        },
+        "CIP": [
+          "R",
+          "R",
+          "S",
+          "R"
+        ]
+      },
+      "reference_drawing_charge": 0,
+      "solution_state_pool_admitted": false
+    },
+    {
+      "code": "2AdAdo",
+      "SI_compound_number": 20,
+      "PubChem_CID": 97188,
+      "InChIKey": "NOLHIMIFXOBLFF-KVQBGUIXSA-N",
+      "formula": "C10H14N6O3",
+      "canonical_isomeric_smiles": "Nc1nc(N)c2ncn([C@H]3C[C@H](O)[C@@H](CO)O3)c2n1",
+      "sugar": {
+        "roles": {
+          "C1prime": 4,
+          "C2prime": 0,
+          "C3prime": 1,
+          "C4prime": 2
+        },
+        "CIP": [
+          "R",
+          "achiral",
+          "S",
+          "R"
+        ]
+      },
+      "reference_drawing_charge": 0,
+      "solution_state_pool_admitted": false
+    },
+    {
+      "code": "Guo",
+      "SI_compound_number": 21,
+      "PubChem_CID": 135398635,
+      "InChIKey": "NYHBQMYGNKIUIF-UUOKFMHZSA-N",
+      "formula": "C10H13N5O5",
+      "canonical_isomeric_smiles": "Nc1nc2c(ncn2[C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)c(=O)[nH]1",
+      "sugar": {
+        "roles": {
+          "C1prime": 5,
+          "C2prime": 6,
+          "C3prime": 7,
+          "C4prime": 8
+        },
+        "CIP": [
+          "R",
+          "R",
+          "S",
+          "R"
+        ]
+      },
+      "reference_drawing_charge": 0,
+      "solution_state_pool_admitted": false
+    },
+    {
+      "code": "dGuo",
+      "SI_compound_number": 22,
+      "PubChem_CID": 135398592,
+      "InChIKey": "YKBGVTZYEHREMT-KVQBGUIXSA-N",
+      "formula": "C10H13N5O4",
+      "canonical_isomeric_smiles": "Nc1nc2c(ncn2[C@H]2C[C@H](O)[C@@H](CO)O2)c(=O)[nH]1",
+      "sugar": {
+        "roles": {
+          "C1prime": 4,
+          "C2prime": 0,
+          "C3prime": 1,
+          "C4prime": 2
+        },
+        "CIP": [
+          "R",
+          "achiral",
+          "S",
+          "R"
+        ]
+      },
+      "reference_drawing_charge": 0,
+      "solution_state_pool_admitted": false
+    },
+    {
+      "code": "Ino",
+      "SI_compound_number": 23,
+      "PubChem_CID": 135398641,
+      "InChIKey": "UGQMRVRMYYASKQ-KQYNXXCUSA-N",
+      "formula": "C10H12N4O5",
+      "canonical_isomeric_smiles": "O=c1[nH]cnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O",
+      "sugar": {
+        "roles": {
+          "C1prime": 10,
+          "C2prime": 11,
+          "C3prime": 12,
+          "C4prime": 13
+        },
+        "CIP": [
+          "R",
+          "R",
+          "S",
+          "R"
+        ]
+      },
+      "reference_drawing_charge": 0,
+      "solution_state_pool_admitted": false
+    },
+    {
+      "code": "dIno",
+      "SI_compound_number": 24,
+      "PubChem_CID": 135398593,
+      "InChIKey": "VGONTNSXDCQUGY-RRKCRQDMSA-N",
+      "formula": "C10H12N4O4",
+      "canonical_isomeric_smiles": "O=c1[nH]cnc2c1ncn2[C@H]1C[C@H](O)[C@@H](CO)O1",
+      "sugar": {
+        "roles": {
+          "C1prime": 4,
+          "C2prime": 0,
+          "C3prime": 1,
+          "C4prime": 2
+        },
+        "CIP": [
+          "R",
+          "achiral",
+          "S",
+          "R"
+        ]
+      },
+      "reference_drawing_charge": 0,
+      "solution_state_pool_admitted": false
+    }
+  ],
+  "relational_checks": [
+    {
+      "kind": "remove_only2primeOH",
+      "parent": "Urd",
+      "compound": "dUrd",
+      "matched": true
+    },
+    {
+      "kind": "remove_only2primeOH",
+      "parent": "Ado",
+      "compound": "dAdo",
+      "matched": true
+    },
+    {
+      "kind": "remove_only2primeOH",
+      "parent": "Guo",
+      "compound": "dGuo",
+      "matched": true
+    },
+    {
+      "kind": "remove_only2primeOH",
+      "parent": "Ino",
+      "compound": "dIno",
+      "matched": true
+    },
+    {
+      "kind": "substitution_with_fixed_sugar",
+      "compound": "5MUrd",
+      "parent": "Urd",
+      "site": "pyrimidine5",
+      "group": "C",
+      "matched": true
+    },
+    {
+      "kind": "substitution_with_fixed_sugar",
+      "compound": "Thd",
+      "parent": "dUrd",
+      "site": "pyrimidine5",
+      "group": "C",
+      "matched": true
+    },
+    {
+      "kind": "substitution_with_fixed_sugar",
+      "compound": "5FUrd",
+      "parent": "Urd",
+      "site": "pyrimidine5",
+      "group": "F",
+      "matched": true
+    },
+    {
+      "kind": "substitution_with_fixed_sugar",
+      "compound": "5FdUrd",
+      "parent": "dUrd",
+      "site": "pyrimidine5",
+      "group": "F",
+      "matched": true
+    },
+    {
+      "kind": "substitution_with_fixed_sugar",
+      "compound": "5BrUrd",
+      "parent": "Urd",
+      "site": "pyrimidine5",
+      "group": "Br",
+      "matched": true
+    },
+    {
+      "kind": "substitution_with_fixed_sugar",
+      "compound": "5BrdUrd",
+      "parent": "dUrd",
+      "site": "pyrimidine5",
+      "group": "Br",
+      "matched": true
+    },
+    {
+      "kind": "substitution_with_fixed_sugar",
+      "compound": "5IUrd",
+      "parent": "Urd",
+      "site": "pyrimidine5",
+      "group": "I",
+      "matched": true
+    },
+    {
+      "kind": "substitution_with_fixed_sugar",
+      "compound": "5IdUrd",
+      "parent": "dUrd",
+      "site": "pyrimidine5",
+      "group": "I",
+      "matched": true
+    },
+    {
+      "kind": "substitution_with_fixed_sugar",
+      "compound": "5EUrd",
+      "parent": "Urd",
+      "site": "pyrimidine5",
+      "group": "C#C",
+      "matched": true
+    },
+    {
+      "kind": "substitution_with_fixed_sugar",
+      "compound": "5EdUrd",
+      "parent": "dUrd",
+      "site": "pyrimidine5",
+      "group": "C#C",
+      "matched": true
+    },
+    {
+      "kind": "substitution_with_fixed_sugar",
+      "compound": "2FAdo",
+      "parent": "Ado",
+      "site": "purine2",
+      "group": "F",
+      "matched": true
+    },
+    {
+      "kind": "substitution_with_fixed_sugar",
+      "compound": "2FdAdo",
+      "parent": "dAdo",
+      "site": "purine2",
+      "group": "F",
+      "matched": true
+    },
+    {
+      "kind": "substitution_with_fixed_sugar",
+      "compound": "2ClAdo",
+      "parent": "Ado",
+      "site": "purine2",
+      "group": "Cl",
+      "matched": true
+    },
+    {
+      "kind": "substitution_with_fixed_sugar",
+      "compound": "2CldAdo",
+      "parent": "dAdo",
+      "site": "purine2",
+      "group": "Cl",
+      "matched": true
+    },
+    {
+      "kind": "substitution_with_fixed_sugar",
+      "compound": "2AAdo",
+      "parent": "Ado",
+      "site": "purine2",
+      "group": "N",
+      "matched": true
+    },
+    {
+      "kind": "substitution_with_fixed_sugar",
+      "compound": "2AdAdo",
+      "parent": "dAdo",
+      "site": "purine2",
+      "group": "N",
+      "matched": true
+    }
+  ],
+  "source_specific_resolution": {
+    "compound": "5FdUrd",
+    "initial_generic_name_CID": 3363,
+    "initial_generic_name_smiles": "O=c1[nH]c(=O)n(C2CC(O)C(CO)O2)cc1F",
+    "source_specific_CID": 5790,
+    "source_specific_smiles": "O=c1[nH]c(=O)n([C@H]2C[C@H](O)[C@@H](CO)O2)cc1F",
+    "basis": "PrimaryFigureS1 betaD sugar and5fluoro substitution; exact source-derivedInChIKey query, not prediction error.",
+    "original_lookup_preserved": true
+  },
+  "source_numeric_label_issue": "FigureS1 callsdIno64; TableS1/maintext/rawtable consistently distinguish compound24. Numeric label discrepancy retained, no thermodynamic observation relabeled.",
+  "scope": "Neutral covalent reference structures matched to sourceFigureS1 substitutions and betaD sugar configurations. Tautomer/protonation/Mg pools, source-condition normalization, development exposure and comparator/checkpoint overlap require separate adjudication.",
+  "experimental_references_admitted": 0,
+  "predictions_performed": false,
+  "primary_benchmark_launch_allowed": false
+}

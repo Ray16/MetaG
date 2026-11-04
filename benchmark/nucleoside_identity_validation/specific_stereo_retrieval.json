@@ -1,0 +1,8 @@
+{
+  "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/inchikey/ODKNJVUHOIMIIZ-RRKCRQDMSA-N/property/IsomericSMILES,MolecularFormula,InChIKey/JSON",
+  "source_derived_InChIKey": "ODKNJVUHOIMIIZ-RRKCRQDMSA-N",
+  "source_derived_smiles": "O=c1[nH]c(=O)n([C@H]2C[C@H](O)[C@@H](CO)O2)cc1F",
+  "sha256": "cf258a27af9336f216ffd22da6022b23ddeff99a240011a9f92454f5bc1a17f0",
+  "original_generic_name_CID": 3363,
+  "original_generic_name_entry_retained": true
+}

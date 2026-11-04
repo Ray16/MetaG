@@ -1,0 +1,12 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 1268108,
+        "MolecularFormula": "C9H11IN2O6",
+        "SMILES": "C1=C(C(=O)NC(=O)N1[C@H]2[C@@H]([C@@H]([C@H](O2)CO)O)O)I",
+        "InChIKey": "RKSLVDIXBGWPIS-UAKXSSHOSA-N"
+      }
+    ]
+  }
+}

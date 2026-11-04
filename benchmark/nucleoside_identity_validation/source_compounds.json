@@ -1,0 +1,298 @@
+{
+  "schema": "metag-source-compound-identities-v1",
+  "source_publication_doi": "10.1002/adsc.201901230",
+  "source_repository_doi": "10.5281/zenodo.3530526",
+  "source_figure": {
+    "supplementary_PDF_SHA256": "d387c8a9eb8dcddb68855d4ea89ad82279e542478b5e733d51c7336a53eeed73",
+    "PDF_page": 2,
+    "figure": "S1",
+    "table": "S1 on PDFpage3",
+    "review": "Manual comparison of substitution positions and betaD sugar drawings, then explicit graph and absolute-stereochemistry checks."
+  },
+  "compounds": [
+    {
+      "code": "Urd",
+      "source_name": "uridine",
+      "SI_compound_number": 1,
+      "deoxy": false,
+      "selected_property_file": "properties/Urd.json",
+      "selected_property_sha256": "fe84ed6382b0bd90a0c0d46fbedf8a77da012087a51b4469028821e0f39c3ce9"
+    },
+    {
+      "code": "dUrd",
+      "source_name": "2'-deoxyuridine",
+      "SI_compound_number": 2,
+      "deoxy": true,
+      "selected_property_file": "properties/dUrd.json",
+      "selected_property_sha256": "ed9c31e63d10ca1a5fa03307eeb1a98b97c69a11c8f02be2ef235e635c4043d7"
+    },
+    {
+      "code": "5MUrd",
+      "source_name": "5-methyluridine",
+      "SI_compound_number": 9,
+      "deoxy": false,
+      "selected_property_file": "properties/5MUrd.json",
+      "selected_property_sha256": "6611f36d94a182d69b273c5ccdd6a6c9248bde0a4087f668d7a994173e5713c4",
+      "substitution": {
+        "parent": "Urd",
+        "site": "pyrimidine5",
+        "group": "C"
+      }
+    },
+    {
+      "code": "Thd",
+      "source_name": "thymidine",
+      "SI_compound_number": 10,
+      "deoxy": true,
+      "selected_property_file": "properties/Thd.json",
+      "selected_property_sha256": "a3c4ef8ec4def07358c947076bb8690106f389577c7402f21771101c2b0926bf",
+      "substitution": {
+        "parent": "dUrd",
+        "site": "pyrimidine5",
+        "group": "C"
+      }
+    },
+    {
+      "code": "5FUrd",
+      "source_name": "5-fluorouridine",
+      "SI_compound_number": 3,
+      "deoxy": false,
+      "selected_property_file": "properties/5FUrd.json",
+      "selected_property_sha256": "f6d2480482558f690016a39201cdf0bfbaff017b60fd42843fa21176bacc180f",
+      "substitution": {
+        "parent": "Urd",
+        "site": "pyrimidine5",
+        "group": "F"
+      }
+    },
+    {
+      "code": "5FdUrd",
+      "source_name": "5-fluoro-2'-deoxyuridine",
+      "SI_compound_number": 4,
+      "deoxy": true,
+      "selected_property_file": "properties/5FdUrd_source_stereo.json",
+      "selected_property_sha256": "cf258a27af9336f216ffd22da6022b23ddeff99a240011a9f92454f5bc1a17f0",
+      "substitution": {
+        "parent": "dUrd",
+        "site": "pyrimidine5",
+        "group": "F"
+      }
+    },
+    {
+      "code": "5BrUrd",
+      "source_name": "5-bromouridine",
+      "SI_compound_number": 11,
+      "deoxy": false,
+      "selected_property_file": "properties/5BrUrd.json",
+      "selected_property_sha256": "a0603b3fbfa3302378edc0ac9a98d0c4431f62316ba4abe46201a450276a26f2",
+      "substitution": {
+        "parent": "Urd",
+        "site": "pyrimidine5",
+        "group": "Br"
+      }
+    },
+    {
+      "code": "5BrdUrd",
+      "source_name": "5-bromo-2'-deoxyuridine",
+      "SI_compound_number": 12,
+      "deoxy": true,
+      "selected_property_file": "properties/5BrdUrd.json",
+      "selected_property_sha256": "bf2961ed54b20a13f38ef0438c1ae02301df322b01595147db9a7752fc22e3fe",
+      "substitution": {
+        "parent": "dUrd",
+        "site": "pyrimidine5",
+        "group": "Br"
+      }
+    },
+    {
+      "code": "5IUrd",
+      "source_name": "5-iodouridine",
+      "SI_compound_number": 13,
+      "deoxy": false,
+      "selected_property_file": "properties/5IUrd.json",
+      "selected_property_sha256": "1cf56ddfc051d723aecdd937918eb2aa8701e5f685f82261916b132db230b85e",
+      "substitution": {
+        "parent": "Urd",
+        "site": "pyrimidine5",
+        "group": "I"
+      }
+    },
+    {
+      "code": "5IdUrd",
+      "source_name": "5-iodo-2'-deoxyuridine",
+      "SI_compound_number": 14,
+      "deoxy": true,
+      "selected_property_file": "properties/5IdUrd.json",
+      "selected_property_sha256": "03ff1bb68ad47d6a2f1216c84ed139845ab7087b71a8f403f8709248ea6b7d61",
+      "substitution": {
+        "parent": "dUrd",
+        "site": "pyrimidine5",
+        "group": "I"
+      }
+    },
+    {
+      "code": "5EUrd",
+      "source_name": "5-ethynyluridine",
+      "SI_compound_number": 15,
+      "deoxy": false,
+      "selected_property_file": "properties/5EUrd.json",
+      "selected_property_sha256": "0a290e6ddf8dad8154e9067f25b7337f91bd657be869658cf0720218ae97a991",
+      "substitution": {
+        "parent": "Urd",
+        "site": "pyrimidine5",
+        "group": "C#C"
+      }
+    },
+    {
+      "code": "5EdUrd",
+      "source_name": "5-ethynyl-2'-deoxyuridine",
+      "SI_compound_number": 16,
+      "deoxy": true,
+      "selected_property_file": "properties/5EdUrd.json",
+      "selected_property_sha256": "9ce67977c20fee27501f5bf90a19deb0578f2dbddfcaefc625a18e752d2ee1f6",
+      "substitution": {
+        "parent": "dUrd",
+        "site": "pyrimidine5",
+        "group": "C#C"
+      }
+    },
+    {
+      "code": "Ado",
+      "source_name": "adenosine",
+      "SI_compound_number": 5,
+      "deoxy": false,
+      "selected_property_file": "properties/Ado.json",
+      "selected_property_sha256": "1f94a695be5e76aeef7889f00bc3b6f1dbde398ff3835fbf6057e7a817873105"
+    },
+    {
+      "code": "dAdo",
+      "source_name": "2'-deoxyadenosine",
+      "SI_compound_number": 6,
+      "deoxy": true,
+      "selected_property_file": "properties/dAdo.json",
+      "selected_property_sha256": "e32a0a88424a053b8a337405367dbffde727ee47ff29cefbf56e3a862f5b6f0f"
+    },
+    {
+      "code": "2FAdo",
+      "source_name": "2-fluoroadenosine",
+      "SI_compound_number": 17,
+      "deoxy": false,
+      "selected_property_file": "properties/2FAdo.json",
+      "selected_property_sha256": "983f230a83a8f63cc77109d3762f7a33eeaebebe0c69cba1fe38e752b9588897",
+      "substitution": {
+        "parent": "Ado",
+        "site": "purine2",
+        "group": "F"
+      }
+    },
+    {
+      "code": "2FdAdo",
+      "source_name": "2-fluoro-2'-deoxyadenosine",
+      "SI_compound_number": 18,
+      "deoxy": true,
+      "selected_property_file": "properties/2FdAdo.json",
+      "selected_property_sha256": "d3346b7dd5fa362f47704ad978893d07a71bfa127c8a7810f273c3a7b8f5d1b2",
+      "substitution": {
+        "parent": "dAdo",
+        "site": "purine2",
+        "group": "F"
+      }
+    },
+    {
+      "code": "2ClAdo",
+      "source_name": "2-chloroadenosine",
+      "SI_compound_number": 7,
+      "deoxy": false,
+      "selected_property_file": "properties/2ClAdo.json",
+      "selected_property_sha256": "bc998f7fdf1e01db5975a1abb640a6da4f012e479a5c2684808b10e89d7db378",
+      "substitution": {
+        "parent": "Ado",
+        "site": "purine2",
+        "group": "Cl"
+      }
+    },
+    {
+      "code": "2CldAdo",
+      "source_name": "2-chloro-2'-deoxyadenosine",
+      "SI_compound_number": 8,
+      "deoxy": true,
+      "selected_property_file": "properties/2CldAdo.json",
+      "selected_property_sha256": "f73da8b74b73367aa7e9f6eb3c99d5ff5a63d2a529fcc026a128fd8d962063bc",
+      "substitution": {
+        "parent": "dAdo",
+        "site": "purine2",
+        "group": "Cl"
+      }
+    },
+    {
+      "code": "2AAdo",
+      "source_name": "2-aminoadenosine",
+      "SI_compound_number": 19,
+      "deoxy": false,
+      "selected_property_file": "properties/2AAdo.json",
+      "selected_property_sha256": "5364fd172d6000c1223eaf3bb38baa59062006516fe0dd3a5fe8e07c8723b259",
+      "substitution": {
+        "parent": "Ado",
+        "site": "purine2",
+        "group": "N"
+      }
+    },
+    {
+      "code": "2AdAdo",
+      "source_name": "2-amino-2'-deoxyadenosine",
+      "SI_compound_number": 20,
+      "deoxy": true,
+      "selected_property_file": "properties/2AdAdo.json",
+      "selected_property_sha256": "74ca5917c27905ad7b00af8d16d7986aede3098054cdad779ba265d891a6833f",
+      "substitution": {
+        "parent": "dAdo",
+        "site": "purine2",
+        "group": "N"
+      }
+    },
+    {
+      "code": "Guo",
+      "source_name": "guanosine",
+      "SI_compound_number": 21,
+      "deoxy": false,
+      "selected_property_file": "properties/Guo.json",
+      "selected_property_sha256": "34267708da44c598057299b375e9b203dc84fd58b8d558d5e6d23dfa51c8898f"
+    },
+    {
+      "code": "dGuo",
+      "source_name": "2'-deoxyguanosine",
+      "SI_compound_number": 22,
+      "deoxy": true,
+      "selected_property_file": "properties/dGuo.json",
+      "selected_property_sha256": "55062045856676559377a821f57dc95548d97de772f84f5b9924f338e2e83635"
+    },
+    {
+      "code": "Ino",
+      "source_name": "inosine",
+      "SI_compound_number": 23,
+      "deoxy": false,
+      "selected_property_file": "properties/Ino.json",
+      "selected_property_sha256": "2ad20e3f39c1e84a751c1ee5474763662d450e5a11b4497e93203d28be597498"
+    },
+    {
+      "code": "dIno",
+      "source_name": "2'-deoxyinosine",
+      "SI_compound_number": 24,
+      "deoxy": true,
+      "selected_property_file": "properties/dIno.json",
+      "selected_property_sha256": "6b9b6514c995dbe0c3a454de1077887a1c37f851d4fbdfe17f0dc0ae73077098"
+    }
+  ],
+  "source_specific_resolution": {
+    "compound": "5FdUrd",
+    "initial_generic_name_CID": 3363,
+    "initial_generic_name_smiles": "O=c1[nH]c(=O)n(C2CC(O)C(CO)O2)cc1F",
+    "source_specific_CID": 5790,
+    "source_specific_smiles": "O=c1[nH]c(=O)n([C@H]2C[C@H](O)[C@@H](CO)O2)cc1F",
+    "basis": "PrimaryFigureS1 betaD sugar and5fluoro substitution; exact source-derivedInChIKey query, not prediction error.",
+    "original_lookup_preserved": true
+  },
+  "source_numeric_label_issue": "FigureS1 callsdIno64; TableS1/maintext/rawtable consistently distinguish compound24. Numeric label discrepancy retained, no thermodynamic observation relabeled.",
+  "scope": "Covalent substitution and absolute sugar stereochemistry only. Protonation/tautomer/metal pools, exact comparator training/checkpoint ownership and experimental-condition admission remain separate.",
+  "experimental_references_admitted": 0
+}

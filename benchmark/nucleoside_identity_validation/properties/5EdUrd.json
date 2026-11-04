@@ -1,0 +1,12 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 472172,
+        "MolecularFormula": "C11H12N2O5",
+        "SMILES": "C#CC1=CN(C(=O)NC1=O)[C@H]2C[C@@H]([C@H](O2)CO)O",
+        "InChIKey": "CDEURGJCGCHYFH-DJLDLDEBSA-N"
+      }
+    ]
+  }
+}

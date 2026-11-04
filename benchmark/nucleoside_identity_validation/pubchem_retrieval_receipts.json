@@ -1,0 +1,194 @@
+[
+  {
+    "code": "Urd",
+    "name": "uridine",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/uridine/property/IsomericSMILES,MolecularFormula,InChIKey/JSON",
+    "sha256": "fe84ed6382b0bd90a0c0d46fbedf8a77da012087a51b4469028821e0f39c3ce9",
+    "n_identities": 1,
+    "status": "retrieved"
+  },
+  {
+    "code": "dUrd",
+    "name": "2'-deoxyuridine",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/2%27-deoxyuridine/property/IsomericSMILES,MolecularFormula,InChIKey/JSON",
+    "sha256": "ed9c31e63d10ca1a5fa03307eeb1a98b97c69a11c8f02be2ef235e635c4043d7",
+    "n_identities": 1,
+    "status": "retrieved"
+  },
+  {
+    "code": "5MUrd",
+    "name": "5-methyluridine",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/5-methyluridine/property/IsomericSMILES,MolecularFormula,InChIKey/JSON",
+    "sha256": "6611f36d94a182d69b273c5ccdd6a6c9248bde0a4087f668d7a994173e5713c4",
+    "n_identities": 1,
+    "status": "retrieved"
+  },
+  {
+    "code": "Thd",
+    "name": "thymidine",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/thymidine/property/IsomericSMILES,MolecularFormula,InChIKey/JSON",
+    "sha256": "a3c4ef8ec4def07358c947076bb8690106f389577c7402f21771101c2b0926bf",
+    "n_identities": 1,
+    "status": "retrieved"
+  },
+  {
+    "code": "5FUrd",
+    "name": "5-fluorouridine",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/5-fluorouridine/property/IsomericSMILES,MolecularFormula,InChIKey/JSON",
+    "sha256": "f6d2480482558f690016a39201cdf0bfbaff017b60fd42843fa21176bacc180f",
+    "n_identities": 1,
+    "status": "retrieved"
+  },
+  {
+    "code": "5FdUrd",
+    "name": "5-fluoro-2'-deoxyuridine",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/5-fluoro-2%27-deoxyuridine/property/IsomericSMILES,MolecularFormula,InChIKey/JSON",
+    "sha256": "ad9f60b8edf496d99e179b0da2ff5e58f9f80fec2d3d7d58f163c5209f12da3d",
+    "n_identities": 1,
+    "status": "retrieved"
+  },
+  {
+    "code": "5BrUrd",
+    "name": "5-bromouridine",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/5-bromouridine/property/IsomericSMILES,MolecularFormula,InChIKey/JSON",
+    "sha256": "a0603b3fbfa3302378edc0ac9a98d0c4431f62316ba4abe46201a450276a26f2",
+    "n_identities": 1,
+    "status": "retrieved"
+  },
+  {
+    "code": "5BrdUrd",
+    "name": "5-bromo-2'-deoxyuridine",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/5-bromo-2%27-deoxyuridine/property/IsomericSMILES,MolecularFormula,InChIKey/JSON",
+    "sha256": "bf2961ed54b20a13f38ef0438c1ae02301df322b01595147db9a7752fc22e3fe",
+    "n_identities": 1,
+    "status": "retrieved"
+  },
+  {
+    "code": "5IUrd",
+    "name": "5-iodouridine",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/5-iodouridine/property/IsomericSMILES,MolecularFormula,InChIKey/JSON",
+    "sha256": "1cf56ddfc051d723aecdd937918eb2aa8701e5f685f82261916b132db230b85e",
+    "n_identities": 1,
+    "status": "retrieved"
+  },
+  {
+    "code": "5IdUrd",
+    "name": "5-iodo-2'-deoxyuridine",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/5-iodo-2%27-deoxyuridine/property/IsomericSMILES,MolecularFormula,InChIKey/JSON",
+    "sha256": "03ff1bb68ad47d6a2f1216c84ed139845ab7087b71a8f403f8709248ea6b7d61",
+    "n_identities": 1,
+    "status": "retrieved"
+  },
+  {
+    "code": "5EUrd",
+    "name": "5-ethynyluridine",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/5-ethynyluridine/property/IsomericSMILES,MolecularFormula,InChIKey/JSON",
+    "sha256": "0a290e6ddf8dad8154e9067f25b7337f91bd657be869658cf0720218ae97a991",
+    "n_identities": 1,
+    "status": "retrieved"
+  },
+  {
+    "code": "5EdUrd",
+    "name": "5-ethynyl-2'-deoxyuridine",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/5-ethynyl-2%27-deoxyuridine/property/IsomericSMILES,MolecularFormula,InChIKey/JSON",
+    "sha256": "9ce67977c20fee27501f5bf90a19deb0578f2dbddfcaefc625a18e752d2ee1f6",
+    "n_identities": 1,
+    "status": "retrieved"
+  },
+  {
+    "code": "Ado",
+    "name": "adenosine",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/adenosine/property/IsomericSMILES,MolecularFormula,InChIKey/JSON",
+    "sha256": "1f94a695be5e76aeef7889f00bc3b6f1dbde398ff3835fbf6057e7a817873105",
+    "n_identities": 1,
+    "status": "retrieved"
+  },
+  {
+    "code": "dAdo",
+    "name": "2'-deoxyadenosine",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/2%27-deoxyadenosine/property/IsomericSMILES,MolecularFormula,InChIKey/JSON",
+    "sha256": "e32a0a88424a053b8a337405367dbffde727ee47ff29cefbf56e3a862f5b6f0f",
+    "n_identities": 1,
+    "status": "retrieved"
+  },
+  {
+    "code": "2FAdo",
+    "name": "2-fluoroadenosine",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/2-fluoroadenosine/property/IsomericSMILES,MolecularFormula,InChIKey/JSON",
+    "sha256": "983f230a83a8f63cc77109d3762f7a33eeaebebe0c69cba1fe38e752b9588897",
+    "n_identities": 1,
+    "status": "retrieved"
+  },
+  {
+    "code": "2FdAdo",
+    "name": "2-fluoro-2'-deoxyadenosine",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/2-fluoro-2%27-deoxyadenosine/property/IsomericSMILES,MolecularFormula,InChIKey/JSON",
+    "sha256": "d3346b7dd5fa362f47704ad978893d07a71bfa127c8a7810f273c3a7b8f5d1b2",
+    "n_identities": 1,
+    "status": "retrieved"
+  },
+  {
+    "code": "2ClAdo",
+    "name": "2-chloroadenosine",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/2-chloroadenosine/property/IsomericSMILES,MolecularFormula,InChIKey/JSON",
+    "sha256": "bc998f7fdf1e01db5975a1abb640a6da4f012e479a5c2684808b10e89d7db378",
+    "n_identities": 1,
+    "status": "retrieved"
+  },
+  {
+    "code": "2CldAdo",
+    "name": "2-chloro-2'-deoxyadenosine",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/2-chloro-2%27-deoxyadenosine/property/IsomericSMILES,MolecularFormula,InChIKey/JSON",
+    "sha256": "f73da8b74b73367aa7e9f6eb3c99d5ff5a63d2a529fcc026a128fd8d962063bc",
+    "n_identities": 1,
+    "status": "retrieved"
+  },
+  {
+    "code": "2AAdo",
+    "name": "2-aminoadenosine",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/2-aminoadenosine/property/IsomericSMILES,MolecularFormula,InChIKey/JSON",
+    "sha256": "5364fd172d6000c1223eaf3bb38baa59062006516fe0dd3a5fe8e07c8723b259",
+    "n_identities": 1,
+    "status": "retrieved"
+  },
+  {
+    "code": "2AdAdo",
+    "name": "2-amino-2'-deoxyadenosine",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/2-amino-2%27-deoxyadenosine/property/IsomericSMILES,MolecularFormula,InChIKey/JSON",
+    "sha256": "74ca5917c27905ad7b00af8d16d7986aede3098054cdad779ba265d891a6833f",
+    "n_identities": 1,
+    "status": "retrieved"
+  },
+  {
+    "code": "Guo",
+    "name": "guanosine",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/guanosine/property/IsomericSMILES,MolecularFormula,InChIKey/JSON",
+    "sha256": "34267708da44c598057299b375e9b203dc84fd58b8d558d5e6d23dfa51c8898f",
+    "n_identities": 1,
+    "status": "retrieved"
+  },
+  {
+    "code": "dGuo",
+    "name": "2'-deoxyguanosine",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/2%27-deoxyguanosine/property/IsomericSMILES,MolecularFormula,InChIKey/JSON",
+    "sha256": "55062045856676559377a821f57dc95548d97de772f84f5b9924f338e2e83635",
+    "n_identities": 1,
+    "status": "retrieved"
+  },
+  {
+    "code": "Ino",
+    "name": "inosine",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/inosine/property/IsomericSMILES,MolecularFormula,InChIKey/JSON",
+    "sha256": "2ad20e3f39c1e84a751c1ee5474763662d450e5a11b4497e93203d28be597498",
+    "n_identities": 1,
+    "status": "retrieved"
+  },
+  {
+    "code": "dIno",
+    "name": "2'-deoxyinosine",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/2%27-deoxyinosine/property/IsomericSMILES,MolecularFormula,InChIKey/JSON",
+    "sha256": "6b9b6514c995dbe0c3a454de1077887a1c37f851d4fbdfe17f0dc0ae73077098",
+    "n_identities": 1,
+    "status": "retrieved"
+  }
+]

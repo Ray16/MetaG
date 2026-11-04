@@ -160,6 +160,12 @@ source archive, preserving its 57 exclusions and unresolved standard-state
 requirements. This authenticates source arithmetic and provides no new independent
 standard Gibbs-energy benchmark or prediction accuracy result.
 
+The companion [nucleoside identity inventory](nucleoside_identity_validation/README.md)
+checks all 24 neutral substrate drawings against the source substitutions and
+absolute sugar configurations. It retains a generic stereo-unspecified database
+entry alongside the source-specific isomer, and does not infer solution-state
+or experimental-reference eligibility from a successful structure lookup.
+
 `corrected_cycle_summary.json` records the current-source shared-record cycle audit: 30 of 49
 independent input-state vectors are evaluable, of which four fail numerical closure up to
 8.70 kJ/mol. The additionally named sucrose and amino-acid controls are not independent basis

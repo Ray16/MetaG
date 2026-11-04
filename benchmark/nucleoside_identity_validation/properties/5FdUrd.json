@@ -1,0 +1,12 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 3363,
+        "MolecularFormula": "C9H11FN2O5",
+        "SMILES": "C1C(C(OC1N2C=C(C(=O)NC2=O)F)CO)O",
+        "InChIKey": "ODKNJVUHOIMIIZ-UHFFFAOYSA-N"
+      }
+    ]
+  }
+}

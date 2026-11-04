@@ -1,0 +1,12 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 14885960,
+        "MolecularFormula": "C11H12N2O6",
+        "SMILES": "C#CC1=CN(C(=O)NC1=O)[C@H]2[C@@H]([C@@H]([C@H](O2)CO)O)O",
+        "InChIKey": "QCWBIPKYTBFWHH-FDDDBJFASA-N"
+      }
+    ]
+  }
+}

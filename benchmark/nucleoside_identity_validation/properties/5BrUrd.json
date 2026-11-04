@@ -1,0 +1,12 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 91494,
+        "MolecularFormula": "C9H11BrN2O6",
+        "SMILES": "C1=C(C(=O)NC(=O)N1[C@H]2[C@@H]([C@@H]([C@H](O2)CO)O)O)Br",
+        "InChIKey": "AGFIRQJZCNVMCW-UAKXSSHOSA-N"
+      }
+    ]
+  }
+}
