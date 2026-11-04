@@ -24,6 +24,14 @@ Backend producer or settings changes invalidate the session. The exported
 ledger retains provenance; it is not accepted as a resumable molecular cache.
 Execution is serial.
 
+The thermodynamic target remains 298.15 K, pH 7, zero ionic strength, no Mg
+binding, 1 M solutes and pure liquid water. An optional reaction-level
+`conditions` record constrains that target. Unsupported requirements return no
+estimate before molecular work; they do not change constants or reweight an
+existing ledger. For example, a request at pH 7.5 and ionic strength 0.12 M is
+unavailable. Reference measurements at those conditions need an independently
+justified transfer before comparison with this profile.
+
 ## Reference treatment
 
 The profile uses full molecules without cofactor replacement, nucleotide caps,

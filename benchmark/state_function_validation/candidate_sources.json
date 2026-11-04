@@ -135,6 +135,19 @@
       "condition_eligibility": "unresolved",
       "prior_exposure": "SABIO metadata and source identities screened in October 2026; not an untouched source discovery; no new outcome values inspected in this work",
       "possible_tecr_reference_count_by_token": 0
+    },
+    {
+      "doi": "10.1021/acs.biochem.3c00702",
+      "pmid": "38546289",
+      "pmc_id": "PMC11025551",
+      "entry_ids": [],
+      "status": "held_after_primary_source_review",
+      "independent_source_verified": false,
+      "dGbyG_overlap": "Partial671projection:three resolved compound families present;ethylene glycol no resolved match,nearest known similarity4/9;unresolved aliases and675snapshot prevent certification.",
+      "condition_eligibility": "Held: nativepH7.5,I0.12and forward20mM/reverse10mMTEAbuffers; no authenticated transfer to fixed MetaG target.",
+      "prior_exposure": "Primary rate/figure values inspected in November2026reference curation; no reaction predictions, residuals or outcome-based selection.",
+      "review": "benchmark/gpdh_exchange_reference_review",
+      "primary_references_admitted": 0
     }
   ],
   "historical_metadata_sha256": {

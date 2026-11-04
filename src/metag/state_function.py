@@ -262,6 +262,12 @@ class StateFunctionEstimator:
                   "conditions": dict(CONDITIONS), "config": json.loads(json.dumps(self.config)),
                   "original_species": copy.deepcopy(reaction["species"]), "state_records": {},
                   "suspect": None, "uncertainty_scope": "sampling only; no calibrated total-error interval"}
+        from metag.validation.calculation_conditions import calculation_condition_issues
+        condition_issues = calculation_condition_issues(reaction)
+        if condition_issues:
+            result['suspect'] = 'unsupported calculation conditions: ' + '; '.join(condition_issues)
+            result['condition_issues'] = condition_issues
+            return result
         for field in ("pka_sites", "species_protonation_models"):
             if reaction.get(field):
                 result["suspect"] = "unsupported in state-function profile: " + field

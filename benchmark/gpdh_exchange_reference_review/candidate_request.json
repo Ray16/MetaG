@@ -1,0 +1,32 @@
+{
+  "note": "Source-native GPDH exchange candidate; no thermodynamic reference label admitted",
+  "species": {
+    "R_glycerol_3_phosphate": [
+      -1,
+      -2,
+      "O=P([O-])([O-])OC[C@H](O)CO"
+    ],
+    "glycolaldehyde": [
+      -1,
+      0,
+      "OCC=O"
+    ],
+    "DHAP": [
+      1,
+      -2,
+      "OCC(=O)COP(=O)([O-])[O-]"
+    ],
+    "ethylene_glycol": [
+      1,
+      0,
+      "OCCO"
+    ]
+  },
+  "n_Hplus": 0,
+  "conditions": {
+    "T_K": 298.15,
+    "pH": 7.5,
+    "ionic_strength_M": 0.12
+  },
+  "source_reference_status": "held: concentration-normalization history, differential buffer effects, native-to-target transfer and joint uncertainty unresolved"
+}

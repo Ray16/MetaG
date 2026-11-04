@@ -2,6 +2,13 @@
 
 ## Unreleased (0.3.1.dev0)
 
+- Refuse explicit calculation-condition requests outside the implemented
+  298.15 K, pH 7, zero-ionic-strength, Mg-free target before molecular work.
+  Both scoring APIs previously ignored this optional input metadata. Omitted
+  conditions retain the documented fixed target; the check performs no
+  temperature, pH, ionic-strength or Mg transformation. Historical evaluated
+  results are not relabelled as predictions at native experimental conditions.
+
 - Reject a timed-out RDKit maximum-common-substructure search instead of using
   its partial atom map. The reaction is withheld through the routing error
   guard. This changes routing behavior and the estimator fingerprint; the

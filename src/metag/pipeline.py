@@ -34,7 +34,9 @@ def score_reaction(reaction, backend=None, *, model=None, key="rxn", log=print, 
 
     `reaction` = {"species": {name: [coeff, charge, smiles]}, "n_Hplus": float, "note": str, and
     optionally "exp": [float] (reported as error only), "pka_sites", "species_state_pools",
-    "species_protonation_models"}. Products have positive coefficients.
+    "species_protonation_models", "conditions"}. Products have positive coefficients.
+    A supplied conditions record constrains the fixed target; unsupported
+    requirements return no estimate and never select a different physical model.
 
     Pass either a species-energy `backend` or a loaded UMA predict unit as `model` (wrapped in
     :class:`~metag.energetics.backend.UMABackend` with settings from the environment). Returns the result
@@ -65,6 +67,14 @@ def _score_reaction(reaction, backend, *, key, log, allow_truncate, _force_neutr
         cfg['declared_sugar_pool_policy'] = POLICY
         cfg['caller_species_state_pools_sha256'] = content_hash(reaction['species_state_pools'])
     no_estimate = functools.partial(_no_estimate, config=cfg)
+    from metag.validation.calculation_conditions import calculation_condition_issues
+    condition_issues = calculation_condition_issues(reaction)
+    if condition_issues:
+        reason = 'unsupported calculation conditions: ' + '; '.join(condition_issues)
+        return no_estimate(key, reaction, {
+            'errors': [], 'warnings': [reason], 'truncated': False,
+            'routing_status': 'not_run_unsupported_conditions',
+            'condition_issues': condition_issues}, reason, log)
     orig_species = {k: list(v) for k, v in reaction["species"].items()}   # pre-routing identity
     from metag.chem import isotope_labels, is_balanced
     isotopic = {name: labels for name, (_, _, smi) in orig_species.items() if (labels := isotope_labels(smi))}

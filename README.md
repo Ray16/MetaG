@@ -88,6 +88,13 @@ A reaction JSON maps identifiers to reactions. Each species is `[coefficient, fo
 
 Use declared stereochemistry and one connected molecular species per SMILES. Unsupported isotopes, unresolved stereochemistry, unsupported phosphoryl environments and explicit-water cluster requests receive no estimate. Stoichiometric reaction water is supported. Atom-map annotations are rejected before molecular work; remove bookkeeping labels while preserving chemical identity and stereochemistry. This restriction does not remove the correspondences constructed internally by routing.
 
+An optional reaction-level `conditions` record specifies calculation requirements,
+for example `{"T_K": 298.15, "pH": 7, "ionic_strength_M": 0}`. Both scoring APIs
+return no estimate if a supplied requirement differs from the fixed target or
+is unsupported. This field does not change the temperature, pH, salt or Mg model.
+Omitting it uses the documented target. Experimental conditions must be retained
+in the reference ledger and harmonized before calculating prediction errors.
+
 The Python interface accepts one reaction directly:
 
 ```python

@@ -1,0 +1,66 @@
+{
+  "schema": "metag-gpdh-exchange-source-facts-v1",
+  "source_records": [
+    {
+      "name": "Cristobal2024",
+      "doi": "10.1021/acs.biochem.3c00702",
+      "pmcid": "PMC11025551",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11025551/fullTextXML",
+      "filename": "Cristobal2024.xml",
+      "sha256": "c699c1f7997fd790f88012ede4ee766bf84bdcddea8544ee14634a8ef374a079"
+    },
+    {
+      "name": "Reyes2015",
+      "doi": "10.1021/ja5123842",
+      "pmcid": "PMC4311969",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4311969/fullTextXML",
+      "filename": "Reyes2015.xml",
+      "sha256": "405d35f2a21c77df51e94a4d7e32910b6c63f91c47f701b98be1082878fb1893"
+    }
+  ],
+  "observation": "Unactivated second-order rate constants at saturating cofactor; a mixture of new2024forward and2015reverse assays, not direct free-cofactor equilibria.",
+  "rates_M_inv_s_inv": {
+    "forward_G3P": 89000,
+    "reverse_DHAP_carbonyl": 4600000,
+    "forward_EtG": 3.5e-05,
+    "reverse_GA_carbonyl": 0.05
+  },
+  "reported_equilibrium_constants": {
+    "K1": 0.019,
+    "K2": 0.0007
+  },
+  "conflicting_prose_K1": 0.19,
+  "figure_K1": 0.019,
+  "figure_K1_over_K2": 27,
+  "scheme6_image_sha256": "4e7847274987ae738e6431ace9b75f6927533813dcae37e2b6110ee18b4872ec",
+  "scheme6_inspection": "Original unmodified Scheme6image visually inspected:K1=0.019,K2=7.0x10^-4,quotient27. Table1and rate arithmetic support0.019; conflicting prose0.19is not substituted.",
+  "assay_normalization": {
+    "GA_carbonyl_fraction_used": 0.06,
+    "DHAP_carbonyl_fraction_stated_2015": 0.45,
+    "alternative_DHAP_fraction_in_2008": 0.55,
+    "role": "Concentration-axis normalizations used in reporting rate constants; undoing them recovers nominal total-substrate slopes. They are not new measured hydration constants."
+  },
+  "hydration_lineage": {
+    "GA": "Tsang2008 DOI10.1021/bi8001743 reports H2O NMR fraction0.06+-0.003 at25C,pH7.5,I0.12; not solely a D2O value.",
+    "DHAP": "Reyes2015states0.45 at25C; its cited Reynolds1971 DOI10.1042/bj1220285 abstract instead reports0.55keto at20C and0.83 at37C. Tsang2008used0.55. No automatic typo correction or measured25C fraction inferred."
+  },
+  "conditions": {
+    "temperature_K": 298.15,
+    "pH": 7.5,
+    "ionic_strength_M": 0.12,
+    "supporting_electrolyte": "NaCl",
+    "forward_TEA_M": 0.02,
+    "reverse_TEA_M": 0.01,
+    "common_buffer_matrix_proven": false
+  },
+  "limitations": [
+    "Microscopic detailed balance requires a shared environment; forward/reverse buffer concentrations differ. Differential buffer effects on the two transition states and solute activities are not bounded.",
+    "The DHAP normalization may contain a textual error. Without original total-DHAP rate data,0.45and0.55are separate source scenarios, not a statistical confidence interval.",
+    "No full joint covariance of the four kinetic constants is available. Hydration-scale/rate dependencies must not be counted as independent uncertainties.",
+    "No source-owned pH7.5,I0.12 to pH7,I0 activity/speciation bridge has been established.",
+    "One source-linked exchange is below the predeclared minimum dependence-cluster support; no generalization conclusion follows."
+  ],
+  "primary_references_admitted": 0,
+  "secondary_thermodynamic_labels_admitted": 0,
+  "predictions_examined": false
+}

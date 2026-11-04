@@ -1,5 +1,13 @@
 # Validation against the evaluated release
 
+The later calculation-condition guard refuses explicit requests outside the
+implemented thermodynamic target before molecular work in both APIs. The packaged
+364 inputs omit those requests. A bounded source comparison removes only the
+new admission guards and docstrings and recovers the preceding runtime ASTs;
+see [the compatibility receipt](../benchmark/gpdh_exchange_reference_review/compatibility_audit.json).
+This changes the full source identity, without a new physical model or molecular
+sweep. The guard does not normalize experimental reference conditions.
+
 The final 31 October submission package additionally rejects atom-map annotations in input SMILES
 before routing. This prevents annotated water from bypassing the liquid-water reference. All 364
 sweep inputs lack those annotations and pass the new guard; removing exactly that guard and the

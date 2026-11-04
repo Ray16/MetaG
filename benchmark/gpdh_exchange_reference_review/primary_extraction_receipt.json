@@ -1,0 +1,27 @@
+{
+  "utc": "2026-11-04T22:35:26.891326+00:00",
+  "primary_sources_verified": true,
+  "source_records": [
+    {
+      "name": "Cristobal2024",
+      "doi": "10.1021/acs.biochem.3c00702",
+      "pmcid": "PMC11025551",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11025551/fullTextXML",
+      "filename": "Cristobal2024.xml",
+      "sha256": "c699c1f7997fd790f88012ede4ee766bf84bdcddea8544ee14634a8ef374a079"
+    },
+    {
+      "name": "Reyes2015",
+      "doi": "10.1021/ja5123842",
+      "pmcid": "PMC4311969",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4311969/fullTextXML",
+      "filename": "Reyes2015.xml",
+      "sha256": "405d35f2a21c77df51e94a4d7e32910b6c63f91c47f701b98be1082878fb1893"
+    }
+  ],
+  "auditor_sha256": "190c395c91414ffb1580c27050c640c854e07307f8f7f7caa21cdc9bb44fca86",
+  "source_facts_sha256": "f5f6475021c09796fc3b63589e2982203ca71585a50a95d75a9fb75f394cafa9",
+  "scheme6_visual_inspection": true,
+  "primary_references_admitted": 0,
+  "secondary_thermodynamic_labels_admitted": 0
+}

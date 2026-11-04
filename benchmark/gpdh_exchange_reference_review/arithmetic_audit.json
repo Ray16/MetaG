@@ -1,0 +1,60 @@
+{
+  "schema": "metag-gpdh-exchange-candidate-audit-v1",
+  "status": "nominal_assay_ratios_reconstructed; thermodynamic_reference_not_admitted",
+  "equation": "(R)-glycerol3-phosphate + glycolaldehyde -> DHAP + ethylene glycol",
+  "conditions": {
+    "temperature_K": 298.15,
+    "pH": 7.5,
+    "ionic_strength_M": 0.12,
+    "supporting_electrolyte": "NaCl",
+    "forward_TEA_M": 0.02,
+    "reverse_TEA_M": 0.01,
+    "common_buffer_matrix_proven": false
+  },
+  "reported_second_order_rate_basis": {
+    "whole_assay_ratio": 0.01934782608695652,
+    "truncated_assay_ratio": 0.0006999999999999999,
+    "carbonyl_exchange_ratio": 27.639751552795033,
+    "total_substrate_exchange_ratio": 3.6853002070393375,
+    "carbonyl_minus_RTln_ratio_kj": -8.228290540518303,
+    "total_minus_RTln_ratio_kj": -3.233432533777971,
+    "normalization_change_kj": 4.9948580067403325,
+    "reverse_total_substrate_rates_M_inv_s_inv": {
+      "DHAP": 2070000.0,
+      "GA": 0.003
+    }
+  },
+  "printed_equilibrium_basis": {
+    "carbonyl_exchange_ratio": 27.142857142857142,
+    "total_substrate_exchange_ratio": 3.619047619047619
+  },
+  "alternative_DHAP_normalization_scenario": {
+    "whole_assay_ratio": 0.01934782608695652,
+    "truncated_assay_ratio": 0.0006999999999999999,
+    "carbonyl_exchange_ratio": 27.639751552795033,
+    "total_substrate_exchange_ratio": 3.015245623941276,
+    "carbonyl_minus_RTln_ratio_kj": -8.228290540518303,
+    "total_minus_RTln_ratio_kj": -2.7359785026268706,
+    "normalization_change_kj": 5.492312037891433,
+    "reverse_total_substrate_rates_M_inv_s_inv": {
+      "DHAP": 2530000.0,
+      "GA": 0.003
+    }
+  },
+  "scenario_difference_kj": 0.4974540311511002,
+  "scenario_scope": "Source decoding alternatives, not a confidence interval or a measured hydration-temperature correction.",
+  "primary_sources_verified": false,
+  "source_scope": "Default replay checks curated source facts and arithmetic. Use --primary-dir for hash-authenticated XML extraction. Original articles are linked, not redistributed.",
+  "cancellation_scope": "Common enzyme-bound cofactor symbols cancel algebraically; a single thermodynamic environment is an additional unverified prerequisite.",
+  "uncertainty_scope": "No numerical confidence interval: full rate covariance, concentration-scale history, differential buffer effects and condition-transfer uncertainties are unresolved.",
+  "limitations": [
+    "Microscopic detailed balance requires a shared environment; forward/reverse buffer concentrations differ. Differential buffer effects on the two transition states and solute activities are not bounded.",
+    "The DHAP normalization may contain a textual error. Without original total-DHAP rate data,0.45and0.55are separate source scenarios, not a statistical confidence interval.",
+    "No full joint covariance of the four kinetic constants is available. Hydration-scale/rate dependencies must not be counted as independent uncertainties.",
+    "No source-owned pH7.5,I0.12 to pH7,I0 activity/speciation bridge has been established.",
+    "One source-linked exchange is below the predeclared minimum dependence-cluster support; no generalization conclusion follows."
+  ],
+  "primary_references_admitted": 0,
+  "secondary_thermodynamic_labels_admitted": 0,
+  "predictions_examined": false
+}

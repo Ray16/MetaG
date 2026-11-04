@@ -1,0 +1,20 @@
+{
+  "base_commit": "efe511cb8e17890c47189bcc903e700f1575e2be",
+  "packaged_inputs_sha256": "69a54e6887cffffb53b25577f2cbc330acdfa78aae33bad726ec11f653f01d30",
+  "n_packaged_inputs": 364,
+  "explicit_condition_records": 0,
+  "all_packaged_inputs_pass_new_condition_gate": true,
+  "AST_checks": {
+    "pipeline.py": {
+      "old_sha256": "dafe94a846372932ee62c5e614b3c05eda678650c52bb8411d54598359dc37ae",
+      "new_sha256": "e1de32cbb517828a0a5a5c978fea93b1640fc6f38cfdaa9970800e94a8d08102",
+      "equal_after_removing_only_new_guard_and_docstrings": true
+    },
+    "state_function.py": {
+      "old_sha256": "d63ea1a0131b6ed78dace035ced35336bd0a5dcba92358514a58ca45fb061215",
+      "new_sha256": "06dc3eb510edba7e55106719f50f77d3b32f579f4d1662fa603c938d337f799f",
+      "equal_after_removing_only_new_guard_and_docstrings": true
+    }
+  },
+  "scope": "Control-flow compatibility proof for inputs with omitted conditions; no new molecular sweep, physical validation or inherited full estimator fingerprint."
+}
