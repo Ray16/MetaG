@@ -1,0 +1,12 @@
+{
+  "expected_slots": [
+    "oxidized",
+    "reduced"
+  ],
+  "completed": [
+    "oxidized",
+    "reduced"
+  ],
+  "failures": [],
+  "status": "complete"
+}

@@ -1,0 +1,16 @@
+{
+  "pid": 3984386,
+  "host": "lambda2",
+  "start_ticks": "1460611225",
+  "cpu_affinity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "argv": [
+    "/homes/rzhu/miniforge3/envs/redox/bin/python",
+    "/nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG/analysis/nicotinamide_phosphate_charge_20261104_01/aqueous_point.py",
+    "reduced"
+  ]
+}

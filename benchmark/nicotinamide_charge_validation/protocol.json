@@ -1,0 +1,38 @@
+{
+  "schema": "metag-nicotinamide-phosphate-charge-control-v1",
+  "created_utc": "2026-11-04T15:03:38.204169+00:00",
+  "question": "How does phosphate deprotonation change the vertical aqueous electronic redox contrast?",
+  "endpoint": "(charged_reduced-charged_oxidized)-(reference_reduced-reference_oxidized)",
+  "weights": {
+    "charged_reduced": 1,
+    "charged_oxidized": -1,
+    "reference_reduced": -1,
+    "reference_oxidized": 1
+  },
+  "element_residual": {},
+  "charge_residual": 0,
+  "molecule_residual": 0,
+  "geometry_rule": "Remove only the two verified P-O-H hydrogens from each previously retained full geometry; preserve every other coordinate and atom order.",
+  "method": "Restricted-singlet wb97m-v/def2-tzvpd, def2-universal-jkfit; SMD water, grids4/3, sasa590, equilibrium solvent.",
+  "numerical_protocol_source": "../nicotinamide_reference_control_20261104_01/fixed_geometry_protocol.json",
+  "parent_protocol_sha256": "508823c5e7da14ff9956b275128117f266463909b0700585ae260b52600269e5",
+  "parent_input_sha256": "40f946868c9136fba98bdfdb296b7a7a15ebc63da45fbc77c5c8c8a8ac55e64c",
+  "parent_reference_points": {
+    "full_ox__minimum_031": "0ddc170d53a5dec6aa10b57749c96057a412b70be9970b6c1deb041ffb60148d",
+    "full_red__minimum_046": "7cab5251d34468420422867a1f6ba2ebe7b086ffa20d2db566a12366bff4ea26"
+  },
+  "intended_resource_ceiling": "One separately reserved GPU, two serial SMD points, thirty minutes; no submission made by this preparer.",
+  "physical_geometry_attempts": 0,
+  "experimental_labels_admitted": 0,
+  "offsets_fitted": 0,
+  "limitations": [
+    "Vertical electronic-plus-solvent coupling only; no new nuclear optimization, RRHO or conformer ensembles.",
+    "A nonzero vertical coupling does not measure a macroscopic pKa or establish the full free-energy correction.",
+    "These two charged states do not establish complete physiological protonation/Mg speciation.",
+    "No production potential or experimental accuracy is selected from this control."
+  ],
+  "preparation": {
+    "rdkit_version": "2026.03.5",
+    "source_sha256": "c30691ae5b61fd8951dab10899bbb92dc9f61847865bbca8c59e73f2df4034d6"
+  }
+}

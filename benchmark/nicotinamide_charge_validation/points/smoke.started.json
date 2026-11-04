@@ -1,0 +1,64 @@
+{
+  "slot": "smoke",
+  "geometry": {
+    "symbols": [
+      "O",
+      "H",
+      "H"
+    ],
+    "positions_angstrom": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0.7586,
+        0,
+        0.5043
+      ],
+      [
+        -0.7586,
+        0,
+        0.5043
+      ]
+    ],
+    "charge": 0,
+    "spin_multiplicity": 1
+  },
+  "n_AO": 58,
+  "n_electrons": 10,
+  "overlap_minimum_eigenvalue": 0.0016963288909453134,
+  "owner": {
+    "host": "lambda2",
+    "pid": 3962886,
+    "start_ticks": "1460565496",
+    "utc": "2026-11-04T15:10:36.582716+00:00",
+    "cpu_affinity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "managed_cuda_visible_devices": "7",
+    "native_thread_caps": {
+      "OMP_NUM_THREADS": "1",
+      "OMP_THREAD_LIMIT": "1",
+      "MKL_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1"
+    }
+  },
+  "source_sha256": "d130af4b072fa57f39af802552da44dcfffed895205953bf5191c879b8770d75",
+  "input_sha256": "ef2e0ab95905dc6c1d522ed087aab8957ebeec90e2817caa83749338a9ea5d1f",
+  "protocol_sha256": "e8fa77bdc9fb0fb12138ecf61a85d6f41d699343d40d202bcb7f5abc03772fcf",
+  "numerical_protocol_sha256": "508823c5e7da14ff9956b275128117f266463909b0700585ae260b52600269e5",
+  "versions": {
+    "pyscf": "2.14.0",
+    "gpu4pyscf-cuda12x": "1.8.1",
+    "gpu4pyscf-libxc-cuda12x": "0.8.1",
+    "numpy": "2.2.6",
+    "cupy-cuda12x": "14.1.1"
+  },
+  "physical_scope": "Vertical aqueous restricted-singlet electronic energy; no nuclear optimization, RRHO, pKa, stability or ensemble proof."
+}

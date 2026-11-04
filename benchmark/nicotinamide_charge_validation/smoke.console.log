@@ -1,0 +1,6 @@
+/homes/rzhu/miniforge3/envs/redox/lib/python3.11/site-packages/gpu4pyscf/lib/cutensor.py:154: UserWarning: using cupy as the tensor contraction engine.
+  warnings.warn(f'using {contract_engine} as the tensor contraction engine.')
+output file: /nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG/analysis/nicotinamide_phosphate_charge_20261104_01/points/smoke.scf.log
+START SMD smoke; charge=0, AO=58, electrons=10
+<class 'gpu4pyscf.solvent.smd.SMD'> does not have attributes  surface_discretization_method
+COMPLETE SMD smoke; E=-76.4382943614553 Eh; HOMO=-0.43296204 Eh

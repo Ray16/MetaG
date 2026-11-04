@@ -1,0 +1,19 @@
+{
+  "scope": "CPU molecule/basis construction only; no SCF or GPU submission",
+  "rows": [
+    {
+      "state": "oxidized",
+      "charge": -1,
+      "n_AO": 1916,
+      "n_electrons": 344,
+      "passed": true
+    },
+    {
+      "state": "reduced",
+      "charge": -2,
+      "n_AO": 1925,
+      "n_electrons": 346,
+      "passed": true
+    }
+  ]
+}

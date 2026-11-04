@@ -1,0 +1,51 @@
+{
+  "utc": "2026-11-04T15:10:34.015412+00:00",
+  "deadline_utc": "2026-11-04T15:40:34.015412+00:00",
+  "host": "lambda2",
+  "gpu_index": 7,
+  "gpu_uuid": "GPU-fab99e67-e6e2-56bb-e07d-ea240da3e84a",
+  "cpus": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "python": "/homes/rzhu/miniforge3/envs/redox/bin/python",
+  "argv": [
+    "/nfs/lambda_stor_01/homes/rzhu/bin/gpu_reserve",
+    "run",
+    "7",
+    "--label",
+    "metag_nicotinamide_phosphate_charge",
+    "--",
+    "/usr/bin/taskset",
+    "-c",
+    "2,3,4,5",
+    "/usr/bin/python",
+    "/nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG/analysis/nicotinamide_phosphate_charge_20261104_01/run_control.py"
+  ],
+  "expected_slots": [
+    "oxidized",
+    "reduced"
+  ],
+  "attempts_per_slot": 1,
+  "consecutive_failure_limit": 3,
+  "files_sha256": {
+    "protocol.json": "e8fa77bdc9fb0fb12138ecf61a85d6f41d699343d40d202bcb7f5abc03772fcf",
+    "geometry_inputs.json": "ef2e0ab95905dc6c1d522ed087aab8957ebeec90e2817caa83749338a9ea5d1f",
+    "basis_preflight.json": "4b8572d32469b761b66f21188263172eef4ef6d6f0313980ffc30fba3f8a34d4",
+    "reference_geometry_inputs.json": "40f946868c9136fba98bdfdb296b7a7a15ebc63da45fbc77c5c8c8a8ac55e64c",
+    "numerical_protocol.json": "508823c5e7da14ff9956b275128117f266463909b0700585ae260b52600269e5",
+    "parent_reference_point.py": "13774aafddad87168e2e4d8c6f76089297e27b5b96eed0c2c9ea93d2e23b13ef",
+    "cpu_water_smoke.json": "4da96af053227f1d15aba8f1647ec1ec9f086ec5d9280342dafc26a875bc6e9d",
+    "cpu_smoke.py": "192f050ccec0be2129eefa36ab8869eaaae27b66f2d88b5325ddb439f1ae4280",
+    "control_common.py": "c23c5eb281a8f23e4f03cd83e41b073e53314013d6a25b97dcfe3520f3220005",
+    "aqueous_point.py": "d130af4b072fa57f39af802552da44dcfffed895205953bf5191c879b8770d75",
+    "run_control.py": "8c40de8e22a251784cfdafe64dd86569e1487d0f7bcf9710956c2502a7126d67",
+    "launch_control.py": "ef9ed7ee7dccc11c536e4cf811c018501d7972c440969409d4aeb386761a9075",
+    "dependency_preflight.json": "13deee320d6f4ea386807ed60ea6b0c82143e040847cf7f59dddc85ea326d2d6",
+    "parent_points/full_ox__minimum_031.json": "0ddc170d53a5dec6aa10b57749c96057a412b70be9970b6c1deb041ffb60148d",
+    "parent_points/full_red__minimum_046.json": "7cab5251d34468420422867a1f6ba2ebe7b086ffa20d2db566a12366bff4ea26"
+  },
+  "scope": "Two fixed-geometry aqueous electronic points only; no biochemical free-energy or production-policy change."
+}

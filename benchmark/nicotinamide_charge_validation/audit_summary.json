@@ -1,0 +1,44 @@
+{
+  "schema": "metag-nicotinamide-phosphate-charge-audit-v1",
+  "passed": true,
+  "scope": "Vertical aqueous electronic-plus-solvent coupling; not Gibbs free energies, macroscopic pKas or a production correction.",
+  "weights": {
+    "charged_reduced": 1,
+    "charged_oxidized": -1,
+    "reference_reduced": -1,
+    "reference_oxidized": 1
+  },
+  "n_new_points": 2,
+  "n_parent_points": 2,
+  "element_residual": {},
+  "charge_residual": 0,
+  "molecule_residual": 0,
+  "coupling_kj": -5.799882878988578,
+  "paired_vertical_deprotonation_kj": {
+    "oxidized": 2387.850093956837,
+    "reduced": 2382.0502110778484
+  },
+  "components_kj": {
+    "electronic_and_nuclear_at_aqueous_density": 522.8773937507674,
+    "solvent_electrostatic": -528.8626632113264,
+    "solvent_CDS": 0.18538658612682665
+  },
+  "paired_difference_scope": "Raw aqueous electronic differences after removing two H+ nuclei; proton reservoir omitted. Neither difference is a deprotonation Gibbs energy.",
+  "component_scope": "Bookkeeping in separately polarized aqueous SCF densities; not independent gas/solvent free-energy components.",
+  "negative_HOMO_diagnostics": {
+    "charged_oxidized": true,
+    "reference_oxidized": true,
+    "charged_reduced": true,
+    "reference_reduced": true
+  },
+  "CPU_GPU_smoke_difference_kj": 8.26246087459787e-05,
+  "independent_experimental_labels_admitted": 0,
+  "empirical_offsets_fitted": 0,
+  "limitations": [
+    "Vertical electronic-plus-solvent coupling only; no new nuclear optimization, RRHO or conformer ensembles.",
+    "A nonzero vertical coupling does not measure a macroscopic pKa or establish the full free-energy correction.",
+    "These two charged states do not establish complete physiological protonation/Mg speciation.",
+    "No production potential or experimental accuracy is selected from this control.",
+    "An atom-balanced exchange can have nonzero energy; this is not a cycle-closure failure."
+  ]
+}

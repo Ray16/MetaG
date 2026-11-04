@@ -1,0 +1,20 @@
+{
+  "host": "lambda2",
+  "pid": 3962885,
+  "start_ticks": "1460565489",
+  "utc": "2026-11-04T15:10:34.985390+00:00",
+  "cpu_affinity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "managed_cuda_visible_devices": "7",
+  "native_thread_caps": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "MKL_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  }
+}

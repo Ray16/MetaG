@@ -1,0 +1,49 @@
+{
+  "scope": "Nearest-heavy geometry diagnostic on the four selected phosphate H atoms; not a bond-order or tautomer proof.",
+  "rows": [
+    {
+      "family": "oxidized",
+      "H_index": 53,
+      "declared_parent_heavy_index": 15,
+      "declared_parent_symbol": "O",
+      "declared_OH_distance_A": 1.0004497804372596,
+      "nearest_heavy_index": 15,
+      "nearest_symbol": "O",
+      "nearest_distance_A": 1.0004497804372596,
+      "nearest_matches_declared": true
+    },
+    {
+      "family": "oxidized",
+      "H_index": 54,
+      "declared_parent_heavy_index": 19,
+      "declared_parent_symbol": "O",
+      "declared_OH_distance_A": 0.9652454850084972,
+      "nearest_heavy_index": 19,
+      "nearest_symbol": "O",
+      "nearest_distance_A": 0.9652454850084972,
+      "nearest_matches_declared": true
+    },
+    {
+      "family": "reduced",
+      "H_index": 51,
+      "declared_parent_heavy_index": 13,
+      "declared_parent_symbol": "O",
+      "declared_OH_distance_A": 0.9988192415685492,
+      "nearest_heavy_index": 13,
+      "nearest_symbol": "O",
+      "nearest_distance_A": 0.9988192415685492,
+      "nearest_matches_declared": true
+    },
+    {
+      "family": "reduced",
+      "H_index": 52,
+      "declared_parent_heavy_index": 17,
+      "declared_parent_symbol": "O",
+      "declared_OH_distance_A": 0.9645825442144218,
+      "nearest_heavy_index": 17,
+      "nearest_symbol": "O",
+      "nearest_distance_A": 0.9645825442144218,
+      "nearest_matches_declared": true
+    }
+  ]
+}
