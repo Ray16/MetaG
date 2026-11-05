@@ -1,0 +1,6 @@
+{
+  "utc": "2026-11-05T12:47:46.162634+00:00",
+  "reason": "Complete raw settings, including the spin-specific oxygen key, determine provenance identity. A worker can produce more than one quantum-state settings record.",
+  "implementation_sha256": "ce516c6be7fc9eff0b6011b78ff0c1593e2c1ace9170159619adf8f8f05ba474",
+  "physics_or_accepted_values_changed": false
+}

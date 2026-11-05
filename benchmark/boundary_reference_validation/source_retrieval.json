@@ -1,0 +1,142 @@
+[
+  {
+    "compound": "cpd00002",
+    "chebi_id": "CHEBI:30616",
+    "url": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/30616",
+    "utc": "2026-11-05T10:27:24.104203+00:00",
+    "status": 200,
+    "final_url": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/30616/",
+    "bytes": 3020,
+    "sha256": "957148f71b158f4876571d589733196b83f3720d55e755cf4e1336f408ca718b"
+  },
+  {
+    "compound": "cpd00008",
+    "chebi_id": "CHEBI:456216",
+    "url": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/456216",
+    "utc": "2026-11-05T10:27:25.410611+00:00",
+    "status": 200,
+    "final_url": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/456216/",
+    "bytes": 2644,
+    "sha256": "d173ed09b155fc4fd1649be72dffd8124d8c875692eedad09417af638b45f82d"
+  },
+  {
+    "compound": "cpd00018",
+    "chebi_id": "CHEBI:456215",
+    "url": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/456215",
+    "utc": "2026-11-05T10:27:26.682172+00:00",
+    "status": 200,
+    "final_url": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/456215/",
+    "bytes": 2268,
+    "sha256": "a3df26df4a989191eec45ceba14c84e3fa9acd531df1c44b9cdda40e82727532"
+  },
+  {
+    "compound": "cpd00031",
+    "chebi_id": "CHEBI:58189",
+    "url": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/58189",
+    "utc": "2026-11-05T10:27:27.930680+00:00",
+    "status": 200,
+    "final_url": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/58189/",
+    "bytes": 2774,
+    "sha256": "ef32832c43e5dd82d5cb056ce37e59f7f7786ecdb803aeada156d91c1b27fb57"
+  },
+  {
+    "compound": "cpd00038",
+    "chebi_id": "CHEBI:37565",
+    "url": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/37565",
+    "utc": "2026-11-05T10:27:29.167635+00:00",
+    "status": 200,
+    "final_url": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/37565/",
+    "bytes": 3112,
+    "sha256": "1209eb2ad3848a208ffce036645c8edfe4d4c5c9144bd743455ea9f5e07aef87"
+  },
+  {
+    "compound": "cpd00115",
+    "chebi_id": "CHEBI:61404",
+    "url": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/61404",
+    "utc": "2026-11-05T10:27:30.449315+00:00",
+    "status": 200,
+    "final_url": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/61404/",
+    "bytes": 2928,
+    "sha256": "0f7149f6288faf52cc8ba5be3cdaf8f243922883b2fe39f71225d357268f28af"
+  },
+  {
+    "compound": "cpd00177",
+    "chebi_id": "CHEBI:57667",
+    "url": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/57667",
+    "utc": "2026-11-05T10:27:31.721312+00:00",
+    "status": 200,
+    "final_url": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/57667/",
+    "bytes": 2588,
+    "sha256": "6b130ca60df08af605b4f019291ed31d98d1fa60f850ea1bf9ab40084ed26700"
+  },
+  {
+    "compound": "cpd00241",
+    "chebi_id": "CHEBI:61429",
+    "url": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/61429",
+    "utc": "2026-11-05T10:27:32.961657+00:00",
+    "status": 200,
+    "final_url": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/61429/",
+    "bytes": 3020,
+    "sha256": "6a3e26146cb88e8fb18d5879bbed10f597d91980a102bc487924987de3bfe357"
+  },
+  {
+    "compound": "cpd00295",
+    "chebi_id": "CHEBI:58595",
+    "url": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/58595",
+    "utc": "2026-11-05T10:27:34.418575+00:00",
+    "status": 200,
+    "final_url": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/58595/",
+    "bytes": 2681,
+    "sha256": "d59d560127bef31ebd77c810d53583e2a1be5774945a5c71e7f94547a7e0c06d"
+  },
+  {
+    "compound": "cpd00297",
+    "chebi_id": "CHEBI:58369",
+    "url": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/58369",
+    "utc": "2026-11-05T10:27:35.679940+00:00",
+    "status": 200,
+    "final_url": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/58369/",
+    "bytes": 2472,
+    "sha256": "7f261574d2c1d4a88b19ec4d421b6c873ccbc4eb770c6c7b5575477f98c8acd5"
+  },
+  {
+    "compound": "cpd00357",
+    "chebi_id": "CHEBI:37568",
+    "url": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/37568",
+    "utc": "2026-11-05T10:27:36.950089+00:00",
+    "status": 200,
+    "final_url": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/37568/",
+    "bytes": 2814,
+    "sha256": "3b8276d5f0d8c314a5eccc7fc84d60360d6a9447f0a4b659f8f2e0e45f2ed01b"
+  },
+  {
+    "compound": "cpd00638",
+    "chebi_id": "CHEBI:58437",
+    "url": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/58437",
+    "utc": "2026-11-05T10:27:38.300591+00:00",
+    "status": 200,
+    "final_url": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/58437/",
+    "bytes": 4326,
+    "sha256": "30bebb3eb8f5282aa15aae88000bac7415d68c1c82813e95921f0d644eabec34"
+  },
+  {
+    "compound": "cpd35800",
+    "chebi_id": "CHEBI:88138",
+    "url": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/88138",
+    "utc": "2026-11-05T10:27:39.575448+00:00",
+    "status": 200,
+    "final_url": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/88138/",
+    "bytes": 4264,
+    "sha256": "d9774ae3f7f251f96974637e43f589d4f104af99543312f2041fd0708282d5eb"
+  },
+  {
+    "compound": "cpd41599",
+    "chebi_id": "CHEBI:88137",
+    "url": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/88137",
+    "utc": "2026-11-05T10:27:40.851693+00:00",
+    "status": 200,
+    "final_url": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/88137/",
+    "bytes": 4648,
+    "sha256": "9ced7dd2692337ea63e47b85c7bd40d51b9dd6a7b382a3870d5eb4f7272405ac"
+  }
+]

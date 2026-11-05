@@ -23,6 +23,12 @@ accounts for every required proton-coefficient change. It reports a separate
 input-admission profile, including remaining failures and twelve reactions that
 retain a full cofactor reference. These counts are not numerical prediction coverage.
 
+The [twelve-input numerical boundary pilot](boundary_reference_validation/README.md)
+compares full molecules and two molecule-local nicotinamide approximations. It retains
+both numerical profiles, all unavailable outcomes, 25 accepted primitive records and
+four fixed-geometry curvature controls. Exact arithmetic and a cold replay reproduce
+the panel; these checks supply neither experimental accuracy nor genome-scale coverage.
+
 The [released-ensemble uncertainty comparison](native_uncertainty_validation/README.md)
 retains all 100 checkpoint-member sums on the same 69 development reactions and
 checks equal-coverage rankings against native ensemble spread. This is distinct

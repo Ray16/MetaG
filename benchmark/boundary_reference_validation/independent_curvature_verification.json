@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "scope": "Four fixed-geometry numerical controls; not an all-minimum thermal replay or experimental accuracy validation.",
+  "controls": [
+    {
+      "slot": "core12",
+      "QR_RRHO_kj": 344.21037919222323,
+      "native_RRHO_kj": 344.2103791921095,
+      "difference_from_native_kj": 1.1374368114047684e-10,
+      "difference_from_retained_kj": 4.3182815375075734e-05,
+      "force_max_eV_A": 0.009823227301239967,
+      "n_internal_modes": 54,
+      "n_strong_imaginary": 0,
+      "n_soft_negative": 0
+    },
+    {
+      "slot": "core14",
+      "QR_RRHO_kj": 342.62301870716095,
+      "native_RRHO_kj": 342.62301870689953,
+      "difference_from_native_kj": 2.6142288334085606e-10,
+      "difference_from_retained_kj": -3.0661022265121574e-05,
+      "force_max_eV_A": 0.009381967596709728,
+      "n_internal_modes": 54,
+      "n_strong_imaginary": 0,
+      "n_soft_negative": 0
+    },
+    {
+      "slot": "full12",
+      "QR_RRHO_kj": 1280.4125030514322,
+      "native_RRHO_kj": 1280.4125030512414,
+      "difference_from_native_kj": 1.907665136968717e-10,
+      "difference_from_retained_kj": -2.539190040806716e-05,
+      "force_max_eV_A": 0.0009511160897091031,
+      "n_internal_modes": 213,
+      "n_strong_imaginary": 0,
+      "n_soft_negative": 0
+    },
+    {
+      "slot": "full14",
+      "QR_RRHO_kj": 1280.028535721142,
+      "native_RRHO_kj": 1280.0285357211033,
+      "difference_from_native_kj": 3.865352482534945e-11,
+      "difference_from_retained_kj": -4.114539865440747e-05,
+      "force_max_eV_A": 0.044617217034101486,
+      "n_internal_modes": 213,
+      "n_strong_imaginary": 0,
+      "n_soft_negative": 2
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "utc": "2026-11-05T11:13:20.688280+00:00",
+  "reason": "Initial registered-model cache was node-local and unavailable; all initial workers terminal before any input claim.",
+  "original_owner_proof": [
+    {
+      "pid": 2315032,
+      "record": "worker0.launcher.json",
+      "original_owner_terminal": true
+    },
+    {
+      "pid": 2315974,
+      "record": "worker1.launcher.json",
+      "original_owner_terminal": true
+    },
+    {
+      "pid": 2316399,
+      "record": "worker0.owner.json",
+      "original_owner_terminal": true
+    },
+    {
+      "pid": 2316399,
+      "record": "worker0.status.json",
+      "original_owner_terminal": true
+    },
+    {
+      "pid": 2316403,
+      "record": "worker0.predictor.json",
+      "original_owner_terminal": true
+    },
+    {
+      "pid": 2317056,
+      "record": "worker1.owner.json",
+      "original_owner_terminal": true
+    },
+    {
+      "pid": 2317056,
+      "record": "worker1.status.json",
+      "original_owner_terminal": true
+    },
+    {
+      "pid": 2317062,
+      "record": "worker1.predictor.json",
+      "original_owner_terminal": true
+    }
+  ],
+  "initial_inputs_attempted": 0,
+  "asset_preflight": {
+    "checkpoint_path": "/nfs/lambda_stor_01/homes/rzhu/.cache/fairchem/models--facebook--UMA/snapshots/ce3b2744ff57c0f49a010b763efcbfe9ba82e2e1/checkpoints/uma-s-1p2p1.pt",
+    "checkpoint_sha256": "b2673b85037b075674c25f55c34ffe1ff1e15db924be977b10a184765df0d5ce",
+    "references_sha256": "50e2bf9e6538c948e5381f84dac7dae8d246c58479446114374e631db75e79ba"
+  },
+  "changed_environment": {
+    "FAIRCHEM_CACHE_DIR": "/nfs/lambda_stor_01/homes/rzhu/.cache/fairchem"
+  },
+  "scientific_freeze_unchanged": true,
+  "checkpoint_and_references_unchanged": true,
+  "common_deadline_unchanged": "2026-11-05T15:08:30.012188+00:00",
+  "maximum_GPU_hours": 8
+}

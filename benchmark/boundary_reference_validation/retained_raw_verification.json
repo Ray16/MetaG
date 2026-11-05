@@ -1,0 +1,79 @@
+{
+  "verified": [
+    {
+      "source_record": "45088f5304fb289549c18c133a5b9fd2.json",
+      "sha256": "cc3b5fcad7dc4f18e4ae08b6581ac289e406aec4126c3c4a7f857a75827a4c67",
+      "n_minima": 41,
+      "ceiling": 64
+    },
+    {
+      "source_record": "1375eea261e1c50f13bfb6087235f5f3.json",
+      "sha256": "9b29d0e8e3c5af1a38bc43061e77b9f1637d62c026b4fe3e625cd8c482728e31",
+      "n_minima": 35,
+      "ceiling": 64
+    },
+    {
+      "source_record": "74189142eacce74dddabaeef94e68813.json",
+      "sha256": "e32de51b9390921f8a239c4c3aa4a00cc8d939699ca52967b6522f3f3a5c25c7",
+      "n_minima": 38,
+      "ceiling": 64
+    },
+    {
+      "source_record": "acbd490bf8eb05357d109974b2f5a59d.json",
+      "sha256": "7638d4acd46f4d1717e54eb10173c9b18aea69d08e7a0d407e3003442c06703d",
+      "n_minima": 55,
+      "ceiling": 64
+    },
+    {
+      "source_record": "823319e787b12b2a70563bde636b89a3.json",
+      "sha256": "59d99b34cade6c5d8477f33c94ea13310bc5f978946479479570bb091741a71b",
+      "n_minima": 4,
+      "ceiling": 64
+    },
+    {
+      "source_record": "74da7fd9ed4bc74db7c692229c414a96.json",
+      "sha256": "6b01005fbb3823bb6708270022626bbb7ef04c49a4cd18d2e64b81dafc48fe1a",
+      "n_minima": 3,
+      "ceiling": 64
+    },
+    {
+      "source_record": "60e6c4f7fe8c1a0691b277dfb057965f.json",
+      "sha256": "143ed6c913e9ac9bc6894bd69c744ecc09998447745bd965998ac3b3a2c49d80",
+      "n_minima": 2,
+      "ceiling": 64
+    },
+    {
+      "source_record": "d8cf1ec39a1541125d5cdc3f268984ce.json",
+      "sha256": "98918524e69cc8383adee15f13df51ca3c63af656c46f671d1f3dd1091811ad7",
+      "n_minima": 18,
+      "ceiling": 64
+    },
+    {
+      "source_record": "1048c92c0a77a120a4398fc3acda3577.json",
+      "sha256": "ac6719812c786e9a9a2ed57701046e6263aed91241347d28b2d3b88020876aeb",
+      "n_minima": 1,
+      "ceiling": 64
+    },
+    {
+      "source_record": "f3e9e9122f09181b425ad474a601c8a2.json",
+      "sha256": "58effe8c8009017d456853d7df3e03cf50e062ad3d2b6342b7ff77a8eea5c4d0",
+      "n_minima": 19,
+      "ceiling": 64
+    },
+    {
+      "source_record": "922224d22a38b0f4c01633d8eea016e0.json",
+      "sha256": "23a99bd92d60d05e80e3b79052bf553bd37f9b0a5023b40646b9fe050d33ff4a",
+      "n_minima": 38,
+      "ceiling": 64
+    },
+    {
+      "source_record": "e73eefbac108782b805683b980349250.json",
+      "sha256": "d63e420a56ee7d5bcfb42a4b58e47e16c3397526443ae1c390af664cbd786065",
+      "n_minima": 39,
+      "ceiling": 64
+    }
+  ],
+  "n_retained": 12,
+  "reference_thermal_approximation": false,
+  "scope": "Raw molecular records only; no experimental reaction labels read."
+}

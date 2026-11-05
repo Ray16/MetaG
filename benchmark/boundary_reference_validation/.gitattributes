@@ -1,0 +1,3 @@
+*.zip -diff -text
+*.gz -diff -text
+*.npz -diff -text

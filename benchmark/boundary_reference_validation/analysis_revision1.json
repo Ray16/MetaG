@@ -1,0 +1,7 @@
+{
+  "utc": "2026-11-05T12:43:19.293254+00:00",
+  "reason": "Accept an independently verified existing oxygen record after a wrapper cache-key error; original operational failure retained.",
+  "assemble_source_sha256": "ff7853b9d7625cce58e5c89cc7eac5196556261e6eaf723f704c399d2e05a527",
+  "original_analysis_source_sha256": "079597a391afcb4047cf8343838c3db721f14e0808c87996d1c6c9c2241dff5a",
+  "secondary_numerical_profile_prespecified_before_reaction_comparisons": true
+}

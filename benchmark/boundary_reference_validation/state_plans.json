@@ -1,0 +1,973 @@
+{
+  "cpd00002": {
+    "input_charge": -4,
+    "input_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]1O",
+    "reference_charge": 0,
+    "reference_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O",
+    "proton_exchange": -4,
+    "pka_sites": [
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        6.5,
+        "acid",
+        1.0
+      ]
+    ],
+    "protonation_admission": {
+      "status": "review",
+      "issues": [
+        "aromatic_n_speciation_incomplete",
+        "class_pka_transfer_unvalidated",
+        "multiple_acid_sites_independent_site_approximation"
+      ],
+      "reference_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O",
+      "reference_charge": 0,
+      "acid_pkas": [
+        1.5,
+        1.5,
+        1.5,
+        6.5
+      ],
+      "base_pkas": []
+    }
+  },
+  "cpd00003": {
+    "input_charge": -1,
+    "input_smiles": "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)c1",
+    "reference_charge": 1,
+    "reference_smiles": "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)c1",
+    "proton_exchange": -2,
+    "pka_sites": [
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ]
+    ],
+    "protonation_admission": {
+      "status": "review",
+      "issues": [
+        "aromatic_n_speciation_incomplete",
+        "class_pka_transfer_unvalidated",
+        "multiple_acid_sites_independent_site_approximation",
+        "reference_retains_charge"
+      ],
+      "reference_smiles": "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)c1",
+      "reference_charge": 1,
+      "acid_pkas": [
+        1.5,
+        1.5
+      ],
+      "base_pkas": []
+    }
+  },
+  "cpd00006": {
+    "input_charge": -3,
+    "input_smiles": "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)c1",
+    "reference_charge": 1,
+    "reference_smiles": "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1",
+    "proton_exchange": -4,
+    "pka_sites": [
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        6.5,
+        "acid",
+        1.0
+      ]
+    ],
+    "protonation_admission": {
+      "status": "review",
+      "issues": [
+        "aromatic_n_speciation_incomplete",
+        "class_pka_transfer_unvalidated",
+        "multiple_acid_sites_independent_site_approximation",
+        "reference_retains_charge"
+      ],
+      "reference_smiles": "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1",
+      "reference_charge": 1,
+      "acid_pkas": [
+        1.5,
+        1.5,
+        1.5,
+        6.5
+      ],
+      "base_pkas": []
+    }
+  },
+  "cpd00008": {
+    "input_charge": -3,
+    "input_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]1O",
+    "reference_charge": 0,
+    "reference_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O",
+    "proton_exchange": -3,
+    "pka_sites": [
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        6.5,
+        "acid",
+        1.0
+      ]
+    ],
+    "protonation_admission": {
+      "status": "review",
+      "issues": [
+        "aromatic_n_speciation_incomplete",
+        "class_pka_transfer_unvalidated",
+        "multiple_acid_sites_independent_site_approximation"
+      ],
+      "reference_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O",
+      "reference_charge": 0,
+      "acid_pkas": [
+        1.5,
+        1.5,
+        6.5
+      ],
+      "base_pkas": []
+    }
+  },
+  "cpd00004": {
+    "input_charge": -2,
+    "input_smiles": "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+    "reference_charge": 0,
+    "reference_smiles": "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+    "proton_exchange": -2,
+    "pka_sites": [
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ]
+    ],
+    "protonation_admission": {
+      "status": "review",
+      "issues": [
+        "aromatic_n_speciation_incomplete",
+        "class_pka_transfer_unvalidated",
+        "multiple_acid_sites_independent_site_approximation"
+      ],
+      "reference_smiles": "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+      "reference_charge": 0,
+      "acid_pkas": [
+        1.5,
+        1.5
+      ],
+      "base_pkas": []
+    }
+  },
+  "cpd00005": {
+    "input_charge": -4,
+    "input_smiles": "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+    "reference_charge": 0,
+    "reference_smiles": "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+    "proton_exchange": -4,
+    "pka_sites": [
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        6.5,
+        "acid",
+        1.0
+      ]
+    ],
+    "protonation_admission": {
+      "status": "review",
+      "issues": [
+        "aromatic_n_speciation_incomplete",
+        "class_pka_transfer_unvalidated",
+        "multiple_acid_sites_independent_site_approximation"
+      ],
+      "reference_smiles": "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+      "reference_charge": 0,
+      "acid_pkas": [
+        1.5,
+        1.5,
+        1.5,
+        6.5
+      ],
+      "base_pkas": []
+    }
+  },
+  "cpd00001": {
+    "input_charge": 0,
+    "input_smiles": "O",
+    "reference_charge": 0,
+    "reference_smiles": "O",
+    "proton_exchange": 0,
+    "pka_sites": [],
+    "protonation_admission": {
+      "status": "no_known_gap_detected",
+      "issues": [],
+      "reference_smiles": "O",
+      "reference_charge": 0,
+      "acid_pkas": [],
+      "base_pkas": []
+    }
+  },
+  "cpd00009": {
+    "input_charge": -2,
+    "input_smiles": "O=P([O-])([O-])O",
+    "reference_charge": 0,
+    "reference_smiles": "O=P(O)(O)O",
+    "proton_exchange": -2,
+    "pka_sites": [
+      [
+        "prod",
+        2.15,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        7.2,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        12.35,
+        "acid",
+        1.0
+      ]
+    ],
+    "protonation_admission": {
+      "status": "review",
+      "issues": [
+        "class_pka_transfer_unvalidated",
+        "multiple_acid_sites_independent_site_approximation"
+      ],
+      "reference_smiles": "O=P(O)(O)O",
+      "reference_charge": 0,
+      "acid_pkas": [
+        2.15,
+        7.2,
+        12.35
+      ],
+      "base_pkas": []
+    }
+  },
+  "cpd00012": {
+    "input_charge": -3,
+    "input_smiles": "O=P([O-])([O-])OP(=O)([O-])O",
+    "reference_charge": 0,
+    "reference_smiles": "O=P(O)(O)OP(=O)(O)O",
+    "proton_exchange": -3,
+    "pka_sites": [
+      [
+        "prod",
+        0.91,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        2.1,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        6.7,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        9.32,
+        "acid",
+        1.0
+      ]
+    ],
+    "protonation_admission": {
+      "status": "review",
+      "issues": [
+        "class_pka_transfer_unvalidated",
+        "multiple_acid_sites_independent_site_approximation"
+      ],
+      "reference_smiles": "O=P(O)(O)OP(=O)(O)O",
+      "reference_charge": 0,
+      "acid_pkas": [
+        0.91,
+        2.1,
+        6.7,
+        9.32
+      ],
+      "base_pkas": []
+    }
+  },
+  "cpd00013": {
+    "input_charge": 1,
+    "input_smiles": "[NH4+]",
+    "reference_charge": 0,
+    "reference_smiles": "N",
+    "proton_exchange": 1,
+    "pka_sites": [
+      [
+        "prod",
+        9.25,
+        "base",
+        1.0
+      ]
+    ],
+    "protonation_admission": {
+      "status": "review",
+      "issues": [
+        "class_pka_transfer_unvalidated"
+      ],
+      "reference_smiles": "N",
+      "reference_charge": 0,
+      "acid_pkas": [],
+      "base_pkas": [
+        9.25
+      ]
+    }
+  },
+  "cpd00018": {
+    "input_charge": -2,
+    "input_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])[O-])[C@@H](O)[C@H]1O",
+    "reference_charge": 0,
+    "reference_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]1O",
+    "proton_exchange": -2,
+    "pka_sites": [
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        6.5,
+        "acid",
+        1.0
+      ]
+    ],
+    "protonation_admission": {
+      "status": "review",
+      "issues": [
+        "aromatic_n_speciation_incomplete",
+        "class_pka_transfer_unvalidated",
+        "multiple_acid_sites_independent_site_approximation"
+      ],
+      "reference_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]1O",
+      "reference_charge": 0,
+      "acid_pkas": [
+        1.5,
+        6.5
+      ],
+      "base_pkas": []
+    }
+  },
+  "cpd00638": {
+    "input_charge": -2,
+    "input_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]2O[C@@H]([n+]3cccc(C(=O)[O-])c3)[C@H](O)[C@@H]2O)[C@@H](O)[C@H]1O",
+    "reference_charge": 1,
+    "reference_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]2O[C@@H]([n+]3cccc(C(=O)O)c3)[C@H](O)[C@@H]2O)[C@@H](O)[C@H]1O",
+    "proton_exchange": -3,
+    "pka_sites": [
+      [
+        "prod",
+        4.2,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ]
+    ],
+    "protonation_admission": {
+      "status": "review",
+      "issues": [
+        "aromatic_n_speciation_incomplete",
+        "class_pka_transfer_unvalidated",
+        "multiple_acid_sites_independent_site_approximation",
+        "reference_retains_charge"
+      ],
+      "reference_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]2O[C@@H]([n+]3cccc(C(=O)O)c3)[C@H](O)[C@@H]2O)[C@@H](O)[C@H]1O",
+      "reference_charge": 1,
+      "acid_pkas": [
+        4.2,
+        1.5,
+        1.5
+      ],
+      "base_pkas": []
+    }
+  },
+  "cpd00031": {
+    "input_charge": -3,
+    "input_smiles": "Nc1nc2c(ncn2[C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]2O)c(=O)[nH]1",
+    "reference_charge": 0,
+    "reference_smiles": "Nc1nc2c(ncn2[C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)[nH]1",
+    "proton_exchange": -3,
+    "pka_sites": [
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        6.5,
+        "acid",
+        1.0
+      ]
+    ],
+    "protonation_admission": {
+      "status": "review",
+      "issues": [
+        "aromatic_n_speciation_incomplete",
+        "class_pka_transfer_unvalidated",
+        "multiple_acid_sites_independent_site_approximation"
+      ],
+      "reference_smiles": "Nc1nc2c(ncn2[C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)[nH]1",
+      "reference_charge": 0,
+      "acid_pkas": [
+        1.5,
+        1.5,
+        6.5
+      ],
+      "base_pkas": []
+    }
+  },
+  "cpd00038": {
+    "input_charge": -4,
+    "input_smiles": "Nc1nc2c(ncn2[C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]2O)c(=O)[nH]1",
+    "reference_charge": 0,
+    "reference_smiles": "Nc1nc2c(ncn2[C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)[nH]1",
+    "proton_exchange": -4,
+    "pka_sites": [
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        6.5,
+        "acid",
+        1.0
+      ]
+    ],
+    "protonation_admission": {
+      "status": "review",
+      "issues": [
+        "aromatic_n_speciation_incomplete",
+        "class_pka_transfer_unvalidated",
+        "multiple_acid_sites_independent_site_approximation"
+      ],
+      "reference_smiles": "Nc1nc2c(ncn2[C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)[nH]1",
+      "reference_charge": 0,
+      "acid_pkas": [
+        1.5,
+        1.5,
+        1.5,
+        6.5
+      ],
+      "base_pkas": []
+    }
+  },
+  "cpd00115": {
+    "input_charge": -4,
+    "input_smiles": "Nc1ncnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O1",
+    "reference_charge": 0,
+    "reference_smiles": "Nc1ncnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O1",
+    "proton_exchange": -4,
+    "pka_sites": [
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        6.5,
+        "acid",
+        1.0
+      ]
+    ],
+    "protonation_admission": {
+      "status": "review",
+      "issues": [
+        "aromatic_n_speciation_incomplete",
+        "class_pka_transfer_unvalidated",
+        "multiple_acid_sites_independent_site_approximation"
+      ],
+      "reference_smiles": "Nc1ncnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O1",
+      "reference_charge": 0,
+      "acid_pkas": [
+        1.5,
+        1.5,
+        1.5,
+        6.5
+      ],
+      "base_pkas": []
+    }
+  },
+  "cpd00177": {
+    "input_charge": -3,
+    "input_smiles": "Nc1ncnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])[O-])O1",
+    "reference_charge": 0,
+    "reference_smiles": "Nc1ncnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)O)O1",
+    "proton_exchange": -3,
+    "pka_sites": [
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        6.5,
+        "acid",
+        1.0
+      ]
+    ],
+    "protonation_admission": {
+      "status": "review",
+      "issues": [
+        "aromatic_n_speciation_incomplete",
+        "class_pka_transfer_unvalidated",
+        "multiple_acid_sites_independent_site_approximation"
+      ],
+      "reference_smiles": "Nc1ncnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)O)O1",
+      "reference_charge": 0,
+      "acid_pkas": [
+        1.5,
+        1.5,
+        6.5
+      ],
+      "base_pkas": []
+    }
+  },
+  "cpd00241": {
+    "input_charge": -4,
+    "input_smiles": "Nc1nc2c(ncn2[C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O2)c(=O)[nH]1",
+    "reference_charge": 0,
+    "reference_smiles": "Nc1nc2c(ncn2[C@H]2C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O2)c(=O)[nH]1",
+    "proton_exchange": -4,
+    "pka_sites": [
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        6.5,
+        "acid",
+        1.0
+      ]
+    ],
+    "protonation_admission": {
+      "status": "review",
+      "issues": [
+        "aromatic_n_speciation_incomplete",
+        "class_pka_transfer_unvalidated",
+        "multiple_acid_sites_independent_site_approximation"
+      ],
+      "reference_smiles": "Nc1nc2c(ncn2[C@H]2C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O2)c(=O)[nH]1",
+      "reference_charge": 0,
+      "acid_pkas": [
+        1.5,
+        1.5,
+        1.5,
+        6.5
+      ],
+      "base_pkas": []
+    }
+  },
+  "cpd00295": {
+    "input_charge": -3,
+    "input_smiles": "Nc1nc2c(ncn2[C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])[O-])O2)c(=O)[nH]1",
+    "reference_charge": 0,
+    "reference_smiles": "Nc1nc2c(ncn2[C@H]2C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)O)O2)c(=O)[nH]1",
+    "proton_exchange": -3,
+    "pka_sites": [
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        6.5,
+        "acid",
+        1.0
+      ]
+    ],
+    "protonation_admission": {
+      "status": "review",
+      "issues": [
+        "aromatic_n_speciation_incomplete",
+        "class_pka_transfer_unvalidated",
+        "multiple_acid_sites_independent_site_approximation"
+      ],
+      "reference_smiles": "Nc1nc2c(ncn2[C@H]2C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)O)O2)c(=O)[nH]1",
+      "reference_charge": 0,
+      "acid_pkas": [
+        1.5,
+        1.5,
+        6.5
+      ],
+      "base_pkas": []
+    }
+  },
+  "cpd00297": {
+    "input_charge": -3,
+    "input_smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])[O-])O2)c(=O)[nH]c1=O",
+    "reference_charge": 0,
+    "reference_smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)O)O2)c(=O)[nH]c1=O",
+    "proton_exchange": -3,
+    "pka_sites": [
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        6.5,
+        "acid",
+        1.0
+      ]
+    ],
+    "protonation_admission": {
+      "status": "review",
+      "issues": [
+        "aromatic_n_speciation_incomplete",
+        "class_pka_transfer_unvalidated",
+        "multiple_acid_sites_independent_site_approximation"
+      ],
+      "reference_smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)O)O2)c(=O)[nH]c1=O",
+      "reference_charge": 0,
+      "acid_pkas": [
+        1.5,
+        1.5,
+        6.5
+      ],
+      "base_pkas": []
+    }
+  },
+  "cpd00357": {
+    "input_charge": -4,
+    "input_smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O2)c(=O)[nH]c1=O",
+    "reference_charge": 0,
+    "reference_smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O2)c(=O)[nH]c1=O",
+    "proton_exchange": -4,
+    "pka_sites": [
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        6.5,
+        "acid",
+        1.0
+      ]
+    ],
+    "protonation_admission": {
+      "status": "review",
+      "issues": [
+        "aromatic_n_speciation_incomplete",
+        "class_pka_transfer_unvalidated",
+        "multiple_acid_sites_independent_site_approximation"
+      ],
+      "reference_smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O2)c(=O)[nH]c1=O",
+      "reference_charge": 0,
+      "acid_pkas": [
+        1.5,
+        1.5,
+        1.5,
+        6.5
+      ],
+      "base_pkas": []
+    }
+  },
+  "cpd00007": {
+    "input_charge": 0,
+    "input_smiles": "O=O",
+    "reference_charge": 0,
+    "reference_smiles": "O=O",
+    "proton_exchange": 0,
+    "pka_sites": [],
+    "protonation_admission": {
+      "status": "no_known_gap_detected",
+      "issues": [],
+      "reference_smiles": "O=O",
+      "reference_charge": 0,
+      "acid_pkas": [],
+      "base_pkas": []
+    }
+  },
+  "cpd00025": {
+    "input_charge": 0,
+    "input_smiles": "OO",
+    "reference_charge": 0,
+    "reference_smiles": "OO",
+    "proton_exchange": 0,
+    "pka_sites": [],
+    "protonation_admission": {
+      "status": "no_known_gap_detected",
+      "issues": [],
+      "reference_smiles": "OO",
+      "reference_charge": 0,
+      "acid_pkas": [],
+      "base_pkas": []
+    }
+  },
+  "cpd35800": {
+    "input_charge": -2,
+    "input_smiles": "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C1",
+    "reference_charge": 0,
+    "reference_smiles": "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C1",
+    "proton_exchange": -2,
+    "pka_sites": [
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ]
+    ],
+    "protonation_admission": {
+      "status": "review",
+      "issues": [
+        "aromatic_n_speciation_incomplete",
+        "class_pka_transfer_unvalidated",
+        "multiple_acid_sites_independent_site_approximation"
+      ],
+      "reference_smiles": "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C1",
+      "reference_charge": 0,
+      "acid_pkas": [
+        1.5,
+        1.5
+      ],
+      "base_pkas": []
+    }
+  },
+  "cpd41599": {
+    "input_charge": -4,
+    "input_smiles": "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)C1",
+    "reference_charge": 0,
+    "reference_smiles": "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C1",
+    "proton_exchange": -4,
+    "pka_sites": [
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        1.5,
+        "acid",
+        1.0
+      ],
+      [
+        "prod",
+        6.5,
+        "acid",
+        1.0
+      ]
+    ],
+    "protonation_admission": {
+      "status": "review",
+      "issues": [
+        "aromatic_n_speciation_incomplete",
+        "class_pka_transfer_unvalidated",
+        "multiple_acid_sites_independent_site_approximation"
+      ],
+      "reference_smiles": "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C1",
+      "reference_charge": 0,
+      "acid_pkas": [
+        1.5,
+        1.5,
+        1.5,
+        6.5
+      ],
+      "base_pkas": []
+    }
+  }
+}

@@ -1,0 +1,476 @@
+{
+  "rxn00077": {
+    "name": "ATP:NAD+ 2'-phosphotransferase",
+    "source_ec": "2.7.1.23",
+    "request": {
+      "species": {
+        "cpd00002": [
+          -1,
+          -4,
+          "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]1O"
+        ],
+        "cpd00003": [
+          -1,
+          -1,
+          "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)c1"
+        ],
+        "cpd00006": [
+          1,
+          -3,
+          "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)c1"
+        ],
+        "cpd00008": [
+          1,
+          -3,
+          "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]1O"
+        ]
+      },
+      "n_Hplus": 1,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "proton_adjustments_from_literal": {},
+    "source_stoichiometry_sha256": "6ed5c17c8ac43866f4b1981eddfc024ca75acc8d8a5233aa8082f3806c775a76"
+  },
+  "rxn00078": {
+    "name": "ATP:NADH 2'-phosphotransferase",
+    "source_ec": "2.7.1.86",
+    "request": {
+      "species": {
+        "cpd00002": [
+          -1,
+          -4,
+          "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]1O"
+        ],
+        "cpd00004": [
+          -1,
+          -2,
+          "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1"
+        ],
+        "cpd00005": [
+          1,
+          -4,
+          "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1"
+        ],
+        "cpd00008": [
+          1,
+          -3,
+          "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]1O"
+        ]
+      },
+      "n_Hplus": 1,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "proton_adjustments_from_literal": {},
+    "source_stoichiometry_sha256": "dfb0ace7df0c7b3d7ffd7ca37b6281055eb7660323154a4b14c93edb95c66a34"
+  },
+  "rxn00088": {
+    "name": "NADP+ 2'-phosphohydrolase",
+    "source_ec": "3.1.3.-|3.1.3.2",
+    "request": {
+      "species": {
+        "cpd00001": [
+          -1,
+          0,
+          "O"
+        ],
+        "cpd00003": [
+          1,
+          -1,
+          "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)c1"
+        ],
+        "cpd00006": [
+          -1,
+          -3,
+          "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)c1"
+        ],
+        "cpd00009": [
+          1,
+          -2,
+          "O=P([O-])([O-])O"
+        ]
+      },
+      "n_Hplus": 0,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "proton_adjustments_from_literal": {},
+    "source_stoichiometry_sha256": "86522f9f0a920db78b764a3b99b5a8098373496e14ab93cfa2b4d69a7be49e56"
+  },
+  "rxn00138": {
+    "name": "deamido-NAD+:ammonia ligase (AMP-forming)",
+    "source_ec": "6.3.1.5|6.3.5.1",
+    "request": {
+      "species": {
+        "cpd00002": [
+          -1,
+          -4,
+          "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]1O"
+        ],
+        "cpd00003": [
+          1,
+          -1,
+          "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)c1"
+        ],
+        "cpd00012": [
+          1,
+          -3,
+          "O=P([O-])([O-])OP(=O)([O-])O"
+        ],
+        "cpd00013": [
+          -1,
+          1,
+          "[NH4+]"
+        ],
+        "cpd00018": [
+          1,
+          -2,
+          "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])[O-])[C@@H](O)[C@H]1O"
+        ],
+        "cpd00638": [
+          -1,
+          -2,
+          "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]2O[C@@H]([n+]3cccc(C(=O)[O-])c3)[C@H](O)[C@@H]2O)[C@@H](O)[C@H]1O"
+        ]
+      },
+      "n_Hplus": 1,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "proton_adjustments_from_literal": {
+      "0": "-1"
+    },
+    "source_stoichiometry_sha256": "643f2a1395f7cb70de833a9ef156fea6a9d2515e9c7ee21ae34a5fa17147bc03"
+  },
+  "rxn10056": {
+    "name": "NAD kinase (GTP)",
+    "source_ec": "2.7.1.23",
+    "request": {
+      "species": {
+        "cpd00003": [
+          -1,
+          -1,
+          "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)c1"
+        ],
+        "cpd00006": [
+          1,
+          -3,
+          "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)c1"
+        ],
+        "cpd00031": [
+          1,
+          -3,
+          "Nc1nc2c(ncn2[C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]2O)c(=O)[nH]1"
+        ],
+        "cpd00038": [
+          -1,
+          -4,
+          "Nc1nc2c(ncn2[C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]2O)c(=O)[nH]1"
+        ]
+      },
+      "n_Hplus": 1,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "proton_adjustments_from_literal": {
+      "0": "-1"
+    },
+    "source_stoichiometry_sha256": "49903cd846a36535d030c38585ccc0896a7841e92f87bfca05d085e41559ae21"
+  },
+  "rxn10057": {
+    "name": "NAD kinase (dATP)",
+    "source_ec": "2.7.1.23",
+    "request": {
+      "species": {
+        "cpd00003": [
+          -1,
+          -1,
+          "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)c1"
+        ],
+        "cpd00006": [
+          1,
+          -3,
+          "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)c1"
+        ],
+        "cpd00115": [
+          -1,
+          -4,
+          "Nc1ncnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O1"
+        ],
+        "cpd00177": [
+          1,
+          -3,
+          "Nc1ncnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])[O-])O1"
+        ]
+      },
+      "n_Hplus": 1,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "proton_adjustments_from_literal": {},
+    "source_stoichiometry_sha256": "f0a88d3a225da21c7a48b05ab993f0647a113cddce1113648b1ae2541aebe870"
+  },
+  "rxn10058": {
+    "name": "NAD kinase (dGTP)",
+    "source_ec": "2.7.1.23",
+    "request": {
+      "species": {
+        "cpd00003": [
+          -1,
+          -1,
+          "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)c1"
+        ],
+        "cpd00006": [
+          1,
+          -3,
+          "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)c1"
+        ],
+        "cpd00241": [
+          -1,
+          -4,
+          "Nc1nc2c(ncn2[C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O2)c(=O)[nH]1"
+        ],
+        "cpd00295": [
+          1,
+          -3,
+          "Nc1nc2c(ncn2[C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])[O-])O2)c(=O)[nH]1"
+        ]
+      },
+      "n_Hplus": 1,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "proton_adjustments_from_literal": {},
+    "source_stoichiometry_sha256": "3e43bb61e75cd8f5d291f81da57b1b5be846629637c71a57ac3a7297d594c99f"
+  },
+  "rxn10060": {
+    "name": "NAD kinase (dTTP)",
+    "source_ec": "2.7.1.23",
+    "request": {
+      "species": {
+        "cpd00003": [
+          -1,
+          -1,
+          "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)c1"
+        ],
+        "cpd00006": [
+          1,
+          -3,
+          "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)c1"
+        ],
+        "cpd00297": [
+          1,
+          -3,
+          "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])[O-])O2)c(=O)[nH]c1=O"
+        ],
+        "cpd00357": [
+          -1,
+          -4,
+          "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O2)c(=O)[nH]c1=O"
+        ]
+      },
+      "n_Hplus": 1,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "proton_adjustments_from_literal": {},
+    "source_stoichiometry_sha256": "f3792c4ee263732baa1c0e2c632a3444b25ddb77cfda2ac2282e59cf96279035"
+  },
+  "rxn24404": {
+    "name": "RXN-7703.c",
+    "source_ec": "3.1.3.-",
+    "request": {
+      "species": {
+        "cpd00001": [
+          -1,
+          0,
+          "O"
+        ],
+        "cpd00004": [
+          1,
+          -2,
+          "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1"
+        ],
+        "cpd00005": [
+          -1,
+          -4,
+          "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1"
+        ],
+        "cpd00009": [
+          1,
+          -2,
+          "O=P([O-])([O-])O"
+        ]
+      },
+      "n_Hplus": 0,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "proton_adjustments_from_literal": {},
+    "source_stoichiometry_sha256": "88fa2c8356ccd457f7e4832c9b1230687918a2846e5fb1828b57b0d278d413c5"
+  },
+  "rxn46273": {
+    "name": "",
+    "source_ec": "null",
+    "request": {
+      "species": {
+        "cpd00003": [
+          1,
+          -1,
+          "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)c1"
+        ],
+        "cpd00007": [
+          -1,
+          0,
+          "O=O"
+        ],
+        "cpd00025": [
+          1,
+          0,
+          "OO"
+        ],
+        "cpd35800": [
+          -1,
+          -2,
+          "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C1"
+        ]
+      },
+      "n_Hplus": -1,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "proton_adjustments_from_literal": {},
+    "source_stoichiometry_sha256": "668c892536f9497c811e9f9c613aeb1364a968bcdb92e66bedc1d2deff9258e5"
+  },
+  "rxn47022": {
+    "name": "",
+    "source_ec": "null",
+    "request": {
+      "species": {
+        "cpd00004": [
+          -1,
+          -2,
+          "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1"
+        ],
+        "cpd35800": [
+          1,
+          -2,
+          "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C1"
+        ]
+      },
+      "n_Hplus": 0,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "proton_adjustments_from_literal": {
+      "0": "1"
+    },
+    "source_stoichiometry_sha256": "4a3899b9ac9e3733dbe6c7990f6660028a8f912231038f94b36ea2b9ef2049ae"
+  },
+  "rxn51165": {
+    "name": "40399",
+    "source_ec": "null",
+    "request": {
+      "species": {
+        "cpd00006": [
+          1,
+          -3,
+          "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)c1"
+        ],
+        "cpd00007": [
+          -1,
+          0,
+          "O=O"
+        ],
+        "cpd00025": [
+          1,
+          0,
+          "OO"
+        ],
+        "cpd41599": [
+          -1,
+          -4,
+          "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)C1"
+        ]
+      },
+      "n_Hplus": -1,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "proton_adjustments_from_literal": {},
+    "source_stoichiometry_sha256": "3bee8c01ab39be5abd9669afe5706000af7010eda028f9db266e35288f05e330"
+  }
+}

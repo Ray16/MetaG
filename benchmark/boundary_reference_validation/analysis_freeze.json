@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-05T11:22:43.731465+00:00",
+  "scientific_freeze_sha256": "f1c8f4c67263f19167e1c83cecc4108e34e46df93c560496045b31f359481209",
+  "implementation_sha256": {
+    "assemble_results.py": "079597a391afcb4047cf8343838c3db721f14e0808c87996d1c6c9c2241dff5a"
+  },
+  "scope": "Analysis implementation for the already frozen three-arm/12-request protocol; all arms and outcomes retained. No independent reaction reference labels used."
+}

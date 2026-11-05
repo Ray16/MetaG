@@ -1,0 +1,2732 @@
+{
+  "cpd00002": {
+    "name": "ATP",
+    "chebi_id": "CHEBI:30616",
+    "source": {
+      "smiles": "Nc1[nH+]cnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]1O",
+      "charge": "-3",
+      "formula": "C10H13N5O13P3",
+      "inchikey": "ZKHQWZAMYRWXGA-KQYNXXCUSA-K"
+    },
+    "target": {
+      "smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]1O",
+      "charge": -4,
+      "formula": "C10H12N5O13P3-4",
+      "inchikey": "ZKHQWZAMYRWXGA-KQYNXXCUSA-J"
+    },
+    "review": {
+      "atom_mapping": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10,
+        "11": 11,
+        "12": 12,
+        "13": 13,
+        "14": 14,
+        "15": 15,
+        "16": 16,
+        "17": 17,
+        "18": 18,
+        "19": 19,
+        "20": 20,
+        "21": 21,
+        "22": 22,
+        "23": 23,
+        "24": 24,
+        "25": 25,
+        "26": 26,
+        "27": 27,
+        "28": 28,
+        "29": 29,
+        "30": 30
+      },
+      "changed_atoms": [
+        {
+          "source_index": 2,
+          "target_index": 2,
+          "element": "N",
+          "source_charge": 1,
+          "target_charge": 0,
+          "source_hydrogens": 1,
+          "target_hydrogens": 0
+        }
+      ],
+      "changed_bonds": [],
+      "source_canonical": "Nc1[nH+]cnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]1O",
+      "target_canonical": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]1O",
+      "source_formula": "C10H13N5O13P3-3",
+      "target_formula": "C10H12N5O13P3-4",
+      "source_charge": -3,
+      "target_charge": -4,
+      "delta_H": -1,
+      "delta_charge": -1,
+      "declared_carbon_stereocenters_preserved": 4,
+      "energy_equivalence_established": false,
+      "scope": "Explicit source-identity curation; heavy connectivity, carbon stereo and proton accounting only."
+    },
+    "original_plan": {
+      "input_charge": -3,
+      "input_smiles": "Nc1[nH+]cnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]1O",
+      "reference_charge": 0,
+      "reference_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O",
+      "proton_exchange": -3,
+      "pka_sites": [
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "base",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation"
+        ],
+        "reference_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O",
+        "reference_charge": 0,
+        "acid_pkas": [
+          1.5,
+          1.5,
+          1.5,
+          6.5
+        ],
+        "base_pkas": [
+          6.5
+        ]
+      }
+    },
+    "target_plan": {
+      "input_charge": -4,
+      "input_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]1O",
+      "reference_charge": 0,
+      "reference_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O",
+      "proton_exchange": -4,
+      "pka_sites": [
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "acid",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation"
+        ],
+        "reference_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O",
+        "reference_charge": 0,
+        "acid_pkas": [
+          1.5,
+          1.5,
+          1.5,
+          6.5
+        ],
+        "base_pkas": []
+      }
+    },
+    "original_reference_spin": 1,
+    "target_reference_spin": 1
+  },
+  "cpd00008": {
+    "name": "ADP",
+    "chebi_id": "CHEBI:456216",
+    "source": {
+      "smiles": "Nc1[nH+]cnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]1O",
+      "charge": "-2",
+      "formula": "C10H13N5O10P2",
+      "inchikey": "XTWYTFMLZFPYCI-KQYNXXCUSA-L"
+    },
+    "target": {
+      "smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]1O",
+      "charge": -3,
+      "formula": "C10H12N5O10P2-3",
+      "inchikey": "XTWYTFMLZFPYCI-KQYNXXCUSA-K"
+    },
+    "review": {
+      "atom_mapping": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10,
+        "11": 11,
+        "12": 12,
+        "13": 13,
+        "14": 14,
+        "15": 15,
+        "16": 16,
+        "17": 17,
+        "18": 18,
+        "19": 19,
+        "20": 20,
+        "21": 21,
+        "22": 22,
+        "23": 23,
+        "24": 24,
+        "25": 25,
+        "26": 26
+      },
+      "changed_atoms": [
+        {
+          "source_index": 2,
+          "target_index": 2,
+          "element": "N",
+          "source_charge": 1,
+          "target_charge": 0,
+          "source_hydrogens": 1,
+          "target_hydrogens": 0
+        }
+      ],
+      "changed_bonds": [],
+      "source_canonical": "Nc1[nH+]cnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]1O",
+      "target_canonical": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]1O",
+      "source_formula": "C10H13N5O10P2-2",
+      "target_formula": "C10H12N5O10P2-3",
+      "source_charge": -2,
+      "target_charge": -3,
+      "delta_H": -1,
+      "delta_charge": -1,
+      "declared_carbon_stereocenters_preserved": 4,
+      "energy_equivalence_established": false,
+      "scope": "Explicit source-identity curation; heavy connectivity, carbon stereo and proton accounting only."
+    },
+    "original_plan": {
+      "input_charge": -2,
+      "input_smiles": "Nc1[nH+]cnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]1O",
+      "reference_charge": 0,
+      "reference_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O",
+      "proton_exchange": -2,
+      "pka_sites": [
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "base",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation"
+        ],
+        "reference_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O",
+        "reference_charge": 0,
+        "acid_pkas": [
+          1.5,
+          1.5,
+          6.5
+        ],
+        "base_pkas": [
+          6.5
+        ]
+      }
+    },
+    "target_plan": {
+      "input_charge": -3,
+      "input_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]1O",
+      "reference_charge": 0,
+      "reference_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O",
+      "proton_exchange": -3,
+      "pka_sites": [
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "acid",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation"
+        ],
+        "reference_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O",
+        "reference_charge": 0,
+        "acid_pkas": [
+          1.5,
+          1.5,
+          6.5
+        ],
+        "base_pkas": []
+      }
+    },
+    "original_reference_spin": 1,
+    "target_reference_spin": 1
+  },
+  "cpd00018": {
+    "name": "AMP",
+    "chebi_id": "CHEBI:456215",
+    "source": {
+      "smiles": "Nc1[nH+]cnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])[O-])[C@@H](O)[C@H]1O",
+      "charge": "-1",
+      "formula": "C10H13N5O7P",
+      "inchikey": "UDMBCSSLTHHNCD-KQYNXXCUSA-M"
+    },
+    "target": {
+      "smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])[O-])[C@@H](O)[C@H]1O",
+      "charge": -2,
+      "formula": "C10H12N5O7P-2",
+      "inchikey": "UDMBCSSLTHHNCD-KQYNXXCUSA-L"
+    },
+    "review": {
+      "atom_mapping": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10,
+        "11": 11,
+        "12": 12,
+        "13": 13,
+        "14": 14,
+        "15": 15,
+        "16": 16,
+        "17": 17,
+        "18": 18,
+        "19": 19,
+        "20": 20,
+        "21": 21,
+        "22": 22
+      },
+      "changed_atoms": [
+        {
+          "source_index": 2,
+          "target_index": 2,
+          "element": "N",
+          "source_charge": 1,
+          "target_charge": 0,
+          "source_hydrogens": 1,
+          "target_hydrogens": 0
+        }
+      ],
+      "changed_bonds": [],
+      "source_canonical": "Nc1[nH+]cnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])[O-])[C@@H](O)[C@H]1O",
+      "target_canonical": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])[O-])[C@@H](O)[C@H]1O",
+      "source_formula": "C10H13N5O7P-",
+      "target_formula": "C10H12N5O7P-2",
+      "source_charge": -1,
+      "target_charge": -2,
+      "delta_H": -1,
+      "delta_charge": -1,
+      "declared_carbon_stereocenters_preserved": 4,
+      "energy_equivalence_established": false,
+      "scope": "Explicit source-identity curation; heavy connectivity, carbon stereo and proton accounting only."
+    },
+    "original_plan": {
+      "input_charge": -1,
+      "input_smiles": "Nc1[nH+]cnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])[O-])[C@@H](O)[C@H]1O",
+      "reference_charge": 0,
+      "reference_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]1O",
+      "proton_exchange": -1,
+      "pka_sites": [
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "base",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation"
+        ],
+        "reference_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]1O",
+        "reference_charge": 0,
+        "acid_pkas": [
+          1.5,
+          6.5
+        ],
+        "base_pkas": [
+          6.5
+        ]
+      }
+    },
+    "target_plan": {
+      "input_charge": -2,
+      "input_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])[O-])[C@@H](O)[C@H]1O",
+      "reference_charge": 0,
+      "reference_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]1O",
+      "proton_exchange": -2,
+      "pka_sites": [
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "acid",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation"
+        ],
+        "reference_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]1O",
+        "reference_charge": 0,
+        "acid_pkas": [
+          1.5,
+          6.5
+        ],
+        "base_pkas": []
+      }
+    },
+    "original_reference_spin": 1,
+    "target_reference_spin": 1
+  },
+  "cpd00031": {
+    "name": "GDP",
+    "chebi_id": "CHEBI:58189",
+    "source": {
+      "smiles": "[NH2+]=c1nc([O-])c2ncn([C@@H]3O[C@H](COP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]3O)c2[n-]1",
+      "charge": "-4",
+      "formula": "C10H11N5O11P2",
+      "inchikey": "QTYGRHICANZPAE-UUOKFMHZSA-K"
+    },
+    "target": {
+      "smiles": "Nc1nc2c(ncn2[C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]2O)c(=O)[nH]1",
+      "charge": -3,
+      "formula": "C10H12N5O11P2-3",
+      "inchikey": "QGWNDRXFNXRZMB-UUOKFMHZSA-K"
+    },
+    "review": {
+      "atom_mapping": {
+        "0": 0,
+        "1": 1,
+        "2": 27,
+        "3": 25,
+        "4": 26,
+        "5": 4,
+        "6": 5,
+        "7": 6,
+        "8": 7,
+        "9": 8,
+        "10": 9,
+        "11": 10,
+        "12": 11,
+        "13": 12,
+        "14": 13,
+        "15": 14,
+        "16": 15,
+        "17": 16,
+        "18": 17,
+        "19": 18,
+        "20": 19,
+        "21": 20,
+        "22": 21,
+        "23": 22,
+        "24": 23,
+        "25": 24,
+        "26": 3,
+        "27": 2
+      },
+      "changed_atoms": [
+        {
+          "source_index": 0,
+          "target_index": 0,
+          "element": "N",
+          "source_charge": 1,
+          "target_charge": 0,
+          "source_hydrogens": 2,
+          "target_hydrogens": 2
+        },
+        {
+          "source_index": 2,
+          "target_index": 27,
+          "element": "N",
+          "source_charge": 0,
+          "target_charge": 0,
+          "source_hydrogens": 0,
+          "target_hydrogens": 1
+        },
+        {
+          "source_index": 4,
+          "target_index": 26,
+          "element": "O",
+          "source_charge": -1,
+          "target_charge": 0,
+          "source_hydrogens": 0,
+          "target_hydrogens": 0
+        },
+        {
+          "source_index": 27,
+          "target_index": 2,
+          "element": "N",
+          "source_charge": -1,
+          "target_charge": 0,
+          "source_hydrogens": 0,
+          "target_hydrogens": 0
+        }
+      ],
+      "changed_bonds": [
+        {
+          "source_atoms": [
+            0,
+            1
+          ],
+          "target_atoms": [
+            0,
+            1
+          ],
+          "source_order": "DOUBLE",
+          "target_order": "SINGLE"
+        },
+        {
+          "source_atoms": [
+            3,
+            4
+          ],
+          "target_atoms": [
+            25,
+            26
+          ],
+          "source_order": "SINGLE",
+          "target_order": "DOUBLE"
+        }
+      ],
+      "source_canonical": "[NH2+]=c1nc([O-])c2ncn([C@@H]3O[C@H](COP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]3O)c2[n-]1",
+      "target_canonical": "Nc1nc2c(ncn2[C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]2O)c(=O)[nH]1",
+      "source_formula": "C10H11N5O11P2-4",
+      "target_formula": "C10H12N5O11P2-3",
+      "source_charge": -4,
+      "target_charge": -3,
+      "delta_H": 1,
+      "delta_charge": 1,
+      "declared_carbon_stereocenters_preserved": 4,
+      "energy_equivalence_established": false,
+      "scope": "Explicit source-identity curation; heavy connectivity, carbon stereo and proton accounting only."
+    },
+    "original_plan": {
+      "input_charge": -4,
+      "input_smiles": "[NH2+]=c1nc([O-])c2ncn([C@@H]3O[C@H](COP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]3O)c2[n-]1",
+      "reference_charge": -1,
+      "reference_smiles": "N=c1nc(O)c2ncn([C@@H]3O[C@H](COP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]3O)c2[n-]1",
+      "proton_exchange": -3,
+      "pka_sites": [
+        [
+          "prod",
+          10.0,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          10.6,
+          "base",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation",
+          "protonated_n_uses_broad_class_approximation",
+          "reference_retains_charge",
+          "unmodeled_anionic_site"
+        ],
+        "reference_smiles": "N=c1nc(O)c2ncn([C@@H]3O[C@H](COP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]3O)c2[n-]1",
+        "reference_charge": -1,
+        "acid_pkas": [
+          10.0,
+          1.5,
+          1.5,
+          6.5
+        ],
+        "base_pkas": [
+          10.6
+        ]
+      }
+    },
+    "target_plan": {
+      "input_charge": -3,
+      "input_smiles": "Nc1nc2c(ncn2[C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]2O)c(=O)[nH]1",
+      "reference_charge": 0,
+      "reference_smiles": "Nc1nc2c(ncn2[C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)[nH]1",
+      "proton_exchange": -3,
+      "pka_sites": [
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "acid",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation"
+        ],
+        "reference_smiles": "Nc1nc2c(ncn2[C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)[nH]1",
+        "reference_charge": 0,
+        "acid_pkas": [
+          1.5,
+          1.5,
+          6.5
+        ],
+        "base_pkas": []
+      }
+    },
+    "original_reference_spin": 1,
+    "target_reference_spin": 1
+  },
+  "cpd00038": {
+    "name": "GTP",
+    "chebi_id": "CHEBI:37565",
+    "source": {
+      "smiles": "[NH2+]=c1nc([O-])c2ncn([C@@H]3O[C@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])O)[C@@H](O)[C@H]3O)c2[n-]1",
+      "charge": "-4",
+      "formula": "C10H12N5O14P3",
+      "inchikey": "OCNHGAVOCNFTDB-UUOKFMHZSA-K"
+    },
+    "target": {
+      "smiles": "Nc1nc2c(ncn2[C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]2O)c(=O)[nH]1",
+      "charge": -4,
+      "formula": "C10H12N5O14P3-4",
+      "inchikey": "XKMLYUALXHKNFT-UUOKFMHZSA-J"
+    },
+    "review": {
+      "atom_mapping": {
+        "0": 0,
+        "1": 1,
+        "2": 31,
+        "3": 29,
+        "4": 30,
+        "5": 4,
+        "6": 5,
+        "7": 6,
+        "8": 7,
+        "9": 8,
+        "10": 9,
+        "11": 10,
+        "12": 11,
+        "13": 12,
+        "14": 13,
+        "15": 14,
+        "16": 15,
+        "17": 16,
+        "18": 17,
+        "19": 18,
+        "20": 19,
+        "21": 20,
+        "22": 21,
+        "23": 22,
+        "24": 23,
+        "25": 24,
+        "26": 25,
+        "27": 26,
+        "28": 27,
+        "29": 28,
+        "30": 3,
+        "31": 2
+      },
+      "changed_atoms": [
+        {
+          "source_index": 0,
+          "target_index": 0,
+          "element": "N",
+          "source_charge": 1,
+          "target_charge": 0,
+          "source_hydrogens": 2,
+          "target_hydrogens": 2
+        },
+        {
+          "source_index": 2,
+          "target_index": 31,
+          "element": "N",
+          "source_charge": 0,
+          "target_charge": 0,
+          "source_hydrogens": 0,
+          "target_hydrogens": 1
+        },
+        {
+          "source_index": 4,
+          "target_index": 30,
+          "element": "O",
+          "source_charge": -1,
+          "target_charge": 0,
+          "source_hydrogens": 0,
+          "target_hydrogens": 0
+        },
+        {
+          "source_index": 25,
+          "target_index": 24,
+          "element": "O",
+          "source_charge": 0,
+          "target_charge": -1,
+          "source_hydrogens": 1,
+          "target_hydrogens": 0
+        },
+        {
+          "source_index": 31,
+          "target_index": 2,
+          "element": "N",
+          "source_charge": -1,
+          "target_charge": 0,
+          "source_hydrogens": 0,
+          "target_hydrogens": 0
+        }
+      ],
+      "changed_bonds": [
+        {
+          "source_atoms": [
+            0,
+            1
+          ],
+          "target_atoms": [
+            0,
+            1
+          ],
+          "source_order": "DOUBLE",
+          "target_order": "SINGLE"
+        },
+        {
+          "source_atoms": [
+            3,
+            4
+          ],
+          "target_atoms": [
+            29,
+            30
+          ],
+          "source_order": "SINGLE",
+          "target_order": "DOUBLE"
+        }
+      ],
+      "source_canonical": "[NH2+]=c1nc([O-])c2ncn([C@@H]3O[C@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])O)[C@@H](O)[C@H]3O)c2[n-]1",
+      "target_canonical": "Nc1nc2c(ncn2[C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]2O)c(=O)[nH]1",
+      "source_formula": "C10H12N5O14P3-4",
+      "target_formula": "C10H12N5O14P3-4",
+      "source_charge": -4,
+      "target_charge": -4,
+      "delta_H": 0,
+      "delta_charge": 0,
+      "declared_carbon_stereocenters_preserved": 4,
+      "energy_equivalence_established": false,
+      "scope": "Explicit source-identity curation; heavy connectivity, carbon stereo and proton accounting only."
+    },
+    "original_plan": {
+      "input_charge": -4,
+      "input_smiles": "[NH2+]=c1nc([O-])c2ncn([C@@H]3O[C@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])O)[C@@H](O)[C@H]3O)c2[n-]1",
+      "reference_charge": -1,
+      "reference_smiles": "N=c1nc(O)c2ncn([C@@H]3O[C@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]3O)c2[n-]1",
+      "proton_exchange": -3,
+      "pka_sites": [
+        [
+          "prod",
+          10.0,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          10.6,
+          "base",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation",
+          "protonated_n_uses_broad_class_approximation",
+          "reference_retains_charge",
+          "unmodeled_anionic_site"
+        ],
+        "reference_smiles": "N=c1nc(O)c2ncn([C@@H]3O[C@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]3O)c2[n-]1",
+        "reference_charge": -1,
+        "acid_pkas": [
+          10.0,
+          1.5,
+          1.5,
+          1.5,
+          6.5
+        ],
+        "base_pkas": [
+          10.6
+        ]
+      }
+    },
+    "target_plan": {
+      "input_charge": -4,
+      "input_smiles": "Nc1nc2c(ncn2[C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]2O)c(=O)[nH]1",
+      "reference_charge": 0,
+      "reference_smiles": "Nc1nc2c(ncn2[C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)[nH]1",
+      "proton_exchange": -4,
+      "pka_sites": [
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "acid",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation"
+        ],
+        "reference_smiles": "Nc1nc2c(ncn2[C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)[nH]1",
+        "reference_charge": 0,
+        "acid_pkas": [
+          1.5,
+          1.5,
+          1.5,
+          6.5
+        ],
+        "base_pkas": []
+      }
+    },
+    "original_reference_spin": 1,
+    "target_reference_spin": 1
+  },
+  "cpd00115": {
+    "name": "dATP",
+    "chebi_id": "CHEBI:61404",
+    "source": {
+      "smiles": "Nc1[nH+]cnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O1",
+      "charge": "-3",
+      "formula": "C10H13N5O12P3",
+      "inchikey": "SUYVUBYJARFZHO-RRKCRQDMSA-K"
+    },
+    "target": {
+      "smiles": "Nc1ncnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O1",
+      "charge": -4,
+      "formula": "C10H12N5O12P3-4",
+      "inchikey": "SUYVUBYJARFZHO-RRKCRQDMSA-J"
+    },
+    "review": {
+      "atom_mapping": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10,
+        "11": 11,
+        "12": 12,
+        "13": 13,
+        "14": 14,
+        "15": 15,
+        "16": 16,
+        "17": 17,
+        "18": 18,
+        "19": 19,
+        "20": 20,
+        "21": 21,
+        "22": 22,
+        "23": 23,
+        "24": 24,
+        "25": 25,
+        "26": 26,
+        "27": 27,
+        "28": 28,
+        "29": 29
+      },
+      "changed_atoms": [
+        {
+          "source_index": 2,
+          "target_index": 2,
+          "element": "N",
+          "source_charge": 1,
+          "target_charge": 0,
+          "source_hydrogens": 1,
+          "target_hydrogens": 0
+        }
+      ],
+      "changed_bonds": [],
+      "source_canonical": "Nc1[nH+]cnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O1",
+      "target_canonical": "Nc1ncnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O1",
+      "source_formula": "C10H13N5O12P3-3",
+      "target_formula": "C10H12N5O12P3-4",
+      "source_charge": -3,
+      "target_charge": -4,
+      "delta_H": -1,
+      "delta_charge": -1,
+      "declared_carbon_stereocenters_preserved": 3,
+      "energy_equivalence_established": false,
+      "scope": "Explicit source-identity curation; heavy connectivity, carbon stereo and proton accounting only."
+    },
+    "original_plan": {
+      "input_charge": -3,
+      "input_smiles": "Nc1[nH+]cnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O1",
+      "reference_charge": 0,
+      "reference_smiles": "Nc1ncnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O1",
+      "proton_exchange": -3,
+      "pka_sites": [
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "base",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation"
+        ],
+        "reference_smiles": "Nc1ncnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O1",
+        "reference_charge": 0,
+        "acid_pkas": [
+          1.5,
+          1.5,
+          1.5,
+          6.5
+        ],
+        "base_pkas": [
+          6.5
+        ]
+      }
+    },
+    "target_plan": {
+      "input_charge": -4,
+      "input_smiles": "Nc1ncnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O1",
+      "reference_charge": 0,
+      "reference_smiles": "Nc1ncnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O1",
+      "proton_exchange": -4,
+      "pka_sites": [
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "acid",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation"
+        ],
+        "reference_smiles": "Nc1ncnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O1",
+        "reference_charge": 0,
+        "acid_pkas": [
+          1.5,
+          1.5,
+          1.5,
+          6.5
+        ],
+        "base_pkas": []
+      }
+    },
+    "original_reference_spin": 1,
+    "target_reference_spin": 1
+  },
+  "cpd00177": {
+    "name": "dADP",
+    "chebi_id": "CHEBI:57667",
+    "source": {
+      "smiles": "Nc1[nH+]cnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])[O-])O1",
+      "charge": "-2",
+      "formula": "C10H13N5O9P2",
+      "inchikey": "DAEAPNUQQAICNR-RRKCRQDMSA-L"
+    },
+    "target": {
+      "smiles": "Nc1ncnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])[O-])O1",
+      "charge": -3,
+      "formula": "C10H12N5O9P2-3",
+      "inchikey": "DAEAPNUQQAICNR-RRKCRQDMSA-K"
+    },
+    "review": {
+      "atom_mapping": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10,
+        "11": 11,
+        "12": 12,
+        "13": 13,
+        "14": 14,
+        "15": 15,
+        "16": 16,
+        "17": 17,
+        "18": 18,
+        "19": 19,
+        "20": 20,
+        "21": 21,
+        "22": 22,
+        "23": 23,
+        "24": 24,
+        "25": 25
+      },
+      "changed_atoms": [
+        {
+          "source_index": 2,
+          "target_index": 2,
+          "element": "N",
+          "source_charge": 1,
+          "target_charge": 0,
+          "source_hydrogens": 1,
+          "target_hydrogens": 0
+        }
+      ],
+      "changed_bonds": [],
+      "source_canonical": "Nc1[nH+]cnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])[O-])O1",
+      "target_canonical": "Nc1ncnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])[O-])O1",
+      "source_formula": "C10H13N5O9P2-2",
+      "target_formula": "C10H12N5O9P2-3",
+      "source_charge": -2,
+      "target_charge": -3,
+      "delta_H": -1,
+      "delta_charge": -1,
+      "declared_carbon_stereocenters_preserved": 3,
+      "energy_equivalence_established": false,
+      "scope": "Explicit source-identity curation; heavy connectivity, carbon stereo and proton accounting only."
+    },
+    "original_plan": {
+      "input_charge": -2,
+      "input_smiles": "Nc1[nH+]cnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])[O-])O1",
+      "reference_charge": 0,
+      "reference_smiles": "Nc1ncnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)O)O1",
+      "proton_exchange": -2,
+      "pka_sites": [
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "base",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation"
+        ],
+        "reference_smiles": "Nc1ncnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)O)O1",
+        "reference_charge": 0,
+        "acid_pkas": [
+          1.5,
+          1.5,
+          6.5
+        ],
+        "base_pkas": [
+          6.5
+        ]
+      }
+    },
+    "target_plan": {
+      "input_charge": -3,
+      "input_smiles": "Nc1ncnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])[O-])O1",
+      "reference_charge": 0,
+      "reference_smiles": "Nc1ncnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)O)O1",
+      "proton_exchange": -3,
+      "pka_sites": [
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "acid",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation"
+        ],
+        "reference_smiles": "Nc1ncnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)O)O1",
+        "reference_charge": 0,
+        "acid_pkas": [
+          1.5,
+          1.5,
+          6.5
+        ],
+        "base_pkas": []
+      }
+    },
+    "original_reference_spin": 1,
+    "target_reference_spin": 1
+  },
+  "cpd00241": {
+    "name": "dGTP",
+    "chebi_id": "CHEBI:61429",
+    "source": {
+      "smiles": "[NH2+]=c1nc([O-])c2ncn([C@H]3C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])O)O3)c2[n-]1",
+      "charge": "-4",
+      "formula": "C10H12N5O13P3",
+      "inchikey": "RRKYTIXBEPTLLX-KVQBGUIXSA-K"
+    },
+    "target": {
+      "smiles": "Nc1nc2c(ncn2[C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O2)c(=O)[nH]1",
+      "charge": -4,
+      "formula": "C10H12N5O13P3-4",
+      "inchikey": "HAAZLUGHYHWQIW-KVQBGUIXSA-J"
+    },
+    "review": {
+      "atom_mapping": {
+        "0": 0,
+        "1": 1,
+        "2": 30,
+        "3": 28,
+        "4": 29,
+        "5": 4,
+        "6": 5,
+        "7": 6,
+        "8": 7,
+        "9": 8,
+        "10": 9,
+        "11": 10,
+        "12": 11,
+        "13": 12,
+        "14": 13,
+        "15": 14,
+        "16": 15,
+        "17": 16,
+        "18": 17,
+        "19": 18,
+        "20": 19,
+        "21": 20,
+        "22": 21,
+        "23": 22,
+        "24": 23,
+        "25": 24,
+        "26": 25,
+        "27": 26,
+        "28": 27,
+        "29": 3,
+        "30": 2
+      },
+      "changed_atoms": [
+        {
+          "source_index": 0,
+          "target_index": 0,
+          "element": "N",
+          "source_charge": 1,
+          "target_charge": 0,
+          "source_hydrogens": 2,
+          "target_hydrogens": 2
+        },
+        {
+          "source_index": 2,
+          "target_index": 30,
+          "element": "N",
+          "source_charge": 0,
+          "target_charge": 0,
+          "source_hydrogens": 0,
+          "target_hydrogens": 1
+        },
+        {
+          "source_index": 4,
+          "target_index": 29,
+          "element": "O",
+          "source_charge": -1,
+          "target_charge": 0,
+          "source_hydrogens": 0,
+          "target_hydrogens": 0
+        },
+        {
+          "source_index": 27,
+          "target_index": 26,
+          "element": "O",
+          "source_charge": 0,
+          "target_charge": -1,
+          "source_hydrogens": 1,
+          "target_hydrogens": 0
+        },
+        {
+          "source_index": 30,
+          "target_index": 2,
+          "element": "N",
+          "source_charge": -1,
+          "target_charge": 0,
+          "source_hydrogens": 0,
+          "target_hydrogens": 0
+        }
+      ],
+      "changed_bonds": [
+        {
+          "source_atoms": [
+            0,
+            1
+          ],
+          "target_atoms": [
+            0,
+            1
+          ],
+          "source_order": "DOUBLE",
+          "target_order": "SINGLE"
+        },
+        {
+          "source_atoms": [
+            3,
+            4
+          ],
+          "target_atoms": [
+            28,
+            29
+          ],
+          "source_order": "SINGLE",
+          "target_order": "DOUBLE"
+        }
+      ],
+      "source_canonical": "[NH2+]=c1nc([O-])c2ncn([C@H]3C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])O)O3)c2[n-]1",
+      "target_canonical": "Nc1nc2c(ncn2[C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O2)c(=O)[nH]1",
+      "source_formula": "C10H12N5O13P3-4",
+      "target_formula": "C10H12N5O13P3-4",
+      "source_charge": -4,
+      "target_charge": -4,
+      "delta_H": 0,
+      "delta_charge": 0,
+      "declared_carbon_stereocenters_preserved": 3,
+      "energy_equivalence_established": false,
+      "scope": "Explicit source-identity curation; heavy connectivity, carbon stereo and proton accounting only."
+    },
+    "original_plan": {
+      "input_charge": -4,
+      "input_smiles": "[NH2+]=c1nc([O-])c2ncn([C@H]3C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])O)O3)c2[n-]1",
+      "reference_charge": -1,
+      "reference_smiles": "N=c1nc(O)c2ncn([C@H]3C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O3)c2[n-]1",
+      "proton_exchange": -3,
+      "pka_sites": [
+        [
+          "prod",
+          10.0,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          10.6,
+          "base",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation",
+          "protonated_n_uses_broad_class_approximation",
+          "reference_retains_charge",
+          "unmodeled_anionic_site"
+        ],
+        "reference_smiles": "N=c1nc(O)c2ncn([C@H]3C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O3)c2[n-]1",
+        "reference_charge": -1,
+        "acid_pkas": [
+          10.0,
+          1.5,
+          1.5,
+          1.5,
+          6.5
+        ],
+        "base_pkas": [
+          10.6
+        ]
+      }
+    },
+    "target_plan": {
+      "input_charge": -4,
+      "input_smiles": "Nc1nc2c(ncn2[C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O2)c(=O)[nH]1",
+      "reference_charge": 0,
+      "reference_smiles": "Nc1nc2c(ncn2[C@H]2C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O2)c(=O)[nH]1",
+      "proton_exchange": -4,
+      "pka_sites": [
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "acid",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation"
+        ],
+        "reference_smiles": "Nc1nc2c(ncn2[C@H]2C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O2)c(=O)[nH]1",
+        "reference_charge": 0,
+        "acid_pkas": [
+          1.5,
+          1.5,
+          1.5,
+          6.5
+        ],
+        "base_pkas": []
+      }
+    },
+    "original_reference_spin": 1,
+    "target_reference_spin": 1
+  },
+  "cpd00295": {
+    "name": "dGDP",
+    "chebi_id": "CHEBI:58595",
+    "source": {
+      "smiles": "[NH2+]=c1nc([O-])c2ncn([C@H]3C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])O)O3)c2[n-]1",
+      "charge": "-3",
+      "formula": "C10H12N5O10P2",
+      "inchikey": "UMOZWSCIMMJIIQ-KVQBGUIXSA-L"
+    },
+    "target": {
+      "smiles": "Nc1nc2c(ncn2[C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])[O-])O2)c(=O)[nH]1",
+      "charge": -3,
+      "formula": "C10H12N5O10P2-3",
+      "inchikey": "CIKGWCTVFSRMJU-KVQBGUIXSA-K"
+    },
+    "review": {
+      "atom_mapping": {
+        "0": 0,
+        "1": 1,
+        "2": 26,
+        "3": 24,
+        "4": 25,
+        "5": 4,
+        "6": 5,
+        "7": 6,
+        "8": 7,
+        "9": 8,
+        "10": 9,
+        "11": 10,
+        "12": 11,
+        "13": 12,
+        "14": 13,
+        "15": 14,
+        "16": 15,
+        "17": 16,
+        "18": 17,
+        "19": 18,
+        "20": 19,
+        "21": 20,
+        "22": 21,
+        "23": 22,
+        "24": 23,
+        "25": 3,
+        "26": 2
+      },
+      "changed_atoms": [
+        {
+          "source_index": 0,
+          "target_index": 0,
+          "element": "N",
+          "source_charge": 1,
+          "target_charge": 0,
+          "source_hydrogens": 2,
+          "target_hydrogens": 2
+        },
+        {
+          "source_index": 2,
+          "target_index": 26,
+          "element": "N",
+          "source_charge": 0,
+          "target_charge": 0,
+          "source_hydrogens": 0,
+          "target_hydrogens": 1
+        },
+        {
+          "source_index": 4,
+          "target_index": 25,
+          "element": "O",
+          "source_charge": -1,
+          "target_charge": 0,
+          "source_hydrogens": 0,
+          "target_hydrogens": 0
+        },
+        {
+          "source_index": 23,
+          "target_index": 22,
+          "element": "O",
+          "source_charge": 0,
+          "target_charge": -1,
+          "source_hydrogens": 1,
+          "target_hydrogens": 0
+        },
+        {
+          "source_index": 26,
+          "target_index": 2,
+          "element": "N",
+          "source_charge": -1,
+          "target_charge": 0,
+          "source_hydrogens": 0,
+          "target_hydrogens": 0
+        }
+      ],
+      "changed_bonds": [
+        {
+          "source_atoms": [
+            0,
+            1
+          ],
+          "target_atoms": [
+            0,
+            1
+          ],
+          "source_order": "DOUBLE",
+          "target_order": "SINGLE"
+        },
+        {
+          "source_atoms": [
+            3,
+            4
+          ],
+          "target_atoms": [
+            24,
+            25
+          ],
+          "source_order": "SINGLE",
+          "target_order": "DOUBLE"
+        }
+      ],
+      "source_canonical": "[NH2+]=c1nc([O-])c2ncn([C@H]3C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])O)O3)c2[n-]1",
+      "target_canonical": "Nc1nc2c(ncn2[C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])[O-])O2)c(=O)[nH]1",
+      "source_formula": "C10H12N5O10P2-3",
+      "target_formula": "C10H12N5O10P2-3",
+      "source_charge": -3,
+      "target_charge": -3,
+      "delta_H": 0,
+      "delta_charge": 0,
+      "declared_carbon_stereocenters_preserved": 3,
+      "energy_equivalence_established": false,
+      "scope": "Explicit source-identity curation; heavy connectivity, carbon stereo and proton accounting only."
+    },
+    "original_plan": {
+      "input_charge": -3,
+      "input_smiles": "[NH2+]=c1nc([O-])c2ncn([C@H]3C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])O)O3)c2[n-]1",
+      "reference_charge": -1,
+      "reference_smiles": "N=c1nc(O)c2ncn([C@H]3C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)O)O3)c2[n-]1",
+      "proton_exchange": -2,
+      "pka_sites": [
+        [
+          "prod",
+          10.0,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          10.6,
+          "base",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation",
+          "protonated_n_uses_broad_class_approximation",
+          "reference_retains_charge",
+          "unmodeled_anionic_site"
+        ],
+        "reference_smiles": "N=c1nc(O)c2ncn([C@H]3C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)O)O3)c2[n-]1",
+        "reference_charge": -1,
+        "acid_pkas": [
+          10.0,
+          1.5,
+          1.5,
+          6.5
+        ],
+        "base_pkas": [
+          10.6
+        ]
+      }
+    },
+    "target_plan": {
+      "input_charge": -3,
+      "input_smiles": "Nc1nc2c(ncn2[C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])[O-])O2)c(=O)[nH]1",
+      "reference_charge": 0,
+      "reference_smiles": "Nc1nc2c(ncn2[C@H]2C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)O)O2)c(=O)[nH]1",
+      "proton_exchange": -3,
+      "pka_sites": [
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "acid",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation"
+        ],
+        "reference_smiles": "Nc1nc2c(ncn2[C@H]2C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)O)O2)c(=O)[nH]1",
+        "reference_charge": 0,
+        "acid_pkas": [
+          1.5,
+          1.5,
+          6.5
+        ],
+        "base_pkas": []
+      }
+    },
+    "original_reference_spin": 1,
+    "target_reference_spin": 1
+  },
+  "cpd00297": {
+    "name": "dTDP",
+    "chebi_id": "CHEBI:58369",
+    "source": {
+      "smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])[O-])O2)c(=O)nc1[O-]",
+      "charge": "-4",
+      "formula": "C10H12N2O11P2",
+      "inchikey": "UJLXYODCHAELLY-XLPZGREQSA-J"
+    },
+    "target": {
+      "smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])[O-])O2)c(=O)[nH]c1=O",
+      "charge": -3,
+      "formula": "C10H13N2O11P2-3",
+      "inchikey": "UJLXYODCHAELLY-XLPZGREQSA-K"
+    },
+    "review": {
+      "atom_mapping": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10,
+        "11": 11,
+        "12": 12,
+        "13": 13,
+        "14": 14,
+        "15": 15,
+        "16": 16,
+        "17": 17,
+        "18": 18,
+        "19": 19,
+        "20": 20,
+        "21": 21,
+        "22": 22,
+        "23": 23,
+        "24": 24
+      },
+      "changed_atoms": [
+        {
+          "source_index": 22,
+          "target_index": 22,
+          "element": "N",
+          "source_charge": 0,
+          "target_charge": 0,
+          "source_hydrogens": 0,
+          "target_hydrogens": 1
+        },
+        {
+          "source_index": 24,
+          "target_index": 24,
+          "element": "O",
+          "source_charge": -1,
+          "target_charge": 0,
+          "source_hydrogens": 0,
+          "target_hydrogens": 0
+        }
+      ],
+      "changed_bonds": [
+        {
+          "source_atoms": [
+            23,
+            24
+          ],
+          "target_atoms": [
+            23,
+            24
+          ],
+          "source_order": "SINGLE",
+          "target_order": "DOUBLE"
+        }
+      ],
+      "source_canonical": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])[O-])O2)c(=O)nc1[O-]",
+      "target_canonical": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])[O-])O2)c(=O)[nH]c1=O",
+      "source_formula": "C10H12N2O11P2-4",
+      "target_formula": "C10H13N2O11P2-3",
+      "source_charge": -4,
+      "target_charge": -3,
+      "delta_H": 1,
+      "delta_charge": 1,
+      "declared_carbon_stereocenters_preserved": 3,
+      "energy_equivalence_established": false,
+      "scope": "Explicit source-identity curation; heavy connectivity, carbon stereo and proton accounting only."
+    },
+    "original_plan": {
+      "input_charge": -4,
+      "input_smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])[O-])O2)c(=O)nc1[O-]",
+      "reference_charge": 0,
+      "reference_smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)O)O2)c(=O)nc1O",
+      "proton_exchange": -4,
+      "pka_sites": [
+        [
+          "prod",
+          10.0,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "acid",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation"
+        ],
+        "reference_smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)O)O2)c(=O)nc1O",
+        "reference_charge": 0,
+        "acid_pkas": [
+          10.0,
+          1.5,
+          1.5,
+          6.5
+        ],
+        "base_pkas": []
+      }
+    },
+    "target_plan": {
+      "input_charge": -3,
+      "input_smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])[O-])O2)c(=O)[nH]c1=O",
+      "reference_charge": 0,
+      "reference_smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)O)O2)c(=O)[nH]c1=O",
+      "proton_exchange": -3,
+      "pka_sites": [
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "acid",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation"
+        ],
+        "reference_smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)O)O2)c(=O)[nH]c1=O",
+        "reference_charge": 0,
+        "acid_pkas": [
+          1.5,
+          1.5,
+          6.5
+        ],
+        "base_pkas": []
+      }
+    },
+    "original_reference_spin": 1,
+    "target_reference_spin": 1
+  },
+  "cpd00357": {
+    "name": "TTP",
+    "chebi_id": "CHEBI:37568",
+    "source": {
+      "smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O2)c(=O)nc1[O-]",
+      "charge": "-5",
+      "formula": "C10H12N2O14P3",
+      "inchikey": "NHVNXKFIZYSCEB-XLPZGREQSA-I"
+    },
+    "target": {
+      "smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O2)c(=O)[nH]c1=O",
+      "charge": -4,
+      "formula": "C10H13N2O14P3-4",
+      "inchikey": "NHVNXKFIZYSCEB-XLPZGREQSA-J"
+    },
+    "review": {
+      "atom_mapping": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10,
+        "11": 11,
+        "12": 12,
+        "13": 13,
+        "14": 14,
+        "15": 15,
+        "16": 16,
+        "17": 17,
+        "18": 18,
+        "19": 19,
+        "20": 20,
+        "21": 21,
+        "22": 22,
+        "23": 23,
+        "24": 24,
+        "25": 25,
+        "26": 26,
+        "27": 27,
+        "28": 28
+      },
+      "changed_atoms": [
+        {
+          "source_index": 26,
+          "target_index": 26,
+          "element": "N",
+          "source_charge": 0,
+          "target_charge": 0,
+          "source_hydrogens": 0,
+          "target_hydrogens": 1
+        },
+        {
+          "source_index": 28,
+          "target_index": 28,
+          "element": "O",
+          "source_charge": -1,
+          "target_charge": 0,
+          "source_hydrogens": 0,
+          "target_hydrogens": 0
+        }
+      ],
+      "changed_bonds": [
+        {
+          "source_atoms": [
+            27,
+            28
+          ],
+          "target_atoms": [
+            27,
+            28
+          ],
+          "source_order": "SINGLE",
+          "target_order": "DOUBLE"
+        }
+      ],
+      "source_canonical": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O2)c(=O)nc1[O-]",
+      "target_canonical": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O2)c(=O)[nH]c1=O",
+      "source_formula": "C10H12N2O14P3-5",
+      "target_formula": "C10H13N2O14P3-4",
+      "source_charge": -5,
+      "target_charge": -4,
+      "delta_H": 1,
+      "delta_charge": 1,
+      "declared_carbon_stereocenters_preserved": 3,
+      "energy_equivalence_established": false,
+      "scope": "Explicit source-identity curation; heavy connectivity, carbon stereo and proton accounting only."
+    },
+    "original_plan": {
+      "input_charge": -5,
+      "input_smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O2)c(=O)nc1[O-]",
+      "reference_charge": 0,
+      "reference_smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O2)c(=O)nc1O",
+      "proton_exchange": -5,
+      "pka_sites": [
+        [
+          "prod",
+          10.0,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "acid",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation"
+        ],
+        "reference_smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O2)c(=O)nc1O",
+        "reference_charge": 0,
+        "acid_pkas": [
+          10.0,
+          1.5,
+          1.5,
+          1.5,
+          6.5
+        ],
+        "base_pkas": []
+      }
+    },
+    "target_plan": {
+      "input_charge": -4,
+      "input_smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])O2)c(=O)[nH]c1=O",
+      "reference_charge": 0,
+      "reference_smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O2)c(=O)[nH]c1=O",
+      "proton_exchange": -4,
+      "pka_sites": [
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "acid",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation"
+        ],
+        "reference_smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O2)c(=O)[nH]c1=O",
+        "reference_charge": 0,
+        "acid_pkas": [
+          1.5,
+          1.5,
+          1.5,
+          6.5
+        ],
+        "base_pkas": []
+      }
+    },
+    "original_reference_spin": 1,
+    "target_reference_spin": 1
+  },
+  "cpd00638": {
+    "name": "Deamido-NAD",
+    "chebi_id": "CHEBI:58437",
+    "source": {
+      "smiles": "Nc1[nH+]cnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]2O[C@@H]([n+]3cccc(C(=O)[O-])c3)[C@H](O)[C@@H]2O)[C@@H](O)[C@H]1O",
+      "charge": "-1",
+      "formula": "C21H25N6O15P2",
+      "inchikey": "SENPVEZBRZQVST-HISDBWNOSA-M"
+    },
+    "target": {
+      "smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]2O[C@@H]([n+]3cccc(C(=O)[O-])c3)[C@H](O)[C@@H]2O)[C@@H](O)[C@H]1O",
+      "charge": -2,
+      "formula": "C21H24N6O15P2-2",
+      "inchikey": "SENPVEZBRZQVST-HISDBWNOSA-L"
+    },
+    "review": {
+      "atom_mapping": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10,
+        "11": 11,
+        "12": 12,
+        "13": 13,
+        "14": 14,
+        "15": 15,
+        "16": 16,
+        "17": 17,
+        "18": 18,
+        "19": 19,
+        "20": 20,
+        "21": 21,
+        "22": 22,
+        "23": 23,
+        "24": 24,
+        "25": 25,
+        "26": 26,
+        "27": 27,
+        "28": 28,
+        "29": 29,
+        "30": 30,
+        "31": 31,
+        "32": 32,
+        "33": 33,
+        "34": 34,
+        "35": 35,
+        "36": 36,
+        "37": 37,
+        "38": 38,
+        "39": 39,
+        "40": 40,
+        "41": 41,
+        "42": 42,
+        "43": 43
+      },
+      "changed_atoms": [
+        {
+          "source_index": 2,
+          "target_index": 2,
+          "element": "N",
+          "source_charge": 1,
+          "target_charge": 0,
+          "source_hydrogens": 1,
+          "target_hydrogens": 0
+        }
+      ],
+      "changed_bonds": [],
+      "source_canonical": "Nc1[nH+]cnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]2O[C@@H]([n+]3cccc(C(=O)[O-])c3)[C@H](O)[C@@H]2O)[C@@H](O)[C@H]1O",
+      "target_canonical": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]2O[C@@H]([n+]3cccc(C(=O)[O-])c3)[C@H](O)[C@@H]2O)[C@@H](O)[C@H]1O",
+      "source_formula": "C21H25N6O15P2-",
+      "target_formula": "C21H24N6O15P2-2",
+      "source_charge": -1,
+      "target_charge": -2,
+      "delta_H": -1,
+      "delta_charge": -1,
+      "declared_carbon_stereocenters_preserved": 8,
+      "energy_equivalence_established": false,
+      "scope": "Explicit source-identity curation; heavy connectivity, carbon stereo and proton accounting only."
+    },
+    "original_plan": {
+      "input_charge": -1,
+      "input_smiles": "Nc1[nH+]cnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]2O[C@@H]([n+]3cccc(C(=O)[O-])c3)[C@H](O)[C@@H]2O)[C@@H](O)[C@H]1O",
+      "reference_charge": 1,
+      "reference_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]2O[C@@H]([n+]3cccc(C(=O)O)c3)[C@H](O)[C@@H]2O)[C@@H](O)[C@H]1O",
+      "proton_exchange": -2,
+      "pka_sites": [
+        [
+          "prod",
+          4.2,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "base",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation",
+          "reference_retains_charge"
+        ],
+        "reference_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]2O[C@@H]([n+]3cccc(C(=O)O)c3)[C@H](O)[C@@H]2O)[C@@H](O)[C@H]1O",
+        "reference_charge": 1,
+        "acid_pkas": [
+          4.2,
+          1.5,
+          1.5
+        ],
+        "base_pkas": [
+          6.5
+        ]
+      }
+    },
+    "target_plan": {
+      "input_charge": -2,
+      "input_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]2O[C@@H]([n+]3cccc(C(=O)[O-])c3)[C@H](O)[C@@H]2O)[C@@H](O)[C@H]1O",
+      "reference_charge": 1,
+      "reference_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]2O[C@@H]([n+]3cccc(C(=O)O)c3)[C@H](O)[C@@H]2O)[C@@H](O)[C@H]1O",
+      "proton_exchange": -3,
+      "pka_sites": [
+        [
+          "prod",
+          4.2,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation",
+          "reference_retains_charge"
+        ],
+        "reference_smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]2O[C@@H]([n+]3cccc(C(=O)O)c3)[C@H](O)[C@@H]2O)[C@@H](O)[C@H]1O",
+        "reference_charge": 1,
+        "acid_pkas": [
+          4.2,
+          1.5,
+          1.5
+        ],
+        "base_pkas": []
+      }
+    },
+    "original_reference_spin": 1,
+    "target_reference_spin": 1
+  },
+  "cpd35800": {
+    "name": "1,2-dihydro-beta-NAD",
+    "chebi_id": "CHEBI:88138",
+    "source": {
+      "smiles": "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C1",
+      "charge": "-2",
+      "formula": "C21H27N7O14P2",
+      "inchikey": "TVJJIHUATXWSJG-NNYOXOHSSA-L"
+    },
+    "target": {
+      "smiles": "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C1",
+      "charge": -2,
+      "formula": "C21H27N7O14P2-2",
+      "inchikey": "TVJJIHUATXWSJG-NNYOXOHSSA-L"
+    },
+    "review": {
+      "atom_mapping": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10,
+        "11": 11,
+        "12": 12,
+        "13": 13,
+        "14": 14,
+        "15": 15,
+        "16": 16,
+        "17": 17,
+        "18": 18,
+        "19": 19,
+        "20": 20,
+        "21": 21,
+        "22": 22,
+        "23": 23,
+        "24": 24,
+        "25": 25,
+        "26": 26,
+        "27": 27,
+        "28": 28,
+        "29": 29,
+        "30": 30,
+        "31": 31,
+        "32": 32,
+        "33": 33,
+        "34": 34,
+        "35": 35,
+        "36": 36,
+        "37": 37,
+        "38": 38,
+        "39": 39,
+        "40": 40,
+        "41": 41,
+        "42": 42,
+        "43": 43
+      },
+      "changed_atoms": [],
+      "changed_bonds": [],
+      "source_canonical": "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C1",
+      "target_canonical": "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C1",
+      "source_formula": "C21H27N7O14P2-2",
+      "target_formula": "C21H27N7O14P2-2",
+      "source_charge": -2,
+      "target_charge": -2,
+      "delta_H": 0,
+      "delta_charge": 0,
+      "declared_carbon_stereocenters_preserved": 8,
+      "energy_equivalence_established": false,
+      "scope": "Explicit source-identity curation; heavy connectivity, carbon stereo and proton accounting only."
+    },
+    "original_plan": {
+      "input_charge": -2,
+      "input_smiles": "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C1",
+      "reference_charge": 0,
+      "reference_smiles": "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C1",
+      "proton_exchange": -2,
+      "pka_sites": [
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation"
+        ],
+        "reference_smiles": "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C1",
+        "reference_charge": 0,
+        "acid_pkas": [
+          1.5,
+          1.5
+        ],
+        "base_pkas": []
+      }
+    },
+    "target_plan": {
+      "input_charge": -2,
+      "input_smiles": "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C1",
+      "reference_charge": 0,
+      "reference_smiles": "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C1",
+      "proton_exchange": -2,
+      "pka_sites": [
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation"
+        ],
+        "reference_smiles": "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C1",
+        "reference_charge": 0,
+        "acid_pkas": [
+          1.5,
+          1.5
+        ],
+        "base_pkas": []
+      }
+    },
+    "original_reference_spin": 1,
+    "target_reference_spin": 1
+  },
+  "cpd41599": {
+    "name": "1,2-dihydro-beta-NADP",
+    "chebi_id": "CHEBI:88137",
+    "source": {
+      "smiles": "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)C1",
+      "charge": "-4",
+      "formula": "C21H26N7O17P3",
+      "inchikey": "SNZSFAQYVLPEBZ-NNYOXOHSSA-J"
+    },
+    "target": {
+      "smiles": "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)C1",
+      "charge": -4,
+      "formula": "C21H26N7O17P3-4",
+      "inchikey": "SNZSFAQYVLPEBZ-NNYOXOHSSA-J"
+    },
+    "review": {
+      "atom_mapping": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10,
+        "11": 11,
+        "12": 12,
+        "13": 13,
+        "14": 14,
+        "15": 15,
+        "16": 16,
+        "17": 17,
+        "18": 18,
+        "19": 19,
+        "20": 20,
+        "21": 21,
+        "22": 22,
+        "23": 23,
+        "24": 24,
+        "25": 25,
+        "26": 26,
+        "27": 27,
+        "28": 28,
+        "29": 29,
+        "30": 30,
+        "31": 31,
+        "32": 32,
+        "33": 33,
+        "34": 34,
+        "35": 35,
+        "36": 36,
+        "37": 37,
+        "38": 38,
+        "39": 39,
+        "40": 40,
+        "41": 41,
+        "42": 42,
+        "43": 43,
+        "44": 44,
+        "45": 45,
+        "46": 46,
+        "47": 47
+      },
+      "changed_atoms": [],
+      "changed_bonds": [],
+      "source_canonical": "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)C1",
+      "target_canonical": "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)C1",
+      "source_formula": "C21H26N7O17P3-4",
+      "target_formula": "C21H26N7O17P3-4",
+      "source_charge": -4,
+      "target_charge": -4,
+      "delta_H": 0,
+      "delta_charge": 0,
+      "declared_carbon_stereocenters_preserved": 8,
+      "energy_equivalence_established": false,
+      "scope": "Explicit source-identity curation; heavy connectivity, carbon stereo and proton accounting only."
+    },
+    "original_plan": {
+      "input_charge": -4,
+      "input_smiles": "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)C1",
+      "reference_charge": 0,
+      "reference_smiles": "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C1",
+      "proton_exchange": -4,
+      "pka_sites": [
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "acid",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation"
+        ],
+        "reference_smiles": "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C1",
+        "reference_charge": 0,
+        "acid_pkas": [
+          1.5,
+          1.5,
+          1.5,
+          6.5
+        ],
+        "base_pkas": []
+      }
+    },
+    "target_plan": {
+      "input_charge": -4,
+      "input_smiles": "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)C1",
+      "reference_charge": 0,
+      "reference_smiles": "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C1",
+      "proton_exchange": -4,
+      "pka_sites": [
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "acid",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation"
+        ],
+        "reference_smiles": "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C1",
+        "reference_charge": 0,
+        "acid_pkas": [
+          1.5,
+          1.5,
+          1.5,
+          6.5
+        ],
+        "base_pkas": []
+      }
+    },
+    "original_reference_spin": 1,
+    "target_reference_spin": 1
+  }
+}

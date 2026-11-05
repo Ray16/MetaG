@@ -1,0 +1,628 @@
+{
+  "records": [
+    {
+      "charge": 0,
+      "smiles": "CN1C=CC=C(C(N)=O)C1",
+      "name": "8fc6fc14bc1e6ee855c3c80d9fbc920a.json",
+      "sha256": "3576a92c7ba32a37dc21ec03b729e5cd0b1d886f4d34a09a6d068e70f267fee6",
+      "profile": "fresh_worker0r1_06e9944d1b07",
+      "G_kj": -1200804.9768763434,
+      "sigma_kj": 0.0054247743181968094,
+      "cache_reconciliation": false,
+      "numerical_extension": false
+    },
+    {
+      "charge": 0,
+      "smiles": "CN1C=CCC(C(N)=O)=C1",
+      "name": "823319e787b12b2a70563bde636b89a3.json",
+      "sha256": "59d99b34cade6c5d8477f33c94ea13310bc5f978946479479570bb091741a71b",
+      "profile": "retained_original",
+      "G_kj": -1200819.461077903,
+      "sigma_kj": 0.013024279752272461
+    },
+    {
+      "charge": 0,
+      "smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)O)O2)c(=O)[nH]c1=O",
+      "name": "c4190a794b114e290810b6f0a9774539.json",
+      "sha256": "312b4527d13b501f230414e59a8f1b575b754472192d19b9a44362cce61ac865",
+      "profile": "fresh_worker0r1_06e9944d1b07",
+      "G_kj": -5279010.077277876,
+      "sigma_kj": 0.6224862009255706,
+      "cache_reconciliation": false,
+      "numerical_extension": false
+    },
+    {
+      "charge": 0,
+      "smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O2)c(=O)[nH]c1=O",
+      "name": "2e5d63a31735d7db33ae2f4ffa31b23e.json",
+      "sha256": "8ff20c223f8cfdd40429e9dbd6d0689306ccd3e9c6cc8d0366d2f8099d992a7d",
+      "profile": "fresh_worker1r1_06e9944d1b07",
+      "G_kj": -6769793.99444168,
+      "sigma_kj": 0.15819262710116427,
+      "cache_reconciliation": false,
+      "numerical_extension": false
+    },
+    {
+      "charge": 0,
+      "smiles": "N",
+      "name": "1048c92c0a77a120a4398fc3acda3577.json",
+      "sha256": "ac6719812c786e9a9a2ed57701046e6263aed91241347d28b2d3b88020876aeb",
+      "profile": "retained_original",
+      "G_kj": -148446.30100814538,
+      "sigma_kj": 0.0
+    },
+    {
+      "charge": 0,
+      "smiles": "NC(=O)C1=CC=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C1",
+      "name": "71dfd08187f118f9f1d730a1ce809ea1.json",
+      "sha256": "a8870281331a1f1d093509c4cd16225dacb11f8c94f8acfa8be8e032e6cb048b",
+      "profile": "secondary1200_worker1_fd1233fa4758",
+      "G_kj": -7710892.857404586,
+      "sigma_kj": 0.0009070695142091394,
+      "cache_reconciliation": false,
+      "numerical_extension": true
+    },
+    {
+      "charge": 0,
+      "smiles": "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+      "name": "acbd490bf8eb05357d109974b2f5a59d.json",
+      "sha256": "7638d4acd46f4d1717e54eb10173c9b18aea69d08e7a0d407e3003442c06703d",
+      "profile": "retained_original",
+      "G_kj": -7710905.58200066,
+      "sigma_kj": 0.5868315468246639
+    },
+    {
+      "charge": 0,
+      "smiles": "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+      "name": "e39082b1d32156e13203a8a0c9b0548f.json",
+      "sha256": "ea4e8dfa8f50999c47a0971937839740f75bf017def6f813c20b9e165ed38e46",
+      "profile": "fresh_worker0r1_06e9944d1b07",
+      "G_kj": -9201697.417072253,
+      "sigma_kj": 0.016719721570771413,
+      "cache_reconciliation": false,
+      "numerical_extension": false
+    },
+    {
+      "charge": 0,
+      "smiles": "Nc1nc2c(ncn2[C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)[nH]1",
+      "name": "922224d22a38b0f4c01633d8eea016e0.json",
+      "sha256": "23a99bd92d60d05e80e3b79052bf553bd37f9b0a5023b40646b9fe050d33ff4a",
+      "profile": "retained_original",
+      "G_kj": -5708802.403350264,
+      "sigma_kj": 0.001760667330608009
+    },
+    {
+      "charge": 0,
+      "smiles": "Nc1nc2c(ncn2[C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]2O)c(=O)[nH]1",
+      "name": "e73eefbac108782b805683b980349250.json",
+      "sha256": "d63e420a56ee7d5bcfb42a4b58e47e16c3397526443ae1c390af664cbd786065",
+      "profile": "retained_original",
+      "G_kj": -7199578.848568391,
+      "sigma_kj": 0.004261025598586227
+    },
+    {
+      "charge": 0,
+      "smiles": "Nc1nc2c(ncn2[C@H]2C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)O)O2)c(=O)[nH]1",
+      "name": "9df4b952ed862cdfb031cdc13940de09.json",
+      "sha256": "5e90d864ead9f48328a5422eba859dddf00d6acbce9b541e28b3368f85caeeb6",
+      "profile": "fresh_worker0r1_06e9944d1b07",
+      "G_kj": -5511254.53218182,
+      "sigma_kj": 0.08394445300677522,
+      "cache_reconciliation": false,
+      "numerical_extension": false
+    },
+    {
+      "charge": 0,
+      "smiles": "Nc1nc2c(ncn2[C@H]2C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O2)c(=O)[nH]1",
+      "name": "3007f40439c7a088188dd7c105662637.json",
+      "sha256": "bdc06fc5e337ab5ec6c58f0444f5a6c96afcb08b69cd59964e7fca0af95d9622",
+      "profile": "fresh_worker0r1_06e9944d1b07",
+      "G_kj": -7002052.0154923275,
+      "sigma_kj": 0.07795558899781037,
+      "cache_reconciliation": false,
+      "numerical_extension": false
+    },
+    {
+      "charge": 0,
+      "smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]1O",
+      "name": "f3e9e9122f09181b425ad474a601c8a2.json",
+      "sha256": "58effe8c8009017d456853d7df3e03cf50e062ad3d2b6342b7ff77a8eea5c4d0",
+      "profile": "retained_original",
+      "G_kj": -4020406.312626778,
+      "sigma_kj": 0.2916963434746578
+    },
+    {
+      "charge": 0,
+      "smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O",
+      "name": "74189142eacce74dddabaeef94e68813.json",
+      "sha256": "e32de51b9390921f8a239c4c3aa4a00cc8d939699ca52967b6522f3f3a5c25c7",
+      "profile": "retained_original",
+      "G_kj": -5511208.220113406,
+      "sigma_kj": 0.03186421060769773
+    },
+    {
+      "charge": 0,
+      "smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O",
+      "name": "349d509f72fc4fe9a1da036aff8b453d.json",
+      "sha256": "75139092292929c4cb725f11c18dfc058d0619c5e973fa846bbaa86f1bb9f0c4",
+      "profile": "secondary1200_worker1_fd1233fa4758",
+      "G_kj": -7001982.579538706,
+      "sigma_kj": 0.8716977485397002,
+      "cache_reconciliation": false,
+      "numerical_extension": true
+    },
+    {
+      "charge": 0,
+      "smiles": "Nc1ncnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)O)O1",
+      "name": "fae20f192ec2107a7cd65e66b74349db.json",
+      "sha256": "bfc6c067b1ac777d82b8b2154d13881eac1cc87a1419db65e910f06876c7ea31",
+      "profile": "fresh_worker1r1_06e9944d1b07",
+      "G_kj": -5313662.354806962,
+      "sigma_kj": 0.005224082990325086,
+      "cache_reconciliation": false,
+      "numerical_extension": false
+    },
+    {
+      "charge": 0,
+      "smiles": "Nc1ncnc2c1ncn2[C@H]1C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O1",
+      "name": "b5625e39af6e75beb40de9cad740149a.json",
+      "sha256": "71e83b4f391b6f001da9d72221324e504c95367b27ccd3283030d47d1c718bfc",
+      "profile": "secondary1200_worker1_fd1233fa4758",
+      "G_kj": -6804436.299809563,
+      "sigma_kj": 0.6013634996530465,
+      "cache_reconciliation": false,
+      "numerical_extension": true
+    },
+    {
+      "charge": 0,
+      "smiles": "O=O",
+      "name": "cbd23e1a9a1e6f2fa20193067c3c077d.json",
+      "sha256": "4b7f6464c32ababad41cde33ba90b168038521ad5121fb5362bcaca53abc8a97",
+      "profile": "fresh_worker1r1_6c23ef6792b7",
+      "G_kj": -394770.0360206904,
+      "sigma_kj": 0.0,
+      "cache_reconciliation": true,
+      "numerical_extension": false
+    },
+    {
+      "charge": 0,
+      "smiles": "O=P(O)(O)O",
+      "name": "60e6c4f7fe8c1a0691b277dfb057965f.json",
+      "sha256": "143ed6c913e9ac9bc6894bd69c744ecc09998447745bd965998ac3b3a2c49d80",
+      "profile": "retained_original",
+      "G_kj": -1691512.3229698136,
+      "sigma_kj": 0.004246955397856663
+    },
+    {
+      "charge": 0,
+      "smiles": "O=P(O)(O)OP(=O)(O)O",
+      "name": "d8cf1ec39a1541125d5cdc3f268984ce.json",
+      "sha256": "98918524e69cc8383adee15f13df51ca3c63af656c46f671d1f3dd1091811ad7",
+      "profile": "retained_original",
+      "G_kj": -3182303.0875472617,
+      "sigma_kj": 1.3074878424790528
+    },
+    {
+      "charge": 0,
+      "smiles": "OO",
+      "name": "63e7b424f951932d60f0c8e84907ffaa.json",
+      "sha256": "10c97ed01283601fa983669087b4400900c57df1f108d37cf54d31091c372b33",
+      "profile": "fresh_worker0r1_06e9944d1b07",
+      "G_kj": -397981.44804594613,
+      "sigma_kj": 0.8062620180730175,
+      "cache_reconciliation": false,
+      "numerical_extension": false
+    },
+    {
+      "charge": 1,
+      "smiles": "C[n+]1cccc(C(N)=O)c1",
+      "name": "74da7fd9ed4bc74db7c692229c414a96.json",
+      "sha256": "6b01005fbb3823bb6708270022626bbb7ef04c49a4cd18d2e64b81dafc48fe1a",
+      "profile": "retained_original",
+      "G_kj": -1198922.1565611747,
+      "sigma_kj": 0.28651304902682634
+    },
+    {
+      "charge": 1,
+      "smiles": "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)c1",
+      "name": "45088f5304fb289549c18c133a5b9fd2.json",
+      "sha256": "cc3b5fcad7dc4f18e4ae08b6581ac289e406aec4126c3c4a7f857a75827a4c67",
+      "profile": "retained_original",
+      "G_kj": -7708966.383511319,
+      "sigma_kj": 0.0743239379709606
+    },
+    {
+      "charge": 1,
+      "smiles": "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1",
+      "name": "1375eea261e1c50f13bfb6087235f5f3.json",
+      "sha256": "9b29d0e8e3c5af1a38bc43061e77b9f1637d62c026b4fe3e625cd8c482728e31",
+      "profile": "retained_original",
+      "G_kj": -9199781.670136912,
+      "sigma_kj": 0.9849041261265976
+    },
+    {
+      "charge": 1,
+      "smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]2O[C@@H]([n+]3cccc(C(=O)O)c3)[C@H](O)[C@@H]2O)[C@@H](O)[C@H]1O",
+      "name": "6902b10493839de2a7b95df39b061cf9.json",
+      "sha256": "ebd4fda9136ab494a72efeee9fc51119a672ef576b404b5a3116662b42b38049",
+      "profile": "fresh_worker1r1_06e9944d1b07",
+      "G_kj": -7761190.588193606,
+      "sigma_kj": 0.03531827314205517,
+      "cache_reconciliation": false,
+      "numerical_extension": false
+    }
+  ],
+  "source_profiles": {
+    "retained_original": {
+      "producer": {
+        "schema": 2,
+        "source_sha256": "dec7fca2fe0078ce06099c945756abaaf9cc81602d32d9a9a25d487f5d596828",
+        "source_scope": "raw_species_v1",
+        "software": {
+          "fairchem-core": "0.1.dev1+g645af7d03",
+          "torch": "2.13.0+cu126",
+          "rdkit": "2026.3.5",
+          "ase": "3.29.0",
+          "numpy": "2.4.6"
+        },
+        "xtb_sha256": "481a1e7d8151fc08e0341b8e06ab60ac09cf1c2628738eeb83346271274bf8f4",
+        "imported_module_versions": {
+          "numpy": "2.4.6",
+          "torch": "2.13.0+cu126",
+          "rdkit": "2026.03.5",
+          "ase": "3.29.0",
+          "fairchem-core": "0.1.dev1+g645af7d03"
+        },
+        "additional_executable_sha256": {},
+        "model": {
+          "checkpoint_sha256": "b2673b85037b075674c25f55c34ffe1ff1e15db924be977b10a184765df0d5ce",
+          "references_sha256": "50e2bf9e6538c948e5381f84dac7dae8d246c58479446114374e631db75e79ba",
+          "inference_sha256": "f1c7a53316b62fcd7468f8ee9fa61826c7ec8a8a41455652e551f2e92c3ce513"
+        },
+        "cacheable": true
+      },
+      "settings": {
+        "solv": "alpb",
+        "budget": "nrot-tiered-v1",
+        "conv_tol": 2.5,
+        "conv_hits": 2,
+        "conv_max": 8,
+        "sample_scale": 1.0,
+        "keep_scale": 1.0,
+        "physics": "2026-10-29-canonical-routing-strict-modes-v1",
+        "hessian": "autograd",
+        "dedup": "rmsd-v3-heavy-fallback-etol1.5",
+        "thermal_ensemble": "v3-w15-n10",
+        "thermal_validation_max": 64,
+        "thermal_relax_steps": 400,
+        "thermal_retry_steps": 1200,
+        "seed_offset": 0,
+        "model": "uma-s-1p2p1",
+        "producer": {
+          "schema": 2,
+          "source_sha256": "dec7fca2fe0078ce06099c945756abaaf9cc81602d32d9a9a25d487f5d596828",
+          "source_scope": "raw_species_v1",
+          "software": {
+            "fairchem-core": "0.1.dev1+g645af7d03",
+            "torch": "2.13.0+cu126",
+            "rdkit": "2026.3.5",
+            "ase": "3.29.0",
+            "numpy": "2.4.6"
+          },
+          "xtb_sha256": "481a1e7d8151fc08e0341b8e06ab60ac09cf1c2628738eeb83346271274bf8f4",
+          "imported_module_versions": {
+            "numpy": "2.4.6",
+            "torch": "2.13.0+cu126",
+            "rdkit": "2026.03.5",
+            "ase": "3.29.0",
+            "fairchem-core": "0.1.dev1+g645af7d03"
+          },
+          "additional_executable_sha256": {},
+          "model": {
+            "checkpoint_sha256": "b2673b85037b075674c25f55c34ffe1ff1e15db924be977b10a184765df0d5ce",
+            "references_sha256": "50e2bf9e6538c948e5381f84dac7dae8d246c58479446114374e631db75e79ba",
+            "inference_sha256": "f1c7a53316b62fcd7468f8ee9fa61826c7ec8a8a41455652e551f2e92c3ce513"
+          },
+          "cacheable": true
+        }
+      }
+    },
+    "fresh_worker0r1_06e9944d1b07": {
+      "producer": {
+        "schema": 2,
+        "source_sha256": "3224a33923d8f6bf2f44f1f91808ba1808a494601f852017baf25f4dbbfb9bc0",
+        "source_scope": "raw_species_v1",
+        "software": {
+          "fairchem-core": "0.1.dev1+g645af7d03",
+          "torch": "2.13.0+cu126",
+          "rdkit": "2026.3.5",
+          "ase": "3.29.0",
+          "numpy": "2.4.6"
+        },
+        "xtb_sha256": "481a1e7d8151fc08e0341b8e06ab60ac09cf1c2628738eeb83346271274bf8f4",
+        "imported_module_versions": {
+          "numpy": "2.4.6",
+          "torch": "2.13.0+cu126",
+          "rdkit": "2026.03.5",
+          "ase": "3.29.0",
+          "fairchem-core": "0.1.dev1+g645af7d03"
+        },
+        "additional_executable_sha256": {},
+        "model": {
+          "checkpoint_sha256": "b2673b85037b075674c25f55c34ffe1ff1e15db924be977b10a184765df0d5ce",
+          "references_sha256": "50e2bf9e6538c948e5381f84dac7dae8d246c58479446114374e631db75e79ba",
+          "inference_sha256": "0a922f0df0b243da47f197f1c61c490ad3fe54de82ba9dd2cbdac4fec93993e6"
+        },
+        "cacheable": true
+      },
+      "settings": {
+        "solv": "alpb",
+        "budget": "nrot-tiered-v1",
+        "conv_tol": 2.5,
+        "conv_hits": 2,
+        "conv_max": 8,
+        "sample_scale": 1.0,
+        "keep_scale": 1.0,
+        "physics": "2026-10-29-canonical-routing-strict-modes-v1",
+        "hessian": "autograd",
+        "dedup": "rmsd-v3-heavy-fallback-etol1.5",
+        "thermal_ensemble": "v3-w15-n10",
+        "thermal_validation_max": 96,
+        "thermal_relax_steps": 400,
+        "thermal_retry_steps": 1200,
+        "seed_offset": 0,
+        "model": "uma-s-1p2p1",
+        "producer": {
+          "schema": 2,
+          "source_sha256": "3224a33923d8f6bf2f44f1f91808ba1808a494601f852017baf25f4dbbfb9bc0",
+          "source_scope": "raw_species_v1",
+          "software": {
+            "fairchem-core": "0.1.dev1+g645af7d03",
+            "torch": "2.13.0+cu126",
+            "rdkit": "2026.3.5",
+            "ase": "3.29.0",
+            "numpy": "2.4.6"
+          },
+          "xtb_sha256": "481a1e7d8151fc08e0341b8e06ab60ac09cf1c2628738eeb83346271274bf8f4",
+          "imported_module_versions": {
+            "numpy": "2.4.6",
+            "torch": "2.13.0+cu126",
+            "rdkit": "2026.03.5",
+            "ase": "3.29.0",
+            "fairchem-core": "0.1.dev1+g645af7d03"
+          },
+          "additional_executable_sha256": {},
+          "model": {
+            "checkpoint_sha256": "b2673b85037b075674c25f55c34ffe1ff1e15db924be977b10a184765df0d5ce",
+            "references_sha256": "50e2bf9e6538c948e5381f84dac7dae8d246c58479446114374e631db75e79ba",
+            "inference_sha256": "0a922f0df0b243da47f197f1c61c490ad3fe54de82ba9dd2cbdac4fec93993e6"
+          },
+          "cacheable": true
+        }
+      }
+    },
+    "secondary1200_worker1_fd1233fa4758": {
+      "producer": {
+        "schema": 2,
+        "source_sha256": "b8e6e88e62944a836a2b170e3bd30c4380b374fb0c4008c6a703dd3fa92cab0d",
+        "source_scope": "raw_species_v1",
+        "software": {
+          "fairchem-core": "0.1.dev1+g645af7d03",
+          "torch": "2.13.0+cu126",
+          "rdkit": "2026.3.5",
+          "ase": "3.29.0",
+          "numpy": "2.4.6"
+        },
+        "xtb_sha256": "481a1e7d8151fc08e0341b8e06ab60ac09cf1c2628738eeb83346271274bf8f4",
+        "imported_module_versions": {
+          "numpy": "2.4.6",
+          "torch": "2.13.0+cu126",
+          "rdkit": "2026.03.5",
+          "ase": "3.29.0",
+          "fairchem-core": "0.1.dev1+g645af7d03"
+        },
+        "additional_executable_sha256": {},
+        "model": {
+          "checkpoint_sha256": "b2673b85037b075674c25f55c34ffe1ff1e15db924be977b10a184765df0d5ce",
+          "references_sha256": "50e2bf9e6538c948e5381f84dac7dae8d246c58479446114374e631db75e79ba",
+          "inference_sha256": "0a922f0df0b243da47f197f1c61c490ad3fe54de82ba9dd2cbdac4fec93993e6"
+        },
+        "cacheable": true
+      },
+      "settings": {
+        "solv": "alpb",
+        "budget": "nrot-tiered-v1",
+        "conv_tol": 2.5,
+        "conv_hits": 2,
+        "conv_max": 8,
+        "sample_scale": 1.0,
+        "keep_scale": 1.0,
+        "physics": "2026-10-29-canonical-routing-strict-modes-v1",
+        "hessian": "autograd",
+        "dedup": "rmsd-v3-heavy-fallback-etol1.5",
+        "thermal_ensemble": "v3-w15-n10",
+        "thermal_validation_max": 96,
+        "thermal_relax_steps": 400,
+        "thermal_retry_steps": 1200,
+        "seed_offset": 0,
+        "model": "uma-s-1p2p1",
+        "producer": {
+          "schema": 2,
+          "source_sha256": "b8e6e88e62944a836a2b170e3bd30c4380b374fb0c4008c6a703dd3fa92cab0d",
+          "source_scope": "raw_species_v1",
+          "software": {
+            "fairchem-core": "0.1.dev1+g645af7d03",
+            "torch": "2.13.0+cu126",
+            "rdkit": "2026.3.5",
+            "ase": "3.29.0",
+            "numpy": "2.4.6"
+          },
+          "xtb_sha256": "481a1e7d8151fc08e0341b8e06ab60ac09cf1c2628738eeb83346271274bf8f4",
+          "imported_module_versions": {
+            "numpy": "2.4.6",
+            "torch": "2.13.0+cu126",
+            "rdkit": "2026.03.5",
+            "ase": "3.29.0",
+            "fairchem-core": "0.1.dev1+g645af7d03"
+          },
+          "additional_executable_sha256": {},
+          "model": {
+            "checkpoint_sha256": "b2673b85037b075674c25f55c34ffe1ff1e15db924be977b10a184765df0d5ce",
+            "references_sha256": "50e2bf9e6538c948e5381f84dac7dae8d246c58479446114374e631db75e79ba",
+            "inference_sha256": "0a922f0df0b243da47f197f1c61c490ad3fe54de82ba9dd2cbdac4fec93993e6"
+          },
+          "cacheable": true
+        }
+      }
+    },
+    "fresh_worker1r1_06e9944d1b07": {
+      "producer": {
+        "schema": 2,
+        "source_sha256": "3224a33923d8f6bf2f44f1f91808ba1808a494601f852017baf25f4dbbfb9bc0",
+        "source_scope": "raw_species_v1",
+        "software": {
+          "fairchem-core": "0.1.dev1+g645af7d03",
+          "torch": "2.13.0+cu126",
+          "rdkit": "2026.3.5",
+          "ase": "3.29.0",
+          "numpy": "2.4.6"
+        },
+        "xtb_sha256": "481a1e7d8151fc08e0341b8e06ab60ac09cf1c2628738eeb83346271274bf8f4",
+        "imported_module_versions": {
+          "numpy": "2.4.6",
+          "torch": "2.13.0+cu126",
+          "rdkit": "2026.03.5",
+          "ase": "3.29.0",
+          "fairchem-core": "0.1.dev1+g645af7d03"
+        },
+        "additional_executable_sha256": {},
+        "model": {
+          "checkpoint_sha256": "b2673b85037b075674c25f55c34ffe1ff1e15db924be977b10a184765df0d5ce",
+          "references_sha256": "50e2bf9e6538c948e5381f84dac7dae8d246c58479446114374e631db75e79ba",
+          "inference_sha256": "0a922f0df0b243da47f197f1c61c490ad3fe54de82ba9dd2cbdac4fec93993e6"
+        },
+        "cacheable": true
+      },
+      "settings": {
+        "solv": "alpb",
+        "budget": "nrot-tiered-v1",
+        "conv_tol": 2.5,
+        "conv_hits": 2,
+        "conv_max": 8,
+        "sample_scale": 1.0,
+        "keep_scale": 1.0,
+        "physics": "2026-10-29-canonical-routing-strict-modes-v1",
+        "hessian": "autograd",
+        "dedup": "rmsd-v3-heavy-fallback-etol1.5",
+        "thermal_ensemble": "v3-w15-n10",
+        "thermal_validation_max": 96,
+        "thermal_relax_steps": 400,
+        "thermal_retry_steps": 1200,
+        "seed_offset": 0,
+        "model": "uma-s-1p2p1",
+        "producer": {
+          "schema": 2,
+          "source_sha256": "3224a33923d8f6bf2f44f1f91808ba1808a494601f852017baf25f4dbbfb9bc0",
+          "source_scope": "raw_species_v1",
+          "software": {
+            "fairchem-core": "0.1.dev1+g645af7d03",
+            "torch": "2.13.0+cu126",
+            "rdkit": "2026.3.5",
+            "ase": "3.29.0",
+            "numpy": "2.4.6"
+          },
+          "xtb_sha256": "481a1e7d8151fc08e0341b8e06ab60ac09cf1c2628738eeb83346271274bf8f4",
+          "imported_module_versions": {
+            "numpy": "2.4.6",
+            "torch": "2.13.0+cu126",
+            "rdkit": "2026.03.5",
+            "ase": "3.29.0",
+            "fairchem-core": "0.1.dev1+g645af7d03"
+          },
+          "additional_executable_sha256": {},
+          "model": {
+            "checkpoint_sha256": "b2673b85037b075674c25f55c34ffe1ff1e15db924be977b10a184765df0d5ce",
+            "references_sha256": "50e2bf9e6538c948e5381f84dac7dae8d246c58479446114374e631db75e79ba",
+            "inference_sha256": "0a922f0df0b243da47f197f1c61c490ad3fe54de82ba9dd2cbdac4fec93993e6"
+          },
+          "cacheable": true
+        }
+      }
+    },
+    "fresh_worker1r1_6c23ef6792b7": {
+      "producer": {
+        "schema": 2,
+        "source_sha256": "3224a33923d8f6bf2f44f1f91808ba1808a494601f852017baf25f4dbbfb9bc0",
+        "source_scope": "raw_species_v1",
+        "software": {
+          "fairchem-core": "0.1.dev1+g645af7d03",
+          "torch": "2.13.0+cu126",
+          "rdkit": "2026.3.5",
+          "ase": "3.29.0",
+          "numpy": "2.4.6"
+        },
+        "xtb_sha256": "481a1e7d8151fc08e0341b8e06ab60ac09cf1c2628738eeb83346271274bf8f4",
+        "imported_module_versions": {
+          "numpy": "2.4.6",
+          "torch": "2.13.0+cu126",
+          "rdkit": "2026.03.5",
+          "ase": "3.29.0",
+          "fairchem-core": "0.1.dev1+g645af7d03"
+        },
+        "additional_executable_sha256": {},
+        "model": {
+          "checkpoint_sha256": "b2673b85037b075674c25f55c34ffe1ff1e15db924be977b10a184765df0d5ce",
+          "references_sha256": "50e2bf9e6538c948e5381f84dac7dae8d246c58479446114374e631db75e79ba",
+          "inference_sha256": "0a922f0df0b243da47f197f1c61c490ad3fe54de82ba9dd2cbdac4fec93993e6"
+        },
+        "cacheable": true
+      },
+      "settings": {
+        "solv": "alpb",
+        "budget": "nrot-tiered-v1",
+        "conv_tol": 2.5,
+        "conv_hits": 2,
+        "conv_max": 8,
+        "sample_scale": 1.0,
+        "keep_scale": 1.0,
+        "physics": "2026-10-29-canonical-routing-strict-modes-v1",
+        "hessian": "autograd",
+        "dedup": "rmsd-v3-heavy-fallback-etol1.5",
+        "thermal_ensemble": "v3-w15-n10",
+        "thermal_validation_max": 96,
+        "thermal_relax_steps": 400,
+        "thermal_retry_steps": 1200,
+        "seed_offset": 0,
+        "model": "uma-s-1p2p1",
+        "producer": {
+          "schema": 2,
+          "source_sha256": "3224a33923d8f6bf2f44f1f91808ba1808a494601f852017baf25f4dbbfb9bc0",
+          "source_scope": "raw_species_v1",
+          "software": {
+            "fairchem-core": "0.1.dev1+g645af7d03",
+            "torch": "2.13.0+cu126",
+            "rdkit": "2026.3.5",
+            "ase": "3.29.0",
+            "numpy": "2.4.6"
+          },
+          "xtb_sha256": "481a1e7d8151fc08e0341b8e06ab60ac09cf1c2628738eeb83346271274bf8f4",
+          "imported_module_versions": {
+            "numpy": "2.4.6",
+            "torch": "2.13.0+cu126",
+            "rdkit": "2026.03.5",
+            "ase": "3.29.0",
+            "fairchem-core": "0.1.dev1+g645af7d03"
+          },
+          "additional_executable_sha256": {},
+          "model": {
+            "checkpoint_sha256": "b2673b85037b075674c25f55c34ffe1ff1e15db924be977b10a184765df0d5ce",
+            "references_sha256": "50e2bf9e6538c948e5381f84dac7dae8d246c58479446114374e631db75e79ba",
+            "inference_sha256": "0a922f0df0b243da47f197f1c61c490ad3fe54de82ba9dd2cbdac4fec93993e6"
+          },
+          "cacheable": true
+        },
+        "spin": 3
+      }
+    }
+  }
+}

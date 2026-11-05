@@ -1,0 +1,15 @@
+{
+  "molecule_71cc5ddaede2ebe8": {
+    "status": "verified_existing_record",
+    "original_task_result_sha256": "aa840827e3a0b5f7110a487823e102c98b1c7ddc04be7f00dc29a055323fee0d",
+    "original_wrapper_status": "execution_failure",
+    "cache_path": "/nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG/analysis/modelseed_boundary_physics_20261105_01/cache/molecule_71cc5ddaede2ebe8/cbd23e1a9a1e6f2fa20193067c3c077d.json",
+    "cache_sha256": "4b7f6464c32ababad41cde33ba90b168038521ad5121fb5362bcaca53abc8a97",
+    "n_validated_minima": 1,
+    "explanation": "The calculator correctly keyed a triplet record with spin=3; the post-calculation wrapper reconstructed a singlet-style key. Raw provenance, returned energy/sigma, spin and full thermal partition verified. No new quantum calculation and no original outcome overwritten.",
+    "physical_calculation_repeated": false,
+    "energy_kj": -394770.0360206904,
+    "sampling_sigma_kj": 0.0,
+    "partition_reconstruction_error_kj": 0.0
+  }
+}
