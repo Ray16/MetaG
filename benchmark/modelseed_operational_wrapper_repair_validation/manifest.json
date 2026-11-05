@@ -1,0 +1,19 @@
+{
+  "schema": "metag-operational-wrapper-repair-precompute-manifest-v1",
+  "utc": "2026-11-05T20:22:40.859300+00:00",
+  "files": {
+    "precompute_source.zip": {
+      "bytes": 265928,
+      "sha256": "3acb2bf9c874986e329668df13e6f1340810542ce3fe70e2f6be42f31b79e967"
+    },
+    "README.md": {
+      "bytes": 2360,
+      "sha256": "7741480a61c20a570842bc4c5f71ed5e147883436f9d6f620ae649bca63cbda7"
+    }
+  },
+  "freeze_sha256": "40269373914f23369be101e0b0925d42c940c9f2269dfef0181a98f88c6ae902",
+  "tests_passed": 9,
+  "launch_outputs_available": false,
+  "original_outcomes_preserved": true,
+  "independent_experimental_labels_added": 0
+}
