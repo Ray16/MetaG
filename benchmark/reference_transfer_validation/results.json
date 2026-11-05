@@ -1,0 +1,1142 @@
+{
+  "scope": "Chemical proton-transfer component test. No primary biochemical reference enrollment, pKa fit or production-reference promotion.",
+  "arms": {
+    "gas_geometry|UMA|ALPB": {
+      "species": {
+        "acetate_acid": {
+          "G_kj": -601455.7029890392,
+          "components_kj": {
+            "electronic_kj": -601517.4841234217,
+            "solvation_kj": -29.38850245773818,
+            "RRHO_kj": 91.16963684023435,
+            "configurational_kj": 0.0
+          },
+          "probabilities": [
+            1.0
+          ],
+          "slots": [
+            "acetate_acid__gas__01"
+          ],
+          "independent_decimal_G_kj": "-601455.70298903920383"
+        },
+        "acetate_ion": {
+          "G_kj": -600272.5419701596,
+          "components_kj": {
+            "electronic_kj": -600044.0555663316,
+            "solvation_kj": -281.6723868430217,
+            "RRHO_kj": 54.90416031206401,
+            "configurational_kj": -1.7181772970291513
+          },
+          "probabilities": [
+            0.503627772633298,
+            0.496372227366702
+          ],
+          "slots": [
+            "acetate_ion__gas__03",
+            "acetate_ion__gas__02"
+          ],
+          "independent_decimal_G_kj": "-600272.54197015958955874199633754928020223373277077"
+        },
+        "mercaptoethanol_acid": {
+          "G_kj": -1452342.460747977,
+          "components_kj": {
+            "electronic_kj": -1452454.4691716596,
+            "solvation_kj": -20.387945333471173,
+            "RRHO_kj": 134.96144709693874,
+            "configurational_kj": -2.565078080827044
+          },
+          "probabilities": [
+            0.4354373104492492,
+            0.38897623161480127,
+            0.17558645793594943
+          ],
+          "slots": [
+            "mercaptoethanol_acid__gas__03",
+            "mercaptoethanol_acid__gas__01",
+            "mercaptoethanol_acid__gas__02"
+          ],
+          "independent_decimal_G_kj": "-1452342.4607479769848930136200759059695303702231534"
+        },
+        "mercaptoethanol_ion": {
+          "G_kj": -1451133.2437988382,
+          "components_kj": {
+            "electronic_kj": -1451005.3136460283,
+            "solvation_kj": -239.41621174678957,
+            "RRHO_kj": 113.20343749293667,
+            "configurational_kj": -1.717378555900002
+          },
+          "probabilities": [
+            0.5132003249790011,
+            0.4867996750209988
+          ],
+          "slots": [
+            "mercaptoethanol_ion__gas__00",
+            "mercaptoethanol_ion__gas__03"
+          ],
+          "independent_decimal_G_kj": "-1451133.2437988382210549348624721640954374387266145"
+        },
+        "ethanolamine_base": {
+          "G_kj": -552197.3434951912,
+          "components_kj": {
+            "electronic_kj": -552357.9954529624,
+            "solvation_kj": -24.023289984852884,
+            "RRHO_kj": 186.70967615639225,
+            "configurational_kj": -2.0344284003168935
+          },
+          "probabilities": [
+            0.6320122225077952,
+            0.3084869176640777,
+            0.059500859828127056
+          ],
+          "slots": [
+            "ethanolamine_base__gas__01",
+            "ethanolamine_base__gas__00",
+            "ethanolamine_base__gas__03"
+          ],
+          "independent_decimal_G_kj": "-552197.34349519118563981460390057697370136683685221"
+        },
+        "ethanolamine_ion": {
+          "G_kj": -553378.8834956038,
+          "components_kj": {
+            "electronic_kj": -553302.3215879129,
+            "solvation_kj": -299.78438722182665,
+            "RRHO_kj": 224.99167858533383,
+            "configurational_kj": -1.769199054574117
+          },
+          "probabilities": [
+            0.5020510959221925,
+            0.4945044085369042,
+            0.0034444955409032737
+          ],
+          "slots": [
+            "ethanolamine_ion__gas__02",
+            "ethanolamine_ion__gas__01",
+            "ethanolamine_ion__gas__00"
+          ],
+          "independent_decimal_G_kj": "-553378.88349560389068119719750769498158391262858538"
+        }
+      },
+      "reactions": {
+        "acetate_transfer": {
+          "prediction_kj": 1.6210184670053422,
+          "evaluated_reference_kj": -27.067381061022193,
+          "error_kj": 28.688399528027535,
+          "absolute_error_kj": 28.688399528027535,
+          "conditional_source_half_width_kj": 0.03424805701521156
+        },
+        "thiol_transfer": {
+          "prediction_kj": 27.676948726177216,
+          "evaluated_reference_kj": 1.438418394638889,
+          "error_kj": 26.23853033153833,
+          "absolute_error_kj": 26.23853033153833,
+          "conditional_source_half_width_kj": 0.5879249787611317
+        }
+      },
+      "MAE_kj": 27.46346492978293
+    },
+    "gas_geometry|UMA|SMD": {
+      "species": {
+        "acetate_acid": {
+          "G_kj": -601450.9205898232,
+          "components_kj": {
+            "electronic_kj": -601517.4841234217,
+            "solvation_kj": -24.606103241683282,
+            "RRHO_kj": 91.16963684023435,
+            "configurational_kj": 0.0
+          },
+          "probabilities": [
+            1.0
+          ],
+          "slots": [
+            "acetate_acid__gas__01"
+          ],
+          "independent_decimal_G_kj": "-601450.920589823148932"
+        },
+        "acetate_ion": {
+          "G_kj": -600284.5280213779,
+          "components_kj": {
+            "electronic_kj": -600044.055618501,
+            "solvation_kj": -293.65845303997713,
+            "RRHO_kj": 54.90416644450501,
+            "configurational_kj": -1.718116281351664
+          },
+          "probabilities": [
+            0.5050465259311763,
+            0.49495347406882373
+          ],
+          "slots": [
+            "acetate_ion__gas__03",
+            "acetate_ion__gas__02"
+          ],
+          "independent_decimal_G_kj": "-600284.52802137792232539976627592915424769442923327"
+        },
+        "mercaptoethanol_acid": {
+          "G_kj": -1452348.9766963564,
+          "components_kj": {
+            "electronic_kj": -1452453.981815051,
+            "solvation_kj": -27.29290275392266,
+            "RRHO_kj": 134.92191916378007,
+            "configurational_kj": -2.6238977153466947
+          },
+          "probabilities": [
+            0.2822617199941866,
+            0.2491594812793605,
+            0.46857879872645297
+          ],
+          "slots": [
+            "mercaptoethanol_acid__gas__03",
+            "mercaptoethanol_acid__gas__01",
+            "mercaptoethanol_acid__gas__02"
+          ],
+          "independent_decimal_G_kj": "-1452348.9766963565623825090688538252493104756179256"
+        },
+        "mercaptoethanol_ion": {
+          "G_kj": -1451130.7290161047,
+          "components_kj": {
+            "electronic_kj": -1451005.313801079,
+            "solvation_kj": -236.901411589001,
+            "RRHO_kj": 113.20339617732765,
+            "configurational_kj": -1.7171996142492505
+          },
+          "probabilities": [
+            0.5145028369140247,
+            0.4854971630859754
+          ],
+          "slots": [
+            "mercaptoethanol_ion__gas__00",
+            "mercaptoethanol_ion__gas__03"
+          ],
+          "independent_decimal_G_kj": "-1451130.7290161047979784407876352887193998709041033"
+        },
+        "ethanolamine_base": {
+          "G_kj": -552207.0053815921,
+          "components_kj": {
+            "electronic_kj": -552354.0860232693,
+            "solvation_kj": -36.442488570680936,
+            "RRHO_kj": 185.7436527491287,
+            "configurational_kj": -2.220522501190674
+          },
+          "probabilities": [
+            0.2310001716225943,
+            0.6352729531013755,
+            0.13372687527603014
+          ],
+          "slots": [
+            "ethanolamine_base__gas__01",
+            "ethanolamine_base__gas__00",
+            "ethanolamine_base__gas__03"
+          ],
+          "independent_decimal_G_kj": "-552207.00538159202995581487757556549247963045956332"
+        },
+        "ethanolamine_ion": {
+          "G_kj": -553373.1226190972,
+          "components_kj": {
+            "electronic_kj": -553292.3571339888,
+            "solvation_kj": -302.044563802227,
+            "RRHO_kj": 223.99414797506282,
+            "configurational_kj": -2.7150692813775823
+          },
+          "probabilities": [
+            0.3537056961944562,
+            0.351069694893842,
+            0.2952246089117019
+          ],
+          "slots": [
+            "ethanolamine_ion__gas__02",
+            "ethanolamine_ion__gas__01",
+            "ethanolamine_ion__gas__00"
+          ],
+          "independent_decimal_G_kj": "-553373.12261909722179691794141431320746089216826599"
+        }
+      },
+      "reactions": {
+        "acetate_transfer": {
+          "prediction_kj": 0.27533094014506787,
+          "evaluated_reference_kj": -27.067381061022193,
+          "error_kj": 27.34271200116726,
+          "absolute_error_kj": 27.34271200116726,
+          "conditional_source_half_width_kj": 0.03424805701521156
+        },
+        "thiol_transfer": {
+          "prediction_kj": 52.13044274656568,
+          "evaluated_reference_kj": 1.438418394638889,
+          "error_kj": 50.69202435192679,
+          "absolute_error_kj": 50.69202435192679,
+          "conditional_source_half_width_kj": 0.5879249787611317
+        }
+      },
+      "MAE_kj": 39.01736817654702
+    },
+    "gas_geometry|DFT|ALPB": {
+      "species": {
+        "acetate_acid": {
+          "G_kj": -601457.4456043672,
+          "components_kj": {
+            "electronic_kj": -601519.2267387497,
+            "solvation_kj": -29.38850245773818,
+            "RRHO_kj": 91.16963684023435,
+            "configurational_kj": 0.0
+          },
+          "probabilities": [
+            1.0
+          ],
+          "slots": [
+            "acetate_acid__gas__01"
+          ],
+          "independent_decimal_G_kj": "-601457.44560436720383"
+        },
+        "acetate_ion": {
+          "G_kj": -600274.3874715527,
+          "components_kj": {
+            "electronic_kj": -600045.9010437515,
+            "solvation_kj": -281.672384298206,
+            "RRHO_kj": 54.90415718999414,
+            "configurational_kj": -1.718200692969537
+          },
+          "probabilities": [
+            0.502905475118539,
+            0.4970945248814609
+          ],
+          "slots": [
+            "acetate_ion__gas__03",
+            "acetate_ion__gas__02"
+          ],
+          "independent_decimal_G_kj": "-600274.38747155272552917374292320397454931254764246"
+        },
+        "mercaptoethanol_acid": {
+          "G_kj": -1452346.9610733693,
+          "components_kj": {
+            "electronic_kj": -1452458.9799401169,
+            "solvation_kj": -20.379783486686573,
+            "RRHO_kj": 134.96732300391267,
+            "configurational_kj": -2.5686727693296376
+          },
+          "probabilities": [
+            0.4398157975144702,
+            0.3820236818814676,
+            0.1781605206040621
+          ],
+          "slots": [
+            "mercaptoethanol_acid__gas__03",
+            "mercaptoethanol_acid__gas__01",
+            "mercaptoethanol_acid__gas__02"
+          ],
+          "independent_decimal_G_kj": "-1452346.9610733690600165766998834571438194273635181"
+        },
+        "mercaptoethanol_ion": {
+          "G_kj": -1451137.5095033254,
+          "components_kj": {
+            "electronic_kj": -1451009.5786362295,
+            "solvation_kj": -239.4164499698254,
+            "RRHO_kj": 113.20381836268905,
+            "configurational_kj": -1.7182354889704274
+          },
+          "probabilities": [
+            0.5011930616277225,
+            0.4988069383722776
+          ],
+          "slots": [
+            "mercaptoethanol_ion__gas__00",
+            "mercaptoethanol_ion__gas__03"
+          ],
+          "independent_decimal_G_kj": "-1451137.5095033255945112033292267595421069703699342"
+        },
+        "ethanolamine_base": {
+          "G_kj": -552198.7910561403,
+          "components_kj": {
+            "electronic_kj": -552359.4405970561,
+            "solvation_kj": -24.03097639999409,
+            "RRHO_kj": 186.70866923452795,
+            "configurational_kj": -2.0281519189180295
+          },
+          "probabilities": [
+            0.6304720299113649,
+            0.3121978940982482,
+            0.057330075990387024
+          ],
+          "slots": [
+            "ethanolamine_base__gas__01",
+            "ethanolamine_base__gas__00",
+            "ethanolamine_base__gas__03"
+          ],
+          "independent_decimal_G_kj": "-552198.79105614040542240187612517908190004499820526"
+        },
+        "ethanolamine_ion": {
+          "G_kj": -553380.274818191,
+          "components_kj": {
+            "electronic_kj": -553303.7105336172,
+            "solvation_kj": -299.7857048441736,
+            "RRHO_kj": 224.9915272087704,
+            "configurational_kj": -1.7701069382857297
+          },
+          "probabilities": [
+            0.4996073459890539,
+            0.4968793884961446,
+            0.003513265514801445
+          ],
+          "slots": [
+            "ethanolamine_ion__gas__02",
+            "ethanolamine_ion__gas__01",
+            "ethanolamine_ion__gas__00"
+          ],
+          "independent_decimal_G_kj": "-553380.27481819095680078077723701870230237504388858"
+        }
+      },
+      "reactions": {
+        "acetate_transfer": {
+          "prediction_kj": 1.574370763846673,
+          "evaluated_reference_kj": -27.067381061022193,
+          "error_kj": 28.641751824868866,
+          "absolute_error_kj": 28.641751824868866,
+          "conditional_source_half_width_kj": 0.03424805701521156
+        },
+        "thiol_transfer": {
+          "prediction_kj": 27.967807993176393,
+          "evaluated_reference_kj": 1.438418394638889,
+          "error_kj": 26.529389598537506,
+          "absolute_error_kj": 26.529389598537506,
+          "conditional_source_half_width_kj": 0.5879249787611317
+        }
+      },
+      "MAE_kj": 27.585570711703184
+    },
+    "gas_geometry|DFT|SMD": {
+      "species": {
+        "acetate_acid": {
+          "G_kj": -601452.6632051511,
+          "components_kj": {
+            "electronic_kj": -601519.2267387497,
+            "solvation_kj": -24.606103241683282,
+            "RRHO_kj": 91.16963684023435,
+            "configurational_kj": 0.0
+          },
+          "probabilities": [
+            1.0
+          ],
+          "slots": [
+            "acetate_acid__gas__01"
+          ],
+          "independent_decimal_G_kj": "-601452.663205151148932"
+        },
+        "acetate_ion": {
+          "G_kj": -600286.3735126094,
+          "components_kj": {
+            "electronic_kj": -600045.9010857604,
+            "solvation_kj": -293.6584403338337,
+            "RRHO_kj": 54.90416332257605,
+            "configurational_kj": -1.7181498376753772
+          },
+          "probabilities": [
+            0.5043242610139004,
+            0.4956757389860996
+          ],
+          "slots": [
+            "acetate_ion__gas__03",
+            "acetate_ion__gas__02"
+          ],
+          "independent_decimal_G_kj": "-600286.37351260937283124955081778326724577163972908"
+        },
+        "mercaptoethanol_acid": {
+          "G_kj": -1452353.4900119214,
+          "components_kj": {
+            "electronic_kj": -1452458.4972625643,
+            "solvation_kj": -27.301641650724694,
+            "RRHO_kj": 134.92528523964333,
+            "configurational_kj": -2.61639294602295
+          },
+          "probabilities": [
+            0.28360986762152035,
+            0.24342703384774395,
+            0.4729630985307357
+          ],
+          "slots": [
+            "mercaptoethanol_acid__gas__03",
+            "mercaptoethanol_acid__gas__01",
+            "mercaptoethanol_acid__gas__02"
+          ],
+          "independent_decimal_G_kj": "-1452353.4900119212958902557974283065195049855146916"
+        },
+        "mercaptoethanol_ion": {
+          "G_kj": -1451134.994565403,
+          "components_kj": {
+            "electronic_kj": -1451009.5786361643,
+            "solvation_kj": -236.9014946099893,
+            "RRHO_kj": 113.20377701591019,
+            "configurational_kj": -1.7182116448207208
+          },
+          "probabilities": [
+            0.5024965562196649,
+            0.497503443780335
+          ],
+          "slots": [
+            "mercaptoethanol_ion__gas__00",
+            "mercaptoethanol_ion__gas__03"
+          ],
+          "independent_decimal_G_kj": "-1451134.9945654030935773721716056622708978240867174"
+        },
+        "ethanolamine_base": {
+          "G_kj": -552208.4583910102,
+          "components_kj": {
+            "electronic_kj": -552355.5560906518,
+            "solvation_kj": -36.45170592340428,
+            "RRHO_kj": 185.7469774804404,
+            "configurational_kj": -2.1975719154680586
+          },
+          "probabilities": [
+            0.22993130136671835,
+            0.6415035014690375,
+            0.1285651971642442
+          ],
+          "slots": [
+            "ethanolamine_base__gas__01",
+            "ethanolamine_base__gas__00",
+            "ethanolamine_base__gas__03"
+          ],
+          "independent_decimal_G_kj": "-552208.45839101018060877475389101723951099349165435"
+        },
+        "ethanolamine_ion": {
+          "G_kj": -553374.5284222845,
+          "components_kj": {
+            "electronic_kj": -553293.6216235673,
+            "solvation_kj": -302.1700545248928,
+            "RRHO_kj": 223.98005101772173,
+            "configurational_kj": -2.7167952101109467
+          },
+          "probabilities": [
+            0.34993388639712086,
+            0.35070116301105875,
+            0.29936495059182033
+          ],
+          "slots": [
+            "ethanolamine_ion__gas__02",
+            "ethanolamine_ion__gas__01",
+            "ethanolamine_ion__gas__00"
+          ],
+          "independent_decimal_G_kj": "-553374.52842228451641798371699483400597158108698351"
+        }
+      },
+      "reactions": {
+        "acetate_transfer": {
+          "prediction_kj": 0.2196612673578784,
+          "evaluated_reference_kj": -27.067381061022193,
+          "error_kj": 27.28704232838007,
+          "absolute_error_kj": 27.28704232838007,
+          "conditional_source_half_width_kj": 0.03424805701521156
+        },
+        "thiol_transfer": {
+          "prediction_kj": 52.425415243953466,
+          "evaluated_reference_kj": 1.438418394638889,
+          "error_kj": 50.98699684931458,
+          "absolute_error_kj": 50.98699684931458,
+          "conditional_source_half_width_kj": 0.5879249787611317
+        }
+      },
+      "MAE_kj": 39.13701958884732
+    },
+    "aqueous_geometry|UMA|ALPB": {
+      "species": {
+        "acetate_acid": {
+          "G_kj": -601458.196200457,
+          "components_kj": {
+            "electronic_kj": -601516.3979596515,
+            "solvation_kj": -31.48058389595421,
+            "RRHO_kj": 89.68234309046295,
+            "configurational_kj": 0.0
+          },
+          "probabilities": [
+            1.0
+          ],
+          "slots": [
+            "acetate_acid__aqueous__01"
+          ],
+          "independent_decimal_G_kj": "-601458.19620045699126"
+        },
+        "acetate_ion": {
+          "G_kj": -600274.0680822406,
+          "components_kj": {
+            "electronic_kj": -600041.9440666159,
+            "solvation_kj": -285.9512105613752,
+            "RRHO_kj": 55.54535085463084,
+            "configurational_kj": -1.718155917997065
+          },
+          "probabilities": [
+            0.5041800535414145,
+            0.49581994645858557
+          ],
+          "slots": [
+            "acetate_ion__aqueous__03",
+            "acetate_ion__aqueous__02"
+          ],
+          "independent_decimal_G_kj": "-600274.06808224064494581302209975095008449613330581"
+        },
+        "mercaptoethanol_acid": {
+          "G_kj": -1452343.7832948156,
+          "components_kj": {
+            "electronic_kj": -1452454.2311038324,
+            "solvation_kj": -20.73866652914883,
+            "RRHO_kj": 133.8062925091786,
+            "configurational_kj": -2.619816963027351
+          },
+          "probabilities": [
+            0.41919465549804075,
+            0.376261194116377,
+            0.20454415038558219
+          ],
+          "slots": [
+            "mercaptoethanol_acid__aqueous__03",
+            "mercaptoethanol_acid__aqueous__00",
+            "mercaptoethanol_acid__aqueous__02"
+          ],
+          "independent_decimal_G_kj": "-1452343.7832948156306114404633309852269190439203844"
+        },
+        "mercaptoethanol_ion": {
+          "G_kj": -1451135.8022450134,
+          "components_kj": {
+            "electronic_kj": -1451002.855682581,
+            "solvation_kj": -244.0646027504194,
+            "RRHO_kj": 112.83995474900962,
+            "configurational_kj": -1.7219144307660876
+          },
+          "probabilities": [
+            0.5091421107520971,
+            0.49067225500044553,
+            0.00018563424745724605
+          ],
+          "slots": [
+            "mercaptoethanol_ion__aqueous__00",
+            "mercaptoethanol_ion__aqueous__01",
+            "mercaptoethanol_ion__aqueous__02"
+          ],
+          "independent_decimal_G_kj": "-1451135.8022450133585132784717103820029140826242900"
+        },
+        "ethanolamine_base": {
+          "G_kj": -552200.7290801724,
+          "components_kj": {
+            "electronic_kj": -552356.1744966462,
+            "solvation_kj": -26.628747350632985,
+            "RRHO_kj": 184.8606305906639,
+            "configurational_kj": -2.786466766289777
+          },
+          "probabilities": [
+            0.36427815692335036,
+            0.45139823183477057,
+            0.15207398902194538,
+            0.03224962221993375
+          ],
+          "slots": [
+            "ethanolamine_base__aqueous__01",
+            "ethanolamine_base__aqueous__02",
+            "ethanolamine_base__aqueous__00",
+            "ethanolamine_base__aqueous__03"
+          ],
+          "independent_decimal_G_kj": "-552200.72908017235222639537704399597697268165654256"
+        },
+        "ethanolamine_ion": {
+          "G_kj": -553378.3860463332,
+          "components_kj": {
+            "electronic_kj": -553293.6886382923,
+            "solvation_kj": -307.80817684332266,
+            "RRHO_kj": 224.8707870356579,
+            "configurational_kj": -1.7600182333859835
+          },
+          "probabilities": [
+            0.5075197755856143,
+            0.4897385766231491,
+            0.0027416477912366264
+          ],
+          "slots": [
+            "ethanolamine_ion__aqueous__02",
+            "ethanolamine_ion__aqueous__01",
+            "ethanolamine_ion__aqueous__00"
+          ],
+          "independent_decimal_G_kj": "-553378.38604633329996523524734951409289924341633749"
+        }
+      },
+      "reactions": {
+        "acetate_transfer": {
+          "prediction_kj": 6.471152055542916,
+          "evaluated_reference_kj": -27.067381061022193,
+          "error_kj": 33.538533116565105,
+          "absolute_error_kj": 33.538533116565105,
+          "conditional_source_half_width_kj": 0.03424805701521156
+        },
+        "thiol_transfer": {
+          "prediction_kj": 30.32408364128787,
+          "evaluated_reference_kj": 1.438418394638889,
+          "error_kj": 28.885665246648983,
+          "absolute_error_kj": 28.885665246648983,
+          "conditional_source_half_width_kj": 0.5879249787611317
+        }
+      },
+      "MAE_kj": 31.212099181607044
+    },
+    "aqueous_geometry|UMA|SMD": {
+      "species": {
+        "acetate_acid": {
+          "G_kj": -601453.2536384321,
+          "components_kj": {
+            "electronic_kj": -601516.3979596515,
+            "solvation_kj": -26.53802187100621,
+            "RRHO_kj": 89.68234309046295,
+            "configurational_kj": 0.0
+          },
+          "probabilities": [
+            1.0
+          ],
+          "slots": [
+            "acetate_acid__aqueous__01"
+          ],
+          "independent_decimal_G_kj": "-601453.25363843204326"
+        },
+        "acetate_ion": {
+          "G_kj": -600287.0711606831,
+          "components_kj": {
+            "electronic_kj": -600041.9441153074,
+            "solvation_kj": -298.9542990386098,
+            "RRHO_kj": 55.54535143951664,
+            "configurational_kj": -1.7180977765606567
+          },
+          "probabilities": [
+            0.5054036791269135,
+            0.49459632087308647
+          ],
+          "slots": [
+            "acetate_ion__aqueous__03",
+            "acetate_ion__aqueous__02"
+          ],
+          "independent_decimal_G_kj": "-600287.07116068313887545808080626700291001356197391"
+        },
+        "mercaptoethanol_acid": {
+          "G_kj": -1452349.9838233797,
+          "components_kj": {
+            "electronic_kj": -1452453.8142703667,
+            "solvation_kj": -27.245235130858223,
+            "RRHO_kj": 133.73305330380805,
+            "configurational_kj": -2.657371185828949
+          },
+          "probabilities": [
+            0.3092487363271088,
+            0.25248372107264233,
+            0.4382675426002488
+          ],
+          "slots": [
+            "mercaptoethanol_acid__aqueous__03",
+            "mercaptoethanol_acid__aqueous__00",
+            "mercaptoethanol_acid__aqueous__02"
+          ],
+          "independent_decimal_G_kj": "-1452349.9838233797317569421470431306574265784754044"
+        },
+        "mercaptoethanol_ion": {
+          "G_kj": -1451129.6416534218,
+          "components_kj": {
+            "electronic_kj": -1451002.786058314,
+            "solvation_kj": -237.94755026614547,
+            "RRHO_kj": 112.83406427190744,
+            "configurational_kj": -1.742109113670285
+          },
+          "probabilities": [
+            0.5100848639804126,
+            0.48847533864993914,
+            0.0014397973696482166
+          ],
+          "slots": [
+            "mercaptoethanol_ion__aqueous__00",
+            "mercaptoethanol_ion__aqueous__01",
+            "mercaptoethanol_ion__aqueous__02"
+          ],
+          "independent_decimal_G_kj": "-1451129.6416534219221221105118781694347309908257209"
+        },
+        "ethanolamine_base": {
+          "G_kj": -552208.8350786292,
+          "components_kj": {
+            "electronic_kj": -552354.4471112151,
+            "solvation_kj": -35.778912761626216,
+            "RRHO_kj": 184.49677729306106,
+            "configurational_kj": -3.1058319455249572
+          },
+          "probabilities": [
+            0.27060655747754064,
+            0.16233373108652985,
+            0.45464252042422265,
+            0.11241719101170693
+          ],
+          "slots": [
+            "ethanolamine_base__aqueous__01",
+            "ethanolamine_base__aqueous__02",
+            "ethanolamine_base__aqueous__00",
+            "ethanolamine_base__aqueous__03"
+          ],
+          "independent_decimal_G_kj": "-552208.83507862917718110664387653923598250215814184"
+        },
+        "ethanolamine_ion": {
+          "G_kj": -553378.2622891768,
+          "components_kj": {
+            "electronic_kj": -553290.1981694831,
+            "solvation_kj": -310.2254789740092,
+            "RRHO_kj": 224.5500397520463,
+            "configurational_kj": -2.388680471819437
+          },
+          "probabilities": [
+            0.45213521453118216,
+            0.4376451768563934,
+            0.1102196086124244
+          ],
+          "slots": [
+            "ethanolamine_ion__aqueous__02",
+            "ethanolamine_ion__aqueous__01",
+            "ethanolamine_ion__aqueous__00"
+          ],
+          "independent_decimal_G_kj": "-553378.26228917690232737714966725755575647465740645"
+        }
+      },
+      "reactions": {
+        "acetate_transfer": {
+          "prediction_kj": -3.2447327985428274,
+          "evaluated_reference_kj": -27.067381061022193,
+          "error_kj": 23.822648262479365,
+          "absolute_error_kj": 23.822648262479365,
+          "conditional_source_half_width_kj": 0.03424805701521156
+        },
+        "thiol_transfer": {
+          "prediction_kj": 50.9149594103219,
+          "evaluated_reference_kj": 1.438418394638889,
+          "error_kj": 49.47654101568301,
+          "absolute_error_kj": 49.47654101568301,
+          "conditional_source_half_width_kj": 0.5879249787611317
+        }
+      },
+      "MAE_kj": 36.64959463908119
+    },
+    "aqueous_geometry|DFT|ALPB": {
+      "species": {
+        "acetate_acid": {
+          "G_kj": -601459.936678964,
+          "components_kj": {
+            "electronic_kj": -601518.1384381584,
+            "solvation_kj": -31.48058389595421,
+            "RRHO_kj": 89.68234309046295,
+            "configurational_kj": 0.0
+          },
+          "probabilities": [
+            1.0
+          ],
+          "slots": [
+            "acetate_acid__aqueous__01"
+          ],
+          "independent_decimal_G_kj": "-601459.93667896389126"
+        },
+        "acetate_ion": {
+          "G_kj": -600275.9350017338,
+          "components_kj": {
+            "electronic_kj": -600043.8109581958,
+            "solvation_kj": -285.95120890422106,
+            "RRHO_kj": 55.54535048341441,
+            "configurational_kj": -1.7181851172290334
+          },
+          "probabilities": [
+            0.5034034405335024,
+            0.49659655946649767
+          ],
+          "slots": [
+            "acetate_ion__aqueous__03",
+            "acetate_ion__aqueous__02"
+          ],
+          "independent_decimal_G_kj": "-600275.93500173378161448184272464730173939807245835"
+        },
+        "mercaptoethanol_acid": {
+          "G_kj": -1452348.2777102403,
+          "components_kj": {
+            "electronic_kj": -1452458.7373294453,
+            "solvation_kj": -20.731583181837657,
+            "RRHO_kj": 133.81183960606506,
+            "configurational_kj": -2.6206372191897045
+          },
+          "probabilities": [
+            0.4240758468623403,
+            0.3698248078833349,
+            0.20609934525432486
+          ],
+          "slots": [
+            "mercaptoethanol_acid__aqueous__03",
+            "mercaptoethanol_acid__aqueous__00",
+            "mercaptoethanol_acid__aqueous__02"
+          ],
+          "independent_decimal_G_kj": "-1452348.2777102403758585566631667611955864366755573"
+        },
+        "mercaptoethanol_ion": {
+          "G_kj": -1451140.0615105194,
+          "components_kj": {
+            "electronic_kj": -1451007.1135549557,
+            "solvation_kj": -244.06525585186614,
+            "RRHO_kj": 112.83988020273803,
+            "configurational_kj": -1.7225799143142666
+          },
+          "probabilities": [
+            0.4998776572142342,
+            0.4999242681624846,
+            0.0001980746232811406
+          ],
+          "slots": [
+            "mercaptoethanol_ion__aqueous__00",
+            "mercaptoethanol_ion__aqueous__01",
+            "mercaptoethanol_ion__aqueous__02"
+          ],
+          "independent_decimal_G_kj": "-1451140.0615105192699535374523220024804255788129841"
+        },
+        "ethanolamine_base": {
+          "G_kj": -552202.1565462889,
+          "components_kj": {
+            "electronic_kj": -552357.6200227719,
+            "solvation_kj": -26.61447746470317,
+            "RRHO_kj": 184.86473355505342,
+            "configurational_kj": -2.7867796073933744
+          },
+          "probabilities": [
+            0.3663403307490046,
+            0.4480559263188675,
+            0.15442105040590598,
+            0.031182692526221883
+          ],
+          "slots": [
+            "ethanolamine_base__aqueous__01",
+            "ethanolamine_base__aqueous__02",
+            "ethanolamine_base__aqueous__00",
+            "ethanolamine_base__aqueous__03"
+          ],
+          "independent_decimal_G_kj": "-552202.15654628888646516414020308209978169244509719"
+        },
+        "ethanolamine_ion": {
+          "G_kj": -553379.722082945,
+          "components_kj": {
+            "electronic_kj": -553295.0186811816,
+            "solvation_kj": -307.8105595999447,
+            "RRHO_kj": 224.86875828212175,
+            "configurational_kj": -1.7616004456632792
+          },
+          "probabilities": [
+            0.48925253386714096,
+            0.5078796282586586,
+            0.002867837874200403
+          ],
+          "slots": [
+            "ethanolamine_ion__aqueous__02",
+            "ethanolamine_ion__aqueous__01",
+            "ethanolamine_ion__aqueous__00"
+          ],
+          "independent_decimal_G_kj": "-553379.72208294508605180495543724511639914524358885"
+        }
+      },
+      "reactions": {
+        "acetate_transfer": {
+          "prediction_kj": 6.436140573932789,
+          "evaluated_reference_kj": -27.067381061022193,
+          "error_kj": 33.50352163495498,
+          "absolute_error_kj": 33.50352163495498,
+          "conditional_source_half_width_kj": 0.03424805701521156
+        },
+        "thiol_transfer": {
+          "prediction_kj": 30.650663064792752,
+          "evaluated_reference_kj": 1.438418394638889,
+          "error_kj": 29.212244670153865,
+          "absolute_error_kj": 29.212244670153865,
+          "conditional_source_half_width_kj": 0.5879249787611317
+        }
+      },
+      "MAE_kj": 31.35788315255442
+    },
+    "aqueous_geometry|DFT|SMD": {
+      "species": {
+        "acetate_acid": {
+          "G_kj": -601454.994116939,
+          "components_kj": {
+            "electronic_kj": -601518.1384381584,
+            "solvation_kj": -26.53802187100621,
+            "RRHO_kj": 89.68234309046295,
+            "configurational_kj": 0.0
+          },
+          "probabilities": [
+            1.0
+          ],
+          "slots": [
+            "acetate_acid__aqueous__01"
+          ],
+          "independent_decimal_G_kj": "-601454.99411693894326"
+        },
+        "acetate_ion": {
+          "G_kj": -600288.938070753,
+          "components_kj": {
+            "electronic_kj": -600043.8109974652,
+            "solvation_kj": -298.95428795843156,
+            "RRHO_kj": 55.54535106831621,
+            "configurational_kj": -1.7181363976255917
+          },
+          "probabilities": [
+            0.5046270995985123,
+            0.4953729004014877
+          ],
+          "slots": [
+            "acetate_ion__aqueous__03",
+            "acetate_ion__aqueous__02"
+          ],
+          "independent_decimal_G_kj": "-600288.93807075296749647829727809366245791097075274"
+        },
+        "mercaptoethanol_acid": {
+          "G_kj": -1452354.4847106286,
+          "components_kj": {
+            "electronic_kj": -1452458.3211862927,
+            "solvation_kj": -27.247168364517147,
+            "RRHO_kj": 133.73646736591974,
+            "configurational_kj": -2.652823337132886
+          },
+          "probabilities": [
+            0.31203398252033127,
+            0.24751763821951847,
+            0.4404483792601502
+          ],
+          "slots": [
+            "mercaptoethanol_acid__aqueous__03",
+            "mercaptoethanol_acid__aqueous__00",
+            "mercaptoethanol_acid__aqueous__02"
+          ],
+          "independent_decimal_G_kj": "-1452354.4847106286271417991556068736128360778853509"
+        },
+        "mercaptoethanol_ion": {
+          "G_kj": -1451133.9009820628,
+          "components_kj": {
+            "electronic_kj": -1451007.0393250096,
+            "solvation_kj": -237.95118482371367,
+            "RRHO_kj": 112.83359499428471,
+            "configurational_kj": -1.7440672237900579
+          },
+          "probabilities": [
+            0.5007905011436548,
+            0.4976732518428105,
+            0.001536247013534751
+          ],
+          "slots": [
+            "mercaptoethanol_ion__aqueous__00",
+            "mercaptoethanol_ion__aqueous__01",
+            "mercaptoethanol_ion__aqueous__02"
+          ],
+          "independent_decimal_G_kj": "-1451133.9009820628069240195019460335440041866080364"
+        },
+        "ethanolamine_base": {
+          "G_kj": -552210.2715208874,
+          "components_kj": {
+            "electronic_kj": -552355.9063673387,
+            "solvation_kj": -35.78064524189993,
+            "RRHO_kj": 184.50293815366805,
+            "configurational_kj": -3.0874464605197303
+          },
+          "probabilities": [
+            0.2711548212993538,
+            0.160549351197632,
+            0.4599906740624622,
+            0.10830515344055196
+          ],
+          "slots": [
+            "ethanolamine_base__aqueous__01",
+            "ethanolamine_base__aqueous__02",
+            "ethanolamine_base__aqueous__00",
+            "ethanolamine_base__aqueous__03"
+          ],
+          "independent_decimal_G_kj": "-552210.27152088743824059930040820463651656563554115"
+        },
+        "ethanolamine_ion": {
+          "G_kj": -553379.6107158063,
+          "components_kj": {
+            "electronic_kj": -553291.3990792802,
+            "solvation_kj": -310.3429575152907,
+            "RRHO_kj": 224.53515155765803,
+            "configurational_kj": -2.403830568357456
+          },
+          "probabilities": [
+            0.4336883545289094,
+            0.45159376576674093,
+            0.11471787970434962
+          ],
+          "slots": [
+            "ethanolamine_ion__aqueous__02",
+            "ethanolamine_ion__aqueous__01",
+            "ethanolamine_ion__aqueous__00"
+          ],
+          "independent_decimal_G_kj": "-553379.61071580627509985074520156724095417016895123"
+        }
+      },
+      "reactions": {
+        "acetate_transfer": {
+          "prediction_kj": -3.2831487328512594,
+          "evaluated_reference_kj": -27.067381061022193,
+          "error_kj": 23.784232328170933,
+          "absolute_error_kj": 23.784232328170933,
+          "conditional_source_half_width_kj": 0.03424805701521156
+        },
+        "thiol_transfer": {
+          "prediction_kj": 51.24453364696819,
+          "evaluated_reference_kj": 1.438418394638889,
+          "error_kj": 49.806115252329306,
+          "absolute_error_kj": 49.806115252329306,
+          "conditional_source_half_width_kj": 0.5879249787611317
+        }
+      },
+      "MAE_kj": 36.79517379025012
+    }
+  },
+  "n_species": 6,
+  "n_optimized_starting_poses": 48,
+  "n_retained_geometries": 30,
+  "chemical_reference": {
+    "source_DOI": "10.1063/1.1416902",
+    "source_URL": "https://www.nist.gov/system/files/documents/srd/jpcrd615.pdf",
+    "source_access": "Primary NIST PDF read through the web tool; direct binary downloads returned403. No locally owned PDF or visual-verification claim yet.",
+    "conditions": {
+      "T_K": 298.15,
+      "ionic_strength_M": 0,
+      "solvent": "water",
+      "standard_state": "unit-molality ideal solution"
+    },
+    "sources": {
+      "acetate": {
+        "pKa": 4.756,
+        "subjective_uncertainty": 0.003,
+        "table": "7.2",
+        "printed_page": 238,
+        "PDF_page": 8
+      },
+      "mercaptoethanol": {
+        "pKa": 9.75,
+        "subjective_uncertainty": 0.1,
+        "table": "7.43",
+        "printed_page": 308,
+        "PDF_page": 78
+      },
+      "ethanolamine": {
+        "pKa": 9.498,
+        "subjective_uncertainty": 0.003,
+        "table": "7.28",
+        "printed_page": 277,
+        "PDF_page": 47
+      }
+    },
+    "interpretation": "Evaluated chemical proton-transfer energies, not standard transformed biochemical-pool labels. The same proton, charge, elemental and uniform standard-state gauges cancel in each2-to-2exchange. Acid/base states remain distinct; no Alberty or empirical pKa term enters predicted raw energies.",
+    "uncertainty": "NIST approximate subjective assessment, not SD/CI; parameter covariance not supplied. Sum bounds are conditional sensitivity intervals, not predictive confidence.",
+    "development_exposure": "Known buffer constants and class approximations are part of historical MetaG development. This is component/model validation, not primary independent metabolic test enrollment.",
+    "chemical_reference_kj": {
+      "acetate_transfer": -27.067381061022193,
+      "thiol_transfer": 1.438418394638889
+    },
+    "conditional_source_half_width_kj": {
+      "acetate_transfer": 0.03424805701521156,
+      "thiol_transfer": 0.5879249787611317
+    }
+  },
+  "primary_independent_metabolic_references_added": 0,
+  "production_reference_policy_adopted": false,
+  "limitations": [
+    "Two correlated chemical proton-transfer reactions, not a biochemical-pool benchmark.",
+    "Four starting poses are a finite search, not proof of full conformational completeness.",
+    "Aqueous RRHO uses approximate effective-potential curvature; alternative electronic/solvent arms retain that thermal model.",
+    "Source uncertainties are subjective, covariance is unknown, and component-model parameter exposure is incompletely indexed.",
+    "No statistical generalization, total-error interval, physical-reference promotion or label-fitted correction is established."
+  ]
+}

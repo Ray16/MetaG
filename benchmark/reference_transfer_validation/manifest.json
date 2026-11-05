@@ -1,0 +1,14 @@
+{
+  "files": {
+    "calculation_records.zip": "189b79baaecb1c54483b214f075b8e3583e56ad44ec54fe9d85396773fe28759",
+    "results.json": "3c34f447c0029bb87886cbc9c7db8b0dc40cbab46d371717e3db10b0c0c07a48",
+    "reference.json": "fec29ed018f2e3fd116e9ceea957050ac1f94ae0b0cc78c2004aab0fb21bc7f9",
+    "component_diagnosis.json": "7f3071732980c58e070c9bc5ddf838eb8ff5da172d3d2f9663731cb3bceb2385",
+    "quantity_scope_audit.json": "55e36cc69771cf111eac159c0d4cf5d184b81c726b4c79c20140f20b3fde512e",
+    "reference_transfer.py": "6784c5b1aa4e2826734206597c4c70ddea03afc5e04ba28ca62364e879253d01",
+    "reference_transfer_numbers.tex": "fe81c0e1b238b1f4d9ecff629a573d84ddd2417218bb04c48fd8c4fdb876ceb3",
+    "reference_transfer_table.tex": "ca8789b62d1ab4d494459339ff468e78f83c696b90439e28ce57c6e9f3a32c12",
+    "README.md": "7399c64768b0ea365a7aedfa9be73e9d1697ac301ad01c8a1ce28a32f4a16bec"
+  },
+  "scope": "Complete chemical component test with all eight arms; no independent metabolic or production-promotion claim."
+}

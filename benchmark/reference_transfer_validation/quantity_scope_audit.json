@@ -1,0 +1,33 @@
+{
+  "scope": "Algebraic target audit. The raw chemical proton-transfer control must not be scored as a transformed biochemical-pool reaction.",
+  "reactions": {
+    "acetate_transfer": {
+      "reference_energy_coefficients": {
+        "(0, 'CC(=O)O')": 0,
+        "(0, 'NCCO')": 0
+      },
+      "pKa_term_coefficients": {
+        "(4.75, 'acid')": 0.0,
+        "(10.6, 'base')": 0.0
+      },
+      "proton_reservoir_coefficient": 0,
+      "transformed_pool_reaction_is_identity": true,
+      "chemical_reference_is_a_different_quantity": true
+    },
+    "thiol_transfer": {
+      "reference_energy_coefficients": {
+        "(0, 'OCCS')": 0,
+        "(0, 'NCCO')": 0
+      },
+      "pKa_term_coefficients": {
+        "(8.7, 'acid')": 0.0,
+        "(10.6, 'base')": 0.0
+      },
+      "proton_reservoir_coefficient": 0,
+      "transformed_pool_reaction_is_identity": true,
+      "chemical_reference_is_a_different_quantity": true
+    }
+  },
+  "model_energies_used": false,
+  "primary_benchmark_enrolled": false
+}

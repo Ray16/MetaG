@@ -1,0 +1,176 @@
+{
+  "utc": "2026-11-05T07:09:43.804452+00:00",
+  "scope": "Post-outcome component and base-cancelling contrast diagnosis; not another independent reference, prespecified success test or model-selection rule.",
+  "arms": {
+    "gas_geometry|UMA|ALPB": {
+      "component_sums_kj": {
+        "acetate_transfer": {
+          "electronic_kj": 529.1024221396074,
+          "solvation_kj": -528.0449816222573,
+          "RRHO_kj": 2.016525900771242,
+          "configurational_kj": -1.4529479512863748
+        },
+        "thiol_transfer": {
+          "electronic_kj": 504.82939068076666,
+          "solvation_kj": -494.78936365029216,
+          "RRHO_kj": 16.523992824939512,
+          "configurational_kj": 1.1129288706698184
+        }
+      },
+      "derived_acid_exchange": {
+        "prediction_kj": -26.055930259171873,
+        "reference_kj": -28.505799455661084,
+        "error_kj": 2.4498691964892103
+      }
+    },
+    "gas_geometry|UMA|SMD": {
+      "component_sums_kj": {
+        "acetate_transfer": {
+          "electronic_kj": 535.1573942012619,
+          "solvation_kj": -534.6544250298399,
+          "RRHO_kj": 1.9850248302047788,
+          "configurational_kj": -2.212663061538572
+        },
+        "thiol_transfer": {
+          "electronic_kj": 510.39690325257834,
+          "solvation_kj": -475.2105840666244,
+          "RRHO_kj": 16.53197223948169,
+          "configurational_kj": 0.4121513209105361
+        }
+      },
+      "derived_acid_exchange": {
+        "prediction_kj": -51.85511180642061,
+        "reference_kj": -28.505799455661084,
+        "error_kj": -23.349312350759526
+      }
+    },
+    "gas_geometry|DFT|ALPB": {
+      "component_sums_kj": {
+        "acetate_transfer": {
+          "electronic_kj": 529.0557584370254,
+          "solvation_kj": -528.0386102846473,
+          "RRHO_kj": 2.0173783240022516,
+          "configurational_kj": -1.4601557123372373
+        },
+        "thiol_transfer": {
+          "electronic_kj": 505.13136732624844,
+          "solvation_kj": -494.7913949273184,
+          "RRHO_kj": 16.51935333301884,
+          "configurational_kj": 1.10848226099151
+        }
+      },
+      "derived_acid_exchange": {
+        "prediction_kj": -26.39343722932972,
+        "reference_kj": -28.505799455661084,
+        "error_kj": 2.1123622263313635
+      }
+    },
+    "gas_geometry|DFT|SMD": {
+      "component_sums_kj": {
+        "acetate_transfer": {
+          "electronic_kj": 535.2601200736826,
+          "solvation_kj": -534.7706856936389,
+          "RRHO_kj": 1.967600019623049,
+          "configurational_kj": -2.2373731323182655
+        },
+        "thiol_transfer": {
+          "electronic_kj": 510.8530934844166,
+          "solvation_kj": -475.31820156075315,
+          "RRHO_kj": 16.511565313548203,
+          "configurational_kj": 0.3789580065593412
+        }
+      },
+      "derived_acid_exchange": {
+        "prediction_kj": -52.20575397659559,
+        "reference_kj": -28.505799455661084,
+        "error_kj": -23.699954520934504
+      }
+    },
+    "aqueous_geometry|UMA|ALPB": {
+      "component_sums_kj": {
+        "acetate_transfer": {
+          "electronic_kj": 536.9397513895528,
+          "solvation_kj": -535.6500561581107,
+          "RRHO_kj": 5.873164209161899,
+          "configurational_kj": -0.6917073850932716
+        },
+        "thiol_transfer": {
+          "electronic_kj": 513.8612796053058,
+          "solvation_kj": -504.50536571396026,
+          "RRHO_kj": 19.043818684825027,
+          "configurational_kj": 1.9243510651650566
+        }
+      },
+      "derived_acid_exchange": {
+        "prediction_kj": -23.852931585744955,
+        "reference_kj": -28.505799455661084,
+        "error_kj": 4.652867869916129
+      }
+    },
+    "aqueous_geometry|UMA|SMD": {
+      "component_sums_kj": {
+        "acetate_transfer": {
+          "electronic_kj": 538.7027860761154,
+          "solvation_kj": -546.8628433799865,
+          "RRHO_kj": 5.916270808038931,
+          "configurational_kj": -1.0009463028551366
+        },
+        "thiol_transfer": {
+          "electronic_kj": 515.2771537847584,
+          "solvation_kj": -485.1488813476702,
+          "RRHO_kj": 19.154273427084632,
+          "configurational_kj": 1.632413545864184
+        }
+      },
+      "derived_acid_exchange": {
+        "prediction_kj": -54.159692208864726,
+        "reference_kj": -28.505799455661084,
+        "error_kj": -25.653892753203642
+      }
+    },
+    "aqueous_geometry|DFT|ALPB": {
+      "component_sums_kj": {
+        "acetate_transfer": {
+          "electronic_kj": 536.9288215528941,
+          "solvation_kj": -535.6667071435083,
+          "RRHO_kj": 5.867032120019786,
+          "configurational_kj": -0.6930059554989383
+        },
+        "thiol_transfer": {
+          "electronic_kj": 514.225116079906,
+          "solvation_kj": -504.52975480527004,
+          "RRHO_kj": 19.032065323741293,
+          "configurational_kj": 1.923236466605533
+        }
+      },
+      "derived_acid_exchange": {
+        "prediction_kj": -24.214522490859963,
+        "reference_kj": -28.505799455661084,
+        "error_kj": 4.291276964801121
+      }
+    },
+    "aqueous_geometry|DFT|SMD": {
+      "component_sums_kj": {
+        "acetate_transfer": {
+          "electronic_kj": 538.8347287517972,
+          "solvation_kj": -546.9785783608162,
+          "RRHO_kj": 5.895221381843228,
+          "configurational_kj": -1.0345205054633173
+        },
+        "thiol_transfer": {
+          "electronic_kj": 515.7891493416391,
+          "solvation_kj": -485.26632873258734,
+          "RRHO_kj": 19.129341032354944,
+          "configurational_kj": 1.5923720055051027
+        }
+      },
+      "derived_acid_exchange": {
+        "prediction_kj": -54.52768237981945,
+        "reference_kj": -28.505799455661084,
+        "error_kj": -26.02188292415837
+      }
+    }
+  },
+  "primary_two_reaction_analysis_changed": false,
+  "primary_metabolic_references_added": 0
+}

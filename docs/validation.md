@@ -1,5 +1,21 @@
 # Validation against the evaluated release
 
+The [chemical reference-transfer control](../benchmark/reference_transfer_validation/README.md)
+now tests raw neutral/ionic state energies against two NIST-evaluated chemical
+proton-transfer references. All 48 fixed starting optimizations and 30 retained
+geometry pairs complete. UMA/ALPB chemical MAE changes from 27.46 to 31.21 kJ/mol
+with water optimization; corresponding UMA/SMD values are 39.02 and 36.65.
+Parent-electronic substitutions shift individual transfers by at most 0.33 kJ/mol,
+and three charged CPU fixtures reproduce GPU results within 0.00030 kJ/mol.
+The numerical agreement does not establish accurate solution free energies.
+Two soft negative modes remain accepted under the declared 50 cm^-1 policy.
+
+These chemical transfers are distinct from transformed metabolite-pool reactions,
+which would be identities. No pKa correction is inserted into the raw predictions,
+and this development component control adds no independent metabolic label or
+ModelSEED prediction. It does not support adopting directly computed charged
+references as a repair. The final supported state/reference policy remains open.
+
 The [complete retained cofactor ensemble study](../benchmark/nicotinamide_ensemble_validation/README.md)
 evaluates all 103 original geometries, reusing nine exact parent-DFT/SMD pairs and
 adding 94 new pairs under the same numerical recipe. The complete DFT/SMD exchange

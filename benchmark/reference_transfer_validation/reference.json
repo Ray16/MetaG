@@ -1,0 +1,45 @@
+{
+  "source_DOI": "10.1063/1.1416902",
+  "source_URL": "https://www.nist.gov/system/files/documents/srd/jpcrd615.pdf",
+  "source_access": "Primary NIST PDF read through the web tool; direct binary downloads returned403. No locally owned PDF or visual-verification claim yet.",
+  "conditions": {
+    "T_K": 298.15,
+    "ionic_strength_M": 0,
+    "solvent": "water",
+    "standard_state": "unit-molality ideal solution"
+  },
+  "sources": {
+    "acetate": {
+      "pKa": 4.756,
+      "subjective_uncertainty": 0.003,
+      "table": "7.2",
+      "printed_page": 238,
+      "PDF_page": 8
+    },
+    "mercaptoethanol": {
+      "pKa": 9.75,
+      "subjective_uncertainty": 0.1,
+      "table": "7.43",
+      "printed_page": 308,
+      "PDF_page": 78
+    },
+    "ethanolamine": {
+      "pKa": 9.498,
+      "subjective_uncertainty": 0.003,
+      "table": "7.28",
+      "printed_page": 277,
+      "PDF_page": 47
+    }
+  },
+  "interpretation": "Evaluated chemical proton-transfer energies, not standard transformed biochemical-pool labels. The same proton, charge, elemental and uniform standard-state gauges cancel in each2-to-2exchange. Acid/base states remain distinct; no Alberty or empirical pKa term enters predicted raw energies.",
+  "uncertainty": "NIST approximate subjective assessment, not SD/CI; parameter covariance not supplied. Sum bounds are conditional sensitivity intervals, not predictive confidence.",
+  "development_exposure": "Known buffer constants and class approximations are part of historical MetaG development. This is component/model validation, not primary independent metabolic test enrollment.",
+  "chemical_reference_kj": {
+    "acetate_transfer": -27.067381061022193,
+    "thiol_transfer": 1.438418394638889
+  },
+  "conditional_source_half_width_kj": {
+    "acetate_transfer": 0.03424805701521156,
+    "thiol_transfer": 0.5879249787611317
+  }
+}
