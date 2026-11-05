@@ -42,12 +42,14 @@
         56806,
         56807
       ],
-      "status": "candidate_only",
+      "status": "excluded_measurement_and_development_overlap",
       "independent_source_verified": false,
-      "dGbyG_overlap": "unresolved",
-      "condition_eligibility": "unresolved",
-      "prior_exposure": "SABIO metadata and source identities screened in October 2026; not an untouched source discovery; no new outcome values inspected in this work",
-      "possible_tecr_reference_count_by_token": 2
+      "dGbyG_overlap": "Both native equilibrium observations reproduced in released 671-row training table, row 331.",
+      "condition_eligibility": "Native equilibrium meaning verified; ionic strength unresolved and primary/NIST added-MgCl2 concentrations disagree tenfold.",
+      "prior_exposure": "Primary-source values reviewed November 2026. Historical MetaG input rxn12158 already contains experimental fields. Eligibility resolved by source/training overlap before consulting the current legacy prediction.",
+      "possible_tecr_reference_count_by_token": 2,
+      "review": "benchmark/independent_reference_review/ADPGPase.json",
+      "primary_references_admitted": 0
     },
     {
       "doi": "10.1074/jbc.M512727200",
@@ -129,12 +131,14 @@
         75198,
         75203
       ],
-      "status": "candidate_only",
+      "status": "held_native_ratio_verified_conditions_unresolved",
       "independent_source_verified": false,
-      "dGbyG_overlap": "unresolved",
-      "condition_eligibility": "unresolved",
-      "prior_exposure": "SABIO metadata and source identities screened in October 2026; not an untouched source discovery; no new outcome values inspected in this work",
-      "possible_tecr_reference_count_by_token": 0
+      "dGbyG_overlap": "Not adjudicated; source date alone does not prove independent measurement or equation ancestry.",
+      "condition_eligibility": "Native reversible-kinetic ratio verified at pH 8.5 in Tris/KCl; numerical assay temperature and standard-state transfer unresolved.",
+      "prior_exposure": "Primary-source rate parameters and equilibrium ratio reviewed November 2026; no new predictions or residual-based selection.",
+      "possible_tecr_reference_count_by_token": 0,
+      "review": "benchmark/independent_reference_review/Fumarase2019.json",
+      "primary_references_admitted": 0
     },
     {
       "doi": "10.1021/acs.biochem.3c00702",

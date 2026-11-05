@@ -1,0 +1,137 @@
+{
+  "schema": "metag-adpg-source-review-v1",
+  "utc": "2026-11-05T04:23:30.178043+00:00",
+  "primary": {
+    "doi": "10.1021/bi052232m",
+    "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2532824/",
+    "locators": [
+      "Methods/equilibriumconstant",
+      "Results/equilibriumconstant",
+      "Abstract"
+    ],
+    "equation": "ADP-glucose + phosphate -> ADP + alpha-D-glucose 1-phosphate",
+    "T_K": 298.15,
+    "pH": 7.0,
+    "buffer_HEPES_M": 0.1,
+    "unresolved_ionic_strength": true,
+    "measurements": [
+      {
+        "K_apparent": 5.0,
+        "reported_plus_minus": 0.3,
+        "added_MgCl2_M": 0.0
+      },
+      {
+        "K_apparent": 40.0,
+        "reported_plus_minus": 1.0,
+        "added_MgCl2_M": 0.001
+      }
+    ]
+  },
+  "nist": {
+    "URL": "https://srd.nist.gov/jpcrdreprint/1.2789450.pdf",
+    "pdf_sha256": "d7ce697cd79e0cbac61dee3d142ccf7203f5de78e6dd1ff634b0c2b58056c92d",
+    "printed_page": 1367,
+    "PDF_page": 22,
+    "section": "4.46",
+    "visually_verified": true,
+    "equation_orientation": "reverse of the primary phosphorolysis direction",
+    "reference_code": "06MCC/ARA",
+    "entries": [
+      {
+        "K_apparent": 0.2,
+        "added_MgCl2_M": 0.0
+      },
+      {
+        "K_apparent": 0.025,
+        "added_MgCl2_M": 0.0001
+      }
+    ]
+  },
+  "magnesium_discrepancy": {
+    "primary_added_MgCl2_M": 0.001,
+    "nist_added_MgCl2_M": 0.0001,
+    "factor": 10.0,
+    "status": "Unresolved concentration discrepancy. Neither value is asserted to be free Mg activity."
+  },
+  "source_projection": [
+    {
+      "source_row": 5330,
+      "part": "7",
+      "page": "1367",
+      "col l/r": "2",
+      "table from top": "1",
+      "entry nr": "1",
+      "reaction": "ADP(aq) + D-glucose 1-phosphate(aq) = ADPglucose(aq) + orthophosphate(aq)",
+      "reference": "06MCC/ARA",
+      "temperature": "298.15",
+      "ionic_strength": "",
+      "p_h": "7",
+      "p_mg": ""
+    },
+    {
+      "source_row": 5331,
+      "part": "7",
+      "page": "1367",
+      "col l/r": "2",
+      "table from top": "1",
+      "entry nr": "2",
+      "reaction": "ADP(aq) + D-glucose 1-phosphate(aq) = ADPglucose(aq) + orthophosphate(aq)",
+      "reference": "06MCC/ARA",
+      "temperature": "298.15",
+      "ionic_strength": "",
+      "p_h": "7",
+      "p_mg": "4"
+    }
+  ],
+  "training": {
+    "table": "Released dGbyG TrainingData.csv, 671-row snapshot",
+    "table_sha256": "b2e5968f4f976904aae9731228cbd6d00b585c9eaa5cb6689766bf2c3d14dfbc",
+    "row_index": 331,
+    "description": "ADP(aq) + D-glucose 1-phosphate(aq) = ADPglucose(aq) + orthophosphate(aq)",
+    "n_observations": 2,
+    "all_native_G_values_kj": [
+      3.9875860219514054,
+      9.13966549081822
+    ],
+    "all_standardized_G_values_kj": [
+      3.9875860219514054,
+      9.13966549081822
+    ],
+    "experimental_values_reconstructed_exactly": true,
+    "published_R_kj": 0.00831
+  },
+  "development": {
+    "reaction": "rxn12158",
+    "training_equation_family_match": true,
+    "family_match_witness_key": "8bdaf975ac485a93045eb43efe7eb1a291172014027c85d758c9d4eb707c279c",
+    "packaged_input_witness": {
+      "path": "MetaG/src/metag/data/reactions_opentecr_std.json",
+      "json_path": [
+        "rxn12158"
+      ],
+      "sha256": "69a54e6887cffffb53b25577f2cbc330acdfa78aae33bad726ec11f653f01d30",
+      "potential_outcome_field_names": [
+        "exp",
+        "exp_n"
+      ]
+    },
+    "existing_primary_reference": {
+      "exp": 5.88,
+      "n": 1,
+      "sd": null,
+      "max_mg_spread": 0.09,
+      "temperatures": [
+        298.15
+      ],
+      "n_298": 1,
+      "I_imputed": true
+    },
+    "current_corrected_prediction_available": true,
+    "legacy_reference_or_prediction_changed": false
+  },
+  "disposition": "excluded_from_primary_independent_cohort_measurement_and_development_overlap",
+  "new_references_admitted": 0,
+  "new_predictions_performed": false,
+  "prediction_or_residual_used_for_eligibility": false,
+  "scope": "Source genealogy and measurement interpretation. Existing imputed-condition legacy labels are retained; no new thermodynamic conversion or model superiority claim."
+}

@@ -1,0 +1,17 @@
+{
+  "training_sha256": "b2e5968f4f976904aae9731228cbd6d00b585c9eaa5cb6689766bf2c3d14dfbc",
+  "training_row_index": 331,
+  "native_training_values_kj": [
+    3.9875860219514054,
+    9.13966549081822
+  ],
+  "reconstructed_from_reverse_K_kj": [
+    3.9875860219514054,
+    9.13966549081822
+  ],
+  "max_difference_kj": 0.0,
+  "fumarase_Haldane_from_rounded_parameters": 4.25,
+  "primary_references_admitted": 0,
+  "legacy_labels_or_predictions_changed": false,
+  "primary_source_authentication": "Primary locators in each adjudication; arithmetic replay alone does not authenticate unavailable original articles."
+}

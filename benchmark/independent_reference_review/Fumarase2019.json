@@ -1,0 +1,57 @@
+{
+  "schema": "metag-fumarase-source-review-v1",
+  "utc": "2026-11-05T04:23:30.187402+00:00",
+  "doi": "10.1111/febs.14782",
+  "URL": "https://febs.onlinelibrary.wiley.com/doi/10.1111/febs.14782",
+  "locators": [
+    "Results/combinedsubstratekinetics/Table2/Eq3",
+    "Methods/Enzymaticassayandsteadystatekinetics"
+  ],
+  "measured_quantity": "Equilibrium ratio inferred from a reversible initial-rate fit; not a binding dissociation constant or an endpoint equilibrium assay.",
+  "equation": "fumarate + water -> L-malate",
+  "reported_K": 4.3,
+  "reported_plus_minus": 0.2,
+  "temperature": "Room temperature; no numerical value reported for this assay.",
+  "pH": 8.5,
+  "Tris_HCl_M": 0.05,
+  "KCl_M": 0.15,
+  "ionic_strength_M": null,
+  "magnesium": "No magnesium listed in the assay mixture; free activity not measured.",
+  "parameters": {
+    "kcat_forward_s": 170.0,
+    "kcat_forward_plus_minus": 10.0,
+    "Km_fumarate_mM": 0.2,
+    "Km_fumarate_plus_minus": 0.04,
+    "kcat_reverse_s": 280.0,
+    "kcat_reverse_plus_minus": 10.0,
+    "Km_malate_mM": 1.4,
+    "Km_malate_plus_minus": 0.3
+  },
+  "expression": "K= kcat_forward*Km_malate/(kcat_reverse*Km_fumarate)",
+  "reconstructed_from_rounded_parameters": 4.249999999999999,
+  "old_literature_comparison": {
+    "K": 4.2,
+    "reported_plus_minus": 0.4,
+    "citation": "Bock and Alberty (1953), cited comparison value, not the new fit."
+  },
+  "thesis": {
+    "doi": "10.11606/T.60.2019.tde-23052019-093047",
+    "URL": "https://teses.usp.br/teses/disponiveis/60/60136/tde-23052019-093047/publico/Tese_corrigida_completa.pdf",
+    "relevant_PDF_pages": [
+      42,
+      52,
+      53,
+      64
+    ],
+    "source_role": "Companion author thesis describing the same fit; not an additional independent measurement."
+  },
+  "remaining": [
+    "Numerical assay temperature and a justified transfer to 298.15 K.",
+    "Native activity/protonation conversion and its uncertainty.",
+    "Measurement and training ancestry; this familiar reaction does not establish unfamiliar chemistry."
+  ],
+  "disposition": "held_native_ratio_authenticated_no_standard_G_reference",
+  "new_references_admitted": 0,
+  "new_predictions_performed": false,
+  "prediction_or_residual_used_for_eligibility": false
+}
