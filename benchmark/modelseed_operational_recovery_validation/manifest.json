@@ -1,9 +1,15 @@
 {
-  "schema": "metag-operational-resource-recovery-precomputation-v1",
+  "schema": "metag-operational-resource-recovery-metadata-correction-v1",
+  "supersedes_manifest_sha256": "abf2d1bb9c65b230f02778dfbe0108d7233e82dfe844de6cbe595326419b1e16",
+  "frozen_runtime_inputs_unchanged": true,
   "files": {
     "README.md": {
-      "bytes": 2093,
-      "sha256": "22be9f6522143a6a290ee598c993598d8ba6976f7547173cbf1fb90af268410a"
+      "bytes": 2196,
+      "sha256": "1ea2cffc2dbe57cbed933bf48d1f4db862e1e8673b60891b4e540cf3264cbf39"
+    },
+    "contention_scope_clarification.json": {
+      "bytes": 600,
+      "sha256": "6bf064099c996f783d94f8a308973ff3ea73852881d57acd7c879b55bf499da5"
     },
     "external_contention_stop.json": {
       "bytes": 873,
@@ -25,6 +31,10 @@
       "bytes": 864,
       "sha256": "70d3eacf462b61a2466f1c9a99f0e2e7a8451e58cab00bb9a1f235f692b8ea4c"
     },
+    "pre_scope_correction_manifest.json": {
+      "bytes": 1663,
+      "sha256": "abf2d1bb9c65b230f02778dfbe0108d7233e82dfe844de6cbe595326419b1e16"
+    },
     "protocol.json": {
       "bytes": 6790,
       "sha256": "3c5a864680bb6e959b737083703e22446ace3b3f5d2d770293974d05a3340721"
@@ -42,6 +52,5 @@
       "sha256": "7fc32a85b1bc9bb30e797bc1ea1e1683e43fe9bdf9cc5581e7e2a5acc386171a"
     }
   },
-  "original_precomputation_manifest_sha256": "dcbe4945e0f17944c7c8369805713222108b93ab6a53e3f25ee22a4bf63022bd",
   "resource_recovery_outputs_present": false
 }

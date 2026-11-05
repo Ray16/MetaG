@@ -1,7 +1,8 @@
 # Operational resource-recovery amendment
 
-The first operational run was interrupted after other users' live processes
-appeared on both gate-reserved GPUs. Six complete molecular records, one CUDA
+The first operational run was interrupted after an external live process
+appeared on gate-reserved GPU5. Ownership of an additional process observed on
+GPU1 was not established; it is not attributed to another user. Six complete molecular records, one CUDA
 out-of-memory failure, two interrupted inputs without complete result files and
 all unstarted slots are retained. The OOM occurred with another process occupying
 most device memory. These are not experimental prediction errors. The initial

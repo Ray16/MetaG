@@ -1,0 +1,10 @@
+{
+  "utc": "2026-11-05T18:16:27.598271+00:00",
+  "confirmed_external_GPU_index": 5,
+  "confirmed_external_PID": 3745751,
+  "additional_GPU1_PID_observed": 3779557,
+  "additional_GPU1_process_ownership": "not established; no attribution to another user is justified",
+  "correction": "The prior statement that external processes were confirmed on BOTH assigned GPUs was too strong. Confirmed external contention on GPU5 was sufficient to stop both workers and repeat the two-worker runtime comparison.",
+  "physics_sample_or_deadline_changed": false,
+  "frozen_runtime_protocol_files_edited": false
+}
