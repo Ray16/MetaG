@@ -1,0 +1,563 @@
+{
+  "schema": "metag-reliability-input-v1",
+  "cohort_exposure": "The cohort and source table have been inspected in development; native checkpoints may include these training reactions. No independent risk reduction or advantage can be concluded.",
+  "spread_definition": "Population SD of100released model reaction-member sums, normalized by absolute extent. Deterministic bridge uncertainty excluded.",
+  "severe_threshold_kj": 20.0,
+  "rows": [
+    {
+      "reaction": "rxn00007",
+      "reference": -11.85,
+      "metag": -36.1,
+      "comparator": -13.797825162342276,
+      "spread": 1.1495645671508938,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn00097",
+      "reference": -5.84,
+      "metag": -0.3,
+      "comparator": -5.416263087544752,
+      "spread": 0.1445499897741765,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn00117",
+      "reference": 0.68,
+      "metag": 0.0,
+      "comparator": 1.4677431495745035,
+      "spread": 0.0002957630414239806,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn00132",
+      "reference": -13.87,
+      "metag": -11.6,
+      "comparator": -11.776663321005866,
+      "spread": 0.4586405645777281,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn00147",
+      "reference": -14.28,
+      "metag": -9.3,
+      "comparator": 4.344841802790998,
+      "spread": 0.6741501844026542,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn00225",
+      "reference": 6.31,
+      "metag": 15.5,
+      "comparator": 11.713453974598067,
+      "spread": 0.6067098338815196,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn00234",
+      "reference": 2.91,
+      "metag": 8.2,
+      "comparator": 2.7391385648078472,
+      "spread": 1.1852014330413945,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn00239",
+      "reference": -5.69,
+      "metag": -0.3,
+      "comparator": -5.4164393270905835,
+      "spread": 0.1445408044646897,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn00265",
+      "reference": 0.88,
+      "metag": 6.0,
+      "comparator": 2.868275387585247,
+      "spread": 0.6298356409891718,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn00290",
+      "reference": 7.14,
+      "metag": 2.1,
+      "comparator": 5.068915765276288,
+      "spread": 0.8136470832325918,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn00306",
+      "reference": 2.28,
+      "metag": 8.1,
+      "comparator": 1.0921167218355539,
+      "spread": 0.38293458412664094,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn00364",
+      "reference": -4.24,
+      "metag": -0.3,
+      "comparator": -5.429199451420834,
+      "spread": 0.14455024070726302,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn00459",
+      "reference": -3.27,
+      "metag": 7.9,
+      "comparator": -3.788989894304973,
+      "spread": 0.27435086154002253,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn00515",
+      "reference": -0.11,
+      "metag": 0.0,
+      "comparator": 0.0015953753997775255,
+      "spread": 0.00022549661296322333,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn00602",
+      "reference": -7.51,
+      "metag": -15.7,
+      "comparator": -5.8507006832977195,
+      "spread": 1.380505099659415,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn00643",
+      "reference": 1.69,
+      "metag": -5.8,
+      "comparator": -1.1368683772161603e-13,
+      "spread": 0.0,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn00747",
+      "reference": -7.4,
+      "metag": -10.3,
+      "comparator": -4.882157761974771,
+      "spread": 0.4433200305487751,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn00754",
+      "reference": -24.17,
+      "metag": -23.2,
+      "comparator": -18.485087408962794,
+      "spread": 1.5006869243846264,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn00770",
+      "reference": -1.88,
+      "metag": -3.9,
+      "comparator": -1.0521958456759901,
+      "spread": 0.5723667525423906,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn00777",
+      "reference": 2.86,
+      "metag": 5.8,
+      "comparator": 4.472757353606471,
+      "spread": 0.48835526307345584,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn00778",
+      "reference": -8.39,
+      "metag": -18.0,
+      "comparator": -6.940418856744197,
+      "spread": 0.6456166983224877,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn00783",
+      "reference": 10.97,
+      "metag": 2.8,
+      "comparator": 12.744994865153007,
+      "spread": 1.0693816762010153,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn00785",
+      "reference": 8.03,
+      "metag": 18.2,
+      "comparator": 6.933311020603819,
+      "spread": 1.2405950122080835,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn00799",
+      "reference": 3.62,
+      "metag": 14.6,
+      "comparator": 3.542308185451308,
+      "spread": 0.17888681836255094,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn00800",
+      "reference": 5.96,
+      "metag": 3.6,
+      "comparator": 4.243554045846563,
+      "spread": 1.1394498868148544,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn00830",
+      "reference": -5.05,
+      "metag": -0.5,
+      "comparator": -3.471108551258232,
+      "spread": 2.4729384435244115,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn00831",
+      "reference": -13.7,
+      "metag": -12.0,
+      "comparator": -11.789400294393035,
+      "spread": 0.4586304252733932,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn00915",
+      "reference": 27.36,
+      "metag": 37.8,
+      "comparator": 25.10570815156685,
+      "spread": 0.6843235366351382,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn00927",
+      "reference": -9.78,
+      "metag": -8.0,
+      "comparator": -7.9879290375494705,
+      "spread": 0.7965859473762247,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn00974",
+      "reference": 7.93,
+      "metag": 17.0,
+      "comparator": 8.366003398408933,
+      "spread": 0.8169393285420818,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn01022",
+      "reference": 11.78,
+      "metag": 19.9,
+      "comparator": 10.742197406497999,
+      "spread": 0.5612028662503509,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn01054",
+      "reference": -2.56,
+      "metag": -12.3,
+      "comparator": -3.052269293214373,
+      "spread": 0.5025901374666606,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn01116",
+      "reference": -0.99,
+      "metag": -0.3,
+      "comparator": 5.684341886080802e-14,
+      "spread": 0.0,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn01117",
+      "reference": 2.48,
+      "metag": -10.1,
+      "comparator": -5.067585489521016,
+      "spread": 0.8332119658681162,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn01138",
+      "reference": 7.71,
+      "metag": 25.2,
+      "comparator": 10.742204253670916,
+      "spread": 0.5612016181161399,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn01200",
+      "reference": 1.38,
+      "metag": -15.4,
+      "comparator": -6.857361092876532,
+      "spread": 0.7578625399005533,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn01258",
+      "reference": 1.09,
+      "metag": -6.4,
+      "comparator": 1.6065513665911748,
+      "spread": 1.4537115410943542,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn01259",
+      "reference": -7.52,
+      "metag": -17.0,
+      "comparator": -7.571273341378883,
+      "spread": 0.7480490294988198,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn01299",
+      "reference": -11.63,
+      "metag": -14.6,
+      "comparator": -7.974886509937652,
+      "spread": 0.7965929979799611,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn01333",
+      "reference": 0.38,
+      "metag": -16.1,
+      "comparator": -2.2560576909654717,
+      "spread": 1.0346564641862885,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn01358",
+      "reference": 10.67,
+      "metag": 18.7,
+      "comparator": 10.755253495149923,
+      "spread": 0.5612017848535742,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn01366",
+      "reference": 0.76,
+      "metag": 16.0,
+      "comparator": -1.1917087980784646,
+      "spread": 1.4940502725466678,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn01465",
+      "reference": -3.63,
+      "metag": -18.5,
+      "comparator": -0.18613233280609964,
+      "spread": 1.0931035725566232,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn01509",
+      "reference": -0.95,
+      "metag": -0.3,
+      "comparator": -5.410501590830254,
+      "spread": 0.14453498390117164,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn01548",
+      "reference": 11.25,
+      "metag": 22.4,
+      "comparator": 10.739334561267476,
+      "spread": 0.5612027942623996,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn01620",
+      "reference": 19.81,
+      "metag": 13.3,
+      "comparator": 16.00101925507752,
+      "spread": 1.3041296274375562,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn01626",
+      "reference": -6.53,
+      "metag": -13.5,
+      "comparator": -1.986875306955139,
+      "spread": 0.9876016719913382,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn01638",
+      "reference": -0.28,
+      "metag": -5.7,
+      "comparator": -4.736426671609579,
+      "spread": 2.2833124035455077,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn01646",
+      "reference": -14.36,
+      "metag": -22.8,
+      "comparator": -11.691062638412753,
+      "spread": 1.3628634532954347,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn01682",
+      "reference": 21.34,
+      "metag": 20.2,
+      "comparator": 21.255456119974337,
+      "spread": 2.8722966247769857,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn01702",
+      "reference": 19.83,
+      "metag": -40.5,
+      "comparator": -3.569420305716826,
+      "spread": 3.5658897810259482,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn01713",
+      "reference": 7.98,
+      "metag": 9.3,
+      "comparator": -3.4034040558304226,
+      "spread": 2.966739420410117,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn01745",
+      "reference": 18.52,
+      "metag": 27.9,
+      "comparator": 3.4535012576993074,
+      "spread": 0.178886657173491,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn01870",
+      "reference": 30.5,
+      "metag": 34.5,
+      "comparator": 21.118788904867515,
+      "spread": 0.688920610367517,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn02167",
+      "reference": 3.27,
+      "metag": 4.4,
+      "comparator": 4.082659517247144,
+      "spread": 1.0436060824641313,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn02168",
+      "reference": 4.27,
+      "metag": 3.7,
+      "comparator": 4.082659517247144,
+      "spread": 1.0436060824641313,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn02213",
+      "reference": -6.8,
+      "metag": 7.4,
+      "comparator": -5.988446251954158,
+      "spread": 2.770030466422148,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn02322",
+      "reference": -3.18,
+      "metag": -0.3,
+      "comparator": -3.8273095824533834,
+      "spread": 0.1445671025939991,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn02451",
+      "reference": -3.48,
+      "metag": -7.5,
+      "comparator": -5.596410484672537,
+      "spread": 1.270166479626313,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn02591",
+      "reference": -10.53,
+      "metag": -20.7,
+      "comparator": -9.64401611328125,
+      "spread": 2.1861067295064047,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn02622",
+      "reference": 4.43,
+      "metag": 15.5,
+      "comparator": 5.297753137776466,
+      "spread": 1.2397291126126806,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn02749",
+      "reference": 11.5,
+      "metag": 28.1,
+      "comparator": 5.231904350106556,
+      "spread": 1.2397291126126806,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn02975",
+      "reference": -0.68,
+      "metag": 2.0,
+      "comparator": 0.0,
+      "spread": 0.0,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn03644",
+      "reference": -13.01,
+      "metag": -23.1,
+      "comparator": -5.380774651340361,
+      "spread": 1.654722468149859,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn03884",
+      "reference": 13.39,
+      "metag": 7.4,
+      "comparator": 12.744994865153007,
+      "spread": 1.0693816762010153,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn04082",
+      "reference": -0.46,
+      "metag": 0.7,
+      "comparator": 5.684341886080802e-14,
+      "spread": 0.0,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn10427",
+      "reference": -4.89,
+      "metag": -0.3,
+      "comparator": -5.41053900225559,
+      "spread": 0.1445052262874099,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn15750",
+      "reference": 18.33,
+      "metag": 4.7,
+      "comparator": 14.933182505764153,
+      "spread": 1.1503501314729232,
+      "n_members": 100
+    },
+    {
+      "reaction": "rxn31240",
+      "reference": -1.33,
+      "metag": -0.3,
+      "comparator": 0.0,
+      "spread": 0.0,
+      "n_members": 100
+    }
+  ],
+  "cluster_definition": null,
+  "protocol_sha256": "b3c9fd0e90d5714ea89c840e35916009b2792fc5009321f14d656e346ead7aba",
+  "scope": "Development-exposed69-target reference-comparator experiment; no independent reliability, reaction-energy accuracy or OOD validation claim."
+}

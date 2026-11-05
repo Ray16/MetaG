@@ -2,6 +2,12 @@
 
 ## Unreleased (0.3.1.dev0)
 
+- Add the released dGbyG ensemble comparison on the fixed 69 development
+  reactions, with all 100 member sums and molecular covariance retained.
+  Independent decimal/statistical replay checks the complete packet without
+  Torch. This is separate from OOF-repeat spread and supplies no independent
+  reliability claim; 68 normalized equations match the shipped training table.
+
 - Add a bounded, same-Hamiltonian LBFGS recovery when a force-converged
   candidate still has a strong imaginary mode after the final FIRE and
   mode-following retry. Recovery requires forces <=0.001 eV/A, preserved

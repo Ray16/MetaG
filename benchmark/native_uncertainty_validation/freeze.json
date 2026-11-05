@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-05T01:47:54.511721+00:00",
+  "files_sha256": {
+    "development_inputs.json": "d217b2fce3e51f823fb17c35c98bbee71afbf07477895952e8649d2d1526fe3d",
+    "author675_structural.csv": "f6509f3164f5cdc544603b3622c10bd7095a10acabcd74dc25514c48f666a6ad",
+    "reference671_training.csv": "b2e5968f4f976904aae9731228cbd6d00b585c9eaa5cb6689766bf2c3d14dfbc",
+    "reliability.py": "97d254e14181a6e2e5beb8e10cd3d8da687e9806ded209995a921db24266d5df",
+    "protocol.json": "b3c9fd0e90d5714ea89c840e35916009b2792fc5009321f14d656e346ead7aba",
+    "extract.py": "126a2b614775f11640131517c0d04d2d62a6ac83cd710fe6685a32dc034f4529",
+    "serialization_repair.json": "93c68dd98b20888270a0200af720b80fb6e69ed631da65361a5809813d2b5444"
+  },
+  "scope": "Serialization-only producer revision; first native development prediction already observed; scientific model/cohort/analysis unchanged."
+}

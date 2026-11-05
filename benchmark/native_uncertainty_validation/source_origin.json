@@ -1,0 +1,7 @@
+{
+  "repository": "git@github.com:Ray16/qm_metabolites_reaction_energy.git",
+  "checkout_commit": "5bf9d6734295b319a0b0f5ec8f3f9c99421aafe0",
+  "weights": "100originalexternalcheckpoint identities in protocol.json and raw_outputs.json; weights are not redistributed here.",
+  "full_inference": "Archived extract.py records the actual CPU native API calls. Inference depends on the external source_root and hashed assets; portable data audit requires no model runtime.",
+  "license": "Reference source implementation includes its original MIT license."
+}

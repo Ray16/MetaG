@@ -1,0 +1,139 @@
+START rxn00007 author675row=262
+COMPLETE rxn00007: native transformed mean=-13.7978,SD=1.14956
+START rxn00097 author675row=278
+COMPLETE rxn00097: native transformed mean=-5.41626,SD=0.14455
+START rxn00117 author675row=359
+COMPLETE rxn00117: native transformed mean=1.46774,SD=0.000295763
+START rxn00132 author675row=337
+COMPLETE rxn00132: native transformed mean=-11.7767,SD=0.458641
+START rxn00147 author675row=376
+COMPLETE rxn00147: native transformed mean=4.34484,SD=0.67415
+START rxn00225 author675row=362
+COMPLETE rxn00225: native transformed mean=11.7135,SD=0.60671
+START rxn00234 author675row=246
+COMPLETE rxn00234: native transformed mean=2.73914,SD=1.1852
+START rxn00239 author675row=352
+COMPLETE rxn00239: native transformed mean=-5.41644,SD=0.144541
+START rxn00265 author675row=582
+COMPLETE rxn00265: native transformed mean=2.86828,SD=0.629836
+START rxn00290 author675row=663
+COMPLETE rxn00290: native transformed mean=5.06892,SD=0.813647
+START rxn00306 author675row=465
+COMPLETE rxn00306: native transformed mean=1.09212,SD=0.382935
+START rxn00364 author675row=345
+COMPLETE rxn00364: native transformed mean=-5.4292,SD=0.14455
+START rxn00459 author675row=303
+COMPLETE rxn00459: native transformed mean=-3.78899,SD=0.274351
+START rxn00515 author675row=371
+COMPLETE rxn00515: native transformed mean=0.00159538,SD=0.000225497
+START rxn00602 author675row=241
+COMPLETE rxn00602: native transformed mean=-5.8507,SD=1.38051
+START rxn00643 author675row=458
+COMPLETE rxn00643: native transformed mean=-1.13687e-13,SD=0
+START rxn00747 author675row=438
+COMPLETE rxn00747: native transformed mean=-4.88216,SD=0.44332
+START rxn00754 author675row=560
+COMPLETE rxn00754: native transformed mean=-18.4851,SD=1.50069
+START rxn00770 author675row=350
+COMPLETE rxn00770: native transformed mean=-1.0522,SD=0.572367
+START rxn00777 author675row=451
+COMPLETE rxn00777: native transformed mean=4.47276,SD=0.488355
+START rxn00778 author675row=450
+COMPLETE rxn00778: native transformed mean=-6.94042,SD=0.645617
+START rxn00783 author675row=290
+COMPLETE rxn00783: native transformed mean=12.745,SD=1.06938
+START rxn00785 author675row=415
+COMPLETE rxn00785: native transformed mean=6.93331,SD=1.2406
+START rxn00799 author675row=601
+COMPLETE rxn00799: native transformed mean=3.54231,SD=0.178887
+START rxn00800 author675row=565
+COMPLETE rxn00800: native transformed mean=4.24355,SD=1.13945
+START rxn00830 author675row=623
+COMPLETE rxn00830: native transformed mean=-3.47111,SD=2.47294
+START rxn00831 author675row=466
+COMPLETE rxn00831: native transformed mean=-11.7894,SD=0.45863
+START rxn00915 author675row=612
+COMPLETE rxn00915: native transformed mean=25.1057,SD=0.684324
+START rxn00927 author675row=562
+COMPLETE rxn00927: native transformed mean=-7.98793,SD=0.796586
+START rxn00974 author675row=583
+COMPLETE rxn00974: native transformed mean=8.366,SD=0.816939
+START rxn01022 author675row=317
+COMPLETE rxn01022: native transformed mean=10.7422,SD=0.561203
+START rxn01054 author675row=254
+COMPLETE rxn01054: native transformed mean=-3.05227,SD=0.50259
+START rxn01116 author675row=453
+COMPLETE rxn01116: native transformed mean=5.68434e-14,SD=0
+START rxn01117 author675row=401
+COMPLETE rxn01117: native transformed mean=-5.06759,SD=0.833212
+START rxn01138 author675row=564
+COMPLETE rxn01138: native transformed mean=10.7422,SD=0.561202
+START rxn01200 author675row=660
+COMPLETE rxn01200: native transformed mean=-6.85736,SD=0.757863
+START rxn01258 author675row=580
+COMPLETE rxn01258: native transformed mean=1.60655,SD=1.45371
+START rxn01259 author675row=622
+COMPLETE rxn01259: native transformed mean=-7.57127,SD=0.748049
+START rxn01299 author675row=616
+COMPLETE rxn01299: native transformed mean=-7.97489,SD=0.796593
+START rxn01333 author675row=659
+COMPLETE rxn01333: native transformed mean=-2.25606,SD=1.03466
+START rxn01358 author675row=617
+COMPLETE rxn01358: native transformed mean=10.7553,SD=0.561202
+START rxn01366 author675row=668
+COMPLETE rxn01366: native transformed mean=-1.19171,SD=1.49405
+START rxn01465 author675row=250
+COMPLETE rxn01465: native transformed mean=-0.186132,SD=1.0931
+START rxn01509 author675row=367
+COMPLETE rxn01509: native transformed mean=-5.4105,SD=0.144535
+START rxn01548 author675row=613
+COMPLETE rxn01548: native transformed mean=10.7393,SD=0.561203
+START rxn01620 author675row=489
+COMPLETE rxn01620: native transformed mean=16.001,SD=1.30413
+START rxn01626 author675row=325
+COMPLETE rxn01626: native transformed mean=-1.98688,SD=0.987602
+START rxn01638 author675row=472
+COMPLETE rxn01638: native transformed mean=-4.73643,SD=2.28331
+START rxn01646 author675row=636
+COMPLETE rxn01646: native transformed mean=-11.6911,SD=1.36286
+START rxn01682 author675row=436
+COMPLETE rxn01682: native transformed mean=21.2555,SD=2.8723
+START rxn01702 author675row=657
+COMPLETE rxn01702: native transformed mean=-3.56942,SD=3.56589
+START rxn01713 author675row=546
+COMPLETE rxn01713: native transformed mean=-3.4034,SD=2.96674
+START rxn01745 author675row=239
+COMPLETE rxn01745: native transformed mean=3.4535,SD=0.178887
+START rxn01870 author675row=413
+COMPLETE rxn01870: native transformed mean=21.1188,SD=0.688921
+START rxn02167 author675row=229
+COMPLETE rxn02167: native transformed mean=4.08266,SD=1.04361
+START rxn02168 author675row=227
+COMPLETE rxn02168: native transformed mean=4.08266,SD=1.04361
+START rxn02213 author675row=306
+COMPLETE rxn02213: native transformed mean=-5.98845,SD=2.77003
+START rxn02322 author675row=340
+COMPLETE rxn02322: native transformed mean=-3.82731,SD=0.144567
+START rxn02451 author675row=272
+COMPLETE rxn02451: native transformed mean=-5.59641,SD=1.27017
+START rxn02591 author675row=332
+COMPLETE rxn02591: native transformed mean=-9.64402,SD=2.18611
+START rxn02622 author675row=245
+COMPLETE rxn02622: native transformed mean=5.29775,SD=1.23973
+START rxn02749 author675row=232
+COMPLETE rxn02749: native transformed mean=5.2319,SD=1.23973
+START rxn02975 author675row=389
+COMPLETE rxn02975: native transformed mean=0,SD=0
+START rxn03644 author675row=399
+COMPLETE rxn03644: native transformed mean=-5.38077,SD=1.65472
+START rxn03884 author675row=329
+COMPLETE rxn03884: native transformed mean=12.745,SD=1.06938
+START rxn04082 author675row=514
+COMPLETE rxn04082: native transformed mean=5.68434e-14,SD=0
+START rxn10427 author675row=280
+COMPLETE rxn10427: native transformed mean=-5.41054,SD=0.144505
+START rxn15750 author675row=301
+COMPLETE rxn15750: native transformed mean=14.9332,SD=1.15035
+START rxn31240 author675row=568
+COMPLETE rxn31240: native transformed mean=0,SD=0
+COMPLETE fixed69cohort; CUDA initialized=False

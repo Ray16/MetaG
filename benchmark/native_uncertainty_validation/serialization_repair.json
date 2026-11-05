@@ -1,0 +1,12 @@
+{
+  "utc": "2026-11-05T01:47:54.506169+00:00",
+  "reason": "JSON serialization refused a NumPy float32 QC-bound scalar after the first native reaction. No prediction failure or change to model, equations, target bridge or ranking definition.",
+  "old_processes_verified_terminal": true,
+  "scientific_prediction_code_changed": false,
+  "only_source_change": "Convert exported floating-point roundoff bound to builtin float.",
+  "first_inference_recomputed": true,
+  "first_attempt_preserved": "infrastructure_attempt1",
+  "overall_deadline_utc": "2026-11-05T02:01:29.702988+00:00",
+  "old_source_sha256": "e07e38e731c2abdb5dd82d694390e3b644649f2d208b14ce07745e533b173df1",
+  "new_source_sha256": "126a2b614775f11640131517c0d04d2d62a6ac83cd710fe6685a32dc034f4529"
+}

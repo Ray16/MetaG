@@ -11,6 +11,12 @@ retains a candidate that worsens common-target error, all 596 raw records and a
 separate successful minimum-resolver repair. Its available-bank assemblies and
 cycle checks are not genome-scale coverage or independent experimental validation.
 
+The [released-ensemble uncertainty comparison](native_uncertainty_validation/README.md)
+retains all 100 checkpoint-member sums on the same 69 development reactions and
+checks equal-coverage rankings against native ensemble spread. This is distinct
+from the OOF-repeat analysis; 68 equations also match the shipped training table.
+It supplies no independent reliability or unfamiliar-chemistry validation.
+
 `reference_mg_bounded.json` holds experimental ΔrG'° labels transformed to pH 7,
 I = 0 and pMg 14 for the reactions of the packaged panel
 (`src/metag/data/reactions_opentecr_std.json`). They were derived from the openTECR re-curation of TECRDB

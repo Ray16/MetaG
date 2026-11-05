@@ -1,0 +1,16 @@
+{
+  "host": "lambda2",
+  "pid": 1322997,
+  "start_ticks": "1464389459",
+  "argv": [
+    "/usr/bin/timeout",
+    "--signal=TERM",
+    "--kill-after=15",
+    "815",
+    "/usr/bin/taskset",
+    "-c",
+    "77",
+    "/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/tools/dGbyG/.venv/bin/python",
+    "/nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG/analysis/native_uncertainty_20261104_01/extract.py"
+  ]
+}

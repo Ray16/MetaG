@@ -1,5 +1,13 @@
 # Validation against the evaluated release
 
+The [released-ensemble reliability comparison](../benchmark/native_uncertainty_validation/README.md)
+now records the native 100-member reaction outputs on the fixed 69-target
+development cohort. Its spreads preserve shared-member molecular covariance;
+native means are evaluated separately from archived OOF means. Sixty-eight exact
+normalized state equations also occur in the shipped training table. The
+descriptive risk curves do not validate independent risk reduction or a deployed
+reliability rule, and retain the preceding reference-condition qualifications.
+
 The subsequent [minimum-curvature recovery and global-reference study](../benchmark/global_amino_reference_validation/README.md)
 adds a numerical recovery path after the final force-converged FIRE/mode-following
 attempt still has a strong imaginary mode. The new path requires tighter forces
