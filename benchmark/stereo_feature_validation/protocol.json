@@ -1,0 +1,42 @@
+{
+  "schema": "metag-comparator-stereo-feature-audit-v1",
+  "utc": "2026-11-05T22:34:36.979327+00:00",
+  "scope": "Version-specific representational audit, not an independent accuracy or generalization benchmark.",
+  "selection": "All17existing formation encoding pairs and every stereo-distinct same-connectivity pair in the fixed69-reaction native molecular bank. No target value or MetaG error selects cases.",
+  "preliminary_exposure": "Active default feature omissions and preliminary exact native-vector equalities were observed before this audit freeze; no blinded/prospective performance claim.",
+  "inputs": {
+    "benchmark/native_uncertainty_validation/raw_outputs.json": "617b49a1dea90a50a7f6c6271f79fd35bccd669258271740e2a0d36cd490618b",
+    "benchmark/native_uncertainty_validation/protocol.json": "b3c9fd0e90d5714ea89c840e35916009b2792fc5009321f14d656e346ead7aba",
+    "benchmark/native_uncertainty_validation/source_implementation.zip": "456c26447a8f384ec2fbf185ccf9a7eb0a3188471aaed213b261c3fa8ac27ad8",
+    "benchmark/stereo_reference_feasibility_validation/structural_review.json": "8ac3034939e1ada125c585cdc5286e9f8d2c62a72420057c0222a76a380f243b"
+  },
+  "sources": {
+    "dGbyG/utils/NNFunc.py": "8d787913499cd6a0e108e3d21b516da02242655219b1c3d3141e34a9131029b8",
+    "dGbyG/api/utils.py": "c58d03b3a3f50a597ca270a45986f553732f5baf1415e3a2927392e84824c0da",
+    "dGbyG/network/GNNetwork.py": "9292efd6eff87959477d6a76a447bc2a04794da7a78a066995549b19ae744b48",
+    "dGbyG/network/data.py": "044a1f027c80fc0a1becd6e93a7a8b73d15430fdcb8afc8bf9d9aca2ecfa5f6b"
+  },
+  "controls": [
+    "A tetrahedral-tag inversion must change its explicit stereochemical identity while keeping the default graph arrays identical.",
+    "Changing only E/Z must preserve the default arrays.",
+    "Enabling the optional chiral atom feature must distinguish a tag-inversion control; this is a different input configuration from the audited ensemble.",
+    "A change of atomic element must alter the arrays.",
+    "Do not call loss of enantiomer distinction a thermodynamic failure in an achiral medium."
+  ],
+  "comparator_scope": "Only this frozen source and its archived100-member outputs; additional condition transformations and other graph architectures may behave differently.",
+  "model_inference": false,
+  "training": false,
+  "experimental_errors_examined": false,
+  "new_primary_labels": 0,
+  "CUDA_use_allowed": false,
+  "CPU_affinity": [
+    79
+  ],
+  "native_threads": 1,
+  "limitations": [
+    "Existing training/development exposure retained.",
+    "Incomplete stereo encodings do not define an independently authenticated stereoisomer pair.",
+    "Graph collisions alone do not establish nonzero measured energy, predictive superiority or a MetaG advantage.",
+    "Future stereochemical comparisons need a stereo-aware graph-model control."
+  ]
+}

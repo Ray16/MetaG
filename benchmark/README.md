@@ -40,6 +40,15 @@ checks equal-coverage rankings against native ensemble spread. This is distinct
 from the OOF-repeat analysis; 68 equations also match the shipped training table.
 It supplies no independent reliability or unfamiliar-chemistry validation.
 
+The [frozen stereo-feature audit](stereo_feature_validation/README.md) independently
+reconstructs the active comparator graph arrays and all selected archived member
+contrasts. Its default features omit stereochemical tags; optional features and
+other model versions are outside this audit. All five graph-cancelled development
+reactions are retained: historical MetaG MAE is 2.61 kJ/mol versus 1.03 for zero.
+This diagnoses a representation limit without demonstrating a MetaG advantage.
+Run `python benchmark/audit_stereo_features.py`; add `--actual-featurizer` in the
+declared Torch/PyG environment to compare the original CPU feature function too.
+
 The [solvation rotation control](solvation_rotation_validation/README.md) records
 all 432 requested fixed-pose numerical pairs, including six SCC refusals. Its
 complete-subcase grid comparison is separate from experimental accuracy, and

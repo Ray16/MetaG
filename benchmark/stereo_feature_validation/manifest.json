@@ -1,0 +1,77 @@
+{
+  "schema": "metag-stereo-feature-packet-v1",
+  "files": {
+    "README.md": {
+      "bytes": 2461,
+      "sha256": "d781fc65fc0974ee4ef86c91b11ba6d650f8c0ad2f541b8b594ac302403469bb"
+    },
+    "audit_stereo_features.py": {
+      "bytes": 14921,
+      "sha256": "89c27300b62953e2d8e69ac4f9d55a565fe53c4561c7c96923c5a9e3eb34f130"
+    },
+    "feature_arrays.json.gz": {
+      "bytes": 6715,
+      "sha256": "158ddf3cdd4df1a1b908117cb69bf10ec90adcbbf2a2c817fbccd1cdfeb9b34d"
+    },
+    "inputs/native_inputs.json": {
+      "bytes": 13665,
+      "sha256": "662cffe021cc556bef9a4d788aea88a01630afc28e240ed599e0668d5298a117"
+    },
+    "inputs/protocol.json": {
+      "bytes": 25388,
+      "sha256": "b3c9fd0e90d5714ea89c840e35916009b2792fc5009321f14d656e346ead7aba"
+    },
+    "inputs/raw_outputs.json": {
+      "bytes": 648391,
+      "sha256": "617b49a1dea90a50a7f6c6271f79fd35bccd669258271740e2a0d36cd490618b"
+    },
+    "inputs/source_implementation.zip": {
+      "bytes": 56733,
+      "sha256": "456c26447a8f384ec2fbf185ccf9a7eb0a3188471aaed213b261c3fa8ac27ad8"
+    },
+    "inputs/structural_review.json": {
+      "bytes": 664362,
+      "sha256": "8ac3034939e1ada125c585cdc5286e9f8d2c62a72420057c0222a76a380f243b"
+    },
+    "owned_source/LICENSE": {
+      "bytes": 1087,
+      "sha256": "b2b34b098ec5e19c0200cf6db8945d512dea991812d058fb9cf969c976af0766"
+    },
+    "owned_source/dGbyG/api/utils.py": {
+      "bytes": 5694,
+      "sha256": "c58d03b3a3f50a597ca270a45986f553732f5baf1415e3a2927392e84824c0da"
+    },
+    "owned_source/dGbyG/network/GNNetwork.py": {
+      "bytes": 7770,
+      "sha256": "9292efd6eff87959477d6a76a447bc2a04794da7a78a066995549b19ae744b48"
+    },
+    "owned_source/dGbyG/network/data.py": {
+      "bytes": 1474,
+      "sha256": "044a1f027c80fc0a1becd6e93a7a8b73d15430fdcb8afc8bf9d9aca2ecfa5f6b"
+    },
+    "owned_source/dGbyG/utils/NNFunc.py": {
+      "bytes": 5476,
+      "sha256": "8d787913499cd6a0e108e3d21b516da02242655219b1c3d3141e34a9131029b8"
+    },
+    "protocol.json": {
+      "bytes": 2861,
+      "sha256": "3b3161aae6c6c735c9bbcb14c43215ad4f4ea2ce1d553e14483ff3f1c2562fae"
+    },
+    "report.json": {
+      "bytes": 75705,
+      "sha256": "06fe0283e9f6e1cd0f2e656da564fdc9b59a30dd6d15241d03bf536320f4e1be"
+    },
+    "retrospective_cases.json": {
+      "bytes": 1917,
+      "sha256": "616e9d15a408d2f84af2a718c8e553654ef761b78c918d57c534509cbe1051ca"
+    },
+    "retrospective_join_design.json": {
+      "bytes": 1154,
+      "sha256": "1c41759430a9dcd8da1534798281850afe3fcdc10394c45513a9d4079fc7bd24"
+    },
+    "source_run.py": {
+      "bytes": 8906,
+      "sha256": "cce074a63694d637858771aa2c14e8ffbe5766cc9a8ebce4ac1fe270f5d80d04"
+    }
+  }
+}

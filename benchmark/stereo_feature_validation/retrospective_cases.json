@@ -1,0 +1,72 @@
+{
+  "scope": "Retrospective source-defined illustration on all five graph-cancelled native reaction rows; not independent validation or a new primary benchmark.",
+  "rows": [
+    {
+      "reaction": "rxn00643",
+      "reference": 1.69,
+      "historical_metag": -5.8,
+      "comparator": -1.1368683772161603e-13,
+      "native_ensemble_population_SD": 0.0,
+      "absolute_errors": {
+        "historical_metag": 7.49,
+        "comparator": 1.6900000000001136,
+        "zero": 1.69
+      }
+    },
+    {
+      "reaction": "rxn01116",
+      "reference": -0.99,
+      "historical_metag": -0.3,
+      "comparator": 5.684341886080802e-14,
+      "native_ensemble_population_SD": 0.0,
+      "absolute_errors": {
+        "historical_metag": 0.69,
+        "comparator": 0.9900000000000568,
+        "zero": 0.99
+      }
+    },
+    {
+      "reaction": "rxn02975",
+      "reference": -0.68,
+      "historical_metag": 2.0,
+      "comparator": 0.0,
+      "native_ensemble_population_SD": 0.0,
+      "absolute_errors": {
+        "historical_metag": 2.68,
+        "comparator": 0.68,
+        "zero": 0.68
+      }
+    },
+    {
+      "reaction": "rxn04082",
+      "reference": -0.46,
+      "historical_metag": 0.7,
+      "comparator": 5.684341886080802e-14,
+      "native_ensemble_population_SD": 0.0,
+      "absolute_errors": {
+        "historical_metag": 1.16,
+        "comparator": 0.46000000000005686,
+        "zero": 0.46
+      }
+    },
+    {
+      "reaction": "rxn31240",
+      "reference": -1.33,
+      "historical_metag": -0.3,
+      "comparator": 0.0,
+      "native_ensemble_population_SD": 0.0,
+      "absolute_errors": {
+        "historical_metag": 1.03,
+        "comparator": 1.33,
+        "zero": 1.33
+      }
+    }
+  ],
+  "mean_absolute_error": {
+    "historical_metag": 2.61,
+    "comparator": 1.0300000000000455,
+    "zero": 1.03
+  },
+  "independent_labels_admitted": 0,
+  "source_or_condition_limits_unchanged": true
+}

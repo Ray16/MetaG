@@ -1,0 +1,17 @@
+{
+  "utc": "2026-11-05T22:55:50.387904+00:00",
+  "scope": "Retrospective source-defined illustration on all five graph-cancelled native reaction rows; not independent validation or a new primary benchmark.",
+  "selected_reactions": [
+    "rxn00643",
+    "rxn01116",
+    "rxn02975",
+    "rxn04082",
+    "rxn31240"
+  ],
+  "selection_basis": "Exact cancellation of stereo-erased graph classes, fixed before this error join. No subset chosen by error or reference magnitude.",
+  "prior_exposure": "All69targets already belong to the development/potential-training-exposed parent. Preliminary native zero-vectors and source feature omissions were inspected.",
+  "source_sha256": "662cffe021cc556bef9a4d788aea88a01630afc28e240ed599e0668d5298a117",
+  "metag_profile": "Historical corrected-source benchmark, not the newer full-molecule or two-isomer research estimator.",
+  "reference_scope": "Existing harmonized labels retain the parent condition/source qualifications; no source eligibility is upgraded.",
+  "claim_limit": "Feature loss does not itself show nonzero measured energy or a MetaG advantage. Retain every selected case and unfavorable result."
+}
