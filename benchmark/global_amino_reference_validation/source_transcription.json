@@ -1,0 +1,131 @@
+{
+  "scope": "Unconverted original primary-table transcription, not directly admissible as target-scale parameters.",
+  "source_pdf_sha256": "195f5928c90d356ba6135797306454249c4e6474938356a77bfc62c25a80b702",
+  "protocol_sha256": "e01e470c19fe7a00342deff9d4f5745b7e6bf671b9de2f49643e1f87793557af",
+  "models": [
+    {
+      "kind": "sequential_macroscopic_acid_pka",
+      "reference_smiles": "[NH3+]CC(=O)O",
+      "reference_deprotonations": 0,
+      "reference_scope": "fully_protonated_primary_amino_carboxylic_acid_family",
+      "reference_formula": "C2H6NO2+",
+      "pKas": [
+        2.35,
+        9.78
+      ],
+      "conditions": {
+        "T_K": 298.15,
+        "ionic_strength_M": 0.0,
+        "solvent": "water",
+        "standard_state": "unresolved_primary_table",
+        "magnesium_binding": "absent"
+      },
+      "source": {
+        "locator": "https://srd.nist.gov/jpcrdreprint/1.555878.pdf",
+        "location": "Table6, printed1057/PDF10, unprimed zero-I column and explicit proton-count states; section2.1 conventions; Glu step3 footnoteh.",
+        "artifact_sha256": "195f5928c90d356ba6135797306454249c4e6474938356a77bfc62c25a80b702",
+        "determination": "evaluated",
+        "parameter_scale": "unresolved_primary_table",
+        "conversion": "Raw unprimed-table transcription; explicit per-step source-aware conversion is required before validation/scoring.",
+        "uncertainty": null,
+        "uncertainty_kind": "Complete source-step uncertainty/covariance unavailable. Glu step3 includes an activity-model conversion. Scale sensitivity is conditional, not a total error bound.",
+        "covariance": null,
+        "development_exposure": true
+      }
+    },
+    {
+      "kind": "sequential_macroscopic_acid_pka",
+      "reference_smiles": "C[C@H]([NH3+])C(=O)O",
+      "reference_deprotonations": 0,
+      "reference_scope": "fully_protonated_primary_amino_carboxylic_acid_family",
+      "reference_formula": "C3H8NO2+",
+      "pKas": [
+        2.34,
+        9.87
+      ],
+      "conditions": {
+        "T_K": 298.15,
+        "ionic_strength_M": 0.0,
+        "solvent": "water",
+        "standard_state": "unresolved_primary_table",
+        "magnesium_binding": "absent"
+      },
+      "source": {
+        "locator": "https://srd.nist.gov/jpcrdreprint/1.555878.pdf",
+        "location": "Table6, printed1057/PDF10, unprimed zero-I column and explicit proton-count states; section2.1 conventions; Glu step3 footnoteh.",
+        "artifact_sha256": "195f5928c90d356ba6135797306454249c4e6474938356a77bfc62c25a80b702",
+        "determination": "evaluated",
+        "parameter_scale": "unresolved_primary_table",
+        "conversion": "Raw unprimed-table transcription; explicit per-step source-aware conversion is required before validation/scoring.",
+        "uncertainty": null,
+        "uncertainty_kind": "Complete source-step uncertainty/covariance unavailable. Glu step3 includes an activity-model conversion. Scale sensitivity is conditional, not a total error bound.",
+        "covariance": null,
+        "development_exposure": true
+      }
+    },
+    {
+      "kind": "sequential_macroscopic_acid_pka",
+      "reference_smiles": "[NH3+][C@@H](CC(=O)O)C(=O)O",
+      "reference_deprotonations": 0,
+      "reference_scope": "fully_protonated_primary_amino_carboxylic_acid_family",
+      "reference_formula": "C4H8NO4+",
+      "pKas": [
+        1.99,
+        3.9,
+        10.002
+      ],
+      "conditions": {
+        "T_K": 298.15,
+        "ionic_strength_M": 0.0,
+        "solvent": "water",
+        "standard_state": "unresolved_primary_table",
+        "magnesium_binding": "absent"
+      },
+      "source": {
+        "locator": "https://srd.nist.gov/jpcrdreprint/1.555878.pdf",
+        "location": "Table6, printed1057/PDF10, unprimed zero-I column and explicit proton-count states; section2.1 conventions; Glu step3 footnoteh.",
+        "artifact_sha256": "195f5928c90d356ba6135797306454249c4e6474938356a77bfc62c25a80b702",
+        "determination": "evaluated",
+        "parameter_scale": "unresolved_primary_table",
+        "conversion": "Raw unprimed-table transcription; explicit per-step source-aware conversion is required before validation/scoring.",
+        "uncertainty": null,
+        "uncertainty_kind": "Complete source-step uncertainty/covariance unavailable. Glu step3 includes an activity-model conversion. Scale sensitivity is conditional, not a total error bound.",
+        "covariance": null,
+        "development_exposure": true
+      }
+    },
+    {
+      "kind": "sequential_macroscopic_acid_pka",
+      "reference_smiles": "[NH3+][C@@H](CCC(=O)O)C(=O)O",
+      "reference_deprotonations": 0,
+      "reference_scope": "fully_protonated_primary_amino_carboxylic_acid_family",
+      "reference_formula": "C5H10NO4+",
+      "pKas": [
+        2.162,
+        4.272,
+        9.93
+      ],
+      "conditions": {
+        "T_K": 298.15,
+        "ionic_strength_M": 0.0,
+        "solvent": "water",
+        "standard_state": "unresolved_primary_table",
+        "magnesium_binding": "absent"
+      },
+      "source": {
+        "locator": "https://srd.nist.gov/jpcrdreprint/1.555878.pdf",
+        "location": "Table6, printed1057/PDF10, unprimed zero-I column and explicit proton-count states; section2.1 conventions; Glu step3 footnoteh.",
+        "artifact_sha256": "195f5928c90d356ba6135797306454249c4e6474938356a77bfc62c25a80b702",
+        "determination": "evaluated",
+        "parameter_scale": "unresolved_primary_table",
+        "conversion": "Raw unprimed-table transcription; explicit per-step source-aware conversion is required before validation/scoring.",
+        "uncertainty": null,
+        "uncertainty_kind": "Complete source-step uncertainty/covariance unavailable. Glu step3 includes an activity-model conversion. Scale sensitivity is conditional, not a total error bound.",
+        "covariance": null,
+        "development_exposure": true
+      }
+    }
+  ],
+  "parameter_state": "unconverted_primary_transcription",
+  "scale_scenario_note": "Source-aware Gly/Ala conversion, five unresolved Asp/Glu step flags;32 conditional corners, not a probability distribution or total error bound."
+}

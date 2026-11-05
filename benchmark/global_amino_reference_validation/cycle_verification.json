@@ -1,0 +1,248 @@
+{
+  "full_extended596": {
+    "n_available_reactions": 143,
+    "n_state_rows": 193,
+    "n_independent_cycles": 11,
+    "maximum_normalized_residual_kj": 0.0,
+    "cycles": [
+      {
+        "coefficients": {
+          "rxn00266": 1
+        },
+        "residual_kj": 0.0,
+        "L1_normalized_residual_kj": 0.0
+      },
+      {
+        "coefficients": {
+          "rxn00182": 1,
+          "rxn00191": 1,
+          "rxn00278": -1
+        },
+        "residual_kj": 0.0,
+        "L1_normalized_residual_kj": 0.0
+      },
+      {
+        "coefficients": {
+          "rxn00182": 1,
+          "rxn00248": -1,
+          "rxn00260": 1,
+          "rxn00347": -1,
+          "rxn00799": 1
+        },
+        "residual_kj": 0.0,
+        "L1_normalized_residual_kj": 0.0
+      },
+      {
+        "coefficients": {
+          "rxn01004": 1
+        },
+        "residual_kj": 0.0,
+        "L1_normalized_residual_kj": 0.0
+      },
+      {
+        "coefficients": {
+          "rxn00248": 1,
+          "rxn00499": -1,
+          "rxn01054": 1
+        },
+        "residual_kj": 0.0,
+        "L1_normalized_residual_kj": 0.0
+      },
+      {
+        "coefficients": {
+          "rxn00131": 1,
+          "rxn00132": -1,
+          "rxn00778": -1,
+          "rxn01138": -1
+        },
+        "residual_kj": 0.0,
+        "L1_normalized_residual_kj": 0.0
+      },
+      {
+        "coefficients": {
+          "rxn00132": 1,
+          "rxn00139": -1,
+          "rxn00831": -1,
+          "rxn00836": 1,
+          "rxn00927": 1,
+          "rxn01299": -1
+        },
+        "residual_kj": 0.0,
+        "L1_normalized_residual_kj": 0.0
+      },
+      {
+        "coefficients": {
+          "rxn00131": 1,
+          "rxn00139": -1,
+          "rxn00778": -1,
+          "rxn00831": -1,
+          "rxn00836": 1,
+          "rxn01358": -1
+        },
+        "residual_kj": 0.0,
+        "L1_normalized_residual_kj": 0.0
+      },
+      {
+        "coefficients": {
+          "rxn00007": 1,
+          "rxn00220": -1,
+          "rxn00704": -1,
+          "rxn05026": -1
+        },
+        "residual_kj": 0.0,
+        "L1_normalized_residual_kj": 0.0
+      },
+      {
+        "coefficients": {
+          "rxn00220": 1,
+          "rxn00223": 1,
+          "rxn00558": -1,
+          "rxn08430": -1
+        },
+        "residual_kj": 0.0,
+        "L1_normalized_residual_kj": 0.0
+      },
+      {
+        "coefficients": {
+          "rxn00220": 1,
+          "rxn00223": 1,
+          "rxn00558": -1,
+          "rxn00559": 1,
+          "rxn00636": -1,
+          "rxn08948": -1
+        },
+        "residual_kj": 0.0,
+        "L1_normalized_residual_kj": 0.0
+      }
+    ],
+    "scope": "Complete nullspace of the available literal-input/pool stoichiometry with explicit proton reservoir; no experimental accuracy claim."
+  },
+  "global_amino_extended596": {
+    "n_available_reactions": 148,
+    "n_state_rows": 197,
+    "n_independent_cycles": 12,
+    "maximum_normalized_residual_kj": 0.0,
+    "cycles": [
+      {
+        "coefficients": {
+          "rxn00266": 1
+        },
+        "residual_kj": 0.0,
+        "L1_normalized_residual_kj": 0.0
+      },
+      {
+        "coefficients": {
+          "rxn00182": 1,
+          "rxn00191": 1,
+          "rxn00278": -1
+        },
+        "residual_kj": 0.0,
+        "L1_normalized_residual_kj": 0.0
+      },
+      {
+        "coefficients": {
+          "rxn00182": 1,
+          "rxn00248": -1,
+          "rxn00260": 1,
+          "rxn00347": -1,
+          "rxn00799": 1
+        },
+        "residual_kj": 0.0,
+        "L1_normalized_residual_kj": 0.0
+      },
+      {
+        "coefficients": {
+          "rxn00191": 1,
+          "rxn00193": 1,
+          "rxn00283": -1,
+          "rxn00849": -1
+        },
+        "residual_kj": 0.0,
+        "L1_normalized_residual_kj": 0.0
+      },
+      {
+        "coefficients": {
+          "rxn01004": 1
+        },
+        "residual_kj": 0.0,
+        "L1_normalized_residual_kj": 0.0
+      },
+      {
+        "coefficients": {
+          "rxn00248": 1,
+          "rxn00499": -1,
+          "rxn01054": 1
+        },
+        "residual_kj": 0.0,
+        "L1_normalized_residual_kj": 0.0
+      },
+      {
+        "coefficients": {
+          "rxn00131": 1,
+          "rxn00132": -1,
+          "rxn00778": -1,
+          "rxn01138": -1
+        },
+        "residual_kj": 0.0,
+        "L1_normalized_residual_kj": 0.0
+      },
+      {
+        "coefficients": {
+          "rxn00132": 1,
+          "rxn00139": -1,
+          "rxn00831": -1,
+          "rxn00836": 1,
+          "rxn00927": 1,
+          "rxn01299": -1
+        },
+        "residual_kj": 0.0,
+        "L1_normalized_residual_kj": 0.0
+      },
+      {
+        "coefficients": {
+          "rxn00131": 1,
+          "rxn00139": -1,
+          "rxn00778": -1,
+          "rxn00831": -1,
+          "rxn00836": 1,
+          "rxn01358": -1
+        },
+        "residual_kj": 0.0,
+        "L1_normalized_residual_kj": 0.0
+      },
+      {
+        "coefficients": {
+          "rxn00007": 1,
+          "rxn00220": -1,
+          "rxn00704": -1,
+          "rxn05026": -1
+        },
+        "residual_kj": 0.0,
+        "L1_normalized_residual_kj": 0.0
+      },
+      {
+        "coefficients": {
+          "rxn00220": 1,
+          "rxn00223": 1,
+          "rxn00558": -1,
+          "rxn08430": -1
+        },
+        "residual_kj": 0.0,
+        "L1_normalized_residual_kj": 0.0
+      },
+      {
+        "coefficients": {
+          "rxn00220": 1,
+          "rxn00223": 1,
+          "rxn00558": -1,
+          "rxn00559": 1,
+          "rxn00636": -1,
+          "rxn08948": -1
+        },
+        "residual_kj": 0.0,
+        "L1_normalized_residual_kj": 0.0
+      }
+    ],
+    "scope": "Complete nullspace of the available literal-input/pool stoichiometry with explicit proton reservoir; no experimental accuracy claim."
+  }
+}

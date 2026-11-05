@@ -1,0 +1,14 @@
+{
+  "records": 594,
+  "parent_records": 589,
+  "catalog_sha256": "4768fda8d6b12fd0f71d846a8e4b6c4fa88d0a2a4411b21f416c694321c2ab25",
+  "models_sha256": "7d8ab233fedf54a85a41f80d6b6c0edd7471b251fee3d298b02880ff1882c3b8",
+  "helper_files_sha256": {
+    "coupled_amino_reference.py": "5404022ae4023326420493eb45f8d48005d4c87bb68311cb04d500513192779b",
+    "coupled_source_parameters.py": "560959a2654a8b7381b10c7ce26a1c939f90bc57f78a697da2fa1276c5a7c530"
+  },
+  "inputs_sha256": "69a54e6887cffffb53b25577f2cbc330acdfa78aae33bad726ec11f653f01d30",
+  "protocol_sha256": "07cb664cc574e33e3e5aeb6371aa3b139bba89f115556714477b934f67fee135",
+  "production_runtime_changed": false,
+  "new_molecular_work": false
+}

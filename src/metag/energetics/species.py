@@ -328,6 +328,8 @@ def _thermal_at_minimum(ctx, uniq, template, ref_graph, q, mult, *, optimization
             "max_imag_cm": float(info.get("max_imag_cm", 0))})
     for j, pos0 in cands:
         pos = pos0
+        force_validated = False
+        curvature_start = None
         for attempt in (0, 1):
             g, info = _gibbs_corr(ctx, syms, pos, q, mult)
             record_thermal(pos, g, info)
@@ -352,6 +354,30 @@ def _thermal_at_minimum(ctx, uniq, template, ref_graph, q, mult, *, optimization
                 # Failed descent is not evidence that negative curvature is an
                 # artefact. Only an endpoint passing its own strict Hessian can
                 # replace the original candidate; never soften a strong mode.
+                if force_validated and optimization_steps >= max(s.thermal_relax_steps, s.thermal_retry_steps):
+                    from metag.energetics.minimum_optimizer import recover_curvature_minimum
+                    start = Atoms(symbols=syms, positions=curvature_start if curvature_start is not None else pos,
+                                  info={"charge": int(q), "spin": int(mult)})
+                    recovered, trial = recover_curvature_minimum(
+                        pu, start, template, ref_graph, steps=optimization_steps)
+                    trial['strict_thermal_accepted'] = False
+                    optimization_trials.append(trial)
+                    if trial['force_accepted']:
+                        g_recovered, info_recovered = _gibbs_corr(ctx, syms, recovered.positions, q, mult)
+                        record_thermal(recovered.positions, g_recovered, info_recovered)
+                        info_recovered.pop('_imag_vecs', None)
+                        trial['thermal_n_imag'] = int(info_recovered['n_imag'])
+                        trial['thermal_max_imag_cm'] = float(info_recovered['max_imag_cm'])
+                        trial['strict_thermal_accepted'] = bool(
+                            info_recovered['n_imag'] == 0 and g_recovered is not None and np.isfinite(g_recovered))
+                        if trial['strict_thermal_accepted']:
+                            info_recovered.update(retightened=True, optimizer='ASE_LBFGS_curvature')
+                            log(f"    {name}: strict minimum recovered after persistent negative curvature "
+                                f"({trial['steps']} steps, {trial['max_force_eV_A']:.5g} eV/Å)")
+                            return g_recovered, info_recovered, {
+                                'index': j, 'kind': 'retightened', 'pos': recovered.positions,
+                                'rejected': rejected, 'optimization_trials': optimization_trials,
+                                'thermal_trials': thermal_trials}
             tried.append(info["max_imag_cm"])
             if attempt == 0:                              # re-optimise tightly once, keep only if unrearranged
                 at = Atoms(symbols=syms, positions=pos, info={"charge": int(q), "spin": int(mult)})
@@ -390,9 +416,15 @@ def _thermal_at_minimum(ctx, uniq, template, ref_graph, q, mult, *, optimization
                                 "index": j, "kind": "retightened", "pos": recovered.positions,
                                 "rejected": rejected, "optimization_trials": optimization_trials,
                                 "thermal_trials": thermal_trials}
+                        # A force-converged endpoint can still be a saddle.
+                        # Preserve it for the subsequent curvature-only search.
+                        curvature_start = recovered.positions.copy()
+                        force_validated = True
                     log(f"    {name}: LBFGS fallback did not establish a strict minimum: {trial}")
                 if conv[0]:                               # an unconverged tight re-opt (flat torsions) still
                     pos = at.get_positions()              # gets the mode-following test from the original pos
+                    force_validated = True
+                    curvature_start = pos.copy()
         rejected.append(j)                                # not a minimum: excluded from the ensemble
         log(f"    {name}: minimum candidate has an imaginary mode ({tried[-1]} cm-1) -> next candidate")
     return None, tried, {"index": None, "kind": None, "pos": None, "rejected": rejected,

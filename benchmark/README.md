@@ -6,6 +6,11 @@ PFAS using fixed external conformers. It reports all source holds, the zero base
 and every specified arm. These experimental labels were previously consulted during
 development; the study is not an independent metabolic reaction benchmark.
 
+The [global amino reference study](global_amino_reference_validation/README.md)
+retains a candidate that worsens common-target error, all 596 raw records and a
+separate successful minimum-resolver repair. Its available-bank assemblies and
+cycle checks are not genome-scale coverage or independent experimental validation.
+
 `reference_mg_bounded.json` holds experimental ΔrG'° labels transformed to pH 7,
 I = 0 and pMg 14 for the reactions of the packaged panel
 (`src/metag/data/reactions_opentecr_std.json`). They were derived from the openTECR re-curation of TECRDB

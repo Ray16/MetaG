@@ -1,0 +1,18 @@
+{
+  "scope": "All numerical settings/models and worker source frozen before this arm reassembly or its error analysis.",
+  "files_sha256": {
+    "candidate.py": "67e2276d3bc738739bd4e1904330083b28051510173f3c2cfe5c3d1508c549c4",
+    "prepare_catalog.py": "8009aaa7c5f97fb16ca4a8472cfafe90092648b5ac29f5b20bb2839fbbf5b870",
+    "run_reassembly.py": "fee4ede6e86dd7c74b8c54943d2a2d6fc58b44c70f958b567c49192be04ffe98",
+    "protocol.json": "07cb664cc574e33e3e5aeb6371aa3b139bba89f115556714477b934f67fee135",
+    "catalog.json": "4768fda8d6b12fd0f71d846a8e4b6c4fa88d0a2a4411b21f416c694321c2ab25",
+    "models_nominal.json": "7d8ab233fedf54a85a41f80d6b6c0edd7471b251fee3d298b02880ff1882c3b8",
+    "source_transcription.json": "a2595c013d803390b9973b7bad2bc0faf0a941c8adcd3d0562fcccd18908d89c",
+    "raw_settings.json": "aa2c2f0a817f8e462ea92cdd82b896ff60cfd27e922135350aaac2594e9517ab",
+    "baseline_expectations.json": "a399bb4ac7f446ecd7bd80fd938346d7f0b4d416daa68d3dbdbd59c5f40ba7c0",
+    "inputs.json": "69a54e6887cffffb53b25577f2cbc330acdfa78aae33bad726ec11f653f01d30",
+    "reference.json": "b13103bbf063d3790a31a424bb108919ace0bd6cabb18d012684389e37e9c812",
+    "source_helpers/coupled_amino_reference.py": "5404022ae4023326420493eb45f8d48005d4c87bb68311cb04d500513192779b",
+    "source_helpers/coupled_source_parameters.py": "560959a2654a8b7381b10c7ce26a1c939f90bc57f78a697da2fa1276c5a7c530"
+  }
+}

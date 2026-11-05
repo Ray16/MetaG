@@ -1,0 +1,65 @@
+{
+  "scope": "Independent assembly/proton balance and retained-Hessian minimum controls; no experimental accuracy or total uncertainty claim.",
+  "n_source_states": 6,
+  "source_states": [
+    {
+      "state_id": "10106cf19c07d50f5cc12732327d9d68ee0110408c7e69c37a0e934599187de2",
+      "reference": "C[C@H]([NH3+])C(=O)O",
+      "independent_potential_kj": -849885.2065322803,
+      "difference_kj": 8.155228950186028e-11
+    },
+    {
+      "state_id": "4c3176d9dde2a9939e64f17dfecfec050b9d17d1a9f1d915dbbdc9ebb7e75d74",
+      "reference": "[NH3+][C@@H](CC(=O)O)C(=O)O",
+      "independent_potential_kj": -1343950.0836442283,
+      "difference_kj": -7.729344487841501e-11
+    },
+    {
+      "state_id": "6f53318883d3d22f6d141ea07dd0af9004a3cff320b390bbf579deaada671a6c",
+      "reference": "[NH3+][C@@H](CCC(=O)O)C(=O)O",
+      "independent_potential_kj": -1447078.9211885901,
+      "difference_kj": -2.038364414511021e-11
+    },
+    {
+      "state_id": "77cc01f614d32298a8f0a381c2837f0f73121cf18cfc8a846e835bcb54b88586",
+      "reference": "[NH3+]CC(=O)O",
+      "independent_potential_kj": -746751.1844844379,
+      "difference_kj": -1.5589241292828515e-11
+    },
+    {
+      "state_id": "9b45fbb33372ab59263180bd34020947ac34554ba32eeac4fa8a682087bf664b",
+      "reference": "C[C@@H]([NH3+])C(=O)O",
+      "independent_potential_kj": -849882.3272569984,
+      "difference_kj": 8.155228950186028e-11
+    },
+    {
+      "state_id": "fccace87f6fad556893f47bea4ca196657d11fead6b20dc3e7a554c093343d7c",
+      "reference": "[NH3+][C@H](CCC(=O)O)C(=O)O",
+      "independent_potential_kj": -1447078.773328563,
+      "difference_kj": 7.96163558548898e-11
+    }
+  ],
+  "unaffected_shared_states_verified": 329,
+  "estimated_reactions_verified": 148,
+  "independent_Hessian_controls": {
+    "original_endpoint": {
+      "archive_sha256": "ac5b170663be8c975b71f6824985f37cd74b49aba88f6e4ec00a16147a1cc19d",
+      "n_strong_imag": 0,
+      "n_soft_imag": 0,
+      "force_max_eV_A": 0.0006073542112197641,
+      "independent_thermal_kj": 240.30935707864782,
+      "stored_thermal_kj": 240.30935311293248,
+      "difference_kj": 3.965715336562425e-06
+    },
+    "after_tighter_FIRE": {
+      "archive_sha256": "e277503dcbf03e332602a8976516ba97d91e42fd8fe4c3b2ed9640f3d8be4960",
+      "n_strong_imag": 0,
+      "n_soft_imag": 0,
+      "force_max_eV_A": 0.0007393011000563436,
+      "independent_thermal_kj": 240.31182391083698,
+      "stored_thermal_kj": 240.31181994512164,
+      "difference_kj": 3.965715336562425e-06
+    }
+  },
+  "production_reference_policy_adopted": false
+}

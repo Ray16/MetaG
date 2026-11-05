@@ -1,0 +1,17 @@
+{
+  "model": "uma-s-1p2p1",
+  "conv_tol": 2.5,
+  "conv_hits": 2,
+  "conv_max": 8,
+  "sample_scale": 1.0,
+  "keep_scale": 1.0,
+  "thermal_window_kj": 15.0,
+  "thermal_max": 10,
+  "thermal_validation_max": 64,
+  "thermal_relax_steps": 400,
+  "thermal_retry_steps": 1200,
+  "seed_offset": 0,
+  "hessian": "autograd",
+  "dg_sanity_kj": 500.0,
+  "sampling_profile": "current"
+}

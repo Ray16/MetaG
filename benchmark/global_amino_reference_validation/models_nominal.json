@@ -1,0 +1,216 @@
+[
+  {
+    "kind": "sequential_macroscopic_acid_pka",
+    "reference_smiles": "[NH3+]CC(=O)O",
+    "reference_deprotonations": 0,
+    "reference_scope": "fully_protonated_primary_amino_carboxylic_acid_family",
+    "reference_formula": "C2H6NO2+",
+    "pKas": [
+      2.35127,
+      9.78127
+    ],
+    "conditions": {
+      "T_K": 298.15,
+      "ionic_strength_M": 0.0,
+      "solvent": "water",
+      "standard_state": "solute_1M_activity",
+      "magnesium_binding": "absent"
+    },
+    "source": {
+      "locator": "https://srd.nist.gov/jpcrdreprint/1.555878.pdf",
+      "location": "Table6, printed1057/PDF10, unprimed zero-I column and explicit proton-count states; section2.1 conventions; Glu step3 footnoteh.",
+      "artifact_sha256": "195f5928c90d356ba6135797306454249c4e6474938356a77bfc62c25a80b702",
+      "determination": "evaluated",
+      "parameter_scale": "molarity_activity",
+      "conversion": "Unprimed primary Table6 transcription; explicit per-step shifts [0.00127, 0.00127]. Gly verified molal; Ala molal ancestry curation-supported, original confirmation pending; Asp and first two Glu steps remain conditional scale choices. Glu step3 follows primary molar activity conversion. Delta0.00127 from owned NIST2002 Eq10. No reaction errors select parameters. Conditional corner envelope is not total uncertainty.",
+      "uncertainty": null,
+      "uncertainty_kind": "Complete source-step uncertainty/covariance unavailable. Glu step3 includes an activity-model conversion. Scale sensitivity is conditional, not a total error bound.",
+      "covariance": null,
+      "development_exposure": true
+    }
+  },
+  {
+    "kind": "sequential_macroscopic_acid_pka",
+    "reference_smiles": "C[C@H]([NH3+])C(=O)O",
+    "reference_deprotonations": 0,
+    "reference_scope": "fully_protonated_primary_amino_carboxylic_acid_family",
+    "reference_formula": "C3H8NO2+",
+    "pKas": [
+      2.3412699999999997,
+      9.871269999999999
+    ],
+    "conditions": {
+      "T_K": 298.15,
+      "ionic_strength_M": 0.0,
+      "solvent": "water",
+      "standard_state": "solute_1M_activity",
+      "magnesium_binding": "absent"
+    },
+    "source": {
+      "locator": "https://srd.nist.gov/jpcrdreprint/1.555878.pdf",
+      "location": "Table6, printed1057/PDF10, unprimed zero-I column and explicit proton-count states; section2.1 conventions; Glu step3 footnoteh.",
+      "artifact_sha256": "195f5928c90d356ba6135797306454249c4e6474938356a77bfc62c25a80b702",
+      "determination": "evaluated",
+      "parameter_scale": "molarity_activity",
+      "conversion": "Unprimed primary Table6 transcription; explicit per-step shifts [0.00127, 0.00127]. Gly verified molal; Ala molal ancestry curation-supported, original confirmation pending; Asp and first two Glu steps remain conditional scale choices. Glu step3 follows primary molar activity conversion. Delta0.00127 from owned NIST2002 Eq10. No reaction errors select parameters. Conditional corner envelope is not total uncertainty.",
+      "uncertainty": null,
+      "uncertainty_kind": "Complete source-step uncertainty/covariance unavailable. Glu step3 includes an activity-model conversion. Scale sensitivity is conditional, not a total error bound.",
+      "covariance": null,
+      "development_exposure": true
+    }
+  },
+  {
+    "kind": "sequential_macroscopic_acid_pka",
+    "reference_smiles": "C[C@@H]([NH3+])C(=O)O",
+    "reference_deprotonations": 0,
+    "reference_scope": "fully_protonated_primary_amino_carboxylic_acid_family",
+    "reference_formula": "C3H8NO2+",
+    "pKas": [
+      2.3412699999999997,
+      9.871269999999999
+    ],
+    "conditions": {
+      "T_K": 298.15,
+      "ionic_strength_M": 0.0,
+      "solvent": "water",
+      "standard_state": "solute_1M_activity",
+      "magnesium_binding": "absent"
+    },
+    "source": {
+      "locator": "https://srd.nist.gov/jpcrdreprint/1.555878.pdf",
+      "location": "Table6, printed1057/PDF10, unprimed zero-I column and explicit proton-count states; section2.1 conventions; Glu step3 footnoteh.",
+      "artifact_sha256": "195f5928c90d356ba6135797306454249c4e6474938356a77bfc62c25a80b702",
+      "determination": "evaluated",
+      "parameter_scale": "molarity_activity",
+      "conversion": "Unprimed primary Table6 transcription; explicit per-step shifts [0.00127, 0.00127]. Gly verified molal; Ala molal ancestry curation-supported, original confirmation pending; Asp and first two Glu steps remain conditional scale choices. Glu step3 follows primary molar activity conversion. Delta0.00127 from owned NIST2002 Eq10. No reaction errors select parameters. Conditional corner envelope is not total uncertainty. Mirror-enantiomer constants derived by achiral-water thermodynamic equivalence (primary section2.2); not independent D-isomer measurements. No mixing factor.",
+      "uncertainty": null,
+      "uncertainty_kind": "Complete source-step uncertainty/covariance unavailable. Glu step3 includes an activity-model conversion. Scale sensitivity is conditional, not a total error bound.",
+      "covariance": null,
+      "development_exposure": true
+    }
+  },
+  {
+    "kind": "sequential_macroscopic_acid_pka",
+    "reference_smiles": "[NH3+][C@@H](CC(=O)O)C(=O)O",
+    "reference_deprotonations": 0,
+    "reference_scope": "fully_protonated_primary_amino_carboxylic_acid_family",
+    "reference_formula": "C4H8NO4+",
+    "pKas": [
+      1.99,
+      3.9,
+      10.002
+    ],
+    "conditions": {
+      "T_K": 298.15,
+      "ionic_strength_M": 0.0,
+      "solvent": "water",
+      "standard_state": "solute_1M_activity",
+      "magnesium_binding": "absent"
+    },
+    "source": {
+      "locator": "https://srd.nist.gov/jpcrdreprint/1.555878.pdf",
+      "location": "Table6, printed1057/PDF10, unprimed zero-I column and explicit proton-count states; section2.1 conventions; Glu step3 footnoteh.",
+      "artifact_sha256": "195f5928c90d356ba6135797306454249c4e6474938356a77bfc62c25a80b702",
+      "determination": "evaluated",
+      "parameter_scale": "molarity_activity",
+      "conversion": "Unprimed primary Table6 transcription; explicit per-step shifts [0.0, 0.0, 0.0]. Gly verified molal; Ala molal ancestry curation-supported, original confirmation pending; Asp and first two Glu steps remain conditional scale choices. Glu step3 follows primary molar activity conversion. Delta0.00127 from owned NIST2002 Eq10. No reaction errors select parameters. Conditional corner envelope is not total uncertainty.",
+      "uncertainty": null,
+      "uncertainty_kind": "Complete source-step uncertainty/covariance unavailable. Glu step3 includes an activity-model conversion. Scale sensitivity is conditional, not a total error bound.",
+      "covariance": null,
+      "development_exposure": true
+    }
+  },
+  {
+    "kind": "sequential_macroscopic_acid_pka",
+    "reference_smiles": "[NH3+][C@H](CC(=O)O)C(=O)O",
+    "reference_deprotonations": 0,
+    "reference_scope": "fully_protonated_primary_amino_carboxylic_acid_family",
+    "reference_formula": "C4H8NO4+",
+    "pKas": [
+      1.99,
+      3.9,
+      10.002
+    ],
+    "conditions": {
+      "T_K": 298.15,
+      "ionic_strength_M": 0.0,
+      "solvent": "water",
+      "standard_state": "solute_1M_activity",
+      "magnesium_binding": "absent"
+    },
+    "source": {
+      "locator": "https://srd.nist.gov/jpcrdreprint/1.555878.pdf",
+      "location": "Table6, printed1057/PDF10, unprimed zero-I column and explicit proton-count states; section2.1 conventions; Glu step3 footnoteh.",
+      "artifact_sha256": "195f5928c90d356ba6135797306454249c4e6474938356a77bfc62c25a80b702",
+      "determination": "evaluated",
+      "parameter_scale": "molarity_activity",
+      "conversion": "Unprimed primary Table6 transcription; explicit per-step shifts [0.0, 0.0, 0.0]. Gly verified molal; Ala molal ancestry curation-supported, original confirmation pending; Asp and first two Glu steps remain conditional scale choices. Glu step3 follows primary molar activity conversion. Delta0.00127 from owned NIST2002 Eq10. No reaction errors select parameters. Conditional corner envelope is not total uncertainty. Mirror-enantiomer constants derived by achiral-water thermodynamic equivalence (primary section2.2); not independent D-isomer measurements. No mixing factor.",
+      "uncertainty": null,
+      "uncertainty_kind": "Complete source-step uncertainty/covariance unavailable. Glu step3 includes an activity-model conversion. Scale sensitivity is conditional, not a total error bound.",
+      "covariance": null,
+      "development_exposure": true
+    }
+  },
+  {
+    "kind": "sequential_macroscopic_acid_pka",
+    "reference_smiles": "[NH3+][C@@H](CCC(=O)O)C(=O)O",
+    "reference_deprotonations": 0,
+    "reference_scope": "fully_protonated_primary_amino_carboxylic_acid_family",
+    "reference_formula": "C5H10NO4+",
+    "pKas": [
+      2.162,
+      4.272,
+      9.93
+    ],
+    "conditions": {
+      "T_K": 298.15,
+      "ionic_strength_M": 0.0,
+      "solvent": "water",
+      "standard_state": "solute_1M_activity",
+      "magnesium_binding": "absent"
+    },
+    "source": {
+      "locator": "https://srd.nist.gov/jpcrdreprint/1.555878.pdf",
+      "location": "Table6, printed1057/PDF10, unprimed zero-I column and explicit proton-count states; section2.1 conventions; Glu step3 footnoteh.",
+      "artifact_sha256": "195f5928c90d356ba6135797306454249c4e6474938356a77bfc62c25a80b702",
+      "determination": "evaluated",
+      "parameter_scale": "molarity_activity",
+      "conversion": "Unprimed primary Table6 transcription; explicit per-step shifts [0.0, 0.0, 0.0]. Gly verified molal; Ala molal ancestry curation-supported, original confirmation pending; Asp and first two Glu steps remain conditional scale choices. Glu step3 follows primary molar activity conversion. Delta0.00127 from owned NIST2002 Eq10. No reaction errors select parameters. Conditional corner envelope is not total uncertainty.",
+      "uncertainty": null,
+      "uncertainty_kind": "Complete source-step uncertainty/covariance unavailable. Glu step3 includes an activity-model conversion. Scale sensitivity is conditional, not a total error bound.",
+      "covariance": null,
+      "development_exposure": true
+    }
+  },
+  {
+    "kind": "sequential_macroscopic_acid_pka",
+    "reference_smiles": "[NH3+][C@H](CCC(=O)O)C(=O)O",
+    "reference_deprotonations": 0,
+    "reference_scope": "fully_protonated_primary_amino_carboxylic_acid_family",
+    "reference_formula": "C5H10NO4+",
+    "pKas": [
+      2.162,
+      4.272,
+      9.93
+    ],
+    "conditions": {
+      "T_K": 298.15,
+      "ionic_strength_M": 0.0,
+      "solvent": "water",
+      "standard_state": "solute_1M_activity",
+      "magnesium_binding": "absent"
+    },
+    "source": {
+      "locator": "https://srd.nist.gov/jpcrdreprint/1.555878.pdf",
+      "location": "Table6, printed1057/PDF10, unprimed zero-I column and explicit proton-count states; section2.1 conventions; Glu step3 footnoteh.",
+      "artifact_sha256": "195f5928c90d356ba6135797306454249c4e6474938356a77bfc62c25a80b702",
+      "determination": "evaluated",
+      "parameter_scale": "molarity_activity",
+      "conversion": "Unprimed primary Table6 transcription; explicit per-step shifts [0.0, 0.0, 0.0]. Gly verified molal; Ala molal ancestry curation-supported, original confirmation pending; Asp and first two Glu steps remain conditional scale choices. Glu step3 follows primary molar activity conversion. Delta0.00127 from owned NIST2002 Eq10. No reaction errors select parameters. Conditional corner envelope is not total uncertainty. Mirror-enantiomer constants derived by achiral-water thermodynamic equivalence (primary section2.2); not independent D-isomer measurements. No mixing factor.",
+      "uncertainty": null,
+      "uncertainty_kind": "Complete source-step uncertainty/covariance unavailable. Glu step3 includes an activity-model conversion. Scale sensitivity is conditional, not a total error bound.",
+      "covariance": null,
+      "development_exposure": true
+    }
+  }
+]

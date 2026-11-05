@@ -165,3 +165,68 @@ def test_validated_ensemble_reassembles_endpoint_and_retains_trials(monkeypatch)
     assert new.E==pytest.approx([-2*EV2KJ]) and new.G==pytest.approx([-2*EV2KJ-3])
     assert thermal==[7.] and metadata['optimizer_trials'][-1]['candidate_index']==0
     assert metadata['optimizer_trials'][-1]['strict_thermal_accepted']
+
+
+def test_curvature_recovery_uses_tighter_force_target(monkeypatch):
+    monkeypatch.setattr(mo,'_energy_forces',lambda pu,at:(.0025*np.square(at.positions).sum(),-.005*at.positions))
+    at,mol=helium()
+    coarse,old=mo.recover_force_minimum(None,at,mol,set(),steps=100)
+    tight,new=mo.recover_curvature_minimum(None,at,mol,set(),steps=100)
+    assert old['force_accepted'] and old['steps']==0
+    assert new['force_accepted'] and new['steps']>0
+    assert new['max_force_eV_A']<=.001<old['max_force_eV_A']
+    np.testing.assert_array_equal(at.positions,[[1.,0,0]])
+
+
+def setup_curvature_recovery(monkeypatch,*,still_imaginary=False):
+    mol,at,u,_=setup_pipeline(monkeypatch,fire_converged=True)
+    calls=[]
+    def recover(pu,start,template,graph,**kw):
+        calls.append(start.copy());endpoint=start.copy();endpoint.positions+=3
+        return endpoint,dict(force_accepted=True,steps=4,model_evaluations=6,
+            max_force_eV_A=.0005,positions_angstrom=endpoint.positions.tolist())
+    monkeypatch.setattr(mo,'recover_curvature_minimum',recover)
+    def thermal(pu,symbols,pos,q,**kw):
+        good=np.allclose(pos,at.positions+12) and not still_imaginary
+        return (8. if good else None),dict(n_imag=0 if good else 1,
+            max_imag_cm=0. if good else 80.,_imag_vecs=[])
+    monkeypatch.setattr(p,'uma_gibbs_corr',thermal)
+    return mol,at,u,calls
+
+
+def test_force_converged_saddle_gets_separate_strict_curvature_recovery(monkeypatch):
+    mol,at,u,calls=setup_curvature_recovery(monkeypatch)
+    g,info,res=p._thermal_at_minimum(CTX,u,mol,bond_graph(mol),0,1,optimization_steps=1200)
+    assert g==8. and info['optimizer']=='ASE_LBFGS_curvature'
+    assert len(calls)==1
+    np.testing.assert_allclose(calls[0].positions,at.positions+9)
+    np.testing.assert_allclose(res['pos'],at.positions+12)
+    assert res['optimization_trials'][-1]['strict_thermal_accepted']
+
+
+def test_curvature_recovery_does_not_bypass_a_persistent_imaginary_mode(monkeypatch):
+    mol,at,u,calls=setup_curvature_recovery(monkeypatch,still_imaginary=True)
+    g,_,res=p._thermal_at_minimum(CTX,u,mol,bond_graph(mol),0,1,optimization_steps=1200)
+    assert g is None and calls
+    assert not res['optimization_trials'][-1]['strict_thermal_accepted']
+
+
+def test_curvature_recovery_waits_for_final_retry(monkeypatch):
+    mol,at,u,calls=setup_curvature_recovery(monkeypatch)
+    g,_,_=p._thermal_at_minimum(CTX,u,mol,bond_graph(mol),0,1,optimization_steps=400)
+    assert g is None and not calls
+
+
+def test_curvature_recovery_reassembles_all_terms_at_accepted_geometry(monkeypatch):
+    mol,at,u,calls=setup_curvature_recovery(monkeypatch)
+    seen=[]
+    monkeypatch.setattr(p,'batched_energies',lambda pu,ats:(seen.append(ats[0].positions.copy()) or np.array([-3.])))
+    monkeypatch.setattr(p,'dgsolv',lambda *a,**k:-4.)
+    result=p._validated_minima(CTX,u,mol,bond_graph(mol),0,1,
+        track=SimpleNamespace(validated={},_key=lambda uniq,j:j),diagnostics={})
+    assert result is not None
+    new,corr,metadata=result
+    np.testing.assert_allclose(seen[0],at.positions+12)
+    assert new.E==pytest.approx([-3*EV2KJ])
+    assert new.G==pytest.approx([-3*EV2KJ-4.]) and corr==[8.]
+    assert metadata['optimizer_trials'][-1]['strict_thermal_accepted']

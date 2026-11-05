@@ -1,5 +1,19 @@
 # Validation against the evaluated release
 
+The subsequent [minimum-curvature recovery and global-reference study](../benchmark/global_amino_reference_validation/README.md)
+adds a numerical recovery path after the final force-converged FIRE/mode-following
+attempt still has a strong imaginary mode. The new path requires tighter forces
+and a fresh Hessian; it does not soften the vibrational criterion. A complete
+alanine parent calculation validates this path, while the original refusal remains
+retained. Raw-species source/cache identity changes, and no new full biochemical
+sweep or accuracy result is inherited from the earlier release.
+
+That study's molecule-local amino-acid reference prototype is a separate,
+unadopted candidate. Its common-target error worsens despite numerical cycle
+closure and increased availability from the recorded bank. Reproducing those
+results without a quantum runtime does not establish an accurate production
+state/reference policy or independent generalization.
+
 The later calculation-condition guard refuses explicit requests outside the
 implemented thermodynamic target before molecular work in both APIs. The packaged
 364 inputs omit those requests. A bounded source comparison removes only the

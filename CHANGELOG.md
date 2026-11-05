@@ -2,6 +2,13 @@
 
 ## Unreleased (0.3.1.dev0)
 
+- Add a bounded, same-Hamiltonian LBFGS recovery when a force-converged
+  candidate still has a strong imaginary mode after the final FIRE and
+  mode-following retry. Recovery requires forces <=0.001 eV/A, preserved
+  identity and a fresh Hessian passing the unchanged 50 cm-1 gate. Electronic,
+  solvation and thermal terms are recomputed at the accepted endpoint. The
+  raw-species source/cache identity changes; this is not a new full benchmark.
+
 - Refuse explicit calculation-condition requests outside the implemented
   298.15 K, pH 7, zero-ionic-strength, Mg-free target before molecular work.
   Both scoring APIs previously ignored this optional input metadata. Omitted

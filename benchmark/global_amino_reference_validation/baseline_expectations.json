@@ -1,0 +1,2190 @@
+{
+  "source": "analysis/metag_state_consistency_20261103_02/ablation_outputs/full.json",
+  "source_sha256": "b3ff889299bf4f2f3e9a85806c7de6edfb368dd9ecc77eee98c4157caa17ddb1",
+  "results": {
+    "rxn01211": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00973": {
+      "status": "workflow_refusal",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00216": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00695": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00290": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn10427": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn03643": {
+      "status": "assembled",
+      "dG": -29.7,
+      "dG_unrounded": -29.663188729668036,
+      "sampling_sigma_kj": 0.8535263468098799
+    },
+    "rxn00184": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00499": {
+      "status": "assembled",
+      "dG": -9.8,
+      "dG_unrounded": -9.802185935208854,
+      "sampling_sigma_kj": 0.5941390159140637
+    },
+    "rxn00070": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01008": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00173": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01530": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00132": {
+      "status": "assembled",
+      "dG": -11.6,
+      "dG_unrounded": -11.565456032083603,
+      "sampling_sigma_kj": 0.2969819890469674
+    },
+    "rxn00421": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00086": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00545": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn04082": {
+      "status": "assembled",
+      "dG": 0.7,
+      "dG_unrounded": 0.6853266549296677,
+      "sampling_sigma_kj": 1.0719235532052411
+    },
+    "rxn01740": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00634": {
+      "status": "assembled",
+      "dG": -43.4,
+      "dG_unrounded": -43.42154793511918,
+      "sampling_sigma_kj": 1.5333336899079275
+    },
+    "rxn02132": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01371": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00543": {
+      "status": "assembled",
+      "dG": -18.9,
+      "dG_unrounded": -18.904567550409865,
+      "sampling_sigma_kj": 1.0427687698473806
+    },
+    "rxn00558": {
+      "status": "assembled",
+      "dG": 1.3,
+      "dG_unrounded": 1.3070871662348509,
+      "sampling_sigma_kj": 0.3777470670683335
+    },
+    "rxn00097": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00765": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01746": {
+      "status": "assembled",
+      "dG": -0.4,
+      "dG_unrounded": -0.385088008857565,
+      "sampling_sigma_kj": 0.09126233984501525
+    },
+    "rxn01385": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01101": {
+      "status": "assembled",
+      "dG": 6.0,
+      "dG_unrounded": 5.994320642893854,
+      "sampling_sigma_kj": 0.7884165594093724
+    },
+    "rxn01358": {
+      "status": "assembled",
+      "dG": 18.7,
+      "dG_unrounded": 18.692054082406685,
+      "sampling_sigma_kj": 0.2883294249432562
+    },
+    "rxn00602": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00549": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn03249": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01451": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01100": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01362": {
+      "status": "assembled",
+      "dG": 0.2,
+      "dG_unrounded": 0.17456389079643486,
+      "sampling_sigma_kj": 1.4069156916759467
+    },
+    "rxn01761": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00747": {
+      "status": "assembled",
+      "dG": -10.3,
+      "dG_unrounded": -10.344937003217638,
+      "sampling_sigma_kj": 0.7804640940598064
+    },
+    "rxn01016": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00151": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01106": {
+      "status": "assembled",
+      "dG": -3.2,
+      "dG_unrounded": -3.21624606102705,
+      "sampling_sigma_kj": 0.3328125070772516
+    },
+    "rxn01044": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01201": {
+      "status": "assembled",
+      "dG": -17.8,
+      "dG_unrounded": -17.79999316589283,
+      "sampling_sigma_kj": 0.7094952183720172
+    },
+    "rxn00187": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00559": {
+      "status": "assembled",
+      "dG": -5.9,
+      "dG_unrounded": -5.942759407684207,
+      "sampling_sigma_kj": 0.24033452889266335
+    },
+    "rxn02451": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00065": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00293": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00577": {
+      "status": "assembled",
+      "dG": -11.1,
+      "dG_unrounded": -11.095219948561862,
+      "sampling_sigma_kj": 1.1205210722627104
+    },
+    "rxn51768": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00191": {
+      "status": "assembled",
+      "dG": -1.3,
+      "dG_unrounded": -1.2528825587360188,
+      "sampling_sigma_kj": 0.9448835426792713
+    },
+    "rxn00636": {
+      "status": "assembled",
+      "dG": -4.9,
+      "dG_unrounded": -4.946341424016282,
+      "sampling_sigma_kj": 0.4396855107977975
+    },
+    "rxn00396": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01548": {
+      "status": "assembled",
+      "dG": 22.4,
+      "dG_unrounded": 22.395240757381544,
+      "sampling_sigma_kj": 0.7194931729841123
+    },
+    "rxn00992": {
+      "status": "assembled",
+      "dG": -26.4,
+      "dG_unrounded": -26.423800960656536,
+      "sampling_sigma_kj": 0.8513155147347656
+    },
+    "rxn00280": {
+      "status": "workflow_refusal",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00629": {
+      "status": "assembled",
+      "dG": -41.4,
+      "dG_unrounded": -41.40305297356872,
+      "sampling_sigma_kj": 0.6326478050613058
+    },
+    "rxn00402": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00283": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00077": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01620": {
+      "status": "assembled",
+      "dG": 13.3,
+      "dG_unrounded": 13.31863469677046,
+      "sampling_sigma_kj": 0.8107259549879947
+    },
+    "rxn00336": {
+      "status": "workflow_refusal",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00799": {
+      "status": "assembled",
+      "dG": 14.6,
+      "dG_unrounded": 14.632972989493283,
+      "sampling_sigma_kj": 0.037912949081492425
+    },
+    "rxn01646": {
+      "status": "assembled",
+      "dG": -22.8,
+      "dG_unrounded": -22.82875862113042,
+      "sampling_sigma_kj": 0.5655226575405593
+    },
+    "rxn00141": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00223": {
+      "status": "assembled",
+      "dG": -0.9,
+      "dG_unrounded": -0.9322187984362245,
+      "sampling_sigma_kj": 0.5532928969089033
+    },
+    "rxn01204": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn31240": {
+      "status": "assembled",
+      "dG": -0.3,
+      "dG_unrounded": -0.2895452775992453,
+      "sampling_sigma_kj": 0.775171486968951
+    },
+    "rxn00182": {
+      "status": "assembled",
+      "dG": -9.9,
+      "dG_unrounded": -9.863175793238497,
+      "sampling_sigma_kj": 0.9337994992155657
+    },
+    "rxn01407": {
+      "status": "assembled",
+      "dG": -7.1,
+      "dG_unrounded": -7.100768802229595,
+      "sampling_sigma_kj": 0.5916752740334149
+    },
+    "rxn02320": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00552": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00800": {
+      "status": "assembled",
+      "dG": 3.6,
+      "dG_unrounded": 3.6351261571981013,
+      "sampling_sigma_kj": 0.6246959284047192
+    },
+    "rxn00117": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01157": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn08430": {
+      "status": "assembled",
+      "dG": -12.4,
+      "dG_unrounded": -12.435036990587832,
+      "sampling_sigma_kj": 0.13692518176430005
+    },
+    "rxn04945": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00686": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00415": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn02914": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00278": {
+      "status": "assembled",
+      "dG": -11.1,
+      "dG_unrounded": -11.116058351974516,
+      "sampling_sigma_kj": 0.8488898801959928
+    },
+    "rxn00927": {
+      "status": "assembled",
+      "dG": -8.0,
+      "dG_unrounded": -8.047123686905252,
+      "sampling_sigma_kj": 0.08232134858740056
+    },
+    "rxn00213": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01249": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01322": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn02459": {
+      "status": "workflow_refusal",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00260": {
+      "status": "assembled",
+      "dG": 17.5,
+      "dG_unrounded": 17.47037012805231,
+      "sampling_sigma_kj": 0.7312422210247385
+    },
+    "rxn02756": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01423": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00704": {
+      "status": "assembled",
+      "dG": -13.0,
+      "dG_unrounded": -12.96415182761848,
+      "sampling_sigma_kj": 1.0899784574969509
+    },
+    "rxn39443": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01043": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00171": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00770": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00248": {
+      "status": "assembled",
+      "dG": 2.5,
+      "dG_unrounded": 2.4950382104066193,
+      "sampling_sigma_kj": 0.6032453782679369
+    },
+    "rxn00546": {
+      "status": "assembled",
+      "dG": -42.8,
+      "dG_unrounded": -42.84155472718021,
+      "sampling_sigma_kj": 0.6569406897087368
+    },
+    "rxn00347": {
+      "status": "assembled",
+      "dG": 19.7,
+      "dG_unrounded": 19.745129113900475,
+      "sampling_sigma_kj": 0.0075306433097386055
+    },
+    "rxn00802": {
+      "status": "workflow_refusal",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00131": {
+      "status": "assembled",
+      "dG": -4.3,
+      "dG_unrounded": -4.337733550026314,
+      "sampling_sigma_kj": 0.3135882682264041
+    },
+    "rxn00604": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01368": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn02975": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00692": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01333": {
+      "status": "assembled",
+      "dG": -16.1,
+      "dG_unrounded": -16.122690782416612,
+      "sampling_sigma_kj": 0.49850319726422193
+    },
+    "rxn00810": {
+      "status": "assembled",
+      "dG": -50.6,
+      "dG_unrounded": -50.59952257644227,
+      "sampling_sigma_kj": 0.8571543872741045
+    },
+    "rxn00579": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00806": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn02749": {
+      "status": "assembled",
+      "dG": 28.1,
+      "dG_unrounded": 28.072352039191173,
+      "sampling_sigma_kj": 1.1806785863436522
+    },
+    "rxn01277": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00083": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01479": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn02842": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00786": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01506": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00328": {
+      "status": "workflow_refusal",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn02202": {
+      "status": "workflow_refusal",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01465": {
+      "status": "assembled",
+      "dG": -18.5,
+      "dG_unrounded": -18.476719249542384,
+      "sampling_sigma_kj": 0.517976006602586
+    },
+    "rxn00364": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn02930": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00816": {
+      "status": "assembled",
+      "dG": -23.3,
+      "dG_unrounded": -23.299940959346713,
+      "sampling_sigma_kj": 0.6553842668929951
+    },
+    "rxn00824": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01366": {
+      "status": "assembled",
+      "dG": 16.0,
+      "dG_unrounded": 16.026973264757544,
+      "sampling_sigma_kj": 0.3028306429150279
+    },
+    "rxn00990": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00778": {
+      "status": "assembled",
+      "dG": -18.0,
+      "dG_unrounded": -17.987815076950938,
+      "sampling_sigma_kj": 0.30927935934778117
+    },
+    "rxn01491": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00906": {
+      "status": "assembled",
+      "dG": -32.4,
+      "dG_unrounded": -32.38711297791451,
+      "sampling_sigma_kj": 0.686404304921987
+    },
+    "rxn00974": {
+      "status": "assembled",
+      "dG": 17.0,
+      "dG_unrounded": 17.019892678858014,
+      "sampling_sigma_kj": 0.3663642523001232
+    },
+    "rxn00836": {
+      "status": "assembled",
+      "dG": 25.9,
+      "dG_unrounded": 25.94692143263137,
+      "sampling_sigma_kj": 1.4887661696813008
+    },
+    "rxn02263": {
+      "status": "assembled",
+      "dG": 15.7,
+      "dG_unrounded": 15.718030265532434,
+      "sampling_sigma_kj": 0.28856655868806447
+    },
+    "rxn00753": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00331": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00777": {
+      "status": "assembled",
+      "dG": 5.8,
+      "dG_unrounded": 5.755490947980434,
+      "sampling_sigma_kj": 0.556339064941374
+    },
+    "rxn01790": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00214": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00831": {
+      "status": "assembled",
+      "dG": -12.0,
+      "dG_unrounded": -11.973471302335383,
+      "sampling_sigma_kj": 0.6483746646304535
+    },
+    "rxn00220": {
+      "status": "assembled",
+      "dG": -10.2,
+      "dG_unrounded": -10.195731025916757,
+      "sampling_sigma_kj": 0.6558303471994037
+    },
+    "rxn00459": {
+      "status": "assembled",
+      "dG": 7.9,
+      "dG_unrounded": 7.9297934901260305,
+      "sampling_sigma_kj": 0.3371071056172857
+    },
+    "rxn00907": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn15964": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00746": {
+      "status": "assembled",
+      "dG": 31.9,
+      "dG_unrounded": 31.882966513978317,
+      "sampling_sigma_kj": 0.9767018142348501
+    },
+    "rxn01116": {
+      "status": "assembled",
+      "dG": -0.3,
+      "dG_unrounded": -0.28204140393063426,
+      "sampling_sigma_kj": 0.7418717318409569
+    },
+    "rxn00175": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn02625": {
+      "status": "assembled",
+      "dG": 0.4,
+      "dG_unrounded": 0.4050035426625982,
+      "sampling_sigma_kj": 1.1943926493240253
+    },
+    "rxn01626": {
+      "status": "assembled",
+      "dG": -13.5,
+      "dG_unrounded": -13.48628629654604,
+      "sampling_sigma_kj": 0.09942211152073593
+    },
+    "rxn00265": {
+      "status": "assembled",
+      "dG": 6.0,
+      "dG_unrounded": 6.04481814277824,
+      "sampling_sigma_kj": 0.19368380772714172
+    },
+    "rxn01745": {
+      "status": "assembled",
+      "dG": 27.9,
+      "dG_unrounded": 27.925021039351122,
+      "sampling_sigma_kj": 1.0649359748706666
+    },
+    "rxn01383": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00007": {
+      "status": "assembled",
+      "dG": -36.1,
+      "dG_unrounded": -36.106500183726894,
+      "sampling_sigma_kj": 1.6479517416650304
+    },
+    "rxn01870": {
+      "status": "assembled",
+      "dG": 34.4,
+      "dG_unrounded": 34.42875746660866,
+      "sampling_sigma_kj": 0.8054716065810958
+    },
+    "rxn15750": {
+      "status": "assembled",
+      "dG": 4.7,
+      "dG_unrounded": 4.689603019389324,
+      "sampling_sigma_kj": 1.2367219793056081
+    },
+    "rxn01617": {
+      "status": "workflow_refusal",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01075": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01388": {
+      "status": "workflow_refusal",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01011": {
+      "status": "assembled",
+      "dG": 1.9,
+      "dG_unrounded": 1.868884723625797,
+      "sampling_sigma_kj": 0.5923147577747268
+    },
+    "rxn00250": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00909": {
+      "status": "workflow_refusal",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01280": {
+      "status": "workflow_refusal",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01265": {
+      "status": "assembled",
+      "dG": -22.2,
+      "dG_unrounded": -22.171407770132646,
+      "sampling_sigma_kj": 1.6457289685193646
+    },
+    "rxn00838": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00754": {
+      "status": "assembled",
+      "dG": -23.2,
+      "dG_unrounded": -23.202849344387232,
+      "sampling_sigma_kj": 1.0241396274511707
+    },
+    "rxn00379": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01638": {
+      "status": "assembled",
+      "dG": -5.7,
+      "dG_unrounded": -5.710116023933097,
+      "sampling_sigma_kj": 0.5181992066644238
+    },
+    "rxn00915": {
+      "status": "assembled",
+      "dG": 37.8,
+      "dG_unrounded": 37.84536537924623,
+      "sampling_sigma_kj": 1.3406736500845853
+    },
+    "rxn00139": {
+      "status": "assembled",
+      "dG": 32.9,
+      "dG_unrounded": 32.87842017948469,
+      "sampling_sigma_kj": 1.3718060820953102
+    },
+    "rxn00321": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00178": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn53944": {
+      "status": "assembled",
+      "dG": -19.9,
+      "dG_unrounded": -19.935445257549873,
+      "sampling_sigma_kj": 0.5155536334495673
+    },
+    "rxn01259": {
+      "status": "assembled",
+      "dG": -17.0,
+      "dG_unrounded": -16.99998947934364,
+      "sampling_sigma_kj": 1.0742941783159596
+    },
+    "rxn03876": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01847": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01005": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00784": {
+      "status": "assembled",
+      "dG": 22.9,
+      "dG_unrounded": 22.895116151601542,
+      "sampling_sigma_kj": 0.42063607173810263
+    },
+    "rxn00189": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn45677": {
+      "status": "assembled",
+      "dG": 8.7,
+      "dG_unrounded": 8.671376644263091,
+      "sampling_sigma_kj": 0.0
+    },
+    "rxn02591": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01532": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00422": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00148": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn02782": {
+      "status": "workflow_refusal",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01138": {
+      "status": "assembled",
+      "dG": 25.2,
+      "dG_unrounded": 25.215537559008226,
+      "sampling_sigma_kj": 0.29242849034872065
+    },
+    "rxn03250": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn02168": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn40442": {
+      "status": "assembled",
+      "dG": -39.5,
+      "dG_unrounded": -39.47558432125561,
+      "sampling_sigma_kj": 0.5917144229252962
+    },
+    "rxn02167": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00849": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn04943": {
+      "status": "assembled",
+      "dG": -42.6,
+      "dG_unrounded": -42.625592028264236,
+      "sampling_sigma_kj": 0.6170314805988802
+    },
+    "rxn01447": {
+      "status": "workflow_refusal",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01505": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01258": {
+      "status": "assembled",
+      "dG": -6.4,
+      "dG_unrounded": -6.356653074268252,
+      "sampling_sigma_kj": 0.9973521777642443
+    },
+    "rxn01117": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00867": {
+      "status": "assembled",
+      "dG": -8.5,
+      "dG_unrounded": -8.489159928285517,
+      "sampling_sigma_kj": 0.3293116576254318
+    },
+    "rxn02066": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn19090": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01726": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01253": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01386": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00781": {
+      "status": "assembled",
+      "dG": -42.4,
+      "dG_unrounded": -42.381527351688874,
+      "sampling_sigma_kj": 0.6523626085604408
+    },
+    "rxn00500": {
+      "status": "assembled",
+      "dG": -9.9,
+      "dG_unrounded": -9.87195924972957,
+      "sampling_sigma_kj": 0.591601713527627
+    },
+    "rxn00741": {
+      "status": "assembled",
+      "dG": -8.6,
+      "dG_unrounded": -8.619303757099715,
+      "sampling_sigma_kj": 0.9800289787084121
+    },
+    "rxn44278": {
+      "status": "assembled",
+      "dG": -6.7,
+      "dG_unrounded": -6.717605424579233,
+      "sampling_sigma_kj": 0.5537712018058746
+    },
+    "rxn02204": {
+      "status": "workflow_refusal",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01130": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01392": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01302": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00022": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00510": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00512": {
+      "status": "assembled",
+      "dG": 7.0,
+      "dG_unrounded": 7.006462126147653,
+      "sampling_sigma_kj": 1.1087546167343165
+    },
+    "rxn00473": {
+      "status": "assembled",
+      "dG": 12.8,
+      "dG_unrounded": 12.806480554369045,
+      "sampling_sigma_kj": 0.09690206686330621
+    },
+    "rxn01306": {
+      "status": "assembled",
+      "dG": 6.1,
+      "dG_unrounded": 6.147856458090246,
+      "sampling_sigma_kj": 0.4921937441832066
+    },
+    "rxn00817": {
+      "status": "assembled",
+      "dG": -15.6,
+      "dG_unrounded": -15.58921299155918,
+      "sampling_sigma_kj": 0.6374199172232582
+    },
+    "rxn03886": {
+      "status": "assembled",
+      "dG": -41.3,
+      "dG_unrounded": -41.27751301951548,
+      "sampling_sigma_kj": 0.6180933950601903
+    },
+    "rxn00762": {
+      "status": "assembled",
+      "dG": -20.1,
+      "dG_unrounded": -20.13627042156486,
+      "sampling_sigma_kj": 0.7946198514526547
+    },
+    "rxn01682": {
+      "status": "assembled",
+      "dG": 20.2,
+      "dG_unrounded": 20.218918438302353,
+      "sampling_sigma_kj": 0.5930439275553466
+    },
+    "rxn00562": {
+      "status": "assembled",
+      "dG": 8.2,
+      "dG_unrounded": 8.184638789156452,
+      "sampling_sigma_kj": 0.4822546830893572
+    },
+    "rxn01054": {
+      "status": "assembled",
+      "dG": -12.3,
+      "dG_unrounded": -12.297224145615473,
+      "sampling_sigma_kj": 0.13082634453610853
+    },
+    "rxn08948": {
+      "status": "assembled",
+      "dG": -13.4,
+      "dG_unrounded": -13.431454974255757,
+      "sampling_sigma_kj": 0.4820493771831831
+    },
+    "rxn01329": {
+      "status": "assembled",
+      "dG": 8.8,
+      "dG_unrounded": 8.77830283017829,
+      "sampling_sigma_kj": 0.4168078486340847
+    },
+    "rxn00172": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00930": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00699": {
+      "status": "assembled",
+      "dG": 2.4,
+      "dG_unrounded": 2.367657755734399,
+      "sampling_sigma_kj": 1.158077351602434
+    },
+    "rxn39373": {
+      "status": "assembled",
+      "dG": -30.5,
+      "dG_unrounded": -30.485891916331184,
+      "sampling_sigma_kj": 0.6335910067183455
+    },
+    "rxn00462": {
+      "status": "workflow_refusal",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01485": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00225": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00495": {
+      "status": "assembled",
+      "dG": -2.5,
+      "dG_unrounded": -2.464565370581113,
+      "sampling_sigma_kj": 0.8315811305948696
+    },
+    "rxn01241": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01099": {
+      "status": "assembled",
+      "dG": -13.2,
+      "dG_unrounded": -13.174695968191372,
+      "sampling_sigma_kj": 0.3329871323429981
+    },
+    "rxn05026": {
+      "status": "assembled",
+      "dG": -12.9,
+      "dG_unrounded": -12.946617330191657,
+      "sampling_sigma_kj": 1.7024862782897927
+    },
+    "rxn03840": {
+      "status": "assembled",
+      "dG": -10.5,
+      "dG_unrounded": -10.517589447641512,
+      "sampling_sigma_kj": 0.5150147600819035
+    },
+    "rxn00302": {
+      "status": "assembled",
+      "dG": 35.3,
+      "dG_unrounded": 35.260392227181,
+      "sampling_sigma_kj": 0.0076500487070623275
+    },
+    "rxn00239": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00611": {
+      "status": "assembled",
+      "dG": -17.1,
+      "dG_unrounded": -17.14823171334183,
+      "sampling_sigma_kj": 0.9403536042948819
+    },
+    "rxn12158": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00702": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn14063": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn02651": {
+      "status": "assembled",
+      "dG": -10.2,
+      "dG_unrounded": -10.190892724793684,
+      "sampling_sigma_kj": 0.8766451195046449
+    },
+    "rxn01597": {
+      "status": "assembled",
+      "dG": 28.5,
+      "dG_unrounded": 28.46130089578992,
+      "sampling_sigma_kj": 0.591529018706805
+    },
+    "rxn01293": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01513": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01410": {
+      "status": "assembled",
+      "dG": 6.4,
+      "dG_unrounded": 6.38551213502069,
+      "sampling_sigma_kj": 0.014496123414389252
+    },
+    "rxn01996": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00285": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00423": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn15726": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00697": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01361": {
+      "status": "assembled",
+      "dG": -15.6,
+      "dG_unrounded": -15.587347401546594,
+      "sampling_sigma_kj": 0.5917433975761119
+    },
+    "rxn00234": {
+      "status": "assembled",
+      "dG": 8.2,
+      "dG_unrounded": 8.22108821501024,
+      "sampling_sigma_kj": 0.07840218636773234
+    },
+    "rxn03884": {
+      "status": "assembled",
+      "dG": 7.4,
+      "dG_unrounded": 7.442761405487545,
+      "sampling_sigma_kj": 0.2800188070547723
+    },
+    "rxn00798": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01702": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01137": {
+      "status": "assembled",
+      "dG": 7.2,
+      "dG_unrounded": 7.160261163815903,
+      "sampling_sigma_kj": 0.06169315881690143
+    },
+    "rxn00237": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00001": {
+      "status": "assembled",
+      "dG": -31.5,
+      "dG_unrounded": -31.52125723733525,
+      "sampling_sigma_kj": 1.3075154319361335
+    },
+    "rxn01380": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00217": {
+      "status": "assembled",
+      "dG": -44.8,
+      "dG_unrounded": -44.815909534467664,
+      "sampling_sigma_kj": 0.8023869007391328
+    },
+    "rxn02322": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00062": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00193": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn36656": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01846": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00515": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01292": {
+      "status": "assembled",
+      "dG": 2.6,
+      "dG_unrounded": 2.6358883327338845,
+      "sampling_sigma_kj": 0.46471935099626405
+    },
+    "rxn00147": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00337": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn15055": {
+      "status": "assembled",
+      "dG": 2.0,
+      "dG_unrounded": 1.9843397129075129,
+      "sampling_sigma_kj": 1.4082841202745393
+    },
+    "rxn00690": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00987": {
+      "status": "workflow_refusal",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01336": {
+      "status": "assembled",
+      "dG": -38.0,
+      "dG_unrounded": -38.032076690586564,
+      "sampling_sigma_kj": 0.5918492554841261
+    },
+    "rxn02360": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn11139": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn02685": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn04785": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn16378": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn52014": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00698": {
+      "status": "assembled",
+      "dG": 0.6,
+      "dG_unrounded": 0.5860450977925211,
+      "sampling_sigma_kj": 1.172164746662635
+    },
+    "rxn00306": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00105": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn14104": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00551": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn03087": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01004": {
+      "status": "assembled",
+      "dG": 0.0,
+      "dG_unrounded": 0.0,
+      "sampling_sigma_kj": 0.0
+    },
+    "rxn00195": {
+      "status": "assembled",
+      "dG": -5.2,
+      "dG_unrounded": -5.19426833675243,
+      "sampling_sigma_kj": 1.107226744313465
+    },
+    "rxn01409": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn02527": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00631": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00785": {
+      "status": "assembled",
+      "dG": 18.1,
+      "dG_unrounded": 18.126520679332316,
+      "sampling_sigma_kj": 0.6835402632978829
+    },
+    "rxn01985": {
+      "status": "assembled",
+      "dG": 11.0,
+      "dG_unrounded": 10.995994506170973,
+      "sampling_sigma_kj": 0.33433909496067127
+    },
+    "rxn01200": {
+      "status": "assembled",
+      "dG": -15.4,
+      "dG_unrounded": -15.402442883700132,
+      "sampling_sigma_kj": 0.6150478357167477
+    },
+    "rxn00656": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn04684": {
+      "status": "assembled",
+      "dG": -12.2,
+      "dG_unrounded": -12.239728360582376,
+      "sampling_sigma_kj": 0.2083110055365178
+    },
+    "rxn01834": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01174": {
+      "status": "assembled",
+      "dG": -9.2,
+      "dG_unrounded": -9.18781079352675,
+      "sampling_sigma_kj": 0.6298177207722471
+    },
+    "rxn12188": {
+      "status": "assembled",
+      "dG": -15.0,
+      "dG_unrounded": -15.037452583463164,
+      "sampling_sigma_kj": 0.28470626229225354
+    },
+    "rxn01974": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00100": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00326": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00420": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01434": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00783": {
+      "status": "assembled",
+      "dG": 2.8,
+      "dG_unrounded": 2.7960011461982504,
+      "sampling_sigma_kj": 0.5719440372555139
+    },
+    "rxn03644": {
+      "status": "assembled",
+      "dG": -23.1,
+      "dG_unrounded": -23.055183309596032,
+      "sampling_sigma_kj": 0.37796344812166255
+    },
+    "rxn02085": {
+      "status": "workflow_refusal",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn53440": {
+      "status": "assembled",
+      "dG": -11.4,
+      "dG_unrounded": -11.438024650327861,
+      "sampling_sigma_kj": 0.6953661201004429
+    },
+    "rxn01713": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00257": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01152": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01999": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01018": {
+      "status": "assembled",
+      "dG": -8.9,
+      "dG_unrounded": -8.906478854136822,
+      "sampling_sigma_kj": 0.8644531727720556
+    },
+    "rxn01219": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01636": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01725": {
+      "status": "assembled",
+      "dG": -7.1,
+      "dG_unrounded": -7.136783037109581,
+      "sampling_sigma_kj": 0.5916411979807481
+    },
+    "rxn01457": {
+      "status": "assembled",
+      "dG": 6.5,
+      "dG_unrounded": 6.525556078180671,
+      "sampling_sigma_kj": 0.20637826803709708
+    },
+    "rxn01080": {
+      "status": "assembled",
+      "dG": -1.5,
+      "dG_unrounded": -1.5072811930440366,
+      "sampling_sigma_kj": 0.21832496159406584
+    },
+    "rxn01643": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00541": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn02902": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn02305": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01780": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn02213": {
+      "status": "assembled",
+      "dG": 7.4,
+      "dG_unrounded": 7.396498210757272,
+      "sampling_sigma_kj": 0.006274701392497494
+    },
+    "rxn00527": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00493": {
+      "status": "assembled",
+      "dG": 4.7,
+      "dG_unrounded": 4.663988339249045,
+      "sampling_sigma_kj": 0.7520117800189693
+    },
+    "rxn02900": {
+      "status": "workflow_refusal",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn08066": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00320": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00514": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00643": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn02622": {
+      "status": "assembled",
+      "dG": 15.5,
+      "dG_unrounded": 15.471269657631638,
+      "sampling_sigma_kj": 0.5191848085236639
+    },
+    "rxn49067": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01363": {
+      "status": "assembled",
+      "dG": -24.1,
+      "dG_unrounded": -24.05625914550228,
+      "sampling_sigma_kj": 0.591529092077127
+    },
+    "rxn02095": {
+      "status": "assembled",
+      "dG": -40.8,
+      "dG_unrounded": -40.757602779900935,
+      "sampling_sigma_kj": 0.9514153478084836
+    },
+    "rxn01299": {
+      "status": "assembled",
+      "dG": -14.6,
+      "dG_unrounded": -14.570607163506793,
+      "sampling_sigma_kj": 0.06630414582607434
+    },
+    "rxn00256": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00897": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01621": {
+      "status": "assembled",
+      "dG": 16.1,
+      "dG_unrounded": 16.099929607938975,
+      "sampling_sigma_kj": 0.8137221008450163
+    },
+    "rxn00830": {
+      "status": "assembled",
+      "dG": -0.5,
+      "dG_unrounded": -0.5389883499592543,
+      "sampling_sigma_kj": 0.644799207632736
+    },
+    "rxn01792": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01509": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00266": {
+      "status": "assembled",
+      "dG": 0.0,
+      "dG_unrounded": 0.0,
+      "sampling_sigma_kj": 0.0
+    },
+    "rxn00404": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00931": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01887": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn02887": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00603": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01480": {
+      "status": "workflow_refusal",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00804": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00157": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01301": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01692": {
+      "status": "assembled",
+      "dG": -37.5,
+      "dG_unrounded": -37.47747659101924,
+      "sampling_sigma_kj": 0.6193562609761858
+    },
+    "rxn00911": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00700": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00641": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn16141": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn54659": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01022": {
+      "status": "assembled",
+      "dG": 19.9,
+      "dG_unrounded": 19.91006594034843,
+      "sampling_sigma_kj": 0.9192871859757901
+    },
+    "rxn00630": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00674": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01019": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn01579": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn03281": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00276": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn00605": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn04932": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn02403": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    },
+    "rxn12217": {
+      "status": "assembled",
+      "dG": -36.4,
+      "dG_unrounded": -36.4126139760192,
+      "sampling_sigma_kj": 1.1187704626414203
+    },
+    "rxn03137": {
+      "status": "archived_molecular_record_unavailable",
+      "dG": null,
+      "dG_unrounded": null,
+      "sampling_sigma_kj": null
+    }
+  }
+}
