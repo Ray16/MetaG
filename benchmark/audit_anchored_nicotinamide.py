@@ -137,6 +137,29 @@ def portable_outcome(document):
     return doc, json.loads(software)
 
 
+def first_difference(left, right, path='root'):
+    """Bounded diagnostic for a portability failure without dumping the ledger."""
+    if type(left) is not type(right):
+        return dict(path=path, left_type=type(left).__name__, right_type=type(right).__name__)
+    if isinstance(left, dict):
+        if left.keys() != right.keys():
+            return dict(path=path, missing=sorted(right.keys()-left.keys()), extra=sorted(left.keys()-right.keys()))
+        for key in left:
+            result = first_difference(left[key], right[key], path + '.' + str(key))
+            if result:
+                return result
+    elif isinstance(left, list):
+        if len(left) != len(right):
+            return dict(path=path, left_length=len(left), right_length=len(right))
+        for i, (a, b) in enumerate(zip(left, right)):
+            result = first_difference(a, b, path + '[' + str(i) + ']')
+            if result:
+                return result
+    elif left != right:
+        return dict(path=path, left=left, right=right)
+    return None
+
+
 def replay(packet, dependency):
     packet, dependency = Path(packet).resolve(), Path(dependency).resolve()
     with tempfile.TemporaryDirectory(prefix='metag-anchor-replay-') as name:
@@ -167,7 +190,7 @@ socket.socket.connect=deny_network
             for filename in ['full.json', 'anchored.json']:
                 new, replay_software = portable_outcome(read(root / filename))
                 old, original_software = portable_outcome(json.loads(archive.read(filename)))
-                assert new == old, filename
+                assert new == old, (filename, first_difference(new, old))
                 inventories[filename] = dict(original=original_software, replay=replay_software)
         return dict(status='passed',requests=364, all_outcomes_and_invariances_reproduced=True,
                     quantum_imports_forbidden=True,network_forbidden=True,
