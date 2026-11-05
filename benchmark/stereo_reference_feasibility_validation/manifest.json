@@ -1,0 +1,42 @@
+{
+  "schema": "metag-stereo-reference-feasibility-manifest-v1",
+  "files": {
+    ".gitattributes": {
+      "bytes": 31,
+      "sha256": "f8e28a8e2101ce8ccb998f7202fc6a5a8e8c5f4ff6dc85ef366ce81a72c201e1"
+    },
+    ".gitignore": {
+      "bytes": 19,
+      "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793"
+    },
+    "README.md": {
+      "bytes": 3065,
+      "sha256": "b120c883b9a03fc6cc5be5be6f0e61979c1cb853ef66a986c0f300ed21743b86"
+    },
+    "protocol.json": {
+      "bytes": 2212,
+      "sha256": "84e3ff31e0db2c06fc364c68003363a24f01ed763fa0758344ea7fe573a4f574"
+    },
+    "registration_metadata.json": {
+      "bytes": 8656,
+      "sha256": "ec73a4f7f20195c5f1b7b076e1d5ec8354e8b041ab5bcafb25e7d430caa5ec14"
+    },
+    "source_review.json": {
+      "bytes": 3550,
+      "sha256": "9762d81b5576f5cd889e5061e61ddbc590f561ab068abdd7d2356865cd05d27c"
+    },
+    "structural_review.json": {
+      "bytes": 664362,
+      "sha256": "8ac3034939e1ada125c585cdc5286e9f8d2c62a72420057c0222a76a380f243b"
+    },
+    "structural_source.zip": {
+      "bytes": 214786,
+      "sha256": "5fddb7dcf493d8bcd89ab98e359db8da6e9b41c75b2bc37af9a7a0aeeaf704f9"
+    }
+  },
+  "dependencies": {
+    "benchmark/feasibility_validation/training671_structural.csv": "c91636a509a6be3eb98651043436caa8dc9fe4df1885ecc206fc292652bffc39",
+    "benchmark/feasibility_validation/historical_inputs.json": "51fa9ccaab3dfe3179995bf9606fa50f29ec66783f1249670495113c1e5d4463",
+    "benchmark/benchmark_feasibility.py": "667e022d1091554d1bbdbf4ce196d2c9c8209916a0182c03ea72a8b9c7355d42"
+  }
+}

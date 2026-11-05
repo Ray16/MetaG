@@ -198,6 +198,30 @@
       "review": "benchmark/independent_reference_review/additional_sources.json",
       "review_id": "10.1002/ijch.202200065",
       "primary_references_admitted": 0
+    },
+    {
+      "doi": "10.1006/jcht.1996.0099",
+      "entry_ids": [],
+      "status": "held_primary_derivation_exposure_and_conditions",
+      "independent_source_verified": false,
+      "condition_eligibility": "Full primary derivation and measurement ancestry are unverified. All three proposed neutral-alditol structures have bounded historical witnesses; the formation rows are comparator training labels.",
+      "dGbyG_overlap": "Not certified; no new comparator predictions or training performed.",
+      "prior_exposure": "Primary source/registration review only; MetaG predictions and residuals not used for selection.",
+      "review": "benchmark/stereo_reference_feasibility_validation/source_review.json",
+      "review_id": "10.1006/jcht.1996.0099",
+      "primary_references_admitted": 0
+    },
+    {
+      "doi": "10.1039/C8RE00240A",
+      "entry_ids": [],
+      "status": "held_equilibration_and_native_temperature_transfer",
+      "independent_source_verified": false,
+      "condition_eligibility": "Two dependent concentration quotients at343.15K reconstruct from the ESI, but equilibrium attainment, activity/proton convention, uncertainty and transfer to298.15K are not authenticated.",
+      "dGbyG_overlap": "Not certified; no new comparator predictions or training performed.",
+      "prior_exposure": "Primary source/registration review only; MetaG predictions and residuals not used for selection.",
+      "review": "benchmark/stereo_reference_feasibility_validation/source_review.json",
+      "review_id": "10.1039/C8RE00240A",
+      "primary_references_admitted": 0
     }
   ],
   "historical_metadata_sha256": {

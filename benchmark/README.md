@@ -29,6 +29,11 @@ both numerical profiles, all unavailable outcomes, 25 accepted primitive records
 four fixed-geometry curvature controls. Exact arithmetic and a cold replay reproduce
 the panel; these checks supply neither experimental accuracy nor genome-scale coverage.
 
+The [formation-derived stereochemical reference screen](stereo_reference_feasibility_validation/README.md)
+reviews all17paired encodings and explicitly removes both formation and reaction labels
+in its family-holdout previews. Historical witnesses, unresolved stereochemistry and
+source holds remain visible. It admits no independent experimental references.
+
 The [released-ensemble uncertainty comparison](native_uncertainty_validation/README.md)
 retains all 100 checkpoint-member sums on the same 69 development reactions and
 checks equal-coverage rankings against native ensemble spread. This is distinct

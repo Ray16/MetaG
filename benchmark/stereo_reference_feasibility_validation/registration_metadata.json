@@ -1,0 +1,325 @@
+[
+  {
+    "doi": "10.1039/c8re00240a",
+    "title": [
+      "Mechanism of oligosaccharide synthesis\n                    <i>via</i>\n                    a mutant GH29 fucosidase"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3714-3537",
+        "authenticated-orcid": false,
+        "given": "Tucker",
+        "family": "Burgin",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Michigan Department of Chemical Engineering"
+          },
+          {
+            "name": "Ann Arbor"
+          },
+          {
+            "name": "USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9373-0106",
+        "authenticated-orcid": false,
+        "given": "Heather B.",
+        "family": "Mayes",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Michigan Department of Chemical Engineering"
+          },
+          {
+            "name": "Ann Arbor"
+          },
+          {
+            "name": "USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "publisher": "Royal Society of Chemistry (RSC)",
+    "journal": [
+      "Reaction Chemistry &amp; Engineering"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "volume": "4",
+    "issue": "2",
+    "pages": "402-409",
+    "primary_url": "https://doi.org/10.1039/c8re00240a",
+    "registration_url": "https://api.crossref.org/works/10.1039/c8re00240a",
+    "registration_sha256": "2a3dc32ca38e5f61ae0aba94f6c2fa09462262596bfba6cbdfc682ab3d529196"
+  },
+  {
+    "doi": "10.1002/ijch.202200065",
+    "title": [
+      "Chemoproteomic Profiling of O\u2010GlcNAcylation in <i>Arabidopsis Thaliana</i> by Using Metabolic Glycan Labeling"
+    ],
+    "author": [
+      {
+        "given": "Jie",
+        "family": "Wu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "College of Chemistry and Molecular Engineering Peking University  Beijing China"
+          },
+          {
+            "name": "Peking-Tsinghua Center for Life Sciences Peking University  Beijing China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Cong",
+        "family": "Lei",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Chemistry and Molecular Engineering Peking University  Beijing China"
+          },
+          {
+            "name": "Beijing National Laboratory for Molecular Sciences Peking University  Beijing China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xilong",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "State Key Laboratory of Plant Genomics and National Center for Plant Gene Research, Institute of Genetics and Developmental Biology, Innovation Academy for Seed Design Chinese Academy of Sciences  Beijing 100101 China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xueyang",
+        "family": "Dong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Chemistry and Molecular Engineering Peking University  Beijing China"
+          },
+          {
+            "name": "Beijing National Laboratory for Molecular Sciences Peking University  Beijing China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ke",
+        "family": "Qin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Chemistry and Molecular Engineering Peking University  Beijing China"
+          },
+          {
+            "name": "Beijing National Laboratory for Molecular Sciences Peking University  Beijing China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Weiyao",
+        "family": "Hong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Chemistry and Molecular Engineering Peking University  Beijing China"
+          },
+          {
+            "name": "Beijing National Laboratory for Molecular Sciences Peking University  Beijing China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jing",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Life Sciences Capital Normal University  Beijing China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yuntao",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Life Sciences and Health Engineering Jiangnan University  Lihu Avenue 1800 Wuxi Jiangsu 214122 China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3058-7370",
+        "authenticated-orcid": false,
+        "given": "Xing",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Chemistry and Molecular Engineering Peking University  Beijing China"
+          },
+          {
+            "name": "Peking-Tsinghua Center for Life Sciences Peking University  Beijing China"
+          },
+          {
+            "name": "Beijing National Laboratory for Molecular Sciences Peking University  Beijing China"
+          },
+          {
+            "name": "Synthetic and Functional Biomolecules Center Peking University  Beijing China"
+          },
+          {
+            "name": "Key Laboratory of Bioorganic Chemistry and Molecular Engineering of Ministry of Education Peking University  Beijing China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "publisher": "Wiley",
+    "journal": [
+      "Israel Journal of Chemistry"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          2
+        ]
+      ]
+    },
+    "volume": "63",
+    "issue": "1-2",
+    "pages": null,
+    "primary_url": "https://doi.org/10.1002/ijch.202200065",
+    "registration_url": "https://api.crossref.org/works/10.1002/ijch.202200065",
+    "registration_sha256": "602d15ec37604ec256af8b97000b7fa3fce3e8f8c0a40e37e963628f783ea205"
+  },
+  {
+    "doi": "10.1006/jcht.1996.0099",
+    "title": [
+      "Thermodynamics of reactions catalyzed byL-iditol 2-dehydrogenase: the xylose assimilation pathway"
+    ],
+    "author": [
+      {
+        "given": "Yadu B.",
+        "family": "Tewari",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert N.",
+        "family": "Goldberg",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "publisher": "Elsevier BV",
+    "journal": [
+      "The Journal of Chemical Thermodynamics"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1996,
+          10
+        ]
+      ]
+    },
+    "volume": "28",
+    "issue": "10",
+    "pages": "1127-1144",
+    "primary_url": "https://doi.org/10.1006/jcht.1996.0099",
+    "registration_url": "https://api.crossref.org/works/10.1006/jcht.1996.0099",
+    "registration_sha256": "f91ce8106f5f81c1d7d02ecb7c75a1bb34194f12047e4eaadd782e978cc1fb9a"
+  }
+]

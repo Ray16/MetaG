@@ -1,0 +1,62 @@
+{
+  "schema": "metag-stereo-source-review-v1",
+  "utc": "2026-11-05T15:49:40.839555+00:00",
+  "selection": "No source was selected using MetaG predictions or residuals. Published quantities encountered during search remain unadmitted source-review data.",
+  "sources": [
+    {
+      "doi": "10.1006/jcht.1996.0099",
+      "access": "Crossref primary registration metadata; full primary article not retrieved.",
+      "status": "held_primary_derivation_ancestry_and_condition_verification",
+      "reason": "Potential alditol thermochemistry source only. The formation table does not document an auditable measurement derivation or uncertainty. All three alditols have exact structural witnesses in the bounded development history; absence of outcome exposure cannot be certified. No aqueous isomerization label is derived here."
+    },
+    {
+      "doi": "10.1002/ijch.202200065",
+      "access": "Publisher-deposited Crossref abstract and metadata; full article/SI not retrieved.",
+      "status": "existing_lead_not_equilibrium_reference",
+      "reason": "The abstract supports UDP-azidosugar interconversion in a metabolic-labeling study, but supplies no thermodynamic equilibrium constant. This confirms the earlier hold; it is not a new independently measured reaction-energy reference."
+    },
+    {
+      "doi": "10.1039/C8RE00240A",
+      "access": "Primary author-version PDF and publisher ESI text retrieved through web; local PDF retrieval failed (403/404), so no locally owned PDF or visual table check is claimed.",
+      "status": "held_equilibration_conditions_uncertainty_and_ancestry",
+      "URLs": {
+        "article": "https://pubs.rsc.org/en/content/getauthorversionpdf/C8RE00240A",
+        "ESI": "https://www.rsc.org/suppdata/c8/re/c8re00240a/c8re00240a1.pdf"
+      },
+      "locators": [
+        "Main article Section3.1, discussion of observed quotients and possible kinetic limitations",
+        "ESI pageS2, Equilibrium Constant from Cobucci-Ponzano et al., equations2-5"
+      ],
+      "source_observation": "Two product quotients derive from one reaction mixture and a transferred-donor amount attributed to personal communication. They are dependent quantities, not independent thermodynamic observations.",
+      "source_experimental_DOI": "10.1016/j.chembiol.2009.09.013",
+      "native_temperature_K": 343.15,
+      "reason": "Equilibrium attainment is not authenticated. The authors discuss possible kinetic limitations. Activity, proton/azide, uncertainty and298.15K transfers remain unresolved; do not turn endpoint selectivity into a standard Gibbs label.",
+      "arithmetic": {
+        "concentrations_mM": {
+          "donor_initial": "10",
+          "acceptor_initial": "100",
+          "transferred_donor": "3",
+          "donor_final": "7",
+          "acceptor_final": "97.27",
+          "alpha14_product": "1.5015",
+          "alpha13_product": "1.2285",
+          "free_azide_under_source_assumption": "3"
+        },
+        "transfer_specificity": "0.91",
+        "alpha14_fraction": "0.55",
+        "reconstructed_concentration_quotients": {
+          "alpha14": "0.0066156060450292998869127171789863267194407319831397",
+          "alpha13": "0.0054127685822966999074740413282615400431787807134779"
+        },
+        "reported_rounded_quotients": {
+          "alpha14": 0.0066,
+          "alpha13": 0.0054
+        },
+        "standard_G_labels_admitted": 0
+      }
+    }
+  ],
+  "independent_experimental_labels_admitted": 0,
+  "model_predictions_performed": false,
+  "primary_design_changed": false
+}

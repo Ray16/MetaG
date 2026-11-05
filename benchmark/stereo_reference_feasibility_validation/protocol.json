@@ -1,0 +1,21 @@
+{
+  "schema": "metag-stereo-reference-feasibility-protocol-v1",
+  "utc": "2026-11-05T15:40:43.511162+00:00",
+  "previous_turn": "progress: numerical boundary pilot verified, published and manuscript synchronized",
+  "scope": "Complete structural/condition/exposure review of the17formation-pair leads; not reference enrollment, an accuracy benchmark or an alternative primary hypothesis.",
+  "selection": "Every non-enantiomeric stereo-distinct pair of concrete formation rows with identical nonstereochemical covalent graphs; no selection by target magnitude, model prediction or residual.",
+  "inputs": {
+    "benchmark/feasibility_validation/training671_structural.csv": "c91636a509a6be3eb98651043436caa8dc9fe4df1885ecc206fc292652bffc39",
+    "benchmark/feasibility_validation/historical_inputs.json": "51fa9ccaab3dfe3179995bf9606fa50f29ec66783f1249670495113c1e5d4463",
+    "analysis/modelseed_boundary_physics_20261105_01/reference_leads/formation_stereo_candidates.json": "c6ff1034d4723504cfa4c35271ec1268a09b4e43e3d01c5dae69cd85a83b3ab8",
+    "benchmark/state_function_validation/design.json": "ad4570c67b41bbdb25ec53f0acdb76355398c12783c3e25cd19aff1443915066"
+  },
+  "exposure": "Bounded historical reaction inputs; witnesses establish prior structural exposure, absence does not certify independence.",
+  "holdout": "Remove every reaction or formation row containing either broad molecular family and every unresolved row. Exclude both formation labels even if the synthetic reaction itself was never in training. This is a structural preview, not trained validation.",
+  "novelty": "Report native training presence separately from prospective family-excluded nearest similarities. Keep primary0.5threshold and original source/family cluster gate unchanged.",
+  "reference_review": "Primary metadata/source review for neutral alditols and new glycosynthase lead; preserve native quantities/conditions and explicit holds. Values encountered in public search are not independently admitted references.",
+  "computations": "CPU-only structural checks; no model inference, fitting or GPU work.",
+  "independent_labels_admitted": 0,
+  "production_policy_adopted": false,
+  "benchmark_launch_allowed": false
+}
