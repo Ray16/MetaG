@@ -1,0 +1,14 @@
+{
+  "host": "lambda2",
+  "python": "/homes/rzhu/miniforge3/envs/uma/bin/python",
+  "ok": true,
+  "errors": [],
+  "online_cpus": 80,
+  "load": 9.26513671875,
+  "affinity": [
+    60,
+    61
+  ],
+  "available_ram_mib": 458794.859375,
+  "modules": {}
+}

@@ -1,0 +1,23 @@
+{
+  "requested_pairs": 432,
+  "successful_pairs": 426,
+  "failed_gas_SCC_pairs": 6,
+  "unattempted_pairs": 0,
+  "source_numerics_changed": false,
+  "full_frozen_endpoint_available": false,
+  "failed_values_used_as_zero": false,
+  "followup": {
+    "utc": "2026-11-05T02:46:53.944295+00:00",
+    "reason": "Original worker stopped after three consecutive actual SCC failures. Inspected native logs prove gas-phase SCC nonconvergence, not an environment/import failure. Original failures remain; only47never-attempted tasks continue.",
+    "original_workers_verified_terminal": true,
+    "n_prior_successes": 380,
+    "n_prior_failures": 5,
+    "n_selected_unattempted": 47,
+    "failed_tasks_retried": 0,
+    "worker_code_changed": false,
+    "protocol_changed": false,
+    "source_values_changed": false,
+    "original_deadline_maintained": true
+  },
+  "scope": "Negative numerical control. Original complete-panel energetic endpoint remains withheld. Allfailedfirstattempts preserved; unattempted tasks completed with unchanged source under originaldeadline."
+}

@@ -17,6 +17,11 @@ checks equal-coverage rankings against native ensemble spread. This is distinct
 from the OOF-repeat analysis; 68 equations also match the shipped training table.
 It supplies no independent reliability or unfamiliar-chemistry validation.
 
+The [solvation rotation control](solvation_rotation_validation/README.md) records
+all 432 requested fixed-pose numerical pairs, including six SCC refusals. Its
+complete-subcase grid comparison is separate from experimental accuracy, and
+the original complete-panel endpoint remains withheld.
+
 `reference_mg_bounded.json` holds experimental ΔrG'° labels transformed to pH 7,
 I = 0 and pMg 14 for the reactions of the packaged panel
 (`src/metag/data/reactions_opentecr_std.json`). They were derived from the openTECR re-curation of TECRDB

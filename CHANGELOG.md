@@ -2,6 +2,11 @@
 
 ## Unreleased (0.3.1.dev0)
 
+- Publish the fixed-pose solvation rotation control with all 432 request outcomes,
+  raw native logs and the unchanged original endpoint refusal. Dense quadrature
+  improves numerical invariance in complete subcases; six charged-cofactor SCC
+  failures remain visible. No production numerical profile is adopted.
+
 - Add the released dGbyG ensemble comparison on the fixed 69 development
   reactions, with all 100 member sums and molecular covariance retained.
   Independent decimal/statistical replay checks the complete packet without

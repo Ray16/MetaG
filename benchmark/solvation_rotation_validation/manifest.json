@@ -1,0 +1,88 @@
+{
+  "files": {
+    ".gitattributes": {
+      "bytes": 12,
+      "sha256": "07e2b5a2ce555871ced54b8b2ea1b1b600f293ca7b6b622b9ba7b4aad5e681e2"
+    },
+    "README.md": {
+      "bytes": 1886,
+      "sha256": "776b7d5918d806e4d8cdc768cf2b7888c3c8f4876ae048874292ad77f5ee24d0"
+    },
+    "analyze.py": {
+      "bytes": 5924,
+      "sha256": "9678b162c102ce2fc8cf4c5425e1c673736d4fee0497db093e793254cdd69867"
+    },
+    "freeze.json": {
+      "bytes": 1199,
+      "sha256": "5e3898bf91181868209a31649361b1bc4b8a0c98e7b07371414b2158a9341b09"
+    },
+    "original_endpoint_refusal.log": {
+      "bytes": 689,
+      "sha256": "6813eaa589778f9b06ee67a8b351a26972de833dec4f7ac462be9978215a19eb"
+    },
+    "poses.json": {
+      "bytes": 43152,
+      "sha256": "f54cab5f5c843398b444b3eaf17da07a0084ea4b77055e5ede229af7904b4f36"
+    },
+    "prepare.py": {
+      "bytes": 7617,
+      "sha256": "8ed6901362e62c789fbd94effe5b1f29ff85d188003473a73fd28c65f5600c24"
+    },
+    "protocol.json": {
+      "bytes": 2922,
+      "sha256": "b93ca128e5f752dbfe76f84da8cf314f3b219a68bedc56f90eb7e943f39abd29"
+    },
+    "raw_native.zip": {
+      "bytes": 7258186,
+      "sha256": "7861a2e138764fbd72c89ed83a51f998a7550f9d73f2d5ede4bad590e619c603"
+    },
+    "resource_preflight.json": {
+      "bytes": 249,
+      "sha256": "027e362d545fabf19a89a87960504ed74ec9a7299313b1d87fd0545a565b0e15"
+    },
+    "resources.json": {
+      "bytes": 3895,
+      "sha256": "46d14216c8bc6b52c95a863cfb61ac2e4241f3e62a892fc18083c69846d7d79a"
+    },
+    "results.zip": {
+      "bytes": 1076007,
+      "sha256": "e1f7dd0622842dd6158c5bc4cfd057ffa928c00a363e759132b8cb08370912d0"
+    },
+    "retained_reference_identity.json": {
+      "bytes": 20638,
+      "sha256": "9e6fdd172c3c0573749a28854a1e98b62561566cddcbbf887678524481e8fd5b"
+    },
+    "solvation_rotation.py": {
+      "bytes": 10407,
+      "sha256": "53a14e7b0876e9ff971c42fa1c2081b80272f149609182989801f73c6f12a721"
+    },
+    "source_inputs/charge_geometries.json": {
+      "bytes": 21239,
+      "sha256": "ef2e0ab95905dc6c1d522ed087aab8957ebeec90e2817caa83749338a9ea5d1f"
+    },
+    "source_inputs/reference_geometries.json": {
+      "bytes": 1044686,
+      "sha256": "2d4d984cb6bb37e7c21fb466b93223152a849a38812f6c7a6b937c01bc31ef59"
+    },
+    "study_outcome.json": {
+      "bytes": 1063,
+      "sha256": "52e247d82f12d1d5e3a1e6f3963444b26362ece58e78b0c2b5552954300730d2"
+    },
+    "tasks.json": {
+      "bytes": 2721087,
+      "sha256": "a0dd6f557aa5c04e101b809b14af5522ea7f930182f304bb5b159e4676be9f1c"
+    },
+    "terminal_process_audit.json": {
+      "bytes": 865,
+      "sha256": "d113db8d14c4348124f92bb7acdd4cb9eb480364d457787b0c62f3504a738746"
+    },
+    "transforms.json": {
+      "bytes": 6655,
+      "sha256": "a486d51427e11eaec85ad984ab89e242af436c50000aad37fd43f19ecf53309c"
+    },
+    "worker.py": {
+      "bytes": 7581,
+      "sha256": "1a4309adb218aa853c13264754e097060fd38ded4e907c754a22880f333d0197"
+    }
+  }
+}

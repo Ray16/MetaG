@@ -1,5 +1,12 @@
 # Validation against the evaluated release
 
+The [fixed-pose solvation rotation control](../benchmark/solvation_rotation_validation/README.md)
+retains 426 successful pairs and six gas-SCC refusals across all 432 requested
+pairs. Dense SASA quadrature reduces orientation dependence in the complete
+subcases, while the charged-oxidized energetic endpoint remains withheld.
+The original complete-panel gate is not weakened. This numerical improvement
+does not establish biochemical Gibbs accuracy or change the production profile.
+
 The [released-ensemble reliability comparison](../benchmark/native_uncertainty_validation/README.md)
 now records the native 100-member reaction outputs on the fixed 69-target
 development cohort. Its spreads preserve shared-member molecular covariance;

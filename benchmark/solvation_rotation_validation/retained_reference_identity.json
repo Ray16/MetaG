@@ -1,0 +1,727 @@
+{
+  "n_retained_geometries": 103,
+  "checks": [
+    {
+      "name": "full_ox__minimum_000",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.773753981381387,
+      "maximum_H_bond_length_A": 1.0953056810937472,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_001",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.8875553871970399,
+      "maximum_H_bond_length_A": 1.0988558942954108,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_002",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.7009467020053944,
+      "maximum_H_bond_length_A": 1.0957885552979731,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_003",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.8461492049236404,
+      "maximum_H_bond_length_A": 1.0967450552057445,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_004",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.9342002202302677,
+      "maximum_H_bond_length_A": 1.0949300925496006,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_005",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.8434219603040732,
+      "maximum_H_bond_length_A": 1.098805562989214,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_006",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.9105018765763763,
+      "maximum_H_bond_length_A": 1.095059512165676,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_007",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.9284261453545283,
+      "maximum_H_bond_length_A": 1.0973506394697696,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_008",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.7826786513800056,
+      "maximum_H_bond_length_A": 1.0953751802204903,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_009",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.9188320812248371,
+      "maximum_H_bond_length_A": 1.0985867200568624,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_010",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.7093972292042393,
+      "maximum_H_bond_length_A": 1.0968507189027215,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_011",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.8891646512383233,
+      "maximum_H_bond_length_A": 1.0953056360319244,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_012",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.8701134003561461,
+      "maximum_H_bond_length_A": 1.0940224180168545,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_013",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.7962920232431292,
+      "maximum_H_bond_length_A": 1.0941268584489974,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_014",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.7369247563946398,
+      "maximum_H_bond_length_A": 1.097548176562279,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_015",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.8963325294161786,
+      "maximum_H_bond_length_A": 1.0963899584469774,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_016",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.6920562131888311,
+      "maximum_H_bond_length_A": 1.0968814740572708,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_017",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.5360145096506421,
+      "maximum_H_bond_length_A": 1.095730444630094,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_018",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.7162998791548771,
+      "maximum_H_bond_length_A": 1.0948942004985671,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_019",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.849815647380672,
+      "maximum_H_bond_length_A": 1.0954041056919965,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_020",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.9093345693706332,
+      "maximum_H_bond_length_A": 1.097887295988628,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_021",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.6151275613071747,
+      "maximum_H_bond_length_A": 1.0984248034860165,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_022",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.9352598591573642,
+      "maximum_H_bond_length_A": 1.095011006195045,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_023",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.8646291320087008,
+      "maximum_H_bond_length_A": 1.0969676631377279,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_024",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.9344497894373871,
+      "maximum_H_bond_length_A": 1.097875337904708,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_025",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.5706034730093528,
+      "maximum_H_bond_length_A": 1.0964342666917417,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_026",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.8923807577224872,
+      "maximum_H_bond_length_A": 1.0949105816756095,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_027",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.920066839889129,
+      "maximum_H_bond_length_A": 1.0985888629653442,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_028",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.8177223396846379,
+      "maximum_H_bond_length_A": 1.094693062478242,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_029",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.8458039590132298,
+      "maximum_H_bond_length_A": 1.0970939401149147,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_030",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.9122396625266614,
+      "maximum_H_bond_length_A": 1.098536190374543,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_031",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.6224122754764263,
+      "maximum_H_bond_length_A": 1.0968779629591459,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_032",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.5878061626491311,
+      "maximum_H_bond_length_A": 1.0966839040154468,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_033",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.872563611560069,
+      "maximum_H_bond_length_A": 1.0988847242893645,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_034",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.7990522636243402,
+      "maximum_H_bond_length_A": 1.095438833369783,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_035",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.940025670160372,
+      "maximum_H_bond_length_A": 1.0944307395220796,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_036",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.8475872824314333,
+      "maximum_H_bond_length_A": 1.098814719277114,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_037",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.9233995990850479,
+      "maximum_H_bond_length_A": 1.0983333633377044,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_038",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.9416033827768038,
+      "maximum_H_bond_length_A": 1.0984635250775698,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_039",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.8317101904337741,
+      "maximum_H_bond_length_A": 1.0981753509229841,
+      "charge": 1
+    },
+    {
+      "name": "full_ox__minimum_040",
+      "n_H": 28,
+      "minimum_H_attachment_margin_A": 0.6420584505616197,
+      "maximum_H_bond_length_A": 1.0962423005809125,
+      "charge": 1
+    },
+    {
+      "name": "full_red__minimum_000",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.58079661958472,
+      "maximum_H_bond_length_A": 1.099794683510575,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_001",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.47933499228340426,
+      "maximum_H_bond_length_A": 1.1007508851514782,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_002",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.5421883570835502,
+      "maximum_H_bond_length_A": 1.0995223760435298,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_003",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.5507482893689599,
+      "maximum_H_bond_length_A": 1.100766826642012,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_004",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.6265669785248332,
+      "maximum_H_bond_length_A": 1.0999854513825726,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_005",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.9063786693226341,
+      "maximum_H_bond_length_A": 1.0996561420465254,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_006",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.5239031310544258,
+      "maximum_H_bond_length_A": 1.100341965653366,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_007",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.6665065407898753,
+      "maximum_H_bond_length_A": 1.1000984321348586,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_008",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.8675727317387123,
+      "maximum_H_bond_length_A": 1.099127262418407,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_009",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.9260683169310273,
+      "maximum_H_bond_length_A": 1.1004550844550665,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_010",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.5813773996587415,
+      "maximum_H_bond_length_A": 1.1015876429906806,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_011",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.9186133329434001,
+      "maximum_H_bond_length_A": 1.0998911285922208,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_012",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.898671962507954,
+      "maximum_H_bond_length_A": 1.1002143912640194,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_013",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.9498339643480564,
+      "maximum_H_bond_length_A": 1.097897976417874,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_014",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.7412343274809501,
+      "maximum_H_bond_length_A": 1.10017270583001,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_015",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.7203258918794924,
+      "maximum_H_bond_length_A": 1.0984811001457795,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_016",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.9308331721902106,
+      "maximum_H_bond_length_A": 1.0994949299571097,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_017",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.6566677051750254,
+      "maximum_H_bond_length_A": 1.0977934017856927,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_018",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.8722698282439766,
+      "maximum_H_bond_length_A": 1.0979958652441077,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_019",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.912348597325305,
+      "maximum_H_bond_length_A": 1.0976917444759813,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_020",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.5551809334912392,
+      "maximum_H_bond_length_A": 1.0997340408093121,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_021",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.8967257583777596,
+      "maximum_H_bond_length_A": 1.0988266640647595,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_022",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.928595083208396,
+      "maximum_H_bond_length_A": 1.0998853022289814,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_023",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.958904022583715,
+      "maximum_H_bond_length_A": 1.096879112267958,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_024",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.7172451902908865,
+      "maximum_H_bond_length_A": 1.1008153156668783,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_025",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.892515619172196,
+      "maximum_H_bond_length_A": 1.0989866152719872,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_026",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.5748259692512689,
+      "maximum_H_bond_length_A": 1.0994047001618124,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_027",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.5526677656780052,
+      "maximum_H_bond_length_A": 1.100561382426007,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_028",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.46451519118834894,
+      "maximum_H_bond_length_A": 1.099671126494119,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_029",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.5747838881375806,
+      "maximum_H_bond_length_A": 1.1002694617852353,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_030",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.9162912278598005,
+      "maximum_H_bond_length_A": 1.0996973696957204,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_031",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.5215522494083107,
+      "maximum_H_bond_length_A": 1.0999066422712218,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_032",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.8285823280894227,
+      "maximum_H_bond_length_A": 1.099360558186815,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_033",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.5847787660318264,
+      "maximum_H_bond_length_A": 1.1005119792171794,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_034",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.8736805521586337,
+      "maximum_H_bond_length_A": 1.100369088868812,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_035",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.6932881312253848,
+      "maximum_H_bond_length_A": 1.0968385796490363,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_036",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.9008971743761828,
+      "maximum_H_bond_length_A": 1.100423341534299,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_037",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.8608893541483269,
+      "maximum_H_bond_length_A": 1.1005317414025042,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_038",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.514110188818004,
+      "maximum_H_bond_length_A": 1.0995238172610813,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_039",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.6062943985431071,
+      "maximum_H_bond_length_A": 1.0998652169791825,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_040",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.5043647822669093,
+      "maximum_H_bond_length_A": 1.0989518127711981,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_041",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.5289691364994673,
+      "maximum_H_bond_length_A": 1.0995914341692254,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_042",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.4445636744763386,
+      "maximum_H_bond_length_A": 1.1006762092670237,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_043",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.5548021023602963,
+      "maximum_H_bond_length_A": 1.1003453622544157,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_044",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.6411164242670172,
+      "maximum_H_bond_length_A": 1.0963185324816473,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_045",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.9451142003840219,
+      "maximum_H_bond_length_A": 1.0989313942054288,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_046",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.6178067072739396,
+      "maximum_H_bond_length_A": 1.0991362568259242,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_047",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.5231000428336616,
+      "maximum_H_bond_length_A": 1.0995205900328284,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_048",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.5373539919333792,
+      "maximum_H_bond_length_A": 1.1004251790699093,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_049",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.8706669176020381,
+      "maximum_H_bond_length_A": 1.0988469127235736,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_050",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.7767908686284984,
+      "maximum_H_bond_length_A": 1.1000361530912834,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_051",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.8233170490756858,
+      "maximum_H_bond_length_A": 1.10030568254321,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_052",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.9399976293530683,
+      "maximum_H_bond_length_A": 1.1005364140457248,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_053",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.9052531176082108,
+      "maximum_H_bond_length_A": 1.1002458060983669,
+      "charge": 0
+    },
+    {
+      "name": "full_red__minimum_054",
+      "n_H": 29,
+      "minimum_H_attachment_margin_A": 0.9137388547404778,
+      "maximum_H_bond_length_A": 1.1001377960565262,
+      "charge": 0
+    },
+    {
+      "name": "core_ox__minimum_000",
+      "n_H": 9,
+      "minimum_H_attachment_margin_A": 0.9877754876732532,
+      "maximum_H_bond_length_A": 1.0872813370677572,
+      "charge": 1
+    },
+    {
+      "name": "core_ox__minimum_001",
+      "n_H": 9,
+      "minimum_H_attachment_margin_A": 0.9820915556982119,
+      "maximum_H_bond_length_A": 1.087504119429038,
+      "charge": 1
+    },
+    {
+      "name": "core_ox__minimum_002",
+      "n_H": 9,
+      "minimum_H_attachment_margin_A": 0.9821552095679047,
+      "maximum_H_bond_length_A": 1.0874777801044226,
+      "charge": 1
+    },
+    {
+      "name": "core_red__minimum_000",
+      "n_H": 10,
+      "minimum_H_attachment_margin_A": 0.9919352823313774,
+      "maximum_H_bond_length_A": 1.0999202132189128,
+      "charge": 0
+    },
+    {
+      "name": "core_red__minimum_001",
+      "n_H": 10,
+      "minimum_H_attachment_margin_A": 0.9889996835520722,
+      "maximum_H_bond_length_A": 1.095217344287209,
+      "charge": 0
+    },
+    {
+      "name": "core_red__minimum_002",
+      "n_H": 10,
+      "minimum_H_attachment_margin_A": 0.9875980034115166,
+      "maximum_H_bond_length_A": 1.096244505288809,
+      "charge": 0
+    },
+    {
+      "name": "core_red__minimum_003",
+      "n_H": 10,
+      "minimum_H_attachment_margin_A": 0.98764730884989,
+      "maximum_H_bond_length_A": 1.096368841201635,
+      "charge": 0
+    }
+  ],
+  "scope": "Independent nearest-heavy-atom attachment check on all103retained geometries. It does not establish complete protonation ensembles, pKa accuracy or Gibbs accuracy."
+}

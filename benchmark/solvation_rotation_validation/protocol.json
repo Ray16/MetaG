@@ -1,0 +1,59 @@
+{
+  "utc": "2026-11-05T02:29:07.563816+00:00",
+  "scope": "Fixed-geometry numerical invariance/control study; no experimental reference, prediction-error or production-policy selection.",
+  "n_poses": 6,
+  "n_transforms": 18,
+  "n_proper_orientations": 17,
+  "n_tasks": 432,
+  "n_expected_native_executions": 864,
+  "rotation_rule": "Identity plus16seeded Gaussian-unit-quaternion proper rotations, not only the cubic symmetry operations of a Lebedev grid. One separate coordinate-inversion control.",
+  "primary_endpoint": "Default-production ALPB solvation range under the17proper orientations, per pose and balanced cofactor exchange.",
+  "comparison_arms": "Default/5810point SASA grid crossed with default/.001SCF accuracy; retain allfourarms.",
+  "rotational_invariance_tolerance_kj": 0.05,
+  "native_replay_tolerance_kj": 0.005,
+  "xtb": "/nfs/lambda_stor_01/homes/rzhu/miniforge3/envs/xtb/bin/xtb",
+  "xtb_sha256": "481a1e7d8151fc08e0341b8e06ab60ac09cf1c2628738eeb83346271274bf8f4",
+  "Hartree_to_kj_per_mol": 2625.499639,
+  "coordinates": "Production six-decimal XYZ serialization after each rigid transform.",
+  "restart_policy": "Fresh isolated directory per gas/water pair. Water may read the immediately preceding gas restart, matching the production dgsolv call sequence.",
+  "native_flags": "--gfn 2 --chrg {q} --uhf 0 --sp; the production baseline has no explicit accuracy/grid/standard-state argument. Nondefault arms add only --acc 0.001 and/or $gbsa grid=extreme.",
+  "fixed_pose_exchange_weights": {
+    "full_red": 1,
+    "full_ox": -1,
+    "core_red": -1,
+    "core_ox": 1
+  },
+  "vertical_charge_cycle_weights": {
+    "charged_red": 1,
+    "charged_ox": -1,
+    "full_red": -1,
+    "full_ox": 1
+  },
+  "source_files_sha256": {
+    "/nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG/analysis/nicotinamide_ensemble_control_20261104_01/geometry_inputs.json": "2d4d984cb6bb37e7c21fb466b93223152a849a38812f6c7a6b937c01bc31ef59",
+    "/nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG/analysis/nicotinamide_phosphate_charge_20261104_01/geometry_inputs.json": "ef2e0ab95905dc6c1d522ed087aab8957ebeec90e2817caa83749338a9ea5d1f"
+  },
+  "native_threads": 1,
+  "worker_CPUs": [
+    60,
+    61
+  ],
+  "controller_CPU": 79,
+  "wall_seconds": 3600,
+  "per_native_timeout_seconds": 180,
+  "attempts_per_pair": 1,
+  "consecutive_failure_limit": 3,
+  "interpretation": "Orientation ranges are conditional numerical diagnostics, not total-error intervals. A smaller range or denser grid alone does not establish more accurate aqueous Gibbs energies. No global reaction reassembly or method adoption follows automatically.",
+  "cycle_balance": {
+    "full_core": {
+      "element_residual": {},
+      "charge_residual": 0,
+      "molecule_residual": 0
+    },
+    "charge": {
+      "element_residual": {},
+      "charge_residual": 0,
+      "molecule_residual": 0
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "controllers": [
+    {
+      "record": "workers/0.launcher_owner.json",
+      "pid": 1449537,
+      "start_ticks": "1464666445",
+      "original_process_terminal": true
+    },
+    {
+      "record": "workers/1.launcher_owner.json",
+      "pid": 1449539,
+      "start_ticks": "1464666445",
+      "original_process_terminal": true
+    },
+    {
+      "record": "workers/0/owner.json",
+      "pid": 1449538,
+      "start_ticks": "1464666445",
+      "original_process_terminal": true
+    },
+    {
+      "record": "workers/1/owner.json",
+      "pid": 1449540,
+      "start_ticks": "1464666445",
+      "original_process_terminal": true
+    },
+    {
+      "record": "unattempted_followup/workers/1/owner.json",
+      "pid": 1482279,
+      "start_ticks": "1464743399",
+      "original_process_terminal": true
+    }
+  ],
+  "all_terminal": true,
+  "no_live_claims": true
+}

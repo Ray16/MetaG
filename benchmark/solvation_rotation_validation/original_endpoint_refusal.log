@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG/analysis/solvation_rotation_control_20261104_01/analyze.py", line 85, in <module>
+    result=analyze();(HERE/'result.json').write_text(json.dumps(result,indent=2,allow_nan=False)+'\n')
+           ^^^^^^^^^
+  File "/nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG/analysis/solvation_rotation_control_20261104_01/analyze.py", line 20, in analyze
+    assert path.exists(),'Complete orientation control withheld; missing '+key
+           ^^^^^^^^^^^^^
+AssertionError: Complete orientation control withheld; missing charged_ox__proper_07__default__default

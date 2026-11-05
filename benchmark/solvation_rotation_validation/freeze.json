@@ -1,0 +1,17 @@
+{
+  "utc": "2026-11-05T02:34:04.473474+00:00",
+  "sha256": {
+    "analyze.py": "9678b162c102ce2fc8cf4c5425e1c673736d4fee0497db093e793254cdd69867",
+    "poses.json": "f54cab5f5c843398b444b3eaf17da07a0084ea4b77055e5ede229af7904b4f36",
+    "prepare.py": "8ed6901362e62c789fbd94effe5b1f29ff85d188003473a73fd28c65f5600c24",
+    "protocol.json": "b93ca128e5f752dbfe76f84da8cf314f3b219a68bedc56f90eb7e943f39abd29",
+    "resource_preflight.json": "027e362d545fabf19a89a87960504ed74ec9a7299313b1d87fd0545a565b0e15",
+    "resources.json": "46d14216c8bc6b52c95a863cfb61ac2e4241f3e62a892fc18083c69846d7d79a",
+    "retained_reference_identity.json": "9e6fdd172c3c0573749a28854a1e98b62561566cddcbbf887678524481e8fd5b",
+    "source_inputs/charge_geometries.json": "ef2e0ab95905dc6c1d522ed087aab8957ebeec90e2817caa83749338a9ea5d1f",
+    "source_inputs/reference_geometries.json": "2d4d984cb6bb37e7c21fb466b93223152a849a38812f6c7a6b937c01bc31ef59",
+    "tasks.json": "a0dd6f557aa5c04e101b809b14af5522ea7f930182f304bb5b159e4676be9f1c",
+    "transforms.json": "a486d51427e11eaec85ad984ab89e242af436c50000aad37fd43f19ecf53309c",
+    "worker.py": "1a4309adb218aa853c13264754e097060fd38ded4e907c754a22880f333d0197"
+  }
+}
