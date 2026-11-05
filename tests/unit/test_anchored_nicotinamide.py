@@ -124,3 +124,20 @@ def test_portable_comparison_separates_only_host_software_and_verifies_ledger():
     altered['ledger'].pop('sha256')
     altered['ledger']['sha256'] = content_hash(altered['ledger'])
     assert portable_outcome(altered)[0] != expected
+
+
+def test_one_ulp_sampling_drift_uses_frozen_tolerance_without_hiding_changes():
+    from benchmark.audit_anchored_nicotinamide import compare_outcomes
+    limits = dict(invariance_kj=1e-7, sampling_invariance_kj=1e-8)
+    original = {'result': {'U_samp': 0.7804640940598064, 'dG': -10.}}
+    changed = copy.deepcopy(original)
+    changed['result']['U_samp'] = 0.7804640940598063
+    receipt = compare_outcomes(changed, original, limits)
+    assert receipt['n_numerical_differences'] == 1
+    assert receipt['maximum_absolute_difference'] < 2e-16
+    changed['result']['U_samp'] += 1e-6
+    with pytest.raises(AssertionError):
+        compare_outcomes(changed, original, limits)
+    with pytest.raises(AssertionError):
+        compare_outcomes({'config': {'fixed_model': 1. + 1e-10}},
+                         {'config': {'fixed_model': 1.}}, limits)

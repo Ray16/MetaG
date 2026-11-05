@@ -11,8 +11,8 @@
       "sha256": "32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b"
     },
     "README.md": {
-      "bytes": 2953,
-      "sha256": "de9a20d5f2b7298abf17ff961d2330f2566db232bf17bde1cc724079b365efbe"
+      "bytes": 3662,
+      "sha256": "f92376f23a36b92474ebefd0a7a7bedafac1215a5f4dfa396ec2b9232b472f75"
     },
     "anchored_nicotinamide.py": {
       "bytes": 7615,
@@ -27,8 +27,8 @@
       "sha256": "10ee96410a2de8d11463ddb002a122505c0fe8a0cd53055dd4d1cd09202bdfbe"
     },
     "audit_anchored_nicotinamide.py": {
-      "bytes": 10733,
-      "sha256": "1e2e986a2616157b9c301a7962c3b0ed92fbc0b1afbf8813f942242a96430a19"
+      "bytes": 15552,
+      "sha256": "677ba922e4ac1ed0e927fabfbaf05e62664b525425bea54a803e9e6929b5ad56"
     },
     "freeze.json": {
       "bytes": 1458,
