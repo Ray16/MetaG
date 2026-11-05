@@ -1,0 +1,99 @@
+{
+  "schema": "metag-terminal-operational-study-v1",
+  "utc": "2026-11-05T20:54:00.122397+00:00",
+  "population": {
+    "source_nontransport_IDs": 43650,
+    "eligible_under_four_cofactor_structural_profile": 9719,
+    "selected_source_IDs": 32,
+    "EC_strata": 8,
+    "selected_per_stratum": 4,
+    "source_revision": "b539adb69a955dac15cc30dbeb3debbd87739018"
+  },
+  "expected_raw_tasks": 115,
+  "restored_outcomes": {
+    "molecular_record_complete": 74,
+    "workflow_no_estimate": 2,
+    "external_resource_interruption": 2,
+    "execution_failure": 1,
+    "not_started_or_pending": 36
+  },
+  "unstarted_after_verified_resource_stop": 36,
+  "all_recorded_restored_outcomes": 79,
+  "accepted_restored_raw_records": 74,
+  "accepted_restored_minima": 1207,
+  "accepted_secondary_water_records": 1,
+  "secondary_water_n_imag": 0,
+  "original_assemblies": {
+    "full": {
+      "missing_validated_molecular_prerequisite": 26,
+      "estimated": 5,
+      "capacity_limit": 1
+    },
+    "regio": {
+      "missing_validated_molecular_prerequisite": 26,
+      "estimated": 5,
+      "capacity_limit": 1
+    }
+  },
+  "secondary_corrected_wrapper_assemblies": {
+    "full": {
+      "missing_validated_molecular_prerequisite": 22,
+      "estimated": 9,
+      "capacity_limit": 1
+    },
+    "regio": {
+      "missing_validated_molecular_prerequisite": 22,
+      "estimated": 9,
+      "capacity_limit": 1
+    }
+  },
+  "exact_common_original_reactions": {
+    "full": {
+      "common_original_estimates": 5,
+      "maximum_energy_change_on_common_original_estimates_kj": 0.0
+    },
+    "regio": {
+      "common_original_estimates": 5,
+      "maximum_energy_change_on_common_original_estimates_kj": 0.0
+    }
+  },
+  "original_invariance_checks": 40,
+  "secondary_invariance_checks": 72,
+  "original_cycle_basis_vectors": {
+    "full": 0,
+    "regio": 0
+  },
+  "secondary_cycle_basis_vectors": {
+    "full": 0,
+    "regio": 0
+  },
+  "coverage": {
+    "population_numeric_interval": null,
+    "original_frozen_status_token": "inconclusive_common_budget_censoring",
+    "actual_stopping_cause": "confirmed_external_GPU_contention_on_both_restored_workers",
+    "common_deadline_reached": false,
+    "common_deadline_censored_raw_tasks": 0,
+    "frozen_status_token_note": "The frozen function uses inconclusive_common_budget_censoring for every incomplete-opportunity run. The actual events here are external resource interruptions before the deadline; do not describe these as deadline expirations or chemical failures.",
+    "meaning": "Observed source-ID counts only; neither5/32 nor9/32 is a population availability estimate. A separate fresh water recording repair changes bookkeeping availability, not scientific acceptance gates or experimental accuracy."
+  },
+  "costs": {
+    "restored_recorded_raw_controller_seconds": 15880.747781968676,
+    "restored_observed_backend_construction_seconds": 1670.6617275131866,
+    "H100_water_repair_interruption_seconds": 31.400748714106157,
+    "V100_water_repair_raw_controller_seconds": 38.80452096275985,
+    "scope": "Separate observed raw-job elapsed sums; retain refusals and resource interruptions. Startup compatibility checks, gate occupancy and initial-phase timing are not included in these sums. Construction excludes any lazy first-forward initialization. No utilization, provider cost, per-reaction benchmark or genome-walltime extrapolation."
+  },
+  "initial_outcomes_not_reused": true,
+  "original_water_failure_not_overwritten": true,
+  "H100_repair_interruption_preserved": true,
+  "raw_energy_references_and_actual_hardware_identities_retained": true,
+  "all_scientific_writers_verified_terminal": true,
+  "independent_experimental_labels": 0,
+  "production_policy_adopted": false,
+  "primary_benchmark_launched": false,
+  "incomplete_requirements": [
+    "No representative numerical coverage inference because declared opportunities were interrupted or unstarted.",
+    "No independent experimental usefulness/generalization/diagnostic advantage demonstrated.",
+    "Final physically validated production policy and final archival deposit remain unfinished."
+  ]
+}
