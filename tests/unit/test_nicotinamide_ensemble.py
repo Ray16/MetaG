@@ -8,7 +8,7 @@ import zipfile
 
 import pytest
 
-BENCHMARK=Path(__file__).resolve().parents[1]/'benchmark'
+BENCHMARK=Path(__file__).resolve().parents[2]/'benchmark'
 spec=importlib.util.spec_from_file_location('cofactor_complete_pool_audit',BENCHMARK/'nicotinamide_ensemble.py')
 auditor=importlib.util.module_from_spec(spec);spec.loader.exec_module(auditor)
 PACKET=BENCHMARK/'nicotinamide_ensemble_validation'
