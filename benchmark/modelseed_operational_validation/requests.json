@@ -1,0 +1,2139 @@
+{
+  "rxn07593": {
+    "name": "bromoxynil,NADPH:oxygen oxidoreductase",
+    "source_ec": "1.14.13.50|2.7.1.59|3.2.1.14|3.2.1.165|4.1.3.3|4.2.1.66|5.1.3.8",
+    "source_status": "OK",
+    "stratum": "multiple",
+    "request": {
+      "species": {
+        "cpd00001": [
+          1,
+          0,
+          "O"
+        ],
+        "cpd00005": [
+          -2,
+          -4,
+          "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1"
+        ],
+        "cpd00006": [
+          2,
+          -3,
+          "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)c1"
+        ],
+        "cpd00007": [
+          -1,
+          0,
+          "O=O"
+        ],
+        "cpd00150": [
+          1,
+          0,
+          "C#N"
+        ],
+        "cpd02568": [
+          -1,
+          -1,
+          "N#Cc1cc(Br)c([O-])c(Br)c1"
+        ],
+        "cpd14964": [
+          1,
+          0,
+          "Oc1cc(Br)c(O)c(Br)c1"
+        ]
+      },
+      "n_Hplus": -3,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00001",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00005",
+        "0",
+        "-2"
+      ],
+      [
+        "cpd00006",
+        "0",
+        "2"
+      ],
+      [
+        "cpd00007",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd00067",
+        "0",
+        "-3"
+      ],
+      [
+        "cpd00150",
+        "0",
+        "1"
+      ],
+      [
+        "cpd02568",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd14964",
+        "0",
+        "1"
+      ]
+    ],
+    "proton_adjustments": {
+      "0": "2"
+    },
+    "source_stoichiometry_sha256": "0d0d0167e37099b67ded64a55fb6287f2c7757f14a78c1958b63b972f3005b03"
+  },
+  "rxn00916": {
+    "name": "Xanthosine-5'-phosphate:ammonia ligase (AMP-forming)",
+    "source_ec": "6.3.4.1|6.3.5.2",
+    "source_status": "OK",
+    "stratum": "6",
+    "request": {
+      "species": {
+        "cpd00002": [
+          -1,
+          -3,
+          "Nc1[nH+]cnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]1O"
+        ],
+        "cpd00012": [
+          1,
+          -3,
+          "O=P([O-])([O-])OP(=O)([O-])O"
+        ],
+        "cpd00013": [
+          -1,
+          1,
+          "[NH4+]"
+        ],
+        "cpd00018": [
+          1,
+          -1,
+          "Nc1[nH+]cnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])[O-])[C@@H](O)[C@H]1O"
+        ],
+        "cpd00126": [
+          1,
+          -3,
+          "[NH2+]=c1nc([O-])c2ncn([C@@H]3O[C@H](COP(=O)([O-])[O-])[C@@H](O)[C@H]3O)c2[n-]1"
+        ],
+        "cpd00497": [
+          -1,
+          -2,
+          "O=P([O-])([O-])OC[C@H]1O[C@@H](n2cnc3c(O)nc(O)nc32)[C@H](O)[C@@H]1O"
+        ]
+      },
+      "n_Hplus": 3,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00002",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd00012",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00013",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd00018",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00067",
+        "0",
+        "3"
+      ],
+      [
+        "cpd00126",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00497",
+        "0",
+        "-1"
+      ]
+    ],
+    "proton_adjustments": {},
+    "source_stoichiometry_sha256": "55999a6ee9820856dcb8189464b0d4f42bb8f754940b63c93f4fc41238febc55"
+  },
+  "rxn56649": {
+    "name": "69032",
+    "source_ec": "null",
+    "source_status": "OK",
+    "stratum": "unannotated",
+    "request": {
+      "species": {
+        "cpd00001": [
+          1,
+          0,
+          "O"
+        ],
+        "cpd39622": [
+          -1,
+          -2,
+          "O=C([O-])C[C@@H](C(=O)[O-])N(O)O"
+        ],
+        "cpd39623": [
+          1,
+          -2,
+          "O=N[C@@H](CC(=O)[O-])C(=O)[O-]"
+        ]
+      },
+      "n_Hplus": 0,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00001",
+        "0",
+        "1"
+      ],
+      [
+        "cpd39622",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd39623",
+        "0",
+        "1"
+      ]
+    ],
+    "proton_adjustments": {},
+    "source_stoichiometry_sha256": "878152905a2253dd527d2b6315be4ba4357e46fb35ef04fbd4841c85cfc065b2"
+  },
+  "rxn03319": {
+    "name": "11-Deoxycortisol delta5-delat4-isomerase",
+    "source_ec": "1.1.1.145|5.3.3.1",
+    "source_status": "OK",
+    "stratum": "multiple",
+    "request": {
+      "species": {
+        "cpd00005": [
+          -1,
+          -4,
+          "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1"
+        ],
+        "cpd00006": [
+          1,
+          -3,
+          "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)c1"
+        ],
+        "cpd03267": [
+          1,
+          0,
+          "C[C@]12CC[C@H](O)CC1=CC[C@@H]1[C@@H]2CC[C@@]2(C)[C@H]1CC[C@]2(O)C(=O)CO"
+        ],
+        "cpd03268": [
+          -1,
+          0,
+          "C[C@]12CCC(=O)C=C1CC[C@@H]1[C@@H]2CC[C@@]2(C)[C@H]1CC[C@]2(O)C(=O)CO"
+        ]
+      },
+      "n_Hplus": -1,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00005",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd00006",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00067",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd03267",
+        "0",
+        "1"
+      ],
+      [
+        "cpd03268",
+        "0",
+        "-1"
+      ]
+    ],
+    "proton_adjustments": {
+      "0": "1"
+    },
+    "source_stoichiometry_sha256": "888051e08f740e680c201d03dfab4a122a1fc34143879ada5df196932abb3503"
+  },
+  "rxn14091": {
+    "name": "N-(omega)-Hydroxyarginine,NADPH:oxygen oxidoreductase (nitric-oxide-forming)",
+    "source_ec": "1.14.13.165|1.14.13.39",
+    "source_status": "OK",
+    "stratum": "1",
+    "request": {
+      "species": {
+        "cpd00001": [
+          2,
+          0,
+          "O"
+        ],
+        "cpd00005": [
+          -1,
+          -4,
+          "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1"
+        ],
+        "cpd00006": [
+          1,
+          -3,
+          "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)c1"
+        ],
+        "cpd00007": [
+          -2,
+          0,
+          "O=O"
+        ],
+        "cpd00274": [
+          2,
+          0,
+          "[NH2+]=C([O-])NCCC[C@H]([NH3+])C(=O)[O-]"
+        ],
+        "cpd00418": [
+          2,
+          0,
+          "[N]=O"
+        ],
+        "cpd03527": [
+          -2,
+          1,
+          "[NH2+]=C(NO)NCCC[C@H]([NH3+])C(=O)[O-]"
+        ]
+      },
+      "n_Hplus": 1,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00001",
+        "0",
+        "2"
+      ],
+      [
+        "cpd00005",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd00006",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00007",
+        "0",
+        "-2"
+      ],
+      [
+        "cpd00067",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00274",
+        "0",
+        "2"
+      ],
+      [
+        "cpd00418",
+        "0",
+        "2"
+      ],
+      [
+        "cpd03527",
+        "0",
+        "-2"
+      ]
+    ],
+    "proton_adjustments": {
+      "0": "1"
+    },
+    "source_stoichiometry_sha256": "79a673778d49bb02cf42d65a95d2f0da943ab360c7b0b7a7d57688ede6359cfd"
+  },
+  "rxn43772": {
+    "name": "",
+    "source_ec": "null",
+    "source_status": "OK",
+    "stratum": "unannotated",
+    "request": {
+      "species": {
+        "cpd33126": [
+          1,
+          -1,
+          "O=C([O-])C(=O)/C=C1/C=C[C@H](O)CC1"
+        ],
+        "cpd34610": [
+          -1,
+          -1,
+          "O=C([O-])C(=O)CC1=CC[C@@H](O)C=C1"
+        ]
+      },
+      "n_Hplus": 0,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd33126",
+        "0",
+        "1"
+      ],
+      [
+        "cpd34610",
+        "0",
+        "-1"
+      ]
+    ],
+    "proton_adjustments": {},
+    "source_stoichiometry_sha256": "8577ca6e13aba93c073a16e90c9e9af772218ad0d44374bb402f2b6c61acef83"
+  },
+  "rxn03694": {
+    "name": "R05393",
+    "source_ec": "5.5.1.11",
+    "source_status": "OK",
+    "stratum": "5",
+    "request": {
+      "species": {
+        "cpd00099": [
+          1,
+          -1,
+          "[Cl-]"
+        ],
+        "cpd02436": [
+          -1,
+          -2,
+          "O=C([O-])/C=C(Cl)\\C=C(\\Cl)C(=O)[O-]"
+        ],
+        "cpd02880": [
+          1,
+          -1,
+          "O=C([O-])/C=C1\\C=C(Cl)C(=O)O1"
+        ]
+      },
+      "n_Hplus": 0,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00099",
+        "0",
+        "1"
+      ],
+      [
+        "cpd02436",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd02880",
+        "0",
+        "1"
+      ]
+    ],
+    "proton_adjustments": {},
+    "source_stoichiometry_sha256": "d81d1e625fecc9ea59dfe16b498919908c4a06515d7c0a4d75f90aa6c219fa06"
+  },
+  "rxn43131": {
+    "name": "",
+    "source_ec": "null",
+    "source_status": "OK",
+    "stratum": "unannotated",
+    "request": {
+      "species": {
+        "cpd00005": [
+          -1,
+          -4,
+          "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1"
+        ],
+        "cpd00006": [
+          1,
+          -3,
+          "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)c1"
+        ],
+        "cpd32160": [
+          -1,
+          0,
+          "CC(=O)c1nc2ccccc2c(=O)n1[C@@H]1C[C@]2(OC1=O)c1ccccc1N1C(=O)C(C)(C)N(O)[C@H]12"
+        ],
+        "cpd35354": [
+          1,
+          0,
+          "C[C@H](O)c1nc2ccccc2c(=O)n1[C@@H]1C[C@]2(OC1=O)c1ccccc1N1C(=O)C(C)(C)N(O)[C@H]12"
+        ]
+      },
+      "n_Hplus": -1,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00005",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd00006",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00067",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd32160",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd35354",
+        "0",
+        "1"
+      ]
+    ],
+    "proton_adjustments": {
+      "0": "1"
+    },
+    "source_stoichiometry_sha256": "80ecc98bb91d95eac5dd88e5c0bc6ead36d58e238d50b77645f6548ca70b4b3c"
+  },
+  "rxn03659": {
+    "name": "Acrylonitrile aminohydrolase",
+    "source_ec": "3.5.5.7",
+    "source_status": "OK",
+    "stratum": "3",
+    "request": {
+      "species": {
+        "cpd00001": [
+          -2,
+          0,
+          "O"
+        ],
+        "cpd00013": [
+          1,
+          1,
+          "[NH4+]"
+        ],
+        "cpd00400": [
+          1,
+          -1,
+          "C=CC(=O)[O-]"
+        ],
+        "cpd01368": [
+          -1,
+          0,
+          "C=CC#N"
+        ]
+      },
+      "n_Hplus": 0,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00001",
+        "0",
+        "-2"
+      ],
+      [
+        "cpd00013",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00400",
+        "0",
+        "1"
+      ],
+      [
+        "cpd01368",
+        "0",
+        "-1"
+      ]
+    ],
+    "proton_adjustments": {},
+    "source_stoichiometry_sha256": "9567699cbcfc014c7756a267cad0d6938796a945dec4ea5d38bd9ea6d4be2c3d"
+  },
+  "rxn27435": {
+    "name": "uronolactonase",
+    "source_ec": "3.1.1.19",
+    "source_status": "OK",
+    "stratum": "3",
+    "request": {
+      "species": {
+        "cpd00001": [
+          -1,
+          0,
+          "O"
+        ],
+        "cpd02145": [
+          -1,
+          0,
+          "O=C[C@H]1OC(=O)[C@@H](O)[C@@H](O)[C@@H]1O"
+        ],
+        "cpd27109": [
+          1,
+          -1,
+          "O=C[C@H](O)[C@@H](O)[C@H](O)[C@H](O)C(=O)[O-]"
+        ]
+      },
+      "n_Hplus": 1,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00001",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd00067",
+        "0",
+        "1"
+      ],
+      [
+        "cpd02145",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd27109",
+        "0",
+        "1"
+      ]
+    ],
+    "proton_adjustments": {},
+    "source_stoichiometry_sha256": "731309d62115a0be9cb93a82bc6ccc19abd028ebe193bfd4a4728fab53a2ffa3"
+  },
+  "rxn23598": {
+    "name": "tetraprenyl-beta-curcumene synthase",
+    "source_ec": "4.2.3.-|4.2.3.130",
+    "source_status": "OK",
+    "stratum": "4",
+    "request": {
+      "species": {
+        "cpd00012": [
+          1,
+          -3,
+          "O=P([O-])([O-])OP(=O)([O-])O"
+        ],
+        "cpd02590": [
+          -1,
+          -3,
+          "CC(C)=CCC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/COP(=O)([O-])OP(=O)([O-])[O-]"
+        ],
+        "cpd24287": [
+          1,
+          0,
+          "CC(C)=CCC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC[C@@H](C)C1=CCC(C)=CC1"
+        ]
+      },
+      "n_Hplus": 0,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00012",
+        "0",
+        "1"
+      ],
+      [
+        "cpd02590",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd24287",
+        "0",
+        "1"
+      ]
+    ],
+    "proton_adjustments": {},
+    "source_stoichiometry_sha256": "2d80dae781ab4c1f8e73e2198e7beabdd3cb7f0279b6160092e9bd5b12fa896b"
+  },
+  "rxn19879": {
+    "name": "H2SOXIREDPYRO-RXN.c",
+    "source_ec": "1.97.1.3",
+    "source_status": "OK",
+    "stratum": "1",
+    "request": {
+      "species": {
+        "cpd00074": [
+          -1,
+          0,
+          "[S]"
+        ],
+        "cpd00239": [
+          1,
+          -1,
+          "[SH-]"
+        ],
+        "cpd11640": [
+          -1,
+          0,
+          "[H][H]"
+        ]
+      },
+      "n_Hplus": 1,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00067",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00074",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd00239",
+        "0",
+        "1"
+      ],
+      [
+        "cpd11640",
+        "0",
+        "-1"
+      ]
+    ],
+    "proton_adjustments": {},
+    "source_stoichiometry_sha256": "29ba7f75ece12b21ead5958c19e6c7614b614d97e0553d186ef204d2cb5d59b2"
+  },
+  "rxn43971": {
+    "name": "",
+    "source_ec": "4.2.3.153",
+    "source_status": "OK",
+    "stratum": "4",
+    "request": {
+      "species": {
+        "cpd00001": [
+          2,
+          0,
+          "O"
+        ],
+        "cpd00009": [
+          1,
+          -2,
+          "O=P([O-])([O-])O"
+        ],
+        "cpd00102": [
+          -2,
+          -2,
+          "O=C[C@H](O)COP(=O)([O-])[O-]"
+        ],
+        "cpd24817": [
+          1,
+          -2,
+          "O=Cc1cc(COP(=O)([O-])[O-])co1"
+        ]
+      },
+      "n_Hplus": 0,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00001",
+        "0",
+        "2"
+      ],
+      [
+        "cpd00009",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00102",
+        "0",
+        "-2"
+      ],
+      [
+        "cpd24817",
+        "0",
+        "1"
+      ]
+    ],
+    "proton_adjustments": {},
+    "source_stoichiometry_sha256": "a2af8ab0ab94b7e2634ff23a98598fec8407efb7aaeaa1666d5dbcfb4be9a40b"
+  },
+  "rxn16745": {
+    "name": "(3S)-2,3-epoxy-2,3-dihydrosqualene mutase (cyclizing, parkeol-forming)",
+    "source_ec": "5.4.99.47",
+    "source_status": "OK",
+    "stratum": "5",
+    "request": {
+      "species": {
+        "cpd00776": [
+          -1,
+          0,
+          "CC(C)=CCC/C(C)=C/CC/C(C)=C/CC/C=C(\\C)CC/C=C(\\C)CC[C@@H]1OC1(C)C"
+        ],
+        "cpd21157": [
+          1,
+          0,
+          "CC(C)=CCC[C@@H](C)[C@H]1CC[C@@]2(C)[C@@H]3CC[C@H]4C(C)(C)[C@@H](O)CC[C@]4(C)C3=CC[C@]12C"
+        ]
+      },
+      "n_Hplus": 0,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00776",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd21157",
+        "0",
+        "1"
+      ]
+    ],
+    "proton_adjustments": {},
+    "source_stoichiometry_sha256": "13563d860d3ea9a8f03aad90c0a53784ab63455bc25195ca526f2a2300dec1a9"
+  },
+  "rxn03080": {
+    "name": "5-amino-6-(D-ribitylamino)uracil butanedionetransferase",
+    "source_ec": "2.5.1.78",
+    "source_status": "OK",
+    "stratum": "2",
+    "request": {
+      "species": {
+        "cpd00001": [
+          2,
+          0,
+          "O"
+        ],
+        "cpd00009": [
+          1,
+          -2,
+          "O=P([O-])([O-])O"
+        ],
+        "cpd02656": [
+          1,
+          0,
+          "Cc1nc2c(O)nc(=O)nc-2n(C[C@H](O)[C@H](O)[C@H](O)CO)c1C"
+        ],
+        "cpd02882": [
+          -1,
+          0,
+          "Nc1c(O)nc(O)nc1NC[C@H](O)[C@H](O)[C@H](O)CO"
+        ],
+        "cpd11225": [
+          -1,
+          -2,
+          "CC(=O)[C@H](O)COP(=O)([O-])[O-]"
+        ]
+      },
+      "n_Hplus": 0,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00001",
+        "0",
+        "2"
+      ],
+      [
+        "cpd00009",
+        "0",
+        "1"
+      ],
+      [
+        "cpd02656",
+        "0",
+        "1"
+      ],
+      [
+        "cpd02882",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd11225",
+        "0",
+        "-1"
+      ]
+    ],
+    "proton_adjustments": {},
+    "source_stoichiometry_sha256": "666a9b52a47f1dc7ca8c53eeebfe96c8203f07cb050e4b068415ced6e43624db"
+  },
+  "rxn40042": {
+    "name": "L-glutamate 2,3-aminomutase",
+    "source_ec": "5.4.3.9",
+    "source_status": "OK",
+    "stratum": "5",
+    "request": {
+      "species": {
+        "cpd00023": [
+          -1,
+          -1,
+          "[NH3+][C@@H](CCC(=O)[O-])C(=O)[O-]"
+        ],
+        "cpd03304": [
+          1,
+          -1,
+          "[NH3+]C(CC(=O)[O-])CC(=O)[O-]"
+        ]
+      },
+      "n_Hplus": 0,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00023",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd03304",
+        "0",
+        "1"
+      ]
+    ],
+    "proton_adjustments": {},
+    "source_stoichiometry_sha256": "4c5a40438503a2fd2e00466d5e2956c087e743dc1ffaffef7860f1dfb9ecf78b"
+  },
+  "rxn16821": {
+    "name": "geranyl-diphosphate diphosphate-lyase [(+)-beta-pinene-forming]",
+    "source_ec": "4.2.3.122",
+    "source_status": "OK",
+    "stratum": "4",
+    "request": {
+      "species": {
+        "cpd00012": [
+          1,
+          -3,
+          "O=P([O-])([O-])OP(=O)([O-])O"
+        ],
+        "cpd00283": [
+          -1,
+          -3,
+          "CC(C)=CCC/C(C)=C/COP(=O)([O-])OP(=O)([O-])[O-]"
+        ],
+        "cpd21477": [
+          1,
+          0,
+          "C=C1CC[C@@H]2C[C@H]1C2(C)C"
+        ]
+      },
+      "n_Hplus": 0,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00012",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00283",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd21477",
+        "0",
+        "1"
+      ]
+    ],
+    "proton_adjustments": {},
+    "source_stoichiometry_sha256": "7df88124ceae580986e3f53abeb98d3db11045628663a8bf0f9e04dcb8f8b238"
+  },
+  "rxn16172": {
+    "name": "dTDP-L-rhodosamine:aklavinone L-rhodosaminyltransferase",
+    "source_ec": "2.4.1.-|2.4.1.326",
+    "source_status": "OK",
+    "stratum": "2",
+    "request": {
+      "species": {
+        "cpd00297": [
+          1,
+          -4,
+          "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])[O-])O2)c(=O)nc1[O-]"
+        ],
+        "cpd09176": [
+          -1,
+          0,
+          "CC[C@@]1(O)C[C@H](O)c2c(cc3c(c2O)C(=O)c2c(O)cccc2C3=O)[C@H]1C(=O)OC"
+        ],
+        "cpd19897": [
+          1,
+          1,
+          "CC[C@@]1(O)C[C@H](O[C@H]2C[C@H]([NH+](C)C)[C@H](O)[C@H](C)O2)c2c(cc3c(c2O)C(=O)c2c(O)cccc2C3=O)[C@H]1C(=O)OC"
+        ],
+        "cpd19906": [
+          -1,
+          -2,
+          "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])O[C@@H]3C[C@H]([NH+](C)C)[C@H](O)[C@H](C)O3)O2)c(=O)nc1[O-]"
+        ]
+      },
+      "n_Hplus": 1,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00067",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00297",
+        "0",
+        "1"
+      ],
+      [
+        "cpd09176",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd19897",
+        "0",
+        "1"
+      ],
+      [
+        "cpd19906",
+        "0",
+        "-1"
+      ]
+    ],
+    "proton_adjustments": {},
+    "source_stoichiometry_sha256": "3a0e0e40ecf62e9bb5a937024bb75eb276bfea6467b781056ce248645c522731"
+  },
+  "rxn02184": {
+    "name": "11-cis-Retinyl-palmitate acylhydrolase",
+    "source_ec": "3.1.1.63",
+    "source_status": "OK",
+    "stratum": "3",
+    "request": {
+      "species": {
+        "cpd00001": [
+          -1,
+          0,
+          "O"
+        ],
+        "cpd00214": [
+          1,
+          -1,
+          "CCCCCCCCCCCCCCCC(=O)[O-]"
+        ],
+        "cpd00667": [
+          1,
+          0,
+          "CC1=C(/C=C/C(C)=C/C=C\\C(C)=C\\CO)C(C)(C)CCC1"
+        ],
+        "cpd02184": [
+          -1,
+          0,
+          "CCCCCCCCCCCCCCCC(=O)OC/C=C(C)/C=C\\C=C(C)\\C=C\\C1=C(C)CCCC1(C)C"
+        ]
+      },
+      "n_Hplus": 1,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00001",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd00067",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00214",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00667",
+        "0",
+        "1"
+      ],
+      [
+        "cpd02184",
+        "0",
+        "-1"
+      ]
+    ],
+    "proton_adjustments": {},
+    "source_stoichiometry_sha256": "74f9987094f631a90a91636790766d5e0da1b1179c21f664254694a6878c866f"
+  },
+  "rxn46045": {
+    "name": "",
+    "source_ec": "6.3.2.46",
+    "source_status": "OK",
+    "stratum": "6",
+    "request": {
+      "species": {
+        "cpd00002": [
+          -1,
+          -3,
+          "Nc1[nH+]cnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]1O"
+        ],
+        "cpd00012": [
+          1,
+          -3,
+          "O=P([O-])([O-])OP(=O)([O-])O"
+        ],
+        "cpd00018": [
+          1,
+          -1,
+          "Nc1[nH+]cnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])[O-])[C@@H](O)[C@H]1O"
+        ],
+        "cpd00106": [
+          -1,
+          -2,
+          "O=C([O-])/C=C/C(=O)[O-]"
+        ],
+        "cpd02150": [
+          -1,
+          0,
+          "N[C@@H](C[NH3+])C(=O)[O-]"
+        ],
+        "cpd26036": [
+          1,
+          -2,
+          "[NH3+][C@@H](C/N=C([O-])/C=C/C(=O)[O-])C(=O)[O-]"
+        ]
+      },
+      "n_Hplus": 1,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00002",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd00012",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00018",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00067",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00106",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd02150",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd26036",
+        "0",
+        "1"
+      ]
+    ],
+    "proton_adjustments": {},
+    "source_stoichiometry_sha256": "cda4d96d55881c61a4ef892fd2596b6b75b346d9b1c67e18ba56324add50849b"
+  },
+  "rxn06278": {
+    "name": "Medicarpin:NADP+ 2'-oxidoreductase",
+    "source_ec": "1.1.1.246",
+    "source_status": "OK",
+    "stratum": "1",
+    "request": {
+      "species": {
+        "cpd00001": [
+          -1,
+          0,
+          "O"
+        ],
+        "cpd00005": [
+          1,
+          -4,
+          "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1"
+        ],
+        "cpd00006": [
+          -1,
+          -3,
+          "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)c1"
+        ],
+        "cpd00582": [
+          1,
+          0,
+          "COc1ccc([C@@H]2COc3cc(O)ccc3C2=O)c(O)c1"
+        ],
+        "cpd07389": [
+          -1,
+          0,
+          "COc1ccc2c(c1)O[C@H]1c3ccc(O)cc3OC[C@@H]21"
+        ]
+      },
+      "n_Hplus": 1,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00001",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd00005",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00006",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd00067",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00582",
+        "0",
+        "1"
+      ],
+      [
+        "cpd07389",
+        "0",
+        "-1"
+      ]
+    ],
+    "proton_adjustments": {
+      "0": "-1"
+    },
+    "source_stoichiometry_sha256": "a830d7c8f5cc54104f1c8f4ae2d26139e599d5ad1f27d750333c528feb580875"
+  },
+  "rxn59889": {
+    "name": "",
+    "source_ec": "null",
+    "source_status": "OK",
+    "stratum": "unannotated",
+    "request": {
+      "species": {
+        "cpd00005": [
+          1,
+          -4,
+          "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1"
+        ],
+        "cpd00006": [
+          -1,
+          -3,
+          "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)c1"
+        ],
+        "cpd07712": [
+          -1,
+          1,
+          "C[C@H]1CC[C@]2([NH2+]C1)O[C@H]1C[C@H]3[C@@H]4CC[C@H]5C[C@@H](O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C"
+        ],
+        "cpd47014": [
+          1,
+          1,
+          "C[C@H]1CC[C@]2([NH2+]C1)O[C@H]1C[C@H]3[C@@H]4CC[C@H]5CC(=O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C"
+        ]
+      },
+      "n_Hplus": 1,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00005",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00006",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd00067",
+        "0",
+        "1"
+      ],
+      [
+        "cpd07712",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd47014",
+        "0",
+        "1"
+      ]
+    ],
+    "proton_adjustments": {
+      "0": "-1"
+    },
+    "source_stoichiometry_sha256": "6466a78cd9d8cc86fcc831f327439eb79758b9679e0f0b9f9db797f19412143a"
+  },
+  "rxn00690": {
+    "name": "Formate:tetrahydrofolate ligase (ADP-forming)",
+    "source_ec": "6.3.4.3",
+    "source_status": "OK",
+    "stratum": "6",
+    "request": {
+      "species": {
+        "cpd00002": [
+          -1,
+          -3,
+          "Nc1[nH+]cnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]1O"
+        ],
+        "cpd00008": [
+          1,
+          -2,
+          "Nc1[nH+]cnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]1O"
+        ],
+        "cpd00009": [
+          1,
+          -2,
+          "O=P([O-])([O-])O"
+        ],
+        "cpd00047": [
+          -1,
+          -1,
+          "O=C[O-]"
+        ],
+        "cpd00087": [
+          -1,
+          -1,
+          "[NH2+]=c1nc(O)c2c([n-]1)[NH2+]C[C@H](CNc1ccc(C(=O)N[C@@H](CCC(=O)[O-])C(=O)[O-])cc1)N2"
+        ],
+        "cpd00201": [
+          1,
+          -1,
+          "[NH2+]=c1nc(O)c2c([n-]1)[NH2+]C[C@H](CN(C=O)c1ccc(C(=O)N[C@@H](CCC(=O)[O-])C(=O)[O-])cc1)N2"
+        ]
+      },
+      "n_Hplus": 0,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00002",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd00008",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00009",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00047",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd00087",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd00201",
+        "0",
+        "1"
+      ]
+    ],
+    "proton_adjustments": {},
+    "source_stoichiometry_sha256": "7a1be89d851e25af4c3e31a623ea0e13b9ca89af3968c56971f3cf249cbcecd0"
+  },
+  "rxn24458": {
+    "name": "RXN-7811.c",
+    "source_ec": "2.5.1.-",
+    "source_status": "OK",
+    "stratum": "2",
+    "request": {
+      "species": {
+        "cpd00012": [
+          1,
+          -3,
+          "O=P([O-])([O-])OP(=O)([O-])O"
+        ],
+        "cpd00202": [
+          -1,
+          -3,
+          "CC(C)=CCOP(=O)([O-])OP(=O)([O-])[O-]"
+        ],
+        "cpd04553": [
+          -1,
+          0,
+          "CC(C)CC(=O)c1c(O)cc(O)cc1O"
+        ],
+        "cpd24713": [
+          1,
+          0,
+          "CC(C)=CCc1c(O)cc(O)c(C(=O)CC(C)C)c1O"
+        ]
+      },
+      "n_Hplus": 0,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00012",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00202",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd04553",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd24713",
+        "0",
+        "1"
+      ]
+    ],
+    "proton_adjustments": {},
+    "source_stoichiometry_sha256": "17a248addac5b4f25d19478b747d8b25b0b0d559092413e953cd9873d7939f17"
+  },
+  "rxn02855": {
+    "name": "Imidazole-4-acetate:5-phosphoribosyl-diphosphate ligase (ADP- and pyrophosphate- forming)",
+    "source_ec": "6.3.4.8",
+    "source_status": "OK",
+    "stratum": "6",
+    "request": {
+      "species": {
+        "cpd00001": [
+          -1,
+          0,
+          "O"
+        ],
+        "cpd00002": [
+          -1,
+          -3,
+          "Nc1[nH+]cnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]1O"
+        ],
+        "cpd00008": [
+          1,
+          -2,
+          "Nc1[nH+]cnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]1O"
+        ],
+        "cpd00009": [
+          1,
+          -2,
+          "O=P([O-])([O-])O"
+        ],
+        "cpd00012": [
+          1,
+          -3,
+          "O=P([O-])([O-])OP(=O)([O-])O"
+        ],
+        "cpd00103": [
+          -1,
+          -5,
+          "O=P([O-])([O-])OC[C@H]1O[C@H](OP(=O)([O-])OP(=O)([O-])[O-])[C@H](O)[C@@H]1O"
+        ],
+        "cpd01831": [
+          -1,
+          -1,
+          "O=C([O-])Cc1cnc[nH]1"
+        ],
+        "cpd02709": [
+          1,
+          -2,
+          "O=C([O-])Cc1cn([C@@H]2O[C@H](COP(=O)([O-])[O-])[C@@H](O)[C@H]2O)c[nH+]1"
+        ]
+      },
+      "n_Hplus": 0,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00001",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd00002",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd00008",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00009",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00012",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00103",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd01831",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd02709",
+        "0",
+        "1"
+      ]
+    ],
+    "proton_adjustments": {},
+    "source_stoichiometry_sha256": "d816ec9cafc4968be1ac9cc0e364c3711a18a2086489486711da68c3680be35d"
+  },
+  "rxn02418": {
+    "name": "myo-inositol-hexakisphosphate 4-phosphohydrolase",
+    "source_ec": "3.1.3.26|3.1.3.62",
+    "source_status": "OK",
+    "stratum": "3",
+    "request": {
+      "species": {
+        "cpd00001": [
+          -1,
+          0,
+          "O"
+        ],
+        "cpd00009": [
+          1,
+          -2,
+          "O=P([O-])([O-])O"
+        ],
+        "cpd00885": [
+          -1,
+          -12,
+          "O=P([O-])([O-])O[C@H]1[C@H](OP(=O)([O-])[O-])[C@@H](OP(=O)([O-])[O-])[C@H](OP(=O)([O-])[O-])[C@@H](OP(=O)([O-])[O-])[C@H]1OP(=O)([O-])[O-]"
+        ],
+        "cpd02788": [
+          1,
+          -10,
+          "O=P([O-])([O-])O[C@@H]1[C@@H](OP(=O)([O-])[O-])[C@H](OP(=O)([O-])[O-])[C@@H](O)[C@H](OP(=O)([O-])[O-])[C@@H]1OP(=O)([O-])[O-]"
+        ]
+      },
+      "n_Hplus": 0,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00001",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd00009",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00885",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd02788",
+        "0",
+        "1"
+      ]
+    ],
+    "proton_adjustments": {},
+    "source_stoichiometry_sha256": "c57d430afc72f346ebe1b2f98b6da72b35f8a963a98a101b8d5c4717635ca15c"
+  },
+  "rxn01587": {
+    "name": "Pregnenolone:NADP+ 3-oxidoreductase",
+    "source_ec": "1.1.1.145|5.3.3.1",
+    "source_status": "OK",
+    "stratum": "multiple",
+    "request": {
+      "species": {
+        "cpd00005": [
+          1,
+          -4,
+          "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1"
+        ],
+        "cpd00006": [
+          -1,
+          -3,
+          "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)c1"
+        ],
+        "cpd00325": [
+          1,
+          0,
+          "CC(=O)[C@H]1CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@]4(C)[C@H]3CC[C@]12C"
+        ],
+        "cpd01342": [
+          -1,
+          0,
+          "CC(=O)[C@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](O)CC[C@]4(C)[C@H]3CC[C@]12C"
+        ]
+      },
+      "n_Hplus": 1,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00005",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00006",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd00067",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00325",
+        "0",
+        "1"
+      ],
+      [
+        "cpd01342",
+        "0",
+        "-1"
+      ]
+    ],
+    "proton_adjustments": {
+      "0": "-1"
+    },
+    "source_stoichiometry_sha256": "635e7feac5ce33c64ac18c6fb32ee890e4f463311bb6eeb113c39030c411854e"
+  },
+  "rxn00347": {
+    "name": "L-Aspartate ammonia-lyase",
+    "source_ec": "3.5.1.38|4.3.1.1",
+    "source_status": "OK",
+    "stratum": "multiple",
+    "request": {
+      "species": {
+        "cpd00013": [
+          1,
+          1,
+          "[NH4+]"
+        ],
+        "cpd00041": [
+          -1,
+          -1,
+          "[NH3+][C@@H](CC(=O)[O-])C(=O)[O-]"
+        ],
+        "cpd00106": [
+          1,
+          -2,
+          "O=C([O-])/C=C/C(=O)[O-]"
+        ]
+      },
+      "n_Hplus": 0,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00013",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00041",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd00106",
+        "0",
+        "1"
+      ]
+    ],
+    "proton_adjustments": {},
+    "source_stoichiometry_sha256": "569d7541c36ede2330fbf89c4cf375610c526817f860c434e59496803daa4687"
+  },
+  "rxn02127": {
+    "name": "L-Alanine:oxomalonate aminotransferase",
+    "source_ec": "2.6.1.47",
+    "source_status": "OK",
+    "stratum": "2",
+    "request": {
+      "species": {
+        "cpd00020": [
+          -1,
+          -1,
+          "CC(=O)C(=O)[O-]"
+        ],
+        "cpd00035": [
+          1,
+          0,
+          "C[C@H]([NH3+])C(=O)[O-]"
+        ],
+        "cpd00619": [
+          1,
+          -2,
+          "O=C([O-])C(=O)C(=O)[O-]"
+        ],
+        "cpd00647": [
+          -1,
+          -1,
+          "[NH3+]C(C(=O)[O-])C(=O)[O-]"
+        ]
+      },
+      "n_Hplus": 0,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00020",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd00035",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00619",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00647",
+        "0",
+        "-1"
+      ]
+    ],
+    "proton_adjustments": {},
+    "source_stoichiometry_sha256": "e81124ea73f14d9392a464815e93e04c0b1c30843b293dc09dc8b731bb56b175"
+  },
+  "rxn08341": {
+    "name": "H2NTPEPIM-RXN.c",
+    "source_ec": "5.-.-.-|5.1.99.7",
+    "source_status": "OK",
+    "stratum": "5",
+    "request": {
+      "species": {
+        "cpd02978": [
+          -1,
+          -4,
+          "[NH2+]=c1nc([O-])c2c([nH]1)NCC([C@H](O)[C@H](O)COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])=N2"
+        ],
+        "cpd15443": [
+          1,
+          -4,
+          "[NH2+]=c1nc([O-])c2c([nH]1)NCC([C@H](O)[C@@H](O)COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])=N2"
+        ]
+      },
+      "n_Hplus": 0,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd02978",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd15443",
+        "0",
+        "1"
+      ]
+    ],
+    "proton_adjustments": {},
+    "source_stoichiometry_sha256": "09869bb0a2522e08b9fca566e43bb1b102fcdf7781eb42fc2e3af5107bc7b641"
+  },
+  "rxn03979": {
+    "name": "2-mercaptoethanesulfonate,acetoacetate:NADP+ oxidoreductase (decarboxylating)",
+    "source_ec": "1.8.1.5",
+    "source_status": "OK",
+    "stratum": "1",
+    "request": {
+      "species": {
+        "cpd00005": [
+          1,
+          -4,
+          "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1"
+        ],
+        "cpd00006": [
+          -1,
+          -3,
+          "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)c1"
+        ],
+        "cpd00011": [
+          1,
+          0,
+          "O=C=O"
+        ],
+        "cpd00142": [
+          -1,
+          -1,
+          "CC(=O)CC(=O)[O-]"
+        ],
+        "cpd02246": [
+          -1,
+          -1,
+          "O=S(=O)([O-])CCS"
+        ],
+        "cpd08336": [
+          1,
+          -1,
+          "CC(=O)CSCCS(=O)(=O)[O-]"
+        ]
+      },
+      "n_Hplus": 0,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00005",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00006",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd00011",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00142",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd02246",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd08336",
+        "0",
+        "1"
+      ]
+    ],
+    "proton_adjustments": {
+      "0": "-1"
+    },
+    "source_stoichiometry_sha256": "91c27499350b7e2957a2a1a77798f687b8a36c7fa9c3e9baf8130efd8b40085c"
+  },
+  "rxn02173": {
+    "name": "D-Galactonate hydro-lyase",
+    "source_ec": "4.2.1.6",
+    "source_status": "OK",
+    "stratum": "4",
+    "request": {
+      "species": {
+        "cpd00001": [
+          1,
+          0,
+          "O"
+        ],
+        "cpd00653": [
+          -1,
+          -1,
+          "O=C([O-])[C@H](O)[C@@H](O)[C@@H](O)[C@H](O)CO"
+        ],
+        "cpd00894": [
+          1,
+          -1,
+          "O=C([O-])C(=O)C[C@@H](O)[C@H](O)CO"
+        ]
+      },
+      "n_Hplus": 0,
+      "conditions": {
+        "T_K": 298.15,
+        "pH": 7.0,
+        "ionic_strength_M": 0.0,
+        "pMg": null,
+        "water_activity": 1.0,
+        "standard_state": "solutes 1 M; pure liquid water; H+ at the stated pH (transformed \u0394rG'\u00b0)"
+      }
+    },
+    "exact_curated_terms": [
+      [
+        "cpd00001",
+        "0",
+        "1"
+      ],
+      [
+        "cpd00653",
+        "0",
+        "-1"
+      ],
+      [
+        "cpd00894",
+        "0",
+        "1"
+      ]
+    ],
+    "proton_adjustments": {},
+    "source_stoichiometry_sha256": "fa5229d06a4fef023aac58cf7601640c88b39eeb9d0ede9cae13416ae4da861d"
+  }
+}

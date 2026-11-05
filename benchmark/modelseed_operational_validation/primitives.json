@@ -1,0 +1,2407 @@
+{
+  "0|C#N": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "C#N",
+    "spin": 1,
+    "n_atoms": 3,
+    "used_by": [
+      {
+        "reaction": "rxn07593",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn07593",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|N#Cc1cc(Br)c(O)c(Br)c1": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "N#Cc1cc(Br)c(O)c(Br)c1",
+    "spin": 1,
+    "n_atoms": 14,
+    "used_by": [
+      {
+        "reaction": "rxn07593",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn07593",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+    "spin": 1,
+    "n_atoms": 78,
+    "used_by": [
+      {
+        "reaction": "rxn07593",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03319",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn14091",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn43131",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn06278",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn59889",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn01587",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03979",
+        "arm": "full"
+      }
+    ]
+  },
+  "0|O=O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=O",
+    "spin": 3,
+    "n_atoms": 2,
+    "used_by": [
+      {
+        "reaction": "rxn07593",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn07593",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn14091",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn14091",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|Oc1cc(Br)c(O)c(Br)c1": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "Oc1cc(Br)c(O)c(Br)c1",
+    "spin": 1,
+    "n_atoms": 14,
+    "used_by": [
+      {
+        "reaction": "rxn07593",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn07593",
+        "arm": "regio"
+      }
+    ]
+  },
+  "1|NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1": {
+    "kind": "species",
+    "charge": 1,
+    "smiles": "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1",
+    "spin": 1,
+    "n_atoms": 77,
+    "used_by": [
+      {
+        "reaction": "rxn07593",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn07593",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn03319",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03319",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn14091",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn14091",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn43131",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn43131",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn06278",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn06278",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn59889",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn59889",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn01587",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn01587",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn03979",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03979",
+        "arm": "regio"
+      }
+    ]
+  },
+  "liquid_water": {
+    "kind": "liquid_water",
+    "charge": 0,
+    "smiles": "O",
+    "spin": 1,
+    "n_atoms": 3,
+    "used_by": [
+      {
+        "reaction": "rxn07593",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn07593",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn56649",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn56649",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn03319",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03319",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn14091",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn14091",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn43131",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn43131",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn03659",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03659",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn27435",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn27435",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn43971",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn43971",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn03080",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03080",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn16172",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn16172",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn02184",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02184",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn06278",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn06278",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn59889",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn59889",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn24458",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn24458",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn02855",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02855",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn02418",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02418",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn01587",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn01587",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn03979",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03979",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn02173",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02173",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CN1C=CCC(C(N)=O)=C1": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CN1C=CCC(C(N)=O)=C1",
+    "spin": 1,
+    "n_atoms": 20,
+    "used_by": [
+      {
+        "reaction": "rxn07593",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn03319",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn14091",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn43131",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn06278",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn59889",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn01587",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn03979",
+        "arm": "regio"
+      }
+    ]
+  },
+  "1|C[n+]1cccc(C(N)=O)c1": {
+    "kind": "species",
+    "charge": 1,
+    "smiles": "C[n+]1cccc(C(N)=O)c1",
+    "spin": 1,
+    "n_atoms": 19,
+    "used_by": [
+      {
+        "reaction": "rxn07593",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn03319",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn14091",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn43131",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn06278",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn59889",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn01587",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn03979",
+        "arm": "regio"
+      }
+    ]
+  },
+  "-1|N=c1nc(O)c2ncn([C@@H]3O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]3O)c2[n-]1": {
+    "kind": "species",
+    "charge": -1,
+    "smiles": "N=c1nc(O)c2ncn([C@@H]3O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]3O)c2[n-]1",
+    "spin": 1,
+    "n_atoms": 37,
+    "used_by": [
+      {
+        "reaction": "rxn00916",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn00916",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|N": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "N",
+    "spin": 1,
+    "n_atoms": 4,
+    "used_by": [
+      {
+        "reaction": "rxn00916",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn00916",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn03659",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03659",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn00347",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn00347",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]1O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]1O",
+    "spin": 1,
+    "n_atoms": 37,
+    "used_by": [
+      {
+        "reaction": "rxn00916",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn00916",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn46045",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn46045",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O",
+    "spin": 1,
+    "n_atoms": 47,
+    "used_by": [
+      {
+        "reaction": "rxn00916",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn00916",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn46045",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn46045",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn00690",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn00690",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn02855",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02855",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|O=P(O)(O)OC[C@H]1O[C@@H](n2cnc3c(O)nc(O)nc32)[C@H](O)[C@@H]1O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=P(O)(O)OC[C@H]1O[C@@H](n2cnc3c(O)nc(O)nc32)[C@H](O)[C@@H]1O",
+    "spin": 1,
+    "n_atoms": 37,
+    "used_by": [
+      {
+        "reaction": "rxn00916",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn00916",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|O=P(O)(O)OP(=O)(O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=P(O)(O)OP(=O)(O)O",
+    "spin": 1,
+    "n_atoms": 13,
+    "used_by": [
+      {
+        "reaction": "rxn00916",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn00916",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn23598",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn23598",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn16821",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn16821",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn46045",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn46045",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn24458",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn24458",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn02855",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02855",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|O=C(O)C[C@@H](C(=O)O)N(O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=C(O)C[C@@H](C(=O)O)N(O)O",
+    "spin": 1,
+    "n_atoms": 18,
+    "used_by": [
+      {
+        "reaction": "rxn56649",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn56649",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|O=N[C@@H](CC(=O)O)C(=O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=N[C@@H](CC(=O)O)C(=O)O",
+    "spin": 1,
+    "n_atoms": 15,
+    "used_by": [
+      {
+        "reaction": "rxn56649",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn56649",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|C[C@]12CCC(=O)C=C1CC[C@@H]1[C@@H]2CC[C@@]2(C)[C@H]1CC[C@]2(O)C(=O)CO": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "C[C@]12CCC(=O)C=C1CC[C@@H]1[C@@H]2CC[C@@]2(C)[C@H]1CC[C@]2(O)C(=O)CO",
+    "spin": 1,
+    "n_atoms": 55,
+    "used_by": [
+      {
+        "reaction": "rxn03319",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03319",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|C[C@]12CCC(=O)C=C1CC[C@@H]1[C@@H]2CC[C@@]2(C)[C@H]1CC[C@]2(O)C(O)(O)CO": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "C[C@]12CCC(=O)C=C1CC[C@@H]1[C@@H]2CC[C@@]2(C)[C@H]1CC[C@]2(O)C(O)(O)CO",
+    "spin": 1,
+    "n_atoms": 58,
+    "used_by": [
+      {
+        "reaction": "rxn03319",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03319",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|C[C@]12CCC(O)(O)C=C1CC[C@@H]1[C@@H]2CC[C@@]2(C)[C@H]1CC[C@]2(O)C(=O)CO": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "C[C@]12CCC(O)(O)C=C1CC[C@@H]1[C@@H]2CC[C@@]2(C)[C@H]1CC[C@]2(O)C(=O)CO",
+    "spin": 1,
+    "n_atoms": 58,
+    "used_by": [
+      {
+        "reaction": "rxn03319",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03319",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|C[C@]12CCC(O)(O)C=C1CC[C@@H]1[C@@H]2CC[C@@]2(C)[C@H]1CC[C@]2(O)C(O)(O)CO": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "C[C@]12CCC(O)(O)C=C1CC[C@@H]1[C@@H]2CC[C@@]2(C)[C@H]1CC[C@]2(O)C(O)(O)CO",
+    "spin": 1,
+    "n_atoms": 61,
+    "used_by": [
+      {
+        "reaction": "rxn03319",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03319",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|C[C@]12CC[C@H](O)CC1=CC[C@@H]1[C@@H]2CC[C@@]2(C)[C@H]1CC[C@]2(O)C(=O)CO": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "C[C@]12CC[C@H](O)CC1=CC[C@@H]1[C@@H]2CC[C@@]2(C)[C@H]1CC[C@]2(O)C(=O)CO",
+    "spin": 1,
+    "n_atoms": 57,
+    "used_by": [
+      {
+        "reaction": "rxn03319",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03319",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|C[C@]12CC[C@H](O)CC1=CC[C@@H]1[C@@H]2CC[C@@]2(C)[C@H]1CC[C@]2(O)C(O)(O)CO": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "C[C@]12CC[C@H](O)CC1=CC[C@@H]1[C@@H]2CC[C@@]2(C)[C@H]1CC[C@]2(O)C(O)(O)CO",
+    "spin": 1,
+    "n_atoms": 60,
+    "used_by": [
+      {
+        "reaction": "rxn03319",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03319",
+        "arm": "regio"
+      }
+    ]
+  },
+  "-1|N=C([O-])NCCC[C@H](N)C(=O)O": {
+    "kind": "species",
+    "charge": -1,
+    "smiles": "N=C([O-])NCCC[C@H](N)C(=O)O",
+    "spin": 1,
+    "n_atoms": 24,
+    "used_by": [
+      {
+        "reaction": "rxn14091",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn14091",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|N=C(NO)NCCC[C@H](N)C(=O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "N=C(NO)NCCC[C@H](N)C(=O)O",
+    "spin": 1,
+    "n_atoms": 27,
+    "used_by": [
+      {
+        "reaction": "rxn14091",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn14091",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|[N]=O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "[N]=O",
+    "spin": 2,
+    "n_atoms": 2,
+    "used_by": [
+      {
+        "reaction": "rxn14091",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn14091",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|O=C(O)C(=O)/C=C1/C=C[C@H](O)CC1": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=C(O)C(=O)/C=C1/C=C[C@H](O)CC1",
+    "spin": 1,
+    "n_atoms": 23,
+    "used_by": [
+      {
+        "reaction": "rxn43772",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn43772",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|O=C(O)C(=O)CC1=CC[C@@H](O)C=C1": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=C(O)C(=O)CC1=CC[C@@H](O)C=C1",
+    "spin": 1,
+    "n_atoms": 23,
+    "used_by": [
+      {
+        "reaction": "rxn43772",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn43772",
+        "arm": "regio"
+      }
+    ]
+  },
+  "-1|[Cl-]": {
+    "kind": "species",
+    "charge": -1,
+    "smiles": "[Cl-]",
+    "spin": 1,
+    "n_atoms": 1,
+    "used_by": [
+      {
+        "reaction": "rxn03694",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03694",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|O=C(O)/C=C(Cl)\\C=C(\\Cl)C(=O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=C(O)/C=C(Cl)\\C=C(\\Cl)C(=O)O",
+    "spin": 1,
+    "n_atoms": 16,
+    "used_by": [
+      {
+        "reaction": "rxn03694",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03694",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|O=C(O)/C=C1\\C=C(Cl)C(=O)O1": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=C(O)/C=C1\\C=C(Cl)C(=O)O1",
+    "spin": 1,
+    "n_atoms": 14,
+    "used_by": [
+      {
+        "reaction": "rxn03694",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03694",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC(=O)c1nc2ccccc2c(=O)n1[C@@H]1C[C@]2(OC1=O)c1ccccc1N1C(=O)C(C)(C)N(O)[C@H]12": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC(=O)c1nc2ccccc2c(=O)n1[C@@H]1C[C@]2(OC1=O)c1ccccc1N1C(=O)C(C)(C)N(O)[C@H]12",
+    "spin": 1,
+    "n_atoms": 57,
+    "used_by": [
+      {
+        "reaction": "rxn43131",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn43131",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC(O)(O)c1nc2ccccc2c(=O)n1[C@@H]1C[C@]2(OC1=O)c1ccccc1N1C(=O)C(C)(C)N(O)[C@H]12": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC(O)(O)c1nc2ccccc2c(=O)n1[C@@H]1C[C@]2(OC1=O)c1ccccc1N1C(=O)C(C)(C)N(O)[C@H]12",
+    "spin": 1,
+    "n_atoms": 60,
+    "used_by": [
+      {
+        "reaction": "rxn43131",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn43131",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|C[C@H](O)c1nc2ccccc2c(=O)n1[C@@H]1C[C@]2(OC1=O)c1ccccc1N1C(=O)C(C)(C)N(O)[C@H]12": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "C[C@H](O)c1nc2ccccc2c(=O)n1[C@@H]1C[C@]2(OC1=O)c1ccccc1N1C(=O)C(C)(C)N(O)[C@H]12",
+    "spin": 1,
+    "n_atoms": 59,
+    "used_by": [
+      {
+        "reaction": "rxn43131",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn43131",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|C=CC#N": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "C=CC#N",
+    "spin": 1,
+    "n_atoms": 7,
+    "used_by": [
+      {
+        "reaction": "rxn03659",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03659",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|C=CC(=O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "C=CC(=O)O",
+    "spin": 1,
+    "n_atoms": 9,
+    "used_by": [
+      {
+        "reaction": "rxn03659",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03659",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|O=C(O)[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)C(O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=C(O)[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)C(O)O",
+    "spin": 1,
+    "n_atoms": 26,
+    "used_by": [
+      {
+        "reaction": "rxn27435",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn27435",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|O=C1O[C@H](C(O)O)[C@@H](O)[C@H](O)[C@@H]1O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=C1O[C@H](C(O)O)[C@@H](O)[C@H](O)[C@@H]1O",
+    "spin": 1,
+    "n_atoms": 23,
+    "used_by": [
+      {
+        "reaction": "rxn27435",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn27435",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|O=C[C@H](O)[C@@H](O)[C@H](O)[C@H](O)C(=O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=C[C@H](O)[C@@H](O)[C@H](O)[C@H](O)C(=O)O",
+    "spin": 1,
+    "n_atoms": 23,
+    "used_by": [
+      {
+        "reaction": "rxn27435",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn27435",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|O=C[C@H]1OC(=O)[C@@H](O)[C@@H](O)[C@@H]1O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=C[C@H]1OC(=O)[C@@H](O)[C@@H](O)[C@@H]1O",
+    "spin": 1,
+    "n_atoms": 20,
+    "used_by": [
+      {
+        "reaction": "rxn27435",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn27435",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC(C)=CCC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/COP(=O)(O)OP(=O)(O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC(C)=CCC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/COP(=O)(O)OP(=O)(O)O",
+    "spin": 1,
+    "n_atoms": 104,
+    "used_by": [
+      {
+        "reaction": "rxn23598",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn23598",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC(C)=CCC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC[C@@H](C)C1=CCC(C)=CC1": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC(C)=CCC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC[C@@H](C)C1=CCC(C)=CC1",
+    "spin": 1,
+    "n_atoms": 91,
+    "used_by": [
+      {
+        "reaction": "rxn23598",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn23598",
+        "arm": "regio"
+      }
+    ]
+  },
+  "-1|[SH-]": {
+    "kind": "species",
+    "charge": -1,
+    "smiles": "[SH-]",
+    "spin": 1,
+    "n_atoms": 2,
+    "used_by": [
+      {
+        "reaction": "rxn19879",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn19879",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|[H][H]": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "[H][H]",
+    "spin": 1,
+    "n_atoms": 2,
+    "used_by": [
+      {
+        "reaction": "rxn19879",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn19879",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|[S]": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "[S]",
+    "spin": 3,
+    "n_atoms": 1,
+    "used_by": [
+      {
+        "reaction": "rxn19879",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn19879",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|O=C[C@H](O)COP(=O)(O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=C[C@H](O)COP(=O)(O)O",
+    "spin": 1,
+    "n_atoms": 17,
+    "used_by": [
+      {
+        "reaction": "rxn43971",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn43971",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|O=Cc1cc(COP(=O)(O)O)co1": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=Cc1cc(COP(=O)(O)O)co1",
+    "spin": 1,
+    "n_atoms": 20,
+    "used_by": [
+      {
+        "reaction": "rxn43971",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn43971",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|O=P(O)(O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=P(O)(O)O",
+    "spin": 1,
+    "n_atoms": 8,
+    "used_by": [
+      {
+        "reaction": "rxn43971",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn43971",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn03080",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03080",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn00690",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn00690",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn02855",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02855",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn02418",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02418",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|O=P(O)(O)OC[C@@H](O)C(O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=P(O)(O)OC[C@@H](O)C(O)O",
+    "spin": 1,
+    "n_atoms": 20,
+    "used_by": [
+      {
+        "reaction": "rxn43971",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn43971",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|O=P(O)(O)OCc1coc(C(O)O)c1": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=P(O)(O)OCc1coc(C(O)O)c1",
+    "spin": 1,
+    "n_atoms": 23,
+    "used_by": [
+      {
+        "reaction": "rxn43971",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn43971",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC(C)=CCC/C(C)=C/CC/C(C)=C/CC/C=C(\\C)CC/C=C(\\C)CC[C@@H]1OC1(C)C": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC(C)=CCC/C(C)=C/CC/C(C)=C/CC/C=C(\\C)CC/C=C(\\C)CC[C@@H]1OC1(C)C",
+    "spin": 1,
+    "n_atoms": 81,
+    "used_by": [
+      {
+        "reaction": "rxn16745",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn16745",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC(C)=CCC[C@@H](C)[C@H]1CC[C@@]2(C)[C@@H]3CC[C@H]4C(C)(C)[C@@H](O)CC[C@]4(C)C3=CC[C@]12C": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC(C)=CCC[C@@H](C)[C@H]1CC[C@@]2(C)[C@@H]3CC[C@H]4C(C)(C)[C@@H](O)CC[C@]4(C)C3=CC[C@]12C",
+    "spin": 1,
+    "n_atoms": 81,
+    "used_by": [
+      {
+        "reaction": "rxn16745",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn16745",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC(=O)[C@H](O)COP(=O)(O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC(=O)[C@H](O)COP(=O)(O)O",
+    "spin": 1,
+    "n_atoms": 20,
+    "used_by": [
+      {
+        "reaction": "rxn03080",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03080",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC(O)(O)[C@H](O)COP(=O)(O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC(O)(O)[C@H](O)COP(=O)(O)O",
+    "spin": 1,
+    "n_atoms": 23,
+    "used_by": [
+      {
+        "reaction": "rxn03080",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03080",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|Cc1nc2c(O)nc(=O)nc-2n(C[C@H](O)[C@H](O)[C@H](O)CO)c1C": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "Cc1nc2c(O)nc(=O)nc-2n(C[C@H](O)[C@H](O)[C@H](O)CO)c1C",
+    "spin": 1,
+    "n_atoms": 41,
+    "used_by": [
+      {
+        "reaction": "rxn03080",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03080",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|Nc1c(O)nc(O)nc1NC[C@H](O)[C@H](O)[C@H](O)CO": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "Nc1c(O)nc(O)nc1NC[C@H](O)[C@H](O)[C@H](O)CO",
+    "spin": 1,
+    "n_atoms": 35,
+    "used_by": [
+      {
+        "reaction": "rxn03080",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03080",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|NC(CC(=O)O)CC(=O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "NC(CC(=O)O)CC(=O)O",
+    "spin": 1,
+    "n_atoms": 19,
+    "used_by": [
+      {
+        "reaction": "rxn40042",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn40042",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|N[C@@H](CCC(=O)O)C(=O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "N[C@@H](CCC(=O)O)C(=O)O",
+    "spin": 1,
+    "n_atoms": 19,
+    "used_by": [
+      {
+        "reaction": "rxn40042",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn40042",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|C=C1CC[C@@H]2C[C@H]1C2(C)C": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "C=C1CC[C@@H]2C[C@H]1C2(C)C",
+    "spin": 1,
+    "n_atoms": 26,
+    "used_by": [
+      {
+        "reaction": "rxn16821",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn16821",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC(C)=CCC/C(C)=C/COP(=O)(O)OP(=O)(O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC(C)=CCC/C(C)=C/COP(=O)(O)OP(=O)(O)O",
+    "spin": 1,
+    "n_atoms": 39,
+    "used_by": [
+      {
+        "reaction": "rxn16821",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn16821",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC[C@@]1(O)C[C@H](O)c2c(cc3c(c2O)C(=O)c2c(O)cccc2C3(O)O)[C@H]1C(=O)OC": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC[C@@]1(O)C[C@H](O)c2c(cc3c(c2O)C(=O)c2c(O)cccc2C3(O)O)[C@H]1C(=O)OC",
+    "spin": 1,
+    "n_atoms": 53,
+    "used_by": [
+      {
+        "reaction": "rxn16172",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn16172",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC[C@@]1(O)C[C@H](O)c2c(cc3c(c2O)C(=O)c2c(O)cccc2C3=O)[C@H]1C(=O)OC": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC[C@@]1(O)C[C@H](O)c2c(cc3c(c2O)C(=O)c2c(O)cccc2C3=O)[C@H]1C(=O)OC",
+    "spin": 1,
+    "n_atoms": 50,
+    "used_by": [
+      {
+        "reaction": "rxn16172",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn16172",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC[C@@]1(O)C[C@H](O)c2c(cc3c(c2O)C(O)(O)c2c(O)cccc2C3(O)O)[C@H]1C(=O)OC": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC[C@@]1(O)C[C@H](O)c2c(cc3c(c2O)C(O)(O)c2c(O)cccc2C3(O)O)[C@H]1C(=O)OC",
+    "spin": 1,
+    "n_atoms": 56,
+    "used_by": [
+      {
+        "reaction": "rxn16172",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn16172",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC[C@@]1(O)C[C@H](O)c2c(cc3c(c2O)C(O)(O)c2c(O)cccc2C3=O)[C@H]1C(=O)OC": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC[C@@]1(O)C[C@H](O)c2c(cc3c(c2O)C(O)(O)c2c(O)cccc2C3=O)[C@H]1C(=O)OC",
+    "spin": 1,
+    "n_atoms": 53,
+    "used_by": [
+      {
+        "reaction": "rxn16172",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn16172",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC[C@@]1(O)C[C@H](O[C@H]2C[C@H](N(C)C)[C@H](O)[C@H](C)O2)c2c(cc3c(c2O)C(=O)c2c(O)cccc2C3(O)O)[C@H]1C(=O)OC": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC[C@@]1(O)C[C@H](O[C@H]2C[C@H](N(C)C)[C@H](O)[C@H](C)O2)c2c(cc3c(c2O)C(=O)c2c(O)cccc2C3(O)O)[C@H]1C(=O)OC",
+    "spin": 1,
+    "n_atoms": 79,
+    "used_by": [
+      {
+        "reaction": "rxn16172",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn16172",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC[C@@]1(O)C[C@H](O[C@H]2C[C@H](N(C)C)[C@H](O)[C@H](C)O2)c2c(cc3c(c2O)C(=O)c2c(O)cccc2C3=O)[C@H]1C(=O)OC": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC[C@@]1(O)C[C@H](O[C@H]2C[C@H](N(C)C)[C@H](O)[C@H](C)O2)c2c(cc3c(c2O)C(=O)c2c(O)cccc2C3=O)[C@H]1C(=O)OC",
+    "spin": 1,
+    "n_atoms": 76,
+    "used_by": [
+      {
+        "reaction": "rxn16172",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn16172",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC[C@@]1(O)C[C@H](O[C@H]2C[C@H](N(C)C)[C@H](O)[C@H](C)O2)c2c(cc3c(c2O)C(O)(O)c2c(O)cccc2C3(O)O)[C@H]1C(=O)OC": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC[C@@]1(O)C[C@H](O[C@H]2C[C@H](N(C)C)[C@H](O)[C@H](C)O2)c2c(cc3c(c2O)C(O)(O)c2c(O)cccc2C3(O)O)[C@H]1C(=O)OC",
+    "spin": 1,
+    "n_atoms": 82,
+    "used_by": [
+      {
+        "reaction": "rxn16172",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn16172",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC[C@@]1(O)C[C@H](O[C@H]2C[C@H](N(C)C)[C@H](O)[C@H](C)O2)c2c(cc3c(c2O)C(O)(O)c2c(O)cccc2C3=O)[C@H]1C(=O)OC": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC[C@@]1(O)C[C@H](O[C@H]2C[C@H](N(C)C)[C@H](O)[C@H](C)O2)c2c(cc3c(c2O)C(O)(O)c2c(O)cccc2C3=O)[C@H]1C(=O)OC",
+    "spin": 1,
+    "n_atoms": 79,
+    "used_by": [
+      {
+        "reaction": "rxn16172",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn16172",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)O)O2)c(=O)nc1O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)O)O2)c(=O)nc1O",
+    "spin": 1,
+    "n_atoms": 41,
+    "used_by": [
+      {
+        "reaction": "rxn16172",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn16172",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)O[C@@H]3C[C@H](N(C)C)[C@H](O)[C@H](C)O3)O2)c(=O)nc1O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)(O)OP(=O)(O)O[C@@H]3C[C@H](N(C)C)[C@H](O)[C@H](C)O3)O2)c(=O)nc1O",
+    "spin": 1,
+    "n_atoms": 67,
+    "used_by": [
+      {
+        "reaction": "rxn16172",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn16172",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC1=C(/C=C/C(C)=C/C=C\\C(C)=C\\CO)C(C)(C)CCC1": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC1=C(/C=C/C(C)=C/C=C\\C(C)=C\\CO)C(C)(C)CCC1",
+    "spin": 1,
+    "n_atoms": 51,
+    "used_by": [
+      {
+        "reaction": "rxn02184",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02184",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CCCCCCCCCCCCCCCC(=O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CCCCCCCCCCCCCCCC(=O)O",
+    "spin": 1,
+    "n_atoms": 50,
+    "used_by": [
+      {
+        "reaction": "rxn02184",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02184",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CCCCCCCCCCCCCCCC(=O)OC/C=C(C)/C=C\\C=C(C)\\C=C\\C1=C(C)CCCC1(C)C": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CCCCCCCCCCCCCCCC(=O)OC/C=C(C)/C=C\\C=C(C)\\C=C\\C1=C(C)CCCC1(C)C",
+    "spin": 1,
+    "n_atoms": 98,
+    "used_by": [
+      {
+        "reaction": "rxn02184",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02184",
+        "arm": "regio"
+      }
+    ]
+  },
+  "-1|N[C@@H](C/N=C([O-])/C=C/C(=O)O)C(=O)O": {
+    "kind": "species",
+    "charge": -1,
+    "smiles": "N[C@@H](C/N=C([O-])/C=C/C(=O)O)C(=O)O",
+    "spin": 1,
+    "n_atoms": 23,
+    "used_by": [
+      {
+        "reaction": "rxn46045",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn46045",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|NC[C@H](N)C(=O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "NC[C@H](N)C(=O)O",
+    "spin": 1,
+    "n_atoms": 15,
+    "used_by": [
+      {
+        "reaction": "rxn46045",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn46045",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|O=C(O)/C=C/C(=O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=C(O)/C=C/C(=O)O",
+    "spin": 1,
+    "n_atoms": 12,
+    "used_by": [
+      {
+        "reaction": "rxn46045",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn46045",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn00347",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn00347",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|COc1ccc([C@@H]2COc3cc(O)ccc3C2(O)O)c(O)c1": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "COc1ccc([C@@H]2COc3cc(O)ccc3C2(O)O)c(O)c1",
+    "spin": 1,
+    "n_atoms": 38,
+    "used_by": [
+      {
+        "reaction": "rxn06278",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn06278",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|COc1ccc([C@@H]2COc3cc(O)ccc3C2=O)c(O)c1": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "COc1ccc([C@@H]2COc3cc(O)ccc3C2=O)c(O)c1",
+    "spin": 1,
+    "n_atoms": 35,
+    "used_by": [
+      {
+        "reaction": "rxn06278",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn06278",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|COc1ccc2c(c1)O[C@H]1c3ccc(O)cc3OC[C@@H]21": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "COc1ccc2c(c1)O[C@H]1c3ccc(O)cc3OC[C@@H]21",
+    "spin": 1,
+    "n_atoms": 34,
+    "used_by": [
+      {
+        "reaction": "rxn06278",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn06278",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|C[C@H]1CC[C@]2(NC1)O[C@H]1C[C@H]3[C@@H]4CC[C@H]5CC(=O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "C[C@H]1CC[C@]2(NC1)O[C@H]1C[C@H]3[C@@H]4CC[C@H]5CC(=O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C",
+    "spin": 1,
+    "n_atoms": 73,
+    "used_by": [
+      {
+        "reaction": "rxn59889",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn59889",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|C[C@H]1CC[C@]2(NC1)O[C@H]1C[C@H]3[C@@H]4CC[C@H]5CC(O)(O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "C[C@H]1CC[C@]2(NC1)O[C@H]1C[C@H]3[C@@H]4CC[C@H]5CC(O)(O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C",
+    "spin": 1,
+    "n_atoms": 76,
+    "used_by": [
+      {
+        "reaction": "rxn59889",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn59889",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|C[C@H]1CC[C@]2(NC1)O[C@H]1C[C@H]3[C@@H]4CC[C@H]5C[C@@H](O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "C[C@H]1CC[C@]2(NC1)O[C@H]1C[C@H]3[C@@H]4CC[C@H]5C[C@@H](O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C",
+    "spin": 1,
+    "n_atoms": 75,
+    "used_by": [
+      {
+        "reaction": "rxn59889",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn59889",
+        "arm": "regio"
+      }
+    ]
+  },
+  "-1|N=c1nc(O)c2c([n-]1)NC[C@H](CN(C=O)c1ccc(C(=O)N[C@@H](CCC(=O)O)C(=O)O)cc1)N2": {
+    "kind": "species",
+    "charge": -1,
+    "smiles": "N=c1nc(O)c2c([n-]1)NC[C@H](CN(C=O)c1ccc(C(=O)N[C@@H](CCC(=O)O)C(=O)O)cc1)N2",
+    "spin": 1,
+    "n_atoms": 56,
+    "used_by": [
+      {
+        "reaction": "rxn00690",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn00690",
+        "arm": "regio"
+      }
+    ]
+  },
+  "-1|N=c1nc(O)c2c([n-]1)NC[C@H](CNc1ccc(C(=O)N[C@@H](CCC(=O)O)C(=O)O)cc1)N2": {
+    "kind": "species",
+    "charge": -1,
+    "smiles": "N=c1nc(O)c2c([n-]1)NC[C@H](CNc1ccc(C(=O)N[C@@H](CCC(=O)O)C(=O)O)cc1)N2",
+    "spin": 1,
+    "n_atoms": 54,
+    "used_by": [
+      {
+        "reaction": "rxn00690",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn00690",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O",
+    "spin": 1,
+    "n_atoms": 42,
+    "used_by": [
+      {
+        "reaction": "rxn00690",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn00690",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn02855",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02855",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|O=CO": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=CO",
+    "spin": 1,
+    "n_atoms": 5,
+    "used_by": [
+      {
+        "reaction": "rxn00690",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn00690",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC(C)=CCOP(=O)(O)OP(=O)(O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC(C)=CCOP(=O)(O)OP(=O)(O)O",
+    "spin": 1,
+    "n_atoms": 26,
+    "used_by": [
+      {
+        "reaction": "rxn24458",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn24458",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC(C)=CCc1c(O)cc(O)c(C(=O)CC(C)C)c1O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC(C)=CCc1c(O)cc(O)c(C(=O)CC(C)C)c1O",
+    "spin": 1,
+    "n_atoms": 42,
+    "used_by": [
+      {
+        "reaction": "rxn24458",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn24458",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC(C)=CCc1c(O)cc(O)c(C(O)(O)CC(C)C)c1O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC(C)=CCc1c(O)cc(O)c(C(O)(O)CC(C)C)c1O",
+    "spin": 1,
+    "n_atoms": 45,
+    "used_by": [
+      {
+        "reaction": "rxn24458",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn24458",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC(C)CC(=O)c1c(O)cc(O)cc1O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC(C)CC(=O)c1c(O)cc(O)cc1O",
+    "spin": 1,
+    "n_atoms": 29,
+    "used_by": [
+      {
+        "reaction": "rxn24458",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn24458",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC(C)CC(O)(O)c1c(O)cc(O)cc1O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC(C)CC(O)(O)c1c(O)cc(O)cc1O",
+    "spin": 1,
+    "n_atoms": 32,
+    "used_by": [
+      {
+        "reaction": "rxn24458",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn24458",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|O=C(O)Cc1cn([C@@H]2O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]2O)cn1": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=C(O)Cc1cn([C@@H]2O[C@H](COP(=O)(O)O)[C@@H](O)[C@H]2O)cn1",
+    "spin": 1,
+    "n_atoms": 37,
+    "used_by": [
+      {
+        "reaction": "rxn02855",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02855",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|O=C(O)Cc1cnc[nH]1": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=C(O)Cc1cnc[nH]1",
+    "spin": 1,
+    "n_atoms": 15,
+    "used_by": [
+      {
+        "reaction": "rxn02855",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02855",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|O=P(O)(O)OC[C@H]1O[C@H](OP(=O)(O)OP(=O)(O)O)[C@H](O)[C@@H]1O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=P(O)(O)OC[C@H]1O[C@H](OP(=O)(O)OP(=O)(O)O)[C@H](O)[C@@H]1O",
+    "spin": 1,
+    "n_atoms": 35,
+    "used_by": [
+      {
+        "reaction": "rxn02855",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02855",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|O=P(O)(O)O[C@@H]1[C@@H](OP(=O)(O)O)[C@H](OP(=O)(O)O)[C@@H](O)[C@H](OP(=O)(O)O)[C@@H]1OP(=O)(O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=P(O)(O)O[C@@H]1[C@@H](OP(=O)(O)O)[C@H](OP(=O)(O)O)[C@@H](O)[C@H](OP(=O)(O)O)[C@@H]1OP(=O)(O)O",
+    "spin": 1,
+    "n_atoms": 49,
+    "used_by": [
+      {
+        "reaction": "rxn02418",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02418",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|O=P(O)(O)O[C@H]1[C@H](OP(=O)(O)O)[C@@H](OP(=O)(O)O)[C@H](OP(=O)(O)O)[C@@H](OP(=O)(O)O)[C@H]1OP(=O)(O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=P(O)(O)O[C@H]1[C@H](OP(=O)(O)O)[C@@H](OP(=O)(O)O)[C@H](OP(=O)(O)O)[C@@H](OP(=O)(O)O)[C@H]1OP(=O)(O)O",
+    "spin": 1,
+    "n_atoms": 54,
+    "used_by": [
+      {
+        "reaction": "rxn02418",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02418",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC(=O)[C@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](O)CC[C@]4(C)[C@H]3CC[C@]12C": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC(=O)[C@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](O)CC[C@]4(C)[C@H]3CC[C@]12C",
+    "spin": 1,
+    "n_atoms": 55,
+    "used_by": [
+      {
+        "reaction": "rxn01587",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn01587",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC(=O)[C@H]1CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@]4(C)[C@H]3CC[C@]12C": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC(=O)[C@H]1CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@]4(C)[C@H]3CC[C@]12C",
+    "spin": 1,
+    "n_atoms": 53,
+    "used_by": [
+      {
+        "reaction": "rxn01587",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn01587",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC(=O)[C@H]1CC[C@H]2[C@@H]3CCC4=CC(O)(O)CC[C@]4(C)[C@H]3CC[C@]12C": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC(=O)[C@H]1CC[C@H]2[C@@H]3CCC4=CC(O)(O)CC[C@]4(C)[C@H]3CC[C@]12C",
+    "spin": 1,
+    "n_atoms": 56,
+    "used_by": [
+      {
+        "reaction": "rxn01587",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn01587",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC(O)(O)[C@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](O)CC[C@]4(C)[C@H]3CC[C@]12C": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC(O)(O)[C@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](O)CC[C@]4(C)[C@H]3CC[C@]12C",
+    "spin": 1,
+    "n_atoms": 58,
+    "used_by": [
+      {
+        "reaction": "rxn01587",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn01587",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC(O)(O)[C@H]1CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@]4(C)[C@H]3CC[C@]12C": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC(O)(O)[C@H]1CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@]4(C)[C@H]3CC[C@]12C",
+    "spin": 1,
+    "n_atoms": 56,
+    "used_by": [
+      {
+        "reaction": "rxn01587",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn01587",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC(O)(O)[C@H]1CC[C@H]2[C@@H]3CCC4=CC(O)(O)CC[C@]4(C)[C@H]3CC[C@]12C": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC(O)(O)[C@H]1CC[C@H]2[C@@H]3CCC4=CC(O)(O)CC[C@]4(C)[C@H]3CC[C@]12C",
+    "spin": 1,
+    "n_atoms": 59,
+    "used_by": [
+      {
+        "reaction": "rxn01587",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn01587",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|N[C@@H](CC(=O)O)C(=O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "N[C@@H](CC(=O)O)C(=O)O",
+    "spin": 1,
+    "n_atoms": 16,
+    "used_by": [
+      {
+        "reaction": "rxn00347",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn00347",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC(=O)C(=O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC(=O)C(=O)O",
+    "spin": 1,
+    "n_atoms": 10,
+    "used_by": [
+      {
+        "reaction": "rxn02127",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02127",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|C[C@H](N)C(=O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "C[C@H](N)C(=O)O",
+    "spin": 1,
+    "n_atoms": 13,
+    "used_by": [
+      {
+        "reaction": "rxn02127",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02127",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|NC(C(=O)O)C(=O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "NC(C(=O)O)C(=O)O",
+    "spin": 1,
+    "n_atoms": 13,
+    "used_by": [
+      {
+        "reaction": "rxn02127",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02127",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|O=C(O)C(=O)C(=O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=C(O)C(=O)C(=O)O",
+    "spin": 1,
+    "n_atoms": 10,
+    "used_by": [
+      {
+        "reaction": "rxn02127",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02127",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|N=c1nc(O)c2c([nH]1)NCC([C@H](O)[C@@H](O)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)=N2": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "N=c1nc(O)c2c([nH]1)NCC([C@H](O)[C@@H](O)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)=N2",
+    "spin": 1,
+    "n_atoms": 46,
+    "used_by": [
+      {
+        "reaction": "rxn08341",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn08341",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|N=c1nc(O)c2c([nH]1)NCC([C@H](O)[C@H](O)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)=N2": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "N=c1nc(O)c2c([nH]1)NCC([C@H](O)[C@H](O)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)=N2",
+    "spin": 1,
+    "n_atoms": 46,
+    "used_by": [
+      {
+        "reaction": "rxn08341",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn08341",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC(=O)CC(=O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC(=O)CC(=O)O",
+    "spin": 1,
+    "n_atoms": 13,
+    "used_by": [
+      {
+        "reaction": "rxn03979",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03979",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC(=O)CSCCS(=O)(=O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC(=O)CSCCS(=O)(=O)O",
+    "spin": 1,
+    "n_atoms": 21,
+    "used_by": [
+      {
+        "reaction": "rxn03979",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03979",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC(O)(O)CC(=O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC(O)(O)CC(=O)O",
+    "spin": 1,
+    "n_atoms": 16,
+    "used_by": [
+      {
+        "reaction": "rxn03979",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03979",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|CC(O)(O)CSCCS(=O)(=O)O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "CC(O)(O)CSCCS(=O)(=O)O",
+    "spin": 1,
+    "n_atoms": 24,
+    "used_by": [
+      {
+        "reaction": "rxn03979",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03979",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|O=C=O": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=C=O",
+    "spin": 1,
+    "n_atoms": 3,
+    "used_by": [
+      {
+        "reaction": "rxn03979",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03979",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|O=S(=O)(O)CCS": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=S(=O)(O)CCS",
+    "spin": 1,
+    "n_atoms": 13,
+    "used_by": [
+      {
+        "reaction": "rxn03979",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03979",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|O=C(O)C(=O)C[C@@H](O)[C@H](O)CO": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=C(O)C(=O)C[C@@H](O)[C@H](O)CO",
+    "spin": 1,
+    "n_atoms": 22,
+    "used_by": [
+      {
+        "reaction": "rxn02173",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02173",
+        "arm": "regio"
+      }
+    ]
+  },
+  "0|O=C(O)[C@H](O)[C@@H](O)[C@@H](O)[C@H](O)CO": {
+    "kind": "species",
+    "charge": 0,
+    "smiles": "O=C(O)[C@H](O)[C@@H](O)[C@@H](O)[C@H](O)CO",
+    "spin": 1,
+    "n_atoms": 25,
+    "used_by": [
+      {
+        "reaction": "rxn02173",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02173",
+        "arm": "regio"
+      }
+    ]
+  }
+}

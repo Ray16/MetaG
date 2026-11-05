@@ -1,0 +1,210 @@
+{
+  "population": 9719,
+  "sample_size": 32,
+  "strata": {
+    "1": {
+      "population": 2669,
+      "sample_size": 4,
+      "inclusion_probability": "4/2669"
+    },
+    "2": {
+      "population": 1104,
+      "sample_size": 4,
+      "inclusion_probability": "1/276"
+    },
+    "3": {
+      "population": 646,
+      "sample_size": 4,
+      "inclusion_probability": "2/323"
+    },
+    "4": {
+      "population": 670,
+      "sample_size": 4,
+      "inclusion_probability": "2/335"
+    },
+    "5": {
+      "population": 263,
+      "sample_size": 4,
+      "inclusion_probability": "4/263"
+    },
+    "6": {
+      "population": 33,
+      "sample_size": 4,
+      "inclusion_probability": "4/33"
+    },
+    "multiple": {
+      "population": 50,
+      "sample_size": 4,
+      "inclusion_probability": "2/25"
+    },
+    "unannotated": {
+      "population": 4284,
+      "sample_size": 4,
+      "inclusion_probability": "1/1071"
+    }
+  },
+  "selected": [
+    {
+      "reaction": "rxn07593",
+      "stratum": "multiple",
+      "inclusion_probability": "2/25"
+    },
+    {
+      "reaction": "rxn00916",
+      "stratum": "6",
+      "inclusion_probability": "4/33"
+    },
+    {
+      "reaction": "rxn56649",
+      "stratum": "unannotated",
+      "inclusion_probability": "1/1071"
+    },
+    {
+      "reaction": "rxn03319",
+      "stratum": "multiple",
+      "inclusion_probability": "2/25"
+    },
+    {
+      "reaction": "rxn14091",
+      "stratum": "1",
+      "inclusion_probability": "4/2669"
+    },
+    {
+      "reaction": "rxn43772",
+      "stratum": "unannotated",
+      "inclusion_probability": "1/1071"
+    },
+    {
+      "reaction": "rxn03694",
+      "stratum": "5",
+      "inclusion_probability": "4/263"
+    },
+    {
+      "reaction": "rxn43131",
+      "stratum": "unannotated",
+      "inclusion_probability": "1/1071"
+    },
+    {
+      "reaction": "rxn03659",
+      "stratum": "3",
+      "inclusion_probability": "2/323"
+    },
+    {
+      "reaction": "rxn27435",
+      "stratum": "3",
+      "inclusion_probability": "2/323"
+    },
+    {
+      "reaction": "rxn23598",
+      "stratum": "4",
+      "inclusion_probability": "2/335"
+    },
+    {
+      "reaction": "rxn19879",
+      "stratum": "1",
+      "inclusion_probability": "4/2669"
+    },
+    {
+      "reaction": "rxn43971",
+      "stratum": "4",
+      "inclusion_probability": "2/335"
+    },
+    {
+      "reaction": "rxn16745",
+      "stratum": "5",
+      "inclusion_probability": "4/263"
+    },
+    {
+      "reaction": "rxn03080",
+      "stratum": "2",
+      "inclusion_probability": "1/276"
+    },
+    {
+      "reaction": "rxn40042",
+      "stratum": "5",
+      "inclusion_probability": "4/263"
+    },
+    {
+      "reaction": "rxn16821",
+      "stratum": "4",
+      "inclusion_probability": "2/335"
+    },
+    {
+      "reaction": "rxn16172",
+      "stratum": "2",
+      "inclusion_probability": "1/276"
+    },
+    {
+      "reaction": "rxn02184",
+      "stratum": "3",
+      "inclusion_probability": "2/323"
+    },
+    {
+      "reaction": "rxn46045",
+      "stratum": "6",
+      "inclusion_probability": "4/33"
+    },
+    {
+      "reaction": "rxn06278",
+      "stratum": "1",
+      "inclusion_probability": "4/2669"
+    },
+    {
+      "reaction": "rxn59889",
+      "stratum": "unannotated",
+      "inclusion_probability": "1/1071"
+    },
+    {
+      "reaction": "rxn00690",
+      "stratum": "6",
+      "inclusion_probability": "4/33"
+    },
+    {
+      "reaction": "rxn24458",
+      "stratum": "2",
+      "inclusion_probability": "1/276"
+    },
+    {
+      "reaction": "rxn02855",
+      "stratum": "6",
+      "inclusion_probability": "4/33"
+    },
+    {
+      "reaction": "rxn02418",
+      "stratum": "3",
+      "inclusion_probability": "2/323"
+    },
+    {
+      "reaction": "rxn01587",
+      "stratum": "multiple",
+      "inclusion_probability": "2/25"
+    },
+    {
+      "reaction": "rxn00347",
+      "stratum": "multiple",
+      "inclusion_probability": "2/25"
+    },
+    {
+      "reaction": "rxn02127",
+      "stratum": "2",
+      "inclusion_probability": "1/276"
+    },
+    {
+      "reaction": "rxn08341",
+      "stratum": "5",
+      "inclusion_probability": "4/263"
+    },
+    {
+      "reaction": "rxn03979",
+      "stratum": "1",
+      "inclusion_probability": "4/2669"
+    },
+    {
+      "reaction": "rxn02173",
+      "stratum": "4",
+      "inclusion_probability": "2/335"
+    }
+  ],
+  "seed": "4ab2a26c88cdc3991b98c2f338d9384634e9bd4f56d5267e5adf673b92896494",
+  "selection_scope": "Simple random source-ID samples without replacement within EC strata; no energy/label selection."
+}
