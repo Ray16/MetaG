@@ -1,0 +1,1619 @@
+{
+  "scope": "Complete retained fixed-geometry nicotinamide ensemble intervention; no experimental-accuracy or production-policy claim.",
+  "n_geometries": 103,
+  "n_reused": 9,
+  "n_new": 94,
+  "weights": {
+    "full_red": 1,
+    "full_ox": -1,
+    "core_red": -1,
+    "core_ox": 1
+  },
+  "element_residual": {},
+  "charge_residual": 0,
+  "arms": {
+    "full|UMA|ALPB": {
+      "exchange_kj": -41.89397261268459,
+      "components_kj": {
+        "electronic_kj": 16.19936740095727,
+        "solvation_kj": -57.01881330989381,
+        "thermal_kj": 0.18608680737929717,
+        "configurational_kj": -1.2606135099694178
+      },
+      "families": {
+        "full_red": {
+          "G_kj": -7710905.58200066,
+          "components_kj": {
+            "electronic_kj": -7711996.10134533,
+            "solvation_kj": -189.02309074177526,
+            "thermal_kj": 1280.9951974405478,
+            "configurational_kj": -1.4527620283294003
+          },
+          "probabilities": [
+            3.2807703321723995e-06,
+            2.242569320053554e-06,
+            0.0015855940979112887,
+            1.1096615600696953e-09,
+            1.1735785309773331e-05,
+            1.2654338000246632e-09,
+            0.00014876970893970765,
+            1.2646839695379787e-06,
+            2.815778825931904e-12,
+            3.669122254191087e-12,
+            6.306037130125329e-07,
+            6.706820745426576e-11,
+            1.230706660218044e-12,
+            6.205497302882507e-12,
+            1.88594863939097e-09,
+            5.071527532995132e-10,
+            1.3567584070996555e-10,
+            7.552699237155973e-08,
+            5.0440734142993084e-11,
+            2.0474307100879286e-13,
+            8.877641751096041e-11,
+            2.3023537258403192e-10,
+            3.54808549774741e-10,
+            9.44790405392297e-12,
+            9.34121917964904e-09,
+            4.8807954643460006e-17,
+            0.002082297352725932,
+            0.0021217992845743916,
+            6.415439416974204e-05,
+            6.55814996665513e-05,
+            1.2985995348202996e-12,
+            2.4395712476287606e-07,
+            7.1433481718436965e-12,
+            1.9461019250951397e-10,
+            5.0512508952695314e-12,
+            1.0421054035931069e-11,
+            1.1126082095747277e-10,
+            3.309492723721653e-10,
+            6.420781765306336e-05,
+            0.0031532329846967193,
+            1.4039768092867362e-07,
+            2.3211998611597438e-05,
+            5.7725212634084004e-08,
+            0.21543307810046317,
+            1.8726720449059853e-11,
+            3.591994700812426e-13,
+            0.7752379483259051,
+            4.1426607471727766e-09,
+            4.1852420815568893e-07,
+            2.8786179599000285e-12,
+            1.001288040775827e-10,
+            1.3889109803563704e-08,
+            6.715444216639857e-12,
+            7.626874467224578e-12,
+            1.8837321251929303e-12
+          ],
+          "n_retained_minima": 55,
+          "slots": [
+            "full_red__minimum_000",
+            "full_red__minimum_001",
+            "full_red__minimum_002",
+            "full_red__minimum_003",
+            "full_red__minimum_004",
+            "full_red__minimum_005",
+            "full_red__minimum_006",
+            "full_red__minimum_007",
+            "full_red__minimum_008",
+            "full_red__minimum_009",
+            "full_red__minimum_010",
+            "full_red__minimum_011",
+            "full_red__minimum_012",
+            "full_red__minimum_013",
+            "full_red__minimum_014",
+            "full_red__minimum_015",
+            "full_red__minimum_016",
+            "full_red__minimum_017",
+            "full_red__minimum_018",
+            "full_red__minimum_019",
+            "full_red__minimum_020",
+            "full_red__minimum_021",
+            "full_red__minimum_022",
+            "full_red__minimum_023",
+            "full_red__minimum_024",
+            "full_red__minimum_025",
+            "full_red__minimum_026",
+            "full_red__minimum_027",
+            "full_red__minimum_028",
+            "full_red__minimum_029",
+            "full_red__minimum_030",
+            "full_red__minimum_031",
+            "full_red__minimum_032",
+            "full_red__minimum_033",
+            "full_red__minimum_034",
+            "full_red__minimum_035",
+            "full_red__minimum_036",
+            "full_red__minimum_037",
+            "full_red__minimum_038",
+            "full_red__minimum_039",
+            "full_red__minimum_040",
+            "full_red__minimum_041",
+            "full_red__minimum_042",
+            "full_red__minimum_043",
+            "full_red__minimum_044",
+            "full_red__minimum_045",
+            "full_red__minimum_046",
+            "full_red__minimum_047",
+            "full_red__minimum_048",
+            "full_red__minimum_049",
+            "full_red__minimum_050",
+            "full_red__minimum_051",
+            "full_red__minimum_052",
+            "full_red__minimum_053",
+            "full_red__minimum_054"
+          ],
+          "maximum_probability": 0.7752379483259051,
+          "dominant_slot": "full_red__minimum_046",
+          "entropy_effective_population": 1.796878661072232,
+          "inverse_participation_population": 1.5445765932058966
+        },
+        "full_ox": {
+          "G_kj": -7708966.383511319,
+          "components_kj": {
+            "electronic_kj": -7709887.6186526315,
+            "solvation_kj": -335.442309279227,
+            "thermal_kj": 1258.3044978414323,
+            "configurational_kj": -1.6270472499204673
+          },
+          "probabilities": [
+            0.032629824867623274,
+            2.5186948003457674e-07,
+            5.030689323231841e-06,
+            4.289324043710795e-05,
+            0.0018185177681775294,
+            1.7260598149826857e-09,
+            0.00015696354971000834,
+            9.871388010430485e-05,
+            4.8183357588336214e-09,
+            6.593490958109564e-07,
+            4.839611964683573e-07,
+            3.771707018330717e-08,
+            3.8304835146652596e-05,
+            3.016203669041146e-06,
+            1.5802564809445726e-05,
+            4.519299943220404e-05,
+            3.478106203435331e-05,
+            0.0017412949457494603,
+            0.14514112196692946,
+            5.466031948214779e-09,
+            3.0364436268369754e-05,
+            4.5101160092112954e-05,
+            6.485465439281166e-06,
+            1.3451729201880722e-10,
+            0.0001379263483593559,
+            3.453236832212296e-06,
+            0.0033978787061115933,
+            8.00907301950179e-06,
+            2.3023542984060337e-08,
+            6.962011836414918e-07,
+            7.564600987788781e-08,
+            0.806591213319619,
+            9.067646355121306e-07,
+            6.0188776582513905e-05,
+            0.000623390953276254,
+            4.77793817398542e-06,
+            0.00042902640151508577,
+            2.175275738128822e-09,
+            1.9685628146976537e-06,
+            1.4543606832213145e-06,
+            0.0068841538356316
+          ],
+          "n_retained_minima": 41,
+          "slots": [
+            "full_ox__minimum_000",
+            "full_ox__minimum_001",
+            "full_ox__minimum_002",
+            "full_ox__minimum_003",
+            "full_ox__minimum_004",
+            "full_ox__minimum_005",
+            "full_ox__minimum_006",
+            "full_ox__minimum_007",
+            "full_ox__minimum_008",
+            "full_ox__minimum_009",
+            "full_ox__minimum_010",
+            "full_ox__minimum_011",
+            "full_ox__minimum_012",
+            "full_ox__minimum_013",
+            "full_ox__minimum_014",
+            "full_ox__minimum_015",
+            "full_ox__minimum_016",
+            "full_ox__minimum_017",
+            "full_ox__minimum_018",
+            "full_ox__minimum_019",
+            "full_ox__minimum_020",
+            "full_ox__minimum_021",
+            "full_ox__minimum_022",
+            "full_ox__minimum_023",
+            "full_ox__minimum_024",
+            "full_ox__minimum_025",
+            "full_ox__minimum_026",
+            "full_ox__minimum_027",
+            "full_ox__minimum_028",
+            "full_ox__minimum_029",
+            "full_ox__minimum_030",
+            "full_ox__minimum_031",
+            "full_ox__minimum_032",
+            "full_ox__minimum_033",
+            "full_ox__minimum_034",
+            "full_ox__minimum_035",
+            "full_ox__minimum_036",
+            "full_ox__minimum_037",
+            "full_ox__minimum_038",
+            "full_ox__minimum_039",
+            "full_ox__minimum_040"
+          ],
+          "maximum_probability": 0.806591213319619,
+          "dominant_slot": "full_ox__minimum_031",
+          "entropy_effective_population": 1.927759728485385,
+          "inverse_participation_population": 1.4863568374140685
+        },
+        "core_red": {
+          "G_kj": -1200819.461077903,
+          "components_kj": {
+            "electronic_kj": -1201120.5307462108,
+            "solvation_kj": -40.567034914311016,
+            "thermal_kj": 342.6374963362172,
+            "configurational_kj": -1.000793114020621
+          },
+          "probabilities": [
+            0.9090175080253268,
+            0.02401361629243159,
+            0.032941334374836914,
+            0.034027541307404735
+          ],
+          "n_retained_minima": 4,
+          "slots": [
+            "core_red__minimum_000",
+            "core_red__minimum_001",
+            "core_red__minimum_002",
+            "core_red__minimum_003"
+          ],
+          "maximum_probability": 0.9090175080253268,
+          "dominant_slot": "core_red__minimum_000",
+          "entropy_effective_population": 1.4973916312183568,
+          "inverse_participation_population": 1.206079864892817
+        },
+        "core_ox": {
+          "G_kj": -1198922.1565611747,
+          "components_kj": {
+            "electronic_kj": -1198995.8486861119,
+            "solvation_kj": -244.00506676165656,
+            "thermal_kj": 320.132883544481,
+            "configurational_kj": -2.435691845581106
+          },
+          "probabilities": [
+            0.5687164957075611,
+            0.2124707858811538,
+            0.21881271841128516
+          ],
+          "n_retained_minima": 3,
+          "slots": [
+            "core_ox__minimum_000",
+            "core_ox__minimum_001",
+            "core_ox__minimum_002"
+          ],
+          "maximum_probability": 0.5687164957075611,
+          "dominant_slot": "core_ox__minimum_000",
+          "entropy_effective_population": 2.6713117018424053,
+          "inverse_participation_population": 2.4011835352117394
+        }
+      }
+    },
+    "full|UMA|SMD": {
+      "exchange_kj": -37.12230905191973,
+      "components_kj": {
+        "electronic_kj": 15.972528307233006,
+        "solvation_kj": -50.22947337101691,
+        "thermal_kj": -0.8926779766676418,
+        "configurational_kj": -1.9726860099816674
+      },
+      "families": {
+        "full_red": {
+          "G_kj": -7710899.10824105,
+          "components_kj": {
+            "electronic_kj": -7711963.15227521,
+            "solvation_kj": -206.90449670309513,
+            "thermal_kj": 1275.7510434610292,
+            "configurational_kj": -4.802512596631734
+          },
+          "probabilities": [
+            0.0007028939874416966,
+            0.00012764407680364228,
+            0.12149819840213306,
+            6.448767037745279e-06,
+            0.02156884083860755,
+            6.095248532094312e-06,
+            0.05485474418587106,
+            0.0007497863027986567,
+            1.2672583937154718e-07,
+            5.14743849281361e-08,
+            0.0003739731073132408,
+            5.387296739752698e-08,
+            2.8578973455365023e-07,
+            2.7823197943338172e-08,
+            0.00014065636560226422,
+            1.6254791650270134e-06,
+            3.5772487326554054e-07,
+            0.000743995152128664,
+            6.49899953405604e-07,
+            7.405381480794423e-10,
+            1.7768122216520445e-06,
+            2.7887671814148036e-05,
+            5.569678057505809e-06,
+            7.446324597074928e-08,
+            3.787602253050421e-09,
+            1.915764327215955e-12,
+            0.010286845780433245,
+            0.15365912167624685,
+            0.0021444973497216353,
+            0.006773077141694821,
+            3.0962844408636187e-05,
+            0.03080902117690509,
+            2.1655889800757625e-08,
+            1.7506593745757057e-05,
+            9.515042176958763e-10,
+            2.594120612194396e-08,
+            4.6414829402706984e-07,
+            8.472750801077528e-08,
+            0.0008704954327447655,
+            0.28821965537206323,
+            0.001665856682353897,
+            0.0485790013592325,
+            0.0004910953727720382,
+            0.0036622873222384904,
+            3.227365156714904e-07,
+            4.483939779152406e-10,
+            0.24560335015477944,
+            0.002274446763155146,
+            0.004091167797442387,
+            1.5759812939763494e-08,
+            9.687616811511204e-08,
+            8.750944480034962e-06,
+            3.1589288726079016e-09,
+            5.350063034293354e-08,
+            1.9509489112030503e-09
+          ],
+          "n_retained_minima": 55,
+          "slots": [
+            "full_red__minimum_000",
+            "full_red__minimum_001",
+            "full_red__minimum_002",
+            "full_red__minimum_003",
+            "full_red__minimum_004",
+            "full_red__minimum_005",
+            "full_red__minimum_006",
+            "full_red__minimum_007",
+            "full_red__minimum_008",
+            "full_red__minimum_009",
+            "full_red__minimum_010",
+            "full_red__minimum_011",
+            "full_red__minimum_012",
+            "full_red__minimum_013",
+            "full_red__minimum_014",
+            "full_red__minimum_015",
+            "full_red__minimum_016",
+            "full_red__minimum_017",
+            "full_red__minimum_018",
+            "full_red__minimum_019",
+            "full_red__minimum_020",
+            "full_red__minimum_021",
+            "full_red__minimum_022",
+            "full_red__minimum_023",
+            "full_red__minimum_024",
+            "full_red__minimum_025",
+            "full_red__minimum_026",
+            "full_red__minimum_027",
+            "full_red__minimum_028",
+            "full_red__minimum_029",
+            "full_red__minimum_030",
+            "full_red__minimum_031",
+            "full_red__minimum_032",
+            "full_red__minimum_033",
+            "full_red__minimum_034",
+            "full_red__minimum_035",
+            "full_red__minimum_036",
+            "full_red__minimum_037",
+            "full_red__minimum_038",
+            "full_red__minimum_039",
+            "full_red__minimum_040",
+            "full_red__minimum_041",
+            "full_red__minimum_042",
+            "full_red__minimum_043",
+            "full_red__minimum_044",
+            "full_red__minimum_045",
+            "full_red__minimum_046",
+            "full_red__minimum_047",
+            "full_red__minimum_048",
+            "full_red__minimum_049",
+            "full_red__minimum_050",
+            "full_red__minimum_051",
+            "full_red__minimum_052",
+            "full_red__minimum_053",
+            "full_red__minimum_054"
+          ],
+          "maximum_probability": 0.28821965537206323,
+          "dominant_slot": "full_red__minimum_039",
+          "entropy_effective_population": 6.94037859791548,
+          "inverse_participation_population": 5.298151798219355
+        },
+        "full_ox": {
+          "G_kj": -7708977.708762996,
+          "components_kj": {
+            "electronic_kj": -7709854.712314905,
+            "solvation_kj": -372.62174872697295,
+            "thermal_kj": 1254.0497964034464,
+            "configurational_kj": -4.424495768183516
+          },
+          "probabilities": [
+            0.0029395230184639663,
+            2.160887306484843e-05,
+            0.0012948204893367457,
+            9.092422957227665e-05,
+            0.05666466707570083,
+            2.802940879214202e-08,
+            0.00014127379687245659,
+            0.01147193325236537,
+            1.945438574196613e-07,
+            3.728977251481122e-05,
+            4.7906888601912105e-06,
+            5.19134782481346e-06,
+            0.0031526010426552514,
+            0.0002813522102361082,
+            0.00014303656229384512,
+            5.679461296133982e-05,
+            0.12655161596729358,
+            0.18335030070462108,
+            0.34537546446463036,
+            0.0002019625855434216,
+            3.969393126536991e-05,
+            0.0006038689915106134,
+            1.0178004677557995e-05,
+            2.660013054858393e-09,
+            0.001519264685541687,
+            0.00010611032521916576,
+            0.20132475098469219,
+            2.8677563152149174e-05,
+            3.8971644053671097e-07,
+            1.0295730124343621e-05,
+            1.978095918448117e-06,
+            0.01859036317338767,
+            0.001681070274270866,
+            5.649147059432119e-05,
+            0.0021752157165737056,
+            0.001236247466401484,
+            5.8530597228897525e-05,
+            4.0583163959126525e-07,
+            0.00025251244122852093,
+            3.982067851463521e-06,
+            0.040514597004190855
+          ],
+          "n_retained_minima": 41,
+          "slots": [
+            "full_ox__minimum_000",
+            "full_ox__minimum_001",
+            "full_ox__minimum_002",
+            "full_ox__minimum_003",
+            "full_ox__minimum_004",
+            "full_ox__minimum_005",
+            "full_ox__minimum_006",
+            "full_ox__minimum_007",
+            "full_ox__minimum_008",
+            "full_ox__minimum_009",
+            "full_ox__minimum_010",
+            "full_ox__minimum_011",
+            "full_ox__minimum_012",
+            "full_ox__minimum_013",
+            "full_ox__minimum_014",
+            "full_ox__minimum_015",
+            "full_ox__minimum_016",
+            "full_ox__minimum_017",
+            "full_ox__minimum_018",
+            "full_ox__minimum_019",
+            "full_ox__minimum_020",
+            "full_ox__minimum_021",
+            "full_ox__minimum_022",
+            "full_ox__minimum_023",
+            "full_ox__minimum_024",
+            "full_ox__minimum_025",
+            "full_ox__minimum_026",
+            "full_ox__minimum_027",
+            "full_ox__minimum_028",
+            "full_ox__minimum_029",
+            "full_ox__minimum_030",
+            "full_ox__minimum_031",
+            "full_ox__minimum_032",
+            "full_ox__minimum_033",
+            "full_ox__minimum_034",
+            "full_ox__minimum_035",
+            "full_ox__minimum_036",
+            "full_ox__minimum_037",
+            "full_ox__minimum_038",
+            "full_ox__minimum_039",
+            "full_ox__minimum_040"
+          ],
+          "maximum_probability": 0.34537546446463036,
+          "dominant_slot": "full_ox__minimum_018",
+          "entropy_effective_population": 5.958760842757751,
+          "inverse_participation_population": 4.655270081805477
+        },
+        "core_red": {
+          "G_kj": -1200824.0821856847,
+          "components_kj": {
+            "electronic_kj": -1201120.9599586104,
+            "solvation_kj": -45.188226525460195,
+            "thermal_kj": 342.63001659927687,
+            "configurational_kj": -0.5640171483754702
+          },
+          "probabilities": [
+            0.9561858474979403,
+            0.011591665568818826,
+            0.01584588061711628,
+            0.01637660631612461
+          ],
+          "n_retained_minima": 4,
+          "slots": [
+            "core_red__minimum_000",
+            "core_red__minimum_001",
+            "core_red__minimum_002",
+            "core_red__minimum_003"
+          ],
+          "maximum_probability": 0.9561858474979403,
+          "dominant_slot": "core_red__minimum_000",
+          "entropy_effective_population": 1.2554915746293651,
+          "inverse_participation_population": 1.0929618399713403
+        },
+        "core_ox": {
+          "G_kj": -1198939.805016683,
+          "components_kj": {
+            "electronic_kj": -1198996.5474699975,
+            "solvation_kj": -261.1349519203549,
+            "thermal_kj": 320.0360915650264,
+            "configurational_kj": -2.1586863299089196
+          },
+          "probabilities": [
+            0.6642925608233279,
+            0.166140710901694,
+            0.16956672827497804
+          ],
+          "n_retained_minima": 3,
+          "slots": [
+            "core_ox__minimum_000",
+            "core_ox__minimum_001",
+            "core_ox__minimum_002"
+          ],
+          "maximum_probability": 0.6642925608233279,
+          "dominant_slot": "core_ox__minimum_000",
+          "entropy_effective_population": 2.388879168913972,
+          "inverse_participation_population": 2.0094838897456286
+        }
+      }
+    },
+    "full|DFT|ALPB": {
+      "exchange_kj": -42.214390674605966,
+      "components_kj": {
+        "electronic_kj": 20.146123551996425,
+        "solvation_kj": -60.34759166507559,
+        "thermal_kj": -0.33269710655741846,
+        "configurational_kj": -1.6802254546550932
+      },
+      "families": {
+        "full_red": {
+          "G_kj": -7710928.519371893,
+          "components_kj": {
+            "electronic_kj": -7712019.95408301,
+            "solvation_kj": -188.28847357936002,
+            "thermal_kj": 1281.0704033089273,
+            "configurational_kj": -1.3472186135569935
+          },
+          "probabilities": [
+            3.005394338854338e-06,
+            2.4711066913901393e-06,
+            0.0022103254849374036,
+            1.319992454204973e-09,
+            1.5055573070222396e-05,
+            1.528565655295111e-09,
+            0.00014149645023414558,
+            7.030145493936117e-07,
+            3.2970863235394724e-12,
+            3.1711025336089646e-12,
+            6.417539432452995e-07,
+            7.994823873512509e-11,
+            9.768796591206941e-13,
+            6.715246657784445e-12,
+            2.353378678959253e-09,
+            6.082162978291886e-10,
+            1.240914816523578e-10,
+            5.4843464937211555e-08,
+            4.402507586490534e-11,
+            1.444131563130704e-13,
+            1.2928487629102338e-10,
+            2.5506070238390285e-10,
+            3.745505005734074e-10,
+            8.646931367225228e-12,
+            9.106060837158662e-09,
+            4.981775970381441e-17,
+            0.002209713259353692,
+            0.002644668409045522,
+            0.00011247690984951857,
+            8.783556208295489e-05,
+            1.1935277285727893e-12,
+            2.63486857917442e-07,
+            6.337922507002482e-12,
+            2.7570602682942666e-10,
+            6.002757370532579e-12,
+            9.455454348173012e-12,
+            1.4312726533539704e-10,
+            3.094976701454312e-10,
+            8.697158612570199e-05,
+            0.0037284772494846664,
+            1.6317519547433792e-07,
+            2.5622132902316834e-05,
+            8.307624699644597e-08,
+            0.176760701094348,
+            2.2279339686434286e-11,
+            4.14971038503299e-13,
+            0.8119687083278329,
+            5.874050800795813e-09,
+            5.253726743512899e-07,
+            2.7485451036659175e-12,
+            9.076532111811459e-11,
+            1.4032487760283035e-08,
+            6.0899064044305225e-12,
+            8.253289192787981e-12,
+            2.2334506347096503e-12
+          ],
+          "n_retained_minima": 55,
+          "slots": [
+            "full_red__minimum_000",
+            "full_red__minimum_001",
+            "full_red__minimum_002",
+            "full_red__minimum_003",
+            "full_red__minimum_004",
+            "full_red__minimum_005",
+            "full_red__minimum_006",
+            "full_red__minimum_007",
+            "full_red__minimum_008",
+            "full_red__minimum_009",
+            "full_red__minimum_010",
+            "full_red__minimum_011",
+            "full_red__minimum_012",
+            "full_red__minimum_013",
+            "full_red__minimum_014",
+            "full_red__minimum_015",
+            "full_red__minimum_016",
+            "full_red__minimum_017",
+            "full_red__minimum_018",
+            "full_red__minimum_019",
+            "full_red__minimum_020",
+            "full_red__minimum_021",
+            "full_red__minimum_022",
+            "full_red__minimum_023",
+            "full_red__minimum_024",
+            "full_red__minimum_025",
+            "full_red__minimum_026",
+            "full_red__minimum_027",
+            "full_red__minimum_028",
+            "full_red__minimum_029",
+            "full_red__minimum_030",
+            "full_red__minimum_031",
+            "full_red__minimum_032",
+            "full_red__minimum_033",
+            "full_red__minimum_034",
+            "full_red__minimum_035",
+            "full_red__minimum_036",
+            "full_red__minimum_037",
+            "full_red__minimum_038",
+            "full_red__minimum_039",
+            "full_red__minimum_040",
+            "full_red__minimum_041",
+            "full_red__minimum_042",
+            "full_red__minimum_043",
+            "full_red__minimum_044",
+            "full_red__minimum_045",
+            "full_red__minimum_046",
+            "full_red__minimum_047",
+            "full_red__minimum_048",
+            "full_red__minimum_049",
+            "full_red__minimum_050",
+            "full_red__minimum_051",
+            "full_red__minimum_052",
+            "full_red__minimum_053",
+            "full_red__minimum_054"
+          ],
+          "maximum_probability": 0.8119687083278329,
+          "dominant_slot": "full_red__minimum_046",
+          "entropy_effective_population": 1.7219792725699383,
+          "inverse_participation_population": 1.4480828098993987
+        },
+        "full_ox": {
+          "G_kj": -7708989.833694444,
+          "components_kj": {
+            "electronic_kj": -7709916.554105384,
+            "solvation_kj": -331.1823675790737,
+            "thermal_kj": 1258.8637825028804,
+            "configurational_kj": -0.9610039842696331
+          },
+          "probabilities": [
+            0.019394446643749126,
+            1.4696309837799957e-07,
+            4.204393902612182e-06,
+            1.7651340362287844e-05,
+            0.0024431961921444287,
+            1.6619720048007774e-09,
+            0.00010506377517297246,
+            3.322752318151972e-05,
+            1.4669705599213795e-09,
+            3.7586878405785666e-07,
+            3.351240806152048e-07,
+            3.74786952699597e-08,
+            7.726798412644568e-05,
+            2.063005101275955e-06,
+            7.215038431563861e-06,
+            6.337689820415676e-05,
+            1.9277517214691013e-05,
+            0.00077385039436271,
+            0.053078650554096586,
+            3.92719037509316e-09,
+            1.1706425777188054e-05,
+            1.4958747577474232e-05,
+            3.996821404692146e-06,
+            7.911582868498966e-11,
+            6.294493265285767e-05,
+            1.8445954272409367e-06,
+            0.00398703975110691,
+            5.35957906700615e-06,
+            1.5027219663070156e-08,
+            6.269119559274077e-07,
+            4.663491174379607e-08,
+            0.9153329412504666,
+            1.610890926867197e-07,
+            4.0876564152489724e-05,
+            0.0005181994913308661,
+            2.6761487691578563e-06,
+            0.0004391097685431631,
+            1.5330931400608673e-09,
+            6.060644859380959e-07,
+            1.0364433158314893e-06,
+            0.003555458389692067
+          ],
+          "n_retained_minima": 41,
+          "slots": [
+            "full_ox__minimum_000",
+            "full_ox__minimum_001",
+            "full_ox__minimum_002",
+            "full_ox__minimum_003",
+            "full_ox__minimum_004",
+            "full_ox__minimum_005",
+            "full_ox__minimum_006",
+            "full_ox__minimum_007",
+            "full_ox__minimum_008",
+            "full_ox__minimum_009",
+            "full_ox__minimum_010",
+            "full_ox__minimum_011",
+            "full_ox__minimum_012",
+            "full_ox__minimum_013",
+            "full_ox__minimum_014",
+            "full_ox__minimum_015",
+            "full_ox__minimum_016",
+            "full_ox__minimum_017",
+            "full_ox__minimum_018",
+            "full_ox__minimum_019",
+            "full_ox__minimum_020",
+            "full_ox__minimum_021",
+            "full_ox__minimum_022",
+            "full_ox__minimum_023",
+            "full_ox__minimum_024",
+            "full_ox__minimum_025",
+            "full_ox__minimum_026",
+            "full_ox__minimum_027",
+            "full_ox__minimum_028",
+            "full_ox__minimum_029",
+            "full_ox__minimum_030",
+            "full_ox__minimum_031",
+            "full_ox__minimum_032",
+            "full_ox__minimum_033",
+            "full_ox__minimum_034",
+            "full_ox__minimum_035",
+            "full_ox__minimum_036",
+            "full_ox__minimum_037",
+            "full_ox__minimum_038",
+            "full_ox__minimum_039",
+            "full_ox__minimum_040"
+          ],
+          "maximum_probability": 0.9153329412504666,
+          "dominant_slot": "full_ox__minimum_031",
+          "entropy_effective_population": 1.4735486783868739,
+          "inverse_participation_population": 1.1889709007296896
+        },
+        "core_red": {
+          "G_kj": -1200822.5376477796,
+          "components_kj": {
+            "electronic_kj": -1201123.5449765113,
+            "solvation_kj": -40.57276925991396,
+            "thermal_kj": 342.63895953579436,
+            "configurational_kj": -1.0588615441967253
+          },
+          "probabilities": [
+            0.902112787207352,
+            0.0268733293069112,
+            0.03468665036616733,
+            0.03632723311956955
+          ],
+          "n_retained_minima": 4,
+          "slots": [
+            "core_red__minimum_000",
+            "core_red__minimum_001",
+            "core_red__minimum_002",
+            "core_red__minimum_003"
+          ],
+          "maximum_probability": 0.902112787207352,
+          "dominant_slot": "core_red__minimum_000",
+          "entropy_effective_population": 1.5328822115302692,
+          "inverse_participation_population": 1.223911577750485
+        },
+        "core_ox": {
+          "G_kj": -1198926.066361005,
+          "components_kj": {
+            "electronic_kj": -1198999.998875334,
+            "solvation_kj": -243.81425492470322,
+            "thermal_kj": 320.09964162319005,
+            "configurational_kj": -2.352872369564458
+          },
+          "probabilities": [
+            0.6009436408332057,
+            0.2033217712738971,
+            0.1957345878928971
+          ],
+          "n_retained_minima": 3,
+          "slots": [
+            "core_ox__minimum_000",
+            "core_ox__minimum_001",
+            "core_ox__minimum_002"
+          ],
+          "maximum_probability": 0.6009436408332057,
+          "dominant_slot": "core_ox__minimum_000",
+          "entropy_effective_population": 2.5835382057881744,
+          "inverse_participation_population": 2.2686795821186623
+        }
+      }
+    },
+    "full|DFT|SMD": {
+      "exchange_kj": -38.93431547423825,
+      "components_kj": {
+        "electronic_kj": 16.42055930616334,
+        "solvation_kj": -53.30433703117972,
+        "thermal_kj": -0.29283299196589496,
+        "configurational_kj": -1.7577047572652176
+      },
+      "families": {
+        "full_red": {
+          "G_kj": -7710922.428506204,
+          "components_kj": {
+            "electronic_kj": -7711985.497202852,
+            "solvation_kj": -207.80725237921024,
+            "thermal_kj": 1275.6709879310822,
+            "configurational_kj": -4.795038904045512
+          },
+          "probabilities": [
+            0.0005517391575133612,
+            0.00012052152849798455,
+            0.14512839512717163,
+            6.573186263554233e-06,
+            0.02370993070045695,
+            6.30891141701755e-06,
+            0.04470576897095179,
+            0.00035713971346444906,
+            1.2714968820752824e-07,
+            3.812041429622349e-08,
+            0.00032611497304086356,
+            5.5027710447420215e-08,
+            1.9437995841363007e-07,
+            2.5799469010129888e-08,
+            0.00015039717849105828,
+            1.6703943677851512e-06,
+            2.8035411255679603e-07,
+            0.00046292554253029146,
+            4.860529282943866e-07,
+            4.4757243005634367e-10,
+            2.217226116767529e-06,
+            2.6472935792829308e-05,
+            5.0380763167987395e-06,
+            5.839650364570596e-08,
+            3.16380490734602e-09,
+            1.6755369562864971e-12,
+            0.009353922076148435,
+            0.16411323988878557,
+            0.0032216683153215232,
+            0.0077730848291364465,
+            2.4384646530497622e-05,
+            0.028512920098179104,
+            1.6464156406552886e-08,
+            2.125204247265252e-05,
+            9.689043616788923e-10,
+            2.0168763006689685e-08,
+            5.116290740546991e-07,
+            6.789514664689325e-08,
+            0.001010355761427653,
+            0.2920232130701743,
+            0.001659014518526162,
+            0.04594832353418692,
+            0.0006056134525881865,
+            0.002574803473644713,
+            3.290084389856037e-07,
+            4.4387451993697025e-10,
+            0.22042299531807433,
+            0.0027634553300287194,
+            0.004400606474725506,
+            1.2894017040508333e-08,
+            7.524821731184857e-08,
+            7.575887785256716e-06,
+            2.4546753614884533e-09,
+            4.9608684131670626e-08,
+            1.9820812551629527e-09
+          ],
+          "n_retained_minima": 55,
+          "slots": [
+            "full_red__minimum_000",
+            "full_red__minimum_001",
+            "full_red__minimum_002",
+            "full_red__minimum_003",
+            "full_red__minimum_004",
+            "full_red__minimum_005",
+            "full_red__minimum_006",
+            "full_red__minimum_007",
+            "full_red__minimum_008",
+            "full_red__minimum_009",
+            "full_red__minimum_010",
+            "full_red__minimum_011",
+            "full_red__minimum_012",
+            "full_red__minimum_013",
+            "full_red__minimum_014",
+            "full_red__minimum_015",
+            "full_red__minimum_016",
+            "full_red__minimum_017",
+            "full_red__minimum_018",
+            "full_red__minimum_019",
+            "full_red__minimum_020",
+            "full_red__minimum_021",
+            "full_red__minimum_022",
+            "full_red__minimum_023",
+            "full_red__minimum_024",
+            "full_red__minimum_025",
+            "full_red__minimum_026",
+            "full_red__minimum_027",
+            "full_red__minimum_028",
+            "full_red__minimum_029",
+            "full_red__minimum_030",
+            "full_red__minimum_031",
+            "full_red__minimum_032",
+            "full_red__minimum_033",
+            "full_red__minimum_034",
+            "full_red__minimum_035",
+            "full_red__minimum_036",
+            "full_red__minimum_037",
+            "full_red__minimum_038",
+            "full_red__minimum_039",
+            "full_red__minimum_040",
+            "full_red__minimum_041",
+            "full_red__minimum_042",
+            "full_red__minimum_043",
+            "full_red__minimum_044",
+            "full_red__minimum_045",
+            "full_red__minimum_046",
+            "full_red__minimum_047",
+            "full_red__minimum_048",
+            "full_red__minimum_049",
+            "full_red__minimum_050",
+            "full_red__minimum_051",
+            "full_red__minimum_052",
+            "full_red__minimum_053",
+            "full_red__minimum_054"
+          ],
+          "maximum_probability": 0.2920232130701743,
+          "dominant_slot": "full_red__minimum_039",
+          "entropy_effective_population": 6.9194854024734,
+          "inverse_participation_population": 5.332163921734148
+        },
+        "full_ox": {
+          "G_kj": -7709000.0910794865,
+          "components_kj": {
+            "electronic_kj": -7709878.626713002,
+            "solvation_kj": -370.31157050739534,
+            "thermal_kj": 1253.3394306288653,
+            "configurational_kj": -4.492226605775713
+          },
+          "probabilities": [
+            0.002687979547208671,
+            1.9397748160465462e-05,
+            0.0016648377209307027,
+            5.756452250803526e-05,
+            0.11712229666188413,
+            4.1521042028356034e-08,
+            0.00014547965149995496,
+            0.005940770873418859,
+            9.11230621356697e-08,
+            3.270370995096919e-05,
+            5.1036337874063975e-06,
+            7.936208809087193e-06,
+            0.009783662067455847,
+            0.0002960577358970847,
+            0.00010047189112805287,
+            0.00012253309481716638,
+            0.1079101758185587,
+            0.12535819774753354,
+            0.1943154458662598,
+            0.00022323750255591154,
+            2.354342546011167e-05,
+            0.00030813192307642363,
+            9.649897129749092e-06,
+            2.406885762384274e-09,
+            0.0010666782071987089,
+            8.720047551773611e-05,
+            0.36343463160497375,
+            2.9524130630683534e-05,
+            3.9132865525682715e-07,
+            1.4263148031967097e-05,
+            1.8761127084597109e-06,
+            0.03245636837429141,
+            0.00045945594418141946,
+            5.9023939597755504e-05,
+            0.0027817959067496967,
+            0.0010652746336681715,
+            9.216339828174491e-05,
+            4.4003434152859284e-07,
+            0.00011960209410822588,
+            4.365847179852115e-06,
+            0.03219163252086304
+          ],
+          "n_retained_minima": 41,
+          "slots": [
+            "full_ox__minimum_000",
+            "full_ox__minimum_001",
+            "full_ox__minimum_002",
+            "full_ox__minimum_003",
+            "full_ox__minimum_004",
+            "full_ox__minimum_005",
+            "full_ox__minimum_006",
+            "full_ox__minimum_007",
+            "full_ox__minimum_008",
+            "full_ox__minimum_009",
+            "full_ox__minimum_010",
+            "full_ox__minimum_011",
+            "full_ox__minimum_012",
+            "full_ox__minimum_013",
+            "full_ox__minimum_014",
+            "full_ox__minimum_015",
+            "full_ox__minimum_016",
+            "full_ox__minimum_017",
+            "full_ox__minimum_018",
+            "full_ox__minimum_019",
+            "full_ox__minimum_020",
+            "full_ox__minimum_021",
+            "full_ox__minimum_022",
+            "full_ox__minimum_023",
+            "full_ox__minimum_024",
+            "full_ox__minimum_025",
+            "full_ox__minimum_026",
+            "full_ox__minimum_027",
+            "full_ox__minimum_028",
+            "full_ox__minimum_029",
+            "full_ox__minimum_030",
+            "full_ox__minimum_031",
+            "full_ox__minimum_032",
+            "full_ox__minimum_033",
+            "full_ox__minimum_034",
+            "full_ox__minimum_035",
+            "full_ox__minimum_036",
+            "full_ox__minimum_037",
+            "full_ox__minimum_038",
+            "full_ox__minimum_039",
+            "full_ox__minimum_040"
+          ],
+          "maximum_probability": 0.36343463160497375,
+          "dominant_slot": "full_ox__minimum_026",
+          "entropy_effective_population": 6.123816344190587,
+          "inverse_participation_population": 4.691280699309099
+        },
+        "core_red": {
+          "G_kj": -1200827.1489787502,
+          "components_kj": {
+            "electronic_kj": -1201123.9950391143,
+            "solvation_kj": -45.18434854761717,
+            "thermal_kj": 342.6307528882509,
+            "configurational_kj": -0.6003439766989606
+          },
+          "probabilities": [
+            0.952672798217574,
+            0.013023347010184823,
+            0.016751373327102692,
+            0.017552481445138438
+          ],
+          "n_retained_minima": 4,
+          "slots": [
+            "core_red__minimum_000",
+            "core_red__minimum_001",
+            "core_red__minimum_002",
+            "core_red__minimum_003"
+          ],
+          "maximum_probability": 0.952672798217574,
+          "dominant_slot": "core_red__minimum_000",
+          "entropy_effective_population": 1.2740255391942963,
+          "inverse_participation_population": 1.100904786570821
+        },
+        "core_ox": {
+          "G_kj": -1198943.745867507,
+          "components_kj": {
+            "electronic_kj": -1199000.7039899584,
+            "solvation_kj": -260.993003706982,
+            "thermal_kj": 320.00636259406815,
+            "configurational_kj": -2.0552364356943786
+          },
+          "probabilities": [
+            0.6931979723407047,
+            0.1570076092911586,
+            0.14979441836813673
+          ],
+          "n_retained_minima": 3,
+          "slots": [
+            "core_ox__minimum_000",
+            "core_ox__minimum_001",
+            "core_ox__minimum_002"
+          ],
+          "maximum_probability": 0.6931979723407047,
+          "dominant_slot": "core_ox__minimum_000",
+          "entropy_effective_population": 2.2912376078737045,
+          "inverse_participation_population": 1.8953279154532727
+        }
+      }
+    },
+    "restricted|UMA|ALPB": {
+      "exchange_kj": -41.79569172183983,
+      "components_kj": {
+        "electronic_kj": 19.77202553744428,
+        "solvation_kj": -59.78292809868129,
+        "thermal_kj": -0.3498904282696458,
+        "configurational_kj": -1.4348987315604849
+      },
+      "families": {
+        "full_red": {
+          "G_kj": -7710904.950909242,
+          "components_kj": {
+            "electronic_kj": -7712001.997802268,
+            "solvation_kj": -184.48763750772923,
+            "thermal_kj": 1281.5345305337305,
+            "configurational_kj": 0.0
+          },
+          "probabilities": [
+            1.0
+          ],
+          "n_retained_minima": 1,
+          "slots": [
+            "full_red__minimum_046"
+          ],
+          "maximum_probability": 1.0,
+          "dominant_slot": "full_red__minimum_046",
+          "entropy_effective_population": 1.0,
+          "inverse_participation_population": 1.0
+        },
+        "full_ox": {
+          "G_kj": -7708965.850700792,
+          "components_kj": {
+            "electronic_kj": -7709897.087767706,
+            "solvation_kj": -328.1427412563935,
+            "thermal_kj": 1259.379808170264,
+            "configurational_kj": 0.0
+          },
+          "probabilities": [
+            1.0
+          ],
+          "n_retained_minima": 1,
+          "slots": [
+            "full_ox__minimum_031"
+          ],
+          "maximum_probability": 1.0,
+          "dominant_slot": "full_ox__minimum_031",
+          "entropy_effective_population": 1.0,
+          "inverse_participation_population": 1.0
+        },
+        "core_red": {
+          "G_kj": -1200819.461077903,
+          "components_kj": {
+            "electronic_kj": -1201120.5307462108,
+            "solvation_kj": -40.567034914311016,
+            "thermal_kj": 342.6374963362172,
+            "configurational_kj": -1.000793114020621
+          },
+          "probabilities": [
+            0.9090175080253268,
+            0.02401361629243159,
+            0.032941334374836914,
+            0.034027541307404735
+          ],
+          "n_retained_minima": 4,
+          "slots": [
+            "core_red__minimum_000",
+            "core_red__minimum_001",
+            "core_red__minimum_002",
+            "core_red__minimum_003"
+          ],
+          "maximum_probability": 0.9090175080253268,
+          "dominant_slot": "core_red__minimum_000",
+          "entropy_effective_population": 1.4973916312183568,
+          "inverse_participation_population": 1.206079864892817
+        },
+        "core_ox": {
+          "G_kj": -1198922.1565611747,
+          "components_kj": {
+            "electronic_kj": -1198995.8486861119,
+            "solvation_kj": -244.00506676165656,
+            "thermal_kj": 320.132883544481,
+            "configurational_kj": -2.435691845581106
+          },
+          "probabilities": [
+            0.5687164957075611,
+            0.2124707858811538,
+            0.21881271841128516
+          ],
+          "n_retained_minima": 3,
+          "slots": [
+            "core_ox__minimum_000",
+            "core_ox__minimum_001",
+            "core_ox__minimum_002"
+          ],
+          "maximum_probability": 0.5687164957075611,
+          "dominant_slot": "core_ox__minimum_000",
+          "entropy_effective_population": 2.6713117018424053,
+          "inverse_participation_population": 2.4011835352117394
+        }
+      }
+    },
+    "restricted|UMA|SMD": {
+      "exchange_kj": -43.52053462760523,
+      "components_kj": {
+        "electronic_kj": 19.502454051282257,
+        "solvation_kj": -60.989116825839645,
+        "thermal_kj": -0.4392026707838568,
+        "configurational_kj": -1.5946691815334493
+      },
+      "families": {
+        "full_red": {
+          "G_kj": -7710895.627772634,
+          "components_kj": {
+            "electronic_kj": -7712001.997802268,
+            "solvation_kj": -175.164500899622,
+            "thermal_kj": 1281.5345305337305,
+            "configurational_kj": 0.0
+          },
+          "probabilities": [
+            1.0
+          ],
+          "n_retained_minima": 1,
+          "slots": [
+            "full_red__minimum_046"
+          ],
+          "maximum_probability": 1.0,
+          "dominant_slot": "full_red__minimum_046",
+          "entropy_effective_population": 1.0,
+          "inverse_participation_population": 1.0
+        },
+        "full_ox": {
+          "G_kj": -7708967.830069005,
+          "components_kj": {
+            "electronic_kj": -7709897.087767706,
+            "solvation_kj": -330.1221094686771,
+            "thermal_kj": 1259.379808170264,
+            "configurational_kj": 0.0
+          },
+          "probabilities": [
+            1.0
+          ],
+          "n_retained_minima": 1,
+          "slots": [
+            "full_ox__minimum_031"
+          ],
+          "maximum_probability": 1.0,
+          "dominant_slot": "full_ox__minimum_031",
+          "entropy_effective_population": 1.0,
+          "inverse_participation_population": 1.0
+        },
+        "core_red": {
+          "G_kj": -1200824.0821856847,
+          "components_kj": {
+            "electronic_kj": -1201120.9599586104,
+            "solvation_kj": -45.188226525460195,
+            "thermal_kj": 342.63001659927687,
+            "configurational_kj": -0.5640171483754702
+          },
+          "probabilities": [
+            0.9561858474979403,
+            0.011591665568818826,
+            0.01584588061711628,
+            0.01637660631612461
+          ],
+          "n_retained_minima": 4,
+          "slots": [
+            "core_red__minimum_000",
+            "core_red__minimum_001",
+            "core_red__minimum_002",
+            "core_red__minimum_003"
+          ],
+          "maximum_probability": 0.9561858474979403,
+          "dominant_slot": "core_red__minimum_000",
+          "entropy_effective_population": 1.2554915746293651,
+          "inverse_participation_population": 1.0929618399713403
+        },
+        "core_ox": {
+          "G_kj": -1198939.805016683,
+          "components_kj": {
+            "electronic_kj": -1198996.5474699975,
+            "solvation_kj": -261.1349519203549,
+            "thermal_kj": 320.0360915650264,
+            "configurational_kj": -2.1586863299089196
+          },
+          "probabilities": [
+            0.6642925608233279,
+            0.166140710901694,
+            0.16956672827497804
+          ],
+          "n_retained_minima": 3,
+          "slots": [
+            "core_ox__minimum_000",
+            "core_ox__minimum_001",
+            "core_ox__minimum_002"
+          ],
+          "maximum_probability": 0.6642925608233279,
+          "dominant_slot": "core_ox__minimum_000",
+          "entropy_effective_population": 2.388879168913972,
+          "inverse_participation_population": 2.0094838897456286
+        }
+      }
+    },
+    "restricted|DFT|ALPB": {
+      "exchange_kj": -41.917353838682175,
+      "components_kj": {
+        "electronic_kj": 19.34763445262797,
+        "solvation_kj": -59.586381916125,
+        "thermal_kj": -0.384595549137714,
+        "configurational_kj": -1.294010825367733
+      },
+      "families": {
+        "full_red": {
+          "G_kj": -7710928.003033196,
+          "components_kj": {
+            "electronic_kj": -7712025.049926221,
+            "solvation_kj": -184.48763750772923,
+            "thermal_kj": 1281.5345305337305,
+            "configurational_kj": 0.0
+          },
+          "probabilities": [
+            1.0
+          ],
+          "n_retained_minima": 1,
+          "slots": [
+            "full_red__minimum_046"
+          ],
+          "maximum_probability": 1.0,
+          "dominant_slot": "full_red__minimum_046",
+          "entropy_effective_population": 1.0,
+          "inverse_participation_population": 1.0
+        },
+        "full_ox": {
+          "G_kj": -7708989.614392582,
+          "components_kj": {
+            "electronic_kj": -7709920.851459497,
+            "solvation_kj": -328.1427412563935,
+            "thermal_kj": 1259.379808170264,
+            "configurational_kj": 0.0
+          },
+          "probabilities": [
+            1.0
+          ],
+          "n_retained_minima": 1,
+          "slots": [
+            "full_ox__minimum_031"
+          ],
+          "maximum_probability": 1.0,
+          "dominant_slot": "full_ox__minimum_031",
+          "entropy_effective_population": 1.0,
+          "inverse_participation_population": 1.0
+        },
+        "core_red": {
+          "G_kj": -1200822.5376477796,
+          "components_kj": {
+            "electronic_kj": -1201123.5449765113,
+            "solvation_kj": -40.57276925991396,
+            "thermal_kj": 342.63895953579436,
+            "configurational_kj": -1.0588615441967253
+          },
+          "probabilities": [
+            0.902112787207352,
+            0.0268733293069112,
+            0.03468665036616733,
+            0.03632723311956955
+          ],
+          "n_retained_minima": 4,
+          "slots": [
+            "core_red__minimum_000",
+            "core_red__minimum_001",
+            "core_red__minimum_002",
+            "core_red__minimum_003"
+          ],
+          "maximum_probability": 0.902112787207352,
+          "dominant_slot": "core_red__minimum_000",
+          "entropy_effective_population": 1.5328822115302692,
+          "inverse_participation_population": 1.223911577750485
+        },
+        "core_ox": {
+          "G_kj": -1198926.066361005,
+          "components_kj": {
+            "electronic_kj": -1198999.998875334,
+            "solvation_kj": -243.81425492470322,
+            "thermal_kj": 320.09964162319005,
+            "configurational_kj": -2.352872369564458
+          },
+          "probabilities": [
+            0.6009436408332057,
+            0.2033217712738971,
+            0.1957345878928971
+          ],
+          "n_retained_minima": 3,
+          "slots": [
+            "core_ox__minimum_000",
+            "core_ox__minimum_001",
+            "core_ox__minimum_002"
+          ],
+          "maximum_probability": 0.6009436408332057,
+          "dominant_slot": "core_ox__minimum_000",
+          "entropy_effective_population": 2.5835382057881744,
+          "inverse_participation_population": 2.2686795821186623
+        }
+      }
+    },
+    "restricted|DFT|SMD": {
+      "exchange_kj": -43.68302454939112,
+      "components_kj": {
+        "electronic_kj": 19.09258243115619,
+        "solvation_kj": -60.85104659030974,
+        "thermal_kj": -0.4696679307161844,
+        "configurational_kj": -1.4548924589954182
+      },
+      "families": {
+        "full_red": {
+          "G_kj": -7710918.6798965875,
+          "components_kj": {
+            "electronic_kj": -7712025.049926221,
+            "solvation_kj": -175.164500899622,
+            "thermal_kj": 1281.5345305337305,
+            "configurational_kj": 0.0
+          },
+          "probabilities": [
+            1.0
+          ],
+          "n_retained_minima": 1,
+          "slots": [
+            "full_red__minimum_046"
+          ],
+          "maximum_probability": 1.0,
+          "dominant_slot": "full_red__minimum_046",
+          "entropy_effective_population": 1.0,
+          "inverse_participation_population": 1.0
+        },
+        "full_ox": {
+          "G_kj": -7708991.593760795,
+          "components_kj": {
+            "electronic_kj": -7709920.851459497,
+            "solvation_kj": -330.1221094686771,
+            "thermal_kj": 1259.379808170264,
+            "configurational_kj": 0.0
+          },
+          "probabilities": [
+            1.0
+          ],
+          "n_retained_minima": 1,
+          "slots": [
+            "full_ox__minimum_031"
+          ],
+          "maximum_probability": 1.0,
+          "dominant_slot": "full_ox__minimum_031",
+          "entropy_effective_population": 1.0,
+          "inverse_participation_population": 1.0
+        },
+        "core_red": {
+          "G_kj": -1200827.1489787502,
+          "components_kj": {
+            "electronic_kj": -1201123.9950391143,
+            "solvation_kj": -45.18434854761717,
+            "thermal_kj": 342.6307528882509,
+            "configurational_kj": -0.6003439766989606
+          },
+          "probabilities": [
+            0.952672798217574,
+            0.013023347010184823,
+            0.016751373327102692,
+            0.017552481445138438
+          ],
+          "n_retained_minima": 4,
+          "slots": [
+            "core_red__minimum_000",
+            "core_red__minimum_001",
+            "core_red__minimum_002",
+            "core_red__minimum_003"
+          ],
+          "maximum_probability": 0.952672798217574,
+          "dominant_slot": "core_red__minimum_000",
+          "entropy_effective_population": 1.2740255391942963,
+          "inverse_participation_population": 1.100904786570821
+        },
+        "core_ox": {
+          "G_kj": -1198943.745867507,
+          "components_kj": {
+            "electronic_kj": -1199000.7039899584,
+            "solvation_kj": -260.993003706982,
+            "thermal_kj": 320.00636259406815,
+            "configurational_kj": -2.0552364356943786
+          },
+          "probabilities": [
+            0.6931979723407047,
+            0.1570076092911586,
+            0.14979441836813673
+          ],
+          "n_retained_minima": 3,
+          "slots": [
+            "core_ox__minimum_000",
+            "core_ox__minimum_001",
+            "core_ox__minimum_002"
+          ],
+          "maximum_probability": 0.6931979723407047,
+          "dominant_slot": "core_ox__minimum_000",
+          "entropy_effective_population": 2.2912376078737045,
+          "inverse_participation_population": 1.8953279154532727
+        }
+      }
+    }
+  },
+  "full_minus_restricted_kj": {
+    "UMA|ALPB": -0.09828089084476233,
+    "UMA|SMD": 6.398225575685501,
+    "DFT|ALPB": -0.29703683592379093,
+    "DFT|SMD": 4.748709075152874
+  },
+  "primary_DFT_SMD_ensemble_contrast_kj": 4.748709075152874,
+  "exceeds_descriptive_sensitivity_threshold": false,
+  "factorial_contrasts": {
+    "full": {
+      "electronic_at_ALPB_kj": -0.320418061921373,
+      "solvent_at_UMA_kj": 4.771663560764864,
+      "electronic_at_SMD_kj": -1.8120064223185182,
+      "solvent_at_DFT_kj": 3.280075200367719,
+      "interaction_kj": -1.4915883603971452
+    },
+    "restricted": {
+      "electronic_at_ALPB_kj": -0.1216621168423444,
+      "solvent_at_UMA_kj": -1.7248429057653993,
+      "electronic_at_SMD_kj": -0.16248992178589106,
+      "solvent_at_DFT_kj": -1.765670710708946,
+      "interaction_kj": -0.04082780494354665
+    }
+  },
+  "independent_decimal_exchange_kj": {
+    "full|UMA|ALPB": "-41.893972612054069781231",
+    "full|UMA|SMD": "-37.122309051072081720321",
+    "full|DFT|ALPB": "-42.214390673540291034411",
+    "full|DFT|SMD": "-38.934315474346513779541",
+    "restricted|UMA|ALPB": "-41.795691721644873076069",
+    "restricted|UMA|SMD": "-43.520534627670154506450",
+    "restricted|DFT|ALPB": "-41.917353837261580913108",
+    "restricted|DFT|SMD": "-43.683024548199606859525"
+  },
+  "new_primary_experimental_references_admitted": 0,
+  "production_reference_policy_adopted": false,
+  "limitations": [
+    "Fixed original gas geometries and RRHO; not a complete aqueous equilibrium ensemble.",
+    "All originally retained minima included; no proof of conformational or electronic ground-state completeness.",
+    "SMD and parent DFT are modeling alternatives, not independent experimental truth.",
+    "This closed atom/charge-balanced exchange has no proton or electron reference offset to fit.",
+    "No pH, Mg-binding, ionic-strength or biochemical accuracy validation is established."
+  ]
+}

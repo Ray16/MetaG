@@ -1,5 +1,23 @@
 # Validation against the evaluated release
 
+The [complete retained cofactor ensemble study](../benchmark/nicotinamide_ensemble_validation/README.md)
+evaluates all 103 original geometries, reusing nine exact parent-DFT/SMD pairs and
+adding 94 new pairs under the same numerical recipe. The complete DFT/SMD exchange
+is -38.93 kJ/mol, versus -43.68 on the restricted set. Its +4.75 kJ/mol ensemble
+contrast remains below the predeclared 5 kJ/mol descriptive threshold, which is
+neither an accuracy gate nor a statistical test. The solvent intervention changes
+sign after all retained conformers are included, while a substantial full/core
+reference difference persists in every arm. Independent decimal reconstruction
+checks partitions and components; omission and inconsistent-energy tests refuse
+incomplete evidence. These fixed gas-geometry/RRHO controls add no independent
+experimental labels and do not establish a production reference policy.
+
+The [additional equilibrium-source reviews](../benchmark/independent_reference_review/README.md)
+exclude the ADP-glucose measurements because they already occur in dGbyG's released
+training table and MetaG development inputs. The fumarase reversible-kinetic ratio
+is authenticated, but numerical assay temperature and the target-condition bridge
+remain unresolved. Independently admitted primary reference labels remain zero.
+
 The [fixed-pose solvation rotation control](../benchmark/solvation_rotation_validation/README.md)
 retains 426 successful pairs and six gas-SCC refusals across all 432 requested
 pairs. Dense SASA quadrature reduces orientation dependence in the complete

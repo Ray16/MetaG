@@ -1,0 +1,10 @@
+{
+  "files": {
+    "calculation_records.zip": "f4f89f6a13aa740428442923efa92195dbdbb766fb45165796a1238d1174db2b",
+    "ensemble_results.json": "06d665ba049405c007e7a6e21bbe99084c07cb5a642905864737a7b1607ea303",
+    "nicotinamide_ensemble.py": "da0a0bc84f1cd321dd3b8d1f777b16ca67f681341e9f0ba37c80537da259752c",
+    "nicotinamide_ensemble_numbers.tex": "d2dbfc8a6fc6cd2b4fa3f8bbf602cc226d7a15f3b132952355510bf0c890d206",
+    "README.md": "cadcc0b42195f72b25c00418bde330bbacfa46f15204a5e192d9a073ea85bd62"
+  },
+  "scope": "Complete fixed-geometry component/ensemble sensitivity; no experimental accuracy or production adoption."
+}
