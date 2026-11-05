@@ -36,6 +36,25 @@ unchanged companion hashes and the snapshot's limited scope. The source archive
 and manuscript archive contain no Git internals. Extract all four code/study
 archives into the same parent to retain the historical study layout.
 
+The extracted replay can be run with the supplied Linux verifier:
+
+```sh
+python tools/verify_publication_snapshot.py \
+  --snapshot /path/to/new/review \
+  --destination /path/to/new/extraction \
+  --logs /path/to/new/check-logs \
+  --forbid-root /path/to/original/project
+```
+
+The verifier authenticates the input archive hashes, extracts regular files,
+runs every manuscript checker in a fresh Python process and verifies source
+hashes again afterwards. An inherited Python read guard blocks reads under the
+original project roots and network connections. Guard receipts are required for
+each direct checker; even a caught fallback attempt fails the portable result.
+The supplied tests exercise that failure case as well as path-escape rejection.
+Native system calls are not an operating-system sandbox. Use the declared CPU
+audit environment; the verifier does not install dependencies or run quantum jobs.
+
 Compiled PDFs and build/check receipts require a separate verification against
 the selected manuscript commit. Run the manuscript checks from the extracted
 snapshot with `METAG_EVIDENCE_PORTABLE_ONLY=1`; access to original project files
