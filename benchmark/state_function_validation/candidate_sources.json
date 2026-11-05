@@ -233,5 +233,8 @@
     "analysis/metag_sabio_metadata_screen_20261029_01/structure_quality.json": "43a557922cb64c0b7345f04f071745804dfd97984d679090a864ac08be056b67",
     "analysis/metag_sabio_metadata_screen_20261029_01/comment_flags.json": "c23a05fe97d4e9589b83654cef5ac72678686a277ece5261c4840bcb71b74ded"
   },
-  "independence_requirement": "Primary-source provenance, measured equilibrium meaning, complete state identity/conditions and source/measurement/training/development overlap must all be adjudicated. Token nonmatches are not verified independence."
+  "independence_requirement": "Primary-source provenance, measured equilibrium meaning, complete state identity/conditions and source/measurement/training/development overlap must all be adjudicated. Token nonmatches are not verified independence.",
+  "additional_source_review_files": [
+    "benchmark/independent_reference_review/source_followups_20261105.json"
+  ]
 }

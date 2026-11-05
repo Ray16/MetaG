@@ -1,0 +1,619 @@
+{
+  "schema": "metag-reference-source-followups-v1",
+  "created_utc": "2026-11-05T23:35:52.045292+00:00",
+  "scope": "Primary-source curation and bounded structural/feature diagnostics. No new scientific prediction, admitted reference or validation success.",
+  "primary_design": "benchmark/state_function_validation/design.json unchanged",
+  "design_sha256": "ad4570c67b41bbdb25ec53f0acdb76355398c12783c3e25cd19aff1443915066",
+  "sources": [
+    {
+      "schema": "metag-aconitate-reference-source-review-v1",
+      "utc": "2026-11-05T23:26:40.377027+00:00",
+      "source": {
+        "author": "Stephen Norman Walford",
+        "title": "A study of the isomerisation of aconitic acid with reference to sugarcane processing",
+        "year": 2000,
+        "repository_url": "https://researchspace.ukzn.ac.za/items/0d96c6f0-9953-4039-a43e-699afa487648",
+        "PDF_url": "https://researchspace.ukzn.ac.za/bitstreams/3e8dad8b-266e-4195-9df6-cc6bf4c43ed0/download",
+        "PDF_sha256": "62619377b886e9cf86114e3b8b3ca3a1043e800327a4a38eadaac5054e217f22",
+        "PDF_bytes": 6676556,
+        "PDF_pages": 141,
+        "access": "Complete primary thesis locally owned. Tables3.5and3.12visually checked; other cited locators text-inspected. This is not a claim that every page has been read."
+      },
+      "selection": "Follow-up to the prior version-specific stereo audit. Review the complete relevant source tables, not reactions selected by model error. Source values were visible during curation; no model predictions or residuals consulted.",
+      "reaction": "trans-aconitic acid = cis-aconitic acid",
+      "equilibrium_definition": "K = [cis]/[trans], derived from a reversible first-order concentration-time fit; fitted equilibrium constants are not automatically invalid because they use kinetic data.",
+      "locators": {
+        "buffer_preparation": "Section2.4.1, printedp24/PDFp39",
+        "pH_reporting": "Section3.4.2.2, printedp48/PDFp63",
+        "precision": "Section3.6/Table3.5, printedp56/PDFp71",
+        "native_tables": "Tables3.6-3.10, printedpp58-60/PDFpp73-75",
+        "ionic_strength_table": "Table3.11, printedp61/PDFp76",
+        "zero_buffer_extrapolation": "Table3.12, printedp62/PDFp77",
+        "pooled_summary": "Section3.10.2/Table3.19, printedpp74-75/PDFpp89-90"
+      },
+      "native_conditions": {
+        "temperatures_C": [
+          70,
+          80,
+          90,
+          97,
+          110
+        ],
+        "pH_buffer_preparation_room_temperature": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "pH_at_reaction_temperature": "Different from preparation pH; the source discusses monitoring and a calculated temperature correction. Row-specific fixed-pH7 transfer is not established here.",
+        "buffer_concentrations_mM": [
+          10,
+          20,
+          25,
+          50,
+          75,
+          150
+        ],
+        "buffer_families": [
+          "phthalate",
+          "acetate",
+          "phosphate"
+        ],
+        "I0_extrapolation": "The source fits log kinetic rate versus sqrt(buffer ionic strength) and reports intercepts at zero ionic strength. These are derived values, not direct zero-salt observations. Table3.11 ionic strengths are retained as source values, not independently endorsed.",
+        "solute_activity_standardization": "An activity-based, condition-matched298.15K,pH7 reference and uncertainty have not been constructed."
+      },
+      "table3_5": {
+        "T_C": 90,
+        "nominal_pH": 5,
+        "acetate_buffer_mM": 50,
+        "replicates": [
+          {
+            "forward_rate": 3.17,
+            "reverse_rate": 7.43,
+            "K": 0.43
+          },
+          {
+            "forward_rate": 3.51,
+            "reverse_rate": 7.74,
+            "K": 0.45
+          },
+          {
+            "forward_rate": 3.33,
+            "reverse_rate": 7.65,
+            "K": 0.44
+          }
+        ],
+        "mean_K": 0.44,
+        "reported_error": 0.01,
+        "error_description": "Source footnote calls this standard error at95%confidence level. Preserve this wording; do not assume SD,1sigma or a particular confidence-interval construction."
+      },
+      "table3_12": [
+        {
+          "pH_as_reported_at_room_temperature": 4,
+          "T_C": 97,
+          "forward_rate_in_1e_minus5_per_second": 3.69,
+          "forward_reported_error": 0.4,
+          "reverse_rate_in_1e_minus5_per_second": 4.68,
+          "reverse_reported_error": 0.5,
+          "K_reported": 0.79,
+          "rounding_compatible_with_rate_ratio": true
+        },
+        {
+          "pH_as_reported_at_room_temperature": 5,
+          "T_C": 70,
+          "forward_rate_in_1e_minus5_per_second": 0.14,
+          "forward_reported_error": 0.03,
+          "reverse_rate_in_1e_minus5_per_second": 0.29,
+          "reverse_reported_error": 0.07,
+          "K_reported": 0.47,
+          "rounding_compatible_with_rate_ratio": true
+        },
+        {
+          "pH_as_reported_at_room_temperature": 5,
+          "T_C": 80,
+          "forward_rate_in_1e_minus5_per_second": 0.45,
+          "forward_reported_error": 0.13,
+          "reverse_rate_in_1e_minus5_per_second": 1.06,
+          "reverse_reported_error": 0.28,
+          "K_reported": 0.43,
+          "rounding_compatible_with_rate_ratio": true
+        },
+        {
+          "pH_as_reported_at_room_temperature": 5,
+          "T_C": 90,
+          "forward_rate_in_1e_minus5_per_second": 0.99,
+          "forward_reported_error": 0.14,
+          "reverse_rate_in_1e_minus5_per_second": 2.03,
+          "reverse_reported_error": 0.28,
+          "K_reported": 0.49,
+          "rounding_compatible_with_rate_ratio": true
+        },
+        {
+          "pH_as_reported_at_room_temperature": 5,
+          "T_C": 97,
+          "forward_rate_in_1e_minus5_per_second": 0.83,
+          "forward_reported_error": 0.13,
+          "reverse_rate_in_1e_minus5_per_second": 1.95,
+          "reverse_reported_error": 0.33,
+          "K_reported": 0.43,
+          "rounding_compatible_with_rate_ratio": true
+        },
+        {
+          "pH_as_reported_at_room_temperature": 5,
+          "T_C": 110,
+          "forward_rate_in_1e_minus5_per_second": 0.98,
+          "forward_reported_error": 0.24,
+          "reverse_rate_in_1e_minus5_per_second": 1.77,
+          "reverse_reported_error": 0.46,
+          "K_reported": 0.55,
+          "rounding_compatible_with_rate_ratio": true
+        },
+        {
+          "pH_as_reported_at_room_temperature": 6,
+          "T_C": 70,
+          "forward_rate_in_1e_minus5_per_second": 0.08,
+          "forward_reported_error": 0.02,
+          "reverse_rate_in_1e_minus5_per_second": 0.23,
+          "reverse_reported_error": 0.05,
+          "K_reported": 0.34,
+          "rounding_compatible_with_rate_ratio": true
+        },
+        {
+          "pH_as_reported_at_room_temperature": 6,
+          "T_C": 80,
+          "forward_rate_in_1e_minus5_per_second": 0.09,
+          "forward_reported_error": 0.02,
+          "reverse_rate_in_1e_minus5_per_second": 0.28,
+          "reverse_reported_error": 0.07,
+          "K_reported": 0.31,
+          "rounding_compatible_with_rate_ratio": true
+        },
+        {
+          "pH_as_reported_at_room_temperature": 6,
+          "T_C": 90,
+          "forward_rate_in_1e_minus5_per_second": 0.17,
+          "forward_reported_error": 0.03,
+          "reverse_rate_in_1e_minus5_per_second": 0.46,
+          "reverse_reported_error": 0.19,
+          "K_reported": 0.37,
+          "rounding_compatible_with_rate_ratio": true
+        },
+        {
+          "pH_as_reported_at_room_temperature": 6,
+          "T_C": 97,
+          "forward_rate_in_1e_minus5_per_second": 0.41,
+          "forward_reported_error": 0.11,
+          "reverse_rate_in_1e_minus5_per_second": 0.91,
+          "reverse_reported_error": 0.24,
+          "K_reported": 0.45,
+          "rounding_compatible_with_rate_ratio": true
+        },
+        {
+          "pH_as_reported_at_room_temperature": 6,
+          "T_C": 110,
+          "forward_rate_in_1e_minus5_per_second": 1.16,
+          "forward_reported_error": 0.42,
+          "reverse_rate_in_1e_minus5_per_second": 3.03,
+          "reverse_reported_error": 1.2,
+          "K_reported": 0.38,
+          "rounding_compatible_with_rate_ratio": true
+        },
+        {
+          "pH_as_reported_at_room_temperature": 7,
+          "T_C": 70,
+          "forward_rate_in_1e_minus5_per_second": 0.01,
+          "forward_reported_error": 0.0,
+          "reverse_rate_in_1e_minus5_per_second": 0.06,
+          "reverse_reported_error": 0.02,
+          "K_reported": 0.13,
+          "rounding_compatible_with_rate_ratio": true
+        },
+        {
+          "pH_as_reported_at_room_temperature": 7,
+          "T_C": 80,
+          "forward_rate_in_1e_minus5_per_second": 0.03,
+          "forward_reported_error": 0.01,
+          "reverse_rate_in_1e_minus5_per_second": 0.18,
+          "reverse_reported_error": 0.05,
+          "K_reported": 0.14,
+          "rounding_compatible_with_rate_ratio": true
+        },
+        {
+          "pH_as_reported_at_room_temperature": 7,
+          "T_C": 90,
+          "forward_rate_in_1e_minus5_per_second": 0.04,
+          "forward_reported_error": 0.01,
+          "reverse_rate_in_1e_minus5_per_second": 0.23,
+          "reverse_reported_error": 0.07,
+          "K_reported": 0.15,
+          "rounding_compatible_with_rate_ratio": true
+        },
+        {
+          "pH_as_reported_at_room_temperature": 7,
+          "T_C": 97,
+          "forward_rate_in_1e_minus5_per_second": 0.11,
+          "forward_reported_error": 0.04,
+          "reverse_rate_in_1e_minus5_per_second": 0.58,
+          "reverse_reported_error": 0.21,
+          "K_reported": 0.19,
+          "rounding_compatible_with_rate_ratio": true
+        },
+        {
+          "pH_as_reported_at_room_temperature": 7,
+          "T_C": 110,
+          "forward_rate_in_1e_minus5_per_second": 0.1,
+          "forward_reported_error": 0.05,
+          "reverse_rate_in_1e_minus5_per_second": 0.62,
+          "reverse_reported_error": 0.27,
+          "K_reported": 0.16,
+          "rounding_compatible_with_rate_ratio": true
+        },
+        {
+          "pH_as_reported_at_room_temperature": 8,
+          "T_C": 97,
+          "forward_rate_in_1e_minus5_per_second": 0.05,
+          "forward_reported_error": 0.01,
+          "reverse_rate_in_1e_minus5_per_second": 0.42,
+          "reverse_reported_error": 0.04,
+          "K_reported": 0.13,
+          "rounding_compatible_with_rate_ratio": true
+        }
+      ],
+      "table3_19": {
+        "pH": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "average_K": [
+          0.64,
+          0.43,
+          0.27,
+          0.15,
+          0.13
+        ],
+        "scope": "Averages across the preceding native-temperature/buffer experiments. Not five298.15K measurements and not five independent chemical equations."
+      },
+      "training": {
+        "snapshot_sha256": "c91636a509a6be3eb98651043436caa8dc9fe4df1885ecc206fc292652bffc39",
+        "witnesses": [
+          {
+            "zero_based_row": 219,
+            "description": "cis-Aconitate",
+            "reaction": "O=C(O)/C=C(/CC(=O)O)C(=O)O",
+            "type": "formation dg"
+          }
+        ],
+        "unfamiliar_primary_status": "The exact protonation-normalized geometric drawing is absent from both concrete training snapshots and has nearest chirality-aware Morgan similarity0.44. In contrast, both geometric drawings share the stereo-erased conservative broad family already witnessed by cis-aconitate. These are different operational screens; neither certifies experimental state/label independence, actual scored-feature novelty or primary enrollment.",
+        "exact_trans_isomer_and_measurement_ancestry": "Not certified by this positive family witness; requires separate source/equation audit.",
+        "structural_screen_sha256": "50a7b16b2f92e862698525f07e5281eb983f5d07c00d96520eb5d4c2b3d165e4"
+      },
+      "decision": "Hold as a possible independent native-condition stereochemical control. Do not enroll in the fixed primary cohort without condition/state/uncertainty/ancestry and novelty adjudication, relabel high-temperature values as298.15K or count source-derived intercepts and repeated conditions as independent experiments.",
+      "remaining_requirements": [
+        "Resolved native pH(T), ionic/speciation/activity conventions and standard-state bridge",
+        "Thermochemical transfer with covariance/uncertainty to the fixed target if used there",
+        "Exact experimental state identities, source ancestry and historical outcome-exposure audit"
+      ],
+      "independent_primary_references_admitted": 0,
+      "experimental_prediction_errors_examined": false,
+      "model_predictions_performed": false,
+      "primary_design_changed": false,
+      "representation_screen": {
+        "scope": "The two geometric drawing hypotheses, not authenticated experimental species. Chemical fingerprint distance and scored feature novelty are different quantities.",
+        "feature_source_sha256": "8d787913499cd6a0e108e3d21b516da02242655219b1c3d3141e34a9131029b8",
+        "input_structural_screen_sha256": "50a7b16b2f92e862698525f07e5281eb983f5d07c00d96520eb5d4c2b3d165e4",
+        "rdkit": "2026.03.5",
+        "torch": "2.8.0+cu128",
+        "PyG": "2.8.0.post1",
+        "atom_features": 139,
+        "bond_features": 23,
+        "default_graph_arrays_identical": true,
+        "array_sha256": "1769d98228e8e5bdabb9667f29be16056e44d2689797ad07e2e60a1946c7983f",
+        "nearest_concrete_training_Morgan_similarity": 0.44,
+        "weights_loaded": 0,
+        "neural_forward_calls": 0,
+        "CUDA_initialized": false,
+        "experimental_reference_admitted": false,
+        "independent_accuracy_advantage_demonstrated": false
+      },
+      "structural_drawing_screen": {
+        "scope": "Drawing-based screen only, not authentication of experimental species or source independence. The first drawing comes from the audited training cis-aconitate formation row; the second reverses only its double-bond geometry.",
+        "source_sha256": "26b09c7868a763756da31518e1b992337f53033bfd6413c1cce4828247510feb",
+        "rdkit": "2026.03.5",
+        "candidate": {
+          "id": "aconitate_geometric_drawing_hypotheses",
+          "species": [
+            {
+              "name": "training cis-aconitate drawing",
+              "coefficient": -1,
+              "smiles": "O=C(O)/C=C(/CC(=O)O)C(=O)O"
+            },
+            {
+              "name": "opposite-double-bond geometry hypothesis",
+              "coefficient": 1,
+              "smiles": "O=C(O)/C=C(\\CC(=O)O)C(=O)O"
+            }
+          ]
+        },
+        "training": {
+          "training671_structural.csv": {
+            "sha256": "c91636a509a6be3eb98651043436caa8dc9fe4df1885ecc206fc292652bffc39",
+            "n_rows": 671,
+            "result": {
+              "candidate": "aconitate_geometric_drawing_hypotheses",
+              "chemically_balanced": true,
+              "concrete_training_equation_present": false,
+              "molecules": [
+                {
+                  "name": "training cis-aconitate drawing",
+                  "supplied_smiles": "O=C(O)/C=C(/CC(=O)O)C(=O)O",
+                  "family_key": "O=C(O)/C=C(/CC(=O)O)C(=O)O",
+                  "concrete_family_present": true,
+                  "matching_training_rows": [
+                    219,
+                    580,
+                    614
+                  ],
+                  "nearest_concrete_family": "O=C(O)/C=C(/CC(=O)O)C(=O)O",
+                  "nearest_chiral_morgan_similarity": 1.0,
+                  "compatible_abstract_training_scaffolds": []
+                },
+                {
+                  "name": "opposite-double-bond geometry hypothesis",
+                  "supplied_smiles": "O=C(O)/C=C(\\CC(=O)O)C(=O)O",
+                  "family_key": "O=C(O)/C=C(\\CC(=O)O)C(=O)O",
+                  "concrete_family_present": false,
+                  "matching_training_rows": [],
+                  "nearest_concrete_family": "O=C(O)/C=C(/CC(=O)O)C(=O)O",
+                  "nearest_chiral_morgan_similarity": 0.44,
+                  "compatible_abstract_training_scaffolds": []
+                }
+              ],
+              "n_absent_concrete_families": 1,
+              "n_distant_absent_families": 1,
+              "meets_structural_screen_on_concrete_subset": true,
+              "training_rows_with_unresolved_terms": [
+                227,
+                339,
+                358,
+                371,
+                552,
+                554,
+                621,
+                625,
+                652
+              ],
+              "primary_benchmark_novelty_certified": false,
+              "qualification": "Concrete-subset chemistry screen only. Abstract labels, source ancestry, state-pool identity, actual scored structures and exact comparator/checkpoint ownership require separate adjudication."
+            }
+          },
+          "training675_structural.csv": {
+            "sha256": "f6509f3164f5cdc544603b3622c10bd7095a10acabcd74dc25514c48f666a6ad",
+            "n_rows": 675,
+            "result": {
+              "candidate": "aconitate_geometric_drawing_hypotheses",
+              "chemically_balanced": true,
+              "concrete_training_equation_present": false,
+              "molecules": [
+                {
+                  "name": "training cis-aconitate drawing",
+                  "supplied_smiles": "O=C(O)/C=C(/CC(=O)O)C(=O)O",
+                  "family_key": "O=C(O)/C=C(/CC(=O)O)C(=O)O",
+                  "concrete_family_present": true,
+                  "matching_training_rows": [
+                    219,
+                    583,
+                    619
+                  ],
+                  "nearest_concrete_family": "O=C(O)/C=C(/CC(=O)O)C(=O)O",
+                  "nearest_chiral_morgan_similarity": 1.0,
+                  "compatible_abstract_training_scaffolds": []
+                },
+                {
+                  "name": "opposite-double-bond geometry hypothesis",
+                  "supplied_smiles": "O=C(O)/C=C(\\CC(=O)O)C(=O)O",
+                  "family_key": "O=C(O)/C=C(\\CC(=O)O)C(=O)O",
+                  "concrete_family_present": false,
+                  "matching_training_rows": [],
+                  "nearest_concrete_family": "O=C(O)/C=C(/CC(=O)O)C(=O)O",
+                  "nearest_chiral_morgan_similarity": 0.44,
+                  "compatible_abstract_training_scaffolds": []
+                }
+              ],
+              "n_absent_concrete_families": 1,
+              "n_distant_absent_families": 1,
+              "meets_structural_screen_on_concrete_subset": true,
+              "training_rows_with_unresolved_terms": [
+                228,
+                341,
+                360,
+                373,
+                556,
+                629,
+                656
+              ],
+              "primary_benchmark_novelty_certified": false,
+              "qualification": "Concrete-subset chemistry screen only. Abstract labels, source ancestry, state-pool identity, actual scored structures and exact comparator/checkpoint ownership require separate adjudication."
+            }
+          }
+        },
+        "experimental_references_admitted": 0,
+        "model_predictions": false,
+        "conservative_family_keys": [
+          {
+            "exact": "O=C(O)/C=C(/CC(=O)O)C(=O)O",
+            "pool": "O=C(O)/C=C(/CC(=O)O)C(=O)O",
+            "broad": "O=C(O)C=C(CC(=O)O)C(=O)O",
+            "reservoir": false,
+            "issues": []
+          },
+          {
+            "exact": "O=C(O)/C=C(\\CC(=O)O)C(=O)O",
+            "pool": "O=C(O)/C=C(\\CC(=O)O)C(=O)O",
+            "broad": "O=C(O)C=C(CC(=O)O)C(=O)O",
+            "reservoir": false,
+            "issues": []
+          }
+        ],
+        "same_stereo_erased_broad_family": true
+      }
+    },
+    {
+      "schema": "metag-nucleoside-thesis-followup-review-v1",
+      "utc": "2026-11-05T23:32:45.646815+00:00",
+      "scope": "Reference-source ownership and measurement-ancestry review; no experimental target enrollment or model inference.",
+      "source": {
+        "author": "Sarah Westarp",
+        "title": "Application of thermodynamic principles in biocatalytic synthesis of novel nucleoside analogues",
+        "year": 2025,
+        "doi": "10.14279/depositonce-23127",
+        "repository_url": "https://depositonce.tu-berlin.de/items/0315def7-82a2-4845-a88b-bf4487de733a",
+        "PDF_url": "https://depositonce.tu-berlin.de/bitstreams/c95a53d1-4ee0-42f4-9ad7-78d55c0e92bf/download",
+        "PDF_sha256": "4f68aab71b469d5684b03cc0aea752376a6a9b23f05813dacc20969e689fff32",
+        "PDF_bytes": 9039217,
+        "PDF_pages": 148,
+        "access": "Complete primary thesis locally owned. The listed source passages were text-inspected, and PDFpages49,95and119were visually checked; this is not a claim of reading every page."
+      },
+      "exposure": "Source outcomes were visible during curation. No new MetaG/dGbyG predictions, residuals or disagreement values were consulted to choose these sources.",
+      "measurement_ancestry": "This is a cumulative thesis. Its reprints of PapersI,IIandIV are the same experiments as the corresponding articles; neither thesis chapters nor repeated temperatures count as additional independent source clusters.",
+      "papers": [
+        {
+          "id": "I",
+          "doi": "10.1038/s41467-024-47287-4",
+          "title": "Nucleoside Phosphorylases make N7-xanthosine",
+          "owned_locator": "Reprinted article Methods p5, thesisPDFp95",
+          "facts": {
+            "equilibrium_determination_T": "room temperature, ca21C",
+            "equilibrium_determination_pH": 10,
+            "buffer": "50mM glycine plus50mM proline",
+            "method": "Glycosylation monitored byUV, with conversions used to determine the phosphorolysis equilibrium.",
+            "ionic_strength_M": null,
+            "free_Mg_M": null
+          },
+          "decision": "Confirms the previously held source conditions. Do not assign the50C HPLC reaction used for structural detection or its25C analytical column temperature to this equilibrium determination. No new independent measurement is supplied by the thesis."
+        },
+        {
+          "id": "II",
+          "doi": "10.3390/molecules25040934",
+          "title": "Efficient Biocatalytic Synthesis of Dihalogenated Purine Nucleoside Analogues Applying Thermodynamic Calculations",
+          "owned_locators": [
+            "Reprinted articleTable1/p3, thesisPDFp103",
+            "Reprinted articleMethods4.2/p7, thesisPDFp107",
+            "ThesisTable4-4, printedp33/PDFp49"
+          ],
+          "facts": {
+            "equilibrium_estimation_T_C": 40,
+            "equilibrium_estimation_pH": 7.5,
+            "equilibrium_estimation_potassium_phosphate_mM": 2,
+            "equilibrium_estimation_ionic_strength_M": null,
+            "method": "HPLC transglycosylation endpoints fitted using previously reported donor phosphorolysis constants.",
+            "borrowed_donor_constants_at_40C": {
+              "uridine": 0.18,
+              "thymidine": 0.125
+            },
+            "reported_product_K2_range": [
+              0.071,
+              0.081
+            ],
+            "preparative_KP_buffer_mM": 0.5,
+            "preparative_buffer_is_equilibrium_estimation_buffer": false,
+            "post_quench_methanol_is_reaction_cosolvent": false,
+            "raw_data_record": "https://zenodo.org/records/3668710",
+            "raw_data_access": "Author repository states raw and analyzed data are not publicly available and requests contacting DrAnkeKurreck. Repository metadata does not authenticate the raw measurements."
+          },
+          "ancestry": "Derived product constants share an external donor calibration from10.1002/adsc.201901230; the measurements and calibration covariance/condition differences require explicit review.",
+          "decision": "Hold. The native measurements are at313.15K,pH7.5; the0.5mM preparative buffer is different from the2mM equilibrium-estimation recipe. Temperature/activity/speciation transfer, uncertainty, exact states and source/training/development ancestry remain unresolved."
+        },
+        {
+          "id": "III",
+          "doi": null,
+          "publication_status_as_described_in_thesis": "Manuscript in preparation; the thesis is the owned public source, not proof of a separately published article.",
+          "owned_locators": [
+            "ThesisSection4.1.2.2/printedpp33-36/PDFpp49-52",
+            "Reprinted manuscriptbody/Figure3, printedp103/PDFp119"
+          ],
+          "facts": {
+            "reported_ribavirin_K2": 0.038,
+            "preparative_conditions": "Several50-60C reactions, atpH9 and sometimes5%DMSO, are described. These are not automatically the recipe used to determine eachK.",
+            "N1_N2_regioisomer_ratio": "1:1.5 reported from isolated yields with supporting time-course/pH claims; no matchingSI/raw quantitation was authenticated here."
+          },
+          "decision": "Hold. Do not calculate an isomerization free energy from isolated product yields, substitute preparative conditions for equilibrium assays, or infer that missingSI conditions are known. Only the thermodynamic source construction is in scope here."
+        },
+        {
+          "id": "IV",
+          "doi": "10.1002/anie.202405040",
+          "title": "Biocatalytic Nucleobase Diversification of4prime-Thionucleosides and Application of Derived5-Ethynyl-4prime-thiouridine for RNA Synthesis Detection",
+          "owned_locators": [
+            "ThesisSection4.1.2.3/printedp38/PDFp54",
+            "Reprinted primary article, thesisPDFpp130-132"
+          ],
+          "facts": {
+            "reported_4thio_uridine_phosphorolysis_K": 0.0013,
+            "related_transglycosylation_conditions": "50C,50mM HEPESpH7 for dihalogenated purines or50mM glycine-OHpH9 for halogenated pyrimidines.",
+            "those_conditions_authenticate_K_determination_recipe": false,
+            "SI_retrieval": "Publisher SI endpoint returned403; its detailed equilibrium protocol/raw data are not owned in this review."
+          },
+          "decision": "Hold. Do not assign the Figure3 derivative-synthesis recipe to the0.0013 phosphorolysis constant without its ownSI protocol. Sugar substitutions or halogens alone do not certify novelty or independent reference eligibility."
+        }
+      ],
+      "novelty": "Neither exact source structures nor novelty and training/development absence are authenticated for the new compound set. Exact UMA training overlap remains unknown.",
+      "decision": "Thesis resolves ownership and several assay/ancestry distinctions, but supplies no admitted condition-matched primary label. Preserve all existing source-condition holds. Do not count this cumulative thesis as independent replication of its included papers.",
+      "independent_primary_references_admitted": 0,
+      "model_predictions_performed": false,
+      "experimental_prediction_errors_examined": false,
+      "primary_design_changed": false,
+      "raw_data_access_review_sha256": "9122d34ea085a05403e00e4b8d78b805537e3a769b168b096fa7fea326287d0b",
+      "raw_data_repository": {
+        "utc": "2026-11-05T23:32:45.828939+00:00",
+        "url": "https://zenodo.org/api/records/3668710",
+        "status": 200,
+        "sha256": "88a0142ae2e0911ace4484ffd54a1414f927cd3d3b55420358c514be2863726d",
+        "files": [
+          {
+            "name": "Supplementary data_Yehia et al..docx",
+            "bytes": 11918,
+            "checksum": "md5:74ba62572faedd0048632e53940d9f86"
+          }
+        ],
+        "availability_statement": "Repository authors state that the raw and analyzed data are not public and direct readers to DrAnkeKurreck for access. The listed11.9kB document is not authenticated raw equilibrium data."
+      }
+    }
+  ],
+  "other_leads": [
+    {
+      "doi": "10.1016/j.jct.2006.10.010",
+      "scope": "New publicFULL-view access attempt only; prior hydantoin review is not repeated or replaced.",
+      "retrieval": {
+        "name": "hydantoin_FULL.xml",
+        "url": "https://api.elsevier.com/content/article/pii/S0021961406002382?view=FULL&httpAccept=text%2Fxml",
+        "error": "<HTTPError 401: 'Unauthorized'>"
+      },
+      "decision": "The publicFULL-view API returned401. Existing speciation, uncertainty, state-identity and ancestry holds remain. Abstract/compilation access is not ownership of the original methods."
+    },
+    {
+      "doi": "10.1038/s44160-024-00671-w",
+      "publisher_url": "https://www.nature.com/articles/s44160-024-00671-w",
+      "access": "Indexed publisher full-text passages; no local article/SI byte ownership in this review.",
+      "specific_result_reviewed": "The stated model-reaction equilibrium constant5.4e2 is attributed to eQuilibrator. The experimental time-course discussion reports departure from the expected thermodynamic equilibrium.",
+      "decision": "Do not admit that model-derived constant or finite-time conversions as a newly measured thermodynamic reference. This is not an exclusion of every measurement anywhere in the paper."
+    }
+  ],
+  "owned_source_file_policy": "Complete theses retained locally underanalysis with retrieval identities; public records contain facts/locators and hashes, not redistributed thesis PDFs.",
+  "local_record_sha256": {
+    "analysis/aconitate_reference_review_20261105_01/source_review.json": "8b00a3c4857745cbf964e9547a442291476d455b69c005a8be6001da43145751",
+    "analysis/aconitate_reference_review_20261105_01/structural_screen.json": "50a7b16b2f92e862698525f07e5281eb983f5d07c00d96520eb5d4c2b3d165e4",
+    "analysis/aconitate_reference_review_20261105_01/feature_projection.json": "13603f494605502ba173e9791e54a5f575882b40b18e71e142e51715e247093f",
+    "analysis/aconitate_reference_review_20261105_01/retrieval_receipt.json": "d70fe63805ae2521094a48abcba870e25712b241bd0e362a80c7a3947f57fead",
+    "analysis/nucleoside_thesis_review_20261105_01/source_review.json": "48bd2f31a00f11c2ab184b94bc3da72abf28aa7bef71f1f1bb183166e4a5cce5",
+    "analysis/nucleoside_thesis_review_20261105_01/retrieval_receipt.json": "7e961fa81836df7baac24a3fa07f4a8dfdc8bfa00c27c5ce975522b8dd4d8780",
+    "analysis/nucleoside_thesis_review_20261105_01/raw_data_access_review.json": "9122d34ea085a05403e00e4b8d78b805537e3a769b168b096fa7fea326287d0b"
+  },
+  "independent_primary_references_admitted": 0,
+  "model_predictions_performed": false,
+  "experimental_prediction_errors_examined": false,
+  "eligibility_and_success_gates_changed": false,
+  "production_policy_changed": false
+}

@@ -30,6 +30,25 @@ training snapshot; it does not independently authenticate the linked articles.
 Neither review establishes an unfamiliar-chemistry advantage or changes the
 number of independently admitted primary references from zero.
 
+[The later source follow-ups](source_followups_20261105.json) retain the newly
+owned Walford (2000) aconitate and Westarp (2025) nucleoside theses, their exact
+source identities and the reviewed assay conditions. Aconitate ratios derived
+at 70–110 C are not 298.15 K labels. Its opposite geometric drawing is absent
+from the concrete training tables and has Morgan similarity 0.44, but shares the
+conservative stereo-erased family and identical default comparator features
+with the training cis drawing. Chemical distance and scored feature novelty
+must therefore be reported separately.
+
+The cumulative nucleoside thesis repeats several published experiments and
+does not supply independent replications of them. It distinguishes the 2 mM
+phosphate equilibrium-estimation recipe from a 0.5 mM preparative recipe;
+post-quench methanol is not a reaction cosolvent. Some product constants use
+borrowed donor calibrations. The linked raw-data repository explicitly requires
+author access, and condition transfer, covariance and ancestry remain unresolved.
+The source records also retain an unsuccessful hydantoin full-text access attempt
+and flag a new aldolase lead's eQuilibrator-derived constant as a model result.
+No source hold, benchmark gate or reference-admission count changes.
+
 `additional_sources.json` records the six remaining original candidates and two
 new leads, with explicit distinctions between owned primary evidence, indexed
 publisher methods, and abstract/metadata-only inspection. These access levels
