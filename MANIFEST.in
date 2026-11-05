@@ -1,5 +1,6 @@
 include LICENSE README.md CHANGELOG.md CITATION.cff
 include CONTRIBUTING.md
+graft tools
 graft tests
 graft docs
 graft examples
