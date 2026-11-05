@@ -1,0 +1,20 @@
+{
+  "schema": "metag-completed-operational-water-reference-v1",
+  "utc": "2026-11-05T20:37:26.233648+00:00",
+  "original_water_failure_preserved": true,
+  "H100_repair_interruption_preserved": true,
+  "actual_device": "V100sm70",
+  "required_physics_source_unchanged": true,
+  "raw_controller_elapsed_seconds": {
+    "original_import_failure": 18.39857379416935,
+    "H100_resource_interruption": 31.400748714106157,
+    "V100_success": 38.80452096275985
+  },
+  "timing_scope": "Observed raw-job walltime includes controller cleanup. Startup compatibility time and gate occupancy are not included in these sums. No GPU utilization, standalone reaction runtime or provider cost is inferred.",
+  "corrected_wrapper_secondary_assembly_available": true,
+  "original_operational_coverage_reclassified": false,
+  "experimental_accuracy_tested": false,
+  "original_common_deadline_utc": "2026-11-05T21:30:08.258397+00:00",
+  "shared_original_GPU_hour_ceiling": 8,
+  "inference_identity_scope": "Actual V100 producer retained. Counterfactual change of only capability and Nitro eligibility reconstructs the H100 inference hash; every other producer field matches. Fixed-pose compatibility does not bound geometry or Hessian differences."
+}

@@ -1,0 +1,99 @@
+{
+  "status": "passed",
+  "owner": {
+    "host": "lambda2",
+    "pid": 4183397,
+    "start_ticks": "1471130837",
+    "cpus": [
+      76,
+      77
+    ]
+  },
+  "producer": {
+    "schema": 2,
+    "source_sha256": "b8e6e88e62944a836a2b170e3bd30c4380b374fb0c4008c6a703dd3fa92cab0d",
+    "source_scope": "raw_species_v1",
+    "software": {
+      "fairchem-core": "0.1.dev1+g645af7d03",
+      "torch": "2.13.0+cu126",
+      "rdkit": "2026.3.5",
+      "ase": "3.29.0",
+      "numpy": "2.4.6"
+    },
+    "xtb_sha256": "481a1e7d8151fc08e0341b8e06ab60ac09cf1c2628738eeb83346271274bf8f4",
+    "imported_module_versions": {
+      "numpy": "2.4.6",
+      "torch": "2.13.0+cu126",
+      "rdkit": "2026.03.5",
+      "ase": "3.29.0",
+      "fairchem-core": "0.1.dev1+g645af7d03"
+    },
+    "additional_executable_sha256": {},
+    "model": {
+      "checkpoint_sha256": "b2673b85037b075674c25f55c34ffe1ff1e15db924be977b10a184765df0d5ce",
+      "references_sha256": "50e2bf9e6538c948e5381f84dac7dae8d246c58479446114374e631db75e79ba",
+      "inference_sha256": "f1c7a53316b62fcd7468f8ee9fa61826c7ec8a8a41455652e551f2e92c3ce513"
+    },
+    "cacheable": true
+  },
+  "runtime": {
+    "name": "official-nitro-fp32-final-v1",
+    "requested_calculator": "nitro",
+    "optimization": "nitro_preferred",
+    "final_energies": "official_general_fp32",
+    "endpoint_convergence": "official_fp32; refinement within the remaining step budget",
+    "hessian": "official_general_fp32_force_autograd",
+    "batch_fallback": "official_general_fp32",
+    "hardware_capability": [
+      7,
+      0
+    ],
+    "nitro_eligible_here": false,
+    "model_semantics": "official SDK; no model-ID or composition override",
+    "secondary_unit_rng": "SDK seed41 with caller Python/NumPy/Torch RNG states restored",
+    "backbone_identity": {
+      "model_id": "UMA-S-1.2.1",
+      "model_version": 1.0
+    },
+    "sdk_source_sha256": {
+      "fairchem.core.models.uma.escn_md": "9f8f8e99a1cd958a1ed782b4100fe6f5e8120ffc716af4b5780f392ed46688ab",
+      "fairchem.core.models.uma.escn_moe": "9c03048219de0466cbc5fb04bf7514983d7353262c6d95352832cb690b92286c",
+      "fairchem.core.units.mlip_unit.predict": "6b1a9454ab56b0b6b10964d6189d361e8aa060554ecea931b60164c1287b9a89",
+      "fairchem.core.units.mlip_unit.api.inference": "a3135e3e2a5a77894c88b25c22d2de2a66c52eb70f735a92f32435838e5b3542",
+      "fairchem.core.units.mlip_unit.utils": "367ae64a9e1d0d05a88f2a8ffdbca7213dfed8bbe63892d6790e587bc8b8c877"
+    },
+    "reference_settings": {
+      "tf32": false,
+      "activation_checkpointing": true,
+      "merge_mole": false,
+      "compile": false,
+      "wigner_cuda": null,
+      "external_graph_gen": false,
+      "internal_graph_gen_version": 2,
+      "torch_num_threads": null,
+      "edge_chunk_size": null,
+      "use_quaternion_wigner": true,
+      "base_precision_dtype": "torch.float32",
+      "nitro": false,
+      "execution_mode": "general",
+      "predict_untrained_forces": [],
+      "predict_untrained_stress": [],
+      "predict_untrained_hessian": [],
+      "hessian_vmap": true,
+      "auto_add_default_untrained_tasks": true,
+      "max_atoms": null
+    }
+  },
+  "point_energy_differences_kj": [
+    -6.222468800842762e-05,
+    -2.4600187316536903e-05,
+    -0.0004104841500520706
+  ],
+  "maximum_point_tolerance_kj": 0.001,
+  "execution": {
+    "counts": {
+      "official_fp32_calls": 1
+    },
+    "fallbacks": {}
+  }
+}

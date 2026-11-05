@@ -1,0 +1,31 @@
+{
+  "run_id": "9952ee2cbef2407892a744e001225abe",
+  "utc": "2026-11-05T20:31:27.398343+00:00",
+  "deadline_utc": "2026-11-05T21:30:08.258397+00:00",
+  "allocations": [
+    {
+      "worker": "water",
+      "host": "lambda2",
+      "gpu_index": 0,
+      "gpu_uuid": "GPU-0940c147-b2ca-0b8b-f44f-bcf82617b074",
+      "cpus": [
+        76,
+        77
+      ]
+    }
+  ],
+  "expected_inputs": 1,
+  "maximum_GPU_hours": 8,
+  "shared_with_parent_and_initial_phases": true,
+  "maximum_concurrent_operational_workers": 2,
+  "freeze_sha256": "aabd77d55aed89ad92f7da2551e3cbb2328388e37fab1027a780e8f42af80d50",
+  "launch_owner": {
+    "host": "lambda2",
+    "pid": 4183005,
+    "start_ticks": "1471130614",
+    "cpus": [
+      76,
+      77
+    ]
+  }
+}

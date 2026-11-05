@@ -1,0 +1,95 @@
+{
+  "kind": "liquid_water_reference",
+  "G": -200682.36682402345,
+  "sigma": 0.0,
+  "producer": {
+    "schema": 2,
+    "source_sha256": "b8e6e88e62944a836a2b170e3bd30c4380b374fb0c4008c6a703dd3fa92cab0d",
+    "source_scope": "raw_species_v1",
+    "software": {
+      "fairchem-core": "0.1.dev1+g645af7d03",
+      "torch": "2.13.0+cu126",
+      "rdkit": "2026.3.5",
+      "ase": "3.29.0",
+      "numpy": "2.4.6"
+    },
+    "xtb_sha256": "481a1e7d8151fc08e0341b8e06ab60ac09cf1c2628738eeb83346271274bf8f4",
+    "imported_module_versions": {
+      "numpy": "2.4.6",
+      "torch": "2.13.0+cu126",
+      "rdkit": "2026.03.5",
+      "ase": "3.29.0",
+      "fairchem-core": "0.1.dev1+g645af7d03"
+    },
+    "additional_executable_sha256": {},
+    "model": {
+      "checkpoint_sha256": "b2673b85037b075674c25f55c34ffe1ff1e15db924be977b10a184765df0d5ce",
+      "references_sha256": "50e2bf9e6538c948e5381f84dac7dae8d246c58479446114374e631db75e79ba",
+      "inference_sha256": "f1c7a53316b62fcd7468f8ee9fa61826c7ec8a8a41455652e551f2e92c3ce513"
+    },
+    "cacheable": true
+  },
+  "settings": {
+    "model": "uma-s-1p2p1",
+    "conv_tol": 2.5,
+    "conv_hits": 2,
+    "conv_max": 8,
+    "sample_scale": 1.0,
+    "keep_scale": 1.0,
+    "thermal_window_kj": 15.0,
+    "thermal_max": 10,
+    "thermal_validation_max": 96,
+    "thermal_relax_steps": 400,
+    "thermal_retry_steps": 1200,
+    "seed_offset": 0,
+    "hessian": "autograd",
+    "dg_sanity_kj": 500.0,
+    "sampling_profile": "current"
+  },
+  "geometry": {
+    "symbols": [
+      "O",
+      "H",
+      "H"
+    ],
+    "positions_angstrom": [
+      [
+        -0.00033280698698945343,
+        0.39146214723587036,
+        1.7238806215846836e-10
+      ],
+      [
+        -0.7605193853378296,
+        -0.19637764990329742,
+        1.9975399806471117e-11
+      ],
+      [
+        0.7608520984649658,
+        -0.19508452713489532,
+        -1.923634307399169e-10
+      ]
+    ],
+    "charge": 0,
+    "spin_multiplicity": 1,
+    "sha256": "ddac291e11a940ee1ac1f12ae7e8e470b717567327e8752803192387437dc350"
+  },
+  "electronic_kj": -200675.7336422505,
+  "experimental_water_hydration_kj": -26.4,
+  "thermal_kj": 9.818087748028933,
+  "concentration_kj": 9.948730479013655,
+  "thermodynamics": {
+    "temperature_K": 298.15,
+    "pressure_Pa": 101325.0,
+    "enthalpy_correction_kj": 66.05886995505101,
+    "entropy_kj_per_K": 0.18863250782164015,
+    "minus_T_entropy_kj": -56.24078220702201,
+    "gibbs_correction_kj": 9.818087748028933,
+    "zpe_kj": 56.13541779249808,
+    "n_internal_modes": 3,
+    "n_floored_modes": 0,
+    "scope": "Single-geometry ideal-gas thermochemistry; projected RRHO with 50 cm^-1 floor. No solution or ensemble correction."
+  },
+  "n_imag": 0,
+  "geometry_kind": "nonlinear",
+  "symmetrynumber": 2
+}

@@ -1,0 +1,232 @@
+{
+  "slot": "raw_44d5fe637feae45c",
+  "request": {
+    "slot": "raw_44d5fe637feae45c",
+    "source_input_key": "liquid_water",
+    "kind": "liquid_water",
+    "charge": 0,
+    "smiles": "O",
+    "spin": 1,
+    "n_atoms": 3,
+    "used_by": [
+      {
+        "reaction": "rxn07593",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn07593",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn56649",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn56649",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn03319",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03319",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn14091",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn14091",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn43131",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn43131",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn03659",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03659",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn27435",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn27435",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn43971",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn43971",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn03080",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03080",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn16172",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn16172",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn02184",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02184",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn06278",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn06278",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn59889",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn59889",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn24458",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn24458",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn02855",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02855",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn02418",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02418",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn01587",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn01587",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn03979",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03979",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn02173",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02173",
+        "arm": "regio"
+      }
+    ]
+  },
+  "worker": "worker0",
+  "owner": {
+    "host": "lambda13",
+    "pid": 158402,
+    "start_ticks": "202675565",
+    "cpus": [
+      372,
+      373
+    ]
+  },
+  "producer": {
+    "schema": 2,
+    "source_sha256": "b8e6e88e62944a836a2b170e3bd30c4380b374fb0c4008c6a703dd3fa92cab0d",
+    "source_scope": "raw_species_v1",
+    "software": {
+      "fairchem-core": "0.1.dev1+g645af7d03",
+      "torch": "2.13.0+cu126",
+      "rdkit": "2026.3.5",
+      "ase": "3.29.0",
+      "numpy": "2.4.6"
+    },
+    "xtb_sha256": "481a1e7d8151fc08e0341b8e06ab60ac09cf1c2628738eeb83346271274bf8f4",
+    "imported_module_versions": {
+      "numpy": "2.4.6",
+      "torch": "2.13.0+cu126",
+      "rdkit": "2026.03.5",
+      "ase": "3.29.0",
+      "fairchem-core": "0.1.dev1+g645af7d03"
+    },
+    "additional_executable_sha256": {},
+    "model": {
+      "checkpoint_sha256": "b2673b85037b075674c25f55c34ffe1ff1e15db924be977b10a184765df0d5ce",
+      "references_sha256": "50e2bf9e6538c948e5381f84dac7dae8d246c58479446114374e631db75e79ba",
+      "inference_sha256": "0a922f0df0b243da47f197f1c61c490ad3fe54de82ba9dd2cbdac4fec93993e6"
+    },
+    "cacheable": true
+  },
+  "protocol_sha256": "3c5a864680bb6e959b737083703e22446ace3b3f5d2d770293974d05a3340721",
+  "freeze_sha256": "ce124ad1f360fedbe2e02bb4ad087200105b2f576f857106e1325423639264aa",
+  "model_initialization_seconds": 16.705277140950784,
+  "status": "execution_failure",
+  "error": "ImportError(\"cannot import name 'water_geometry' from 'metag.energetics.thermal' (/nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG/analysis/modelseed_operational_20261105_01/resource_recovery/owned_source/src/metag/energetics/thermal.py)\")",
+  "traceback": "Traceback (most recent call last):\n  File \"/nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG/analysis/modelseed_operational_20261105_01/resource_recovery/compute_one.py\", line 79, in main\n    from metag.energetics.thermal import water_geometry,uma_gibbs_corr\nImportError: cannot import name 'water_geometry' from 'metag.energetics.thermal' (/nfs/lambda_stor_01/homes/rzhu/ModelSEED_FAISS/thermodynamic_calc/MetaG/analysis/modelseed_operational_20261105_01/resource_recovery/owned_source/src/metag/energetics/thermal.py)\n",
+  "elapsed_seconds": 0.0004978179931640625,
+  "execution": {
+    "counts": {},
+    "fallbacks": {}
+  },
+  "controller_execution": {
+    "exit_code": 1,
+    "timed_out": false,
+    "owner": {
+      "host": "lambda13",
+      "pid": 158402,
+      "process_group": 158402,
+      "start_ticks": "202675565"
+    },
+    "external_GPU_contention": [],
+    "GPU_observation_count": 7,
+    "first_GPU_observation_utc": "2026-11-05T20:10:17.392479+00:00",
+    "last_GPU_observation_utc": "2026-11-05T20:10:33.730120+00:00",
+    "GPU_observation_errors": [],
+    "task_budget_seconds": 1800,
+    "common_deadline_censored": false
+  },
+  "controller_elapsed_seconds": 18.39857379416935
+}

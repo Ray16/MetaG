@@ -1,0 +1,165 @@
+[
+  {
+    "slot": "raw_44d5fe637feae45c",
+    "source_input_key": "liquid_water",
+    "kind": "liquid_water",
+    "charge": 0,
+    "smiles": "O",
+    "spin": 1,
+    "n_atoms": 3,
+    "used_by": [
+      {
+        "reaction": "rxn07593",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn07593",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn56649",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn56649",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn03319",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03319",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn14091",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn14091",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn43131",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn43131",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn03659",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03659",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn27435",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn27435",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn43971",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn43971",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn03080",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03080",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn16172",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn16172",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn02184",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02184",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn06278",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn06278",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn59889",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn59889",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn24458",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn24458",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn02855",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02855",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn02418",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02418",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn01587",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn01587",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn03979",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn03979",
+        "arm": "regio"
+      },
+      {
+        "reaction": "rxn02173",
+        "arm": "full"
+      },
+      {
+        "reaction": "rxn02173",
+        "arm": "regio"
+      }
+    ]
+  }
+]

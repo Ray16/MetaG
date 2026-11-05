@@ -1,0 +1,40 @@
+{
+  "schema": "metag-operational-terminal-process-audit-v1",
+  "utc": "2026-11-05T20:34:12.733515+00:00",
+  "host": "lambda2",
+  "run_id": "9952ee2cbef2407892a744e001225abe",
+  "launch_manifest_sha256": "79e92dc69c23b566b82c0013dddf939e29135a8991ab152fea3923ba4e9d156e",
+  "ownership_checks": [
+    {
+      "worker": "water",
+      "kind": "owner",
+      "pid": 4183396,
+      "expected_start_ticks": "1471130820",
+      "same_live_process": false,
+      "current_state": null
+    },
+    {
+      "worker": "water",
+      "kind": "predictor",
+      "pid": 4184726,
+      "expected_start_ticks": "1471136541",
+      "same_live_process": false,
+      "current_state": null
+    },
+    {
+      "worker": "water",
+      "kind": "launcher",
+      "pid": 4183200,
+      "expected_start_ticks": "1471130737",
+      "same_live_process": false,
+      "current_state": null
+    }
+  ],
+  "remaining_marked_predictors": [],
+  "terminal": true,
+  "host_unix_epoch_minus_boottime": 1779199380.0249257,
+  "clock_ticks_per_second": 100,
+  "raw_result_files": 1,
+  "claim_directories": [],
+  "gpu_process_snapshot": ""
+}

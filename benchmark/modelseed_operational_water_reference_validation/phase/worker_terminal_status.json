@@ -1,0 +1,34 @@
+{
+  "state": "queue_scan_complete",
+  "worker": "water",
+  "owner": {
+    "host": "lambda2",
+    "pid": 4183396,
+    "start_ticks": "1471130820",
+    "cpus": [
+      76,
+      77
+    ]
+  },
+  "completed": [
+    "raw_44d5fe637feae45c"
+  ],
+  "refused": [],
+  "execution_failures": [],
+  "startup": {
+    "exit_code": 0,
+    "timed_out": false,
+    "owner": {
+      "host": "lambda2",
+      "pid": 4183397,
+      "process_group": 4183397,
+      "start_ticks": "1471130837"
+    },
+    "external_GPU_contention": [],
+    "GPU_observation_count": 28,
+    "first_GPU_observation_utc": "2026-11-05T20:31:28.514992+00:00",
+    "last_GPU_observation_utc": "2026-11-05T20:32:25.284759+00:00",
+    "GPU_observation_errors": []
+  },
+  "terminal_utc": "2026-11-05T20:33:04.250494+00:00"
+}

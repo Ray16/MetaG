@@ -1,0 +1,63 @@
+{
+  "schema": "metag-completed-operational-water-manifest-v1",
+  "files": {
+    "H100_water_resource_interruption.json": {
+      "bytes": 3714,
+      "sha256": "6923f547af8c9d05a8b9616c24e5a4c3994ff819636254566abc5f0cddbba885"
+    },
+    "README.md": {
+      "bytes": 1542,
+      "sha256": "a208fb2acd306c81b9fe8c3fb455c7b134f2fecca6bc65b64117d142c2c9d14e"
+    },
+    "original_water_import_failure.json": {
+      "bytes": 5894,
+      "sha256": "822e1175047989302db1d5311200cfd71baebf4e9fef1ac51ecade10369c9df4"
+    },
+    "parent_H100_startup.json": {
+      "bytes": 3399,
+      "sha256": "f10474513162f09f84e2fd342882864b7ac302cb110730710b9ea9779882a084"
+    },
+    "phase/cache/raw_44d5fe637feae45c/water_reference.json": {
+      "bytes": 2764,
+      "sha256": "924be7e583163054794461860e3172e44b020c5fb3c68c3ffefd67dce0438be3"
+    },
+    "phase/launch_manifest.json": {
+      "bytes": 740,
+      "sha256": "79e92dc69c23b566b82c0013dddf939e29135a8991ab152fea3923ba4e9d156e"
+    },
+    "phase/raw_settings.json": {
+      "bytes": 373,
+      "sha256": "fc5d25b9c558c74b8a85c20c4a7797da739327c62db7191c8dc99735a5948164"
+    },
+    "phase/results/raw_44d5fe637feae45c.json": {
+      "bytes": 5614,
+      "sha256": "338a9b269b0af244f8c7f81a75d90d7ae2b0c7ddb956134c181789869a2d750c"
+    },
+    "phase/startup.json": {
+      "bytes": 3399,
+      "sha256": "c8d19f20a307f0a9c58919c5220e3b242112c36d9d6b6c006b22caf6bae0cba3"
+    },
+    "phase/tasks.json": {
+      "bytes": 2924,
+      "sha256": "4bf115f02168af77648d4cc77dffa4e046538eeae269f0835a488db69da583e9"
+    },
+    "phase/terminal_process_audit.json": {
+      "bytes": 1102,
+      "sha256": "92745228b0784cecc446c358a80e23c8af017b3b00c58be334fcdcb84e3fdda2"
+    },
+    "phase/worker_terminal_status.json": {
+      "bytes": 776,
+      "sha256": "c84e1f4c3db836b27c2db15de35d013e203b7727984553fd3dc2960569dfc66b"
+    },
+    "summary.json": {
+      "bytes": 1232,
+      "sha256": "5450b575a14b47405aa10c9b3241624f27760cacd99fae4f144755ebe5f1bde0"
+    }
+  },
+  "precompute_source": {
+    "path": "benchmark/modelseed_operational_water_v100_validation/precompute_source.zip",
+    "sha256": "4351f74d6799ed624eea3c6e912c0c42b7fcc895045d750f5364668a80fa9445"
+  },
+  "water_helper_source_sha256": "c1e25d99c205428e6bd1a31f776bcda330ca1d32bbf0a7bfcf154132f0d0db74",
+  "raw_auditor_source_sha256": "2a302d62d2c1b5ab9c48da8b4f80c19adb83975067f78e589b27c298f1158bc9"
+}
