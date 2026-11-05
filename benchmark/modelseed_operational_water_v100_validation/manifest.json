@@ -1,0 +1,18 @@
+{
+  "schema": "metag-operational-water-V100-precompute-manifest-v1",
+  "utc": "2026-11-05T20:30:56.715091+00:00",
+  "files": {
+    "precompute_source.zip": {
+      "bytes": 259163,
+      "sha256": "4351f74d6799ed624eea3c6e912c0c42b7fcc895045d750f5364668a80fa9445"
+    },
+    "README.md": {
+      "bytes": 1676,
+      "sha256": "f9538e526b3cdb708468a3f79e9e6e7efedd8779498cb6836b46b2958db7412a"
+    }
+  },
+  "freeze_sha256": "aabd77d55aed89ad92f7da2551e3cbb2328388e37fab1027a780e8f42af80d50",
+  "launch_outputs_available": false,
+  "original_outcomes_preserved": true,
+  "independent_labels_added": 0
+}
