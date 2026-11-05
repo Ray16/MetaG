@@ -184,6 +184,14 @@ python benchmark/score_checked.py benchmark/metag_guarded_cache_predictions.json
 
 ## Completed corrected-source evaluation
 
+The [separate ModelSEED operational attempt](modelseed_operational_result_validation/README.md)
+retains its fixed 32-identifier sample and all 115 molecular opportunities. External
+resource interruptions leave population coverage inference inconclusive. A distinct
+water-wrapper recording repair changes observed reaction availability from five to
+nine under both research policies; it does not erase original failures or demonstrate
+experimental accuracy. Exact archived replay and all raw records are provided with
+that packet. These counts do not replace the historical biochemical evaluation below.
+
 `metag_corrected_source_predictions.json` contains all 364 outcomes and identifies the frozen
 post-audit source: 270 estimates, 92 workflow refusals and two 5400-s budget outcomes.
 The validated scorer and OOF comparison default to this file. The original `score.py` remains

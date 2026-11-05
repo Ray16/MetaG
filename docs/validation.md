@@ -1,5 +1,16 @@
 # Validation against the evaluated release
 
+The [terminal ModelSEED operational attempt](../benchmark/modelseed_operational_result_validation/README.md)
+retains every outcome for 32 prespecified source identifiers. The original workflow
+assembles five, and a separate fresh-water recording repair assembles nine, under
+each reference policy. Both workers stopped after confirmed external GPU processes
+appeared; 36 molecular opportunities never started. The predeclared population
+inference gate therefore withholds numerical-availability intervals. These observed
+counts are not coverage estimates or experimental accuracy results. Both complete
+assemblies reconstruct from 452 archived files, with original-project reads,
+quantum inference and network access blocked. The original failures, actual hardware identities and scoped timing remain
+available, and the final supported physical policy is still unresolved.
+
 The [chemical reference-transfer control](../benchmark/reference_transfer_validation/README.md)
 now tests raw neutral/ionic state energies against two NIST-evaluated chemical
 proton-transfer references. All 48 fixed starting optimizations and 30 retained
