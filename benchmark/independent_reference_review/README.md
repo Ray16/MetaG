@@ -1,6 +1,6 @@
 # Additional equilibrium-source review
 
-These two reviews resolve entries in the independent-enrollment source inventory.
+These reviews update the independent-enrollment source inventory.
 **No experimental reference is admitted.** Existing development labels and
 predictions are unchanged. Eligibility was not selected using model errors.
 
@@ -29,3 +29,31 @@ arithmetic. `arithmetic_receipt.json` checks the stated numbers against the owne
 training snapshot; it does not independently authenticate the linked articles.
 Neither review establishes an unfamiliar-chemistry advantage or changes the
 number of independently admitted primary references from zero.
+
+`additional_sources.json` records the six remaining original candidates and two
+new leads, with explicit distinctions between owned primary evidence, indexed
+publisher methods, and abstract/metadata-only inspection. These access levels
+are not interchangeable. The original validation design and launch prohibition
+remain unchanged.
+
+| Source | What is established | What prevents admission |
+|---|---|---|
+| [Kratzer and Nidetzky, 2005](https://pmc.ncbi.nlm.nih.gov/articles/PMC1175129/) | A Haldane reconstruction gives 420.94, rounding to the reported wild-type 421. The mutant estimate is 153. | Consistency/uncertainty, condition transfer and measurement ancestry remain unresolved; mutant rows are not independent reactions. |
+| [Nasution et al., 2006](https://doi.org/10.1002/bit.20842) | The abstract describes intracellular metabolite quantification. | Full methods and the equilibrium meaning/ancestry of the indexed constants are unverified. |
+| [Barber et al., 2006](https://doi.org/10.1074/jbc.M512727200) | Publisher methods describe an endpoint ratio after repeated fresh-enzyme additions, at 25 C and pH 7.4. | Numerical results/uncertainty, condition conversion and measurement ancestry are unverified. Derived Michaelis constants do not imply that the equilibrium ratio was derived from them. |
+| [Genda et al., 2006](https://www.jstage.jst.go.jp/article/bbb/70/5/70_5_1102/_pdf) | All six Table 2 Haldane reconstructions round to the reported values. Native assays used 20–23 C. | Temperature/activity transfer and ancestry remain unresolved; buffer concentrations are not ionic strengths. |
+| [Schumacher et al., 2006](https://doi.org/10.1002/biot.200600039) | The abstract includes mixed-solvent kinetics and a buffer control. | Full methods, equilibrium interpretation and row-specific conditions are unverified. |
+| [Meng et al., 2008](https://doi.org/10.1016/j.bbapap.2008.02.021) | The abstract reports an approximate ratio of 0.3 for two isoforms. | Definition, method, uncertainty and Mg/activity conditions need primary verification; indexed conditions are 21 C and pH 7.5. |
+| [Meersseman Arango et al., 2025](https://doi.org/10.1021/cbe.4c00186) | Owned primary XML specifies 35 C, pH 8 and 10% methanol for the standard reaction. | Mixed-solvent/temperature conversion and the native ratio's definition and uncertainty remain unresolved. Product-crystallization yields are not aqueous equilibrium constants. |
+| [Wu et al., 2023](https://doi.org/10.1002/ijch.202200065) | The abstract confirms interconversion of azido-labelled UDP sugars. | Full results, Supporting Information, chemical states, conditions and ancestry remain unverified; azide presence alone does not establish unfamiliarity. |
+
+Post-quench detection conditions in the epimerase study must not be assigned to
+the preceding reaction. Likewise, the 23–25 C stability incubation in Genda et al.
+must not replace its 20–23 C kinetic assay. Named reaction overlap with a training
+table is recorded separately from proven measurement duplication. A different
+paper, enzyme variant or database entry does not by itself establish independence.
+
+No predictions were run or consulted in these decisions. All eleven inventory
+entries are excluded, held, or pending further source verification; none is an
+independently admitted standard-Gibbs reference. The primary hypothesis, novelty
+rules, condition requirements and minimum cluster gate have not been relaxed.

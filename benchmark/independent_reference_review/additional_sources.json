@@ -1,0 +1,440 @@
+{
+  "schema": "metag-additional-equilibrium-source-review-v1",
+  "utc": "2026-11-05T05:31:02.445022+00:00",
+  "review_protocol_sha256": "dc088ae2f479a3c4c6da62bd688a4fab638395c238e06bdd37c9408158371684",
+  "source_metadata_sha256": "2b208ae34f9e27aed4b3d537001dadd7e6a35fd9e321efe498ca11f20fd407d8",
+  "sources": [
+    {
+      "doi": "10.1042/BJ20050167",
+      "primary_URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1175129/",
+      "access_level": "primary_PMC_full_text_and_table_HTML; local_PDF_unavailable",
+      "status": "held_Haldane_consistency_conditions_and_lineage",
+      "metadata_entry_ids": [
+        14224,
+        14225,
+        14230,
+        14231
+      ],
+      "metadata_conditions": [
+        {
+          "EntryID": 14224,
+          "ReactionEquation": "D-Xylose + H+ + NADH = Xylitol + NAD+",
+          "pH": 7.0,
+          "Temperature": 25.0
+        },
+        {
+          "EntryID": 14225,
+          "ReactionEquation": "D-Xylose + H+ + NADH = Xylitol + NAD+",
+          "pH": 7.0,
+          "Temperature": 25.0
+        },
+        {
+          "EntryID": 14230,
+          "ReactionEquation": "D-Xylose + H+ + NADH = Xylitol + NAD+",
+          "pH": 7.0,
+          "Temperature": 25.0
+        },
+        {
+          "EntryID": 14231,
+          "ReactionEquation": "D-Xylose + H+ + NADH = Xylitol + NAD+",
+          "pH": 7.0,
+          "Temperature": 25.0
+        }
+      ],
+      "facts": {
+        "locators": [
+          "Experimental/Kinetic measurements",
+          "Table 1 caption and kinetic parameters"
+        ],
+        "reaction": "D-xylose + NADH -> xylitol + NAD+ (fixed-pH biochemical equation)",
+        "T_K": 298.15,
+        "pH": 7,
+        "buffer": "50 mM potassium phosphate; full ionic-strength/activity transfer unresolved.",
+        "quantity": "Haldane-derived estimates using catalytic, Michaelis and cofactor dissociation parameters, not isolated cofactor-binding Kd values.",
+        "reported_K_WT": 421,
+        "reported_K_K80A": 153,
+        "reported_experimental_comparison_range": [
+          350,
+          500
+        ],
+        "WT_parameters": {
+          "kcat_reduction_s": 12.4,
+          "Kd_NAD_oxidized_uM": 234,
+          "Km_xylitol_mM": 334,
+          "kcat_oxidation_s": 1.1,
+          "Kd_NAD_reduced_uM": 23,
+          "Km_xylose_mM": 91
+        },
+        "WT_K_reconstructed_from_rounded_parameters": 420.9418407679277,
+        "K80A_efficiency_units_reconstruction": "Withheld pending verification of the displayed efficiency units; do not silently reinterpret them to recover the reported value.",
+        "reason": "Mutant rows are estimates for one chemical reaction, not independent thermodynamic reactions. Resolve model/uncertainty consistency, condition transfer and comparison-range ancestry before reference construction."
+      },
+      "measurement_independence_verified": false,
+      "standard_G_reference_admitted": false,
+      "predictions_or_residuals_consulted": false
+    },
+    {
+      "doi": "10.1002/bit.20842",
+      "primary_URL": "https://doi.org/10.1002/bit.20842",
+      "access_level": "primary_abstract_and_SABIO_metadata; full_methods_unavailable",
+      "status": "held_equilibrium_meaning_and_primary_methods_unverified",
+      "metadata_entry_ids": [
+        56727,
+        56728
+      ],
+      "metadata_conditions": [
+        {
+          "EntryID": 56727,
+          "ReactionEquation": "ATP + AMP = 2 ADP",
+          "pH": 6.5,
+          "Temperature": 25.0
+        },
+        {
+          "EntryID": 56728,
+          "ReactionEquation": "L-Malate = H2O + Fumarate",
+          "pH": 6.5,
+          "Temperature": 25.0
+        }
+      ],
+      "facts": {
+        "primary_scope": "Intracellular metabolite/adenine-nucleotide quantification in chemostat Penicillium; abstract alone does not establish an equilibrium measurement.",
+        "named_equation_training_row": 277,
+        "training_description": "2 ADP(aq) = AMP(aq) + ATP(aq)",
+        "reason": "An intracellular reaction quotient or a borrowed equilibrium constant is not automatically a new equilibrium measurement. Full source and measurement ancestry required; named equation overlap does not itself prove measurement duplication."
+      },
+      "measurement_independence_verified": false,
+      "standard_G_reference_admitted": false,
+      "predictions_or_residuals_consulted": false
+    },
+    {
+      "doi": "10.1074/jbc.M512727200",
+      "primary_URL": "https://www.jbc.org/article/S002192582055758X/pdf",
+      "access_level": "indexed_original_publisher_PDF_methods; binary/full_result_table_unavailable",
+      "status": "held_native_endpoint_assay_conditions_and_ancestry",
+      "metadata_entry_ids": [
+        52626,
+        52628,
+        52630,
+        52632,
+        52634
+      ],
+      "metadata_conditions": [
+        {
+          "EntryID": 52626,
+          "ReactionEquation": "UDPglucose = UDPgalactose",
+          "pH": 7.4,
+          "Temperature": 25.0
+        },
+        {
+          "EntryID": 52628,
+          "ReactionEquation": "UDPglucose = UDPgalactose",
+          "pH": 7.4,
+          "Temperature": 25.0
+        },
+        {
+          "EntryID": 52630,
+          "ReactionEquation": "UDPglucose = UDPgalactose",
+          "pH": 7.4,
+          "Temperature": 25.0
+        },
+        {
+          "EntryID": 52632,
+          "ReactionEquation": "UDPglucose = UDPgalactose",
+          "pH": 7.4,
+          "Temperature": 25.0
+        },
+        {
+          "EntryID": 52634,
+          "ReactionEquation": "UDPglucose = UDPgalactose",
+          "pH": 7.4,
+          "Temperature": 25.0
+        }
+      ],
+      "facts": {
+        "locator": "Printed page 17277: UDP-Gal4-epimerase and UDP-Glc4-epimerase assays.",
+        "T_K": 298.15,
+        "pH": 7.4,
+        "Tris_HCl_M": 0.05,
+        "NAD_added_M": 0.0001,
+        "BSA_mg_per_mL": 0.125,
+        "quantity": "Authors describe repeated fresh-enzyme addition until the UDP-glucose/UDP-galactose ratio no longer changes. Km(UDP-glucose) is subsequently derived with Haldane; this does not mean Keq was inferred from Km.",
+        "condition_warning": "pH7 phosphate and CaCl2-containing detection mixtures occur after quenching and are not the epimerization assay conditions.",
+        "named_equation_training_row": 543,
+        "reason": "Authenticate numerical results/uncertainty, approach-to-equilibrium evidence, phase/activity and pH conversion and measurement genealogy. Five enzyme isoforms do not create five independent chemical equations."
+      },
+      "measurement_independence_verified": false,
+      "standard_G_reference_admitted": false,
+      "predictions_or_residuals_consulted": false
+    },
+    {
+      "doi": "10.1271/bbb.70.1102",
+      "primary_URL": "https://www.jstage.jst.go.jp/article/bbb/70/5/70_5_1102/_pdf",
+      "access_level": "owned_primary_PDF_and_visually_checked_Table 2",
+      "status": "held_native_temperature_activity_and_ancestry",
+      "metadata_entry_ids": [
+        36030,
+        36031,
+        36036,
+        36037
+      ],
+      "metadata_conditions": [
+        {
+          "EntryID": 36030,
+          "ReactionEquation": "L-Malate = H2O + Fumarate",
+          "pH": 7.0,
+          "Temperature": 20.0
+        },
+        {
+          "EntryID": 36031,
+          "ReactionEquation": "L-Malate = H2O + Fumarate",
+          "pH": 7.0,
+          "Temperature": 20.0
+        },
+        {
+          "EntryID": 36036,
+          "ReactionEquation": "L-Malate = H2O + Fumarate",
+          "pH": 7.0,
+          "Temperature": 20.0
+        },
+        {
+          "EntryID": 36037,
+          "ReactionEquation": "L-Malate = H2O + Fumarate",
+          "pH": 7.0,
+          "Temperature": 20.0
+        }
+      ],
+      "facts": {
+        "primary_PDF_sha256": "ef07b0965cf691c2ee951f74493d33b60211cb50160494a53eefcc97f858bd04",
+        "locators": [
+          "Printed page 1103 enzyme assay",
+          "Printed page 1105 equation 1",
+          "Printed page 1106 Table 2"
+        ],
+        "reaction": "fumarate + water -> L-malate",
+        "temperature_C_range": [
+          20,
+          23
+        ],
+        "temperature_warning": "23-25 C refers to a separate enzyme stability incubation; it is not the kinetic assay temperature.",
+        "buffer_M": 0.1,
+        "quantity": "Haldane ratios from kinetic parameters. Table kcat entries share a factor 100, which cancels.",
+        "table2": [
+          {
+            "pH": 6,
+            "buffer": "phosphate",
+            "kcat_fumarate_table_units": 7.2,
+            "Km_fumarate_mM": 4.2,
+            "kcat_malate_table_units": 0.48,
+            "Km_malate_mM": 1.8,
+            "reported_K": 6.4,
+            "reconstructed_from_rounded_parameters": 6.428571428571429
+          },
+          {
+            "pH": 6,
+            "buffer": "MES-NaOH",
+            "kcat_fumarate_table_units": 3.1,
+            "Km_fumarate_mM": 0.81,
+            "kcat_malate_table_units": 0.34,
+            "Km_malate_mM": 1.4,
+            "reported_K": 16.0,
+            "reconstructed_from_rounded_parameters": 15.758896151053014
+          },
+          {
+            "pH": 7,
+            "buffer": "phosphate",
+            "kcat_fumarate_table_units": 7.3,
+            "Km_fumarate_mM": 3.8,
+            "kcat_malate_table_units": 2.0,
+            "Km_malate_mM": 6.3,
+            "reported_K": 6.1,
+            "reconstructed_from_rounded_parameters": 6.051315789473684
+          },
+          {
+            "pH": 7,
+            "buffer": "TES-NaOH",
+            "kcat_fumarate_table_units": 4.3,
+            "Km_fumarate_mM": 0.38,
+            "kcat_malate_table_units": 1.1,
+            "Km_malate_mM": 1.8,
+            "reported_K": 19.0,
+            "reconstructed_from_rounded_parameters": 18.516746411483254
+          },
+          {
+            "pH": 8,
+            "buffer": "phosphate",
+            "kcat_fumarate_table_units": 5.1,
+            "Km_fumarate_mM": 3.1,
+            "kcat_malate_table_units": 4.6,
+            "Km_malate_mM": 13.0,
+            "reported_K": 4.6,
+            "reconstructed_from_rounded_parameters": 4.649368863955119
+          },
+          {
+            "pH": 8,
+            "buffer": "Tris-HCl",
+            "kcat_fumarate_table_units": 6.5,
+            "Km_fumarate_mM": 0.67,
+            "kcat_malate_table_units": 2.9,
+            "Km_malate_mM": 5.0,
+            "reported_K": 17.0,
+            "reconstructed_from_rounded_parameters": 16.726711271230055
+          }
+        ],
+        "reason": "No owned transfer from the native temperature range and buffer/activity conditions to the fixed 298.15 K target. Six rows share one chemical equation; source/training ancestry remains unresolved."
+      },
+      "measurement_independence_verified": false,
+      "standard_G_reference_admitted": false,
+      "predictions_or_residuals_consulted": false
+    },
+    {
+      "doi": "10.1002/biot.200600039",
+      "primary_URL": "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/biot.200600039",
+      "access_level": "primary_publisher_abstract_and_SABIO_metadata; full_methods_unavailable",
+      "status": "held_primary_methods_mixed_solvent_and_temperature",
+      "metadata_entry_ids": [
+        41428,
+        41429,
+        41430,
+        41431,
+        41433,
+        41434,
+        41435
+      ],
+      "metadata_conditions": [
+        {
+          "EntryID": 41428,
+          "ReactionEquation": "NADP+ + (R)-2-Butanol = H+ + NADPH + 2-Butanone",
+          "pH": 7.0,
+          "Temperature": 30.0
+        },
+        {
+          "EntryID": 41429,
+          "ReactionEquation": "NADP+ + (R)-2-Butanol = H+ + NADPH + 2-Butanone",
+          "pH": 7.0,
+          "Temperature": 30.0
+        },
+        {
+          "EntryID": 41430,
+          "ReactionEquation": "NADP+ + (R)-2-Butanol = H+ + NADPH + 2-Butanone",
+          "pH": 7.0,
+          "Temperature": 30.0
+        },
+        {
+          "EntryID": 41431,
+          "ReactionEquation": "NADP+ + (R)-2-Butanol = H+ + NADPH + 2-Butanone",
+          "pH": 7.0,
+          "Temperature": 30.0
+        },
+        {
+          "EntryID": 41433,
+          "ReactionEquation": "NADP+ + (R)-2-Butanol = H+ + NADPH + 2-Butanone",
+          "pH": 7.0,
+          "Temperature": 30.0
+        },
+        {
+          "EntryID": 41434,
+          "ReactionEquation": "NADP+ + (R)-2-Butanol = H+ + NADPH + 2-Butanone",
+          "pH": 7.0,
+          "Temperature": 30.0
+        },
+        {
+          "EntryID": 41435,
+          "ReactionEquation": "NADP+ + (R)-2-Butanol = H+ + NADPH + 2-Butanone",
+          "pH": 7.0,
+          "Temperature": 30.0
+        }
+      ],
+      "facts": {
+        "primary_scope": "Butan-2-one/butan-2-ol kinetics and enantioselectivity with acetonitrile/dioxane cosolvents, alongside a phosphate-buffer control.",
+        "reason": "Verify which native equilibrium quantity and medium belong to each SABIO row. The abstract does not authenticate a condition-matched standard Gibbs reference. Recorded 30 C is metadata only, not a primary-method extraction."
+      },
+      "measurement_independence_verified": false,
+      "standard_G_reference_admitted": false,
+      "predictions_or_residuals_consulted": false
+    },
+    {
+      "doi": "10.1016/j.bbapap.2008.02.021",
+      "primary_URL": "https://doi.org/10.1016/j.bbapap.2008.02.021",
+      "access_level": "primary_abstract_and_SABIO_metadata; full_methods_unavailable",
+      "status": "held_primary_methods_temperature_pH_and_Mg",
+      "metadata_entry_ids": [
+        51914,
+        51915
+      ],
+      "metadata_conditions": [
+        {
+          "EntryID": 51914,
+          "ReactionEquation": "UTP + D-Glucose 1-phosphate = UDPglucose + Diphosphate",
+          "pH": 7.5,
+          "Temperature": 21.0
+        },
+        {
+          "EntryID": 51915,
+          "ReactionEquation": "UTP + D-Glucose 1-phosphate = UDPglucose + Diphosphate",
+          "pH": 7.5,
+          "Temperature": 21.0
+        }
+      ],
+      "facts": {
+        "primary_reported_approximate_K": 0.3,
+        "primary_scope": "Two Arabidopsis UDP-glucose pyrophosphorylase isoforms; abstract reports equilibrium preference for pyrophosphorolysis.",
+        "named_equation_training_row": 544,
+        "reason": "Primary definition, measurement method, uncertainty and Mg/activity conditions require verification. Metadata gives 21 C and pH 7.5; do not call this a 25 C, pH 7 result or infer two independent reaction labels from two proteins."
+      },
+      "measurement_independence_verified": false,
+      "standard_G_reference_admitted": false,
+      "predictions_or_residuals_consulted": false
+    },
+    {
+      "doi": "10.1021/cbe.4c00186",
+      "primary_URL": "https://pubs.acs.org/doi/10.1021/cbe.4c00186",
+      "access_level": "owned_primary_XML",
+      "status": "held_mixed_solvent_temperature_and_condition_transfer",
+      "metadata_entry_ids": [],
+      "metadata_conditions": [],
+      "facts": {
+        "primary_XML_sha256": "5c13304eb9017cadd07e5b13998b91478c6a039fbbcebaa4aa1a2411e5d35241",
+        "locator": "Methods: Asymmetric Synthesis of(R)-2-Fluoro-alpha-methylbenzylamine",
+        "reaction": "2-fluoroacetophenone + isopropylamine -> (R)-1-(2-fluorophenyl)ethylamine + acetone",
+        "native_conditions": {
+          "T_K": 308.15,
+          "pH": 8,
+          "HEPES_M": 0.1,
+          "PLP_M": 0.001,
+          "isopropylamine_M_range": [
+            0.125,
+            0.5
+          ],
+          "methanol_volume_fraction": 0.1
+        },
+        "reason": "Neither product-crystallization yields nor a native mixed-solvent apparent ratio is a fixed aqueous-target standard Gibbs label. Supporting-Information definition, uncertainty and temperature/solvent transfer remain unresolved."
+      },
+      "measurement_independence_verified": false,
+      "standard_G_reference_admitted": false,
+      "predictions_or_residuals_consulted": false
+    },
+    {
+      "doi": "10.1002/ijch.202200065",
+      "primary_URL": "https://onlinelibrary.wiley.com/doi/10.1002/ijch.202200065",
+      "access_level": "primary_abstract; full_text_and_SI_not_owned",
+      "status": "candidate_azido_sugar_equilibria_methods_and_identity_pending",
+      "metadata_entry_ids": [],
+      "metadata_conditions": [],
+      "facts": {
+        "first_online": "2022-11-02",
+        "journal_year": 2023,
+        "primary_scope": "Arabidopsis UDP epimerases interconvert UDP-GalNAz and UDP-GlcNAz. Potential chemical-state/stereochemistry capability study only.",
+        "SI_filename": "ijch202200065-sup-0001-misc_information.pdf",
+        "SI_access": "Publisher download returned 403. Author-page web retrieval timed out; Python HTTPS certificate verification also failed. No TLS verification or access controls were bypassed.",
+        "reason": "No authenticated equilibrium value, assay conditions or thermodynamic-label ancestry yet. Azide presence alone does not certify the frozen unfamiliar-chemistry criterion, independence, or an advantage."
+      },
+      "measurement_independence_verified": false,
+      "standard_G_reference_admitted": false,
+      "predictions_or_residuals_consulted": false
+    }
+  ],
+  "new_primary_references_admitted": 0,
+  "new_predictions_performed": false,
+  "legacy_labels_or_predictions_changed": false,
+  "scope": "Primary-source/metadata triage and authenticated native arithmetic. Held entries are not completed condition transfers or benchmark references; no model outcome selection."
+}

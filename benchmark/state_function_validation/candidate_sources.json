@@ -12,12 +12,15 @@
         14230,
         14231
       ],
-      "status": "candidate_only",
+      "status": "held_Haldane_consistency_conditions_and_lineage",
       "independent_source_verified": false,
-      "dGbyG_overlap": "unresolved",
-      "condition_eligibility": "unresolved",
-      "prior_exposure": "SABIO metadata and source identities screened in October 2026; not an untouched source discovery; no new outcome values inspected in this work",
-      "possible_tecr_reference_count_by_token": 0
+      "dGbyG_overlap": "Measurement ancestry unresolved; named equation matches, where recorded, are not proof of measurement duplication.",
+      "condition_eligibility": "Mutant rows are estimates for one chemical reaction, not independent thermodynamic reactions. Resolve model/uncertainty consistency, condition transfer and comparison-range ancestry before reference construction.",
+      "prior_exposure": "Primary/native-source or abstract/metadata inspection in November 2026 reference curation; no new predictions or model-error selection.",
+      "possible_tecr_reference_count_by_token": 0,
+      "review": "benchmark/independent_reference_review/additional_sources.json",
+      "review_id": "10.1042/BJ20050167",
+      "primary_references_admitted": 0
     },
     {
       "doi": "10.1002/bit.20842",
@@ -27,12 +30,15 @@
         56727,
         56728
       ],
-      "status": "candidate_only",
+      "status": "held_equilibrium_meaning_and_primary_methods_unverified",
       "independent_source_verified": false,
-      "dGbyG_overlap": "unresolved",
-      "condition_eligibility": "unresolved",
-      "prior_exposure": "SABIO metadata and source identities screened in October 2026; not an untouched source discovery; no new outcome values inspected in this work",
-      "possible_tecr_reference_count_by_token": 0
+      "dGbyG_overlap": "Measurement ancestry unresolved; named equation matches, where recorded, are not proof of measurement duplication.",
+      "condition_eligibility": "An intracellular reaction quotient or a borrowed equilibrium constant is not automatically a new equilibrium measurement. Full source and measurement ancestry required; named equation overlap does not itself prove measurement duplication.",
+      "prior_exposure": "Primary/native-source or abstract/metadata inspection in November 2026 reference curation; no new predictions or model-error selection.",
+      "possible_tecr_reference_count_by_token": 0,
+      "review": "benchmark/independent_reference_review/additional_sources.json",
+      "review_id": "10.1002/bit.20842",
+      "primary_references_admitted": 0
     },
     {
       "doi": "10.1021/bi052232m",
@@ -62,12 +68,15 @@
         52632,
         52634
       ],
-      "status": "candidate_only",
+      "status": "held_native_endpoint_assay_conditions_and_ancestry",
       "independent_source_verified": false,
-      "dGbyG_overlap": "unresolved",
-      "condition_eligibility": "unresolved",
-      "prior_exposure": "SABIO metadata and source identities screened in October 2026; not an untouched source discovery; no new outcome values inspected in this work",
-      "possible_tecr_reference_count_by_token": 0
+      "dGbyG_overlap": "Measurement ancestry unresolved; named equation matches, where recorded, are not proof of measurement duplication.",
+      "condition_eligibility": "Authenticate numerical results/uncertainty, approach-to-equilibrium evidence, phase/activity and pH conversion and measurement genealogy. Five enzyme isoforms do not create five independent chemical equations.",
+      "prior_exposure": "Primary/native-source or abstract/metadata inspection in November 2026 reference curation; no new predictions or model-error selection.",
+      "possible_tecr_reference_count_by_token": 0,
+      "review": "benchmark/independent_reference_review/additional_sources.json",
+      "review_id": "10.1074/jbc.M512727200",
+      "primary_references_admitted": 0
     },
     {
       "doi": "10.1271/bbb.70.1102",
@@ -79,12 +88,15 @@
         36036,
         36037
       ],
-      "status": "candidate_only",
+      "status": "held_native_temperature_activity_and_ancestry",
       "independent_source_verified": false,
-      "dGbyG_overlap": "unresolved",
-      "condition_eligibility": "unresolved",
-      "prior_exposure": "SABIO metadata and source identities screened in October 2026; not an untouched source discovery; no new outcome values inspected in this work",
-      "possible_tecr_reference_count_by_token": 0
+      "dGbyG_overlap": "Measurement ancestry unresolved; named equation matches, where recorded, are not proof of measurement duplication.",
+      "condition_eligibility": "No owned transfer from the native temperature range and buffer/activity conditions to the fixed 298.15 K target. Six rows share one chemical equation; source/training ancestry remains unresolved.",
+      "prior_exposure": "Primary/native-source or abstract/metadata inspection in November 2026 reference curation; no new predictions or model-error selection.",
+      "possible_tecr_reference_count_by_token": 0,
+      "review": "benchmark/independent_reference_review/additional_sources.json",
+      "review_id": "10.1271/bbb.70.1102",
+      "primary_references_admitted": 0
     },
     {
       "doi": "10.1002/biot.200600039",
@@ -99,12 +111,15 @@
         41434,
         41435
       ],
-      "status": "candidate_only",
+      "status": "held_primary_methods_mixed_solvent_and_temperature",
       "independent_source_verified": false,
-      "dGbyG_overlap": "unresolved",
-      "condition_eligibility": "unresolved",
-      "prior_exposure": "SABIO metadata and source identities screened in October 2026; not an untouched source discovery; no new outcome values inspected in this work",
-      "possible_tecr_reference_count_by_token": 0
+      "dGbyG_overlap": "Measurement ancestry unresolved; named equation matches, where recorded, are not proof of measurement duplication.",
+      "condition_eligibility": "Verify which native equilibrium quantity and medium belong to each SABIO row. The abstract does not authenticate a condition-matched standard Gibbs reference. Recorded 30 C is metadata only, not a primary-method extraction.",
+      "prior_exposure": "Primary/native-source or abstract/metadata inspection in November 2026 reference curation; no new predictions or model-error selection.",
+      "possible_tecr_reference_count_by_token": 0,
+      "review": "benchmark/independent_reference_review/additional_sources.json",
+      "review_id": "10.1002/biot.200600039",
+      "primary_references_admitted": 0
     },
     {
       "doi": "10.1016/j.bbapap.2008.02.021",
@@ -114,12 +129,15 @@
         51914,
         51915
       ],
-      "status": "candidate_only",
+      "status": "held_primary_methods_temperature_pH_and_Mg",
       "independent_source_verified": false,
-      "dGbyG_overlap": "unresolved",
-      "condition_eligibility": "unresolved",
-      "prior_exposure": "SABIO metadata and source identities screened in October 2026; not an untouched source discovery; no new outcome values inspected in this work",
-      "possible_tecr_reference_count_by_token": 0
+      "dGbyG_overlap": "Measurement ancestry unresolved; named equation matches, where recorded, are not proof of measurement duplication.",
+      "condition_eligibility": "Primary definition, measurement method, uncertainty and Mg/activity conditions require verification. Metadata gives 21 C and pH 7.5; do not call this a 25 C, pH 7 result or infer two independent reaction labels from two proteins.",
+      "prior_exposure": "Primary/native-source or abstract/metadata inspection in November 2026 reference curation; no new predictions or model-error selection.",
+      "possible_tecr_reference_count_by_token": 0,
+      "review": "benchmark/independent_reference_review/additional_sources.json",
+      "review_id": "10.1016/j.bbapap.2008.02.021",
+      "primary_references_admitted": 0
     },
     {
       "doi": "10.1111/febs.14782",
@@ -151,6 +169,34 @@
       "condition_eligibility": "Held: nativepH7.5,I0.12and forward20mM/reverse10mMTEAbuffers; no authenticated transfer to fixed MetaG target.",
       "prior_exposure": "Primary rate/figure values inspected in November2026reference curation; no reaction predictions, residuals or outcome-based selection.",
       "review": "benchmark/gpdh_exchange_reference_review",
+      "primary_references_admitted": 0
+    },
+    {
+      "doi": "10.1021/cbe.4c00186",
+      "entry_ids": [],
+      "pmid": "40302874",
+      "pmc_id": "PMC12035565",
+      "status": "held_mixed_solvent_temperature_and_condition_transfer",
+      "independent_source_verified": false,
+      "condition_eligibility": "Neither product-crystallization yields nor a native mixed-solvent apparent ratio is a fixed aqueous-target standard Gibbs label. Supporting-Information definition, uncertainty and temperature/solvent transfer remain unresolved.",
+      "dGbyG_overlap": "Measurement ancestry unresolved; named equation matches, where recorded, are not proof of measurement duplication.",
+      "prior_exposure": "Primary/native-source or abstract/metadata inspection in November 2026 reference curation; no new predictions or model-error selection.",
+      "review": "benchmark/independent_reference_review/additional_sources.json",
+      "review_id": "10.1021/cbe.4c00186",
+      "primary_references_admitted": 0
+    },
+    {
+      "doi": "10.1002/ijch.202200065",
+      "entry_ids": [],
+      "pmid": null,
+      "pmc_id": null,
+      "status": "candidate_azido_sugar_equilibria_methods_and_identity_pending",
+      "independent_source_verified": false,
+      "condition_eligibility": "No authenticated equilibrium value, assay conditions or thermodynamic-label ancestry yet. Azide presence alone does not certify the frozen unfamiliar-chemistry criterion, independence, or an advantage.",
+      "dGbyG_overlap": "Measurement ancestry unresolved; named equation matches, where recorded, are not proof of measurement duplication.",
+      "prior_exposure": "Primary/native-source or abstract/metadata inspection in November 2026 reference curation; no new predictions or model-error selection.",
+      "review": "benchmark/independent_reference_review/additional_sources.json",
+      "review_id": "10.1002/ijch.202200065",
       "primary_references_admitted": 0
     }
   ],
