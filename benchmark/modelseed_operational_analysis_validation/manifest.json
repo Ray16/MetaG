@@ -1,0 +1,19 @@
+{
+  "schema": "metag-operational-analysis-implementation-v1",
+  "files": {
+    "README.md": {
+      "bytes": 1641,
+      "sha256": "f83a72623991d5b9e1cc1d1799c68effd81a0643772cd78560db5889b35a0c47"
+    },
+    "analysis_source.zip": {
+      "bytes": 8156,
+      "sha256": "2c90b4346d598dad4108475e460e8f30c252ca664031f3e31831e50124c51b1e"
+    },
+    "profile_identity_clarification.json": {
+      "bytes": 5574,
+      "sha256": "38ed9f22cebdff61da7e25fb4594792a6a1d3ccefdd77bcb9f3778f6689e4896"
+    }
+  },
+  "final_population_inference_present": false,
+  "quantum_outputs_selected_using_errors": false
+}
