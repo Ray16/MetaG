@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-05T17:59:12.614941+00:00",
+  "original_run": ".",
+  "recovery_run": "resource_recovery",
+  "original_deadline_utc": "2026-11-05T21:30:08.258397+00:00",
+  "deadline_extended": false,
+  "total_GPU_hour_ceiling": 8,
+  "recomputed_raw_tasks": 115,
+  "selection_and_physics_unchanged": true,
+  "original_outputs_preserved": true,
+  "resource_recovery_protocol_sha256": "3c5a864680bb6e959b737083703e22446ace3b3f5d2d770293974d05a3340721",
+  "resource_recovery_freeze_sha256": "ce124ad1f360fedbe2e02bb4ad087200105b2f576f857106e1325423639264aa"
+}

@@ -1,0 +1,31 @@
+{
+  "utc": "2026-11-05T17:50:47.048211+00:00",
+  "ownership_checks": [
+    {
+      "worker": "worker0",
+      "kind": "owner",
+      "pid": 3732946,
+      "same_live_process": false
+    },
+    {
+      "worker": "worker0",
+      "kind": "predictor",
+      "pid": 3792714,
+      "same_live_process": false
+    },
+    {
+      "worker": "worker1",
+      "kind": "owner",
+      "pid": 3734268,
+      "same_live_process": false
+    },
+    {
+      "worker": "worker1",
+      "kind": "predictor",
+      "pid": 3791194,
+      "same_live_process": false
+    }
+  ],
+  "remaining_marked_predictors": [],
+  "GPU_processes": "GPU-5d07badb-4052-7045-bdc1-c0476709589b, 3745748, 71318 MiB\nGPU-31e42837-2afb-0b14-c287-66eabb51d40e, 3745749, 48920 MiB\nGPU-7313cbc9-b64b-7359-3d2e-e9e6c1b6ef52, 3745750, 63720 MiB\nGPU-7b939bee-465f-2aad-2acd-8cec35064a53, 3745751, 37090 MiB\n"
+}

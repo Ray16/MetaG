@@ -1,0 +1,17 @@
+{
+  "utc": "2026-11-05T18:06:56.890353+00:00",
+  "original_status": "interrupted_due_to_external_GPU_contention",
+  "initial_molecular_records_complete": 6,
+  "initial_execution_failures": 1,
+  "initial_without_complete_result": 2,
+  "unstarted": 106,
+  "initial_outcomes_preserved": true,
+  "selected_source_IDs": 32,
+  "restoration_raw_tasks": 115,
+  "sample_and_physics_bytes_unchanged": true,
+  "original_deadline_utc": "2026-11-05T21:30:08.258397+00:00",
+  "maximum_GPU_hours_shared_across_both_phases": 8,
+  "recovery_quantum_outputs_present": false,
+  "population_inference": "Only for the separately recorded restored operational profile if all restored opportunities finish without resource interruption or common-budget censoring. Original phase remains reported as interrupted.",
+  "experimental_accuracy_evaluated": false
+}

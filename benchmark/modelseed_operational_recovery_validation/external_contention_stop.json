@@ -1,0 +1,44 @@
+[
+  {
+    "worker": "worker0",
+    "owner": {
+      "host": "lambda13",
+      "pid": 3732946,
+      "start_ticks": "201716002",
+      "cpus": [
+        372,
+        373
+      ]
+    },
+    "predictor": {
+      "slot": "raw_5bf171033fac632e",
+      "host": "lambda13",
+      "pid": 3792714,
+      "process_group": 3792714,
+      "start_ticks": "201782507"
+    },
+    "signal": "SIGTERM",
+    "utc": "2026-11-05T17:42:28.265089+00:00"
+  },
+  {
+    "worker": "worker1",
+    "owner": {
+      "host": "lambda13",
+      "pid": 3734268,
+      "start_ticks": "201717536",
+      "cpus": [
+        374,
+        375
+      ]
+    },
+    "predictor": {
+      "slot": "raw_1375b61ee3837b8c",
+      "host": "lambda13",
+      "pid": 3791194,
+      "process_group": 3791194,
+      "start_ticks": "201780318"
+    },
+    "signal": "SIGTERM",
+    "utc": "2026-11-05T17:42:28.266205+00:00"
+  }
+]
