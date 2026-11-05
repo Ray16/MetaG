@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "authenticated_files": 37,
+  "authenticated_raw_records": 596,
+  "validated_minima_reconstructed": 10572,
+  "maximum_raw_partition_difference_kj": 0.0,
+  "common_labels": 112,
+  "independent_common_MAE_kj": {
+    "baseline": 16.678183744158485,
+    "candidate": 17.107155011067544
+  },
+  "production_reference_policy_adopted": false,
+  "experimental_validation_regime": "development_exposed"
+}

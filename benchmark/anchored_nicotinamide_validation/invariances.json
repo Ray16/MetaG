@@ -1,0 +1,3382 @@
+{
+  "reaction_checks": [
+    {
+      "reaction": "rxn03643",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn03643",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn03643",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn03643",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00184",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00184",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00184",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00184",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00499",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00499",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00499",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00499",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00132",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00132",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00132",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00132",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn04082",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn04082",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn04082",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn04082",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01740",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01740",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01740",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01740",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00634",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00634",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00634",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00634",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00543",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00543",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00543",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00543",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00558",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00558",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00558",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00558",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00765",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00765",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00765",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00765",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01746",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01746",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01746",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01746",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01101",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01101",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01101",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01101",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01358",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01358",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01358",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01358",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01362",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01362",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01362",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01362",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00747",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00747",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00747",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00747",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01106",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01106",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01106",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01106",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01201",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01201",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01201",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01201",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00559",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00559",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00559",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00559",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00577",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00577",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00577",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00577",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00191",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00191",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00191",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00191",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00636",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00636",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00636",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00636",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01548",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01548",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01548",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01548",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00992",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00992",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00992",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00992",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00629",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00629",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00629",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00629",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01620",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01620",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01620",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01620",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00799",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00799",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00799",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00799",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01646",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01646",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01646",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01646",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00223",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00223",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00223",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00223",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn31240",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn31240",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn31240",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn31240",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00182",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00182",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00182",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00182",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01407",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01407",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01407",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01407",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00800",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00800",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00800",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00800",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn08430",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn08430",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn08430",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn08430",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn04945",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn04945",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn04945",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn04945",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00278",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00278",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00278",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00278",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00927",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00927",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00927",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00927",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01249",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01249",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01249",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01249",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00260",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00260",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00260",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00260",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00704",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00704",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00704",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00704",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01043",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01043",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01043",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01043",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00248",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00248",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00248",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00248",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00546",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00546",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00546",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00546",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00347",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00347",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00347",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00347",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00131",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00131",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00131",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00131",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00604",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00604",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00604",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00604",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01368",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01368",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01368",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01368",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01333",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01333",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01333",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01333",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00810",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00810",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00810",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00810",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn02749",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn02749",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn02749",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn02749",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00083",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00083",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00083",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00083",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01465",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01465",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01465",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01465",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00816",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00816",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00816",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00816",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01366",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01366",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01366",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01366",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00778",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00778",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00778",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00778",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00906",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00906",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00906",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00906",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00974",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00974",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00974",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00974",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00836",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00836",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00836",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00836",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn02263",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn02263",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn02263",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn02263",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00777",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00777",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00777",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00777",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01790",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01790",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01790",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01790",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00831",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00831",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00831",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00831",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00220",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00220",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00220",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00220",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00459",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00459",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00459",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00459",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00907",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00907",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00907",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00907",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00746",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00746",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00746",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00746",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01116",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01116",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01116",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01116",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn02625",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn02625",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn02625",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn02625",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01626",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01626",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01626",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01626",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00265",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00265",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00265",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00265",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01745",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01745",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01745",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01745",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00007",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00007",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00007",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00007",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01870",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01870",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01870",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01870",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn15750",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn15750",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn15750",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn15750",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01011",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01011",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01011",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01011",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01265",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01265",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01265",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01265",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00838",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00838",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00838",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00838",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00754",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00754",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00754",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00754",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01638",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01638",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01638",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01638",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00915",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00915",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00915",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00915",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00139",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00139",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00139",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00139",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn53944",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn53944",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn53944",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn53944",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01259",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01259",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01259",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01259",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00784",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00784",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00784",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00784",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn45677",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn45677",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn45677",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn45677",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01138",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01138",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01138",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01138",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn40442",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn40442",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn40442",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn40442",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn04943",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn04943",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn04943",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn04943",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01258",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01258",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01258",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01258",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00867",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00867",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00867",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00867",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00781",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00781",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00781",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00781",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00500",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00500",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00500",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00500",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00741",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00741",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00741",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00741",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn44278",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn44278",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn44278",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn44278",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01130",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01130",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01130",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01130",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01392",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01392",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01392",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01392",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00512",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00512",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00512",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00512",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00473",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00473",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00473",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00473",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01306",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01306",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01306",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01306",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00817",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00817",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00817",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00817",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn03886",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn03886",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn03886",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn03886",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00762",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00762",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00762",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00762",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01682",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01682",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01682",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01682",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00562",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00562",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00562",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00562",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01054",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01054",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01054",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01054",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn08948",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn08948",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn08948",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn08948",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01329",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01329",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01329",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01329",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00699",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00699",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00699",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00699",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn39373",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn39373",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn39373",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn39373",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00495",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00495",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00495",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00495",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01099",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01099",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01099",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01099",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn05026",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn05026",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn05026",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn05026",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn03840",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn03840",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn03840",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn03840",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00302",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00302",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00302",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00302",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00611",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00611",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00611",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00611",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn02651",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn02651",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn02651",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn02651",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01597",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01597",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01597",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01597",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01410",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01410",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01410",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01410",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01361",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01361",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01361",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01361",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00234",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00234",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00234",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00234",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn03884",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn03884",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn03884",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn03884",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01137",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01137",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01137",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01137",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00001",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00001",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00001",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00001",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00217",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00217",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00217",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00217",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01292",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01292",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01292",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01292",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn15055",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn15055",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn15055",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn15055",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01336",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01336",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01336",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01336",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00698",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00698",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00698",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00698",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01004",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01004",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01004",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01004",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00195",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00195",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00195",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00195",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00631",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00631",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00631",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00631",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00785",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00785",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00785",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00785",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01985",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01985",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01985",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01985",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01200",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01200",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01200",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01200",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn04684",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn04684",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn04684",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn04684",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01174",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01174",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01174",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01174",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn12188",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn12188",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn12188",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn12188",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00783",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00783",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00783",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00783",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn03644",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn03644",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn03644",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn03644",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn53440",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn53440",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn53440",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn53440",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01018",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01018",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01018",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01018",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01725",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01725",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01725",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01725",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01457",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01457",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01457",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01457",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01080",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01080",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01080",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01080",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn02213",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn02213",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn02213",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn02213",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00493",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00493",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00493",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00493",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn08066",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn08066",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn08066",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn08066",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn02622",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn02622",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn02622",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn02622",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01363",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01363",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01363",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01363",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn02095",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn02095",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn02095",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn02095",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01299",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01299",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01299",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01299",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01621",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01621",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01621",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01621",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00830",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00830",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00830",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00830",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00266",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00266",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00266",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00266",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01887",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01887",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01887",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01887",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00603",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00603",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00603",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00603",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01692",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01692",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01692",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01692",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn16141",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn16141",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn16141",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn16141",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01022",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01022",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01022",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn01022",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00630",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00630",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00630",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn00630",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn12217",
+      "variant": "reverse",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn12217",
+      "variant": "double",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn12217",
+      "variant": "atom_order",
+      "residual_kj": 0.0
+    },
+    {
+      "reaction": "rxn12217",
+      "variant": "species_order",
+      "residual_kj": 0.0
+    }
+  ],
+  "shared_states": 206,
+  "opposite_population_order_checked": true,
+  "available_cycle_basis": [
+    {
+      "coefficients": {
+        "rxn00083": 1,
+        "rxn00182": -1,
+        "rxn00184": 1
+      },
+      "residual_kj": 0.0,
+      "normalized_residual_kj": 0.0
+    },
+    {
+      "coefficients": {
+        "rxn00266": 1
+      },
+      "residual_kj": 0.0,
+      "normalized_residual_kj": 0.0
+    },
+    {
+      "coefficients": {
+        "rxn00182": -1,
+        "rxn00191": -1,
+        "rxn00278": 1
+      },
+      "residual_kj": 0.0,
+      "normalized_residual_kj": 0.0
+    },
+    {
+      "coefficients": {
+        "rxn00083": 1,
+        "rxn00629": -1,
+        "rxn00630": 1
+      },
+      "residual_kj": 0.0,
+      "normalized_residual_kj": 0.0
+    },
+    {
+      "coefficients": {
+        "rxn00182": 1,
+        "rxn00248": -1,
+        "rxn00260": 1,
+        "rxn00347": -1,
+        "rxn00799": 1
+      },
+      "residual_kj": 0.0,
+      "normalized_residual_kj": 0.0
+    },
+    {
+      "coefficients": {
+        "rxn00083": 1,
+        "rxn00906": -1,
+        "rxn00907": 1
+      },
+      "residual_kj": 0.0,
+      "normalized_residual_kj": 0.0
+    },
+    {
+      "coefficients": {
+        "rxn01004": 1
+      },
+      "residual_kj": 0.0,
+      "normalized_residual_kj": 0.0
+    },
+    {
+      "coefficients": {
+        "rxn00248": 1,
+        "rxn00499": -1,
+        "rxn01054": 1
+      },
+      "residual_kj": 0.0,
+      "normalized_residual_kj": 0.0
+    },
+    {
+      "coefficients": {
+        "rxn00131": -1,
+        "rxn00132": 1,
+        "rxn00778": 1,
+        "rxn01138": 1
+      },
+      "residual_kj": 0.0,
+      "normalized_residual_kj": 0.0
+    },
+    {
+      "coefficients": {
+        "rxn00132": -1,
+        "rxn00139": 1,
+        "rxn00831": 1,
+        "rxn00836": -1,
+        "rxn00927": -1,
+        "rxn01299": 1
+      },
+      "residual_kj": 0.0,
+      "normalized_residual_kj": 0.0
+    },
+    {
+      "coefficients": {
+        "rxn00131": -1,
+        "rxn00139": 1,
+        "rxn00778": 1,
+        "rxn00831": 1,
+        "rxn00836": -1,
+        "rxn01358": 1
+      },
+      "residual_kj": 0.0,
+      "normalized_residual_kj": 0.0
+    },
+    {
+      "coefficients": {
+        "rxn00083": -1,
+        "rxn00558": -1,
+        "rxn00603": -1,
+        "rxn03886": 1
+      },
+      "residual_kj": 0.0,
+      "normalized_residual_kj": 0.0
+    },
+    {
+      "coefficients": {
+        "rxn00083": 1,
+        "rxn00217": -1,
+        "rxn04945": 1
+      },
+      "residual_kj": 0.0,
+      "normalized_residual_kj": 0.0
+    },
+    {
+      "coefficients": {
+        "rxn00007": -1,
+        "rxn00220": 1,
+        "rxn00704": 1,
+        "rxn05026": 1
+      },
+      "residual_kj": 0.0,
+      "normalized_residual_kj": 0.0
+    },
+    {
+      "coefficients": {
+        "rxn00220": -1,
+        "rxn00223": -1,
+        "rxn00558": 1,
+        "rxn08430": 1
+      },
+      "residual_kj": 0.0,
+      "normalized_residual_kj": 0.0
+    },
+    {
+      "coefficients": {
+        "rxn00220": -1,
+        "rxn00223": -1,
+        "rxn00558": 1,
+        "rxn00559": -1,
+        "rxn00636": 1,
+        "rxn08948": 1
+      },
+      "residual_kj": 0.0,
+      "normalized_residual_kj": 0.0
+    },
+    {
+      "coefficients": {
+        "rxn00083": 1,
+        "rxn01201": -1,
+        "rxn16141": 1
+      },
+      "residual_kj": 0.0,
+      "normalized_residual_kj": 0.0
+    },
+    {
+      "coefficients": {
+        "rxn00083": -1,
+        "rxn01130": 1,
+        "rxn40442": 1
+      },
+      "residual_kj": 0.0,
+      "normalized_residual_kj": 0.0
+    }
+  ],
+  "scope": "Literal molecular/pool stoichiometry and explicit proton reservoir; not accuracy evidence."
+}

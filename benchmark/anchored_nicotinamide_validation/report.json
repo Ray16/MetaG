@@ -1,0 +1,429 @@
+{
+  "scope": "Development-exposed cached reassembly; not independent validation or production adoption.",
+  "n_requested": 364,
+  "freeze_sha256": "3d751b52e4a1a00a25bce19b3b8bceaadb53ac7b8da43354343fccfc60cfd3a9",
+  "arms": {
+    "full": {
+      "status_counts": {
+        "missing_archived_molecule": 202,
+        "workflow_refusal": 19,
+        "estimated": 143
+      },
+      "conditional_error": {
+        "n": 112,
+        "MAE": 16.678183744158485,
+        "RMSE": 23.418832826550425,
+        "bias": -10.003706910716007,
+        "n_abs_error_gt20": 31
+      },
+      "zero_same_targets": {
+        "n": 112,
+        "MAE": 12.154464285714285,
+        "RMSE": 15.729021402672014,
+        "bias": -5.850357142857143,
+        "n_abs_error_gt20": 23
+      }
+    },
+    "anchored": {
+      "status_counts": {
+        "missing_archived_molecule": 185,
+        "workflow_refusal": 19,
+        "estimated": 160
+      },
+      "conditional_error": {
+        "n": 123,
+        "MAE": 7.938009015324081,
+        "RMSE": 10.644684657467982,
+        "bias": -0.021731722270047382,
+        "n_abs_error_gt20": 4
+      },
+      "zero_same_targets": {
+        "n": 123,
+        "MAE": 12.563739837398373,
+        "RMSE": 16.070210687626822,
+        "bias": -6.5321951219512195,
+        "n_abs_error_gt20": 27
+      }
+    }
+  },
+  "paired_common": {
+    "full": {
+      "n": 112,
+      "MAE": 16.678183744158485,
+      "RMSE": 23.418832826550425,
+      "bias": -10.003706910716007,
+      "n_abs_error_gt20": 31
+    },
+    "anchored": {
+      "n": 112,
+      "MAE": 7.9362908034874895,
+      "RMSE": 10.753986186187733,
+      "bias": 0.09573291561230057,
+      "n_abs_error_gt20": 4
+    },
+    "zero": {
+      "n": 112,
+      "MAE": 12.154464285714285,
+      "RMSE": 15.729021402672014,
+      "bias": -5.850357142857143,
+      "n_abs_error_gt20": 23
+    }
+  },
+  "paired_affected": {
+    "full": {
+      "n": 29,
+      "MAE": 40.895898848937925,
+      "RMSE": 41.829492902846354,
+      "bias": -38.17994706302137,
+      "n_abs_error_gt20": 28
+    },
+    "anchored": {
+      "n": 29,
+      "MAE": 7.134105422898205,
+      "RMSE": 8.844664215506214,
+      "bias": 0.8247860593500222,
+      "n_abs_error_gt20": 1
+    },
+    "zero": {
+      "n": 29,
+      "MAE": 20.83586206896552,
+      "RMSE": 23.451920147840553,
+      "bias": -19.035862068965518,
+      "n_abs_error_gt20": 14
+    }
+  },
+  "paired_unaffected": {
+    "full": {
+      "n": 83,
+      "MAE": 8.216572442488564,
+      "RMSE": 11.345603706992238,
+      "bias": -0.15899649605509614,
+      "n_abs_error_gt20": 3
+    },
+    "anchored": {
+      "n": 83,
+      "MAE": 8.216572442488564,
+      "RMSE": 11.345603706992238,
+      "bias": -0.15899649605509614,
+      "n_abs_error_gt20": 3
+    },
+    "zero": {
+      "n": 83,
+      "MAE": 9.121204819277107,
+      "RMSE": 11.902845969291322,
+      "bias": -1.2433734939759036,
+      "n_abs_error_gt20": 9
+    }
+  },
+  "paired_by_EC": {
+    "1": {
+      "full": {
+        "n": 30,
+        "MAE": 39.85727635882717,
+        "RMSE": 41.164831815855834,
+        "bias": -37.23185629910784,
+        "n_abs_error_gt20": 28
+      },
+      "anchored": {
+        "n": 30,
+        "MAE": 7.2208760469887805,
+        "RMSE": 8.87586240228442,
+        "bias": 0.47271905251783897,
+        "n_abs_error_gt20": 1
+      },
+      "zero": {
+        "n": 30,
+        "MAE": 20.226666666666667,
+        "RMSE": 23.062478762411178,
+        "bias": -18.316,
+        "n_abs_error_gt20": 14
+      }
+    },
+    "2": {
+      "full": {
+        "n": 21,
+        "MAE": 10.077674264963107,
+        "RMSE": 11.536498490860634,
+        "bias": 3.4850297040091496,
+        "n_abs_error_gt20": 0
+      },
+      "anchored": {
+        "n": 21,
+        "MAE": 10.077674264963107,
+        "RMSE": 11.536498490860634,
+        "bias": 3.4850297040091496,
+        "n_abs_error_gt20": 0
+      },
+      "zero": {
+        "n": 21,
+        "MAE": 9.82952380952381,
+        "RMSE": 12.915862893578357,
+        "bias": -4.974285714285714,
+        "n_abs_error_gt20": 3
+      }
+    },
+    "3": {
+      "full": {
+        "n": 17,
+        "MAE": 7.749555269675212,
+        "RMSE": 10.832957359010253,
+        "bias": -3.2934616351718984,
+        "n_abs_error_gt20": 2
+      },
+      "anchored": {
+        "n": 17,
+        "MAE": 7.749555269675212,
+        "RMSE": 10.832957359010253,
+        "bias": -3.2934616351718984,
+        "n_abs_error_gt20": 2
+      },
+      "zero": {
+        "n": 17,
+        "MAE": 9.75,
+        "RMSE": 11.33186683130158,
+        "bias": 8.647647058823528,
+        "n_abs_error_gt20": 1
+      }
+    },
+    "4": {
+      "full": {
+        "n": 23,
+        "MAE": 8.010668911732298,
+        "RMSE": 9.017059881647345,
+        "bias": 3.437211708050454,
+        "n_abs_error_gt20": 0
+      },
+      "anchored": {
+        "n": 23,
+        "MAE": 8.010668911732298,
+        "RMSE": 9.017059881647345,
+        "bias": 3.437211708050454,
+        "n_abs_error_gt20": 0
+      },
+      "zero": {
+        "n": 23,
+        "MAE": 12.354782608695654,
+        "RMSE": 15.140439371029695,
+        "bias": -6.937391304347826,
+        "n_abs_error_gt20": 5
+      }
+    },
+    "5": {
+      "full": {
+        "n": 20,
+        "MAE": 4.318897894446738,
+        "RMSE": 5.182380849648472,
+        "bias": -2.073539186246693,
+        "n_abs_error_gt20": 0
+      },
+      "anchored": {
+        "n": 20,
+        "MAE": 4.318897894446738,
+        "RMSE": 5.182380849648472,
+        "bias": -2.073539186246693,
+        "n_abs_error_gt20": 0
+      },
+      "zero": {
+        "n": 20,
+        "MAE": 4.12,
+        "RMSE": 5.2223031317609285,
+        "bias": 1.351,
+        "n_abs_error_gt20": 0
+      }
+    },
+    "6": {
+      "full": {
+        "n": 1,
+        "MAE": 58.24134657345395,
+        "RMSE": 58.24134657345395,
+        "bias": -58.24134657345395,
+        "n_abs_error_gt20": 1
+      },
+      "anchored": {
+        "n": 1,
+        "MAE": 58.24134657345395,
+        "RMSE": 58.24134657345395,
+        "bias": -58.24134657345395,
+        "n_abs_error_gt20": 1
+      },
+      "zero": {
+        "n": 1,
+        "MAE": 15.77,
+        "RMSE": 15.77,
+        "bias": -15.77,
+        "n_abs_error_gt20": 0
+      }
+    }
+  },
+  "common_ids": [
+    "rxn00007",
+    "rxn00132",
+    "rxn00139",
+    "rxn00191",
+    "rxn00195",
+    "rxn00217",
+    "rxn00234",
+    "rxn00248",
+    "rxn00260",
+    "rxn00265",
+    "rxn00266",
+    "rxn00302",
+    "rxn00459",
+    "rxn00493",
+    "rxn00499",
+    "rxn00500",
+    "rxn00512",
+    "rxn00543",
+    "rxn00559",
+    "rxn00562",
+    "rxn00611",
+    "rxn00698",
+    "rxn00699",
+    "rxn00741",
+    "rxn00746",
+    "rxn00747",
+    "rxn00754",
+    "rxn00762",
+    "rxn00777",
+    "rxn00778",
+    "rxn00781",
+    "rxn00783",
+    "rxn00784",
+    "rxn00785",
+    "rxn00799",
+    "rxn00800",
+    "rxn00810",
+    "rxn00816",
+    "rxn00817",
+    "rxn00830",
+    "rxn00831",
+    "rxn00836",
+    "rxn00838",
+    "rxn00906",
+    "rxn00915",
+    "rxn00927",
+    "rxn00974",
+    "rxn00992",
+    "rxn01004",
+    "rxn01011",
+    "rxn01018",
+    "rxn01022",
+    "rxn01054",
+    "rxn01080",
+    "rxn01099",
+    "rxn01101",
+    "rxn01106",
+    "rxn01116",
+    "rxn01138",
+    "rxn01174",
+    "rxn01200",
+    "rxn01201",
+    "rxn01258",
+    "rxn01259",
+    "rxn01292",
+    "rxn01299",
+    "rxn01329",
+    "rxn01333",
+    "rxn01336",
+    "rxn01358",
+    "rxn01361",
+    "rxn01363",
+    "rxn01366",
+    "rxn01407",
+    "rxn01410",
+    "rxn01457",
+    "rxn01465",
+    "rxn01548",
+    "rxn01597",
+    "rxn01620",
+    "rxn01621",
+    "rxn01626",
+    "rxn01638",
+    "rxn01646",
+    "rxn01682",
+    "rxn01692",
+    "rxn01725",
+    "rxn01745",
+    "rxn01746",
+    "rxn01870",
+    "rxn01985",
+    "rxn02095",
+    "rxn02213",
+    "rxn02622",
+    "rxn02651",
+    "rxn02749",
+    "rxn03643",
+    "rxn03644",
+    "rxn03884",
+    "rxn04082",
+    "rxn04684",
+    "rxn04943",
+    "rxn05026",
+    "rxn08948",
+    "rxn12217",
+    "rxn15055",
+    "rxn15750",
+    "rxn31240",
+    "rxn39373",
+    "rxn40442",
+    "rxn44278",
+    "rxn53440"
+  ],
+  "affected_ids": [
+    "rxn00217",
+    "rxn00248",
+    "rxn00499",
+    "rxn00500",
+    "rxn00512",
+    "rxn00543",
+    "rxn00611",
+    "rxn00741",
+    "rxn00762",
+    "rxn00781",
+    "rxn00810",
+    "rxn00906",
+    "rxn00992",
+    "rxn01011",
+    "rxn01101",
+    "rxn01174",
+    "rxn01201",
+    "rxn01336",
+    "rxn01361",
+    "rxn01363",
+    "rxn01407",
+    "rxn01597",
+    "rxn01692",
+    "rxn01725",
+    "rxn02095",
+    "rxn02651",
+    "rxn04943",
+    "rxn39373",
+    "rxn40442"
+  ],
+  "gained_requests": [
+    "rxn00083",
+    "rxn00184",
+    "rxn00603",
+    "rxn00604",
+    "rxn00630",
+    "rxn00631",
+    "rxn00765",
+    "rxn00907",
+    "rxn01043",
+    "rxn01130",
+    "rxn01249",
+    "rxn01392",
+    "rxn01740",
+    "rxn01790",
+    "rxn01887",
+    "rxn04945",
+    "rxn16141"
+  ],
+  "lost_requests": [],
+  "n_cycles": 18,
+  "n_reaction_checks": 640,
+  "maximum_cycle_residual_kj": 0.0,
+  "production_policy_adopted": false,
+  "independent_primary_labels_admitted": 0,
+  "limitation": "The full oxidized anchor cancels within a family but is unvalidated in scaffold synthesis/exchange; omitted spectator interactions are not zero by construction."
+}

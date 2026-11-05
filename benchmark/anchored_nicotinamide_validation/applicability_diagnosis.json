@@ -1,0 +1,337 @@
+{
+  "utc": "2026-11-05T08:43:24.710361+00:00",
+  "timing": "Post-outcome applicability diagnosis; not part of the frozen primary comparison and not used to select a reference.",
+  "affected_estimated": 52,
+  "anchor_cancelling_estimates": 52,
+  "anchor_retaining_estimates": 0,
+  "anchor_retaining_label_count": 0,
+  "rows": [
+    {
+      "reaction": "rxn00184",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": false
+    },
+    {
+      "reaction": "rxn00499",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn01740",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn00634",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": false
+    },
+    {
+      "reaction": "rxn00543",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn00765",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": false
+    },
+    {
+      "reaction": "rxn01101",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn01201",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn00992",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn00629",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": false
+    },
+    {
+      "reaction": "rxn00182",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": false
+    },
+    {
+      "reaction": "rxn01407",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn04945",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn00278",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": false
+    },
+    {
+      "reaction": "rxn01249",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn01043",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn00248",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn00546",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": false
+    },
+    {
+      "reaction": "rxn00604",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": false
+    },
+    {
+      "reaction": "rxn00810",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn00083",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn00906",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn01790",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn00907",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn01011",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn40442",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn04943",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn00781",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn00500",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn00741",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn01130",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn01392",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn00512",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn03886",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": false
+    },
+    {
+      "reaction": "rxn00762",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn39373",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn00611",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn02651",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn01597",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn01361",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn00217",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn01336",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn00631",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": false
+    },
+    {
+      "reaction": "rxn01174",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn01725",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn01363",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn02095",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn01887",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn00603",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": false
+    },
+    {
+      "reaction": "rxn01692",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn16141",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": true
+    },
+    {
+      "reaction": "rxn00630",
+      "full_anchor_cancels": true,
+      "uncancelled_anchor_terms": [],
+      "experimental_label_available": false
+    }
+  ],
+  "retained_direct_full_contrasts": [
+    {
+      "target_smiles": "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+      "local_minus_direct_full_kj": 41.89397261291742,
+      "scope": "Approximation discrepancy on this retained full reference; not a measured error, fitted offset or proof of negligible spectator coupling."
+    }
+  ],
+  "transhydrogenase": {
+    "reaction": "rxn00083",
+    "prediction_kj": 9.313225746154785e-10,
+    "sampling_sigma_kj": 0.0,
+    "development_label_kj": -3.92,
+    "interpretation": "Identical methyl-core transfer in the two distinct full scaffolds makes their redox differences equal; zero conditional sampling spread omits scaffold-specific physical error. No experimental equality is implied."
+  },
+  "production_policy_adopted": false
+}

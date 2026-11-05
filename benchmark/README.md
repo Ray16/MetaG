@@ -11,6 +11,12 @@ retains a candidate that worsens common-target error, all 596 raw records and a
 separate successful minimum-resolver repair. Its available-bank assemblies and
 cycle checks are not genome-scale coverage or independent experimental validation.
 
+The [molecule-local nicotinamide anchor study](anchored_nicotinamide_validation/README.md)
+retains a separate atom/charge-balanced approximation that improves matched development
+errors while passing all available cycle checks. Every successful affected reaction
+cancels its full reference, so scaffold synthesis and exchange remain unvalidated.
+This research candidate does not change the production estimator.
+
 The [released-ensemble uncertainty comparison](native_uncertainty_validation/README.md)
 retains all 100 checkpoint-member sums on the same 69 development reactions and
 checks equal-coverage rankings against native ensemble spread. This is distinct

@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "utc": "2026-11-05T08:40:12.509147+00:00",
+  "scope": "Development-exposed model hypothesis; all prior errors known; not prospective or independent validation.",
+  "hypothesis": "A fixed oxidized full-scaffold reference and methyl-nicotinamide redox transfer can retain useful local redox estimates while assigning one potential per molecular input.",
+  "equation": "Ghat(reference-red)=G(full-oxidized-sibling)+G(methyl-red-core)-G(methyl-oxidized-core)",
+  "selection": "Single N-ribosyl 1,4-dihydronicotinamide with primary amide; exact same atom-index spectators, stereochemistry and phosphate state; no reaction or label routing. Other molecules retain the full reference policy.",
+  "reference_choice": "Oxidized sibling fixed by ring oxidation, not energy or label comparison. No fitted constants, regression, cycle projection, amino-acid model changes, extra counterions or solvent changes.",
+  "sampling": "Expand each virtual molecular energy into shared raw primitives and combine derivatives before quadrature. This excludes locality, protonation and solvation model error.",
+  "conditions": "Inherited full-molecule v2 T298.15K,pH7,I0,noMg,1Msolute,wateractivity1; unsupported declarations refused.",
+  "arms": [
+    "full_molecule_v2_on_catalog596",
+    "anchored_nicotinamide_on_same_catalog596"
+  ],
+  "outcomes": [
+    "All364requests and mutually exclusive status categories",
+    "Conditional all-available and paired-common MAE/RMSE/bias/>20errors versus zero",
+    "Affected/unaffected and first-EC strata",
+    "Gained/lost request IDs",
+    "Shared state signatures across reactions and independent opposite-order population",
+    "Reversal, extent2, atomorder, speciesorder invariance on all successful candidate requests",
+    "Complete nullspace closure for available literal-input/pool stoichiometry including explicit protons"
+  ],
+  "thresholds": {
+    "invariance_kj": 1e-07,
+    "sampling_invariance_kj": 1e-08
+  },
+  "adoption_rule": "No production promotion from development MAE. A locality approximation requires external evidence for redox and scaffold exchange/biosynthesis; remaining routes also require consistent repair.",
+  "failure_policy": "No missing-reference fallback to the previous context-dependent route; retain all missing/unsupported requests. No label removal based on prediction or error.",
+  "external_labels": "Zero new independent labels admitted. Existing Mg-bounded labels are development exposed and condition-approximated. No confirmatory p-values.",
+  "resources": "Pure owned-record CPU reassembly on CPU79, native threads1, no GPU or quantum recomputation; no fleet submission."
+}

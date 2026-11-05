@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "scope": "Development-exposed oxidized-anchor approximation; not production or independent validation.",
+  "files": {
+    ".gitattributes": {
+      "bytes": 18,
+      "sha256": "553055c255c7bcf9a28336f4a4f6443aaaa172ed202e454b416b4fd3ff3e2d5e"
+    },
+    ".gitignore": {
+      "bytes": 13,
+      "sha256": "32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b"
+    },
+    "README.md": {
+      "bytes": 2570,
+      "sha256": "623b7f128a580c236bfb6bec67675abc4ad4d6895f6664bf8e344b78754c649b"
+    },
+    "anchored_nicotinamide.py": {
+      "bytes": 7615,
+      "sha256": "3497d4cd7b9b455b9a331ef255786621fe0737c498bd9a743f1ffdbfcdf57091"
+    },
+    "applicability_diagnosis.json": {
+      "bytes": 9462,
+      "sha256": "a04335a1f1cab3fe681c892215f257b36ecdf5c53149a5bbd3616984455488c1"
+    },
+    "assembly_complete.json": {
+      "bytes": 124,
+      "sha256": "10ee96410a2de8d11463ddb002a122505c0fe8a0cd53055dd4d1cd09202bdfbe"
+    },
+    "audit_anchored_nicotinamide.py": {
+      "bytes": 9417,
+      "sha256": "735499e257830ee5e957ab3d8d176b7e82d6aed752f94d5b49a10f7f40bf9753"
+    },
+    "freeze.json": {
+      "bytes": 1458,
+      "sha256": "3d751b52e4a1a00a25bce19b3b8bceaadb53ac7b8da43354343fccfc60cfd3a9"
+    },
+    "global_amino_reference.py": {
+      "bytes": 8591,
+      "sha256": "f3197b0ec8f3ddeafed8e86bc38c4fa909b1acd651b2663829afba6644c43f9a"
+    },
+    "invariances.json": {
+      "bytes": 66404,
+      "sha256": "e54892c0f16de2ab01d72332fc0f60f071549596cc5690e5488ab7ec61321f28"
+    },
+    "outcomes.zip": {
+      "bytes": 1453539,
+      "sha256": "0e6f8bf40bfbca4296b6e83d22f28dceea73ef9163e17c3c76bd6aff1fba1a6c"
+    },
+    "protocol.json": {
+      "bytes": 2663,
+      "sha256": "5db8c2594b5dfafaf74760cb44f39b6406bc2ea64a7dd37f2a63b2c5aaa967ca"
+    },
+    "raw_record_audit.json": {
+      "bytes": 420,
+      "sha256": "88a752dd3d2899d900d9f831a1dd840efbc73d55b0785b47301983d6ca16128e"
+    },
+    "report.json": {
+      "bytes": 9137,
+      "sha256": "7cf9e26a4647ddb8d5de6de18df5e53ef1b6f25668c09d373ca6d26b3bef6ecf"
+    },
+    "run_study.py": {
+      "bytes": 12150,
+      "sha256": "b2aff12c6d56fb95a61124b2019d79385796bb8c643363eedf4820be16fb2745"
+    }
+  }
+}

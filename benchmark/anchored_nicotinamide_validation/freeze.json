@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-05T08:40:12.511123+00:00",
+  "source_commit": "412eb02bfa7931378bddcf11e6e371ff6a77b329",
+  "local_files_sha256": {
+    "protocol.json": "5db8c2594b5dfafaf74760cb44f39b6406bc2ea64a7dd37f2a63b2c5aaa967ca",
+    "run_study.py": "b2aff12c6d56fb95a61124b2019d79385796bb8c643363eedf4820be16fb2745",
+    "anchored_nicotinamide.py": "3497d4cd7b9b455b9a331ef255786621fe0737c498bd9a743f1ffdbfcdf57091"
+  },
+  "dependency_files_sha256": {
+    "catalog596.json": "56d4a56b3904c86ece3fd181a1b28f78fb5af366c60e2d0e659b682c11afd94d",
+    "raw_settings.json": "aa2c2f0a817f8e462ea92cdd82b896ff60cfd27e922135350aaac2594e9517ab",
+    "inputs.json": "69a54e6887cffffb53b25577f2cbc330acdfa78aae33bad726ec11f653f01d30",
+    "reference.json": "b13103bbf063d3790a31a424bb108919ace0bd6cabb18d012684389e37e9c812",
+    "outcomes.zip": "b9fc3bad3e67f95e1d710404f2d05b2367230e38713b04f1a101212a96195b66",
+    "assembly_source.zip": "8234becd312842ee9861675b837fb8ec962e1ae1eb3ac48735beefa4dd19fe79",
+    "raw_records.zip": "293f1aa00b097fb4b877a16121a347994424b1fc652bd9b490242b9c5aa6b810",
+    "manifest.json": "c61d6a8672938a1f794a0fdd8d80f1c1e7124a54316c05e3c8701532c6d77f46",
+    "comparison_report.json": "47183b9b6640e9fdf4b7ca63edf38ab9e1118400af44e2d35ccbb31e4023c30a",
+    "invariances596.json": "cbe40aa418a54a7d3990fdb1d3393928a1df8909906eccc0b893536e589f5a8a"
+  },
+  "candidate_errors_not_yet_evaluated": true,
+  "prior_development_errors_known": true
+}
