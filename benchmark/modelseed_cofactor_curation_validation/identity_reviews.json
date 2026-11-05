@@ -1,0 +1,1150 @@
+{
+  "cpd00003": {
+    "atom_mapping": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "17": 17,
+      "18": 18,
+      "19": 19,
+      "20": 20,
+      "21": 21,
+      "22": 22,
+      "23": 23,
+      "24": 24,
+      "25": 25,
+      "26": 26,
+      "27": 27,
+      "28": 28,
+      "29": 29,
+      "30": 30,
+      "31": 31,
+      "32": 32,
+      "33": 33,
+      "34": 34,
+      "35": 35,
+      "36": 36,
+      "37": 37,
+      "38": 38,
+      "39": 39,
+      "40": 40,
+      "41": 41,
+      "42": 42,
+      "43": 43
+    },
+    "changed_atoms": [
+      {
+        "source_index": 0,
+        "target_index": 0,
+        "element": "N",
+        "source_charge": 0,
+        "target_charge": 0,
+        "source_hydrogens": 1,
+        "target_hydrogens": 2
+      },
+      {
+        "source_index": 2,
+        "target_index": 2,
+        "element": "O",
+        "source_charge": -1,
+        "target_charge": 0,
+        "source_hydrogens": 0,
+        "target_hydrogens": 0
+      },
+      {
+        "source_index": 31,
+        "target_index": 31,
+        "element": "N",
+        "source_charge": 1,
+        "target_charge": 0,
+        "source_hydrogens": 1,
+        "target_hydrogens": 0
+      }
+    ],
+    "changed_bonds": [
+      {
+        "source_atoms": [
+          0,
+          1
+        ],
+        "target_atoms": [
+          0,
+          1
+        ],
+        "source_order": "DOUBLE",
+        "target_order": "SINGLE"
+      },
+      {
+        "source_atoms": [
+          1,
+          2
+        ],
+        "target_atoms": [
+          1,
+          2
+        ],
+        "source_order": "SINGLE",
+        "target_order": "DOUBLE"
+      }
+    ],
+    "source_canonical": "N=C([O-])c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)[nH+]cnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)c1",
+    "target_canonical": "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)c1",
+    "source_formula": "C21H26N7O14P2-",
+    "target_formula": "C21H26N7O14P2-",
+    "source_charge": -1,
+    "target_charge": -1,
+    "delta_H": 0,
+    "delta_charge": 0,
+    "declared_carbon_stereocenters_preserved": 8,
+    "energy_equivalence_established": false,
+    "scope": "Explicit source-identity curation; heavy connectivity, carbon stereo and proton accounting only.",
+    "source_stereochemistry": {
+      "policy": "2026-10-12-declared-stereo-v2",
+      "rdkit_version": "2026.03.5",
+      "status": "unresolved",
+      "canonical_isomeric_smiles": "N=C([O-])c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)[nH+]cnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)c1",
+      "phosphate_resonance_normalized_for_perception": [
+        13,
+        17
+      ],
+      "phosphate_prototropy_equivalent_for_perception": [],
+      "unresolved": [
+        {
+          "kind": "Bond_Double",
+          "index": 0,
+          "specified": "Unspecified",
+          "atom_indices": [
+            0,
+            1
+          ]
+        }
+      ],
+      "specified": [
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 8,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 10,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 22,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 24,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 35,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 37,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 39,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 41,
+          "specified": "Specified"
+        }
+      ],
+      "unsupported": [],
+      "relative_stereo_groups": [],
+      "issues": [
+        "unspecified_stereochemistry"
+      ],
+      "scope": "Declared tetrahedral and double-bond stereochemistry only; no isomer assignment, mixture inference or completeness claim."
+    },
+    "target_stereochemistry": {
+      "policy": "2026-10-12-declared-stereo-v2",
+      "rdkit_version": "2026.03.5",
+      "status": "no_unresolved_detected",
+      "canonical_isomeric_smiles": "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)c1",
+      "phosphate_resonance_normalized_for_perception": [
+        13,
+        17
+      ],
+      "phosphate_prototropy_equivalent_for_perception": [],
+      "unresolved": [],
+      "specified": [
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 8,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 10,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 22,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 24,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 35,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 37,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 39,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 41,
+          "specified": "Specified"
+        }
+      ],
+      "unsupported": [],
+      "relative_stereo_groups": [],
+      "issues": [],
+      "scope": "Declared tetrahedral and double-bond stereochemistry only; no isomer assignment, mixture inference or completeness claim."
+    },
+    "target_plan": {
+      "input_charge": -1,
+      "input_smiles": "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)c1",
+      "reference_charge": 1,
+      "reference_smiles": "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)c1",
+      "proton_exchange": -2,
+      "pka_sites": [
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation",
+          "reference_retains_charge"
+        ],
+        "reference_smiles": "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)c1",
+        "reference_charge": 1,
+        "acid_pkas": [
+          1.5,
+          1.5
+        ],
+        "base_pkas": []
+      }
+    },
+    "benchmark_identity_matches_primary_sources": true,
+    "source_declared_inchikey": "BAWFJGJZGIEFAR-NNYOXOHSSA-M",
+    "source_computed_inchikey": "BAWFJGJZGIEFAR-NNYOXOHSSA-M"
+  },
+  "cpd00004": {
+    "atom_mapping": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "17": 17,
+      "18": 18,
+      "19": 19,
+      "20": 20,
+      "21": 21,
+      "22": 22,
+      "23": 23,
+      "24": 24,
+      "25": 25,
+      "26": 26,
+      "27": 27,
+      "28": 28,
+      "29": 29,
+      "30": 30,
+      "31": 31,
+      "32": 32,
+      "33": 33,
+      "34": 34,
+      "35": 35,
+      "36": 36,
+      "37": 37,
+      "38": 38,
+      "39": 39,
+      "40": 40,
+      "41": 41,
+      "42": 42,
+      "43": 43
+    },
+    "changed_atoms": [
+      {
+        "source_index": 0,
+        "target_index": 0,
+        "element": "N",
+        "source_charge": 0,
+        "target_charge": 0,
+        "source_hydrogens": 1,
+        "target_hydrogens": 2
+      },
+      {
+        "source_index": 2,
+        "target_index": 2,
+        "element": "O",
+        "source_charge": -1,
+        "target_charge": 0,
+        "source_hydrogens": 0,
+        "target_hydrogens": 0
+      }
+    ],
+    "changed_bonds": [
+      {
+        "source_atoms": [
+          0,
+          1
+        ],
+        "target_atoms": [
+          0,
+          1
+        ],
+        "source_order": "DOUBLE",
+        "target_order": "SINGLE"
+      },
+      {
+        "source_atoms": [
+          1,
+          2
+        ],
+        "target_atoms": [
+          1,
+          2
+        ],
+        "source_order": "SINGLE",
+        "target_order": "DOUBLE"
+      }
+    ],
+    "source_canonical": "N=C([O-])C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+    "target_canonical": "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+    "source_formula": "C21H26N7O14P2-3",
+    "target_formula": "C21H27N7O14P2-2",
+    "source_charge": -3,
+    "target_charge": -2,
+    "delta_H": 1,
+    "delta_charge": 1,
+    "declared_carbon_stereocenters_preserved": 8,
+    "energy_equivalence_established": false,
+    "scope": "Explicit source-identity curation; heavy connectivity, carbon stereo and proton accounting only.",
+    "source_stereochemistry": {
+      "policy": "2026-10-12-declared-stereo-v2",
+      "rdkit_version": "2026.03.5",
+      "status": "unresolved",
+      "canonical_isomeric_smiles": "N=C([O-])C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+      "phosphate_resonance_normalized_for_perception": [
+        11,
+        15
+      ],
+      "phosphate_prototropy_equivalent_for_perception": [],
+      "unresolved": [
+        {
+          "kind": "Bond_Double",
+          "index": 0,
+          "specified": "Unspecified",
+          "atom_indices": [
+            0,
+            1
+          ]
+        }
+      ],
+      "specified": [
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 6,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 8,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 20,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 22,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 33,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 35,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 37,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 39,
+          "specified": "Specified"
+        }
+      ],
+      "unsupported": [],
+      "relative_stereo_groups": [],
+      "issues": [
+        "unspecified_stereochemistry"
+      ],
+      "scope": "Declared tetrahedral and double-bond stereochemistry only; no isomer assignment, mixture inference or completeness claim."
+    },
+    "target_stereochemistry": {
+      "policy": "2026-10-12-declared-stereo-v2",
+      "rdkit_version": "2026.03.5",
+      "status": "no_unresolved_detected",
+      "canonical_isomeric_smiles": "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+      "phosphate_resonance_normalized_for_perception": [
+        11,
+        15
+      ],
+      "phosphate_prototropy_equivalent_for_perception": [],
+      "unresolved": [],
+      "specified": [
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 6,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 8,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 20,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 22,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 33,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 35,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 37,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 39,
+          "specified": "Specified"
+        }
+      ],
+      "unsupported": [],
+      "relative_stereo_groups": [],
+      "issues": [],
+      "scope": "Declared tetrahedral and double-bond stereochemistry only; no isomer assignment, mixture inference or completeness claim."
+    },
+    "target_plan": {
+      "input_charge": -2,
+      "input_smiles": "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+      "reference_charge": 0,
+      "reference_smiles": "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+      "proton_exchange": -2,
+      "pka_sites": [
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation"
+        ],
+        "reference_smiles": "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+        "reference_charge": 0,
+        "acid_pkas": [
+          1.5,
+          1.5
+        ],
+        "base_pkas": []
+      }
+    },
+    "benchmark_identity_matches_primary_sources": true,
+    "source_declared_inchikey": "BOPGDPNILDQYTO-NNYOXOHSSA-K",
+    "source_computed_inchikey": "BOPGDPNILDQYTO-NNYOXOHSSA-K"
+  },
+  "cpd00005": {
+    "atom_mapping": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "17": 17,
+      "18": 18,
+      "19": 19,
+      "20": 20,
+      "21": 21,
+      "22": 22,
+      "23": 23,
+      "24": 24,
+      "25": 25,
+      "26": 26,
+      "27": 27,
+      "28": 28,
+      "29": 29,
+      "30": 30,
+      "31": 31,
+      "32": 32,
+      "33": 33,
+      "34": 34,
+      "35": 35,
+      "36": 36,
+      "37": 37,
+      "38": 38,
+      "39": 39,
+      "40": 40,
+      "41": 41,
+      "42": 42,
+      "43": 43,
+      "44": 44,
+      "45": 45,
+      "46": 46,
+      "47": 47
+    },
+    "changed_atoms": [
+      {
+        "source_index": 0,
+        "target_index": 0,
+        "element": "N",
+        "source_charge": 0,
+        "target_charge": 0,
+        "source_hydrogens": 1,
+        "target_hydrogens": 2
+      },
+      {
+        "source_index": 2,
+        "target_index": 2,
+        "element": "O",
+        "source_charge": -1,
+        "target_charge": 0,
+        "source_hydrogens": 0,
+        "target_hydrogens": 0
+      }
+    ],
+    "changed_bonds": [
+      {
+        "source_atoms": [
+          0,
+          1
+        ],
+        "target_atoms": [
+          0,
+          1
+        ],
+        "source_order": "DOUBLE",
+        "target_order": "SINGLE"
+      },
+      {
+        "source_atoms": [
+          1,
+          2
+        ],
+        "target_atoms": [
+          1,
+          2
+        ],
+        "source_order": "SINGLE",
+        "target_order": "DOUBLE"
+      }
+    ],
+    "source_canonical": "N=C([O-])C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+    "target_canonical": "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+    "source_formula": "C21H25N7O17P3-5",
+    "target_formula": "C21H26N7O17P3-4",
+    "source_charge": -5,
+    "target_charge": -4,
+    "delta_H": 1,
+    "delta_charge": 1,
+    "declared_carbon_stereocenters_preserved": 8,
+    "energy_equivalence_established": false,
+    "scope": "Explicit source-identity curation; heavy connectivity, carbon stereo and proton accounting only.",
+    "source_stereochemistry": {
+      "policy": "2026-10-12-declared-stereo-v2",
+      "rdkit_version": "2026.03.5",
+      "status": "unresolved",
+      "canonical_isomeric_smiles": "N=C([O-])C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+      "phosphate_resonance_normalized_for_perception": [
+        11,
+        15,
+        35
+      ],
+      "phosphate_prototropy_equivalent_for_perception": [],
+      "unresolved": [
+        {
+          "kind": "Bond_Double",
+          "index": 0,
+          "specified": "Unspecified",
+          "atom_indices": [
+            0,
+            1
+          ]
+        }
+      ],
+      "specified": [
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 6,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 8,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 20,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 22,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 33,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 39,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 41,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 43,
+          "specified": "Specified"
+        }
+      ],
+      "unsupported": [],
+      "relative_stereo_groups": [],
+      "issues": [
+        "unspecified_stereochemistry"
+      ],
+      "scope": "Declared tetrahedral and double-bond stereochemistry only; no isomer assignment, mixture inference or completeness claim."
+    },
+    "target_stereochemistry": {
+      "policy": "2026-10-12-declared-stereo-v2",
+      "rdkit_version": "2026.03.5",
+      "status": "no_unresolved_detected",
+      "canonical_isomeric_smiles": "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+      "phosphate_resonance_normalized_for_perception": [
+        11,
+        15,
+        35
+      ],
+      "phosphate_prototropy_equivalent_for_perception": [],
+      "unresolved": [],
+      "specified": [
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 6,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 8,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 20,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 22,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 33,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 39,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 41,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 43,
+          "specified": "Specified"
+        }
+      ],
+      "unsupported": [],
+      "relative_stereo_groups": [],
+      "issues": [],
+      "scope": "Declared tetrahedral and double-bond stereochemistry only; no isomer assignment, mixture inference or completeness claim."
+    },
+    "target_plan": {
+      "input_charge": -4,
+      "input_smiles": "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+      "reference_charge": 0,
+      "reference_smiles": "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+      "proton_exchange": -4,
+      "pka_sites": [
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "acid",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation"
+        ],
+        "reference_smiles": "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+        "reference_charge": 0,
+        "acid_pkas": [
+          1.5,
+          1.5,
+          1.5,
+          6.5
+        ],
+        "base_pkas": []
+      }
+    },
+    "benchmark_identity_matches_primary_sources": true,
+    "source_declared_inchikey": "ACFIXJIJDZMPPO-NNYOXOHSSA-I",
+    "source_computed_inchikey": "ACFIXJIJDZMPPO-NNYOXOHSSA-I"
+  },
+  "cpd00006": {
+    "atom_mapping": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "17": 17,
+      "18": 18,
+      "19": 19,
+      "20": 20,
+      "21": 21,
+      "22": 22,
+      "23": 23,
+      "24": 24,
+      "25": 25,
+      "26": 26,
+      "27": 27,
+      "28": 28,
+      "29": 29,
+      "30": 30,
+      "31": 31,
+      "32": 32,
+      "33": 33,
+      "34": 34,
+      "35": 35,
+      "36": 36,
+      "37": 37,
+      "38": 38,
+      "39": 39,
+      "40": 40,
+      "41": 41,
+      "42": 42,
+      "43": 43,
+      "44": 44,
+      "45": 45,
+      "46": 46,
+      "47": 47
+    },
+    "changed_atoms": [
+      {
+        "source_index": 0,
+        "target_index": 0,
+        "element": "N",
+        "source_charge": 0,
+        "target_charge": 0,
+        "source_hydrogens": 1,
+        "target_hydrogens": 2
+      },
+      {
+        "source_index": 2,
+        "target_index": 2,
+        "element": "O",
+        "source_charge": -1,
+        "target_charge": 0,
+        "source_hydrogens": 0,
+        "target_hydrogens": 0
+      },
+      {
+        "source_index": 31,
+        "target_index": 31,
+        "element": "N",
+        "source_charge": 1,
+        "target_charge": 0,
+        "source_hydrogens": 1,
+        "target_hydrogens": 0
+      }
+    ],
+    "changed_bonds": [
+      {
+        "source_atoms": [
+          0,
+          1
+        ],
+        "target_atoms": [
+          0,
+          1
+        ],
+        "source_order": "DOUBLE",
+        "target_order": "SINGLE"
+      },
+      {
+        "source_atoms": [
+          1,
+          2
+        ],
+        "target_atoms": [
+          1,
+          2
+        ],
+        "source_order": "SINGLE",
+        "target_order": "DOUBLE"
+      }
+    ],
+    "source_canonical": "N=C([O-])c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)[nH+]cnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)c1",
+    "target_canonical": "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)c1",
+    "source_formula": "C21H25N7O17P3-3",
+    "target_formula": "C21H25N7O17P3-3",
+    "source_charge": -3,
+    "target_charge": -3,
+    "delta_H": 0,
+    "delta_charge": 0,
+    "declared_carbon_stereocenters_preserved": 8,
+    "energy_equivalence_established": false,
+    "scope": "Explicit source-identity curation; heavy connectivity, carbon stereo and proton accounting only.",
+    "source_stereochemistry": {
+      "policy": "2026-10-12-declared-stereo-v2",
+      "rdkit_version": "2026.03.5",
+      "status": "unresolved",
+      "canonical_isomeric_smiles": "N=C([O-])c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)[nH+]cnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)c1",
+      "phosphate_resonance_normalized_for_perception": [
+        13,
+        17,
+        37
+      ],
+      "phosphate_prototropy_equivalent_for_perception": [],
+      "unresolved": [
+        {
+          "kind": "Bond_Double",
+          "index": 0,
+          "specified": "Unspecified",
+          "atom_indices": [
+            0,
+            1
+          ]
+        }
+      ],
+      "specified": [
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 8,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 10,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 22,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 24,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 35,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 41,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 43,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 45,
+          "specified": "Specified"
+        }
+      ],
+      "unsupported": [],
+      "relative_stereo_groups": [],
+      "issues": [
+        "unspecified_stereochemistry"
+      ],
+      "scope": "Declared tetrahedral and double-bond stereochemistry only; no isomer assignment, mixture inference or completeness claim."
+    },
+    "target_stereochemistry": {
+      "policy": "2026-10-12-declared-stereo-v2",
+      "rdkit_version": "2026.03.5",
+      "status": "no_unresolved_detected",
+      "canonical_isomeric_smiles": "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)c1",
+      "phosphate_resonance_normalized_for_perception": [
+        13,
+        17,
+        37
+      ],
+      "phosphate_prototropy_equivalent_for_perception": [],
+      "unresolved": [],
+      "specified": [
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 8,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 10,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 22,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 24,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 35,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 41,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 43,
+          "specified": "Specified"
+        },
+        {
+          "kind": "Atom_Tetrahedral",
+          "index": 45,
+          "specified": "Specified"
+        }
+      ],
+      "unsupported": [],
+      "relative_stereo_groups": [],
+      "issues": [],
+      "scope": "Declared tetrahedral and double-bond stereochemistry only; no isomer assignment, mixture inference or completeness claim."
+    },
+    "target_plan": {
+      "input_charge": -3,
+      "input_smiles": "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)c1",
+      "reference_charge": 1,
+      "reference_smiles": "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1",
+      "proton_exchange": -4,
+      "pka_sites": [
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          1.5,
+          "acid",
+          1.0
+        ],
+        [
+          "prod",
+          6.5,
+          "acid",
+          1.0
+        ]
+      ],
+      "protonation_admission": {
+        "status": "review",
+        "issues": [
+          "aromatic_n_speciation_incomplete",
+          "class_pka_transfer_unvalidated",
+          "multiple_acid_sites_independent_site_approximation",
+          "reference_retains_charge"
+        ],
+        "reference_smiles": "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1",
+        "reference_charge": 1,
+        "acid_pkas": [
+          1.5,
+          1.5,
+          1.5,
+          6.5
+        ],
+        "base_pkas": []
+      }
+    },
+    "benchmark_identity_matches_primary_sources": true,
+    "source_declared_inchikey": "XJLXINKUBYWONI-NNYOXOHSSA-K",
+    "source_computed_inchikey": "XJLXINKUBYWONI-NNYOXOHSSA-K"
+  }
+}

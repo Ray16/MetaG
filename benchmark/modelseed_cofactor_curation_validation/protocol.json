@@ -1,0 +1,31 @@
+{
+  "utc": "2026-11-05T09:25:00.925149+00:00",
+  "scope": "Source-owned four-cofactor identity review and separate counterfactual input admission; no new Gibbs-energy labels, quantum calculations or automatic modification of ModelSEED.",
+  "modelseed_revision": "b539adb69a955dac15cc30dbeb3debbd87739018",
+  "mappings": {
+    "cpd00003": "CHEBI:57540",
+    "cpd00004": "CHEBI:57945",
+    "cpd00005": "CHEBI:57783",
+    "cpd00006": "CHEBI:58349"
+  },
+  "reference_choice": "Use exactly the ChEBI IDs already present in the pinned ModelSEED compound cross-references. Verify currently retrieved primary records and local benchmark identity; do not choose by prediction accuracy.",
+  "primary_checks": [
+    "Exact source charge, formula, InChIKey and molecular graph versus owned ChEBI/PubChem records",
+    "Unresolved stereo indices and changed atoms/bonds; preserve all declared carbon stereochemistry",
+    "Element/hydrogen/charge accounting for each proposed reference conversion",
+    "Retain literal profile unchanged; specify external curation as a distinct opt-in annotation profile",
+    "For every replacement, n_Hplus_new=n_Hplus_old-sum(nu_i*deltaH_i), with exact rational coefficients and unchanged non-H composition; no arbitrary water additions",
+    "Recompute complete structural gates on all affected source reactions, retain all unaffected outcomes, report gained/lost/remaining failures and explicit unsupported cases",
+    "Retain source biological identity versus specific microstate distinction; graph/proton accounting does not establish Gibbs-energy equality or validated protonation parameters"
+  ],
+  "counterfactual_selection": "All live nontransport inputs from the existing43650-request audit; no reaction/label/error selection.",
+  "rejection_rules": [
+    "Refuse changed source hashes or ambiguous external identity",
+    "Refuse heavy-element/isotope/connectivity/carbon-stereo mismatch",
+    "Refuse any nonproton composition/charge discrepancy",
+    "Refuse changed cofactors without a source-owned explicit curation receipt; do not infer from common names alone",
+    "No relaxation of stereo gates or silent thermodynamic equivalence for imidate/amide tautomerization"
+  ],
+  "experimental_and_numerical_scope": "Structural admission counts only. Numerical coverage, calibrated uncertainty, experimental prediction accuracy and production adoption remain unestablished.",
+  "resources": "Single bounded CPU, all native thread caps1; network primary-source requests <=5persecond; no fleet or GPU work."
+}

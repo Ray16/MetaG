@@ -1,0 +1,96 @@
+{
+  "cpd00003": {
+    "compound": "cpd00003",
+    "name": "NAD",
+    "smiles": "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)c1",
+    "source_charge": "-1",
+    "charge": -1,
+    "status": "passes_cpu_state_gates",
+    "category": null,
+    "canonical_input": "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)c1",
+    "reference_charge": 1,
+    "reference_smiles": "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)c1",
+    "proton_exchange": -2,
+    "protonation_issues": [
+      "aromatic_n_speciation_incomplete",
+      "class_pka_transfer_unvalidated",
+      "multiple_acid_sites_independent_site_approximation",
+      "reference_retains_charge"
+    ],
+    "n_reference_sites": 2,
+    "n_atoms": 70,
+    "n_heavy_atoms": 44,
+    "n_rotatable_bonds": 11,
+    "curation_profile": "explicit-four-source-cross-referenced-cofactors-v1"
+  },
+  "cpd00004": {
+    "compound": "cpd00004",
+    "name": "NADH",
+    "smiles": "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+    "source_charge": "-2",
+    "charge": -2,
+    "status": "passes_cpu_state_gates",
+    "category": null,
+    "canonical_input": "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+    "reference_charge": 0,
+    "reference_smiles": "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+    "proton_exchange": -2,
+    "protonation_issues": [
+      "aromatic_n_speciation_incomplete",
+      "class_pka_transfer_unvalidated",
+      "multiple_acid_sites_independent_site_approximation"
+    ],
+    "n_reference_sites": 2,
+    "n_atoms": 71,
+    "n_heavy_atoms": 44,
+    "n_rotatable_bonds": 11,
+    "curation_profile": "explicit-four-source-cross-referenced-cofactors-v1"
+  },
+  "cpd00005": {
+    "compound": "cpd00005",
+    "name": "NADPH",
+    "smiles": "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+    "source_charge": "-4",
+    "charge": -4,
+    "status": "passes_cpu_state_gates",
+    "category": null,
+    "canonical_input": "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+    "reference_charge": 0,
+    "reference_smiles": "NC(=O)C1=CN([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)C=CC1",
+    "proton_exchange": -4,
+    "protonation_issues": [
+      "aromatic_n_speciation_incomplete",
+      "class_pka_transfer_unvalidated",
+      "multiple_acid_sites_independent_site_approximation"
+    ],
+    "n_reference_sites": 4,
+    "n_atoms": 74,
+    "n_heavy_atoms": 48,
+    "n_rotatable_bonds": 13,
+    "curation_profile": "explicit-four-source-cross-referenced-cofactors-v1"
+  },
+  "cpd00006": {
+    "compound": "cpd00006",
+    "name": "NADP",
+    "smiles": "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)c1",
+    "source_charge": "-3",
+    "charge": -3,
+    "status": "passes_cpu_state_gates",
+    "category": null,
+    "canonical_input": "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)([O-])[O-])[C@@H]3O)[C@@H](O)[C@H]2O)c1",
+    "reference_charge": 1,
+    "reference_smiles": "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1",
+    "proton_exchange": -4,
+    "protonation_issues": [
+      "aromatic_n_speciation_incomplete",
+      "class_pka_transfer_unvalidated",
+      "multiple_acid_sites_independent_site_approximation",
+      "reference_retains_charge"
+    ],
+    "n_reference_sites": 4,
+    "n_atoms": 73,
+    "n_heavy_atoms": 48,
+    "n_rotatable_bonds": 13,
+    "curation_profile": "explicit-four-source-cross-referenced-cofactors-v1"
+  }
+}

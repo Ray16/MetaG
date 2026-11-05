@@ -1,0 +1,12 @@
+{
+  "NAD": {
+    "oxidized": "cpd00003",
+    "reduced": "cpd00004",
+    "reference_smiles": "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)c1"
+  },
+  "NADP": {
+    "oxidized": "cpd00006",
+    "reduced": "cpd00005",
+    "reference_smiles": "NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)(O)OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](OP(=O)(O)O)[C@@H]3O)[C@@H](O)[C@H]2O)c1"
+  }
+}

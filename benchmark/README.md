@@ -17,6 +17,12 @@ errors while passing all available cycle checks. Every successful affected react
 cancels its full reference, so scaffold synthesis and exchange remain unvalidated.
 This research candidate does not change the production estimator.
 
+The [explicit ModelSEED cofactor-curation study](modelseed_cofactor_curation_validation/README.md)
+uses the four ChEBI cross-references already recorded in the source database and
+accounts for every required proton-coefficient change. It reports a separate
+input-admission profile, including remaining failures and twelve reactions that
+retain a full cofactor reference. These counts are not numerical prediction coverage.
+
 The [released-ensemble uncertainty comparison](native_uncertainty_validation/README.md)
 retains all 100 checkpoint-member sums on the same 69 development reactions and
 checks equal-coverage rankings against native ensemble spread. This is distinct
