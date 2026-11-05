@@ -1,0 +1,181 @@
+{
+  "schema": "metag-full-source-universe-review-v1",
+  "utc": "2026-11-05T19:48:13.511632+00:00",
+  "selection": "Entire projected source metadata universe, then all named hydantoin/nitrile rows of the two source papers; no prediction, residual or equilibrium magnitude selects leads.",
+  "source_metadata_counts": {
+    "source_metadata_rows": 5735,
+    "unique_strict_named_equations": 897,
+    "such_equations_with_any_complete_four_field_row": 10,
+    "such_equations_with_any_298_15_complete_row": 0,
+    "equations_without_any_declared_training_name_exposure_match": 518
+  },
+  "sources": [
+    {
+      "doi": "10.1016/j.jct.2006.10.010",
+      "title": "Thermodynamics of reactions catalyzed by d-hydantoinase and N-carbamoyl-d-amino acid hydrolase",
+      "authors": [
+        {
+          "given": "Yadu B.",
+          "family": "Tewari"
+        },
+        {
+          "given": "Nand",
+          "family": "Kishore"
+        },
+        {
+          "given": "Brian E.",
+          "family": "Lang"
+        },
+        {
+          "given": "Robert N.",
+          "family": "Goldberg"
+        }
+      ],
+      "volume": "39",
+      "pages": "717-728",
+      "year": 2007,
+      "nist_url": "https://www.nist.gov/publications/thermodynamics-reactions-catalyzed-d-hydantoinase-and-n-carbamoyl-d-amino-acid",
+      "crossref_sha256": "fec9311b90df253cb65fdb8c7993729d73a254d3d449dccb353023a080f13056",
+      "nist_snapshot_sha256": "dea55bd215157d8779196d0ede27964c0950dd1a9ea5e4e439561689b612b8f2",
+      "publisher_coredata_sha256": "fc3270de545da2c426ddca8008c8bfe62024f55579c45d8010a41f1e35b94038",
+      "publisher_HTTP_status": 200,
+      "primary_article_body_owned": false
+    },
+    {
+      "doi": "10.1016/j.jct.2004.11.011",
+      "title": "Thermodynamics of the hydrolysis reactions of nitriles",
+      "authors": [
+        {
+          "given": "Yadu B.",
+          "family": "Tewari"
+        },
+        {
+          "given": "Robert N.",
+          "family": "Goldberg"
+        }
+      ],
+      "volume": "37",
+      "pages": "720-728",
+      "year": 2005,
+      "nist_url": "https://www.nist.gov/publications/thermodynamics-hydrolysis-reactions-nitriles",
+      "crossref_sha256": "6e0ce1246cbb0b0cebedfdeb70c0e85202736568e1261bdcaa0d3edcc1371b8d",
+      "nist_snapshot_sha256": "3735d408fcb98c0bab18e207334090d5441641a3a4bcc5801bbfbafc528dbe3b",
+      "publisher_coredata_sha256": "ff7b4e0384ff0b9b4e09c36cd594e1cf8efe6acb146866ef51ced27e5d29dd68",
+      "publisher_HTTP_status": 200,
+      "primary_article_body_owned": false
+    }
+  ],
+  "compilation": {
+    "doi": "10.1063/1.2789450",
+    "url": "https://srd.nist.gov/jpcrdreprint/1.2789450.pdf",
+    "sha256": "d7ce697cd79e0cbac61dee3d142ccf7203f5de78e6dd1ff634b0c2b58056c92d",
+    "owned_full_text": true,
+    "pdf_zero_based_pages": [
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  "hydantoin_review": {
+    "status": "pending_primary_body_speciation_uncertainty_and_ancestry; not enrolled",
+    "apparent_equilibria_from_evaluated_compilation": [
+      {
+        "reaction": "hydantoin + water = ureidoacetic acid",
+        "T_K": 298.15,
+        "pH": 6.57,
+        "I_m_mol_kg": 0.29,
+        "K_apparent": 16.9,
+        "printed_page": 1376
+      },
+      {
+        "reaction": "hydantoin + water = ureidoacetic acid",
+        "T_K": 298.15,
+        "pH": 7.2,
+        "I_m_mol_kg": 0.39,
+        "K_apparent": 171,
+        "printed_page": 1376
+      },
+      {
+        "reaction": "5-phenylhydantoin + water = N-carbamoyl-D-phenylglycine",
+        "T_K": 298.15,
+        "pH": 6.85,
+        "I_m_mol_kg": 0.28,
+        "K_apparent": 2.44,
+        "printed_page": 1376
+      },
+      {
+        "reaction": "5-phenylhydantoin + water = N-carbamoyl-D-phenylglycine",
+        "T_K": 298.15,
+        "pH": 7.46,
+        "I_m_mol_kg": 0.31,
+        "K_apparent": 6.66,
+        "printed_page": 1376
+      },
+      {
+        "reaction": "5-phenylhydantoin + water = N-carbamoyl-D-phenylglycine",
+        "T_K": 298.15,
+        "pH": 7.98,
+        "I_m_mol_kg": 0.32,
+        "K_apparent": 20.1,
+        "printed_page": 1376
+      }
+    ],
+    "chemical_reference_constants_from_compilation": [
+      {
+        "substrate": "5,6-dihydrouracil",
+        "K": 2.3e-06,
+        "T_K": 298.15,
+        "I": 0,
+        "products": "3-ureidopropanoate(-) + H(+)",
+        "printed_page": 1375
+      },
+      {
+        "substrate": "hydantoin",
+        "K": 5.5e-06,
+        "T_K": 298.15,
+        "I": 0,
+        "products": "ureidoacetate(-) + H(+)",
+        "printed_page": 1376
+      },
+      {
+        "substrate": "5-phenylhydantoin",
+        "K": 3.8e-07,
+        "T_K": 298.15,
+        "I": 0,
+        "products": "N-carbamoyl-D-phenylglycinate(-) + H(+)",
+        "printed_page": 1376
+      }
+    ],
+    "verification": "Printed page1376 was rendered and visually checked;171 is the printed value, not a text-parser substitution. Repeated pH observations are not independent equations.",
+    "limits": [
+      "Chemical reference constants are source-derived estimates, not directly measured biochemical pH7 labels. Source speciation, activity bridge, uncertainty and measurement ancestry remain unowned.",
+      "The original abstract also reports equilibrium measurements for hydroxyphenylhydantoin; its compilation entries here contain enthalpies. This does not prove the primary paper has no equilibrium result.",
+      "The dihydrouracil equation is already training row323(public671)/325(author675) and its molecular pools have historical input witnesses.",
+      "A hydantoin-ring substructure occurs in training row470(public671)/472(author675). The two achiral hydantoin reaction participants have nearest known-pool similarities0.524 and0.619, so these provisional graphs cannot meet the declared below0.5 criterion.",
+      "The aryl graph hypotheses are structurally more distant but their stereochemical/state identity is unverified; no D/R assignment is inferred from enzyme specificity."
+    ]
+  },
+  "nitrile_review": {
+    "status": "censored_bounds_only; excluded_from_point_MAE_targets",
+    "primary_abstract_establishes": "Six hydrolyses proceeded to completion; only lower bounds on apparent equilibrium constants were obtained. Calorimetric reaction enthalpies do not supply finite Gibbs labels.",
+    "bounds_numerical_values_owned": false,
+    "metadata_discrepancy": {
+      "source_row": 5534,
+      "source_metadata_product": "2-phenylpropanoic acid",
+      "primary_abstract_product": "3-phenylpropanoic acid",
+      "evaluated_compilation_product": "3-phenylpropanoic acid",
+      "printed_page": 1378,
+      "disposition": "Preserve the source metadata unchanged. Flag the disagreement; do not infer or silently overwrite a scored chemical structure."
+    },
+    "motif_witnesses": "C#N substructure occurs in formation rows146(hydrogen cyanide) and209(thiocyanate) in both audited tables; a blanket unseen nitrile-motif claim is unsupported."
+  },
+  "provenance_limits": "Graph hypotheses and known-pool neighbours are screening evidence, not authenticated measured states. Unresolved training structures and bounded historical inventory prevent certified absence. No exact UMA pretraining exposure is established.",
+  "primary_design_changed": false,
+  "independent_experimental_labels_admitted": 0,
+  "model_predictions_performed": false,
+  "labels_read_for_source_adjudication": true,
+  "experimental_prediction_errors_examined": false,
+  "production_method_selected": false,
+  "primary_benchmark_launched": false
+}

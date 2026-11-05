@@ -199,6 +199,14 @@ formation labels. It admits no independent reference, trains no comparator,
 and does not supply enough screened unfamiliar cases for the primary validation
 design. Its counts are preparation evidence, not prediction performance.
 
+The [full source-universe review](source_universe_review/README.md) extends that
+screen to all 5,735 projected source rows and records the hydantoin/nitrile leads.
+It separates finite equilibria, censored bounds and enthalpies, preserves a
+product-name discrepancy, and checks graph hypotheses against reaction and
+formation training structures. Its two reports replay from archived inputs with
+inference, network and original-project reads prohibited during computation.
+No independent experimental label is admitted by this review.
+
 The [nucleoside source review](nucleoside_reference_review/README.md) separately
 reconstructs all 519 retained apparent-constant observations from a 576-observation
 source archive, preserving its 57 exclusions and unresolved standard-state

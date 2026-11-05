@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "reports_reconstructed": 2,
+  "original_project_reads_allowed": false,
+  "network_allowed": false,
+  "inference_imports_allowed": false,
+  "metadata_counts": {
+    "source_metadata_rows": 5735,
+    "unique_strict_named_equations": 897,
+    "such_equations_with_any_complete_four_field_row": 10,
+    "such_equations_with_any_298_15_complete_row": 0,
+    "equations_without_any_declared_training_name_exposure_match": 518
+  },
+  "independently_admitted_references": 0,
+  "verifier_sha256": "6de77e2c447781fa8f35fe33aa4e90e8bf2101d1ad4230d178f60ca1c3b0f7c1",
+  "scope": "Exact reconstruction of metadata and structural reports from archived copies. Original-project reads and inference imports refused during computation; network forbidden. This does not authenticate primary experimental methods."
+}
