@@ -1,4 +1,7 @@
 import math
+import copy
+import json
+import zipfile
 from pathlib import Path
 
 import pytest
@@ -95,3 +98,29 @@ def test_frozen_both_arm_replay_without_quantum_runtime_or_network():
     result = replay(root / 'anchored_nicotinamide_validation', root / 'global_amino_reference_validation')
     assert result['requests'] == 364
     assert result['all_outcomes_and_invariances_reproduced']
+
+
+def test_portable_comparison_separates_only_host_software_and_verifies_ledger():
+    from benchmark.audit_anchored_nicotinamide import portable_outcome
+    root = Path(__file__).resolve().parents[2] / 'benchmark/anchored_nicotinamide_validation'
+    with zipfile.ZipFile(root / 'outcomes.zip') as archive:
+        original = json.loads(archive.read('full.json'))
+    expected, software = portable_outcome(original)
+    changed = copy.deepcopy(original)
+    inventory = json.dumps(dict(software, torch='cpu-test-host', xtb=None), sort_keys=True)
+    changed['ledger']['config']['software'] = inventory
+    for row in changed['results'].values():
+        if row['result'] is not None:
+            row['result']['config']['software'] = inventory
+    changed['ledger'].pop('sha256')
+    changed['ledger']['sha256'] = content_hash(changed['ledger'])
+    actual, recorded = portable_outcome(changed)
+    assert actual == expected and recorded['torch'] == 'cpu-test-host'
+    altered = copy.deepcopy(changed)
+    altered['ledger']['raw_molecules'][0]['record'][0] += 1.
+    with pytest.raises(AssertionError):
+        portable_outcome(altered)
+    # A new valid ledger hash cannot hide a changed scientific value either.
+    altered['ledger'].pop('sha256')
+    altered['ledger']['sha256'] = content_hash(altered['ledger'])
+    assert portable_outcome(altered)[0] != expected

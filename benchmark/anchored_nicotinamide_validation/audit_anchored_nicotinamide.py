@@ -2,6 +2,7 @@
 from decimal import Decimal, localcontext
 from pathlib import Path
 import argparse
+import copy
 import hashlib
 import importlib.util
 import json
@@ -117,6 +118,25 @@ def audit(packet, dependency):
         production_policy_adopted=False, independent_primary_labels_admitted=0)
 
 
+def portable_outcome(document):
+    """Verify self-hash and separate only replay-host software inventory.
+
+    The original raw producers, frozen source identity, settings, states,
+    diagnostics and all numerical outputs remain part of exact comparison.
+    A data-only replay need not have the original quantum software installed.
+    """
+    doc = copy.deepcopy(document)
+    ledger = doc['ledger']
+    digest = ledger.pop('sha256')
+    assert hashlib.sha256(json.dumps(ledger, sort_keys=True, allow_nan=False).encode()).hexdigest() == digest
+    software = ledger['config'].pop('software')
+    assert isinstance(json.loads(software), dict)
+    for row in doc['results'].values():
+        if row['result'] is not None:
+            assert row['result']['config'].pop('software') == software
+    return doc, json.loads(software)
+
+
 def replay(packet, dependency):
     packet, dependency = Path(packet).resolve(), Path(dependency).resolve()
     with tempfile.TemporaryDirectory(prefix='metag-anchor-replay-') as name:
@@ -143,10 +163,16 @@ socket.socket.connect=deny_network
         for filename in ['report.json', 'invariances.json', 'assembly_complete.json']:
             assert read(root / filename) == read(packet / filename), filename
         with zipfile.ZipFile(packet / 'outcomes.zip') as archive:
+            inventories = {}
             for filename in ['full.json', 'anchored.json']:
-                assert read(root / filename) == json.loads(archive.read(filename)), filename
+                new, replay_software = portable_outcome(read(root / filename))
+                old, original_software = portable_outcome(json.loads(archive.read(filename)))
+                assert new == old, filename
+                inventories[filename] = dict(original=original_software, replay=replay_software)
         return dict(status='passed',requests=364, all_outcomes_and_invariances_reproduced=True,
-                    quantum_imports_forbidden=True,network_forbidden=True)
+                    quantum_imports_forbidden=True,network_forbidden=True,
+                    software_inventory_comparison=inventories,
+                    comparison_scope='Exact scientific outcomes and original raw provenance; separately reported replay-host software inventory may differ.')
 
 
 def main():

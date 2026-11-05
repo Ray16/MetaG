@@ -15,3 +15,5 @@ python benchmark/audit_anchored_nicotinamide.py --cold-replay
 ```
 
 The audit reconstructs mapped energies, reaction sums and shared-primitive sampling propagation with 50-digit decimal arithmetic, checks the full baseline against its prior archive and reconstructs every available cycle. Cold replay separately runs both 364-request assemblies and all 640 invariance checks using the archived assembly source, while forbidding quantum imports and network access. This reuses retained records; it does not rerun quantum calculations. No independent primary biochemical labels are added.
+
+The portable comparison verifies each ledger self-hash and compares every scientific field exactly. Only replay-host software inventory is separated and reported for both hosts; the original raw-producer software fingerprints remain fixed. The initial CI run exposed this host-metadata distinction; the scientific candidate, protocol, original outcomes and freeze were not changed.
