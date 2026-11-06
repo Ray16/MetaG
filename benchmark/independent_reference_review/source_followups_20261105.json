@@ -615,5 +615,34 @@
   "model_predictions_performed": false,
   "experimental_prediction_errors_examined": false,
   "eligibility_and_success_gates_changed": false,
-  "production_policy_changed": false
+  "production_policy_changed": false,
+  "raw_aconitate_followup": {
+    "packet": "benchmark/aconitate_raw_source_review",
+    "manifest_sha256": "1ed6be09a9c85dc165083f7e6b66bf8098e8c7b3b0059fbc3610512ee28a522f",
+    "counts": {
+      "measured_runs": 19,
+      "timestamps": 314,
+      "measured_cis": 309,
+      "measured_trans": 314,
+      "paired_ratio_timestamps": 309,
+      "blank_cis": 5
+    },
+    "all19native_fits_and1539profile_optimizations_reexecuted": true,
+    "high_temperature_total_change_range": [
+      -0.23705758237231517,
+      -0.07348755290483308
+    ],
+    "high_temperature_closed_K_range": [
+      0.19212202722862776,
+      0.23735520997752343
+    ],
+    "high_temperature_ratio_K_range": [
+      0.15916309935639134,
+      0.17490204138277457
+    ],
+    "maximum_transcription_K_width": 0.002156535963789119,
+    "decision": "Retain all conditions and both model sensitivities. Apparent total changes do not establish a chemical loss mechanism. No validated native-condition or298.15K reference uncertainty follows, and no primary label is enrolled.",
+    "independent_primary_references_admitted": 0,
+    "MetaG_or_dGbyG_energy_predictions_performed": false
+  }
 }

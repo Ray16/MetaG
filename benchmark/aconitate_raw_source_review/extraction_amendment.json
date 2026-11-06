@@ -1,0 +1,9 @@
+{
+  "schema": "metag-aconitate-extraction-amendment-v1",
+  "original_protocol_sha256": "687dad16cfb9780a0bc6cf8f83956b82d8db21f000b440150d977120fc217b0a",
+  "reason": "The PDF hidden text layer contains missing cells and misread characters. Add a separate imageOCRengine and compare values cell by cell, with source-image correction of disagreements.",
+  "OCR_scope": "CPU optical recognition, not a thermodynamic/atomistic predictor. The original zero-neural-forward wording refers to scientific energy models; no such model runs.",
+  "fitting_or_enrollment_rules_changed": false,
+  "source_calibration_method_owned": "Thesisprintedp45/PDFp60states that the response factor from the calibration run at the beginning of each experiment is used for each time interval, consistent with the per-run one-point external-standard formula.",
+  "runtime_isolation": "tesserocr2.10.0 wheel installed only in this ignored study directory. Existing environments and package requirements unchanged."
+}

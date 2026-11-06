@@ -1,0 +1,27 @@
+{
+  "schema": "metag-aconitate-raw-source-provenance-v1",
+  "source": {
+    "author": "Stephen Norman Walford",
+    "title": "A study of the isomerisation of aconitic acid with reference to sugarcane processing",
+    "year": 2000,
+    "repository_url": "https://researchspace.ukzn.ac.za/items/0d96c6f0-9953-4039-a43e-699afa487648",
+    "PDF_url": "https://researchspace.ukzn.ac.za/bitstreams/3e8dad8b-266e-4195-9df6-cc6bf4c43ed0/download",
+    "PDF_sha256": "62619377b886e9cf86114e3b8b3ca3a1043e800327a4a38eadaac5054e217f22",
+    "PDF_bytes": 6676556,
+    "PDF_pages": 141,
+    "access": "Complete primary thesis locally owned. Tables3.5and3.12visually checked; other cited locators text-inspected. This is not a claim that every page has been read."
+  },
+  "source_locations": "Appendix6,TablesA6.12-A6.16,printedpp125-126/PDFpp140-141; one-point response-factor method printedp45/PDFp60.",
+  "original_MetaG_base_commit": "8ee9b23e2863df288f7c8a4550f4b07c905ad889",
+  "scope": "Study-specific uncommitted analysis generators are frozen here by exact bytes. The base commit is context, not a claim that it contained these new generators or produced every historical molecular result.",
+  "generator_files": {
+    "fit_timecourses.py": "218fb0818b91f89cba7f22cd4c1a2b32ba992f67416d2b78ba598245c123a790",
+    "profile_math.py": "5587913931d158b663aa6eb56a45b92e9c9da5955250f8aba3664b922bde1c8e",
+    "refine_profiles.py": "058bbec2e5b807e77cad198f626f9c419a4c6c9e82e1ce9fc1935f9d72055100",
+    "synthetic_controls.py": "ff311967b87074b2156a7de0147aff7079d0213557bd7d5d7ec60dbcb51d8174",
+    "resolve_cells.py": "adf0562f66ef498f731d0e2c6ae69f858d5c163a5879452c5a9ef98797d0b64c"
+  },
+  "source_PDF_not_redistributed": true,
+  "OCR_training_asset_is_not_a_thermodynamic_model": true,
+  "experimental_references_admitted": 0
+}

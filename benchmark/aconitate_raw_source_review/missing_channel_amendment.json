@@ -1,0 +1,5 @@
+{
+  "scope": "Retrospective record of actual pre-fit missing-field handling; not a claim of prospective registration.",
+  "finding": "Five initialcis fields are blank in the source images. They are retained asNone, without inferring zeros, detection limits or censoring bounds. Every measured trans point remains in the main fits. The ratio sensitivity uses only309pairedtimestamps and reports the5unpaired rows.",
+  "fitting_model_eligibility_and_primary_admission_rules_unchanged": true
+}

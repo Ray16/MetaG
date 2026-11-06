@@ -49,6 +49,14 @@ The source records also retain an unsuccessful hydantoin full-text access attemp
 and flag a new aldolase lead's eQuilibrator-derived constant as a model result.
 No source hold, benchmark gate or reference-admission count changes.
 
+The [raw aconitate follow-up](../aconitate_raw_source_review/README.md) retains
+all 19 measured condition runs, 314 timestamps, five blank initial cis fields,
+run-specific calibrants and explicit OCR alternatives. Closed-concentration and
+common-recovery ratio fits differ most at 110 C, where apparent total
+concentration declines by 7–24%. Arithmetic replay and single-CPU reoptimization
+are available; neither establishes a chemical loss mechanism, a calibrated
+reference interval or a valid transfer to 298.15 K. No primary label is admitted.
+
 `additional_sources.json` records the six remaining original candidates and two
 new leads, with explicit distinctions between owned primary evidence, indexed
 publisher methods, and abstract/metadata-only inspection. These access levels

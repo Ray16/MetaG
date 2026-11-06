@@ -1,0 +1,48 @@
+{
+  "schema": "metag-aconitate-raw-source-reanalysis-protocol-v1",
+  "utc": "2026-11-05T23:53:16.683911+00:00",
+  "scope": "Exploratory reference construction/identifiability study, not a frozen prediction benchmark or enrollment.",
+  "source_PDF_sha256": "62619377b886e9cf86114e3b8b3ca3a1043e800327a4a38eadaac5054e217f22",
+  "source": "Walford2000Appendix6,TablesA6.12-A6.16,PDFpp140-141,printedpp125-126",
+  "selection": "All20pH7temperature/buffer cells:70,80,90,97,110C x25,50,75,150mM. Retain the19measured runs, all timepoints/standards and the source-declared missing25mM110C cell. No selection by ratio, model prediction or residual.",
+  "prior_exposure": "Published summaryKvalues and source images were inspected in previous source curation; tentative mass-balance concerns were noticed. No blinded confirmatory claim. MetaG/dGbyG predictions/errors on these experimental equilibria have not been computed or consulted.",
+  "extraction": {
+    "method": "Coordinate-bound PDF OCR tokens, image comparison and explicit correction ledger. Never infer a missing cell from adjacent conditions. Retain original tokens and coordinates.",
+    "calibration": "Per-run external-standard concentration = sample peakarea / standard peakarea * standard concentration. Confirm the source method; retain ambiguity if not authenticated.",
+    "checks": [
+      "Every numerical token assigned to a table/run/row/column or explicitly retained as unresolved.",
+      "All time values ordered and all supplied cis/trans observations paired.",
+      "Use source images to verify/correct OCR; every correction needs a cell and image locator.",
+      "Keep raw areas and calibrants; do not substitute fitted values or discard inconvenient timepoints."
+    ]
+  },
+  "model": {
+    "primary": "Closed reversible two-state model at each measured condition. Fit cis(t)=Ceq+(Cis0-Ceq)exp(-lambda*t), trans(t)=Ctotal-cis(t). UnknownsCtotal,Cis0,Ceq,lambda; constrain positive total/rate and cis fractions in[0,1]. K=Ceq/(Ctotal-Ceq).",
+    "weighting": "Initial equal concentration-unit residual weights on both channels are a declared working noise assumption. They are not source-calibrated measurement variances.",
+    "diagnostics": [
+      "Report measured totalconcentration drift and both channel residuals at every condition.",
+      "Report residual cross-channel correlation and time trends; no formal significance claim from posthoc diagnostics.",
+      "Fit cis/trans separately as sensitivity checks; materially incompatible asymptotes or mass balance prevent adopting a combined reference.",
+      "Do not replace the closed model with an arbitrary better-fitting model and call its asymptote a thermodynamic equilibrium."
+    ],
+    "identifiability": "Profile K on a fixed log10 grid[-3,1] and reoptimize nuisance parameters. A working-iidGaussian profile threshold, if shown, is conditional and not an authenticated experimental confidence interval. Preserve flat/boundary profiles.",
+    "temperature_transfer": "No298.15K target automatically follows. First resolve native pH(T), activity/speciation conventions, model adequacy and covariance; any extrapolation needs a separate uncertainty construction."
+  },
+  "resource": {
+    "CPU_affinity": [
+      79
+    ],
+    "native_threads": 1,
+    "GPUs": 0,
+    "neural_forward_calls": 0,
+    "initial_fit_wall_budget_s": 1800,
+    "initial_K_profile_grid_points": 81,
+    "bootstrap_replicates_initial": 0
+  },
+  "gates": {
+    "primary_design_changed": false,
+    "model_predictions_allowed": false,
+    "new_primary_labels_admitted": 0,
+    "production_policy_adopted": false
+  }
+}

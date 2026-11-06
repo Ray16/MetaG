@@ -1,0 +1,11 @@
+{
+  "schema": "metag-aconitate-postbaseline-sensitivity-amendment-v1",
+  "utc": "2026-11-06T00:16:54.490556+00:00",
+  "original_protocol_sha256": "687dad16cfb9780a0bc6cf8f83956b82d8db21f000b440150d977120fc217b0a",
+  "initial_results_sha256": "65296d7e9546dee95d561253f8d48db683888c705b0d85bc7ddd0de0bac69498",
+  "motivation": "The nominal closed fit showed approximately7-24%totalconcentration decline in the110Cruns. This is a postbaseline exploratory sensitivity, not a preregistered confirmatory arm.",
+  "additional_arm": "Fit the fractioncis/(cis+trans)with the same first-order relaxation form at all19measured conditions. Use309pairedtimestamps; preserve the5unpaired measuredtranspoints in the raw data and main fits. Multiplicative common recovery factors cancel in the ratio, but selective loss and condition/speciation uncertainty do not.",
+  "no_selection": "Retain every condition and all outcomes. Do not adopt the better-fitting arm as a thermodynamic reference or select from MetaG errors.",
+  "additional_storage": "Store nuisance/full parameters for every profile and transcription variant, enabling arithmetic replay without reoptimization.",
+  "fit_gates_and_primary_admission_unchanged": true
+}

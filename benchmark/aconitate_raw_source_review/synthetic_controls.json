@@ -1,0 +1,19 @@
+{
+  "scope": "Synthetic source-fit/interpretation controls only; no physical predictions or experimental reference validation.",
+  "true_K": 0.15,
+  "closed_recovery_with_missing_first_cis": {
+    "K": 0.15,
+    "SSE_mM2": 1.0117150739109198e-32
+  },
+  "common_multiplicative_loss": {
+    "K": 0.15,
+    "expected_K": 0.15
+  },
+  "selective_loss_counterexample": {
+    "fitted_ratio_K": 0.07236221249812713,
+    "true_underlying_kf_over_kr": 0.15,
+    "not_the_same": true
+  },
+  "conclusion": "A ratio fit can survive common recovery changes yet fail to identify the underlying reactionK under selective loss. It must not be adopted as a thermodynamic label from fit quality alone.",
+  "primary_labels_admitted": 0
+}
