@@ -644,5 +644,14 @@
     "decision": "Retain all conditions and both model sensitivities. Apparent total changes do not establish a chemical loss mechanism. No validated native-condition or298.15K reference uncertainty follows, and no primary label is enrolled.",
     "independent_primary_references_admitted": 0,
     "MetaG_or_dGbyG_energy_predictions_performed": false
+  },
+  "neutral_thermochemical_followup": {
+    "review": "benchmark/independent_reference_review/neutral_thermochemical_lineage.json",
+    "review_sha256": "296f14d98fb28417e585596160ebb3a37234ed2204e587ee007d1f586fb1a7c8",
+    "exact_myo_structure_match_to_comparator_training_and_MetaG_history": true,
+    "aqueous_reference_constructed": false,
+    "long_chain_alkylbenzene_Gf_entries_correlation_derived": true,
+    "independent_primary_references_admitted": 0,
+    "MetaG_or_dGbyG_energy_predictions_performed": false
   }
 }

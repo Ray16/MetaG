@@ -1,0 +1,217 @@
+{
+  "schema": "metag-neutral-reference-lineage-v1",
+  "created_utc": "2026-11-06T01:49:45.971012+00:00",
+  "scope": "Formation-derived aqueous thermochemical reference feasibility; source and identity review only. No estimator selection, prediction, reaction residual or reference enrollment.",
+  "selection": "Neutral metabolite/isomer sources and four hydrocarbon leads from the pre-existing outcome-free formation feasibility screen; no filtering by predictor errors.",
+  "design": "benchmark/state_function_validation/design.json",
+  "design_sha256": "ad4570c67b41bbdb25ec53f0acdb76355398c12783c3e25cd19aff1443915066",
+  "owned_file_policy": "Complete sources and API responses remain in ignored analysis/neutral_reference_lineage_20261105_01. Public facts and identities are provided here; complete PDFs are not redistributed.",
+  "local_source_identities": {
+    "Shock1990.pdf": {
+      "bytes": 3721307,
+      "sha256": "9665117b045126b4ef29028f96584d017e189ae628fbd73aadf4166d669d2cf8"
+    },
+    "Oelkers1995.pdf": {
+      "bytes": 14399960,
+      "sha256": "49f043d7b5c811778062913b8efdd1fc5078fce63c0eeefd334c54f4cf5e109d"
+    },
+    "Myo2018_ThermoML.json": {
+      "bytes": 173699,
+      "sha256": "5fbf61a1ed9540a64d360028c09ce1872fd6534bb55e0985cc9425fc6fe0828e"
+    },
+    "PhysicalChemistry2018_vol1.pdf": {
+      "bytes": 17829816,
+      "sha256": "ff73050a7c59db93f8db9590e78d31585ddb501e943338bbf252b7c8425b4a1f"
+    },
+    "Rosgen2013_OAI_front.xml": {
+      "bytes": 7552,
+      "sha256": "d27e1c19d3191d81a48091f143a20f3b42c7ae3e6ee10182efb6ca32203e5bf4"
+    },
+    "Rosgen2013_Eutils.xml": {
+      "bytes": 6719,
+      "sha256": "89f0f8b5abb85bff33b6ac6b20b3d0434b5671aee8b1379cf03a86dc174b2f39"
+    },
+    "Rosgen2013_S3_listing.xml": {
+      "bytes": 256,
+      "sha256": "7e8029bd663a0e69a666281a9791648a6ff1396f343e01f291dc5d33fdc196e6"
+    },
+    "PMC_AWS_README.txt": {
+      "bytes": 14524,
+      "sha256": "257a001b400485176702ed49ca7607d73cd83c581bffb6dd3c9be127a2e42634"
+    },
+    "current_source_retrieval.json": {
+      "bytes": 1114,
+      "sha256": "ffd571f2623704c26048024fb3a36f195f0a50b3ac3d715e9adfe585f55466f3"
+    },
+    "Rosgen2013_publisher_retrieval.json": {
+      "bytes": 115,
+      "sha256": "26f15f60a529fa6e8521ba5b76e92b6e9a641a99462ec1504a95e68d81f4303c"
+    },
+    "Rosgen2013_access.json": {
+      "bytes": 685,
+      "sha256": "7254b166e2c3963e1167500fbddaadad77a9a50f8992e5ed5f3cabd05968faa4"
+    },
+    "assemble_review.py": {
+      "bytes": 12426,
+      "sha256": "c7e8b00f3a24a9b447d8863ba40b6cdbb0c008728c343d7a0e58b46332f30cad"
+    }
+  },
+  "myo_inositol": {
+    "primary_doi": "10.1016/j.jct.2017.08.028",
+    "NIST_url": "https://trc.nist.gov/ThermoML/10.1016/j.jct.2017.08.028.html",
+    "NIST_JSON_url": "https://trc.nist.gov/ThermoML/10.1016/j.jct.2017.08.028.json",
+    "thermoml_access": "Complete official JSON owned; it encodes crystal thermochemistry, not aqueous formation Gibbs energy. Full journal article not locally owned.",
+    "native_state": {
+      "T_K": 298.15,
+      "p_kPa": 100,
+      "phase": "crystal",
+      "formula": "C6H12O6"
+    },
+    "NIST_crystal_entropy": {
+      "value": 200.6,
+      "expanded_uncertainty": 1.6,
+      "units": "J/mol/K",
+      "coverage_percent": 95,
+      "evaluator": "Data file compiler",
+      "locator": "PureOrMixtureData dataset3 at298.15K"
+    },
+    "NIST_combustion": {
+      "value": -15246.4,
+      "expanded_uncertainty": 4.9,
+      "units": "J/g",
+      "coverage_percent": 95,
+      "evaluator": "Data file compiler",
+      "property": "Specific internal energy of reaction at constant volume; not formation Gibbs energy"
+    },
+    "author_conference": {
+      "url": "https://www.socphyschemserb.org/media/publications/physical-chemistry-2018-vol1.pdf",
+      "title": "Thermodynamic properties of biologically active substances",
+      "authors": "A.V.Knyazev,A.S.Shipilova,E.V.Gusarova,S.S.Knyazeva,A.A.Amosov,V.N.Emelyanenko",
+      "locator": "A-02-P, printedpp63-66/PDFpp71-74; Table1 printedp65/PDFp73",
+      "values": {
+        "formation_H_kJ_mol": -1329.3,
+        "quoted_pm_H": 2.3,
+        "formation_S_J_mol_K": -1232.5,
+        "quoted_pm_S": 3.5,
+        "formation_G_kJ_mol": -962,
+        "quoted_pm_G": 3
+      },
+      "uncertainty_coverage": "Not established from the owned conference account; do not label the quoted +/- as1sigma or95%CI.",
+      "ancestry": "Overlapping authors, same quoted result and cited2018journal study; not independent replication. General conference sample sourcing differs from the indexed journal first page, so exact sample identity is not authenticated.",
+      "visual_table_checked": true
+    },
+    "exact_structure_exposure": {
+      "rdkit_version": "2026.03.5",
+      "source_InChI": "InChI=1S/C6H12O6/c7-1-2(8)4(10)6(12)5(11)3(1)9/h1-12H/t1-,2-,3-,4+,5-,6-",
+      "source_InChIKey": "CDAISMWEOUEBRE-GPIVLXJGSA-N",
+      "source_canonical_isomeric_smiles": "O[C@H]1[C@H](O)[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O",
+      "training_file": "benchmark/feasibility_validation/training671_structural.csv",
+      "training_file_sha256": "c91636a509a6be3eb98651043436caa8dc9fe4df1885ecc206fc292652bffc39",
+      "training_zero_based_row": 271,
+      "training_description": "1--D-galactosyl-myo-inositol(aq) + raffinose(aq) = myo-inositol(aq) + stachyose(aq)",
+      "training_term_smiles": "O[C@H]1[C@H](O)[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O",
+      "training_term_InChIKey": "CDAISMWEOUEBRE-GPIVLXJGSA-N",
+      "historical_file": "benchmark/feasibility_validation/historical_inputs.json",
+      "historical_file_sha256": "51fa9ccaab3dfe3179995bf9606fa50f29ec66783f1249670495113c1e5d4463",
+      "historical_witnesses": [
+        {
+          "record_id": "28fcfdc70cea0465ae088f975701d337ac1d8a07eb472f68d7d8aa7dcc587e18",
+          "name": "L-Inositol",
+          "smiles": "O[C@H]1[C@H](O)[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O",
+          "canonical_isomeric_smiles": "O[C@H]1[C@H](O)[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O",
+          "InChIKey": "CDAISMWEOUEBRE-GPIVLXJGSA-N",
+          "exact_source_match": true
+        }
+      ],
+      "conclusion": "Exact neutral stereochemical identity occurs in both comparator training and MetaG historical inputs. A newer measurement is not a new molecular family.",
+      "formation_or_reaction_prediction_values_read": false
+    },
+    "proposed_aqueous_cycle": {
+      "expression": "mu_standard_aq = mu_standard_cr - R*T*ln(gamma_c(c_sat)*c_sat/c_standard)",
+      "prerequisites": [
+        "Same temperature and crystal chemical potential",
+        "Verified saturation concentration and activity convention",
+        "Uncertainty including activity fit and saturation, not only parameter rounding",
+        "An independently sourced, chemically matched aqueous counter-reference for a balanced reaction",
+        "Reaction-, molecule-, development- and component-calibration ancestry"
+      ],
+      "standard_state_note": "At unit crystal activity this is dissolution equilibrium. A balanced1-to-1solute isomerization cancels the universal molal-to-molar standard shift. It does not cancel unequal crystal potentials or missing solvation contributions.",
+      "evaluated_reference_value": null
+    },
+    "aqueous_followup": {
+      "doi": "10.1016/j.bpj.2013.09.019",
+      "PMCID": "PMC3824553",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3824553/",
+      "access": "Indexed primary full-text passages available; only OAI/Eutils front metadata locally owned. Current PMC S3 prefix has zero objects; OAI fulltext returns cannotDisseminateFormat. PublisherPDF403. No complete article body or raw activity data owned.",
+      "reported_myo_solubility": {
+        "molality_mol_kg": 0.943,
+        "molarity_mol_L": 0.858,
+        "T_K": 298.15,
+        "locator": "Indexed primary Fig2caption; solubility methods describe25Ccontrol"
+      },
+      "unresolved": [
+        "Vapor-pressure activity measurement temperature not verified",
+        "Activity-fit uncertainty/covariance and saturation uncertainty unavailable",
+        "Matching crystalline sample/polymorph not authenticated",
+        "Complete source equation and parameter conventions need byte-owned verification"
+      ],
+      "access_conflict": "Indexed article includes a CC-BY-NC notice, but current OAI metadata marks open-access=no. Preserve both records; API metadata does not prove the article is scientifically invalid or universally inaccessible.",
+      "non_reference": "The myo/scyllo solubility ratio alone is not an aqueous isomerization equilibrium constant; crystal chemical potentials also enter."
+    },
+    "decision": "Excluded from the frozen primary unfamiliar-family cohort by exact molecular exposure. Any secondary new-measurement aqueous reference remains held for phase/activity/uncertainty and ancestry verification.",
+    "independent_primary_references_admitted": 0
+  },
+  "hydrocarbon_route": {
+    "upstream_compilation": "Du2018 organic_cpd_thermo_data.csv; already used during development, no per-observation primary citations in the flat table.",
+    "leads": [
+      {
+        "species_id": "CHB_88849_0",
+        "name": "2-methylheptane",
+        "smiles": "CCCCCC(C)C"
+      },
+      {
+        "species_id": "PBC_18591_0",
+        "name": "2-methyloctane",
+        "smiles": "CCCCCCC(C)C"
+      },
+      {
+        "species_id": "PBC_14115_0",
+        "name": "n-heptylbenzene",
+        "smiles": "CCCCCCCc1ccccc1"
+      },
+      {
+        "species_id": "PBC_16607_0",
+        "name": "n-octylbenzene",
+        "smiles": "CCCCCCCCc1ccccc1"
+      }
+    ],
+    "balanced_candidate": "n-heptylbenzene +2-methyloctane =n-octylbenzene +2-methylheptane",
+    "shock_source": {
+      "doi": "10.1016/0016-7037(90)90429-O",
+      "url": "https://www.dewcommunity.org/uploads/4/1/7/6/41765907/shock_helgeson_1990.pdf",
+      "locator": "Table6,printedp934/PDFp20; footnotej; Eq76 andTable5",
+      "specific_lineage": "Both long-chain alkylbenzene formation-G entries bear footnotej: calculated with the homologous-series correlationEq76 andTable5parameters. These two values are not direct experimental formation-G observations.",
+      "scope_limit": "Other cells in the same table have measured or measurement-derived references. Rejecting every298.15Kvalue merely because the paper usesHKF would be incorrect.",
+      "table_and_footnotes_visually_checked": true
+    },
+    "oelkers_source": {
+      "doi": "10.1063/1.555976",
+      "url": "https://www.nist.gov/system/files/documents/srd/jpcrd494.pdf",
+      "standard_state": "Hypothetical1molalunitactivity referenced to infinite dilution; apparent formationG equals its298.15K,1barreference value at those reference conditions.",
+      "limitation": "Reference-state equality is not proof that each input was measured. Trace the underlying per-cell source before constructing an experimental reaction label."
+    },
+    "decision": "No four-member experimental reaction reference constructed. Two needed alkylbenzene values are correlation-derived; experimental ancestry of the two branched-alkane entries remains unverified.",
+    "independent_primary_references_admitted": 0
+  },
+  "other_scope_limits": [
+    "Liquid/gas/solid enthalpy measurements and QC-supported recommendations are not automatically aqueous reaction Gibbs references.",
+    "New publication, new measurement and new molecular chemistry are separate eligibility dimensions.",
+    "No complete source PDF is published in this packet; local hashes authenticate owned bytes only, not physical correctness."
+  ],
+  "independent_primary_references_admitted": 0,
+  "MetaG_or_dGbyG_predictions_performed": false,
+  "experimental_prediction_errors_examined": false,
+  "quantum_calculations_performed": false,
+  "production_policy_changed": false,
+  "primary_design_or_gates_changed": false
+}

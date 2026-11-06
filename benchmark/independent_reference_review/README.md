@@ -49,6 +49,22 @@ The source records also retain an unsuccessful hydantoin full-text access attemp
 and flag a new aldolase lead's eQuilibrator-derived constant as a model result.
 No source hold, benchmark gate or reference-admission count changes.
 
+The [neutral thermochemical lineage review](neutral_thermochemical_lineage.json)
+checks a separate aqueous formation-energy route. The source myo-inositol has
+exactly the same full stereochemical InChIKey as both a comparator training
+participant and the historical MetaG input named `L-Inositol`. A newer crystal
+measurement therefore cannot establish unfamiliar-molecule performance. Its
+conversion to an aqueous reference also requires matched dissolution activity,
+crystal identity and uncertainty; no aqueous label is constructed here.
+
+The review also traces two long-chain alkylbenzene formation energies to the
+specific homologous-series correlation cited in Shock and Helgeson's Table 6.
+Those entries cannot supply independent experimental labels for the proposed
+four-hydrocarbon exchange. Other entries in that table have different ancestry;
+the use of an equation of state alone does not disqualify every reference-state
+value. All source decisions were made without running thermodynamic predictors
+or inspecting their errors. The primary reference count remains zero.
+
 The [raw aconitate follow-up](../aconitate_raw_source_review/README.md) retains
 all 19 measured condition runs, 314 timestamps, five blank initial cis fields,
 run-specific calibrants and explicit OCR alternatives. Closed-concentration and
